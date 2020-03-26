@@ -1,0 +1,19 @@
+# Latency, Random 8KB, r:w=7:3, 16 threads, fwdrate=30000 
+hd=default,user=root,shell=ssh,vdbench=/root/yoon/vdbench
+hd=storage4,system=storage4
+hd=storage5,system=storage5
+
+fsd=fsd1,anchor=/nas/testv1/a,depth=2,width=8,file=16,size=10MB,openflag=directio
+fsd=fsd2,anchor=/nas/testv1/b,depth=2,width=8,file=16,size=10MB,openflag=directio
+
+# file creation prior to IO generation
+fwd=fwd_prep1,host=storage4,fsd=fsd1,operation=create,fileio=sequential,threads=16
+fwd=fwd_prep2,host=storage5,fsd=fsd2,operation=create,fileio=sequential,threads=16
+
+# max iops, random 8kb
+fwd=fwd_rnd1,host=storage4,fsd=fsd1,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
+fwd=fwd_rnd2,host=storage5,fsd=fsd2,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
+
+#rd=rd1,fwd=(fwd_prep1,fwd_prep2),fwdrate=1000,format=yes,interval=1
+rd=rd_rnd,fwd=(fwd_rnd1,fwd_rnd2),fwdrate=30000,format=no,warmup=60,interval=1,elapsed=600
+#rd=rd2,fwd=(fwd_sq3,fwd_sq4),fwdrate=max,format=no,warmup=60,interval=1,elapsed=1200

@@ -1,19 +1,30 @@
-# Latency, Random 8KB, r:w=7:3, 16 threads, fwdrate=30000 
-hd=default,user=root,shell=ssh,vdbench=/root/yoon/vdbench
-hd=storage4,system=storage4
-hd=storage5,system=storage5
+# Latency, Random 8KB, r:w=7:3, 16 threads, fwdrate=30000
+### file size set to 1GB
+# HD: linux clients
+hd=default,user=root,shell=ssh,vdbench=/root/vdbench
+hd=cpu01,system=cpu01
+hd=cpu02,system=cpu02
+hd=cpu03,system=cpu03
+hd=cpu04,system=cpu04
+hd=cpu05,system=cpu05
+hd=cpu06,system=cpu06
+hd=cpu07,system=cpu07
+hd=cpu08,system=cpu08
+hd=cpu09,system=cpu09
+hd=cpu10,system=cpu10
+hd=cpu11,system=cpu11
+hd=cpu12,system=cpu12
+hd=gpu01,system=gpu01
+hd=gpu02,system=gpu02
+hd=gpu03,system=gpu03
+hd=gpu04,system=gpu04
+hd=gpu05,system=gpu05
 
-fsd=fsd1,anchor=/nas/testv1/a,depth=2,width=8,file=16,size=10MB,openflag=directio
-fsd=fsd2,anchor=/nas/testv1/b,depth=2,width=8,file=16,size=10MB,openflag=directio
+# FSD: target directory and files, pre-created
+fsd=fsd_$host,anchor=/nas/vdtest/$host,depth=2,width=8,file=16,size=1GB,openflag=directio
 
-# file creation prior to IO generation
-fwd=fwd_prep1,host=storage4,fsd=fsd1,operation=create,fileio=sequential,threads=16
-fwd=fwd_prep2,host=storage5,fsd=fsd2,operation=create,fileio=sequential,threads=16
+# FWD: latency. 50% of max iops, random 8kb
+fwd=fwd_rnd_$host,host=$host,fsd=fsd_$host,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
 
-# max iops, random 8kb
-fwd=fwd_rnd1,host=storage4,fsd=fsd1,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
-fwd=fwd_rnd2,host=storage5,fsd=fsd2,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
-
-#rd=rd1,fwd=(fwd_prep1,fwd_prep2),fwdrate=1000,format=yes,interval=1
-rd=rd_rnd,fwd=(fwd_rnd1,fwd_rnd2),fwdrate=30000,format=no,warmup=60,interval=1,elapsed=600
-#rd=rd2,fwd=(fwd_sq3,fwd_sq4),fwdrate=max,format=no,warmup=60,interval=1,elapsed=1200
+# RD: 50% of max iops, random 8kb
+rd=rd_rnd,fwd=fwd_rnd_*,fwdrate=30000,format=no,warmup=60,interval=1,elapsed=600
