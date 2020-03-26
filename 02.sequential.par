@@ -1,0 +1,51 @@
+# MAX bandwidth, Sequential, 16 threads 
+#
+# HD: linux clients
+hd=default,user=root,shell=ssh,vdbench=/root/vdbench
+hd=cpu01,system=cpu01
+hd=cpu02,system=cpu02
+hd=cpu03,system=cpu03
+hd=cpu04,system=cpu04
+hd=cpu05,system=cpu05
+hd=cpu06,system=cpu06
+hd=cpu07,system=cpu07
+hd=cpu08,system=cpu08
+hd=cpu09,system=cpu09
+hd=cpu10,system=cpu10
+hd=cpu11,system=cpu11
+hd=cpu12,system=cpu12
+hd=gpu01,system=gpu01
+hd=gpu02,system=gpu02
+hd=gpu03,system=gpu03
+hd=gpu04,system=gpu04
+hd=gpu05,system=gpu05
+
+# FSD: target directory and files
+fsd=fsd_$host,host=$host,anchor=/nas/vdtest/$host,depth=2,width=8,file=16,size=10MB,openflag=directio
+
+# FWD: 64k write 
+fwd=fwd_seq1,host=$host,fsd=fsd_$host,operation=write,fileselect=sequential,fileio=sequential,xfersize=64k,threads=16
+#fwd=fwd_seq2,host=storage5,fsd=fsd2,operation=write,fileselect=sequential,fileio=sequential,xfersize=64k,threads=16
+
+# FWD: 64k read 
+fwd=fwd_seq3,host=storage4,fsd=fsd1,operation=read,fileselect=sequential,fileio=sequential,xfersize=64k,threads=16
+#fwd=fwd_seq4,host=storage5,fsd=fsd2,operation=read,fileselect=sequential,fileio=sequential,xfersize=64k,threads=16
+
+# FWD: 256k write 
+fwd=fwd_seq5,host=storage4,fsd=fsd1,operation=write,fileselect=sequential,fileio=sequential,xfersize=256k,threads=16
+#fwd=fwd_seq6,host=storage5,fsd=fsd2,operation=write,fileselect=sequential,fileio=sequential,xfersize=256k,threads=16
+
+# FWD: 256k read 
+fwd=fwd_seq7,host=storage4,fsd=fsd1,operation=red,fileselect=sequential,fileio=sequential,xfersize=256k,threads=16
+#fwd=fwd_seq8,host=storage5,fsd=fsd2,operation=read,fileselect=sequential,fileio=sequential,xfersize=256k,threads=16
+
+# FWD: 1M write 
+fwd=fwd_seq9,host=storage4,fsd=fsd1,operation=write,fileselect=sequential,fileio=sequential,xfersize=1024k,threads=16
+#fwd=fwd_seq10,host=storage5,fsd=fsd2,operation=write,fileselect=sequential,fileio=sequential,xfersize=1024k,threads=16
+
+# FWD: 1M read 
+fwd=fwd_seq11,host=storage4,fsd=fsd1,operation=read,fileselect=sequential,fileio=sequential,xfersize=1024k,threads=16
+#fwd=fwd_seq12,host=storage5,fsd=fsd2,operation=read,fileselect=sequential,fileio=sequential,xfersize=1024k,threads=16
+
+# RD: sequential
+rd=rd_seq,fwd=(fwd_seq1,fwd_seq2),fwdrate=max,format=no,warmup=60,interval=1,elapsed=600

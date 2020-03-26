@@ -1,0 +1,15 @@
+# MAX bandwidth, Sequential 64KB, read, 2 threads 
+hd=default,user=root,shell=ssh,vdbench=/root/yoon/vdbench
+hd=storage4,system=storage4
+hd=storage5,system=storage5
+
+fsd=fsd1,anchor=/nas/testv1/a,depth=2,width=8,file=16,size=10MB,openflag=directio
+fsd=fsd2,anchor=/nas/testv1/b,depth=2,width=8,file=16,size=10MB,openflag=directio
+
+# max bandwidth, sequential 64kb
+fwd=fwd_seq1,host=storage4,fsd=fsd1,operation=read,xfersize=64k,threads=2
+fwd=fwd_seq2,host=storage5,fsd=fsd2,operation=read,xfersize=64k,threads=2
+
+#rd=rd1,fwd=(fwd_prep1,fwd_prep2),fwdrate=1000,format=yes,interval=1
+#rd=rd_rnd,fwd=(fwd_rnd1,fwd_rnd2),fwdrate=max,format=no,warmup=60,interval=1,elapsed=600
+rd=rd_seq,fwd=(fwd_seq1,fwd_seq2),fwdrate=max,format=no,warmup=60,interval=1,elapsed=600
