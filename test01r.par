@@ -1,0 +1,20 @@
+# 1M READ
+## choose correct file size to create
+#
+# HD: linux clients
+hd=default,user=root,shell=ssh,vdbench=/root/vdbench
+hd=cpu01,system=cpu01
+hd=cpu02,system=cpu02
+
+# FSD: target directory and files
+# create 1024 files of 1GB, which is 1TB per host
+fsd=fsd_$host,anchor=/stellus/test8/$host,depth=2,width=8,file=8,size=100M,openflag=directio
+
+# create 1024 files of 10GB, which is 10TB per host
+#fsd=fsd_$host,anchor=/nas/vdtest/$host,depth=2,width=8,file=16,size=10GB,openflag=directio
+
+# FWD: sequential read 1M
+fwd=fwd_seq_1024r_$host,host=$host,fsd=fsd_$host,operation=read,fileselect=sequential,fileio=sequential,xfersize=1024k,threads=32
+
+# RD: file write
+rd=rd_seq_1024r,fwd=fwd_seq_1024r_*,fwdrate=max,format=no,warmup=60,interval=1,elapsed=300

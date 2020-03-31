@@ -1,0 +1,28 @@
+# file creation prior to IO generation
+## multiple exports
+#
+# HD: linux clients
+hd=default,user=root,shell=ssh,vdbench=/root/vdbench
+hd=cpu05,system=cpu05
+hd=cpu06,system=cpu06
+hd=cpu07,system=cpu07
+hd=cpu08,system=cpu08
+
+# FSD: target directory and files
+# create 1024 files of 1GB, which is 1TB per host
+fsd=fsd_a,anchor=/stfs/a,depth=2,width=8,file=16,size=10M,openflag=directio
+fsd=fsd_b,anchor=/stfs/b,depth=2,width=8,file=16,size=10M,openflag=directio
+fsd=fsd_c,anchor=/stfs/c,depth=2,width=8,file=16,size=10M,openflag=directio
+fsd=fsd_d,anchor=/stfs/d,depth=2,width=8,file=16,size=10M,openflag=directio
+
+# file creation prior to IO generation
+fwd=fwd_prep_$host,host=$host,fsd=(fsd_a,fsd_b,fsd_c,fsd_d),operation=create,fileselect=sequential,fileio=sequential,threads=16
+
+# FWD: sequential write 1M
+fwd=fwd_seq_1024w_$host,host=$host,fsd=(fsd_a,fsd_b,fsd_c,fsd_d),operation=write,fileselect=sequential,fileio=sequential,xfersize=1024k,threads=16
+#fwd=fwd_seq_1024w_$host,host=$host,fsd=fsd_$host,operation=write,fileselect=sequential,fileio=sequential,xfersize=1024k,threads=8
+
+# RD: file creation
+#rd=rd_prep,fwd=fwd_prep_*,fwdrate=max,format=yes,interval=1
+#rd=rd_prep_$host,fwd=fwd_prep_$host,fwdrate=max,format=yes,interval=1
+rd=rd_seq_1024w,fwd=fwd_seq_1024w_*,fwdrate=max,format=no,warmup=60,interval=1,elapsed=300
