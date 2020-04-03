@@ -1,4 +1,3 @@
-# This param file is working properly
 # file creation prior to IO generation
 ## multiple exports
 #
@@ -12,6 +11,8 @@ hd=cpu04,system=cpu04
 # FSD: target directory and files
 # create 1024 files of 1GB, which is 1TB per host
 fsd=fsd_a_$host,anchor=/stfs/a/$host,depth=2,width=8,file=16,size=10M,openflag=directio
+fsd=fsd_b_$host,anchor=/stfs/b/$host,depth=2,width=8,file=16,size=10M,openflag=directio
+#fsd=fsd_a,anchor=/stfs/a/,depth=2,width=8,file=16,size=10M,openflag=directio
 #fsd=fsd_a_$host,anchor=/stfs/a/$host,depth=2,width=8,file=16,size=10M,openflag=directio
 #fsd=fsd_b_$host,anchor=/stfs/b/$host,depth=2,width=8,file=16,size=10M,openflag=directio
 #fsd=fsd_c_$host,anchor=/stfs/c/$host,depth=2,width=8,file=16,size=10M,openflag=directio
@@ -22,7 +23,8 @@ fsd=fsd_a_$host,anchor=/stfs/a/$host,depth=2,width=8,file=16,size=10M,openflag=d
 #fsd=fsd_d,anchor=/stfs/d,depth=2,width=8,file=16,size=10M,openflag=directio
 
 # FWD: file creation prior to IO generation
-fwd=fwd_prep_$host,host=$host,fsd=fsd_a_$host,operation=create,fileselect=sequential,fileio=sequential,threads=16
+fwd=fwd_prep_$host,host=$host,fsd=(fsd_a_$host,fsd_b_$host),operation=create,fileselect=sequential,fileio=sequential,threads=16
+#fwd=fwd_prep_$host,host=$host,fsd=fsd_b,operation=create,fileselect=sequential,fileio=sequential,threads=16
 #fwd=fwd_prep_$host,host=$host,fsd=fsd_*,operation=create,fileselect=sequential,fileio=sequential,threads=16
 
 #fwd=fwd_prep_$host,host=$host,fsd=(fsd_a_$host,fsd_b_$host,fsd_c_$host,fsd_d_$host),operation=create,fileselect=sequential,fileio=sequential,threads=16
@@ -35,12 +37,11 @@ fwd=fwd_prep_$host,host=$host,fsd=fsd_a_$host,operation=create,fileselect=sequen
 #fwd=fwd_prep_d_$host,host=$host,fsd=fsd_d,operation=create,fileselect=sequential,fileio=sequential,threads=16
 
 # FWD: sequential write 1M
-fwd=fwd_seq_1024w_$host,host=$host,fsd=fsd_a_$host,operation=write,fileselect=sequential,fileio=sequential,xfersize=1024k,threads=16
-#fwd=fwd_seq_1024w_$host,host=$host,fsd=fsd_prep_$host,operation=write,fileselect=sequential,fileio=sequential,xfersize=1024k,threads=8
+fwd=fwd_seq_1024w_$host,host=$host,fsd=fsd_prep_$host,operation=write,fileselect=sequential,fileio=sequential,xfersize=1024k,threads=8
 #fwd=fwd_seq_1024w_$host,host=$host,fsd=fsd_$host,operation=write,fileselect=sequential,fileio=sequential,xfersize=1024k,threads=8
 
 # RD: file creation
 #rd=rd_prep,fwd=(fwd_prep_a,fwd_prep_b,fwd_prep_c,fwd_prep_d),fwdrate=max,format=yes,interval=1
-#rd=rd_prep,fwd=fwd_prep_*,fwdrate=max,format=yes,interval=1,pause=60
+rd=rd_prep,fwd=fwd_prep_*,fwdrate=max,format=yes,interval=1,pause=60
 #rd=rd_prep_$host,fwd=fwd_prep_$host,fwdrate=max,format=yes,interval=1
-rd=rd_seq_1024w,fwd=fwd_seq_1024w_*,fwdrate=max,format=no,warmup=60,interval=1,elapsed=180
+#rd=rd_seq_1024w,fwd=fwd_seq_1024w_*,fwdrate=max,format=no,warmup=60,interval=1,elapsed=300
