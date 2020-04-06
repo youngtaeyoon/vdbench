@@ -1,0 +1,293 @@
+<title>Vdbench tmp/config.html</title><pre>
+Output from script /root/vdbench/linux/config.sh: 
+
+Fri Apr 3 13:47:49 KST 2020
+>>>>>uname -a
+Linux cpu01 3.10.0-1062.18.1.el7.x86_64 #1 SMP Tue Mar 17 23:49:17 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+Fri Apr 3 13:47:49 KST 2020
+>>>>>ifconfig -a
+datapath: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1376
+        inet6 fe80::9cd0:9aff:fe71:91fb  prefixlen 64  scopeid 0x20<link>
+        ether 9e:d0:9a:71:91:fb  txqueuelen 1000  (Ethernet)
+        RX packets 215  bytes 13680 (13.3 KiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 8  bytes 656 (656.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+docker0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        inet 172.17.0.1  netmask 255.255.0.0  broadcast 172.17.255.255
+        ether 02:42:55:bd:0e:42  txqueuelen 0  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+dummy0: flags=130<BROADCAST,NOARP>  mtu 1500
+        ether c2:b5:f8:ca:91:4d  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+eno1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.10.21  netmask 255.255.255.0  broadcast 192.168.10.255
+        inet6 fe80::a94:efff:fe3c:62a5  prefixlen 64  scopeid 0x20<link>
+        ether 08:94:ef:3c:62:a5  txqueuelen 1000  (Ethernet)
+        RX packets 5276387  bytes 2021905443 (1.8 GiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 4533294  bytes 1874759662 (1.7 GiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+        device interrupt 16  
+
+eno2: flags=4098<BROADCAST,MULTICAST>  mtu 1500
+        ether 08:94:ef:3c:62:a6  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+        device interrupt 17  
+
+eno3: flags=4098<BROADCAST,MULTICAST>  mtu 1500
+        ether 08:94:ef:3c:62:a7  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+        device interrupt 16  
+
+eno4: flags=4098<BROADCAST,MULTICAST>  mtu 1500
+        ether 08:94:ef:3c:62:a8  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+        device interrupt 17  
+
+enp0s20u1u5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 169.254.95.120  netmask 255.255.255.0  broadcast 169.254.95.255
+        inet6 fe80::894:efff:fe3c:62ac  prefixlen 64  scopeid 0x20<link>
+        ether 0a:94:ef:3c:62:ac  txqueuelen 1000  (Ethernet)
+        RX packets 89864  bytes 7314695 (6.9 MiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 90231  bytes 8575442 (8.1 MiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+enp8s0f0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 9000
+        inet 172.168.11.21  netmask 255.255.255.0  broadcast 172.168.11.255
+        inet6 fe80::faf2:1eff:fe51:8294  prefixlen 64  scopeid 0x20<link>
+        ether f8:f2:1e:51:82:94  txqueuelen 1000  (Ethernet)
+        RX packets 319380852  bytes 2612586490648 (2.3 TiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 518095829  bytes 4189943797678 (3.8 TiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+enp8s0f1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 9000
+        inet 172.168.12.21  netmask 255.255.255.0  broadcast 172.168.12.255
+        inet6 fe80::faf2:1eff:fe51:8295  prefixlen 64  scopeid 0x20<link>
+        ether f8:f2:1e:51:82:95  txqueuelen 1000  (Ethernet)
+        RX packets 257214550  bytes 2036495416022 (1.8 TiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 522525056  bytes 4229755993156 (3.8 TiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+enp8s0f2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 9000
+        inet 172.168.13.21  netmask 255.255.255.0  broadcast 172.168.13.255
+        inet6 fe80::faf2:1eff:fe51:8296  prefixlen 64  scopeid 0x20<link>
+        ether f8:f2:1e:51:82:96  txqueuelen 1000  (Ethernet)
+        RX packets 256675111  bytes 2031887437698 (1.8 TiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 518212946  bytes 4220688018368 (3.8 TiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+enp8s0f3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 9000
+        inet 172.168.14.21  netmask 255.255.255.0  broadcast 172.168.14.255
+        inet6 fe80::faf2:1eff:fe51:8297  prefixlen 64  scopeid 0x20<link>
+        ether f8:f2:1e:51:82:97  txqueuelen 1000  (Ethernet)
+        RX packets 316876758  bytes 2581750705830 (2.3 TiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 544429434  bytes 4438238488560 (4.0 TiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 16452620  bytes 2612453485 (2.4 GiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 16452620  bytes 2612453485 (2.4 GiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+vethwe-bridge: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1376
+        inet6 fe80::a83f:4dff:fef8:fd5c  prefixlen 64  scopeid 0x20<link>
+        ether aa:3f:4d:f8:fd:5c  txqueuelen 0  (Ethernet)
+        RX packets 214  bytes 16648 (16.2 KiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 17  bytes 1354 (1.3 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+vethwe-datapath: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1376
+        inet6 fe80::dc16:6cff:fe17:8fc3  prefixlen 64  scopeid 0x20<link>
+        ether de:16:6c:17:8f:c3  txqueuelen 0  (Ethernet)
+        RX packets 89864  bytes 7314695 (6.9 MiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 90231  bytes 8575442 (8.1 MiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+vxlan-6784: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 65535
+        inet6 fe80::742d:bbff:fea1:8f1c  prefixlen 64  scopeid 0x20<link>
+        ether 76:2d:bb:a1:8f:1c  txqueuelen 1000  (Ethernet)
+        RX packets 89139  bytes 122394080 (116.7 MiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 88943  bytes 122385568 (116.7 MiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+weave: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1376
+        inet 10.45.128.0  netmask 255.240.0.0  broadcast 10.47.255.255
+        inet6 fe80::4860:9ff:fec2:482f  prefixlen 64  scopeid 0x20<link>
+        ether 4a:60:09:c2:48:2f  txqueuelen 1000  (Ethernet)
+        RX packets 213  bytes 13576 (13.2 KiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 9  bytes 698 (698.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+Fri Apr 3 13:47:49 KST 2020
+>>>>>id
+uid=0(root) gid=0(root) groups=0(root)
+Fri Apr 3 13:47:49 KST 2020
+>>>>>mount
+sysfs on /sys type sysfs (rw,nosuid,nodev,noexec,relatime)
+proc on /proc type proc (rw,nosuid,nodev,noexec,relatime)
+devtmpfs on /dev type devtmpfs (rw,nosuid,size=65628468k,nr_inodes=16407117,mode=755)
+securityfs on /sys/kernel/security type securityfs (rw,nosuid,nodev,noexec,relatime)
+tmpfs on /dev/shm type tmpfs (rw,nosuid,nodev)
+devpts on /dev/pts type devpts (rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000)
+tmpfs on /run type tmpfs (rw,nosuid,nodev,mode=755)
+tmpfs on /sys/fs/cgroup type tmpfs (ro,nosuid,nodev,noexec,mode=755)
+cgroup on /sys/fs/cgroup/systemd type cgroup (rw,nosuid,nodev,noexec,relatime,xattr,release_agent=/usr/lib/systemd/systemd-cgroups-agent,name=systemd)
+pstore on /sys/fs/pstore type pstore (rw,nosuid,nodev,noexec,relatime)
+cgroup on /sys/fs/cgroup/cpuset type cgroup (rw,nosuid,nodev,noexec,relatime,cpuset)
+cgroup on /sys/fs/cgroup/cpu,cpuacct type cgroup (rw,nosuid,nodev,noexec,relatime,cpuacct,cpu)
+cgroup on /sys/fs/cgroup/net_cls,net_prio type cgroup (rw,nosuid,nodev,noexec,relatime,net_prio,net_cls)
+cgroup on /sys/fs/cgroup/freezer type cgroup (rw,nosuid,nodev,noexec,relatime,freezer)
+cgroup on /sys/fs/cgroup/devices type cgroup (rw,nosuid,nodev,noexec,relatime,devices)
+cgroup on /sys/fs/cgroup/hugetlb type cgroup (rw,nosuid,nodev,noexec,relatime,hugetlb)
+cgroup on /sys/fs/cgroup/memory type cgroup (rw,nosuid,nodev,noexec,relatime,memory)
+cgroup on /sys/fs/cgroup/pids type cgroup (rw,nosuid,nodev,noexec,relatime,pids)
+cgroup on /sys/fs/cgroup/perf_event type cgroup (rw,nosuid,nodev,noexec,relatime,perf_event)
+cgroup on /sys/fs/cgroup/blkio type cgroup (rw,nosuid,nodev,noexec,relatime,blkio)
+configfs on /sys/kernel/config type configfs (rw,relatime)
+/dev/mapper/centos-root on / type xfs (rw,relatime,attr2,inode64,noquota)
+systemd-1 on /proc/sys/fs/binfmt_misc type autofs (rw,relatime,fd=30,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=42485)
+mqueue on /dev/mqueue type mqueue (rw,relatime)
+debugfs on /sys/kernel/debug type debugfs (rw,relatime)
+hugetlbfs on /dev/hugepages type hugetlbfs (rw,relatime)
+/dev/sdb on /data type xfs (rw,relatime,attr2,inode64,noquota)
+/dev/sda1 on /boot type xfs (rw,relatime,attr2,inode64,noquota)
+sunrpc on /var/lib/nfs/rpc_pipefs type rpc_pipefs (rw,relatime)
+tmpfs on /run/user/0 type tmpfs (rw,nosuid,nodev,relatime,size=13128076k,mode=700)
+172.168.11.71:/ds1 on /ds1 type nfs (rw,relatime,vers=3,rsize=1048576,wsize=1048576,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=172.168.11.71,mountvers=3,mountport=56041,mountproto=udp,local_lock=none,addr=172.168.11.71)
+172.168.12.71:/ds2 on /ds2 type nfs (rw,relatime,vers=3,rsize=1048576,wsize=1048576,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=172.168.12.71,mountvers=3,mountport=56041,mountproto=udp,local_lock=none,addr=172.168.12.71)
+172.168.13.71:/ds3 on /ds3 type nfs (rw,relatime,vers=3,rsize=1048576,wsize=1048576,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=172.168.13.71,mountvers=3,mountport=56041,mountproto=udp,local_lock=none,addr=172.168.13.71)
+172.168.14.71:/ds4 on /ds4 type nfs (rw,relatime,vers=3,rsize=1048576,wsize=1048576,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=172.168.14.71,mountvers=3,mountport=56041,mountproto=udp,local_lock=none,addr=172.168.14.71)
+overlay on /var/lib/docker/overlay2/2a2b17261a0fff1157e7674c9563223b1ca1b72bf499e55b915634fe3ca07389/merged type overlay (rw,relatime,lowerdir=/var/lib/docker/overlay2/l/2UXWN7OXZ7J6Q5QEULFH63K3IS:/var/lib/docker/overlay2/l/MF7BXUYJQ3IL5DUW3GJRBRQKGR,upperdir=/var/lib/docker/overlay2/2a2b17261a0fff1157e7674c9563223b1ca1b72bf499e55b915634fe3ca07389/diff,workdir=/var/lib/docker/overlay2/2a2b17261a0fff1157e7674c9563223b1ca1b72bf499e55b915634fe3ca07389/work)
+overlay on /var/lib/docker/overlay2/2c6be38563b980657229ae846eb4527283fd9deefa3322e444afe19b5c911f10/merged type overlay (rw,relatime,lowerdir=/var/lib/docker/overlay2/l/QSBH5OIPPY3MLV2HP4DT3GWGR5:/var/lib/docker/overlay2/l/MF7BXUYJQ3IL5DUW3GJRBRQKGR,upperdir=/var/lib/docker/overlay2/2c6be38563b980657229ae846eb4527283fd9deefa3322e444afe19b5c911f10/diff,workdir=/var/lib/docker/overlay2/2c6be38563b980657229ae846eb4527283fd9deefa3322e444afe19b5c911f10/work)
+proc on /run/docker/netns/default type proc (rw,nosuid,nodev,noexec,relatime)
+shm on /var/lib/docker/containers/d3812ac4cf2a7374d6b921df3fb019cf4a9ca05d6f7def91c1363efae6c38d93/mounts/shm type tmpfs (rw,nosuid,nodev,noexec,relatime,size=65536k)
+shm on /var/lib/docker/containers/b72be6676b4afca64e973ecdf34bd8153fdf1dccadb82212065a90a1fbd5539d/mounts/shm type tmpfs (rw,nosuid,nodev,noexec,relatime,size=65536k)
+overlay on /var/lib/docker/overlay2/5bf8a13bc31b7cdaac6c9ab3755791ff0100eff74413b27d60f62e193dd28590/merged type overlay (rw,relatime,lowerdir=/var/lib/docker/overlay2/l/LYEOROJU3445CJYKD32N6AI2RC:/var/lib/docker/overlay2/l/SSA2ZRFYX2UPRVV2YX6YJBEXKP:/var/lib/docker/overlay2/l/EGRZ3VUYF4H2SYKKGGTGPLUKDH,upperdir=/var/lib/docker/overlay2/5bf8a13bc31b7cdaac6c9ab3755791ff0100eff74413b27d60f62e193dd28590/diff,workdir=/var/lib/docker/overlay2/5bf8a13bc31b7cdaac6c9ab3755791ff0100eff74413b27d60f62e193dd28590/work)
+overlay on /var/lib/docker/overlay2/c46ce80df3b566d02c4dd2833bc8a6df8d604cc2f0b0a4c637a41eca7e3863b2/merged type overlay (rw,relatime,lowerdir=/var/lib/docker/overlay2/l/ROLTHFF7JKLKQHDFUAGQJK47SH:/var/lib/docker/overlay2/l/ZTTZ2XTP3DOOCDCLCWHPNR6K75:/var/lib/docker/overlay2/l/EGRZ3VUYF4H2SYKKGGTGPLUKDH,upperdir=/var/lib/docker/overlay2/c46ce80df3b566d02c4dd2833bc8a6df8d604cc2f0b0a4c637a41eca7e3863b2/diff,workdir=/var/lib/docker/overlay2/c46ce80df3b566d02c4dd2833bc8a6df8d604cc2f0b0a4c637a41eca7e3863b2/work)
+overlay on /var/lib/docker/overlay2/67eb087b3d62f757e42f2a77f3d8fbeeac2ca5dbd1fcfe96dbd72dfaa1ae337c/merged type overlay (rw,relatime,lowerdir=/var/lib/docker/overlay2/l/SFN77JI6F7TV3TIIRAOQ2S6NSB:/var/lib/docker/overlay2/l/MF7BXUYJQ3IL5DUW3GJRBRQKGR,upperdir=/var/lib/docker/overlay2/67eb087b3d62f757e42f2a77f3d8fbeeac2ca5dbd1fcfe96dbd72dfaa1ae337c/diff,workdir=/var/lib/docker/overlay2/67eb087b3d62f757e42f2a77f3d8fbeeac2ca5dbd1fcfe96dbd72dfaa1ae337c/work)
+shm on /var/lib/docker/containers/78c61374598693d2c0e24f1803c1743ba2f86759410fb79befeddf2c6e2b91cc/mounts/shm type tmpfs (rw,nosuid,nodev,noexec,relatime,size=65536k)
+overlay on /var/lib/docker/overlay2/d008ae13988bdf7d262fb80b1aaed75fb89d5b9cf44277d16b4664044d998393/merged type overlay (rw,relatime,lowerdir=/var/lib/docker/overlay2/l/IP2JW3JXZKX5SYGX4CWZF7DCX7:/var/lib/docker/overlay2/l/MF7BXUYJQ3IL5DUW3GJRBRQKGR,upperdir=/var/lib/docker/overlay2/d008ae13988bdf7d262fb80b1aaed75fb89d5b9cf44277d16b4664044d998393/diff,workdir=/var/lib/docker/overlay2/d008ae13988bdf7d262fb80b1aaed75fb89d5b9cf44277d16b4664044d998393/work)
+shm on /var/lib/docker/containers/8895ca49bea73621b9077cd06379daf043088cbc68e3a833ab8909c6174e22dc/mounts/shm type tmpfs (rw,nosuid,nodev,noexec,relatime,size=65536k)
+overlay on /var/lib/docker/overlay2/d19c5b33518b3974403fc8c215636d0d1a627a8ab1660440dce7e16822d403d5/merged type overlay (rw,relatime,lowerdir=/var/lib/docker/overlay2/l/G6KR67OQ363BVQ4BAE6YBCIPY2:/var/lib/docker/overlay2/l/3PYG5ZUJWLUXE4ZJZBSIEM5CKW:/var/lib/docker/overlay2/l/EGRZ3VUYF4H2SYKKGGTGPLUKDH,upperdir=/var/lib/docker/overlay2/d19c5b33518b3974403fc8c215636d0d1a627a8ab1660440dce7e16822d403d5/diff,workdir=/var/lib/docker/overlay2/d19c5b33518b3974403fc8c215636d0d1a627a8ab1660440dce7e16822d403d5/work)
+overlay on /var/lib/docker/overlay2/89fd39322b568d5a3c9e2dd336f82973c2bd3ddcc87ba04c9033a69956035505/merged type overlay (rw,relatime,lowerdir=/var/lib/docker/overlay2/l/F5NTWQ5JM67OJVP7Q67ON62BBE:/var/lib/docker/overlay2/l/GNPE57Q3SECAR2ZSEZNG7O5AQU:/var/lib/docker/overlay2/l/I2P4PEBKXYMJB4DP3TIFC7QF72:/var/lib/docker/overlay2/l/W2B2PZHWKSZ7N626PVRCH3CWKS,upperdir=/var/lib/docker/overlay2/89fd39322b568d5a3c9e2dd336f82973c2bd3ddcc87ba04c9033a69956035505/diff,workdir=/var/lib/docker/overlay2/89fd39322b568d5a3c9e2dd336f82973c2bd3ddcc87ba04c9033a69956035505/work)
+tmpfs on /var/lib/kubelet/pods/46bfde88-b468-4a99-ba58-1fe4b8f014c3/volumes/kubernetes.io~secret/kube-proxy-token-trjxd type tmpfs (rw,relatime)
+tmpfs on /var/lib/kubelet/pods/ce13da94-c7b0-4b41-aa3e-e4d740aa1ec9/volumes/kubernetes.io~secret/weave-net-token-zkt75 type tmpfs (rw,relatime)
+overlay on /var/lib/docker/overlay2/be8ba169e044274d9f22b95801b0571bd910b472b6fc92e5a9378b8e79f0ea09/merged type overlay (rw,relatime,lowerdir=/var/lib/docker/overlay2/l/C2T7IYEMCXWAQPGZKHAAPHVML4:/var/lib/docker/overlay2/l/MF7BXUYJQ3IL5DUW3GJRBRQKGR,upperdir=/var/lib/docker/overlay2/be8ba169e044274d9f22b95801b0571bd910b472b6fc92e5a9378b8e79f0ea09/diff,workdir=/var/lib/docker/overlay2/be8ba169e044274d9f22b95801b0571bd910b472b6fc92e5a9378b8e79f0ea09/work)
+overlay on /var/lib/docker/overlay2/f1e987928c35e4da613536484ba28fdfe7a8062ce13eed5bd0127ddcf61621fe/merged type overlay (rw,relatime,lowerdir=/var/lib/docker/overlay2/l/24ATCADWEI2DEOSOIJHVTLCDPW:/var/lib/docker/overlay2/l/MF7BXUYJQ3IL5DUW3GJRBRQKGR,upperdir=/var/lib/docker/overlay2/f1e987928c35e4da613536484ba28fdfe7a8062ce13eed5bd0127ddcf61621fe/diff,workdir=/var/lib/docker/overlay2/f1e987928c35e4da613536484ba28fdfe7a8062ce13eed5bd0127ddcf61621fe/work)
+shm on /var/lib/docker/containers/0aed989f28727b206062c08716ec9e30c632fc0e521b9824dbdf1851fd6b8b26/mounts/shm type tmpfs (rw,nosuid,nodev,noexec,relatime,size=65536k)
+shm on /var/lib/docker/containers/5a7f478b170462fb610a8b60f454488d1770d48b0ab970583e92b40ee71dc23c/mounts/shm type tmpfs (rw,nosuid,nodev,noexec,relatime,size=65536k)
+overlay on /var/lib/docker/overlay2/b7907c836cfc32d9046da079feca5bec3fa6f03174b440454d21dc15d22554df/merged type overlay (rw,relatime,lowerdir=/var/lib/docker/overlay2/l/W223TQU6WDLYKQ5CF4VFGES4RC:/var/lib/docker/overlay2/l/RPT7UXXP4COYZ3KDM56KU4Q4UZ:/var/lib/docker/overlay2/l/OLP2D422DKZI35KCINMSBQY2AV:/var/lib/docker/overlay2/l/WGB2ID7JZXY55UCCKX6EOLS3Y3:/var/lib/docker/overlay2/l/5OX7GZLL4ODYC5TZMUJVPSBGIW:/var/lib/docker/overlay2/l/I2Q5RBFVBO7WLE57UGC3IP3VXN:/var/lib/docker/overlay2/l/7W7L5VPGKERG2YQF66RCUZWAVK:/var/lib/docker/overlay2/l/EGRZ3VUYF4H2SYKKGGTGPLUKDH,upperdir=/var/lib/docker/overlay2/b7907c836cfc32d9046da079feca5bec3fa6f03174b440454d21dc15d22554df/diff,workdir=/var/lib/docker/overlay2/b7907c836cfc32d9046da079feca5bec3fa6f03174b440454d21dc15d22554df/work)
+overlay on /var/lib/docker/overlay2/c227dd114b88b0b1dbb0201a226ac2f7ad77e3665e2ee57c363573053804173c/merged type overlay (rw,relatime,lowerdir=/var/lib/docker/overlay2/l/6GVESW7AUP6VKBZ75QEKGLR7RU:/var/lib/docker/overlay2/l/HKCSPNSJOXMXF6YK7EMGZ7DFB7:/var/lib/docker/overlay2/l/DMK4IMROY75DTJEUUOZDHGBYNE:/var/lib/docker/overlay2/l/UX6XF5FICKIC6VXXILCAZ7C6PW:/var/lib/docker/overlay2/l/MGRLYDTWFM7FCAX5FCYNK5CIGA:/var/lib/docker/overlay2/l/A52LMTCV6VMNBIX7CCEDGZR6ZF,upperdir=/var/lib/docker/overlay2/c227dd114b88b0b1dbb0201a226ac2f7ad77e3665e2ee57c363573053804173c/diff,workdir=/var/lib/docker/overlay2/c227dd114b88b0b1dbb0201a226ac2f7ad77e3665e2ee57c363573053804173c/work)
+overlay on /var/lib/docker/overlay2/980829d0e5bc30176eb62a0abb7c3da38585090fc0a7154a69b085a149c1b0f0/merged type overlay (rw,relatime,lowerdir=/var/lib/docker/overlay2/l/IGWPJZOCWKGWULZQ6O7V4ODRSJ:/var/lib/docker/overlay2/l/IWI5R2V6NI2A75Q7CO5W3QGFX6:/var/lib/docker/overlay2/l/LBN2NOGRK3BERZNHGVDSZYE5VY:/var/lib/docker/overlay2/l/IIC4M5SD7DMOQ5XKFNY5CUGKJH:/var/lib/docker/overlay2/l/ZIRAIWZHINQUUY2VEKQM77F37L:/var/lib/docker/overlay2/l/JH3SDWCKKMCWSPERMDAAM377B3:/var/lib/docker/overlay2/l/A52LMTCV6VMNBIX7CCEDGZR6ZF,upperdir=/var/lib/docker/overlay2/980829d0e5bc30176eb62a0abb7c3da38585090fc0a7154a69b085a149c1b0f0/diff,workdir=/var/lib/docker/overlay2/980829d0e5bc30176eb62a0abb7c3da38585090fc0a7154a69b085a149c1b0f0/work)
+172.168.11.172:/adas1 on /adas1 type nfs (rw,relatime,vers=3,rsize=1048576,wsize=1048576,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=172.168.11.172,mountvers=3,mountport=53338,mountproto=udp,local_lock=none,addr=172.168.11.172)
+172.168.12.172:/adas2 on /adas2 type nfs (rw,relatime,vers=3,rsize=1048576,wsize=1048576,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=172.168.12.172,mountvers=3,mountport=53338,mountproto=udp,local_lock=none,addr=172.168.12.172)
+172.168.13.172:/adas3 on /adas3 type nfs (rw,relatime,vers=3,rsize=1048576,wsize=1048576,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=172.168.13.172,mountvers=3,mountport=53338,mountproto=udp,local_lock=none,addr=172.168.13.172)
+172.168.14.172:/adas4 on /adas4 type nfs (rw,relatime,vers=3,rsize=1048576,wsize=1048576,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=172.168.14.172,mountvers=3,mountport=53338,mountproto=udp,local_lock=none,addr=172.168.14.172)
+Fri Apr 3 13:47:49 KST 2020
+>>>>>memory
+MemTotal:       131280760 kB
+MemFree:        121182544 kB
+MemAvailable:   127368204 kB
+Buffers:            2104 kB
+Cached:          6289760 kB
+SwapCached:            0 kB
+Active:          4057964 kB
+Inactive:        3523440 kB
+Active(anon):    1291580 kB
+Inactive(anon):    29316 kB
+Active(file):    2766384 kB
+Inactive(file):  3494124 kB
+Unevictable:           0 kB
+Mlocked:               0 kB
+SwapTotal:             0 kB
+SwapFree:              0 kB
+Dirty:               268 kB
+Writeback:             0 kB
+AnonPages:       1283632 kB
+Mapped:           294680 kB
+Shmem:             31356 kB
+Slab:             864932 kB
+SReclaimable:     551304 kB
+SUnreclaim:       313628 kB
+KernelStack:       23824 kB
+PageTables:        24608 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:    65640380 kB
+Committed_AS:    6583196 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:      510472 kB
+VmallocChunk:   34291847164 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:    956416 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:      308308 kB
+DirectMap2M:     5400576 kB
+DirectMap1G:    130023424 kB
+              total        used        free      shared  buff/cache   available
+Mem:      131280760     2941420   121182544       31356     7156796   127368204
+Low:      131280760    10098216   121182544
+High:             0           0           0
+Swap:             0           0           0
+Fri Apr 3 13:47:49 KST 2020
+>>>>>ps -ef | grep -i vdb
+root      2868 23849  0 13:47 pts/2    00:00:00 /bin/bash ./vdbench -f /root/git/vdbench/param/01.read_tm.par -o /root/git/vdbench/log/tmp
+root      2870  2868 99 13:47 pts/2    00:00:02 java -client -Xmx512m -Xms64m -cp ./:./classes:./vdbench.jar Vdb.Vdbmain -f /root/git/vdbench/param/01.read_tm.par -o /root/git/vdbench/log/tmp
+root      2933  2870  0 13:47 pts/2    00:00:00 /bin/bash /root/vdbench/vdbench SlaveJvm -m 192.168.10.21 -n cpu01-10-200403-13.47.47.847 -l cpu01-0 -p 5570
+root      2937  2933 50 13:47 pts/2    00:00:00 java -client -Xmx1024m -Xms128m -cp /root/vdbench/:/root/vdbench/classes:/root/vdbench/vdbench.jar Vdb.SlaveJvm SlaveJvm -m 192.168.10.21 -n cpu01-10-200403-13.47.47.847 -l cpu01-0 -p 5570
+root      2968  2870  1 13:47 pts/2    00:00:00 ssh cpu02 -l root /root/vdbench/vdbench SlaveJvm -m 192.168.10.21 -n cpu02-11-200403-13.47.47.847 -l cpu02-0 -p 5570
+root      2976  2870  1 13:47 pts/2    00:00:00 ssh cpu03 -l root /root/vdbench/vdbench SlaveJvm -m 192.168.10.21 -n cpu03-12-200403-13.47.47.847 -l cpu03-0 -p 5570
+root      2999  2870  0 13:47 pts/2    00:00:00 ssh cpu04 -l root /root/vdbench/vdbench SlaveJvm -m 192.168.10.21 -n cpu04-13-200403-13.47.47.847 -l cpu04-0 -p 5570
+root      3004  2870  1 13:47 pts/2    00:00:00 ssh cpu05 -l root /root/vdbench/vdbench SlaveJvm -m 192.168.10.21 -n cpu05-14-200403-13.47.47.847 -l cpu05-0 -p 5570
+root      3009  2870  1 13:47 pts/2    00:00:00 ssh cpu06 -l root /root/vdbench/vdbench SlaveJvm -m 192.168.10.21 -n cpu06-15-200403-13.47.47.847 -l cpu06-0 -p 5570
+root      3014  2870  1 13:47 pts/2    00:00:00 ssh cpu07 -l root /root/vdbench/vdbench SlaveJvm -m 192.168.10.21 -n cpu07-16-200403-13.47.47.847 -l cpu07-0 -p 5570
+root      3019  2870  1 13:47 pts/2    00:00:00 ssh cpu08 -l root /root/vdbench/vdbench SlaveJvm -m 192.168.10.21 -n cpu08-17-200403-13.47.47.847 -l cpu08-0 -p 5570
+root      3025  2870  1 13:47 pts/2    00:00:00 ssh cpu09 -l root /root/vdbench/vdbench SlaveJvm -m 192.168.10.21 -n cpu09-18-200403-13.47.47.847 -l cpu09-0 -p 5570
+root      3030  2870  1 13:47 pts/2    00:00:00 ssh cpu10 -l root /root/vdbench/vdbench SlaveJvm -m 192.168.10.21 -n cpu10-19-200403-13.47.47.847 -l cpu10-0 -p 5570
+root      3035  2870  1 13:47 pts/2    00:00:00 ssh cpu11 -l root /root/vdbench/vdbench SlaveJvm -m 192.168.10.21 -n cpu11-20-200403-13.47.47.847 -l cpu11-0 -p 5570
+root      3040  2870  1 13:47 pts/2    00:00:00 ssh cpu12 -l root /root/vdbench/vdbench SlaveJvm -m 192.168.10.21 -n cpu12-21-200403-13.47.47.847 -l cpu12-0 -p 5570
+root      3045  2870  1 13:47 pts/2    00:00:00 ssh gpu01 -l root /root/vdbench/vdbench SlaveJvm -m 192.168.10.21 -n gpu01-22-200403-13.47.47.847 -l gpu01-0 -p 5570
+root      3050  2870  1 13:47 pts/2    00:00:00 ssh gpu02 -l root /root/vdbench/vdbench SlaveJvm -m 192.168.10.21 -n gpu02-23-200403-13.47.47.847 -l gpu02-0 -p 5570
+root      3055  2870  1 13:47 pts/2    00:00:00 ssh gpu05 -l root /root/vdbench/vdbench SlaveJvm -m 192.168.10.21 -n gpu05-24-200403-13.47.47.847 -l gpu05-0 -p 5570
+root      3093  2870  0 13:47 pts/2    00:00:00 /bin/bash /root/vdbench/linux/config.sh -o /root/git/vdbench/log/tmp cpu07 cpu06 cpu05 cpu04 cpu03 cpu02 gpu01 cpu01 gpu02 gpu05 cpu09 cpu08 cpu10 cpu12 cpu11
+root      3109  3093  0 13:47 pts/2    00:00:00 grep -i vdb
+

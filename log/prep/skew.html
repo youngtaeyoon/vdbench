@@ -1,0 +1,279 @@
+<title>Vdbench prep/skew.html</title><pre>
+Workload skew report
+
+Skew information will only be generated if:
+ - there is more than one Workload Definition (WD/FWD)
+ - there is more than one Storage Definition (SD/FSD)
+ - there is more than one Host
+ - there is more than one Slave
+(Though these rules may be ignored from time to time).
+
+
+Link to Run Definitions:         <A HREF="#_1020923989">format_for_rd_prep For loops: None</A>
+                                 <A HREF="#_2052915500">rd_prep For loops: None</A>
+
+
+<a name="_1020923989"></a><i><b>19:11:57.002 Starting RD=format_for_rd_prep</b></i>
+
+21:36:05.079 
+21:36:05.079               .ReqstdOps...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...mkdir.... ...rmdir.... ...create... ....open.... ...close.... ...delete...
+21:36:05.079 Slave:          rate   resp   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+21:36:05.079 cpu01-0       3880.5  6.548   0.0    0.0  0.000 3880.5  6.548  0.00 485.0 485.06  131072   0.0  8.688   0.0 245.74   0.5  53676   0.5 17.748   0.5  0.021   0.5 209.56
+21:36:05.079 
+21:36:05.079               .ReqstdOps...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...mkdir.... ...rmdir.... ...create... ....open.... ...close.... ...delete...
+21:36:05.079 Slave:          rate   resp   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+21:36:05.079 cpu02-0       3880.5  6.530   0.0    0.0  0.000 3880.5  6.530  0.00 485.0 485.06  131072   0.0  8.932   0.0 156.51   0.5  53523   0.5 17.816   0.5  0.023   0.5 179.03
+21:36:05.079 
+21:36:05.079               .ReqstdOps...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...mkdir.... ...rmdir.... ...create... ....open.... ...close.... ...delete...
+21:36:05.079 Slave:          rate   resp   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+21:36:05.079 cpu03-0       3880.5  6.530   0.0    0.0  0.000 3880.5  6.530  0.00 485.0 485.06  131072   0.0  8.148   0.0 139.61   0.5  53528   0.5 17.849   0.5  0.022   0.5 177.37
+21:36:05.079 
+21:36:05.079               .ReqstdOps...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...mkdir.... ...rmdir.... ...create... ....open.... ...close.... ...delete...
+21:36:05.079 Slave:          rate   resp   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+21:36:05.080 cpu04-0       3880.5  6.539   0.0    0.0  0.000 3880.5  6.539  0.00 485.0 485.06  131072   0.0  8.797   0.0 157.31   0.5  53597   0.5 17.809   0.5  0.019   0.5 181.23
+21:36:05.080 
+21:36:05.080               .ReqstdOps...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...mkdir.... ...rmdir.... ...create... ....open.... ...close.... ...delete...
+21:36:05.080 Slave:          rate   resp   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+21:36:05.080 cpu05-0        15521  8.058   0.0    0.0  0.000  15521  8.058  0.00  1940 1940.2  131072   0.1 11.477   0.1 412.94   1.9  66046   1.9 22.108   1.9  0.013   1.9 254.32
+21:36:05.080 
+21:36:05.080               .ReqstdOps...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...mkdir.... ...rmdir.... ...create... ....open.... ...close.... ...delete...
+21:36:05.080 Slave:          rate   resp   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+21:36:05.080 cpu06-0       3880.5  4.123   0.0    0.0  0.000 3880.5  4.123  0.00 485.0 485.06  131072   0.0 32.956   0.0 162.34   0.5  33795   0.5 10.459   0.5  0.017   0.5 104.40
+21:36:05.080 
+21:36:05.080               .ReqstdOps...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...mkdir.... ...rmdir.... ...create... ....open.... ...close.... ...delete...
+21:36:05.080 Slave:          rate   resp   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+21:36:05.080 cpu10-0       3880.5  5.077   0.0    0.0  0.000 3880.5  5.077  0.00 485.0 485.06  131072   0.0  7.887   0.0 77.648   0.5  41619   0.5 13.587   0.5  0.016   0.5 80.951
+21:36:05.080 
+21:36:05.080               .ReqstdOps...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...mkdir.... ...rmdir.... ...create... ....open.... ...close.... ...delete...
+21:36:05.080 Slave:          rate   resp   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+21:36:05.080 cpu11-0       3880.5  5.077   0.0    0.0  0.000 3880.5  5.077  0.00 485.0 485.06  131072   0.0  6.855   0.0 75.785   0.5  41611   0.5 13.504   0.5  0.014   0.5 81.243
+21:36:05.080 
+21:36:05.080               .ReqstdOps...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...mkdir.... ...rmdir.... ...create... ....open.... ...close.... ...delete...
+21:36:05.080 Slave:          rate   resp   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+21:36:05.080 cpu12-0       1940.2  3.165   0.0    0.0  0.000 1940.2  3.165  0.00 242.5 242.53  131072   0.0  4.026   0.0 31.389   0.2  25946   0.2  7.687   0.2  0.020   0.2 34.862
+21:36:05.080 
+21:36:05.080               .ReqstdOps...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...mkdir.... ...rmdir.... ...create... ....open.... ...close.... ...delete...
+21:36:05.080 Slave:          rate   resp   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+21:36:05.080 gpu01-0       1940.2  3.231   0.0    0.0  0.000 1940.2  3.231  0.00 242.5 242.53  131071   0.0  4.206   0.0 35.028   0.2  26492   0.2  7.581   0.2  0.033   0.2 36.235
+21:36:05.080 
+21:36:05.080               .ReqstdOps...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...mkdir.... ...rmdir.... ...create... ....open.... ...close.... ...delete...
+21:36:05.080 Slave:          rate   resp   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+21:36:05.080 gpu02-0       1940.2  5.104   0.0    0.0  0.000 1940.2  5.104  0.00 242.5 242.53  131071   0.0 288.38   0.0  0.000   0.2  41847   0.2 12.877   0.2  0.023   0.0  0.000
+21:36:05.080 
+21:36:05.080               .ReqstdOps...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...mkdir.... ...rmdir.... ...create... ....open.... ...close.... ...delete...
+21:36:05.080 Slave:          rate   resp   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+21:36:05.080 gpu05-0       1940.2  5.107   0.0    0.0  0.000 1940.2  5.107  0.00 242.5 242.53  131071   0.0 18.521   0.0  0.000   0.2  41871   0.2 12.816   0.2  0.023   0.0  0.000
+21:36:05.080 
+21:36:05.080               .ReqstdOps...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...mkdir.... ...rmdir.... ...create... ....open.... ...close.... ...delete...
+21:36:05.080 Host:           rate   resp   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+21:36:05.080 cpu01         3880.5  6.548   0.0    0.0  0.000 3880.5  6.548  0.00 485.0 485.06  131072   0.0  8.688   0.0 245.74   0.5  53676   0.5 17.748   0.5  0.021   0.5 209.56
+21:36:05.080 cpu02         3880.5  6.530   0.0    0.0  0.000 3880.5  6.530  0.00 485.0 485.06  131072   0.0  8.932   0.0 156.51   0.5  53523   0.5 17.816   0.5  0.023   0.5 179.03
+21:36:05.081 cpu03         3880.5  6.530   0.0    0.0  0.000 3880.5  6.530  0.00 485.0 485.06  131072   0.0  8.148   0.0 139.61   0.5  53528   0.5 17.849   0.5  0.022   0.5 177.37
+21:36:05.081 cpu04         3880.5  6.539   0.0    0.0  0.000 3880.5  6.539  0.00 485.0 485.06  131072   0.0  8.797   0.0 157.31   0.5  53597   0.5 17.809   0.5  0.019   0.5 181.23
+21:36:05.081 cpu05          15521  8.058   0.0    0.0  0.000  15521  8.058  0.00  1940 1940.2  131072   0.1 11.477   0.1 412.94   1.9  66046   1.9 22.108   1.9  0.013   1.9 254.32
+21:36:05.081 cpu06         3880.5  4.123   0.0    0.0  0.000 3880.5  4.123  0.00 485.0 485.06  131072   0.0 32.956   0.0 162.34   0.5  33795   0.5 10.459   0.5  0.017   0.5 104.40
+21:36:05.081 cpu10         3880.5  5.077   0.0    0.0  0.000 3880.5  5.077  0.00 485.0 485.06  131072   0.0  7.887   0.0 77.648   0.5  41619   0.5 13.587   0.5  0.016   0.5 80.951
+21:36:05.081 cpu11         3880.5  5.077   0.0    0.0  0.000 3880.5  5.077  0.00 485.0 485.06  131072   0.0  6.855   0.0 75.785   0.5  41611   0.5 13.504   0.5  0.014   0.5 81.243
+21:36:05.081 cpu12         1940.2  3.165   0.0    0.0  0.000 1940.2  3.165  0.00 242.5 242.53  131072   0.0  4.026   0.0 31.389   0.2  25946   0.2  7.687   0.2  0.020   0.2 34.862
+21:36:05.081 gpu01         1940.2  3.231   0.0    0.0  0.000 1940.2  3.231  0.00 242.5 242.53  131071   0.0  4.206   0.0 35.028   0.2  26492   0.2  7.581   0.2  0.033   0.2 36.235
+21:36:05.081 gpu02         1940.2  5.104   0.0    0.0  0.000 1940.2  5.104  0.00 242.5 242.53  131071   0.0 288.38   0.0  0.000   0.2  41847   0.2 12.877   0.2  0.023   0.0  0.000
+21:36:05.081 gpu05         1940.2  5.107   0.0    0.0  0.000 1940.2  5.107  0.00 242.5 242.53  131071   0.0 18.521   0.0  0.000   0.2  41871   0.2 12.816   0.2  0.023   0.0  0.000
+21:36:05.081 Total          50445  6.228   0.0    0.0  0.000  50445  6.228  0.00  6305 6305.7  131072   0.4 21.552   0.4 228.55   6.2  51047   6.2 16.745   6.2  0.018   5.5 175.56
+21:36:05.081 
+21:36:05.081               .ReqstdOps...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...mkdir.... ...rmdir.... ...create... ....open.... ...close.... ...delete...
+21:36:05.081 FSD:            rate   resp   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+21:36:05.081 fsd_cpu01_ds1   970.1  6.559   0.0    0.0  0.000  970.1  6.559  0.00 121.2 121.26  131072   0.0  8.646   0.0 235.54   0.1  53766   0.1 17.752   0.1  0.023   0.1 209.38
+21:36:05.082 fsd_cpu01_ds2   970.1  6.558   0.0    0.0  0.000  970.1  6.558  0.00 121.2 121.26  131072   0.0  8.711   0.0 261.79   0.1  53751   0.1 17.615   0.1  0.018   0.1 207.21
+21:36:05.082 fsd_cpu01_ds3   970.1  6.558   0.0    0.0  0.000  970.1  6.558  0.00 121.2 121.26  131071   0.0  8.658   0.0 275.45   0.1  53753   0.1 17.788   0.1  0.023   0.1 212.74
+21:36:05.082 fsd_cpu01_ds4   970.1  6.519   0.0    0.0  0.000  970.1  6.519  0.00 121.2 121.26  131071   0.0  8.736   0.0 210.16   0.1  53434   0.1 17.840   0.1  0.021   0.1 208.92
+21:36:05.082 fsd_cpu02_ds1   970.1  6.519   0.0    0.0  0.000  970.1  6.519  0.00 121.2 121.26  131072   0.0 10.041   0.0 174.55   0.1  53432   0.1 17.719   0.1  0.021   0.1 185.15
+21:36:05.082 fsd_cpu02_ds2   970.1  6.561   0.0    0.0  0.000  970.1  6.561  0.00 121.2 121.26  131072   0.0  7.551   0.0 127.49   0.1  53777   0.1 18.004   0.1  0.027   0.1 172.85
+21:36:05.082 fsd_cpu02_ds3   970.1  6.520   0.0    0.0  0.000  970.1  6.520  0.00 121.2 121.26  131071   0.0 10.945   0.0 191.56   0.1  53442   0.1 17.817   0.1  0.023   0.1 181.21
+21:36:05.082 fsd_cpu02_ds4   970.1  6.519   0.0    0.0  0.000  970.1  6.519  0.00 121.2 121.26  131072   0.0  7.188   0.0 132.46   0.1  53439   0.1 17.722   0.1  0.022   0.1 176.91
+21:36:05.082 fsd_cpu03_ds1   970.1  6.560   0.0    0.0  0.000  970.1  6.560  0.00 121.2 121.26  131072   0.0  8.438   0.0 154.80   0.1  53768   0.1 17.948   0.1  0.024   0.1 175.90
+21:36:05.082 fsd_cpu03_ds2   970.1  6.520   0.0    0.0  0.000  970.1  6.520  0.00 121.2 121.26  131072   0.0  6.959   0.0 133.53   0.1  53445   0.1 17.966   0.1  0.026   0.1 177.39
+21:36:05.082 fsd_cpu03_ds3   970.1  6.520   0.0    0.0  0.000  970.1  6.520  0.00 121.2 121.26  131072   0.0  9.874   0.0 135.84   0.1  53445   0.1 17.570   0.1  0.020   0.1 178.90
+21:36:05.082 fsd_cpu03_ds4   970.1  6.521   0.0    0.0  0.000  970.1  6.521  0.00 121.2 121.26  131072   0.0  7.321   0.0 134.26   0.1  53452   0.1 17.912   0.1  0.018   0.1 177.30
+21:36:05.082 fsd_cpu04_ds1   970.1  6.520   0.0    0.0  0.000  970.1  6.520  0.00 121.2 121.26  131072   0.0 10.628   0.0 119.49   0.1  53444   0.1 17.984   0.1  0.017   0.1 185.95
+21:36:05.082 fsd_cpu04_ds2   970.1  6.558   0.0    0.0  0.000  970.1  6.558  0.00 121.2 121.26  131071   0.0  6.620   0.0 164.02   0.1  53750   0.1 17.479   0.1  0.020   0.1 186.33
+21:36:05.082 fsd_cpu04_ds3   970.1  6.559   0.0    0.0  0.000  970.1  6.559  0.00 121.2 121.26  131072   0.0  9.261   0.0 181.56   0.1  53761   0.1 17.964   0.1  0.019   0.1 175.39
+21:36:05.082 fsd_cpu04_ds4   970.1  6.519   0.0    0.0  0.000  970.1  6.519  0.00 121.2 121.26  131071   0.0  8.679   0.0 164.14   0.1  53435   0.1 17.807   0.1  0.019   0.1 177.27
+21:36:05.082 fsd_cpu05_ds1   970.1  8.009   0.0    0.0  0.000  970.1  8.009  0.00 121.2 121.26  131072   0.0 12.971   0.0 348.86   0.1  65649   0.1 22.686   0.1  0.013   0.1 249.72
+21:36:05.083 fsd_cpu05_ds2   970.1  8.020   0.0    0.0  0.000  970.1  8.020  0.00 121.2 121.26  131072   0.0  9.998   0.0 636.25   0.1  65738   0.1 22.593   0.1  0.012   0.1 244.73
+21:36:05.083 fsd_cpu05_ds3   970.1  8.015   0.0    0.0  0.000  970.1  8.015  0.00 121.2 121.26  131072   0.0 11.658   0.0 292.70   0.1  65695   0.1 21.306   0.1  0.013   0.1 252.02
+21:36:05.083 fsd_cpu05_ds4   970.1  8.187   0.0    0.0  0.000  970.1  8.187  0.00 121.2 121.26  131071   0.0 14.111   0.0 597.60   0.1  67102   0.1 22.738   0.1  0.013   0.1 256.43
+21:36:05.083 fsd_cpu06_ds1   970.1  4.120   0.0    0.0  0.000  970.1  4.120  0.00 121.2 121.26  131071   0.0 35.014   0.0 179.11   0.1  33766   0.1 10.443   0.1  0.018   0.1 105.51
+21:36:05.083 fsd_cpu06_ds2   970.1  4.127   0.0    0.0  0.000  970.1  4.127  0.00 121.2 121.26  131071   0.0 29.085   0.0 129.10   0.1  33829   0.1 10.243   0.1  0.016   0.1 103.80
+21:36:05.083 fsd_cpu06_ds3   970.1  4.115   0.0    0.0  0.000  970.1  4.115  0.00 121.2 121.26  131072   0.0 34.606   0.0 153.73   0.1  33730   0.1 10.620   0.1  0.017   0.1 104.59
+21:36:05.083 fsd_cpu06_ds4   970.1  4.130   0.0    0.0  0.000  970.1  4.130  0.00 121.2 121.26  131072   0.0 33.116   0.0 187.41   0.1  33854   0.1 10.529   0.1  0.019   0.1 103.71
+21:36:05.083 fsd_cpu07_ds1   970.1  8.009   0.0    0.0  0.000  970.1  8.009  0.00 121.2 121.26  131072   0.0 13.598   0.0 506.03   0.1  65647   0.1 21.585   0.1  0.011   0.1 232.30
+21:36:05.083 fsd_cpu07_ds2   970.1  8.021   0.0    0.0  0.000  970.1  8.021  0.00 121.2 121.26  131072   0.0 10.663   0.0 390.68   0.1  65740   0.1 21.555   0.1  0.015   0.1 246.24
+21:36:05.083 fsd_cpu07_ds3   970.1  8.015   0.0    0.0  0.000  970.1  8.015  0.00 121.2 121.26  131071   0.0  9.053   0.0 404.52   0.1  65697   0.1 22.614   0.1  0.014   0.1 264.64
+21:36:05.083 fsd_cpu07_ds4   970.1  8.186   0.0    0.0  0.000  970.1  8.186  0.00 121.2 121.26  131072   0.0 12.415   0.0 540.65   0.1  67099   0.1 22.929   0.1  0.015   0.1 247.41
+21:36:05.083 fsd_cpu08_ds1   970.1  8.009   0.0    0.0  0.000  970.1  8.009  0.00 121.2 121.26  131072   0.0  8.968   0.0 138.59   0.1  65642   0.1 21.008   0.1  0.015   0.1 240.61
+21:36:05.083 fsd_cpu08_ds2   970.1  8.021   0.0    0.0  0.000  970.1  8.021  0.00 121.2 121.26  131072   0.0 12.729   0.0 370.91   0.1  65741   0.1 22.041   0.1  0.016   0.1 247.61
+21:36:05.083 fsd_cpu08_ds3   970.1  8.016   0.0    0.0  0.000  970.1  8.016  0.00 121.2 121.26  131072   0.0 10.945   0.0 389.10   0.1  65699   0.1 22.558   0.1  0.011   0.1 283.75
+21:36:05.083 fsd_cpu08_ds4   970.1  8.187   0.0    0.0  0.000  970.1  8.187  0.00 121.2 121.26  131072   0.0 13.773   0.0 402.98   0.1  67107   0.1 23.056   0.1  0.014   0.1 250.08
+21:36:05.084 fsd_cpu09_ds1   970.1  8.009   0.0    0.0  0.000  970.1  8.009  0.00 121.2 121.26  131072   0.0 13.886   0.0 233.82   0.1  65649   0.1 21.565   0.1  0.012   0.1 246.19
+21:36:05.084 fsd_cpu09_ds2   970.1  8.020   0.0    0.0  0.000  970.1  8.020  0.00 121.2 121.26  131072   0.0 10.217   0.0 483.24   0.1  65739   0.1 22.709   0.1  0.010   0.1 269.35
+21:36:05.084 fsd_cpu09_ds3   970.1  8.015   0.0    0.0  0.000  970.1  8.015  0.00 121.2 121.26  131072   0.0  9.524   0.0 255.09   0.1  65691   0.1 21.198   0.1  0.010   0.1 276.49
+21:36:05.084 fsd_cpu09_ds4   970.1  8.186   0.0    0.0  0.000  970.1  8.186  0.00 121.2 121.26  131071   0.0  9.127   0.0 616.04   0.1  67098   0.1 21.589   0.1  0.011   0.1 261.48
+21:36:05.084 fsd_cpu10_ds1   970.1  5.094   0.0    0.0  0.000  970.1  5.094  0.00 121.2 121.26  131072   0.0  6.949   0.0 81.655   0.1  41757   0.1 14.128   0.1  0.016   0.1 80.059
+21:36:05.084 fsd_cpu10_ds2   970.1  5.097   0.0    0.0  0.000  970.1  5.097  0.00 121.2 121.26  131072   0.0  7.267   0.0 85.886   0.1  41777   0.1 13.433   0.1  0.015   0.1 82.563
+21:36:05.084 fsd_cpu10_ds3   970.1  5.060   0.0    0.0  0.000  970.1  5.060  0.00 121.2 121.26  131072   0.0  8.289   0.0 73.196   0.1  41477   0.1 13.378   0.1  0.017   0.1 79.333
+21:36:05.084 fsd_cpu10_ds4   970.1  5.059   0.0    0.0  0.000  970.1  5.059  0.00 121.2 121.26  131072   0.0  9.044   0.0 69.854   0.1  41466   0.1 13.411   0.1  0.016   0.1 81.851
+21:36:05.084 fsd_cpu11_ds1   970.1  5.097   0.0    0.0  0.000  970.1  5.097  0.00 121.2 121.26  131071   0.0  6.567   0.0 76.261   0.1  41774   0.1 13.544   0.1  0.014   0.1 82.009
+21:36:05.084 fsd_cpu11_ds2   970.1  5.096   0.0    0.0  0.000  970.1  5.096  0.00 121.2 121.26  131072   0.0  6.986   0.0 72.474   0.1  41767   0.1 13.757   0.1  0.014   0.1 80.745
+21:36:05.084 fsd_cpu11_ds3   970.1  5.059   0.0    0.0  0.000  970.1  5.059  0.00 121.2 121.26  131071   0.0  6.310   0.0 77.188   0.1  41465   0.1 13.003   0.1  0.014   0.1 81.338
+21:36:05.085 fsd_cpu11_ds4   970.1  5.056   0.0    0.0  0.000  970.1  5.056  0.00 121.2 121.26  131072   0.0  7.555   0.0 77.217   0.1  41439   0.1 13.711   0.1  0.016   0.1 80.878
+21:36:05.085 fsd_cpu12_ds1   970.1  3.172   0.0    0.0  0.000  970.1  3.172  0.00 121.2 121.26  131072   0.0  4.397   0.0 31.451   0.1  25997   0.1  7.751   0.1  0.018   0.1 34.732
+21:36:05.090 fsd_cpu12_ds2   970.1  3.159   0.0    0.0  0.000  970.1  3.159  0.00 121.2 121.26  131072   0.0  3.655   0.0 31.329   0.1  25896   0.1  7.622   0.1  0.023   0.1 34.988
+21:36:05.090 fsd_gpu01_ds3   970.1  3.229   0.0    0.0  0.000  970.1  3.229  0.00 121.2 121.26  131071   0.0  4.034   0.0 37.224   0.1  26473   0.1  7.659   0.1  0.030   0.1 35.760
+21:36:05.090 fsd_gpu01_ds4   970.1  3.234   0.0    0.0  0.000  970.1  3.234  0.00 121.2 121.26  131072   0.0  4.379   0.0 32.831   0.1  26510   0.1  7.503   0.1  0.036   0.1 36.700
+21:36:05.090 fsd_gpu02_ds1   970.1  5.108   0.0    0.0  0.000  970.1  5.108  0.00 121.2 121.26  131072   0.0 583.17   0.0  0.000   0.1  41880   0.1 12.884   0.1  0.027   0.0  0.000
+21:36:05.090 fsd_gpu02_ds2   970.1  5.100   0.0    0.0  0.000  970.1  5.100  0.00 121.2 121.26  131071   0.0 18.156   0.0  0.000   0.1  41813   0.1 12.870   0.1  0.020   0.0  0.000
+21:36:05.091 fsd_gpu05_ds3   970.1  5.107   0.0    0.0  0.000  970.1  5.107  0.00 121.2 121.26  131071   0.0 18.833   0.0  0.000   0.1  41876   0.1 12.806   0.1  0.023   0.0  0.000
+21:36:05.091 fsd_gpu05_ds4   970.1  5.106   0.0    0.0  0.000  970.1  5.106  0.00 121.2 121.26  131071   0.0 18.209   0.0  0.000   0.1  41865   0.1 12.825   0.1  0.024   0.0  0.000
+21:36:05.091 Total          50445  6.228   0.0    0.0  0.000  50445  6.228  0.00  6305 6305.7  131072   0.4 21.552   0.4 228.55   6.2  51047   6.2 16.745   6.2  0.018   5.5 175.56
+
+<a name="_2052915500"></a><i><b>21:36:07.001 Starting RD=rd_prep; elapsed=30; fwdrate=max. For loops: None</b></i>
+
+21:36:08.083 
+21:36:08.083               .ReqstdOps...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...mkdir.... ...rmdir.... ...create... ....open.... ...close.... ...delete...
+21:36:08.083 Slave:          rate   resp   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+21:36:08.083 cpu01-0          NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.083 
+21:36:08.083               .ReqstdOps...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...mkdir.... ...rmdir.... ...create... ....open.... ...close.... ...delete...
+21:36:08.084 Slave:          rate   resp   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+21:36:08.084 cpu02-0          NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.084 
+21:36:08.084               .ReqstdOps...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...mkdir.... ...rmdir.... ...create... ....open.... ...close.... ...delete...
+21:36:08.084 Slave:          rate   resp   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+21:36:08.084 cpu03-0          NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.084 
+21:36:08.084               .ReqstdOps...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...mkdir.... ...rmdir.... ...create... ....open.... ...close.... ...delete...
+21:36:08.084 Slave:          rate   resp   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+21:36:08.084 cpu04-0          NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.084 
+21:36:08.084               .ReqstdOps...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...mkdir.... ...rmdir.... ...create... ....open.... ...close.... ...delete...
+21:36:08.084 Slave:          rate   resp   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+21:36:08.084 cpu05-0          NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.084 
+21:36:08.084               .ReqstdOps...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...mkdir.... ...rmdir.... ...create... ....open.... ...close.... ...delete...
+21:36:08.084 Slave:          rate   resp   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+21:36:08.084 cpu06-0          NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.084 
+21:36:08.084               .ReqstdOps...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...mkdir.... ...rmdir.... ...create... ....open.... ...close.... ...delete...
+21:36:08.084 Slave:          rate   resp   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+21:36:08.084 cpu10-0          NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.084 
+21:36:08.084               .ReqstdOps...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...mkdir.... ...rmdir.... ...create... ....open.... ...close.... ...delete...
+21:36:08.084 Slave:          rate   resp   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+21:36:08.084 cpu11-0          NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.084 
+21:36:08.084               .ReqstdOps...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...mkdir.... ...rmdir.... ...create... ....open.... ...close.... ...delete...
+21:36:08.084 Slave:          rate   resp   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+21:36:08.085 cpu12-0          NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.085 
+21:36:08.085               .ReqstdOps...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...mkdir.... ...rmdir.... ...create... ....open.... ...close.... ...delete...
+21:36:08.085 Slave:          rate   resp   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+21:36:08.085 gpu01-0          NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.085 
+21:36:08.085               .ReqstdOps...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...mkdir.... ...rmdir.... ...create... ....open.... ...close.... ...delete...
+21:36:08.085 Slave:          rate   resp   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+21:36:08.085 gpu02-0          NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.085 
+21:36:08.085               .ReqstdOps...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...mkdir.... ...rmdir.... ...create... ....open.... ...close.... ...delete...
+21:36:08.085 Slave:          rate   resp   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+21:36:08.085 gpu05-0          NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.085 
+21:36:08.085               .ReqstdOps...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...mkdir.... ...rmdir.... ...create... ....open.... ...close.... ...delete...
+21:36:08.085 Host:           rate   resp   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+21:36:08.085 cpu01            NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.085 cpu02            NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.085 cpu03            NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.085 cpu04            NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.085 cpu05            NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.086 cpu06            NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.086 cpu10            NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.086 cpu11            NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.086 cpu12            NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.086 gpu01            NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.086 gpu02            NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.086 gpu05            NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.086 Total            NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.086 
+21:36:08.086               .ReqstdOps...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...mkdir.... ...rmdir.... ...create... ....open.... ...close.... ...delete...
+21:36:08.086 FSD:            rate   resp   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+21:36:08.086 fsd_cpu01_ds1     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.087 fsd_cpu01_ds2     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.087 fsd_cpu01_ds3     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.087 fsd_cpu01_ds4     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.087 fsd_cpu02_ds1     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.087 fsd_cpu02_ds2     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.087 fsd_cpu02_ds3     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.087 fsd_cpu02_ds4     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.087 fsd_cpu03_ds1     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.087 fsd_cpu03_ds2     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.088 fsd_cpu03_ds3     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.088 fsd_cpu03_ds4     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.088 fsd_cpu04_ds1     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.088 fsd_cpu04_ds2     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.088 fsd_cpu04_ds3     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.088 fsd_cpu04_ds4     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.088 fsd_cpu05_ds1     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.088 fsd_cpu05_ds2     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.089 fsd_cpu05_ds3     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.089 fsd_cpu05_ds4     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.089 fsd_cpu06_ds1     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.089 fsd_cpu06_ds2     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.089 fsd_cpu06_ds3     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.089 fsd_cpu06_ds4     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.089 fsd_cpu07_ds1     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.089 fsd_cpu07_ds2     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.089 fsd_cpu07_ds3     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.089 fsd_cpu07_ds4     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.090 fsd_cpu08_ds1     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.090 fsd_cpu08_ds2     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.090 fsd_cpu08_ds3     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.090 fsd_cpu08_ds4     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.090 fsd_cpu09_ds1     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.090 fsd_cpu09_ds2     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.090 fsd_cpu09_ds3     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.090 fsd_cpu09_ds4     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.090 fsd_cpu10_ds1     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.091 fsd_cpu10_ds2     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.091 fsd_cpu10_ds3     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.091 fsd_cpu10_ds4     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.091 fsd_cpu11_ds1     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.091 fsd_cpu11_ds2     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.091 fsd_cpu11_ds3     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.091 fsd_cpu11_ds4     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.091 fsd_cpu12_ds1     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.091 fsd_cpu12_ds2     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.092 fsd_gpu01_ds3     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.092 fsd_gpu01_ds4     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.092 fsd_gpu02_ds1     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.092 fsd_gpu02_ds2     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.092 fsd_gpu05_ds3     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.092 fsd_gpu05_ds4     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.092 Total            NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.092 
+21:36:08.092               .ReqstdOps...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...mkdir.... ...rmdir.... ...create... ....open.... ...close.... ...delete...
+21:36:08.092 FWD:            rate   resp   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+21:36:08.093 fwd_prep_cpu01     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.093 fwd_prep_cpu02     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.093 fwd_prep_cpu03     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.093 fwd_prep_cpu04     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.093 fwd_prep_cpu05     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.093 fwd_prep_cpu06     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.093 fwd_prep_cpu07     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.093 fwd_prep_cpu08     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.093 fwd_prep_cpu09     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.093 fwd_prep_cpu10     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.094 fwd_prep_cpu11     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.094 fwd_prep_cpu12     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.094 fwd_prep_gpu01     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.094 fwd_prep_gpu02     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.094 fwd_prep_gpu05     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+21:36:08.094 Total            NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000

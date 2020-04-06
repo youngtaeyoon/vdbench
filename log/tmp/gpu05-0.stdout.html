@@ -1,0 +1,82 @@
+<title>Vdbench tmp/gpu05-0.stdout.html</title><pre>
+stdout/stderr for slave=gpu05-0
+
+13:47:48.783 13:47:48.782 SlaveJvm execution parameter:  '-m 192.168.10.21'
+13:47:48.783 13:47:48.782 SlaveJvm execution parameter:  '-n gpu05-24-200403-13.47.47.847'
+13:47:48.783 13:47:48.782 SlaveJvm execution parameter:  '-l gpu05-0'
+13:47:48.783 13:47:48.782 SlaveJvm execution parameter:  '-p 5570'
+13:47:48.783 13:47:48.782 SlaveJvm positional parameter: 'SlaveJvm'
+13:47:48.871 13:47:48.870 successfully connected to master 192.168.10.21
+13:47:48.871 13:47:48.871 Connection to 192.168.10.21 using port 5570 successful
+13:47:48.948 13:47:48.947 ticks_per_second: 100
+13:47:48.964 13:47:48.964 execute(): ls -l /ds3/gpu05
+13:47:48.984 13:47:48.983 execute(): ls -l /ds4/gpu05
+13:47:49.003 13:47:49.003 Configuration interpretation took 0.05 seconds
+
+Link to Run Definitions:         <A HREF="#_398887205">rd_seq_1024r For loops: None</A>
+
+13:47:49.241 13:47:49.240 Beginning of run setup
+13:47:49.241 13:47:49.240 **********************
+13:47:49.241 
+13:47:49.241 
+13:47:49.300 13:47:49.300 Starting initializeFileAnchor for rd=rd_seq_1024r For loops: None anchor=fsd_gpu05_ds3
+13:47:49.303 13:47:49.302 Reading control file for anchor=/ds3/gpu05
+13:47:49.304 13:47:49.304 Completed reading control file.
+13:47:49.304 13:47:49.304 Completed the creation of the directory list for /ds3/gpu05: 72 directories.
+13:47:49.308 13:47:49.307 Generated 1,024 file names; total anchor size: 1t (1,099,511,627,776)
+13:47:49.308 13:47:49.307 No deletes and creates. Control file not cleared.
+13:47:49.308 13:47:49.307 During anchor creation for anchor=/ds3/gpu05 there were 72 directories and 1024 files
+13:47:49.308 13:47:49.308 Completed initializeFileAnchor for fsd_gpu05_ds3: 0.01
+13:47:49.308 13:47:49.308 Starting initializeFileAnchor for rd=rd_seq_1024r For loops: None anchor=fsd_gpu05_ds4
+13:47:49.309 13:47:49.308 Reading control file for anchor=/ds4/gpu05
+13:47:49.310 13:47:49.310 Completed reading control file.
+13:47:49.310 13:47:49.310 File '/var/log/messages.1' does not exist. Monitoring bypassed
+13:47:49.311 13:47:49.310 Completed the creation of the directory list for /ds4/gpu05: 72 directories.
+13:47:49.311 13:47:49.311 Generated 1,024 file names; total anchor size: 1t (1,099,511,627,776)
+13:47:49.311 13:47:49.311 No deletes and creates. Control file not cleared.
+13:47:49.311 13:47:49.311 During anchor creation for anchor=/ds4/gpu05 there were 72 directories and 1024 files
+13:47:49.311 13:47:49.311 Completed initializeFileAnchor for fsd_gpu05_ds4: 0.00
+13:47:49.321 13:47:49.321 Started 16 threads for fwd=fwd_seq_1024r_gpu05,fsd=fsd_gpu05_ds3,operation=read
+13:47:49.323 13:47:49.322 Started 16 threads for fwd=fwd_seq_1024r_gpu05,fsd=fsd_gpu05_ds4,operation=read
+13:47:49.323 13:47:49.323 Started 32 FwgThreads for rd=rd_seq_1024r For loops: None
+13:47:49.323 13:47:49.323 Waiting for task synchronization
+13:47:49.323 13:47:49.323 Requesting full garbage collection
+13:47:49.323 13:47:49.323 GcTracker: cum:   1 intv:  1 ms:       6 mss:  0.00% Heap_MB max:   911 curr:   123 used:    47 free:    76 
+13:47:49.341 13:47:49.340 GcTracker: cum:   3 intv:  2 ms:      16 mss:  0.00% Heap_MB max:   911 curr:   156 used:    18 free:   138 
+13:47:49.341 13:47:49.341 task_wait_start_complete() end
+
+<a name="_398887205"></a><i><b>13:47:50.002 Starting RD=rd_seq_1024r; elapsed=300; fwdrate=max. For loops: None</b></i>
+
+13:47:50.008 13:47:50.008 task_run_all(): 33 tasks
+13:48:04.340 13:48:04.339 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+13:48:04.340 13:48:04.339 sendMessageToConsole: /var/log/messages: Apr  3 13:48:01 gpu05 systemd: Started Session 1249 of user root.
+13:48:04.340 13:48:04.339 sendMessageToConsole: 
+13:49:04.371 13:49:04.370 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+13:49:04.371 13:49:04.370 sendMessageToConsole: /var/log/messages: Apr  3 13:49:01 gpu05 systemd: Started Session 1250 of user root.
+13:49:04.371 13:49:04.370 sendMessageToConsole: 
+13:50:04.398 13:50:04.397 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+13:50:04.398 13:50:04.397 sendMessageToConsole: /var/log/messages: Apr  3 13:50:01 gpu05 systemd: Started Session 1251 of user root.
+13:50:04.398 13:50:04.397 sendMessageToConsole: 
+13:51:04.429 13:51:04.429 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+13:51:04.429 13:51:04.429 sendMessageToConsole: /var/log/messages: Apr  3 13:51:01 gpu05 systemd: Started Session 1252 of user root.
+13:51:04.429 13:51:04.429 sendMessageToConsole: 
+13:52:04.462 13:52:04.462 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+13:52:04.463 13:52:04.462 sendMessageToConsole: /var/log/messages: Apr  3 13:52:01 gpu05 systemd: Started Session 1253 of user root.
+13:52:04.463 13:52:04.462 sendMessageToConsole: 
+13:52:50.278 13:52:50.277 
+13:52:50.278 13:52:50.277 Miscellaneous statistics:
+13:52:50.278 13:52:50.278 READ_OPENS          Files opened for read activity:                 224
+13:52:50.278 13:52:50.278 FILE_CLOSES         Close requests:                                 224
+13:52:50.278 13:52:50.278 
+13:52:50.279 13:52:50.278 Java Heap in MB. max:  910.500; current:  142.500; used:   50.444; free:   92.056
+13:52:50.279 13:52:50.278 Maximum native memory allocation:   33,554,432; Current allocation:   33,554,432
+13:52:50.279 13:52:50.278 Writing control file for anchor=/ds3/gpu05 at end of run.
+13:52:50.298 13:52:50.298 Completed control file for anchor=/ds3/gpu05 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 1t/1t/112/112g
+13:52:50.300 13:52:50.299 Writing control file for anchor=/ds4/gpu05 at end of run.
+13:52:50.315 13:52:50.314 Completed control file for anchor=/ds4/gpu05 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 1t/1t/112/112g
+13:52:50.315 13:52:50.314 End of run
+13:52:50.315 13:52:50.315 **********
+13:52:50.315 
+13:52:50.315 
+13:52:51.189 13:52:51.189 Master is requesting slave shutdown
+13:52:51.190 13:52:51.189 Java Heap in MB. max:  910.500; current:  142.500; used:   51.555; free:   90.945

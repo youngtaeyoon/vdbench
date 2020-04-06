@@ -1,0 +1,121 @@
+<title>Vdbench tmp/cpu01-0.stdout.html</title><pre>
+stdout/stderr for slave=cpu01-0
+
+13:47:48.276 13:47:48.275 SlaveJvm execution parameter:  '-m 192.168.10.21'
+13:47:48.276 13:47:48.276 SlaveJvm execution parameter:  '-n cpu01-10-200403-13.47.47.847'
+13:47:48.276 13:47:48.276 SlaveJvm execution parameter:  '-l cpu01-0'
+13:47:48.276 13:47:48.276 SlaveJvm execution parameter:  '-p 5570'
+13:47:48.276 13:47:48.276 SlaveJvm positional parameter: 'SlaveJvm'
+13:47:48.480 13:47:48.479 successfully connected to master 192.168.10.21
+13:47:48.480 13:47:48.480 Connection to 192.168.10.21 using port 5570 successful
+13:47:48.946 13:47:48.946 ticks_per_second: 100
+13:47:48.975 13:47:48.975 execute(): ls -l /ds3/cpu01
+13:47:48.996 13:47:48.996 execute(): ls -l /ds4/cpu01
+13:47:49.006 13:47:49.005 execute(): ls -l /ds1/cpu01
+13:47:49.014 13:47:49.014 execute(): ls -l /ds2/cpu01
+13:47:49.029 13:47:49.028 Configuration interpretation took 0.08 seconds
+
+Link to Run Definitions:         <A HREF="#_398887205">rd_seq_1024r For loops: None</A>
+
+13:47:49.227 13:47:49.226 Beginning of run setup
+13:47:49.227 13:47:49.226 **********************
+13:47:49.227 
+13:47:49.227 
+13:47:49.301 13:47:49.301 Starting initializeFileAnchor for rd=rd_seq_1024r For loops: None anchor=fsd_cpu01_ds1
+13:47:49.306 13:47:49.305 Reading control file for anchor=/ds1/cpu01
+13:47:49.308 13:47:49.308 Completed reading control file.
+13:47:49.308 13:47:49.308 Completed the creation of the directory list for /ds1/cpu01: 72 directories.
+13:47:49.311 13:47:49.311 Generated 1,024 file names; total anchor size: 1t (1,099,511,627,776)
+13:47:49.311 13:47:49.311 No deletes and creates. Control file not cleared.
+13:47:49.311 13:47:49.311 During anchor creation for anchor=/ds1/cpu01 there were 72 directories and 1024 files
+13:47:49.311 13:47:49.311 Completed initializeFileAnchor for fsd_cpu01_ds1: 0.01
+13:47:49.311 13:47:49.311 Starting initializeFileAnchor for rd=rd_seq_1024r For loops: None anchor=fsd_cpu01_ds2
+13:47:49.312 13:47:49.312 Reading control file for anchor=/ds2/cpu01
+13:47:49.313 13:47:49.313 Completed reading control file.
+13:47:49.314 13:47:49.314 Completed the creation of the directory list for /ds2/cpu01: 72 directories.
+13:47:49.314 13:47:49.314 Generated 1,024 file names; total anchor size: 1t (1,099,511,627,776)
+13:47:49.315 13:47:49.314 No deletes and creates. Control file not cleared.
+13:47:49.315 13:47:49.314 During anchor creation for anchor=/ds2/cpu01 there were 72 directories and 1024 files
+13:47:49.315 13:47:49.315 Completed initializeFileAnchor for fsd_cpu01_ds2: 0.00
+13:47:49.315 13:47:49.315 Starting initializeFileAnchor for rd=rd_seq_1024r For loops: None anchor=fsd_cpu01_ds3
+13:47:49.315 13:47:49.315 Reading control file for anchor=/ds3/cpu01
+13:47:49.317 13:47:49.316 Completed reading control file.
+13:47:49.317 13:47:49.317 Completed the creation of the directory list for /ds3/cpu01: 72 directories.
+13:47:49.318 13:47:49.318 Generated 1,024 file names; total anchor size: 1t (1,099,511,627,776)
+13:47:49.318 13:47:49.318 No deletes and creates. Control file not cleared.
+13:47:49.318 13:47:49.318 During anchor creation for anchor=/ds3/cpu01 there were 72 directories and 1024 files
+13:47:49.318 13:47:49.318 Completed initializeFileAnchor for fsd_cpu01_ds3: 0.00
+13:47:49.318 13:47:49.318 Starting initializeFileAnchor for rd=rd_seq_1024r For loops: None anchor=fsd_cpu01_ds4
+13:47:49.319 13:47:49.319 Reading control file for anchor=/ds4/cpu01
+13:47:49.320 13:47:49.320 Completed reading control file.
+13:47:49.320 13:47:49.320 Completed the creation of the directory list for /ds4/cpu01: 72 directories.
+13:47:49.320 13:47:49.320 Generated 1,024 file names; total anchor size: 1t (1,099,511,627,776)
+13:47:49.320 13:47:49.320 No deletes and creates. Control file not cleared.
+13:47:49.320 13:47:49.320 During anchor creation for anchor=/ds4/cpu01 there were 72 directories and 1024 files
+13:47:49.321 13:47:49.321 Completed initializeFileAnchor for fsd_cpu01_ds4: 0.00
+13:47:49.332 13:47:49.332 Started 8 threads for fwd=fwd_seq_1024r_cpu01,fsd=fsd_cpu01_ds1,operation=read
+13:47:49.333 13:47:49.333 Started 8 threads for fwd=fwd_seq_1024r_cpu01,fsd=fsd_cpu01_ds2,operation=read
+13:47:49.334 13:47:49.334 Started 8 threads for fwd=fwd_seq_1024r_cpu01,fsd=fsd_cpu01_ds3,operation=read
+13:47:49.335 13:47:49.335 Started 8 threads for fwd=fwd_seq_1024r_cpu01,fsd=fsd_cpu01_ds4,operation=read
+13:47:49.335 13:47:49.335 Started 32 FwgThreads for rd=rd_seq_1024r For loops: None
+13:47:49.335 13:47:49.335 Waiting for task synchronization
+13:47:49.336 13:47:49.335 Requesting full garbage collection
+13:47:49.336 13:47:49.336 GcTracker: cum:   3 intv:  3 ms:      10 mss:  0.00% Heap_MB max:   911 curr:   123 used:    23 free:   100 
+13:47:49.363 13:47:49.363 GcTracker: cum:   5 intv:  2 ms:      25 mss:  0.00% Heap_MB max:   911 curr:   156 used:    18 free:   138 
+13:47:49.363 13:47:49.363 task_wait_start_complete() end
+13:47:49.494 13:47:49.493 File '/var/log/messages.1' does not exist. Monitoring bypassed
+
+<a name="_398887205"></a><i><b>13:47:50.003 Starting RD=rd_seq_1024r; elapsed=300; fwdrate=max. For loops: None</b></i>
+
+13:47:50.011 13:47:50.011 task_run_all(): 33 tasks
+13:48:04.683 13:48:04.683 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+13:48:04.683 13:48:04.683 sendMessageToConsole: /var/log/messages: Apr  3 13:48:01 cpu01 systemd: Started Session 1474 of user root.
+13:48:04.683 13:48:04.683 sendMessageToConsole: 
+13:48:14.859 13:48:14.859 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+13:48:14.859 13:48:14.859 sendMessageToConsole: /var/log/messages: Apr  3 13:48:13 cpu01 dhclient[10269]: DHCPREQUEST on eno1 to 192.168.10.176 port 67 (xid=0x1cf7d6b2)
+13:48:14.859 13:48:14.859 sendMessageToConsole: /var/log/messages: Apr  3 13:48:13 cpu01 dhclient[10269]: DHCPACK from 192.168.10.176 (xid=0x1cf7d6b2)
+13:48:14.859 13:48:14.859 sendMessageToConsole: 
+13:48:20.044 13:48:20.044 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+13:48:20.044 13:48:20.044 sendMessageToConsole: /var/log/messages: Apr  3 13:48:15 cpu01 dhclient[10269]: bound to 192.168.10.21 -- renewal in 227 seconds.
+13:48:20.044 13:48:20.044 sendMessageToConsole: 
+13:49:05.328 13:49:05.327 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+13:49:05.328 13:49:05.328 sendMessageToConsole: /var/log/messages: Apr  3 13:49:01 cpu01 systemd: Started Session 1475 of user root.
+13:49:05.328 13:49:05.328 sendMessageToConsole: 
+13:50:05.526 13:50:05.526 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+13:50:05.526 13:50:05.526 sendMessageToConsole: /var/log/messages: Apr  3 13:50:01 cpu01 systemd: Started Session 1476 of user root.
+13:50:05.526 13:50:05.526 sendMessageToConsole: 
+13:51:05.715 13:51:05.714 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+13:51:05.715 13:51:05.714 sendMessageToConsole: /var/log/messages: Apr  3 13:51:01 cpu01 systemd: Started Session 1477 of user root.
+13:51:05.715 13:51:05.714 sendMessageToConsole: 
+13:52:05.911 13:52:05.911 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+13:52:05.911 13:52:05.911 sendMessageToConsole: /var/log/messages: Apr  3 13:52:01 cpu01 systemd: Started Session 1478 of user root.
+13:52:05.911 13:52:05.911 sendMessageToConsole: /var/log/messages: Apr  3 13:52:02 cpu01 dhclient[10269]: DHCPREQUEST on eno1 to 192.168.10.176 port 67 (xid=0x1cf7d6b2)
+13:52:05.911 13:52:05.911 sendMessageToConsole: /var/log/messages: Apr  3 13:52:02 cpu01 dhclient[10269]: DHCPACK from 192.168.10.176 (xid=0x1cf7d6b2)
+13:52:05.911 13:52:05.911 sendMessageToConsole: /var/log/messages: Apr  3 13:52:04 cpu01 dhclient[10269]: bound to 192.168.10.21 -- renewal in 284 seconds.
+13:52:05.911 13:52:05.911 sendMessageToConsole: 
+13:52:21.089 13:52:21.089 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+13:52:21.089 13:52:21.089 sendMessageToConsole: /var/log/messages: Apr  3 13:52:16 cpu01 dhclient[10376]: DHCPREQUEST on enp0s20u1u5 to 169.254.95.118 port 67 (xid=0x7d119379)
+13:52:21.089 13:52:21.089 sendMessageToConsole: /var/log/messages: Apr  3 13:52:16 cpu01 dhclient[10376]: DHCPACK from 169.254.95.118 (xid=0x7d119379)
+13:52:21.089 13:52:21.089 sendMessageToConsole: /var/log/messages: Apr  3 13:52:18 cpu01 dhclient[10376]: bound to 169.254.95.120 -- renewal in 263 seconds.
+13:52:21.089 13:52:21.089 sendMessageToConsole: 
+13:52:50.278 13:52:50.277 
+13:52:50.278 13:52:50.278 Miscellaneous statistics:
+13:52:50.278 13:52:50.278 READ_OPENS          Files opened for read activity:                 736
+13:52:50.278 13:52:50.278 FILE_CLOSES         Close requests:                                 736
+13:52:50.278 13:52:50.278 
+13:52:50.278 13:52:50.278 Java Heap in MB. max:  910.500; current:  369.000; used:  273.177; free:   95.823
+13:52:50.278 13:52:50.278 Maximum native memory allocation:   33,554,432; Current allocation:   33,554,432
+13:52:50.279 13:52:50.279 Writing control file for anchor=/ds4/cpu01 at end of run.
+13:52:50.301 13:52:50.301 Completed control file for anchor=/ds4/cpu01 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 1t/1t/184/184g
+13:52:50.303 13:52:50.303 Writing control file for anchor=/ds2/cpu01 at end of run.
+13:52:50.320 13:52:50.320 Completed control file for anchor=/ds2/cpu01 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 1t/1t/184/184g
+13:52:50.320 13:52:50.320 Writing control file for anchor=/ds3/cpu01 at end of run.
+13:52:50.334 13:52:50.334 Completed control file for anchor=/ds3/cpu01 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 1t/1t/184/184g
+13:52:50.334 13:52:50.334 Writing control file for anchor=/ds1/cpu01 at end of run.
+13:52:50.347 13:52:50.347 Completed control file for anchor=/ds1/cpu01 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 1t/1t/184/184g
+13:52:50.347 13:52:50.347 End of run
+13:52:50.347 13:52:50.347 **********
+13:52:50.347 
+13:52:50.347 
+13:52:51.189 13:52:51.189 Master is requesting slave shutdown
+13:52:51.189 13:52:51.189 Java Heap in MB. max:  910.500; current:  369.000; used:  276.938; free:   92.062
