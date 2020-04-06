@@ -1,0 +1,35 @@
+# file creation prior to IO generation
+## multiple exports
+#
+# HD: linux clients
+### list all the hostname, such as cpu01, cpu02, cpu03, etc
+hd=default,user=root,shell=ssh,vdbench=/root/vdbench
+hd=cpu04,system=cpu04
+hd=cpu05,system=cpu05
+
+# FSD: target directory and files
+# create 1024 files of 1GB, which is 1TB per host
+### list all the hostnames. each host must have 4 mount points, such as /mnt1, /mnt2, /mnt3, and /mnt4
+fsd=fsd_cpu04_mnt1,anchor=/mnt1/cpu04,depth=2,width=8,file=16,size=10M,openflag=directio
+fsd=fsd_cpu04_mnt2,anchor=/mnt2/cpu04,depth=2,width=8,file=16,size=10M,openflag=directio
+fsd=fsd_cpu04_mnt3,anchor=/mnt3/cpu04,depth=2,width=8,file=16,size=10M,openflag=directio
+fsd=fsd_cpu04_mnt4,anchor=/mnt4/cpu04,depth=2,width=8,file=16,size=10M,openflag=directio
+fsd=fsd_cpu05_mnt1,anchor=/mnt1/cpu05,depth=2,width=8,file=16,size=10M,openflag=directio
+fsd=fsd_cpu05_mnt2,anchor=/mnt2/cpu05,depth=2,width=8,file=16,size=10M,openflag=directio
+fsd=fsd_cpu05_mnt3,anchor=/mnt3/cpu05,depth=2,width=8,file=16,size=10M,openflag=directio
+fsd=fsd_cpu05_mnt4,anchor=/mnt4/cpu05,depth=2,width=8,file=16,size=10M,openflag=directio
+
+# FWD: file creation prior to IO generation
+### list all the hostnames. one line per host
+fwd=fwd_prep_cpu04,host=cpu04,fsd=fsd_cpu04_*,operation=create,fileselect=sequential,fileio=sequential,threads=16
+fwd=fwd_prep_cpu05,host=cpu05,fsd=fsd_cpu05_*,operation=create,fileselect=sequential,fileio=sequential,threads=16
+
+# FWD: sequential write 1M
+### list all the hostnames. one line per host
+fwd=fwd_seq_1024w_cpu04,host=cpu04,fsd=fsd_cpu04_*,operation=write,fileselect=sequential,fileio=sequential,xfersize=1024k,threads=16
+fwd=fwd_seq_1024w_cpu05,host=cpu05,fsd=fsd_cpu05_*,operation=write,fileselect=sequential,fileio=sequential,xfersize=1024k,threads=16
+
+# RD: file creation
+### no need to change
+rd=rd_prep,fwd=fwd_prep_*,fwdrate=max,format=yes,interval=1,pause=60
+#rd=rd_seq_1024w,fwd=fwd_seq_1024w_*,fwdrate=max,format=no,warmup=60,interval=1,elapsed=300
