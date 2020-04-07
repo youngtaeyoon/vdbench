@@ -1,15 +1,15 @@
 <title>Vdbench prep/config.html</title><pre>
 Output from script /root/vdbench/linux/config.sh: 
 
-Thu Apr 2 19:11:55 KST 2020
+Tue Apr 7 16:47:12 KST 2020
 >>>>>uname -a
 Linux cpu01 3.10.0-1062.18.1.el7.x86_64 #1 SMP Tue Mar 17 23:49:17 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
-Thu Apr 2 19:11:55 KST 2020
+Tue Apr 7 16:47:12 KST 2020
 >>>>>ifconfig -a
 datapath: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1376
         inet6 fe80::9cd0:9aff:fe71:91fb  prefixlen 64  scopeid 0x20<link>
         ether 9e:d0:9a:71:91:fb  txqueuelen 1000  (Ethernet)
-        RX packets 215  bytes 13680 (13.3 KiB)
+        RX packets 262  bytes 15552 (15.1 KiB)
         RX errors 0  dropped 0  overruns 0  frame 0
         TX packets 8  bytes 656 (656.0 B)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
@@ -33,9 +33,9 @@ eno1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet 192.168.10.21  netmask 255.255.255.0  broadcast 192.168.10.255
         inet6 fe80::a94:efff:fe3c:62a5  prefixlen 64  scopeid 0x20<link>
         ether 08:94:ef:3c:62:a5  txqueuelen 1000  (Ethernet)
-        RX packets 1442653  bytes 948814545 (904.8 MiB)
+        RX packets 104738707  bytes 113022364276 (105.2 GiB)
         RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 929847  bytes 349148770 (332.9 MiB)
+        TX packets 109013314  bytes 114041585841 (106.2 GiB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
         device interrupt 16  
 
@@ -67,93 +67,93 @@ enp0s20u1u5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet 169.254.95.120  netmask 255.255.255.0  broadcast 169.254.95.255
         inet6 fe80::894:efff:fe3c:62ac  prefixlen 64  scopeid 0x20<link>
         ether 0a:94:ef:3c:62:ac  txqueuelen 1000  (Ethernet)
-        RX packets 18211  bytes 1483570 (1.4 MiB)
+        RX packets 471241  bytes 38353162 (36.5 MiB)
         RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 18285  bytes 1739306 (1.6 MiB)
+        TX packets 473183  bytes 44963918 (42.8 MiB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 enp8s0f0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 9000
         inet 172.168.11.21  netmask 255.255.255.0  broadcast 172.168.11.255
         inet6 fe80::faf2:1eff:fe51:8294  prefixlen 64  scopeid 0x20<link>
         ether f8:f2:1e:51:82:94  txqueuelen 1000  (Ethernet)
-        RX packets 10909316  bytes 1202348829 (1.1 GiB)
+        RX packets 706937113  bytes 5454724139322 (4.9 TiB)
         RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 277126191  bytes 2489172923646 (2.2 TiB)
+        TX packets 2381367427  bytes 20583416973942 (18.7 TiB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 enp8s0f1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 9000
         inet 172.168.12.21  netmask 255.255.255.0  broadcast 172.168.12.255
         inet6 fe80::faf2:1eff:fe51:8295  prefixlen 64  scopeid 0x20<link>
         ether f8:f2:1e:51:82:95  txqueuelen 1000  (Ethernet)
-        RX packets 13209029  bytes 1359500409 (1.2 GiB)
+        RX packets 506843614  bytes 3645208727508 (3.3 TiB)
         RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 281111992  bytes 2524523646232 (2.2 TiB)
+        TX packets 2295699806  bytes 19957701872975 (18.1 TiB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 enp8s0f2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 9000
         inet 172.168.13.21  netmask 255.255.255.0  broadcast 172.168.13.255
         inet6 fe80::faf2:1eff:fe51:8296  prefixlen 64  scopeid 0x20<link>
         ether f8:f2:1e:51:82:96  txqueuelen 1000  (Ethernet)
-        RX packets 13189199  bytes 1357011115 (1.2 GiB)
+        RX packets 490208478  bytes 3471765212422 (3.1 TiB)
         RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 280251937  bytes 2516807423134 (2.2 TiB)
+        TX packets 2280644553  bytes 19868184106585 (18.0 TiB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 enp8s0f3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 9000
         inet 172.168.14.21  netmask 255.255.255.0  broadcast 172.168.14.255
         inet6 fe80::faf2:1eff:fe51:8297  prefixlen 64  scopeid 0x20<link>
         ether f8:f2:1e:51:82:97  txqueuelen 1000  (Ethernet)
-        RX packets 12108446  bytes 1317934463 (1.2 GiB)
+        RX packets 545322128  bytes 3980362579628 (3.6 TiB)
         RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 301913133  bytes 2713652260102 (2.4 TiB)
+        TX packets 2307239431  bytes 20118651413449 (18.2 TiB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
         inet 127.0.0.1  netmask 255.0.0.0
         inet6 ::1  prefixlen 128  scopeid 0x10<host>
         loop  txqueuelen 1000  (Local Loopback)
-        RX packets 2945528  bytes 476829712 (454.7 MiB)
+        RX packets 86403180  bytes 13649736140 (12.7 GiB)
         RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 2945528  bytes 476829712 (454.7 MiB)
+        TX packets 86403180  bytes 13649736140 (12.7 GiB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 vethwe-bridge: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1376
         inet6 fe80::a83f:4dff:fef8:fd5c  prefixlen 64  scopeid 0x20<link>
         ether aa:3f:4d:f8:fd:5c  txqueuelen 0  (Ethernet)
-        RX packets 214  bytes 16648 (16.2 KiB)
+        RX packets 255  bytes 18926 (18.4 KiB)
         RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 17  bytes 1354 (1.3 KiB)
+        TX packets 23  bytes 1606 (1.5 KiB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 vethwe-datapath: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1376
         inet6 fe80::dc16:6cff:fe17:8fc3  prefixlen 64  scopeid 0x20<link>
         ether de:16:6c:17:8f:c3  txqueuelen 0  (Ethernet)
-        RX packets 18211  bytes 1483570 (1.4 MiB)
+        RX packets 471241  bytes 38353162 (36.5 MiB)
         RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 18285  bytes 1739306 (1.6 MiB)
+        TX packets 473183  bytes 44963918 (42.8 MiB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 vxlan-6784: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 65535
         inet6 fe80::742d:bbff:fea1:8f1c  prefixlen 64  scopeid 0x20<link>
         ether 76:2d:bb:a1:8f:1c  txqueuelen 1000  (Ethernet)
-        RX packets 15492  bytes 21055808 (20.0 MiB)
+        RX packets 465842  bytes 640682696 (611.0 MiB)
         RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 15296  bytes 21047296 (20.0 MiB)
+        TX packets 465672  bytes 640675704 (610.9 MiB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 weave: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1376
         inet 10.45.128.0  netmask 255.240.0.0  broadcast 10.47.255.255
         inet6 fe80::4860:9ff:fec2:482f  prefixlen 64  scopeid 0x20<link>
         ether 4a:60:09:c2:48:2f  txqueuelen 1000  (Ethernet)
-        RX packets 213  bytes 13576 (13.2 KiB)
+        RX packets 254  bytes 15280 (14.9 KiB)
         RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 9  bytes 698 (698.0 B)
+        TX packets 15  bytes 950 (950.0 B)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
-Thu Apr 2 19:11:55 KST 2020
+Tue Apr 7 16:47:12 KST 2020
 >>>>>id
 uid=0(root) gid=0(root) groups=0(root)
-Thu Apr 2 19:11:55 KST 2020
+Tue Apr 7 16:47:12 KST 2020
 >>>>>mount
 sysfs on /sys type sysfs (rw,nosuid,nodev,noexec,relatime)
 proc on /proc type proc (rw,nosuid,nodev,noexec,relatime)
@@ -185,10 +185,6 @@ hugetlbfs on /dev/hugepages type hugetlbfs (rw,relatime)
 /dev/sda1 on /boot type xfs (rw,relatime,attr2,inode64,noquota)
 sunrpc on /var/lib/nfs/rpc_pipefs type rpc_pipefs (rw,relatime)
 tmpfs on /run/user/0 type tmpfs (rw,nosuid,nodev,relatime,size=13128076k,mode=700)
-172.168.11.71:/ds1 on /ds1 type nfs (rw,relatime,vers=3,rsize=1048576,wsize=1048576,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=172.168.11.71,mountvers=3,mountport=56041,mountproto=udp,local_lock=none,addr=172.168.11.71)
-172.168.12.71:/ds2 on /ds2 type nfs (rw,relatime,vers=3,rsize=1048576,wsize=1048576,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=172.168.12.71,mountvers=3,mountport=56041,mountproto=udp,local_lock=none,addr=172.168.12.71)
-172.168.13.71:/ds3 on /ds3 type nfs (rw,relatime,vers=3,rsize=1048576,wsize=1048576,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=172.168.13.71,mountvers=3,mountport=56041,mountproto=udp,local_lock=none,addr=172.168.13.71)
-172.168.14.71:/ds4 on /ds4 type nfs (rw,relatime,vers=3,rsize=1048576,wsize=1048576,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=172.168.14.71,mountvers=3,mountport=56041,mountproto=udp,local_lock=none,addr=172.168.14.71)
 overlay on /var/lib/docker/overlay2/2a2b17261a0fff1157e7674c9563223b1ca1b72bf499e55b915634fe3ca07389/merged type overlay (rw,relatime,lowerdir=/var/lib/docker/overlay2/l/2UXWN7OXZ7J6Q5QEULFH63K3IS:/var/lib/docker/overlay2/l/MF7BXUYJQ3IL5DUW3GJRBRQKGR,upperdir=/var/lib/docker/overlay2/2a2b17261a0fff1157e7674c9563223b1ca1b72bf499e55b915634fe3ca07389/diff,workdir=/var/lib/docker/overlay2/2a2b17261a0fff1157e7674c9563223b1ca1b72bf499e55b915634fe3ca07389/work)
 overlay on /var/lib/docker/overlay2/2c6be38563b980657229ae846eb4527283fd9deefa3322e444afe19b5c911f10/merged type overlay (rw,relatime,lowerdir=/var/lib/docker/overlay2/l/QSBH5OIPPY3MLV2HP4DT3GWGR5:/var/lib/docker/overlay2/l/MF7BXUYJQ3IL5DUW3GJRBRQKGR,upperdir=/var/lib/docker/overlay2/2c6be38563b980657229ae846eb4527283fd9deefa3322e444afe19b5c911f10/diff,workdir=/var/lib/docker/overlay2/2c6be38563b980657229ae846eb4527283fd9deefa3322e444afe19b5c911f10/work)
 proc on /run/docker/netns/default type proc (rw,nosuid,nodev,noexec,relatime)
@@ -211,44 +207,61 @@ shm on /var/lib/docker/containers/5a7f478b170462fb610a8b60f454488d1770d48b0ab970
 overlay on /var/lib/docker/overlay2/b7907c836cfc32d9046da079feca5bec3fa6f03174b440454d21dc15d22554df/merged type overlay (rw,relatime,lowerdir=/var/lib/docker/overlay2/l/W223TQU6WDLYKQ5CF4VFGES4RC:/var/lib/docker/overlay2/l/RPT7UXXP4COYZ3KDM56KU4Q4UZ:/var/lib/docker/overlay2/l/OLP2D422DKZI35KCINMSBQY2AV:/var/lib/docker/overlay2/l/WGB2ID7JZXY55UCCKX6EOLS3Y3:/var/lib/docker/overlay2/l/5OX7GZLL4ODYC5TZMUJVPSBGIW:/var/lib/docker/overlay2/l/I2Q5RBFVBO7WLE57UGC3IP3VXN:/var/lib/docker/overlay2/l/7W7L5VPGKERG2YQF66RCUZWAVK:/var/lib/docker/overlay2/l/EGRZ3VUYF4H2SYKKGGTGPLUKDH,upperdir=/var/lib/docker/overlay2/b7907c836cfc32d9046da079feca5bec3fa6f03174b440454d21dc15d22554df/diff,workdir=/var/lib/docker/overlay2/b7907c836cfc32d9046da079feca5bec3fa6f03174b440454d21dc15d22554df/work)
 overlay on /var/lib/docker/overlay2/c227dd114b88b0b1dbb0201a226ac2f7ad77e3665e2ee57c363573053804173c/merged type overlay (rw,relatime,lowerdir=/var/lib/docker/overlay2/l/6GVESW7AUP6VKBZ75QEKGLR7RU:/var/lib/docker/overlay2/l/HKCSPNSJOXMXF6YK7EMGZ7DFB7:/var/lib/docker/overlay2/l/DMK4IMROY75DTJEUUOZDHGBYNE:/var/lib/docker/overlay2/l/UX6XF5FICKIC6VXXILCAZ7C6PW:/var/lib/docker/overlay2/l/MGRLYDTWFM7FCAX5FCYNK5CIGA:/var/lib/docker/overlay2/l/A52LMTCV6VMNBIX7CCEDGZR6ZF,upperdir=/var/lib/docker/overlay2/c227dd114b88b0b1dbb0201a226ac2f7ad77e3665e2ee57c363573053804173c/diff,workdir=/var/lib/docker/overlay2/c227dd114b88b0b1dbb0201a226ac2f7ad77e3665e2ee57c363573053804173c/work)
 overlay on /var/lib/docker/overlay2/980829d0e5bc30176eb62a0abb7c3da38585090fc0a7154a69b085a149c1b0f0/merged type overlay (rw,relatime,lowerdir=/var/lib/docker/overlay2/l/IGWPJZOCWKGWULZQ6O7V4ODRSJ:/var/lib/docker/overlay2/l/IWI5R2V6NI2A75Q7CO5W3QGFX6:/var/lib/docker/overlay2/l/LBN2NOGRK3BERZNHGVDSZYE5VY:/var/lib/docker/overlay2/l/IIC4M5SD7DMOQ5XKFNY5CUGKJH:/var/lib/docker/overlay2/l/ZIRAIWZHINQUUY2VEKQM77F37L:/var/lib/docker/overlay2/l/JH3SDWCKKMCWSPERMDAAM377B3:/var/lib/docker/overlay2/l/A52LMTCV6VMNBIX7CCEDGZR6ZF,upperdir=/var/lib/docker/overlay2/980829d0e5bc30176eb62a0abb7c3da38585090fc0a7154a69b085a149c1b0f0/diff,workdir=/var/lib/docker/overlay2/980829d0e5bc30176eb62a0abb7c3da38585090fc0a7154a69b085a149c1b0f0/work)
-Thu Apr 2 19:11:55 KST 2020
+binfmt_misc on /proc/sys/fs/binfmt_misc type binfmt_misc (rw,relatime)
+172.168.11.71:/ds1 on /ds1 type nfs (rw,relatime,vers=3,rsize=1048576,wsize=1048576,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=172.168.11.71,mountvers=3,mountport=56041,mountproto=udp,local_lock=none,addr=172.168.11.71)
+172.168.12.72:/ds2 on /ds2 type nfs (rw,relatime,vers=3,rsize=1048576,wsize=1048576,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=172.168.12.72,mountvers=3,mountport=53338,mountproto=udp,local_lock=none,addr=172.168.12.72)
+172.168.13.73:/ds3 on /ds3 type nfs (rw,relatime,vers=3,rsize=1048576,wsize=1048576,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=172.168.13.73,mountvers=3,mountport=43626,mountproto=udp,local_lock=none,addr=172.168.13.73)
+172.168.14.74:/ds4 on /ds4 type nfs (rw,relatime,vers=3,rsize=1048576,wsize=1048576,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=172.168.14.74,mountvers=3,mountport=38964,mountproto=udp,local_lock=none,addr=172.168.14.74)
+172.168.15.71:/ds5 on /ds5 type nfs (rw,relatime,vers=3,rsize=1048576,wsize=1048576,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=172.168.15.71,mountvers=3,mountport=56041,mountproto=udp,local_lock=none,addr=172.168.15.71)
+172.168.16.72:/ds6 on /ds6 type nfs (rw,relatime,vers=3,rsize=1048576,wsize=1048576,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=172.168.16.72,mountvers=3,mountport=53338,mountproto=udp,local_lock=none,addr=172.168.16.72)
+172.168.17.73:/ds7 on /ds7 type nfs (rw,relatime,vers=3,rsize=1048576,wsize=1048576,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=172.168.17.73,mountvers=3,mountport=43626,mountproto=udp,local_lock=none,addr=172.168.17.73)
+172.168.18.74:/ds8 on /ds8 type nfs (rw,relatime,vers=3,rsize=1048576,wsize=1048576,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=172.168.18.74,mountvers=3,mountport=38964,mountproto=udp,local_lock=none,addr=172.168.18.74)
+172.168.19.71:/ds9 on /ds9 type nfs (rw,relatime,vers=3,rsize=1048576,wsize=1048576,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=172.168.19.71,mountvers=3,mountport=56041,mountproto=udp,local_lock=none,addr=172.168.19.71)
+172.168.20.72:/ds10 on /ds10 type nfs (rw,relatime,vers=3,rsize=1048576,wsize=1048576,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=172.168.20.72,mountvers=3,mountport=53338,mountproto=udp,local_lock=none,addr=172.168.20.72)
+172.168.21.73:/ds11 on /ds11 type nfs (rw,relatime,vers=3,rsize=1048576,wsize=1048576,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=172.168.21.73,mountvers=3,mountport=43626,mountproto=udp,local_lock=none,addr=172.168.21.73)
+172.168.22.74:/ds12 on /ds12 type nfs (rw,relatime,vers=3,rsize=1048576,wsize=1048576,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=172.168.22.74,mountvers=3,mountport=38964,mountproto=udp,local_lock=none,addr=172.168.22.74)
+172.168.11.171:/adas1 on /adas1 type nfs (rw,relatime,vers=3,rsize=1048576,wsize=1048576,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=172.168.11.171,mountvers=3,mountport=56041,mountproto=udp,local_lock=none,addr=172.168.11.171)
+172.168.12.172:/adas2 on /adas2 type nfs (rw,relatime,vers=3,rsize=1048576,wsize=1048576,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=172.168.12.172,mountvers=3,mountport=53338,mountproto=udp,local_lock=none,addr=172.168.12.172)
+172.168.13.173:/adas3 on /adas3 type nfs (rw,relatime,vers=3,rsize=1048576,wsize=1048576,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=172.168.13.173,mountvers=3,mountport=43626,mountproto=udp,local_lock=none,addr=172.168.13.173)
+172.168.14.174:/adas4 on /adas4 type nfs (rw,relatime,vers=3,rsize=1048576,wsize=1048576,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=172.168.14.174,mountvers=3,mountport=38964,mountproto=udp,local_lock=none,addr=172.168.14.174)
+Tue Apr 7 16:47:12 KST 2020
 >>>>>memory
 MemTotal:       131280760 kB
-MemFree:        121682404 kB
-MemAvailable:   127401820 kB
-Buffers:            2104 kB
-Cached:          5901792 kB
+MemFree:        126587208 kB
+MemAvailable:   127333228 kB
+Buffers:               8 kB
+Cached:          1044844 kB
 SwapCached:            0 kB
-Active:          3759760 kB
-Inactive:        3416148 kB
-Active(anon):    1274008 kB
-Inactive(anon):    29296 kB
-Active(file):    2485752 kB
-Inactive(file):  3386852 kB
+Active:          2082308 kB
+Inactive:         382248 kB
+Active(anon):    1426244 kB
+Inactive(anon):    50952 kB
+Active(file):     656064 kB
+Inactive(file):   331296 kB
 Unevictable:           0 kB
 Mlocked:               0 kB
 SwapTotal:             0 kB
 SwapFree:              0 kB
-Dirty:               244 kB
+Dirty:               288 kB
 Writeback:             0 kB
-AnonPages:       1266844 kB
-Mapped:           289552 kB
-Shmem:             31292 kB
-Slab:             772352 kB
-SReclaimable:     472964 kB
-SUnreclaim:       299388 kB
-KernelStack:       23584 kB
-PageTables:        23688 kB
+AnonPages:       1423680 kB
+Mapped:           279508 kB
+Shmem:             57488 kB
+Slab:             589748 kB
+SReclaimable:     384812 kB
+SUnreclaim:       204936 kB
+KernelStack:       24288 kB
+PageTables:        25144 kB
 NFS_Unstable:          0 kB
 Bounce:                0 kB
 WritebackTmp:          0 kB
 CommitLimit:    65640380 kB
-Committed_AS:    6488084 kB
+Committed_AS:    6772380 kB
 VmallocTotal:   34359738367 kB
 VmallocUsed:      510472 kB
 VmallocChunk:   34291847164 kB
 HardwareCorrupted:     0 kB
-AnonHugePages:    944128 kB
+AnonHugePages:   1036288 kB
 CmaTotal:              0 kB
 CmaFree:               0 kB
 HugePages_Total:       0
@@ -256,34 +269,31 @@ HugePages_Free:        0
 HugePages_Rsvd:        0
 HugePages_Surp:        0
 Hugepagesize:       2048 kB
-DirectMap4k:      308308 kB
-DirectMap2M:     5400576 kB
-DirectMap1G:    130023424 kB
+DirectMap4k:      386132 kB
+DirectMap2M:     7419904 kB
+DirectMap1G:    127926272 kB
               total        used        free      shared  buff/cache   available
-Mem:      131280760     2922612   121681900       31292     6676248   127401316
-Low:      131280760     9598860   121681900
+Mem:      131280760     3058952   126587208       57488     1634600   127333228
+Low:      131280760     4693552   126587208
 High:             0           0           0
 Swap:             0           0           0
-Thu Apr 2 19:11:55 KST 2020
+Tue Apr 7 16:47:12 KST 2020
 >>>>>ps -ef | grep -i vdb
-root     34824 23849  0 19:11 pts/2    00:00:00 /bin/bash ./vdbench -f /root/git/vdbench/param/00.prep_1g_x34.par -o /root/git/vdbench/log/prep
-root     34826 34824 73 19:11 pts/2    00:00:02 java -client -Xmx512m -Xms64m -cp ./:./classes:./vdbench.jar Vdb.Vdbmain -f /root/git/vdbench/param/00.prep_1g_x34.par -o /root/git/vdbench/log/prep
-root     34885 34826  0 19:11 pts/2    00:00:00 /bin/bash /root/vdbench/vdbench SlaveJvm -m 192.168.10.21 -n cpu01-10-200402-19.11.52.908 -l cpu01-0 -p 5570
-root     34889 34885 25 19:11 pts/2    00:00:00 java -client -Xmx1024m -Xms128m -cp /root/vdbench/:/root/vdbench/classes:/root/vdbench/vdbench.jar Vdb.SlaveJvm SlaveJvm -m 192.168.10.21 -n cpu01-10-200402-19.11.52.908 -l cpu01-0 -p 5570
-root     34920 34826  0 19:11 pts/2    00:00:00 ssh cpu02 -l root /root/vdbench/vdbench SlaveJvm -m 192.168.10.21 -n cpu02-11-200402-19.11.52.908 -l cpu02-0 -p 5570
-root     34928 34826  0 19:11 pts/2    00:00:00 ssh cpu03 -l root /root/vdbench/vdbench SlaveJvm -m 192.168.10.21 -n cpu03-12-200402-19.11.52.908 -l cpu03-0 -p 5570
-root     34951 34826  0 19:11 pts/2    00:00:00 ssh cpu04 -l root /root/vdbench/vdbench SlaveJvm -m 192.168.10.21 -n cpu04-13-200402-19.11.52.908 -l cpu04-0 -p 5570
-root     34956 34826  0 19:11 pts/2    00:00:00 ssh cpu05 -l root /root/vdbench/vdbench SlaveJvm -m 192.168.10.21 -n cpu05-14-200402-19.11.52.908 -l cpu05-0 -p 5570
-root     34961 34826  0 19:11 pts/2    00:00:00 ssh cpu06 -l root /root/vdbench/vdbench SlaveJvm -m 192.168.10.21 -n cpu06-15-200402-19.11.52.908 -l cpu06-0 -p 5570
-root     34966 34826  0 19:11 pts/2    00:00:00 ssh cpu07 -l root /root/vdbench/vdbench SlaveJvm -m 192.168.10.21 -n cpu07-16-200402-19.11.52.908 -l cpu07-0 -p 5570
-root     34972 34826  0 19:11 pts/2    00:00:00 ssh cpu08 -l root /root/vdbench/vdbench SlaveJvm -m 192.168.10.21 -n cpu08-17-200402-19.11.52.908 -l cpu08-0 -p 5570
-root     34977 34826  0 19:11 pts/2    00:00:00 ssh cpu09 -l root /root/vdbench/vdbench SlaveJvm -m 192.168.10.21 -n cpu09-18-200402-19.11.52.908 -l cpu09-0 -p 5570
-root     34982 34826  0 19:11 pts/2    00:00:00 ssh cpu10 -l root /root/vdbench/vdbench SlaveJvm -m 192.168.10.21 -n cpu10-19-200402-19.11.52.908 -l cpu10-0 -p 5570
-root     34987 34826  0 19:11 pts/2    00:00:00 ssh cpu11 -l root /root/vdbench/vdbench SlaveJvm -m 192.168.10.21 -n cpu11-20-200402-19.11.52.908 -l cpu11-0 -p 5570
-root     34992 34826  0 19:11 pts/2    00:00:00 ssh cpu12 -l root /root/vdbench/vdbench SlaveJvm -m 192.168.10.21 -n cpu12-21-200402-19.11.52.908 -l cpu12-0 -p 5570
-root     34997 34826  0 19:11 pts/2    00:00:00 ssh gpu01 -l root /root/vdbench/vdbench SlaveJvm -m 192.168.10.21 -n gpu01-22-200402-19.11.52.908 -l gpu01-0 -p 5570
-root     35002 34826  0 19:11 pts/2    00:00:00 ssh gpu02 -l root /root/vdbench/vdbench SlaveJvm -m 192.168.10.21 -n gpu02-23-200402-19.11.52.908 -l gpu02-0 -p 5570
-root     35007 34826  0 19:11 pts/2    00:00:00 ssh gpu05 -l root /root/vdbench/vdbench SlaveJvm -m 192.168.10.21 -n gpu05-24-200402-19.11.52.908 -l gpu05-0 -p 5570
-root     35052 34826  0 19:11 pts/2    00:00:00 /bin/bash /root/vdbench/linux/config.sh -o /root/git/vdbench/log/prep cpu07 cpu06 cpu05 cpu04 cpu03 cpu02 gpu01 cpu01 gpu02 gpu05 cpu09 cpu08 cpu10 cpu12 cpu11
-root     35068 35052  0 19:11 pts/2    00:00:00 grep -i vdb
+root     38546  4193  0 16:47 pts/2    00:00:00 /bin/bash ./vdbench -f /root/git/vdbench/param/00.prep_10m_cpu.par -o /root/git/vdbench/log/prep
+root     38548 38546 99 16:47 pts/2    00:00:03 java -client -Xmx512m -Xms64m -cp ./:./classes:./vdbench.jar Vdb.Vdbmain -f /root/git/vdbench/param/00.prep_10m_cpu.par -o /root/git/vdbench/log/prep
+root     38609 38548  0 16:47 pts/2    00:00:00 /bin/bash /root/vdbench/vdbench SlaveJvm -m 192.168.10.21 -n cpu01-10-200407-16.47.10.455 -l cpu01-0 -p 5570
+root     38613 38609 66 16:47 pts/2    00:00:00 java -client -Xmx1024m -Xms128m -cp /root/vdbench/:/root/vdbench/classes:/root/vdbench/vdbench.jar Vdb.SlaveJvm SlaveJvm -m 192.168.10.21 -n cpu01-10-200407-16.47.10.455 -l cpu01-0 -p 5570
+root     38644 38548  1 16:47 pts/2    00:00:00 ssh cpu02 -l root /root/vdbench/vdbench SlaveJvm -m 192.168.10.21 -n cpu02-11-200407-16.47.10.455 -l cpu02-0 -p 5570
+root     38652 38548  1 16:47 pts/2    00:00:00 ssh cpu03 -l root /root/vdbench/vdbench SlaveJvm -m 192.168.10.21 -n cpu03-12-200407-16.47.10.455 -l cpu03-0 -p 5570
+root     38675 38548  1 16:47 pts/2    00:00:00 ssh cpu04 -l root /root/vdbench/vdbench SlaveJvm -m 192.168.10.21 -n cpu04-13-200407-16.47.10.455 -l cpu04-0 -p 5570
+root     38680 38548  1 16:47 pts/2    00:00:00 ssh cpu05 -l root /root/vdbench/vdbench SlaveJvm -m 192.168.10.21 -n cpu05-14-200407-16.47.10.455 -l cpu05-0 -p 5570
+root     38686 38548  1 16:47 pts/2    00:00:00 ssh cpu06 -l root /root/vdbench/vdbench SlaveJvm -m 192.168.10.21 -n cpu06-15-200407-16.47.10.455 -l cpu06-0 -p 5570
+root     38691 38548  1 16:47 pts/2    00:00:00 ssh cpu07 -l root /root/vdbench/vdbench SlaveJvm -m 192.168.10.21 -n cpu07-16-200407-16.47.10.455 -l cpu07-0 -p 5570
+root     38696 38548  1 16:47 pts/2    00:00:00 ssh cpu08 -l root /root/vdbench/vdbench SlaveJvm -m 192.168.10.21 -n cpu08-17-200407-16.47.10.455 -l cpu08-0 -p 5570
+root     38701 38548  1 16:47 pts/2    00:00:00 ssh cpu09 -l root /root/vdbench/vdbench SlaveJvm -m 192.168.10.21 -n cpu09-18-200407-16.47.10.455 -l cpu09-0 -p 5570
+root     38706 38548  1 16:47 pts/2    00:00:00 ssh cpu10 -l root /root/vdbench/vdbench SlaveJvm -m 192.168.10.21 -n cpu10-19-200407-16.47.10.455 -l cpu10-0 -p 5570
+root     38711 38548  1 16:47 pts/2    00:00:00 ssh cpu11 -l root /root/vdbench/vdbench SlaveJvm -m 192.168.10.21 -n cpu11-20-200407-16.47.10.455 -l cpu11-0 -p 5570
+root     38717 38548  1 16:47 pts/2    00:00:00 ssh cpu12 -l root /root/vdbench/vdbench SlaveJvm -m 192.168.10.21 -n cpu12-21-200407-16.47.10.455 -l cpu12-0 -p 5570
+root     38870 38548  0 16:47 pts/2    00:00:00 /bin/bash /root/vdbench/linux/config.sh -o /root/git/vdbench/log/prep cpu07 cpu06 cpu05 cpu04 cpu03 cpu02 cpu01 cpu09 cpu08 cpu10 cpu12 cpu11
+root     38886 38870  0 16:47 pts/2    00:00:00 grep -i vdb
 
