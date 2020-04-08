@@ -1,114 +1,267 @@
 <title>Vdbench tmp/cpu04-0.stdout.html</title><pre>
 stdout/stderr for slave=cpu04-0
 
-13:47:48.451 13:47:48.451 SlaveJvm execution parameter:  '-m 192.168.10.21'
-13:47:48.451 13:47:48.451 SlaveJvm execution parameter:  '-n cpu04-13-200403-13.47.47.847'
-13:47:48.451 13:47:48.451 SlaveJvm execution parameter:  '-l cpu04-0'
-13:47:48.452 13:47:48.451 SlaveJvm execution parameter:  '-p 5570'
-13:47:48.452 13:47:48.451 SlaveJvm positional parameter: 'SlaveJvm'
-13:47:48.536 13:47:48.535 successfully connected to master 192.168.10.21
-13:47:48.536 13:47:48.536 Connection to 192.168.10.21 using port 5570 successful
-13:47:48.944 13:47:48.944 ticks_per_second: 100
-13:47:48.975 13:47:48.975 execute(): ls -l /ds2/cpu04
-13:47:48.995 13:47:48.995 execute(): ls -l /ds1/cpu04
-13:47:49.003 13:47:49.002 execute(): ls -l /ds3/cpu04
-13:47:49.014 13:47:49.014 execute(): ls -l /ds4/cpu04
-13:47:49.027 13:47:49.027 Configuration interpretation took 0.08 seconds
+07:57:20.251 07:57:20.250 SlaveJvm execution parameter:  '-m 192.168.10.21'
+07:57:20.251 07:57:20.250 SlaveJvm execution parameter:  '-n cpu04-13-200408-07.57.19.478'
+07:57:20.251 07:57:20.250 SlaveJvm execution parameter:  '-l cpu04-0'
+07:57:20.251 07:57:20.250 SlaveJvm execution parameter:  '-p 5570'
+07:57:20.251 07:57:20.250 SlaveJvm positional parameter: 'SlaveJvm'
+07:57:20.351 07:57:20.350 successfully connected to master 192.168.10.21
+07:57:20.351 07:57:20.350 Connection to 192.168.10.21 using port 5570 successful
+07:57:20.901 07:57:20.901 ticks_per_second: 100
+07:57:20.978 07:57:20.978 execute(): ls -l /ds5/cpu04
+07:57:20.993 07:57:20.993 execute(): ls -l /ds2/cpu04
+07:57:20.999 07:57:20.998 execute(): ls -l /ds10/cpu04
+07:57:21.005 07:57:21.005 execute(): ls -l /ds8/cpu04
+07:57:21.011 07:57:21.010 execute(): ls -l /ds9/cpu04
+07:57:21.017 07:57:21.016 execute(): ls -l /ds3/cpu04
+07:57:21.023 07:57:21.022 execute(): ls -l /ds7/cpu04
+07:57:21.029 07:57:21.028 execute(): ls -l /ds11/cpu04
+07:57:21.035 07:57:21.035 execute(): ls -l /ds1/cpu04
+07:57:21.043 07:57:21.041 execute(): ls -l /ds12/cpu04
+07:57:21.049 07:57:21.048 execute(): ls -l /ds4/cpu04
+07:57:21.055 07:57:21.054 execute(): ls -l /ds6/cpu04
+07:57:21.067 07:57:21.067 Configuration interpretation took 0.17 seconds
 
-Link to Run Definitions:         <A HREF="#_398887205">rd_seq_1024r For loops: None</A>
+Link to Run Definitions:         <A HREF="#_811587677">rd_seq_1024w For loops: None</A>
 
-13:47:49.228 13:47:49.228 Beginning of run setup
-13:47:49.228 13:47:49.228 **********************
-13:47:49.228 
-13:47:49.228 
-13:47:49.287 13:47:49.286 Starting initializeFileAnchor for rd=rd_seq_1024r For loops: None anchor=fsd_cpu04_ds1
-13:47:49.289 13:47:49.289 Reading control file for anchor=/ds1/cpu04
-13:47:49.291 13:47:49.291 Completed reading control file.
-13:47:49.292 13:47:49.292 Completed the creation of the directory list for /ds1/cpu04: 72 directories.
-13:47:49.296 13:47:49.295 Generated 1,024 file names; total anchor size: 1t (1,099,511,627,776)
-13:47:49.296 13:47:49.295 No deletes and creates. Control file not cleared.
-13:47:49.296 13:47:49.295 During anchor creation for anchor=/ds1/cpu04 there were 72 directories and 1024 files
-13:47:49.296 13:47:49.296 Completed initializeFileAnchor for fsd_cpu04_ds1: 0.01
-13:47:49.296 13:47:49.296 Starting initializeFileAnchor for rd=rd_seq_1024r For loops: None anchor=fsd_cpu04_ds2
-13:47:49.296 13:47:49.296 Reading control file for anchor=/ds2/cpu04
-13:47:49.298 13:47:49.298 Completed reading control file.
-13:47:49.298 13:47:49.298 Completed the creation of the directory list for /ds2/cpu04: 72 directories.
-13:47:49.299 13:47:49.299 Generated 1,024 file names; total anchor size: 1t (1,099,511,627,776)
-13:47:49.299 13:47:49.299 No deletes and creates. Control file not cleared.
-13:47:49.299 13:47:49.299 During anchor creation for anchor=/ds2/cpu04 there were 72 directories and 1024 files
-13:47:49.299 13:47:49.299 Completed initializeFileAnchor for fsd_cpu04_ds2: 0.00
-13:47:49.299 13:47:49.299 Starting initializeFileAnchor for rd=rd_seq_1024r For loops: None anchor=fsd_cpu04_ds3
-13:47:49.300 13:47:49.300 Reading control file for anchor=/ds3/cpu04
-13:47:49.301 13:47:49.301 Completed reading control file.
-13:47:49.305 13:47:49.301 Completed the creation of the directory list for /ds3/cpu04: 72 directories.
-13:47:49.306 13:47:49.306 Generated 1,024 file names; total anchor size: 1t (1,099,511,627,776)
-13:47:49.306 13:47:49.306 No deletes and creates. Control file not cleared.
-13:47:49.306 13:47:49.306 During anchor creation for anchor=/ds3/cpu04 there were 72 directories and 1024 files
-13:47:49.306 13:47:49.306 Completed initializeFileAnchor for fsd_cpu04_ds3: 0.01
-13:47:49.306 13:47:49.306 Starting initializeFileAnchor for rd=rd_seq_1024r For loops: None anchor=fsd_cpu04_ds4
-13:47:49.307 13:47:49.307 Reading control file for anchor=/ds4/cpu04
-13:47:49.308 13:47:49.308 Completed reading control file.
-13:47:49.308 13:47:49.308 Completed the creation of the directory list for /ds4/cpu04: 72 directories.
-13:47:49.309 13:47:49.309 Generated 1,024 file names; total anchor size: 1t (1,099,511,627,776)
-13:47:49.309 13:47:49.309 No deletes and creates. Control file not cleared.
-13:47:49.309 13:47:49.309 During anchor creation for anchor=/ds4/cpu04 there were 72 directories and 1024 files
-13:47:49.309 13:47:49.309 Completed initializeFileAnchor for fsd_cpu04_ds4: 0.00
-13:47:49.318 13:47:49.318 Started 8 threads for fwd=fwd_seq_1024r_cpu04,fsd=fsd_cpu04_ds1,operation=read
-13:47:49.319 13:47:49.319 Started 8 threads for fwd=fwd_seq_1024r_cpu04,fsd=fsd_cpu04_ds2,operation=read
-13:47:49.320 13:47:49.320 Started 8 threads for fwd=fwd_seq_1024r_cpu04,fsd=fsd_cpu04_ds3,operation=read
-13:47:49.322 13:47:49.321 Started 8 threads for fwd=fwd_seq_1024r_cpu04,fsd=fsd_cpu04_ds4,operation=read
-13:47:49.322 13:47:49.321 Started 32 FwgThreads for rd=rd_seq_1024r For loops: None
-13:47:49.322 13:47:49.322 Waiting for task synchronization
-13:47:49.322 13:47:49.322 Requesting full garbage collection
-13:47:49.322 13:47:49.322 GcTracker: cum:   2 intv:  2 ms:       9 mss:  0.00% Heap_MB max:   911 curr:   123 used:    36 free:    87 
-13:47:49.346 13:47:49.346 GcTracker: cum:   4 intv:  2 ms:      22 mss:  0.00% Heap_MB max:   911 curr:   123 used:    18 free:   105 
-13:47:49.346 13:47:49.346 task_wait_start_complete() end
-13:47:49.773 13:47:49.773 File '/var/log/messages.1' does not exist. Monitoring bypassed
+07:57:21.403 07:57:21.402 Beginning of run setup
+07:57:21.403 07:57:21.402 **********************
+07:57:21.403 
+07:57:21.403 
+07:57:21.427 07:57:21.426 File '/var/log/messages.1' does not exist. Monitoring bypassed
+07:57:21.457 07:57:21.456 Starting initializeFileAnchor for rd=rd_seq_1024w For loops: None anchor=fsd_cpu04_ds1
+07:57:21.460 07:57:21.459 Reading control file for anchor=/ds1/cpu04
+07:57:21.463 07:57:21.462 Completed reading control file.
+07:57:21.463 07:57:21.462 Completed the creation of the directory list for /ds1/cpu04: 72 directories.
+07:57:21.466 07:57:21.465 Generated 1,024 file names; total anchor size: 10g (10,737,418,240)
+07:57:21.466 07:57:21.465 Writing control file for anchor=/ds1/cpu04 at start of run.
+07:57:21.488 07:57:21.487 Completed control file for anchor=/ds1/cpu04 at start of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/0/0
+07:57:21.490 07:57:21.489 During anchor creation for anchor=/ds1/cpu04 there were 72 directories and 1024 files
+07:57:21.490 07:57:21.490 Completed initializeFileAnchor for fsd_cpu04_ds1: 0.03
+07:57:21.490 07:57:21.490 Starting initializeFileAnchor for rd=rd_seq_1024w For loops: None anchor=fsd_cpu04_ds2
+07:57:21.491 07:57:21.491 Reading control file for anchor=/ds2/cpu04
+07:57:21.493 07:57:21.492 Completed reading control file.
+07:57:21.493 07:57:21.492 Completed the creation of the directory list for /ds2/cpu04: 72 directories.
+07:57:21.494 07:57:21.493 Generated 1,024 file names; total anchor size: 10g (10,737,418,240)
+07:57:21.494 07:57:21.493 Writing control file for anchor=/ds2/cpu04 at start of run.
+07:57:21.508 07:57:21.507 Completed control file for anchor=/ds2/cpu04 at start of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/0/0
+07:57:21.508 07:57:21.508 During anchor creation for anchor=/ds2/cpu04 there were 72 directories and 1024 files
+07:57:21.508 07:57:21.508 Completed initializeFileAnchor for fsd_cpu04_ds2: 0.02
+07:57:21.508 07:57:21.508 Starting initializeFileAnchor for rd=rd_seq_1024w For loops: None anchor=fsd_cpu04_ds3
+07:57:21.509 07:57:21.508 Reading control file for anchor=/ds3/cpu04
+07:57:21.510 07:57:21.510 Completed reading control file.
+07:57:21.511 07:57:21.510 Completed the creation of the directory list for /ds3/cpu04: 72 directories.
+07:57:21.512 07:57:21.511 Generated 1,024 file names; total anchor size: 10g (10,737,418,240)
+07:57:21.512 07:57:21.511 Writing control file for anchor=/ds3/cpu04 at start of run.
+07:57:21.526 07:57:21.526 Completed control file for anchor=/ds3/cpu04 at start of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/0/0
+07:57:21.527 07:57:21.526 During anchor creation for anchor=/ds3/cpu04 there were 72 directories and 1024 files
+07:57:21.527 07:57:21.526 Completed initializeFileAnchor for fsd_cpu04_ds3: 0.02
+07:57:21.527 07:57:21.526 Starting initializeFileAnchor for rd=rd_seq_1024w For loops: None anchor=fsd_cpu04_ds4
+07:57:21.528 07:57:21.527 Reading control file for anchor=/ds4/cpu04
+07:57:21.529 07:57:21.528 Completed reading control file.
+07:57:21.529 07:57:21.528 Completed the creation of the directory list for /ds4/cpu04: 72 directories.
+07:57:21.529 07:57:21.529 Generated 1,024 file names; total anchor size: 10g (10,737,418,240)
+07:57:21.530 07:57:21.529 Writing control file for anchor=/ds4/cpu04 at start of run.
+07:57:21.543 07:57:21.542 Completed control file for anchor=/ds4/cpu04 at start of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/0/0
+07:57:21.543 07:57:21.542 During anchor creation for anchor=/ds4/cpu04 there were 72 directories and 1024 files
+07:57:21.543 07:57:21.543 Completed initializeFileAnchor for fsd_cpu04_ds4: 0.02
+07:57:21.543 07:57:21.543 Starting initializeFileAnchor for rd=rd_seq_1024w For loops: None anchor=fsd_cpu04_ds5
+07:57:21.544 07:57:21.543 Reading control file for anchor=/ds5/cpu04
+07:57:21.545 07:57:21.544 Completed reading control file.
+07:57:21.545 07:57:21.545 Completed the creation of the directory list for /ds5/cpu04: 72 directories.
+07:57:21.549 07:57:21.548 Generated 1,024 file names; total anchor size: 10g (10,737,418,240)
+07:57:21.549 07:57:21.548 Writing control file for anchor=/ds5/cpu04 at start of run.
+07:57:21.561 07:57:21.560 Completed control file for anchor=/ds5/cpu04 at start of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/0/0
+07:57:21.561 07:57:21.561 During anchor creation for anchor=/ds5/cpu04 there were 72 directories and 1024 files
+07:57:21.561 07:57:21.561 Completed initializeFileAnchor for fsd_cpu04_ds5: 0.02
+07:57:21.561 07:57:21.561 Starting initializeFileAnchor for rd=rd_seq_1024w For loops: None anchor=fsd_cpu04_ds6
+07:57:21.562 07:57:21.561 Reading control file for anchor=/ds6/cpu04
+07:57:21.563 07:57:21.562 Completed reading control file.
+07:57:21.564 07:57:21.563 Completed the creation of the directory list for /ds6/cpu04: 72 directories.
+07:57:21.564 07:57:21.563 Generated 1,024 file names; total anchor size: 10g (10,737,418,240)
+07:57:21.564 07:57:21.564 Writing control file for anchor=/ds6/cpu04 at start of run.
+07:57:21.576 07:57:21.575 Completed control file for anchor=/ds6/cpu04 at start of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/0/0
+07:57:21.576 07:57:21.575 During anchor creation for anchor=/ds6/cpu04 there were 72 directories and 1024 files
+07:57:21.576 07:57:21.575 Completed initializeFileAnchor for fsd_cpu04_ds6: 0.01
+07:57:21.576 07:57:21.576 Starting initializeFileAnchor for rd=rd_seq_1024w For loops: None anchor=fsd_cpu04_ds7
+07:57:21.577 07:57:21.576 Reading control file for anchor=/ds7/cpu04
+07:57:21.578 07:57:21.577 Completed reading control file.
+07:57:21.578 07:57:21.577 Completed the creation of the directory list for /ds7/cpu04: 72 directories.
+07:57:21.579 07:57:21.578 Generated 1,024 file names; total anchor size: 10g (10,737,418,240)
+07:57:21.579 07:57:21.578 Writing control file for anchor=/ds7/cpu04 at start of run.
+07:57:21.590 07:57:21.590 Completed control file for anchor=/ds7/cpu04 at start of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/0/0
+07:57:21.590 07:57:21.590 During anchor creation for anchor=/ds7/cpu04 there were 72 directories and 1024 files
+07:57:21.591 07:57:21.590 Completed initializeFileAnchor for fsd_cpu04_ds7: 0.01
+07:57:21.591 07:57:21.590 Starting initializeFileAnchor for rd=rd_seq_1024w For loops: None anchor=fsd_cpu04_ds8
+07:57:21.591 07:57:21.590 Reading control file for anchor=/ds8/cpu04
+07:57:21.592 07:57:21.592 Completed reading control file.
+07:57:21.592 07:57:21.592 Completed the creation of the directory list for /ds8/cpu04: 72 directories.
+07:57:21.593 07:57:21.592 Generated 1,024 file names; total anchor size: 10g (10,737,418,240)
+07:57:21.593 07:57:21.592 Writing control file for anchor=/ds8/cpu04 at start of run.
+07:57:21.604 07:57:21.603 Completed control file for anchor=/ds8/cpu04 at start of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/0/0
+07:57:21.604 07:57:21.603 During anchor creation for anchor=/ds8/cpu04 there were 72 directories and 1024 files
+07:57:21.604 07:57:21.603 Completed initializeFileAnchor for fsd_cpu04_ds8: 0.01
+07:57:21.604 07:57:21.603 Starting initializeFileAnchor for rd=rd_seq_1024w For loops: None anchor=fsd_cpu04_ds9
+07:57:21.605 07:57:21.604 Reading control file for anchor=/ds9/cpu04
+07:57:21.606 07:57:21.605 Completed reading control file.
+07:57:21.606 07:57:21.605 Completed the creation of the directory list for /ds9/cpu04: 72 directories.
+07:57:21.607 07:57:21.606 Generated 1,024 file names; total anchor size: 10g (10,737,418,240)
+07:57:21.607 07:57:21.606 Writing control file for anchor=/ds9/cpu04 at start of run.
+07:57:21.618 07:57:21.618 Completed control file for anchor=/ds9/cpu04 at start of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/0/0
+07:57:21.619 07:57:21.618 During anchor creation for anchor=/ds9/cpu04 there were 72 directories and 1024 files
+07:57:21.619 07:57:21.618 Completed initializeFileAnchor for fsd_cpu04_ds9: 0.02
+07:57:21.619 07:57:21.618 Starting initializeFileAnchor for rd=rd_seq_1024w For loops: None anchor=fsd_cpu04_ds10
+07:57:21.619 07:57:21.619 Reading control file for anchor=/ds10/cpu04
+07:57:21.620 07:57:21.620 Completed reading control file.
+07:57:21.620 07:57:21.620 Completed the creation of the directory list for /ds10/cpu04: 72 directories.
+07:57:21.621 07:57:21.620 Generated 1,024 file names; total anchor size: 10g (10,737,418,240)
+07:57:21.621 07:57:21.620 Writing control file for anchor=/ds10/cpu04 at start of run.
+07:57:21.633 07:57:21.632 Completed control file for anchor=/ds10/cpu04 at start of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/0/0
+07:57:21.633 07:57:21.632 During anchor creation for anchor=/ds10/cpu04 there were 72 directories and 1024 files
+07:57:21.633 07:57:21.632 Completed initializeFileAnchor for fsd_cpu04_ds10: 0.01
+07:57:21.633 07:57:21.632 Starting initializeFileAnchor for rd=rd_seq_1024w For loops: None anchor=fsd_cpu04_ds11
+07:57:21.633 07:57:21.633 Reading control file for anchor=/ds11/cpu04
+07:57:21.634 07:57:21.634 Completed reading control file.
+07:57:21.634 07:57:21.634 Completed the creation of the directory list for /ds11/cpu04: 72 directories.
+07:57:21.635 07:57:21.634 Generated 1,024 file names; total anchor size: 10g (10,737,418,240)
+07:57:21.635 07:57:21.634 Writing control file for anchor=/ds11/cpu04 at start of run.
+07:57:21.647 07:57:21.646 Completed control file for anchor=/ds11/cpu04 at start of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/0/0
+07:57:21.647 07:57:21.646 During anchor creation for anchor=/ds11/cpu04 there were 72 directories and 1024 files
+07:57:21.647 07:57:21.646 Completed initializeFileAnchor for fsd_cpu04_ds11: 0.01
+07:57:21.647 07:57:21.646 Starting initializeFileAnchor for rd=rd_seq_1024w For loops: None anchor=fsd_cpu04_ds12
+07:57:21.648 07:57:21.647 Reading control file for anchor=/ds12/cpu04
+07:57:21.649 07:57:21.649 Completed reading control file.
+07:57:21.649 07:57:21.649 Completed the creation of the directory list for /ds12/cpu04: 72 directories.
+07:57:21.650 07:57:21.649 Generated 1,024 file names; total anchor size: 10g (10,737,418,240)
+07:57:21.650 07:57:21.649 Writing control file for anchor=/ds12/cpu04 at start of run.
+07:57:21.661 07:57:21.661 Completed control file for anchor=/ds12/cpu04 at start of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/0/0
+07:57:21.661 07:57:21.661 During anchor creation for anchor=/ds12/cpu04 there were 72 directories and 1024 files
+07:57:21.662 07:57:21.661 Completed initializeFileAnchor for fsd_cpu04_ds12: 0.02
+07:57:21.670 07:57:21.670 Started 1 threads for fwd=fwd_seq_1024w_cpu04,fsd=fsd_cpu04_ds1,operation=write
+07:57:21.672 07:57:21.671 Started 1 threads for fwd=fwd_seq_1024w_cpu04,fsd=fsd_cpu04_ds2,operation=write
+07:57:21.673 07:57:21.673 Started 1 threads for fwd=fwd_seq_1024w_cpu04,fsd=fsd_cpu04_ds3,operation=write
+07:57:21.675 07:57:21.674 Started 1 threads for fwd=fwd_seq_1024w_cpu04,fsd=fsd_cpu04_ds4,operation=write
+07:57:21.677 07:57:21.676 Started 1 threads for fwd=fwd_seq_1024w_cpu04,fsd=fsd_cpu04_ds5,operation=write
+07:57:21.678 07:57:21.678 Started 1 threads for fwd=fwd_seq_1024w_cpu04,fsd=fsd_cpu04_ds6,operation=write
+07:57:21.680 07:57:21.679 Started 1 threads for fwd=fwd_seq_1024w_cpu04,fsd=fsd_cpu04_ds7,operation=write
+07:57:21.681 07:57:21.681 Started 1 threads for fwd=fwd_seq_1024w_cpu04,fsd=fsd_cpu04_ds8,operation=write
+07:57:21.683 07:57:21.682 Started 1 threads for fwd=fwd_seq_1024w_cpu04,fsd=fsd_cpu04_ds9,operation=write
+07:57:21.685 07:57:21.684 Started 1 threads for fwd=fwd_seq_1024w_cpu04,fsd=fsd_cpu04_ds10,operation=write
+07:57:21.686 07:57:21.686 Started 1 threads for fwd=fwd_seq_1024w_cpu04,fsd=fsd_cpu04_ds11,operation=write
+07:57:21.688 07:57:21.687 Started 1 threads for fwd=fwd_seq_1024w_cpu04,fsd=fsd_cpu04_ds12,operation=write
+07:57:21.688 07:57:21.687 Started 12 FwgThreads for rd=rd_seq_1024w For loops: None
+07:57:21.688 07:57:21.687 Waiting for task synchronization
+07:57:21.688 07:57:21.687 task_wait_start_complete: FwgThread write /ds12/cpu04 1
+07:57:21.888 07:57:21.887 Requesting full garbage collection
+07:57:21.889 07:57:21.888 GcTracker: cum:   1 intv:  0 ms:       0 mss:  0.00% Heap_MB max:   911 curr:   123 used:    38 free:    85 
+07:57:21.917 07:57:21.916 GcTracker: cum:   3 intv:  2 ms:      26 mss:  0.00% Heap_MB max:   911 curr:   123 used:    18 free:   105 
+07:57:21.917 07:57:21.916 task_wait_start_complete() end
 
-<a name="_398887205"></a><i><b>13:47:50.002 Starting RD=rd_seq_1024r; elapsed=300; fwdrate=max. For loops: None</b></i>
+<a name="_811587677"></a><i><b>07:57:23.003 Starting RD=rd_seq_1024w; elapsed=600 warmup=60; fwdrate=max. For loops: None</b></i>
 
-13:47:50.009 13:47:50.009 task_run_all(): 33 tasks
-13:48:05.349 13:48:05.349 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
-13:48:05.349 13:48:05.349 sendMessageToConsole: /var/log/messages: Apr  3 13:48:01 cpu04 systemd: Started Session 1466 of user root.
-13:48:05.349 13:48:05.349 sendMessageToConsole: 
-13:49:05.930 13:49:05.929 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
-13:49:05.930 13:49:05.930 sendMessageToConsole: /var/log/messages: Apr  3 13:49:01 cpu04 systemd: Started Session 1467 of user root.
-13:49:05.930 13:49:05.930 sendMessageToConsole: 
-13:49:26.478 13:49:26.478 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
-13:49:26.478 13:49:26.478 sendMessageToConsole: /var/log/messages: Apr  3 13:49:22 cpu04 dhclient[10294]: DHCPREQUEST on eno1 to 192.168.10.176 port 67 (xid=0x6439152d)
-13:49:26.478 13:49:26.478 sendMessageToConsole: /var/log/messages: Apr  3 13:49:22 cpu04 dhclient[10294]: DHCPACK from 192.168.10.176 (xid=0x6439152d)
-13:49:26.478 13:49:26.478 sendMessageToConsole: /var/log/messages: Apr  3 13:49:24 cpu04 dhclient[10294]: bound to 192.168.10.24 -- renewal in 232 seconds.
-13:49:26.478 13:49:26.478 sendMessageToConsole: 
-13:50:06.974 13:50:06.973 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
-13:50:06.974 13:50:06.973 sendMessageToConsole: /var/log/messages: Apr  3 13:50:01 cpu04 systemd: Started Session 1468 of user root.
-13:50:06.974 13:50:06.973 sendMessageToConsole: 
-13:51:02.511 13:51:02.511 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
-13:51:02.511 13:51:02.511 sendMessageToConsole: /var/log/messages: Apr  3 13:51:01 cpu04 systemd: Started Session 1469 of user root.
-13:51:02.511 13:51:02.511 sendMessageToConsole: 
-13:52:02.986 13:52:02.986 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
-13:52:02.987 13:52:02.986 sendMessageToConsole: /var/log/messages: Apr  3 13:51:59 cpu04 dhclient[10419]: DHCPREQUEST on enp0s20u1u5 to 169.254.95.118 port 67 (xid=0x739f38ac)
-13:52:02.987 13:52:02.986 sendMessageToConsole: /var/log/messages: Apr  3 13:51:59 cpu04 dhclient[10419]: DHCPACK from 169.254.95.118 (xid=0x739f38ac)
-13:52:02.987 13:52:02.986 sendMessageToConsole: /var/log/messages: Apr  3 13:52:01 cpu04 dhclient[10419]: bound to 169.254.95.120 -- renewal in 245 seconds.
-13:52:02.987 13:52:02.986 sendMessageToConsole: /var/log/messages: Apr  3 13:52:01 cpu04 systemd: Started Session 1470 of user root.
-13:52:02.987 13:52:02.986 sendMessageToConsole: 
-13:52:50.278 13:52:50.278 
-13:52:50.278 13:52:50.278 Miscellaneous statistics:
-13:52:50.278 13:52:50.278 READ_OPENS          Files opened for read activity:                 704
-13:52:50.278 13:52:50.278 FILE_CLOSES         Close requests:                                 704
-13:52:50.278 13:52:50.278 
-13:52:50.279 13:52:50.279 Java Heap in MB. max:  910.500; current:  316.500; used:   30.495; free:  286.005
-13:52:50.279 13:52:50.279 Maximum native memory allocation:   33,554,432; Current allocation:   33,554,432
-13:52:50.279 13:52:50.279 Writing control file for anchor=/ds4/cpu04 at end of run.
-13:52:50.299 13:52:50.299 Completed control file for anchor=/ds4/cpu04 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 1t/1t/176/176g
-13:52:50.301 13:52:50.301 Writing control file for anchor=/ds2/cpu04 at end of run.
-13:52:50.315 13:52:50.315 Completed control file for anchor=/ds2/cpu04 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 1t/1t/176/176g
-13:52:50.316 13:52:50.315 Writing control file for anchor=/ds3/cpu04 at end of run.
-13:52:50.328 13:52:50.328 Completed control file for anchor=/ds3/cpu04 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 1t/1t/176/176g
-13:52:50.329 13:52:50.329 Writing control file for anchor=/ds1/cpu04 at end of run.
-13:52:50.341 13:52:50.341 Completed control file for anchor=/ds1/cpu04 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 1t/1t/176/176g
-13:52:50.341 13:52:50.341 End of run
-13:52:50.341 13:52:50.341 **********
-13:52:50.341 
-13:52:50.341 
-13:52:51.189 13:52:51.189 Master is requesting slave shutdown
-13:52:51.189 13:52:51.189 Java Heap in MB. max:  910.500; current:  316.500; used:   33.691; free:  282.809
+07:57:23.008 07:57:23.007 task_run_all(): 13 tasks
+07:58:01.435 07:58:01.434 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+07:58:01.435 07:58:01.435 sendMessageToConsole: /var/log/messages: Apr  8 07:58:01 cpu04 systemd: Started Session 8469 of user root.
+07:58:01.435 07:58:01.435 sendMessageToConsole: 
+07:58:31.441 07:58:31.441 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+07:58:31.441 07:58:31.441 sendMessageToConsole: /var/log/messages: Apr  8 07:58:27 cpu04 dhclient[10419]: DHCPREQUEST on enp0s20u1u5 to 169.254.95.118 port 67 (xid=0x739f38ac)
+07:58:31.441 07:58:31.441 sendMessageToConsole: /var/log/messages: Apr  8 07:58:27 cpu04 dhclient[10419]: DHCPACK from 169.254.95.118 (xid=0x739f38ac)
+07:58:31.441 07:58:31.441 sendMessageToConsole: /var/log/messages: Apr  8 07:58:29 cpu04 dhclient[10419]: bound to 169.254.95.120 -- renewal in 286 seconds.
+07:58:31.441 07:58:31.441 sendMessageToConsole: 
+07:59:01.446 07:59:01.446 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+07:59:01.446 07:59:01.446 sendMessageToConsole: /var/log/messages: Apr  8 07:59:01 cpu04 systemd: Started Session 8470 of user root.
+07:59:01.446 07:59:01.446 sendMessageToConsole: 
+08:00:01.453 08:00:01.453 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+08:00:01.454 08:00:01.453 sendMessageToConsole: /var/log/messages: Apr  8 08:00:01 cpu04 systemd: Started Session 8471 of user root.
+08:00:01.454 08:00:01.453 sendMessageToConsole: 
+08:00:36.459 08:00:36.459 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+08:00:36.459 08:00:36.459 sendMessageToConsole: /var/log/messages: Apr  8 08:00:35 cpu04 dhclient[10294]: DHCPREQUEST on eno1 to 192.168.10.10 port 67 (xid=0x6439152d)
+08:00:36.459 08:00:36.459 sendMessageToConsole: /var/log/messages: Apr  8 08:00:35 cpu04 dhclient[10294]: DHCPACK from 192.168.10.10 (xid=0x6439152d)
+08:00:36.459 08:00:36.459 sendMessageToConsole: 
+08:00:41.463 08:00:41.463 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+08:00:41.463 08:00:41.463 sendMessageToConsole: /var/log/messages: Apr  8 08:00:37 cpu04 dhclient[10294]: bound to 192.168.10.24 -- renewal in 251 seconds.
+08:00:41.463 08:00:41.463 sendMessageToConsole: 
+08:01:01.467 08:01:01.467 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+08:01:01.467 08:01:01.467 sendMessageToConsole: /var/log/messages: Apr  8 08:01:01 cpu04 systemd: Started Session 8473 of user root.
+08:01:01.467 08:01:01.467 sendMessageToConsole: /var/log/messages: Apr  8 08:01:01 cpu04 systemd: Started Session 8472 of user root.
+08:01:01.467 08:01:01.467 sendMessageToConsole: 
+08:02:01.473 08:02:01.473 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+08:02:01.473 08:02:01.473 sendMessageToConsole: /var/log/messages: Apr  8 08:02:01 cpu04 systemd: Started Session 8474 of user root.
+08:02:01.473 08:02:01.473 sendMessageToConsole: 
+08:03:01.479 08:03:01.479 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+08:03:01.479 08:03:01.479 sendMessageToConsole: /var/log/messages: Apr  8 08:03:01 cpu04 systemd: Started Session 8475 of user root.
+08:03:01.479 08:03:01.479 sendMessageToConsole: 
+08:03:16.484 08:03:16.484 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+08:03:16.484 08:03:16.484 sendMessageToConsole: /var/log/messages: Apr  8 08:03:15 cpu04 dhclient[10419]: DHCPREQUEST on enp0s20u1u5 to 169.254.95.118 port 67 (xid=0x739f38ac)
+08:03:16.484 08:03:16.484 sendMessageToConsole: /var/log/messages: Apr  8 08:03:15 cpu04 dhclient[10419]: DHCPACK from 169.254.95.118 (xid=0x739f38ac)
+08:03:16.484 08:03:16.484 sendMessageToConsole: 
+08:03:21.487 08:03:21.487 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+08:03:21.487 08:03:21.487 sendMessageToConsole: /var/log/messages: Apr  8 08:03:17 cpu04 dhclient[10419]: bound to 169.254.95.120 -- renewal in 261 seconds.
+08:03:21.487 08:03:21.487 sendMessageToConsole: 
+08:04:01.492 08:04:01.492 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+08:04:01.492 08:04:01.492 sendMessageToConsole: /var/log/messages: Apr  8 08:04:01 cpu04 systemd: Started Session 8476 of user root.
+08:04:01.492 08:04:01.492 sendMessageToConsole: 
+08:04:26.496 08:04:26.496 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+08:04:26.496 08:04:26.496 sendMessageToConsole: /var/log/messages: Apr  8 08:04:23 cpu04 systemd-logind: New session 8477 of user root.
+08:04:26.496 08:04:26.496 sendMessageToConsole: /var/log/messages: Apr  8 08:04:23 cpu04 systemd: Started Session 8477 of user root.
+08:04:26.496 08:04:26.496 sendMessageToConsole: 
+08:04:51.500 08:04:51.500 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+08:04:51.501 08:04:51.500 sendMessageToConsole: /var/log/messages: Apr  8 08:04:48 cpu04 dhclient[10294]: DHCPREQUEST on eno1 to 192.168.10.10 port 67 (xid=0x6439152d)
+08:04:51.501 08:04:51.500 sendMessageToConsole: /var/log/messages: Apr  8 08:04:48 cpu04 dhclient[10294]: DHCPACK from 192.168.10.10 (xid=0x6439152d)
+08:04:51.501 08:04:51.500 sendMessageToConsole: /var/log/messages: Apr  8 08:04:50 cpu04 dhclient[10294]: bound to 192.168.10.24 -- renewal in 232 seconds.
+08:04:51.501 08:04:51.500 sendMessageToConsole: 
+08:05:01.504 08:05:01.504 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+08:05:01.504 08:05:01.504 sendMessageToConsole: /var/log/messages: Apr  8 08:05:01 cpu04 systemd: Started Session 8478 of user root.
+08:05:01.504 08:05:01.504 sendMessageToConsole: 
+08:06:01.509 08:06:01.508 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+08:06:01.509 08:06:01.508 sendMessageToConsole: /var/log/messages: Apr  8 08:06:01 cpu04 systemd: Started Session 8479 of user root.
+08:06:01.509 08:06:01.509 sendMessageToConsole: 
+08:07:01.514 08:07:01.514 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+08:07:01.514 08:07:01.514 sendMessageToConsole: /var/log/messages: Apr  8 08:07:01 cpu04 systemd: Started Session 8480 of user root.
+08:07:01.514 08:07:01.514 sendMessageToConsole: 
+08:07:41.520 08:07:41.519 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+08:07:41.520 08:07:41.519 sendMessageToConsole: /var/log/messages: Apr  8 08:07:38 cpu04 dhclient[10419]: DHCPREQUEST on enp0s20u1u5 to 169.254.95.118 port 67 (xid=0x739f38ac)
+08:07:41.520 08:07:41.519 sendMessageToConsole: /var/log/messages: Apr  8 08:07:38 cpu04 dhclient[10419]: DHCPACK from 169.254.95.118 (xid=0x739f38ac)
+08:07:41.520 08:07:41.519 sendMessageToConsole: /var/log/messages: Apr  8 08:07:40 cpu04 dhclient[10419]: bound to 169.254.95.120 -- renewal in 230 seconds.
+08:07:41.520 08:07:41.519 sendMessageToConsole: 
+08:08:01.524 08:08:01.524 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+08:08:01.524 08:08:01.524 sendMessageToConsole: /var/log/messages: Apr  8 08:08:01 cpu04 systemd: Started Session 8481 of user root.
+08:08:01.524 08:08:01.524 sendMessageToConsole: 
+08:08:23.484 08:08:23.483 
+08:08:23.484 08:08:23.483 Miscellaneous statistics:
+08:08:23.484 08:08:23.484 WRITE_OPENS         Files opened for write activity:            101,863
+08:08:23.484 08:08:23.484 FILE_CLOSES         Close requests:                             101,863
+08:08:23.484 08:08:23.484 
+08:08:23.484 08:08:23.484 Java Heap in MB. max:  910.500; current:  126.000; used:   26.423; free:   99.577
+08:08:23.484 08:08:23.484 Maximum native memory allocation:   25,165,824; Current allocation:   25,165,824
+08:08:23.485 08:08:23.485 Writing control file for anchor=/ds9/cpu04 at end of run.
+08:08:23.500 08:08:23.500 Completed control file for anchor=/ds9/cpu04 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/1024/10g
+08:08:23.500 08:08:23.500 Writing control file for anchor=/ds1/cpu04 at end of run.
+08:08:23.513 08:08:23.513 Completed control file for anchor=/ds1/cpu04 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/1024/10g
+08:08:23.513 08:08:23.513 Writing control file for anchor=/ds6/cpu04 at end of run.
+08:08:23.526 08:08:23.526 Completed control file for anchor=/ds6/cpu04 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/1024/10g
+08:08:23.526 08:08:23.526 Writing control file for anchor=/ds4/cpu04 at end of run.
+08:08:23.540 08:08:23.540 Completed control file for anchor=/ds4/cpu04 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/1024/10g
+08:08:23.540 08:08:23.540 Writing control file for anchor=/ds8/cpu04 at end of run.
+08:08:23.552 08:08:23.552 Completed control file for anchor=/ds8/cpu04 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/1024/10g
+08:08:23.552 08:08:23.552 Writing control file for anchor=/ds2/cpu04 at end of run.
+08:08:23.564 08:08:23.564 Completed control file for anchor=/ds2/cpu04 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/1024/10g
+08:08:23.564 08:08:23.564 Writing control file for anchor=/ds7/cpu04 at end of run.
+08:08:23.577 08:08:23.576 Completed control file for anchor=/ds7/cpu04 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/1024/10g
+08:08:23.577 08:08:23.577 Writing control file for anchor=/ds11/cpu04 at end of run.
+08:08:23.588 08:08:23.588 Completed control file for anchor=/ds11/cpu04 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/1024/10g
+08:08:23.588 08:08:23.588 Writing control file for anchor=/ds3/cpu04 at end of run.
+08:08:23.600 08:08:23.600 Completed control file for anchor=/ds3/cpu04 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/1024/10g
+08:08:23.601 08:08:23.600 Writing control file for anchor=/ds5/cpu04 at end of run.
+08:08:23.612 08:08:23.612 Completed control file for anchor=/ds5/cpu04 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/1024/10g
+08:08:23.612 08:08:23.612 Writing control file for anchor=/ds10/cpu04 at end of run.
+08:08:23.624 08:08:23.624 Completed control file for anchor=/ds10/cpu04 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/1024/10g
+08:08:23.624 08:08:23.624 Writing control file for anchor=/ds12/cpu04 at end of run.
+08:08:23.635 08:08:23.635 Completed control file for anchor=/ds12/cpu04 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/1024/10g
+08:08:23.636 08:08:23.635 End of run
+08:08:23.636 08:08:23.635 **********
+08:08:23.636 
+08:08:23.636 
+08:08:24.328 08:08:24.328 Master is requesting slave shutdown
+08:08:24.328 08:08:24.328 Java Heap in MB. max:  910.500; current:  126.000; used:   31.644; free:   94.356
