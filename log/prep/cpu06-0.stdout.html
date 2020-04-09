@@ -1,524 +1,273 @@
 <title>Vdbench prep/cpu06-0.stdout.html</title><pre>
 stdout/stderr for slave=cpu06-0
 
-16:47:11.389 16:47:11.388 SlaveJvm execution parameter:  '-m 192.168.10.21'
-16:47:11.389 16:47:11.389 SlaveJvm execution parameter:  '-n cpu06-15-200407-16.47.10.455'
-16:47:11.389 16:47:11.389 SlaveJvm execution parameter:  '-l cpu06-0'
-16:47:11.389 16:47:11.389 SlaveJvm execution parameter:  '-p 5570'
-16:47:11.389 16:47:11.389 SlaveJvm positional parameter: 'SlaveJvm'
-16:47:11.520 16:47:11.520 successfully connected to master 192.168.10.21
-16:47:11.520 16:47:11.521 Connection to 192.168.10.21 using port 5570 successful
-16:47:11.759 16:47:11.760 ticks_per_second: 100
-16:47:11.997 16:47:11.997 execute(): ls -l /ds2/cpu06
-16:47:12.005 16:47:12.006 execute(): ls -l /ds5/cpu06
-16:47:12.013 16:47:12.014 execute(): ls -l /ds3/cpu06
-16:47:12.022 16:47:12.022 execute(): ls -l /ds9/cpu06
-16:47:12.031 16:47:12.032 execute(): ls -l /ds10/cpu06
-16:47:12.040 16:47:12.040 execute(): ls -l /ds7/cpu06
-16:47:12.050 16:47:12.050 execute(): ls -l /ds4/cpu06
-16:47:12.058 16:47:12.058 execute(): ls -l /ds12/cpu06
-16:47:12.066 16:47:12.066 execute(): ls -l /ds1/cpu06
-16:47:12.074 16:47:12.074 execute(): ls -l /ds11/cpu06
-16:47:12.082 16:47:12.082 execute(): ls -l /ds6/cpu06
-16:47:12.090 16:47:12.090 execute(): ls -l /ds8/cpu06
-16:47:12.110 16:47:12.110 Configuration interpretation took 0.35 seconds
+14:31:29.443 14:31:29.444 SlaveJvm execution parameter:  '-m 192.168.10.21'
+14:31:29.443 14:31:29.445 SlaveJvm execution parameter:  '-n cpu06-15-200409-14.31.28.664'
+14:31:29.443 14:31:29.445 SlaveJvm execution parameter:  '-l cpu06-0'
+14:31:29.443 14:31:29.445 SlaveJvm execution parameter:  '-p 5570'
+14:31:29.443 14:31:29.445 SlaveJvm positional parameter: 'SlaveJvm'
+14:31:29.570 14:31:29.570 successfully connected to master 192.168.10.21
+14:31:29.570 14:31:29.571 Connection to 192.168.10.21 using port 5570 successful
+14:31:29.816 14:31:29.817 ticks_per_second: 100
+14:31:29.846 14:31:29.847 execute(): ls -l /ds5/cpu06
+14:31:29.869 14:31:29.870 execute(): ls -l /ds2/cpu06
+14:31:29.877 14:31:29.878 execute(): ls -l /ds3/cpu06
+14:31:29.885 14:31:29.886 execute(): ls -l /ds9/cpu06
+14:31:29.893 14:31:29.895 execute(): ls -l /ds10/cpu06
+14:31:29.902 14:31:29.903 execute(): ls -l /ds7/cpu06
+14:31:29.911 14:31:29.912 execute(): ls -l /ds4/cpu06
+14:31:29.919 14:31:29.920 execute(): ls -l /ds12/cpu06
+14:31:29.927 14:31:29.928 execute(): ls -l /ds1/cpu06
+14:31:29.939 14:31:29.940 execute(): ls -l /ds11/cpu06
+14:31:29.949 14:31:29.950 execute(): ls -l /ds6/cpu06
+14:31:29.956 14:31:29.958 execute(): ls -l /ds8/cpu06
+14:31:29.977 14:31:29.978 Configuration interpretation took 0.16 seconds
 
-Link to Run Definitions:         <A HREF="#_110431793">format_for_rd_prep For loops: None</A>
-                                 <A HREF="#_192794887">rd_prep For loops: None</A>
+Link to Run Definitions:         <A HREF="#_811587677">rd_seq_1024w For loops: None</A>
 
-16:47:13.001 16:47:13.001 Beginning of run setup
-16:47:13.001 16:47:13.001 **********************
-16:47:13.001 
-16:47:13.001 
-16:47:13.030 16:47:13.030 File '/var/log/messages.1' does not exist. Monitoring bypassed
-16:47:13.083 16:47:13.084 Deleting old file structure.
-16:47:13.083 16:47:13.084 Deleting old file structure.
-16:47:13.083 16:47:13.084 Deleting old file structure.
-16:47:13.084 16:47:13.084 Deleting old file structure.
-16:47:13.084 16:47:13.084 Deleting old file structure.
-16:47:13.084 16:47:13.084 Deleting old file structure.
-16:47:13.084 16:47:13.084 Deleting old file structure.
-16:47:13.084 16:47:13.084 Deleting old file structure.
-16:47:13.084 16:47:13.084 Deleting old file structure.
-16:47:13.084 16:47:13.084 Deleting old file structure.
-16:47:13.084 16:47:13.084 Deleting old file structure.
-16:47:13.084 16:47:13.084 Deleting old file structure.
-16:47:13.084 16:47:13.085 Starting initializeFileAnchor for rd=format_for_rd_prep For loops: None anchor=fsd_cpu06_ds1
-16:47:13.088 16:47:13.089 Completed the creation of the directory list for /ds1/cpu06: 72 directories.
-16:47:13.090 16:47:13.091 Generated 1,024 file names; total anchor size: 10g (10,737,418,240)
-16:47:13.090 16:47:13.091 Writing control file for anchor=/ds1/cpu06 at start of run.
-16:47:13.115 16:47:13.115 Completed control file for anchor=/ds1/cpu06 at start of run.  dirs: 72/0 files: 1024/0 sizes: 10g/0/0/0
-16:47:13.118 16:47:13.118 Completed initializeFileAnchor for fsd_cpu06_ds1: 0.03
-16:47:13.118 16:47:13.119 Starting initializeFileAnchor for rd=format_for_rd_prep For loops: None anchor=fsd_cpu06_ds2
-16:47:13.119 16:47:13.120 Completed the creation of the directory list for /ds2/cpu06: 72 directories.
-16:47:13.120 16:47:13.120 Generated 1,024 file names; total anchor size: 10g (10,737,418,240)
-16:47:13.120 16:47:13.120 Writing control file for anchor=/ds2/cpu06 at start of run.
-16:47:13.139 16:47:13.139 Completed control file for anchor=/ds2/cpu06 at start of run.  dirs: 72/0 files: 1024/0 sizes: 10g/0/0/0
-16:47:13.140 16:47:13.140 Completed initializeFileAnchor for fsd_cpu06_ds2: 0.02
-16:47:13.140 16:47:13.140 Starting initializeFileAnchor for rd=format_for_rd_prep For loops: None anchor=fsd_cpu06_ds3
-16:47:13.141 16:47:13.141 Completed the creation of the directory list for /ds3/cpu06: 72 directories.
-16:47:13.142 16:47:13.142 Generated 1,024 file names; total anchor size: 10g (10,737,418,240)
-16:47:13.142 16:47:13.142 Writing control file for anchor=/ds3/cpu06 at start of run.
-16:47:13.160 16:47:13.161 Completed control file for anchor=/ds3/cpu06 at start of run.  dirs: 72/0 files: 1024/0 sizes: 10g/0/0/0
-16:47:13.161 16:47:13.161 Completed initializeFileAnchor for fsd_cpu06_ds3: 0.02
-16:47:13.161 16:47:13.161 Starting initializeFileAnchor for rd=format_for_rd_prep For loops: None anchor=fsd_cpu06_ds4
-16:47:13.166 16:47:13.166 Completed the creation of the directory list for /ds4/cpu06: 72 directories.
-16:47:13.166 16:47:13.166 Generated 1,024 file names; total anchor size: 10g (10,737,418,240)
-16:47:13.166 16:47:13.167 Writing control file for anchor=/ds4/cpu06 at start of run.
-16:47:13.185 16:47:13.185 Completed control file for anchor=/ds4/cpu06 at start of run.  dirs: 72/0 files: 1024/0 sizes: 10g/0/0/0
-16:47:13.185 16:47:13.185 Completed initializeFileAnchor for fsd_cpu06_ds4: 0.02
-16:47:13.185 16:47:13.185 Starting initializeFileAnchor for rd=format_for_rd_prep For loops: None anchor=fsd_cpu06_ds5
-16:47:13.186 16:47:13.187 Completed the creation of the directory list for /ds5/cpu06: 72 directories.
-16:47:13.187 16:47:13.187 Generated 1,024 file names; total anchor size: 10g (10,737,418,240)
-16:47:13.187 16:47:13.188 Writing control file for anchor=/ds5/cpu06 at start of run.
-16:47:13.205 16:47:13.206 Completed control file for anchor=/ds5/cpu06 at start of run.  dirs: 72/0 files: 1024/0 sizes: 10g/0/0/0
-16:47:13.206 16:47:13.206 Completed initializeFileAnchor for fsd_cpu06_ds5: 0.02
-16:47:13.206 16:47:13.206 Starting initializeFileAnchor for rd=format_for_rd_prep For loops: None anchor=fsd_cpu06_ds6
-16:47:13.207 16:47:13.207 Completed the creation of the directory list for /ds6/cpu06: 72 directories.
-16:47:13.208 16:47:13.208 Generated 1,024 file names; total anchor size: 10g (10,737,418,240)
-16:47:13.208 16:47:13.208 Writing control file for anchor=/ds6/cpu06 at start of run.
-16:47:13.225 16:47:13.226 Completed control file for anchor=/ds6/cpu06 at start of run.  dirs: 72/0 files: 1024/0 sizes: 10g/0/0/0
-16:47:13.226 16:47:13.226 Completed initializeFileAnchor for fsd_cpu06_ds6: 0.02
-16:47:13.226 16:47:13.226 Starting initializeFileAnchor for rd=format_for_rd_prep For loops: None anchor=fsd_cpu06_ds7
-16:47:13.227 16:47:13.227 Completed the creation of the directory list for /ds7/cpu06: 72 directories.
-16:47:13.228 16:47:13.228 Generated 1,024 file names; total anchor size: 10g (10,737,418,240)
-16:47:13.228 16:47:13.228 Writing control file for anchor=/ds7/cpu06 at start of run.
-16:47:13.246 16:47:13.245 Completed control file for anchor=/ds7/cpu06 at start of run.  dirs: 72/0 files: 1024/0 sizes: 10g/0/0/0
-16:47:13.246 16:47:13.245 Completed initializeFileAnchor for fsd_cpu06_ds7: 0.02
-16:47:13.246 16:47:13.245 Starting initializeFileAnchor for rd=format_for_rd_prep For loops: None anchor=fsd_cpu06_ds8
-16:47:13.246 16:47:13.246 Completed the creation of the directory list for /ds8/cpu06: 72 directories.
-16:47:13.247 16:47:13.247 Generated 1,024 file names; total anchor size: 10g (10,737,418,240)
-16:47:13.247 16:47:13.247 Writing control file for anchor=/ds8/cpu06 at start of run.
-16:47:13.265 16:47:13.266 Completed control file for anchor=/ds8/cpu06 at start of run.  dirs: 72/0 files: 1024/0 sizes: 10g/0/0/0
-16:47:13.266 16:47:13.266 Completed initializeFileAnchor for fsd_cpu06_ds8: 0.02
-16:47:13.266 16:47:13.266 Starting initializeFileAnchor for rd=format_for_rd_prep For loops: None anchor=fsd_cpu06_ds9
-16:47:13.267 16:47:13.267 Completed the creation of the directory list for /ds9/cpu06: 72 directories.
-16:47:13.268 16:47:13.268 Generated 1,024 file names; total anchor size: 10g (10,737,418,240)
-16:47:13.268 16:47:13.268 Writing control file for anchor=/ds9/cpu06 at start of run.
-16:47:13.286 16:47:13.287 Completed control file for anchor=/ds9/cpu06 at start of run.  dirs: 72/0 files: 1024/0 sizes: 10g/0/0/0
-16:47:13.287 16:47:13.287 Completed initializeFileAnchor for fsd_cpu06_ds9: 0.02
-16:47:13.287 16:47:13.287 Starting initializeFileAnchor for rd=format_for_rd_prep For loops: None anchor=fsd_cpu06_ds10
-16:47:13.288 16:47:13.289 Completed the creation of the directory list for /ds10/cpu06: 72 directories.
-16:47:13.289 16:47:13.289 Generated 1,024 file names; total anchor size: 10g (10,737,418,240)
-16:47:13.289 16:47:13.289 Writing control file for anchor=/ds10/cpu06 at start of run.
-16:47:13.307 16:47:13.307 Completed control file for anchor=/ds10/cpu06 at start of run.  dirs: 72/0 files: 1024/0 sizes: 10g/0/0/0
-16:47:13.308 16:47:13.308 Completed initializeFileAnchor for fsd_cpu06_ds10: 0.02
-16:47:13.308 16:47:13.308 Starting initializeFileAnchor for rd=format_for_rd_prep For loops: None anchor=fsd_cpu06_ds11
-16:47:13.309 16:47:13.309 Completed the creation of the directory list for /ds11/cpu06: 72 directories.
-16:47:13.310 16:47:13.310 Generated 1,024 file names; total anchor size: 10g (10,737,418,240)
-16:47:13.310 16:47:13.310 Writing control file for anchor=/ds11/cpu06 at start of run.
-16:47:13.327 16:47:13.328 Completed control file for anchor=/ds11/cpu06 at start of run.  dirs: 72/0 files: 1024/0 sizes: 10g/0/0/0
-16:47:13.328 16:47:13.328 Completed initializeFileAnchor for fsd_cpu06_ds11: 0.02
-16:47:13.328 16:47:13.328 Starting initializeFileAnchor for rd=format_for_rd_prep For loops: None anchor=fsd_cpu06_ds12
-16:47:13.329 16:47:13.329 Completed the creation of the directory list for /ds12/cpu06: 72 directories.
-16:47:13.330 16:47:13.330 Generated 1,024 file names; total anchor size: 10g (10,737,418,240)
-16:47:13.330 16:47:13.330 Writing control file for anchor=/ds12/cpu06 at start of run.
-16:47:13.348 16:47:13.348 Completed control file for anchor=/ds12/cpu06 at start of run.  dirs: 72/0 files: 1024/0 sizes: 10g/0/0/0
-16:47:13.348 16:47:13.348 Completed initializeFileAnchor for fsd_cpu06_ds12: 0.02
-16:47:13.377 16:47:13.377 Started 8 threads for fwd=format,fsd=fsd_cpu06_ds1
-16:47:13.388 16:47:13.388 Started 8 threads for fwd=format,fsd=fsd_cpu06_ds2
-16:47:13.396 16:47:13.396 Started 8 threads for fwd=format,fsd=fsd_cpu06_ds3
-16:47:13.404 16:47:13.404 Started 8 threads for fwd=format,fsd=fsd_cpu06_ds4
-16:47:13.422 16:47:13.422 Started 8 threads for fwd=format,fsd=fsd_cpu06_ds5
-16:47:13.429 16:47:13.429 Started 8 threads for fwd=format,fsd=fsd_cpu06_ds6
-16:47:13.436 16:47:13.436 Started 8 threads for fwd=format,fsd=fsd_cpu06_ds7
-16:47:13.443 16:47:13.443 Started 8 threads for fwd=format,fsd=fsd_cpu06_ds8
-16:47:13.449 16:47:13.450 Started 8 threads for fwd=format,fsd=fsd_cpu06_ds9
-16:47:13.456 16:47:13.456 Started 8 threads for fwd=format,fsd=fsd_cpu06_ds10
-16:47:13.463 16:47:13.463 Started 8 threads for fwd=format,fsd=fsd_cpu06_ds11
-16:47:13.469 16:47:13.469 Started 8 threads for fwd=format,fsd=fsd_cpu06_ds12
-16:47:13.469 16:47:13.469 Started 96 FwgThreads for rd=format_for_rd_prep For loops: None
-16:47:13.469 16:47:13.469 Waiting for task synchronization
-16:47:13.469 16:47:13.470 Requesting full garbage collection
-16:47:13.470 16:47:13.470 GcTracker: cum:   2 intv:  1 ms:       9 mss:  0.00% Heap_MB max:   911 curr:   123 used:    24 free:    99 
-16:47:13.539 16:47:13.539 GcTracker: cum:   4 intv:  2 ms:      68 mss:  0.00% Heap_MB max:   911 curr:   123 used:    22 free:   101 
-16:47:13.539 16:47:13.539 task_wait_start_complete() end
+14:31:30.343 14:31:30.344 Beginning of run setup
+14:31:30.343 14:31:30.344 **********************
+14:31:30.343 
+14:31:30.343 
+14:31:30.412 14:31:30.413 File '/var/log/messages.1' does not exist. Monitoring bypassed
+14:31:30.428 14:31:30.429 Starting initializeFileAnchor for rd=rd_seq_1024w For loops: None anchor=fsd_cpu06_ds1
+14:31:30.431 14:31:30.432 Reading control file for anchor=/ds1/cpu06
+14:31:30.433 14:31:30.435 Completed reading control file.
+14:31:30.434 14:31:30.435 Completed the creation of the directory list for /ds1/cpu06: 72 directories.
+14:31:30.436 14:31:30.437 Generated 512 file names; total anchor size: 5g (5,368,709,120)
+14:31:30.436 14:31:30.438 Writing control file for anchor=/ds1/cpu06 at start of run.
+14:31:30.461 14:31:30.462 Completed control file for anchor=/ds1/cpu06 at start of run.  dirs: 72/72 files: 512/512 sizes: 5g/5g/0/0
+14:31:30.465 14:31:30.466 During anchor creation for anchor=/ds1/cpu06 there were 72 directories and 512 files
+14:31:30.465 14:31:30.466 Completed initializeFileAnchor for fsd_cpu06_ds1: 0.04
+14:31:30.465 14:31:30.467 Starting initializeFileAnchor for rd=rd_seq_1024w For loops: None anchor=fsd_cpu06_ds2
+14:31:30.466 14:31:30.468 Reading control file for anchor=/ds2/cpu06
+14:31:30.468 14:31:30.469 Completed reading control file.
+14:31:30.468 14:31:30.469 Completed the creation of the directory list for /ds2/cpu06: 72 directories.
+14:31:30.469 14:31:30.470 Generated 512 file names; total anchor size: 5g (5,368,709,120)
+14:31:30.469 14:31:30.470 Writing control file for anchor=/ds2/cpu06 at start of run.
+14:31:30.488 14:31:30.489 Completed control file for anchor=/ds2/cpu06 at start of run.  dirs: 72/72 files: 512/512 sizes: 5g/5g/0/0
+14:31:30.488 14:31:30.490 During anchor creation for anchor=/ds2/cpu06 there were 72 directories and 512 files
+14:31:30.488 14:31:30.490 Completed initializeFileAnchor for fsd_cpu06_ds2: 0.02
+14:31:30.488 14:31:30.490 Starting initializeFileAnchor for rd=rd_seq_1024w For loops: None anchor=fsd_cpu06_ds3
+14:31:30.489 14:31:30.491 Reading control file for anchor=/ds3/cpu06
+14:31:30.491 14:31:30.492 Completed reading control file.
+14:31:30.491 14:31:30.493 Completed the creation of the directory list for /ds3/cpu06: 72 directories.
+14:31:30.492 14:31:30.493 Generated 512 file names; total anchor size: 5g (5,368,709,120)
+14:31:30.492 14:31:30.494 Writing control file for anchor=/ds3/cpu06 at start of run.
+14:31:30.509 14:31:30.511 Completed control file for anchor=/ds3/cpu06 at start of run.  dirs: 72/72 files: 512/512 sizes: 5g/5g/0/0
+14:31:30.510 14:31:30.511 During anchor creation for anchor=/ds3/cpu06 there were 72 directories and 512 files
+14:31:30.510 14:31:30.511 Completed initializeFileAnchor for fsd_cpu06_ds3: 0.02
+14:31:30.510 14:31:30.512 Starting initializeFileAnchor for rd=rd_seq_1024w For loops: None anchor=fsd_cpu06_ds4
+14:31:30.511 14:31:30.512 Reading control file for anchor=/ds4/cpu06
+14:31:30.513 14:31:30.514 Completed reading control file.
+14:31:30.513 14:31:30.514 Completed the creation of the directory list for /ds4/cpu06: 72 directories.
+14:31:30.514 14:31:30.515 Generated 512 file names; total anchor size: 5g (5,368,709,120)
+14:31:30.514 14:31:30.515 Writing control file for anchor=/ds4/cpu06 at start of run.
+14:31:30.529 14:31:30.530 Completed control file for anchor=/ds4/cpu06 at start of run.  dirs: 72/72 files: 512/512 sizes: 5g/5g/0/0
+14:31:30.530 14:31:30.531 During anchor creation for anchor=/ds4/cpu06 there were 72 directories and 512 files
+14:31:30.530 14:31:30.531 Completed initializeFileAnchor for fsd_cpu06_ds4: 0.02
+14:31:30.530 14:31:30.532 Starting initializeFileAnchor for rd=rd_seq_1024w For loops: None anchor=fsd_cpu06_ds5
+14:31:30.531 14:31:30.532 Reading control file for anchor=/ds5/cpu06
+14:31:30.533 14:31:30.534 Completed reading control file.
+14:31:30.533 14:31:30.534 Completed the creation of the directory list for /ds5/cpu06: 72 directories.
+14:31:30.539 14:31:30.540 Generated 512 file names; total anchor size: 5g (5,368,709,120)
+14:31:30.539 14:31:30.540 Writing control file for anchor=/ds5/cpu06 at start of run.
+14:31:30.554 14:31:30.555 Completed control file for anchor=/ds5/cpu06 at start of run.  dirs: 72/72 files: 512/512 sizes: 5g/5g/0/0
+14:31:30.554 14:31:30.556 During anchor creation for anchor=/ds5/cpu06 there were 72 directories and 512 files
+14:31:30.555 14:31:30.556 Completed initializeFileAnchor for fsd_cpu06_ds5: 0.03
+14:31:30.555 14:31:30.556 Starting initializeFileAnchor for rd=rd_seq_1024w For loops: None anchor=fsd_cpu06_ds6
+14:31:30.556 14:31:30.557 Reading control file for anchor=/ds6/cpu06
+14:31:30.557 14:31:30.559 Completed reading control file.
+14:31:30.558 14:31:30.559 Completed the creation of the directory list for /ds6/cpu06: 72 directories.
+14:31:30.558 14:31:30.560 Generated 512 file names; total anchor size: 5g (5,368,709,120)
+14:31:30.558 14:31:30.560 Writing control file for anchor=/ds6/cpu06 at start of run.
+14:31:30.581 14:31:30.582 Completed control file for anchor=/ds6/cpu06 at start of run.  dirs: 72/72 files: 512/512 sizes: 5g/5g/0/0
+14:31:30.581 14:31:30.583 During anchor creation for anchor=/ds6/cpu06 there were 72 directories and 512 files
+14:31:30.582 14:31:30.583 Completed initializeFileAnchor for fsd_cpu06_ds6: 0.03
+14:31:30.582 14:31:30.583 Starting initializeFileAnchor for rd=rd_seq_1024w For loops: None anchor=fsd_cpu06_ds7
+14:31:30.582 14:31:30.584 Reading control file for anchor=/ds7/cpu06
+14:31:30.584 14:31:30.585 Completed reading control file.
+14:31:30.584 14:31:30.585 Completed the creation of the directory list for /ds7/cpu06: 72 directories.
+14:31:30.585 14:31:30.586 Generated 512 file names; total anchor size: 5g (5,368,709,120)
+14:31:30.585 14:31:30.586 Writing control file for anchor=/ds7/cpu06 at start of run.
+14:31:30.599 14:31:30.600 Completed control file for anchor=/ds7/cpu06 at start of run.  dirs: 72/72 files: 512/512 sizes: 5g/5g/0/0
+14:31:30.602 14:31:30.601 During anchor creation for anchor=/ds7/cpu06 there were 72 directories and 512 files
+14:31:30.602 14:31:30.601 Completed initializeFileAnchor for fsd_cpu06_ds7: 0.02
+14:31:30.602 14:31:30.601 Starting initializeFileAnchor for rd=rd_seq_1024w For loops: None anchor=fsd_cpu06_ds8
+14:31:30.602 14:31:30.602 Reading control file for anchor=/ds8/cpu06
+14:31:30.602 14:31:30.603 Completed reading control file.
+14:31:30.602 14:31:30.603 Completed the creation of the directory list for /ds8/cpu06: 72 directories.
+14:31:30.603 14:31:30.604 Generated 512 file names; total anchor size: 5g (5,368,709,120)
+14:31:30.603 14:31:30.604 Writing control file for anchor=/ds8/cpu06 at start of run.
+14:31:30.618 14:31:30.619 Completed control file for anchor=/ds8/cpu06 at start of run.  dirs: 72/72 files: 512/512 sizes: 5g/5g/0/0
+14:31:30.619 14:31:30.620 During anchor creation for anchor=/ds8/cpu06 there were 72 directories and 512 files
+14:31:30.619 14:31:30.620 Completed initializeFileAnchor for fsd_cpu06_ds8: 0.02
+14:31:30.619 14:31:30.620 Starting initializeFileAnchor for rd=rd_seq_1024w For loops: None anchor=fsd_cpu06_ds9
+14:31:30.620 14:31:30.621 Reading control file for anchor=/ds9/cpu06
+14:31:30.621 14:31:30.622 Completed reading control file.
+14:31:30.621 14:31:30.622 Completed the creation of the directory list for /ds9/cpu06: 72 directories.
+14:31:30.622 14:31:30.623 Generated 512 file names; total anchor size: 5g (5,368,709,120)
+14:31:30.622 14:31:30.623 Writing control file for anchor=/ds9/cpu06 at start of run.
+14:31:30.637 14:31:30.638 Completed control file for anchor=/ds9/cpu06 at start of run.  dirs: 72/72 files: 512/512 sizes: 5g/5g/0/0
+14:31:30.637 14:31:30.639 During anchor creation for anchor=/ds9/cpu06 there were 72 directories and 512 files
+14:31:30.637 14:31:30.639 Completed initializeFileAnchor for fsd_cpu06_ds9: 0.02
+14:31:30.637 14:31:30.639 Starting initializeFileAnchor for rd=rd_seq_1024w For loops: None anchor=fsd_cpu06_ds10
+14:31:30.638 14:31:30.639 Reading control file for anchor=/ds10/cpu06
+14:31:30.640 14:31:30.641 Completed reading control file.
+14:31:30.640 14:31:30.641 Completed the creation of the directory list for /ds10/cpu06: 72 directories.
+14:31:30.640 14:31:30.642 Generated 512 file names; total anchor size: 5g (5,368,709,120)
+14:31:30.640 14:31:30.642 Writing control file for anchor=/ds10/cpu06 at start of run.
+14:31:30.656 14:31:30.657 Completed control file for anchor=/ds10/cpu06 at start of run.  dirs: 72/72 files: 512/512 sizes: 5g/5g/0/0
+14:31:30.656 14:31:30.657 During anchor creation for anchor=/ds10/cpu06 there were 72 directories and 512 files
+14:31:30.656 14:31:30.657 Completed initializeFileAnchor for fsd_cpu06_ds10: 0.02
+14:31:30.656 14:31:30.657 Starting initializeFileAnchor for rd=rd_seq_1024w For loops: None anchor=fsd_cpu06_ds11
+14:31:30.657 14:31:30.658 Reading control file for anchor=/ds11/cpu06
+14:31:30.658 14:31:30.659 Completed reading control file.
+14:31:30.658 14:31:30.660 Completed the creation of the directory list for /ds11/cpu06: 72 directories.
+14:31:30.659 14:31:30.660 Generated 512 file names; total anchor size: 5g (5,368,709,120)
+14:31:30.659 14:31:30.660 Writing control file for anchor=/ds11/cpu06 at start of run.
+14:31:30.675 14:31:30.676 Completed control file for anchor=/ds11/cpu06 at start of run.  dirs: 72/72 files: 512/512 sizes: 5g/5g/0/0
+14:31:30.675 14:31:30.676 During anchor creation for anchor=/ds11/cpu06 there were 72 directories and 512 files
+14:31:30.675 14:31:30.677 Completed initializeFileAnchor for fsd_cpu06_ds11: 0.02
+14:31:30.675 14:31:30.677 Starting initializeFileAnchor for rd=rd_seq_1024w For loops: None anchor=fsd_cpu06_ds12
+14:31:30.676 14:31:30.677 Reading control file for anchor=/ds12/cpu06
+14:31:30.678 14:31:30.679 Completed reading control file.
+14:31:30.678 14:31:30.679 Completed the creation of the directory list for /ds12/cpu06: 72 directories.
+14:31:30.678 14:31:30.680 Generated 512 file names; total anchor size: 5g (5,368,709,120)
+14:31:30.678 14:31:30.680 Writing control file for anchor=/ds12/cpu06 at start of run.
+14:31:30.693 14:31:30.695 Completed control file for anchor=/ds12/cpu06 at start of run.  dirs: 72/72 files: 512/512 sizes: 5g/5g/0/0
+14:31:30.694 14:31:30.695 During anchor creation for anchor=/ds12/cpu06 there were 72 directories and 512 files
+14:31:30.694 14:31:30.695 Completed initializeFileAnchor for fsd_cpu06_ds12: 0.02
+14:31:30.710 14:31:30.711 Started 1 threads for fwd=fwd_seq_1024w_cpu06,fsd=fsd_cpu06_ds1,operation=write
+14:31:30.713 14:31:30.714 Started 1 threads for fwd=fwd_seq_1024w_cpu06,fsd=fsd_cpu06_ds2,operation=write
+14:31:30.715 14:31:30.717 Started 1 threads for fwd=fwd_seq_1024w_cpu06,fsd=fsd_cpu06_ds3,operation=write
+14:31:30.718 14:31:30.720 Started 1 threads for fwd=fwd_seq_1024w_cpu06,fsd=fsd_cpu06_ds4,operation=write
+14:31:30.721 14:31:30.722 Started 1 threads for fwd=fwd_seq_1024w_cpu06,fsd=fsd_cpu06_ds5,operation=write
+14:31:30.724 14:31:30.725 Started 1 threads for fwd=fwd_seq_1024w_cpu06,fsd=fsd_cpu06_ds6,operation=write
+14:31:30.726 14:31:30.728 Started 1 threads for fwd=fwd_seq_1024w_cpu06,fsd=fsd_cpu06_ds7,operation=write
+14:31:30.729 14:31:30.730 Started 1 threads for fwd=fwd_seq_1024w_cpu06,fsd=fsd_cpu06_ds8,operation=write
+14:31:30.732 14:31:30.733 Started 1 threads for fwd=fwd_seq_1024w_cpu06,fsd=fsd_cpu06_ds9,operation=write
+14:31:30.734 14:31:30.736 Started 1 threads for fwd=fwd_seq_1024w_cpu06,fsd=fsd_cpu06_ds10,operation=write
+14:31:30.737 14:31:30.738 Started 1 threads for fwd=fwd_seq_1024w_cpu06,fsd=fsd_cpu06_ds11,operation=write
+14:31:30.740 14:31:30.741 Started 1 threads for fwd=fwd_seq_1024w_cpu06,fsd=fsd_cpu06_ds12,operation=write
+14:31:30.740 14:31:30.741 Started 12 FwgThreads for rd=rd_seq_1024w For loops: None
+14:31:30.740 14:31:30.741 Waiting for task synchronization
+14:31:30.740 14:31:30.741 task_wait_start_complete: FwgThread write /ds12/cpu06 1
+14:31:30.940 14:31:30.941 Requesting full garbage collection
+14:31:30.940 14:31:30.942 GcTracker: cum:   2 intv:  1 ms:       6 mss:  0.00% Heap_MB max:   911 curr:   156 used:    26 free:   129 
+14:31:30.978 14:31:30.979 GcTracker: cum:   4 intv:  2 ms:      37 mss:  0.00% Heap_MB max:   911 curr:   156 used:    17 free:   139 
+14:31:30.979 14:31:30.980 task_wait_start_complete() end
 
-<a name="_110431793"></a><i><b>16:47:15.001 Starting RD=format_for_rd_prep</b></i>
+<a name="_811587677"></a><i><b>14:31:32.001 Starting RD=rd_seq_1024w; elapsed=600 warmup=60; fwdrate=max. For loops: None</b></i>
 
-16:47:15.006 16:47:15.006 task_run_all(): 97 tasks
-16:47:17.011 16:47:17.011 Message to master: anchor=/ds5/cpu06 mkdir complete.
-16:47:17.122 16:47:17.122 Message to master: anchor=/ds9/cpu06 mkdir complete.
-16:47:17.139 16:47:17.139 Message to master: anchor=/ds1/cpu06 mkdir complete.
-16:47:20.420 16:47:20.420 Message to master: anchor=/ds8/cpu06 mkdir complete.
-16:47:20.609 16:47:20.609 Message to master: anchor=/ds12/cpu06 mkdir complete.
-16:47:20.720 16:47:20.721 Message to master: anchor=/ds4/cpu06 mkdir complete.
-16:47:24.557 16:47:24.557 Message to master: anchor=/ds6/cpu06 mkdir complete.
-16:47:24.579 16:47:24.579 Message to master: anchor=/ds10/cpu06 mkdir complete.
-16:47:24.684 16:47:24.685 Message to master: anchor=/ds2/cpu06 mkdir complete.
-16:47:27.939 16:47:27.940 Message to master: anchor=/ds7/cpu06 mkdir complete.
-16:47:28.113 16:47:28.113 Message to master: anchor=/ds11/cpu06 mkdir complete.
-16:47:28.248 16:47:28.248 Message to master: anchor=/ds3/cpu06 mkdir complete.
-16:47:32.125 16:47:32.125 Message to master: anchor=/ds1/cpu06: Created 100 of 1,024 files (9.77%)
-16:47:47.206 16:47:47.206 Message to master: anchor=/ds4/cpu06: Created 170 of 1,024 files (16.60%)
-16:48:02.260 16:48:02.261 Message to master: anchor=/ds2/cpu06: Created 260 of 1,024 files (25.39%)
-16:48:03.045 16:48:03.046 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
-16:48:03.046 16:48:03.046 sendMessageToConsole: /var/log/messages: Apr  7 16:48:01 cpu06 systemd: Started Session 7539 of user root.
-16:48:03.046 16:48:03.046 sendMessageToConsole: 
-16:48:17.269 16:48:17.270 Message to master: anchor=/ds3/cpu06: Created 350 of 1,024 files (34.18%)
-16:48:32.367 16:48:32.367 Message to master: anchor=/ds6/cpu06: Created 480 of 1,024 files (46.88%)
-16:48:47.892 16:48:47.893 Message to master: anchor=/ds7/cpu06: Created 570 of 1,024 files (55.66%)
-16:48:58.051 16:48:58.052 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
-16:48:58.051 16:48:58.052 sendMessageToConsole: /var/log/messages: Apr  7 16:48:55 cpu06 dhclient[9215]: DHCPREQUEST on eno1 to 192.168.10.10 port 67 (xid=0x3bcdaffc)
-16:48:58.051 16:48:58.052 sendMessageToConsole: /var/log/messages: Apr  7 16:48:55 cpu06 dhclient[9215]: DHCPACK from 192.168.10.10 (xid=0x3bcdaffc)
-16:48:58.051 16:48:58.052 sendMessageToConsole: /var/log/messages: Apr  7 16:48:57 cpu06 dhclient[9215]: bound to 192.168.10.26 -- renewal in 298 seconds.
-16:48:58.051 16:48:58.052 sendMessageToConsole: 
-16:49:02.901 16:49:02.901 Message to master: anchor=/ds1/cpu06: Created 760 of 1,024 files (74.22%)
-16:49:03.056 16:49:03.056 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
-16:49:03.056 16:49:03.056 sendMessageToConsole: /var/log/messages: Apr  7 16:49:01 cpu06 systemd: Started Session 7540 of user root.
-16:49:03.056 16:49:03.056 sendMessageToConsole: 
-16:49:17.985 16:49:17.985 Message to master: anchor=/ds3/cpu06: Created 780 of 1,024 files (76.17%)
-16:49:23.062 16:49:23.063 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
-16:49:23.062 16:49:23.063 sendMessageToConsole: /var/log/messages: Apr  7 16:49:21 cpu06 dhclient[9372]: DHCPREQUEST on enp0s20u1u5 to 169.254.95.118 port 67 (xid=0x37dc0c27)
-16:49:23.062 16:49:23.063 sendMessageToConsole: /var/log/messages: Apr  7 16:49:21 cpu06 dhclient[9372]: DHCPACK from 169.254.95.118 (xid=0x37dc0c27)
-16:49:23.062 16:49:23.063 sendMessageToConsole: 
-16:49:28.067 16:49:28.067 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
-16:49:28.067 16:49:28.067 sendMessageToConsole: /var/log/messages: Apr  7 16:49:23 cpu06 dhclient[9372]: bound to 169.254.95.120 -- renewal in 268 seconds.
-16:49:28.067 16:49:28.067 sendMessageToConsole: 
-16:49:33.298 16:49:33.299 Message to master: anchor=/ds1/cpu06: Created 970 of 1,024 files (94.73%)
-16:49:40.194 16:49:40.194 Message to master: anchor=/ds1/cpu06 create complete.
-16:49:40.302 16:49:40.302 Message to master: anchor=/ds5/cpu06 create complete.
-16:49:40.548 16:49:40.548 Message to master: anchor=/ds9/cpu06 create complete.
-16:49:46.170 16:49:46.171 Message to master: anchor=/ds8/cpu06 create complete.
-16:49:46.209 16:49:46.210 Message to master: anchor=/ds12/cpu06 create complete.
-16:49:46.222 16:49:46.222 Message to master: anchor=/ds4/cpu06 create complete.
-16:49:48.759 16:49:48.760 Message to master: anchor=/ds11/cpu06: Created 1,000 of 1,024 files (97.66%)
-16:49:48.811 16:49:48.811 Message to master: anchor=/ds2/cpu06 create complete.
-16:49:48.822 16:49:48.823 Message to master: anchor=/ds6/cpu06 create complete.
-16:49:48.924 16:49:48.924 Message to master: anchor=/ds10/cpu06 create complete.
-16:49:50.183 16:49:50.183 Message to master: anchor=/ds7/cpu06 create complete.
-16:49:50.628 16:49:50.629 Message to master: anchor=/ds3/cpu06 create complete.
-16:49:50.844 16:49:50.844 Message to master: anchor=/ds11/cpu06 create complete.
-16:49:50.950 16:49:50.950 
-16:49:50.950 16:49:50.950 Miscellaneous statistics:
-16:49:50.950 16:49:50.950 FILE_CREATES        Files created:                               12,288
-16:49:50.950 16:49:50.950 DIRECTORY_CREATES   Directories created:                            864
-16:49:50.950 16:49:50.950 DIRECTORY_DELETES   Directories deleted:                            864
-16:49:50.950 16:49:50.951 WRITE_OPENS         Files opened for write activity:             12,288
-16:49:50.950 16:49:50.951 DIR_EXISTS          Directory may not exist (yet):                   84
-16:49:50.950 16:49:50.951 FILE_CLOSES         Close requests:                              12,288
-16:49:50.950 16:49:50.951 
-16:49:50.951 16:49:50.951 Java Heap in MB. max:  910.500; current:  137.000; used:   69.502; free:   67.498
-16:49:50.951 16:49:50.951 Maximum native memory allocation:   12,582,912; Current allocation:   12,582,912
-16:50:03.074 16:50:03.074 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
-16:50:03.074 16:50:03.074 sendMessageToConsole: /var/log/messages: Apr  7 16:50:01 cpu06 systemd: Started Session 7541 of user root.
-16:50:03.074 16:50:03.074 sendMessageToConsole: 
-16:51:03.088 16:51:03.088 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
-16:51:03.088 16:51:03.089 sendMessageToConsole: /var/log/messages: Apr  7 16:51:01 cpu06 systemd: Started Session 7542 of user root.
-16:51:03.089 16:51:03.089 sendMessageToConsole: 
-16:51:10.144 16:51:10.145 Writing control file for anchor=/ds12/cpu06 at end of run.
-16:51:10.173 16:51:10.173 Completed control file for anchor=/ds12/cpu06 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/1024/10g
-16:51:10.173 16:51:10.173 Writing control file for anchor=/ds3/cpu06 at end of run.
-16:51:10.194 16:51:10.195 Completed control file for anchor=/ds3/cpu06 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/1024/10g
-16:51:10.194 16:51:10.195 Writing control file for anchor=/ds11/cpu06 at end of run.
-16:51:10.215 16:51:10.215 Completed control file for anchor=/ds11/cpu06 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/1024/10g
-16:51:10.215 16:51:10.216 Writing control file for anchor=/ds6/cpu06 at end of run.
-16:51:10.236 16:51:10.237 Completed control file for anchor=/ds6/cpu06 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/1024/10g
-16:51:10.236 16:51:10.237 Writing control file for anchor=/ds9/cpu06 at end of run.
-16:51:10.257 16:51:10.258 Completed control file for anchor=/ds9/cpu06 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/1024/10g
-16:51:10.258 16:51:10.258 Writing control file for anchor=/ds1/cpu06 at end of run.
-16:51:10.278 16:51:10.279 Completed control file for anchor=/ds1/cpu06 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/1024/10g
-16:51:10.279 16:51:10.279 Writing control file for anchor=/ds4/cpu06 at end of run.
-16:51:10.299 16:51:10.300 Completed control file for anchor=/ds4/cpu06 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/1024/10g
-16:51:10.299 16:51:10.300 Writing control file for anchor=/ds2/cpu06 at end of run.
-16:51:10.319 16:51:10.320 Completed control file for anchor=/ds2/cpu06 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/1024/10g
-16:51:10.320 16:51:10.320 Writing control file for anchor=/ds8/cpu06 at end of run.
-16:51:10.340 16:51:10.340 Completed control file for anchor=/ds8/cpu06 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/1024/10g
-16:51:10.340 16:51:10.341 Writing control file for anchor=/ds5/cpu06 at end of run.
-16:51:10.360 16:51:10.360 Completed control file for anchor=/ds5/cpu06 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/1024/10g
-16:51:10.360 16:51:10.361 Writing control file for anchor=/ds7/cpu06 at end of run.
-16:51:10.379 16:51:10.380 Completed control file for anchor=/ds7/cpu06 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/1024/10g
-16:51:10.380 16:51:10.380 Writing control file for anchor=/ds10/cpu06 at end of run.
-16:51:10.399 16:51:10.400 Completed control file for anchor=/ds10/cpu06 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/1024/10g
-16:51:10.400 16:51:10.400 End of run
-16:51:10.400 16:51:10.400 **********
-16:51:10.400 
-16:51:10.400 
-16:51:11.057 16:51:11.057 Beginning of run setup
-16:51:11.057 16:51:11.057 **********************
-16:51:11.057 
-16:51:11.057 
-16:51:11.126 16:51:11.126 Starting initializeFileAnchor for rd=rd_prep For loops: None anchor=fsd_cpu06_ds1
-16:51:11.127 16:51:11.127 Reading control file for anchor=/ds1/cpu06
-16:51:11.128 16:51:11.129 Completed reading control file.
-16:51:11.129 16:51:11.129 Completed the creation of the directory list for /ds1/cpu06: 72 directories.
-16:51:11.130 16:51:11.131 Generated 1,024 file names; total anchor size: 10g (10,737,418,240)
-16:51:11.130 16:51:11.131 Writing control file for anchor=/ds1/cpu06 at start of run.
-16:51:11.150 16:51:11.150 Completed control file for anchor=/ds1/cpu06 at start of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/0/0
-16:51:11.150 16:51:11.151 During anchor creation for anchor=/ds1/cpu06 there were 72 directories and 1024 files
-16:51:11.150 16:51:11.151 Completed initializeFileAnchor for fsd_cpu06_ds1: 0.03
-16:51:11.150 16:51:11.151 Starting initializeFileAnchor for rd=rd_prep For loops: None anchor=fsd_cpu06_ds2
-16:51:11.151 16:51:11.151 Reading control file for anchor=/ds2/cpu06
-16:51:11.152 16:51:11.153 Completed reading control file.
-16:51:11.152 16:51:11.153 Completed the creation of the directory list for /ds2/cpu06: 72 directories.
-16:51:11.153 16:51:11.154 Generated 1,024 file names; total anchor size: 10g (10,737,418,240)
-16:51:11.153 16:51:11.154 Writing control file for anchor=/ds2/cpu06 at start of run.
-16:51:11.170 16:51:11.170 Completed control file for anchor=/ds2/cpu06 at start of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/0/0
-16:51:11.170 16:51:11.170 During anchor creation for anchor=/ds2/cpu06 there were 72 directories and 1024 files
-16:51:11.170 16:51:11.170 Completed initializeFileAnchor for fsd_cpu06_ds2: 0.02
-16:51:11.170 16:51:11.171 Starting initializeFileAnchor for rd=rd_prep For loops: None anchor=fsd_cpu06_ds3
-16:51:11.171 16:51:11.171 Reading control file for anchor=/ds3/cpu06
-16:51:11.172 16:51:11.172 Completed reading control file.
-16:51:11.172 16:51:11.173 Completed the creation of the directory list for /ds3/cpu06: 72 directories.
-16:51:11.173 16:51:11.173 Generated 1,024 file names; total anchor size: 10g (10,737,418,240)
-16:51:11.173 16:51:11.173 Writing control file for anchor=/ds3/cpu06 at start of run.
-16:51:11.189 16:51:11.189 Completed control file for anchor=/ds3/cpu06 at start of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/0/0
-16:51:11.189 16:51:11.189 During anchor creation for anchor=/ds3/cpu06 there were 72 directories and 1024 files
-16:51:11.189 16:51:11.189 Completed initializeFileAnchor for fsd_cpu06_ds3: 0.02
-16:51:11.189 16:51:11.189 Starting initializeFileAnchor for rd=rd_prep For loops: None anchor=fsd_cpu06_ds4
-16:51:11.189 16:51:11.190 Reading control file for anchor=/ds4/cpu06
-16:51:11.190 16:51:11.191 Completed reading control file.
-16:51:11.191 16:51:11.191 Completed the creation of the directory list for /ds4/cpu06: 72 directories.
-16:51:11.191 16:51:11.192 Generated 1,024 file names; total anchor size: 10g (10,737,418,240)
-16:51:11.191 16:51:11.192 Writing control file for anchor=/ds4/cpu06 at start of run.
-16:51:11.207 16:51:11.207 Completed control file for anchor=/ds4/cpu06 at start of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/0/0
-16:51:11.207 16:51:11.208 During anchor creation for anchor=/ds4/cpu06 there were 72 directories and 1024 files
-16:51:11.207 16:51:11.208 Completed initializeFileAnchor for fsd_cpu06_ds4: 0.02
-16:51:11.207 16:51:11.208 Starting initializeFileAnchor for rd=rd_prep For loops: None anchor=fsd_cpu06_ds5
-16:51:11.208 16:51:11.208 Reading control file for anchor=/ds5/cpu06
-16:51:11.209 16:51:11.209 Completed reading control file.
-16:51:11.209 16:51:11.209 Completed the creation of the directory list for /ds5/cpu06: 72 directories.
-16:51:11.210 16:51:11.210 Generated 1,024 file names; total anchor size: 10g (10,737,418,240)
-16:51:11.210 16:51:11.210 Writing control file for anchor=/ds5/cpu06 at start of run.
-16:51:11.226 16:51:11.226 Completed control file for anchor=/ds5/cpu06 at start of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/0/0
-16:51:11.226 16:51:11.227 During anchor creation for anchor=/ds5/cpu06 there were 72 directories and 1024 files
-16:51:11.226 16:51:11.227 Completed initializeFileAnchor for fsd_cpu06_ds5: 0.02
-16:51:11.226 16:51:11.227 Starting initializeFileAnchor for rd=rd_prep For loops: None anchor=fsd_cpu06_ds6
-16:51:11.227 16:51:11.227 Reading control file for anchor=/ds6/cpu06
-16:51:11.228 16:51:11.228 Completed reading control file.
-16:51:11.228 16:51:11.228 Completed the creation of the directory list for /ds6/cpu06: 72 directories.
-16:51:11.229 16:51:11.229 Generated 1,024 file names; total anchor size: 10g (10,737,418,240)
-16:51:11.229 16:51:11.229 Writing control file for anchor=/ds6/cpu06 at start of run.
-16:51:11.247 16:51:11.247 Completed control file for anchor=/ds6/cpu06 at start of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/0/0
-16:51:11.247 16:51:11.247 During anchor creation for anchor=/ds6/cpu06 there were 72 directories and 1024 files
-16:51:11.247 16:51:11.247 Completed initializeFileAnchor for fsd_cpu06_ds6: 0.02
-16:51:11.247 16:51:11.247 Starting initializeFileAnchor for rd=rd_prep For loops: None anchor=fsd_cpu06_ds7
-16:51:11.247 16:51:11.248 Reading control file for anchor=/ds7/cpu06
-16:51:11.249 16:51:11.249 Completed reading control file.
-16:51:11.249 16:51:11.249 Completed the creation of the directory list for /ds7/cpu06: 72 directories.
-16:51:11.249 16:51:11.250 Generated 1,024 file names; total anchor size: 10g (10,737,418,240)
-16:51:11.249 16:51:11.250 Writing control file for anchor=/ds7/cpu06 at start of run.
-16:51:11.265 16:51:11.265 Completed control file for anchor=/ds7/cpu06 at start of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/0/0
-16:51:11.265 16:51:11.265 During anchor creation for anchor=/ds7/cpu06 there were 72 directories and 1024 files
-16:51:11.265 16:51:11.265 Completed initializeFileAnchor for fsd_cpu06_ds7: 0.02
-16:51:11.265 16:51:11.265 Starting initializeFileAnchor for rd=rd_prep For loops: None anchor=fsd_cpu06_ds8
-16:51:11.265 16:51:11.266 Reading control file for anchor=/ds8/cpu06
-16:51:11.267 16:51:11.267 Completed reading control file.
-16:51:11.267 16:51:11.267 Completed the creation of the directory list for /ds8/cpu06: 72 directories.
-16:51:11.267 16:51:11.268 Generated 1,024 file names; total anchor size: 10g (10,737,418,240)
-16:51:11.267 16:51:11.268 Writing control file for anchor=/ds8/cpu06 at start of run.
-16:51:11.283 16:51:11.283 Completed control file for anchor=/ds8/cpu06 at start of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/0/0
-16:51:11.283 16:51:11.283 During anchor creation for anchor=/ds8/cpu06 there were 72 directories and 1024 files
-16:51:11.283 16:51:11.283 Completed initializeFileAnchor for fsd_cpu06_ds8: 0.02
-16:51:11.283 16:51:11.283 Starting initializeFileAnchor for rd=rd_prep For loops: None anchor=fsd_cpu06_ds9
-16:51:11.283 16:51:11.284 Reading control file for anchor=/ds9/cpu06
-16:51:11.285 16:51:11.285 Completed reading control file.
-16:51:11.285 16:51:11.285 Completed the creation of the directory list for /ds9/cpu06: 72 directories.
-16:51:11.285 16:51:11.286 Generated 1,024 file names; total anchor size: 10g (10,737,418,240)
-16:51:11.285 16:51:11.286 Writing control file for anchor=/ds9/cpu06 at start of run.
-16:51:11.301 16:51:11.301 Completed control file for anchor=/ds9/cpu06 at start of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/0/0
-16:51:11.301 16:51:11.301 During anchor creation for anchor=/ds9/cpu06 there were 72 directories and 1024 files
-16:51:11.301 16:51:11.301 Completed initializeFileAnchor for fsd_cpu06_ds9: 0.02
-16:51:11.301 16:51:11.301 Starting initializeFileAnchor for rd=rd_prep For loops: None anchor=fsd_cpu06_ds10
-16:51:11.301 16:51:11.302 Reading control file for anchor=/ds10/cpu06
-16:51:11.303 16:51:11.303 Completed reading control file.
-16:51:11.303 16:51:11.303 Completed the creation of the directory list for /ds10/cpu06: 72 directories.
-16:51:11.303 16:51:11.303 Generated 1,024 file names; total anchor size: 10g (10,737,418,240)
-16:51:11.303 16:51:11.303 Writing control file for anchor=/ds10/cpu06 at start of run.
-16:51:11.319 16:51:11.319 Completed control file for anchor=/ds10/cpu06 at start of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/0/0
-16:51:11.319 16:51:11.319 During anchor creation for anchor=/ds10/cpu06 there were 72 directories and 1024 files
-16:51:11.319 16:51:11.319 Completed initializeFileAnchor for fsd_cpu06_ds10: 0.02
-16:51:11.319 16:51:11.319 Starting initializeFileAnchor for rd=rd_prep For loops: None anchor=fsd_cpu06_ds11
-16:51:11.319 16:51:11.320 Reading control file for anchor=/ds11/cpu06
-16:51:11.321 16:51:11.321 Completed reading control file.
-16:51:11.321 16:51:11.321 Completed the creation of the directory list for /ds11/cpu06: 72 directories.
-16:51:11.321 16:51:11.322 Generated 1,024 file names; total anchor size: 10g (10,737,418,240)
-16:51:11.322 16:51:11.322 Writing control file for anchor=/ds11/cpu06 at start of run.
-16:51:11.337 16:51:11.337 Completed control file for anchor=/ds11/cpu06 at start of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/0/0
-16:51:11.337 16:51:11.337 During anchor creation for anchor=/ds11/cpu06 there were 72 directories and 1024 files
-16:51:11.337 16:51:11.338 Completed initializeFileAnchor for fsd_cpu06_ds11: 0.02
-16:51:11.337 16:51:11.338 Starting initializeFileAnchor for rd=rd_prep For loops: None anchor=fsd_cpu06_ds12
-16:51:11.337 16:51:11.338 Reading control file for anchor=/ds12/cpu06
-16:51:11.339 16:51:11.339 Completed reading control file.
-16:51:11.339 16:51:11.339 Completed the creation of the directory list for /ds12/cpu06: 72 directories.
-16:51:11.339 16:51:11.340 Generated 1,024 file names; total anchor size: 10g (10,737,418,240)
-16:51:11.339 16:51:11.340 Writing control file for anchor=/ds12/cpu06 at start of run.
-16:51:11.355 16:51:11.356 Completed control file for anchor=/ds12/cpu06 at start of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/0/0
-16:51:11.356 16:51:11.356 During anchor creation for anchor=/ds12/cpu06 there were 72 directories and 1024 files
-16:51:11.356 16:51:11.356 Completed initializeFileAnchor for fsd_cpu06_ds12: 0.02
-16:51:11.359 16:51:11.359 Started 1 threads for fwd=fwd_prep_cpu06,fsd=fsd_cpu06_ds1,operation=create
-16:51:11.360 16:51:11.360 Started 1 threads for fwd=fwd_prep_cpu06,fsd=fsd_cpu06_ds2,operation=create
-16:51:11.361 16:51:11.361 Started 1 threads for fwd=fwd_prep_cpu06,fsd=fsd_cpu06_ds3,operation=create
-16:51:11.361 16:51:11.362 Started 1 threads for fwd=fwd_prep_cpu06,fsd=fsd_cpu06_ds4,operation=create
-16:51:11.362 16:51:11.363 Started 1 threads for fwd=fwd_prep_cpu06,fsd=fsd_cpu06_ds5,operation=create
-16:51:11.363 16:51:11.363 Started 1 threads for fwd=fwd_prep_cpu06,fsd=fsd_cpu06_ds6,operation=create
-16:51:11.364 16:51:11.364 Started 1 threads for fwd=fwd_prep_cpu06,fsd=fsd_cpu06_ds7,operation=create
-16:51:11.365 16:51:11.365 Started 1 threads for fwd=fwd_prep_cpu06,fsd=fsd_cpu06_ds8,operation=create
-16:51:11.365 16:51:11.366 Started 1 threads for fwd=fwd_prep_cpu06,fsd=fsd_cpu06_ds9,operation=create
-16:51:11.366 16:51:11.366 Started 1 threads for fwd=fwd_prep_cpu06,fsd=fsd_cpu06_ds10,operation=create
-16:51:11.367 16:51:11.367 Started 1 threads for fwd=fwd_prep_cpu06,fsd=fsd_cpu06_ds11,operation=create
-16:51:11.368 16:51:11.368 Started 1 threads for fwd=fwd_prep_cpu06,fsd=fsd_cpu06_ds12,operation=create
-16:51:11.368 16:51:11.368 Started 12 FwgThreads for rd=rd_prep For loops: None
-16:51:11.368 16:51:11.368 Waiting for task synchronization
-16:51:11.368 16:51:11.368 task_wait_start_complete: FwgThread create /ds12/cpu06 1
-16:51:11.568 16:51:11.568 Requesting full garbage collection
-16:51:11.568 16:51:11.569 GcTracker: cum:  10 intv:  0 ms:       0 mss:  0.00% Heap_MB max:   911 curr:   135 used:    42 free:    93 
-16:51:11.648 16:51:11.648 GcTracker: cum:  12 intv:  2 ms:      79 mss:  0.00% Heap_MB max:   911 curr:   143 used:    23 free:   119 
-16:51:11.648 16:51:11.648 task_wait_start_complete() end
-
-<a name="_192794887"></a><i><b>16:51:12.000 Starting RD=rd_prep; elapsed=30; fwdrate=max. For loops: None</b></i>
-
-16:51:12.003 16:51:12.003 task_run_all(): 13 tasks
-16:51:12.361 16:51:12.361 Anchor: /ds1/cpu06
-16:51:12.361 16:51:12.361 Vdbench is trying to create a new file, but all files already exist, 
-16:51:12.361 16:51:12.361 and no threads are currently active deleting files
-16:51:12.361 16:51:12.361 FwgThread.canWeGetMoreFiles(): Shutting down threads for operation=create
-16:51:12.361 16:51:12.361 
-16:51:12.361 16:51:12.361 sendMessageToConsole: Anchor: /ds1/cpu06
-16:51:12.361 16:51:12.361 sendMessageToConsole: Vdbench is trying to create a new file, but all files already exist, 
-16:51:12.361 16:51:12.361 sendMessageToConsole: and no threads are currently active deleting files
-16:51:12.361 16:51:12.361 sendMessageToConsole: FwgThread.canWeGetMoreFiles(): Shutting down threads for operation=create
-16:51:12.361 16:51:12.361 sendMessageToConsole: 
-16:51:12.362 16:51:12.362 Anchor: /ds2/cpu06
-16:51:12.362 16:51:12.362 Vdbench is trying to create a new file, but all files already exist, 
-16:51:12.362 16:51:12.362 and no threads are currently active deleting files
-16:51:12.362 16:51:12.362 FwgThread.canWeGetMoreFiles(): Shutting down threads for operation=create
-16:51:12.362 16:51:12.362 
-16:51:12.362 16:51:12.362 sendMessageToConsole: Anchor: /ds2/cpu06
-16:51:12.362 16:51:12.363 sendMessageToConsole: Vdbench is trying to create a new file, but all files already exist, 
-16:51:12.362 16:51:12.363 sendMessageToConsole: and no threads are currently active deleting files
-16:51:12.362 16:51:12.363 sendMessageToConsole: FwgThread.canWeGetMoreFiles(): Shutting down threads for operation=create
-16:51:12.362 16:51:12.363 sendMessageToConsole: 
-16:51:12.362 16:51:12.363 Anchor: /ds3/cpu06
-16:51:12.362 16:51:12.363 Vdbench is trying to create a new file, but all files already exist, 
-16:51:12.362 16:51:12.363 and no threads are currently active deleting files
-16:51:12.362 16:51:12.363 FwgThread.canWeGetMoreFiles(): Shutting down threads for operation=create
-16:51:12.362 16:51:12.363 
-16:51:12.363 16:51:12.363 sendMessageToConsole: Anchor: /ds3/cpu06
-16:51:12.363 16:51:12.363 sendMessageToConsole: Vdbench is trying to create a new file, but all files already exist, 
-16:51:12.363 16:51:12.363 sendMessageToConsole: and no threads are currently active deleting files
-16:51:12.363 16:51:12.363 sendMessageToConsole: FwgThread.canWeGetMoreFiles(): Shutting down threads for operation=create
-16:51:12.363 16:51:12.363 sendMessageToConsole: 
-16:51:12.363 16:51:12.363 Anchor: /ds4/cpu06
-16:51:12.363 16:51:12.363 Vdbench is trying to create a new file, but all files already exist, 
-16:51:12.363 16:51:12.363 and no threads are currently active deleting files
-16:51:12.363 16:51:12.363 FwgThread.canWeGetMoreFiles(): Shutting down threads for operation=create
-16:51:12.363 16:51:12.363 
-16:51:12.363 16:51:12.363 sendMessageToConsole: Anchor: /ds4/cpu06
-16:51:12.363 16:51:12.363 sendMessageToConsole: Vdbench is trying to create a new file, but all files already exist, 
-16:51:12.363 16:51:12.363 sendMessageToConsole: and no threads are currently active deleting files
-16:51:12.363 16:51:12.364 sendMessageToConsole: FwgThread.canWeGetMoreFiles(): Shutting down threads for operation=create
-16:51:12.363 16:51:12.364 sendMessageToConsole: 
-16:51:12.364 16:51:12.364 Anchor: /ds5/cpu06
-16:51:12.364 16:51:12.364 Vdbench is trying to create a new file, but all files already exist, 
-16:51:12.364 16:51:12.364 and no threads are currently active deleting files
-16:51:12.364 16:51:12.364 FwgThread.canWeGetMoreFiles(): Shutting down threads for operation=create
-16:51:12.364 16:51:12.364 
-16:51:12.364 16:51:12.364 sendMessageToConsole: Anchor: /ds5/cpu06
-16:51:12.364 16:51:12.364 sendMessageToConsole: Vdbench is trying to create a new file, but all files already exist, 
-16:51:12.364 16:51:12.365 sendMessageToConsole: and no threads are currently active deleting files
-16:51:12.365 16:51:12.365 sendMessageToConsole: FwgThread.canWeGetMoreFiles(): Shutting down threads for operation=create
-16:51:12.365 16:51:12.365 sendMessageToConsole: 
-16:51:12.365 16:51:12.365 Anchor: /ds6/cpu06
-16:51:12.365 16:51:12.365 Vdbench is trying to create a new file, but all files already exist, 
-16:51:12.365 16:51:12.365 and no threads are currently active deleting files
-16:51:12.365 16:51:12.365 FwgThread.canWeGetMoreFiles(): Shutting down threads for operation=create
-16:51:12.365 16:51:12.366 Anchor: /ds7/cpu06
-16:51:12.365 16:51:12.366 Vdbench is trying to create a new file, but all files already exist, 
-16:51:12.366 16:51:12.366 and no threads are currently active deleting files
-16:51:12.366 16:51:12.366 FwgThread.canWeGetMoreFiles(): Shutting down threads for operation=create
-16:51:12.366 16:51:12.367 
-16:51:12.366 16:51:12.367 sendMessageToConsole: Anchor: /ds7/cpu06
-16:51:12.366 16:51:12.367 sendMessageToConsole: Vdbench is trying to create a new file, but all files already exist, 
-16:51:12.366 16:51:12.367 sendMessageToConsole: and no threads are currently active deleting files
-16:51:12.367 16:51:12.367 sendMessageToConsole: FwgThread.canWeGetMoreFiles(): Shutting down threads for operation=create
-16:51:12.367 16:51:12.367 sendMessageToConsole: 
-16:51:12.367 16:51:12.367 
-16:51:12.367 16:51:12.367 sendMessageToConsole: Anchor: /ds6/cpu06
-16:51:12.367 16:51:12.367 sendMessageToConsole: Vdbench is trying to create a new file, but all files already exist, 
-16:51:12.367 16:51:12.367 sendMessageToConsole: and no threads are currently active deleting files
-16:51:12.367 16:51:12.367 sendMessageToConsole: FwgThread.canWeGetMoreFiles(): Shutting down threads for operation=create
-16:51:12.367 16:51:12.367 sendMessageToConsole: 
-16:51:12.367 16:51:12.367 Anchor: /ds9/cpu06
-16:51:12.368 16:51:12.368 Anchor: /ds10/cpu06
-16:51:12.368 16:51:12.368 Vdbench is trying to create a new file, but all files already exist, 
-16:51:12.368 16:51:12.368 and no threads are currently active deleting files
-16:51:12.368 16:51:12.368 FwgThread.canWeGetMoreFiles(): Shutting down threads for operation=create
-16:51:12.368 16:51:12.368 
-16:51:12.369 16:51:12.368 sendMessageToConsole: Anchor: /ds10/cpu06
-16:51:12.369 16:51:12.369 sendMessageToConsole: Vdbench is trying to create a new file, but all files already exist, 
-16:51:12.369 16:51:12.369 sendMessageToConsole: and no threads are currently active deleting files
-16:51:12.369 16:51:12.369 sendMessageToConsole: FwgThread.canWeGetMoreFiles(): Shutting down threads for operation=create
-16:51:12.369 16:51:12.369 sendMessageToConsole: 
-16:51:12.369 16:51:12.369 Anchor: /ds8/cpu06
-16:51:12.369 16:51:12.370 Vdbench is trying to create a new file, but all files already exist, 
-16:51:12.369 16:51:12.370 and no threads are currently active deleting files
-16:51:12.369 16:51:12.370 FwgThread.canWeGetMoreFiles(): Shutting down threads for operation=create
-16:51:12.369 16:51:12.370 
-16:51:12.369 16:51:12.370 sendMessageToConsole: Anchor: /ds8/cpu06
-16:51:12.369 16:51:12.370 sendMessageToConsole: Vdbench is trying to create a new file, but all files already exist, 
-16:51:12.369 16:51:12.370 sendMessageToConsole: and no threads are currently active deleting files
-16:51:12.369 16:51:12.370 sendMessageToConsole: FwgThread.canWeGetMoreFiles(): Shutting down threads for operation=create
-16:51:12.369 16:51:12.370 sendMessageToConsole: 
-16:51:12.369 16:51:12.370 Anchor: /ds12/cpu06
-16:51:12.370 16:51:12.370 Anchor: /ds11/cpu06
-16:51:12.370 16:51:12.370 Vdbench is trying to create a new file, but all files already exist, 
-16:51:12.370 16:51:12.370 and no threads are currently active deleting files
-16:51:12.370 16:51:12.370 FwgThread.canWeGetMoreFiles(): Shutting down threads for operation=create
-16:51:12.370 16:51:12.370 
-16:51:12.370 16:51:12.370 sendMessageToConsole: Anchor: /ds11/cpu06
-16:51:12.370 16:51:12.370 sendMessageToConsole: Vdbench is trying to create a new file, but all files already exist, 
-16:51:12.370 16:51:12.370 sendMessageToConsole: and no threads are currently active deleting files
-16:51:12.370 16:51:12.370 sendMessageToConsole: FwgThread.canWeGetMoreFiles(): Shutting down threads for operation=create
-16:51:12.370 16:51:12.370 sendMessageToConsole: 
-16:51:12.370 16:51:12.370 Vdbench is trying to create a new file, but all files already exist, 
-16:51:12.370 16:51:12.370 Vdbench is trying to create a new file, but all files already exist, 
-16:51:12.370 16:51:12.370 and no threads are currently active deleting files
-16:51:12.370 16:51:12.370 FwgThread.canWeGetMoreFiles(): Shutting down threads for operation=create
-16:51:12.370 16:51:12.370 
-16:51:12.370 16:51:12.370 sendMessageToConsole: Anchor: /ds12/cpu06
-16:51:12.370 16:51:12.370 sendMessageToConsole: Vdbench is trying to create a new file, but all files already exist, 
-16:51:12.370 16:51:12.370 sendMessageToConsole: and no threads are currently active deleting files
-16:51:12.370 16:51:12.370 sendMessageToConsole: FwgThread.canWeGetMoreFiles(): Shutting down threads for operation=create
-16:51:12.370 16:51:12.370 sendMessageToConsole: 
-16:51:12.370 16:51:12.371 and no threads are currently active deleting files
-16:51:12.371 16:51:12.371 FwgThread.canWeGetMoreFiles(): Shutting down threads for operation=create
-16:51:12.371 16:51:12.371 
-16:51:12.371 16:51:12.371 sendMessageToConsole: Anchor: /ds9/cpu06
-16:51:12.371 16:51:12.371 sendMessageToConsole: Vdbench is trying to create a new file, but all files already exist, 
-16:51:12.371 16:51:12.371 sendMessageToConsole: and no threads are currently active deleting files
-16:51:12.371 16:51:12.371 sendMessageToConsole: FwgThread.canWeGetMoreFiles(): Shutting down threads for operation=create
-16:51:12.371 16:51:12.372 sendMessageToConsole: 
-16:51:12.377 16:51:12.377 Miscellaneous statistics: All counters are zero
-16:51:12.377 16:51:12.377 Java Heap in MB. max:  910.500; current:  142.500; used:   26.816; free:  115.684
-16:51:12.377 16:51:12.377 Maximum native memory allocation:   12,632,064; Current allocation:       49,152
-16:51:13.264 16:51:13.264 Writing control file for anchor=/ds11/cpu06 at end of run.
-16:51:13.285 16:51:13.286 Completed control file for anchor=/ds11/cpu06 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/0/0
-16:51:13.285 16:51:13.286 Writing control file for anchor=/ds1/cpu06 at end of run.
-16:51:13.304 16:51:13.305 Completed control file for anchor=/ds1/cpu06 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/0/0
-16:51:13.304 16:51:13.305 Writing control file for anchor=/ds3/cpu06 at end of run.
-16:51:13.321 16:51:13.322 Completed control file for anchor=/ds3/cpu06 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/0/0
-16:51:13.321 16:51:13.322 Writing control file for anchor=/ds2/cpu06 at end of run.
-16:51:13.340 16:51:13.339 Completed control file for anchor=/ds2/cpu06 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/0/0
-16:51:13.340 16:51:13.339 Writing control file for anchor=/ds5/cpu06 at end of run.
-16:51:13.356 16:51:13.356 Completed control file for anchor=/ds5/cpu06 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/0/0
-16:51:13.356 16:51:13.357 Writing control file for anchor=/ds4/cpu06 at end of run.
-16:51:13.374 16:51:13.374 Completed control file for anchor=/ds4/cpu06 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/0/0
-16:51:13.374 16:51:13.374 Writing control file for anchor=/ds8/cpu06 at end of run.
-16:51:13.390 16:51:13.391 Completed control file for anchor=/ds8/cpu06 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/0/0
-16:51:13.391 16:51:13.391 Writing control file for anchor=/ds10/cpu06 at end of run.
-16:51:13.407 16:51:13.408 Completed control file for anchor=/ds10/cpu06 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/0/0
-16:51:13.407 16:51:13.408 Writing control file for anchor=/ds7/cpu06 at end of run.
-16:51:13.424 16:51:13.424 Completed control file for anchor=/ds7/cpu06 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/0/0
-16:51:13.424 16:51:13.425 Writing control file for anchor=/ds9/cpu06 at end of run.
-16:51:13.441 16:51:13.442 Completed control file for anchor=/ds9/cpu06 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/0/0
-16:51:13.441 16:51:13.442 Writing control file for anchor=/ds12/cpu06 at end of run.
-16:51:13.459 16:51:13.459 Completed control file for anchor=/ds12/cpu06 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/0/0
-16:51:13.459 16:51:13.459 Writing control file for anchor=/ds6/cpu06 at end of run.
-16:51:13.476 16:51:13.477 Completed control file for anchor=/ds6/cpu06 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/0/0
-16:51:13.476 16:51:13.477 End of run
-16:51:13.476 16:51:13.477 **********
-16:51:13.476 
-16:51:13.476 
-16:51:14.856 16:51:14.857 Master is requesting slave shutdown
-16:51:14.857 16:51:14.857 Java Heap in MB. max:  910.500; current:  142.500; used:   31.364; free:  111.136
+14:31:32.006 14:31:32.007 task_run_all(): 13 tasks
+14:32:05.441 14:32:05.439 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:32:05.441 14:32:05.439 sendMessageToConsole: /var/log/messages: Apr  9 14:32:01 cpu06 systemd: Started Session 10356 of user root.
+14:32:05.441 14:32:05.440 sendMessageToConsole: 
+14:32:25.482 14:32:25.482 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:32:25.482 14:32:25.483 sendMessageToConsole: /var/log/messages: Apr  9 14:32:24 cpu06 dhclient[9215]: DHCPREQUEST on eno1 to 192.168.10.10 port 67 (xid=0x3bcdaffc)
+14:32:25.482 14:32:25.483 sendMessageToConsole: /var/log/messages: Apr  9 14:32:24 cpu06 dhclient[9215]: DHCPACK from 192.168.10.10 (xid=0x3bcdaffc)
+14:32:25.482 14:32:25.483 sendMessageToConsole: 
+14:32:30.507 14:32:30.508 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:32:30.507 14:32:30.508 sendMessageToConsole: /var/log/messages: Apr  9 14:32:26 cpu06 dhclient[9215]: bound to 192.168.10.26 -- renewal in 277 seconds.
+14:32:30.507 14:32:30.508 sendMessageToConsole: 
+14:33:05.531 14:33:05.533 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:33:05.531 14:33:05.534 sendMessageToConsole: /var/log/messages: Apr  9 14:33:01 cpu06 systemd: Started Session 10357 of user root.
+14:33:05.531 14:33:05.534 sendMessageToConsole: /var/log/messages: Apr  9 14:33:04 cpu06 dhclient[9372]: DHCPREQUEST on enp0s20u1u5 to 169.254.95.118 port 67 (xid=0x37dc0c27)
+14:33:05.531 14:33:05.534 sendMessageToConsole: /var/log/messages: Apr  9 14:33:04 cpu06 dhclient[9372]: DHCPACK from 169.254.95.118 (xid=0x37dc0c27)
+14:33:05.531 14:33:05.534 sendMessageToConsole: 
+14:33:10.560 14:33:10.562 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:33:10.560 14:33:10.562 sendMessageToConsole: /var/log/messages: Apr  9 14:33:06 cpu06 dhclient[9372]: bound to 169.254.95.120 -- renewal in 243 seconds.
+14:33:10.560 14:33:10.562 sendMessageToConsole: 
+14:34:05.588 14:34:05.591 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:34:05.588 14:34:05.591 sendMessageToConsole: /var/log/messages: Apr  9 14:34:01 cpu06 systemd: Started Session 10358 of user root.
+14:34:05.588 14:34:05.591 sendMessageToConsole: 
+14:35:05.618 14:35:05.621 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:35:05.618 14:35:05.621 sendMessageToConsole: /var/log/messages: Apr  9 14:35:01 cpu06 systemd: Started Session 10359 of user root.
+14:35:05.618 14:35:05.621 sendMessageToConsole: 
+14:36:05.658 14:36:05.660 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:36:05.658 14:36:05.661 sendMessageToConsole: /var/log/messages: Apr  9 14:36:01 cpu06 systemd: Started Session 10360 of user root.
+14:36:05.658 14:36:05.661 sendMessageToConsole: 
+14:37:05.695 14:37:05.698 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:37:05.695 14:37:05.698 sendMessageToConsole: /var/log/messages: Apr  9 14:37:01 cpu06 systemd: Started Session 10361 of user root.
+14:37:05.695 14:37:05.698 sendMessageToConsole: /var/log/messages: Apr  9 14:37:03 cpu06 dhclient[9215]: DHCPREQUEST on eno1 to 192.168.10.10 port 67 (xid=0x3bcdaffc)
+14:37:05.695 14:37:05.698 sendMessageToConsole: /var/log/messages: Apr  9 14:37:03 cpu06 dhclient[9215]: DHCPACK from 192.168.10.10 (xid=0x3bcdaffc)
+14:37:05.695 14:37:05.698 sendMessageToConsole: /var/log/messages: Apr  9 14:37:05 cpu06 dhclient[9215]: bound to 192.168.10.26 -- renewal in 287 seconds.
+14:37:05.695 14:37:05.698 sendMessageToConsole: 
+14:37:10.723 14:37:10.726 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:37:10.723 14:37:10.726 sendMessageToConsole: /var/log/messages: Apr  9 14:37:09 cpu06 dhclient[9372]: DHCPREQUEST on enp0s20u1u5 to 169.254.95.118 port 67 (xid=0x37dc0c27)
+14:37:10.723 14:37:10.726 sendMessageToConsole: /var/log/messages: Apr  9 14:37:09 cpu06 dhclient[9372]: DHCPACK from 169.254.95.118 (xid=0x37dc0c27)
+14:37:10.723 14:37:10.726 sendMessageToConsole: 
+14:37:15.750 14:37:15.753 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:37:15.750 14:37:15.753 sendMessageToConsole: /var/log/messages: Apr  9 14:37:11 cpu06 dhclient[9372]: bound to 169.254.95.120 -- renewal in 225 seconds.
+14:37:15.750 14:37:15.753 sendMessageToConsole: 
+14:38:05.784 14:38:05.787 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:38:05.784 14:38:05.787 sendMessageToConsole: /var/log/messages: Apr  9 14:38:01 cpu06 systemd: Started Session 10362 of user root.
+14:38:05.784 14:38:05.787 sendMessageToConsole: 
+14:39:05.809 14:39:05.813 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:39:05.809 14:39:05.813 sendMessageToConsole: /var/log/messages: Apr  9 14:39:01 cpu06 systemd: Started Session 10363 of user root.
+14:39:05.809 14:39:05.813 sendMessageToConsole: 
+14:39:55.840 14:39:55.844 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:39:55.840 14:39:55.844 sendMessageToConsole: /var/log/messages: Apr  9 14:39:52 cpu06 chronyd[8888]: Can't synchronise: no selectable sources
+14:39:55.840 14:39:55.844 sendMessageToConsole: 
+14:40:05.863 14:40:05.867 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:40:05.863 14:40:05.867 sendMessageToConsole: /var/log/messages: Apr  9 14:40:01 cpu06 systemd: Started Session 10364 of user root.
+14:40:05.863 14:40:05.867 sendMessageToConsole: 
+14:41:00.891 14:41:00.895 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:41:00.891 14:41:00.895 sendMessageToConsole: /var/log/messages: Apr  9 14:40:56 cpu06 chronyd[8888]: Selected source 203.248.240.140
+14:41:00.891 14:41:00.895 sendMessageToConsole: /var/log/messages: Apr  9 14:40:56 cpu06 dhclient[9372]: DHCPREQUEST on enp0s20u1u5 to 169.254.95.118 port 67 (xid=0x37dc0c27)
+14:41:00.891 14:41:00.895 sendMessageToConsole: /var/log/messages: Apr  9 14:40:56 cpu06 dhclient[9372]: DHCPACK from 169.254.95.118 (xid=0x37dc0c27)
+14:41:00.891 14:41:00.895 sendMessageToConsole: /var/log/messages: Apr  9 14:40:58 cpu06 dhclient[9372]: bound to 169.254.95.120 -- renewal in 242 seconds.
+14:41:00.891 14:41:00.895 sendMessageToConsole: 
+14:41:05.919 14:41:05.923 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:41:05.919 14:41:05.923 sendMessageToConsole: /var/log/messages: Apr  9 14:41:01 cpu06 systemd: Started Session 10365 of user root.
+14:41:05.919 14:41:05.923 sendMessageToConsole: 
+14:41:50.950 14:41:50.953 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:41:50.950 14:41:50.953 sendMessageToConsole: /var/log/messages: Apr  9 14:41:47 cpu06 systemd: Starting Cleanup of Temporary Directories...
+14:41:50.950 14:41:50.954 sendMessageToConsole: /var/log/messages: Apr  9 14:41:48 cpu06 systemd: Started Cleanup of Temporary Directories.
+14:41:50.950 14:41:50.954 sendMessageToConsole: 
+14:41:55.982 14:41:55.986 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:41:55.982 14:41:55.986 sendMessageToConsole: /var/log/messages: Apr  9 14:41:52 cpu06 dhclient[9215]: DHCPREQUEST on eno1 to 192.168.10.10 port 67 (xid=0x3bcdaffc)
+14:41:55.982 14:41:55.986 sendMessageToConsole: /var/log/messages: Apr  9 14:41:52 cpu06 dhclient[9215]: DHCPACK from 192.168.10.10 (xid=0x3bcdaffc)
+14:41:55.982 14:41:55.986 sendMessageToConsole: /var/log/messages: Apr  9 14:41:54 cpu06 dhclient[9215]: bound to 192.168.10.26 -- renewal in 271 seconds.
+14:41:55.982 14:41:55.986 sendMessageToConsole: 
+14:42:06.014 14:42:06.017 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:42:06.014 14:42:06.018 sendMessageToConsole: /var/log/messages: Apr  9 14:42:01 cpu06 systemd: Started Session 10366 of user root.
+14:42:06.014 14:42:06.018 sendMessageToConsole: 
+14:42:32.569 14:42:32.573 
+14:42:32.569 14:42:32.573 Miscellaneous statistics:
+14:42:32.570 14:42:32.574 WRITE_OPENS         Files opened for write activity:             95,012
+14:42:32.570 14:42:32.574 FILE_CLOSES         Close requests:                              95,012
+14:42:32.571 14:42:32.574 
+14:42:32.571 14:42:32.575 Java Heap in MB. max:  910.500; current:  126.000; used:   28.939; free:   97.061
+14:42:32.571 14:42:32.575 Maximum native memory allocation:   25,165,824; Current allocation:   25,165,824
+14:42:32.572 14:42:32.575 Writing control file for anchor=/ds2/cpu06 at end of run.
+14:42:32.595 14:42:32.599 Completed control file for anchor=/ds2/cpu06 at end of run.  dirs: 72/72 files: 512/512 sizes: 5g/5g/512/5g
+14:42:32.595 14:42:32.599 Writing control file for anchor=/ds1/cpu06 at end of run.
+14:42:32.620 14:42:32.623 Completed control file for anchor=/ds1/cpu06 at end of run.  dirs: 72/72 files: 512/512 sizes: 5g/5g/512/5g
+14:42:32.620 14:42:32.624 Writing control file for anchor=/ds4/cpu06 at end of run.
+14:42:32.647 14:42:32.650 Completed control file for anchor=/ds4/cpu06 at end of run.  dirs: 72/72 files: 512/512 sizes: 5g/5g/512/5g
+14:42:32.647 14:42:32.651 Writing control file for anchor=/ds9/cpu06 at end of run.
+14:42:32.671 14:42:32.674 Completed control file for anchor=/ds9/cpu06 at end of run.  dirs: 72/72 files: 512/512 sizes: 5g/5g/512/5g
+14:42:32.671 14:42:32.674 Writing control file for anchor=/ds5/cpu06 at end of run.
+14:42:32.689 14:42:32.692 Completed control file for anchor=/ds5/cpu06 at end of run.  dirs: 72/72 files: 512/512 sizes: 5g/5g/512/5g
+14:42:32.689 14:42:32.693 Writing control file for anchor=/ds6/cpu06 at end of run.
+14:42:32.707 14:42:32.710 Completed control file for anchor=/ds6/cpu06 at end of run.  dirs: 72/72 files: 512/512 sizes: 5g/5g/512/5g
+14:42:32.707 14:42:32.710 Writing control file for anchor=/ds3/cpu06 at end of run.
+14:42:32.723 14:42:32.726 Completed control file for anchor=/ds3/cpu06 at end of run.  dirs: 72/72 files: 512/512 sizes: 5g/5g/512/5g
+14:42:32.723 14:42:32.727 Writing control file for anchor=/ds12/cpu06 at end of run.
+14:42:32.740 14:42:32.743 Completed control file for anchor=/ds12/cpu06 at end of run.  dirs: 72/72 files: 512/512 sizes: 5g/5g/512/5g
+14:42:32.740 14:42:32.744 Writing control file for anchor=/ds7/cpu06 at end of run.
+14:42:32.756 14:42:32.759 Completed control file for anchor=/ds7/cpu06 at end of run.  dirs: 72/72 files: 512/512 sizes: 5g/5g/512/5g
+14:42:32.756 14:42:32.760 Writing control file for anchor=/ds10/cpu06 at end of run.
+14:42:32.771 14:42:32.774 Completed control file for anchor=/ds10/cpu06 at end of run.  dirs: 72/72 files: 512/512 sizes: 5g/5g/512/5g
+14:42:32.771 14:42:32.774 Writing control file for anchor=/ds11/cpu06 at end of run.
+14:42:32.784 14:42:32.787 Completed control file for anchor=/ds11/cpu06 at end of run.  dirs: 72/72 files: 512/512 sizes: 5g/5g/512/5g
+14:42:32.784 14:42:32.788 Writing control file for anchor=/ds8/cpu06 at end of run.
+14:42:32.797 14:42:32.801 Completed control file for anchor=/ds8/cpu06 at end of run.  dirs: 72/72 files: 512/512 sizes: 5g/5g/512/5g
+14:42:32.798 14:42:32.801 End of run
+14:42:32.798 14:42:32.801 **********
+14:42:32.798 
+14:42:32.798 
+14:42:33.246 14:42:33.250 Master is requesting slave shutdown
+14:42:33.247 14:42:33.250 Java Heap in MB. max:  910.500; current:  126.000; used:   34.072; free:   91.928

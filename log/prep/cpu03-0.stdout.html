@@ -1,590 +1,451 @@
 <title>Vdbench prep/cpu03-0.stdout.html</title><pre>
 stdout/stderr for slave=cpu03-0
 
-16:47:11.240 16:47:11.241 SlaveJvm execution parameter:  '-m 192.168.10.21'
-16:47:11.240 16:47:11.241 SlaveJvm execution parameter:  '-n cpu03-12-200407-16.47.10.455'
-16:47:11.240 16:47:11.241 SlaveJvm execution parameter:  '-l cpu03-0'
-16:47:11.240 16:47:11.241 SlaveJvm execution parameter:  '-p 5570'
-16:47:11.240 16:47:11.241 SlaveJvm positional parameter: 'SlaveJvm'
-16:47:11.325 16:47:11.326 successfully connected to master 192.168.10.21
-16:47:11.325 16:47:11.326 Connection to 192.168.10.21 using port 5570 successful
-16:47:11.744 16:47:11.745 ticks_per_second: 100
-16:47:11.921 16:47:11.921 execute(): ls -l /ds8/cpu03
-16:47:11.928 16:47:11.929 execute(): ls -l /ds2/cpu03
-16:47:11.933 16:47:11.934 execute(): ls -l /ds10/cpu03
-16:47:11.938 16:47:11.939 execute(): ls -l /ds1/cpu03
-16:47:11.943 16:47:11.944 execute(): ls -l /ds7/cpu03
-16:47:11.948 16:47:11.949 execute(): ls -l /ds3/cpu03
-16:47:11.953 16:47:11.954 execute(): ls -l /ds5/cpu03
-16:47:11.959 16:47:11.960 execute(): ls -l /ds11/cpu03
-16:47:11.964 16:47:11.965 execute(): ls -l /ds9/cpu03
-16:47:11.969 16:47:11.970 execute(): ls -l /ds12/cpu03
-16:47:11.974 16:47:11.975 execute(): ls -l /ds6/cpu03
-16:47:11.980 16:47:11.980 execute(): ls -l /ds4/cpu03
-16:47:11.991 16:47:11.992 Configuration interpretation took 0.25 seconds
+14:31:29.311 14:31:29.307 SlaveJvm execution parameter:  '-m 192.168.10.21'
+14:31:29.311 14:31:29.307 SlaveJvm execution parameter:  '-n cpu03-12-200409-14.31.28.664'
+14:31:29.311 14:31:29.307 SlaveJvm execution parameter:  '-l cpu03-0'
+14:31:29.311 14:31:29.307 SlaveJvm execution parameter:  '-p 5570'
+14:31:29.311 14:31:29.307 SlaveJvm positional parameter: 'SlaveJvm'
+14:31:29.409 14:31:29.404 successfully connected to master 192.168.10.21
+14:31:29.409 14:31:29.405 Connection to 192.168.10.21 using port 5570 successful
+14:31:29.805 14:31:29.802 ticks_per_second: 100
+14:31:29.835 14:31:29.831 execute(): ls -l /ds8/cpu03
+14:31:29.854 14:31:29.850 execute(): ls -l /ds2/cpu03
+14:31:29.861 14:31:29.857 execute(): ls -l /ds10/cpu03
+14:31:29.866 14:31:29.862 execute(): ls -l /ds1/cpu03
+14:31:29.871 14:31:29.868 execute(): ls -l /ds7/cpu03
+14:31:29.880 14:31:29.876 execute(): ls -l /ds3/cpu03
+14:31:29.888 14:31:29.884 execute(): ls -l /ds5/cpu03
+14:31:29.893 14:31:29.890 execute(): ls -l /ds11/cpu03
+14:31:29.900 14:31:29.896 execute(): ls -l /ds9/cpu03
+14:31:29.908 14:31:29.904 execute(): ls -l /ds12/cpu03
+14:31:29.917 14:31:29.913 execute(): ls -l /ds6/cpu03
+14:31:29.925 14:31:29.921 execute(): ls -l /ds4/cpu03
+14:31:29.937 14:31:29.933 Configuration interpretation took 0.13 seconds
 
-Link to Run Definitions:         <A HREF="#_110431793">format_for_rd_prep For loops: None</A>
-                                 <A HREF="#_192794887">rd_prep For loops: None</A>
+Link to Run Definitions:         <A HREF="#_811587677">rd_seq_1024w For loops: None</A>
 
-16:47:12.961 16:47:12.962 Beginning of run setup
-16:47:12.961 16:47:12.962 **********************
-16:47:12.961 
-16:47:12.961 
-16:47:13.000 16:47:13.001 File '/var/log/messages.1' does not exist. Monitoring bypassed
-16:47:13.013 16:47:13.014 Deleting old file structure.
-16:47:13.013 16:47:13.014 Deleting old file structure.
-16:47:13.013 16:47:13.014 Deleting old file structure.
-16:47:13.013 16:47:13.014 Deleting old file structure.
-16:47:13.013 16:47:13.014 Deleting old file structure.
-16:47:13.013 16:47:13.014 Deleting old file structure.
-16:47:13.013 16:47:13.014 Deleting old file structure.
-16:47:13.013 16:47:13.014 Deleting old file structure.
-16:47:13.013 16:47:13.014 Deleting old file structure.
-16:47:13.013 16:47:13.015 Deleting old file structure.
-16:47:13.014 16:47:13.015 Deleting old file structure.
-16:47:13.014 16:47:13.015 Deleting old file structure.
-16:47:13.014 16:47:13.015 Starting initializeFileAnchor for rd=format_for_rd_prep For loops: None anchor=fsd_cpu03_ds1
-16:47:13.018 16:47:13.018 Completed the creation of the directory list for /ds1/cpu03: 72 directories.
-16:47:13.019 16:47:13.020 Generated 1,024 file names; total anchor size: 10g (10,737,418,240)
-16:47:13.019 16:47:13.020 Writing control file for anchor=/ds1/cpu03 at start of run.
-16:47:13.038 16:47:13.039 Completed control file for anchor=/ds1/cpu03 at start of run.  dirs: 72/0 files: 1024/0 sizes: 10g/0/0/0
-16:47:13.040 16:47:13.041 Completed initializeFileAnchor for fsd_cpu03_ds1: 0.03
-16:47:13.040 16:47:13.042 Starting initializeFileAnchor for rd=format_for_rd_prep For loops: None anchor=fsd_cpu03_ds2
-16:47:13.042 16:47:13.043 Completed the creation of the directory list for /ds2/cpu03: 72 directories.
-16:47:13.042 16:47:13.043 Generated 1,024 file names; total anchor size: 10g (10,737,418,240)
-16:47:13.042 16:47:13.043 Writing control file for anchor=/ds2/cpu03 at start of run.
-16:47:13.058 16:47:13.059 Completed control file for anchor=/ds2/cpu03 at start of run.  dirs: 72/0 files: 1024/0 sizes: 10g/0/0/0
-16:47:13.059 16:47:13.060 Completed initializeFileAnchor for fsd_cpu03_ds2: 0.02
-16:47:13.059 16:47:13.060 Starting initializeFileAnchor for rd=format_for_rd_prep For loops: None anchor=fsd_cpu03_ds3
-16:47:13.060 16:47:13.061 Completed the creation of the directory list for /ds3/cpu03: 72 directories.
-16:47:13.061 16:47:13.062 Generated 1,024 file names; total anchor size: 10g (10,737,418,240)
-16:47:13.061 16:47:13.062 Writing control file for anchor=/ds3/cpu03 at start of run.
-16:47:13.075 16:47:13.076 Completed control file for anchor=/ds3/cpu03 at start of run.  dirs: 72/0 files: 1024/0 sizes: 10g/0/0/0
-16:47:13.076 16:47:13.077 Completed initializeFileAnchor for fsd_cpu03_ds3: 0.02
-16:47:13.076 16:47:13.077 Starting initializeFileAnchor for rd=format_for_rd_prep For loops: None anchor=fsd_cpu03_ds4
-16:47:13.080 16:47:13.081 Completed the creation of the directory list for /ds4/cpu03: 72 directories.
-16:47:13.080 16:47:13.081 Generated 1,024 file names; total anchor size: 10g (10,737,418,240)
-16:47:13.080 16:47:13.081 Writing control file for anchor=/ds4/cpu03 at start of run.
-16:47:13.094 16:47:13.095 Completed control file for anchor=/ds4/cpu03 at start of run.  dirs: 72/0 files: 1024/0 sizes: 10g/0/0/0
-16:47:13.094 16:47:13.095 Completed initializeFileAnchor for fsd_cpu03_ds4: 0.02
-16:47:13.094 16:47:13.095 Starting initializeFileAnchor for rd=format_for_rd_prep For loops: None anchor=fsd_cpu03_ds5
-16:47:13.096 16:47:13.097 Completed the creation of the directory list for /ds5/cpu03: 72 directories.
-16:47:13.096 16:47:13.097 Generated 1,024 file names; total anchor size: 10g (10,737,418,240)
-16:47:13.096 16:47:13.097 Writing control file for anchor=/ds5/cpu03 at start of run.
-16:47:13.116 16:47:13.117 Completed control file for anchor=/ds5/cpu03 at start of run.  dirs: 72/0 files: 1024/0 sizes: 10g/0/0/0
-16:47:13.117 16:47:13.118 Completed initializeFileAnchor for fsd_cpu03_ds5: 0.02
-16:47:13.117 16:47:13.118 Starting initializeFileAnchor for rd=format_for_rd_prep For loops: None anchor=fsd_cpu03_ds6
-16:47:13.118 16:47:13.119 Completed the creation of the directory list for /ds6/cpu03: 72 directories.
-16:47:13.119 16:47:13.120 Generated 1,024 file names; total anchor size: 10g (10,737,418,240)
-16:47:13.119 16:47:13.120 Writing control file for anchor=/ds6/cpu03 at start of run.
-16:47:13.132 16:47:13.133 Completed control file for anchor=/ds6/cpu03 at start of run.  dirs: 72/0 files: 1024/0 sizes: 10g/0/0/0
-16:47:13.132 16:47:13.133 Completed initializeFileAnchor for fsd_cpu03_ds6: 0.02
-16:47:13.132 16:47:13.133 Starting initializeFileAnchor for rd=format_for_rd_prep For loops: None anchor=fsd_cpu03_ds7
-16:47:13.133 16:47:13.134 Completed the creation of the directory list for /ds7/cpu03: 72 directories.
-16:47:13.134 16:47:13.135 Generated 1,024 file names; total anchor size: 10g (10,737,418,240)
-16:47:13.134 16:47:13.135 Writing control file for anchor=/ds7/cpu03 at start of run.
-16:47:13.147 16:47:13.148 Completed control file for anchor=/ds7/cpu03 at start of run.  dirs: 72/0 files: 1024/0 sizes: 10g/0/0/0
-16:47:13.148 16:47:13.149 Completed initializeFileAnchor for fsd_cpu03_ds7: 0.02
-16:47:13.148 16:47:13.149 Starting initializeFileAnchor for rd=format_for_rd_prep For loops: None anchor=fsd_cpu03_ds8
-16:47:13.149 16:47:13.150 Completed the creation of the directory list for /ds8/cpu03: 72 directories.
-16:47:13.149 16:47:13.150 Generated 1,024 file names; total anchor size: 10g (10,737,418,240)
-16:47:13.149 16:47:13.150 Writing control file for anchor=/ds8/cpu03 at start of run.
-16:47:13.161 16:47:13.162 Completed control file for anchor=/ds8/cpu03 at start of run.  dirs: 72/0 files: 1024/0 sizes: 10g/0/0/0
-16:47:13.161 16:47:13.162 Completed initializeFileAnchor for fsd_cpu03_ds8: 0.01
-16:47:13.161 16:47:13.163 Starting initializeFileAnchor for rd=format_for_rd_prep For loops: None anchor=fsd_cpu03_ds9
-16:47:13.162 16:47:13.163 Completed the creation of the directory list for /ds9/cpu03: 72 directories.
-16:47:13.163 16:47:13.164 Generated 1,024 file names; total anchor size: 10g (10,737,418,240)
-16:47:13.163 16:47:13.164 Writing control file for anchor=/ds9/cpu03 at start of run.
-16:47:13.174 16:47:13.175 Completed control file for anchor=/ds9/cpu03 at start of run.  dirs: 72/0 files: 1024/0 sizes: 10g/0/0/0
-16:47:13.175 16:47:13.176 Completed initializeFileAnchor for fsd_cpu03_ds9: 0.01
-16:47:13.175 16:47:13.176 Starting initializeFileAnchor for rd=format_for_rd_prep For loops: None anchor=fsd_cpu03_ds10
-16:47:13.176 16:47:13.177 Completed the creation of the directory list for /ds10/cpu03: 72 directories.
-16:47:13.176 16:47:13.177 Generated 1,024 file names; total anchor size: 10g (10,737,418,240)
-16:47:13.176 16:47:13.177 Writing control file for anchor=/ds10/cpu03 at start of run.
-16:47:13.188 16:47:13.189 Completed control file for anchor=/ds10/cpu03 at start of run.  dirs: 72/0 files: 1024/0 sizes: 10g/0/0/0
-16:47:13.188 16:47:13.190 Completed initializeFileAnchor for fsd_cpu03_ds10: 0.01
-16:47:13.189 16:47:13.190 Starting initializeFileAnchor for rd=format_for_rd_prep For loops: None anchor=fsd_cpu03_ds11
-16:47:13.189 16:47:13.191 Completed the creation of the directory list for /ds11/cpu03: 72 directories.
-16:47:13.190 16:47:13.191 Generated 1,024 file names; total anchor size: 10g (10,737,418,240)
-16:47:13.190 16:47:13.191 Writing control file for anchor=/ds11/cpu03 at start of run.
-16:47:13.202 16:47:13.203 Completed control file for anchor=/ds11/cpu03 at start of run.  dirs: 72/0 files: 1024/0 sizes: 10g/0/0/0
-16:47:13.202 16:47:13.203 Completed initializeFileAnchor for fsd_cpu03_ds11: 0.01
-16:47:13.202 16:47:13.203 Starting initializeFileAnchor for rd=format_for_rd_prep For loops: None anchor=fsd_cpu03_ds12
-16:47:13.203 16:47:13.204 Completed the creation of the directory list for /ds12/cpu03: 72 directories.
-16:47:13.203 16:47:13.204 Generated 1,024 file names; total anchor size: 10g (10,737,418,240)
-16:47:13.203 16:47:13.205 Writing control file for anchor=/ds12/cpu03 at start of run.
-16:47:13.216 16:47:13.217 Completed control file for anchor=/ds12/cpu03 at start of run.  dirs: 72/0 files: 1024/0 sizes: 10g/0/0/0
-16:47:13.216 16:47:13.217 Completed initializeFileAnchor for fsd_cpu03_ds12: 0.01
-16:47:13.231 16:47:13.232 Started 8 threads for fwd=format,fsd=fsd_cpu03_ds1
-16:47:13.236 16:47:13.237 Started 8 threads for fwd=format,fsd=fsd_cpu03_ds2
-16:47:13.241 16:47:13.242 Started 8 threads for fwd=format,fsd=fsd_cpu03_ds3
-16:47:13.247 16:47:13.248 Started 8 threads for fwd=format,fsd=fsd_cpu03_ds4
-16:47:13.252 16:47:13.253 Started 8 threads for fwd=format,fsd=fsd_cpu03_ds5
-16:47:13.257 16:47:13.258 Started 8 threads for fwd=format,fsd=fsd_cpu03_ds6
-16:47:13.263 16:47:13.264 Started 8 threads for fwd=format,fsd=fsd_cpu03_ds7
-16:47:13.268 16:47:13.269 Started 8 threads for fwd=format,fsd=fsd_cpu03_ds8
-16:47:13.273 16:47:13.274 Started 8 threads for fwd=format,fsd=fsd_cpu03_ds9
-16:47:13.278 16:47:13.279 Started 8 threads for fwd=format,fsd=fsd_cpu03_ds10
-16:47:13.283 16:47:13.284 Started 8 threads for fwd=format,fsd=fsd_cpu03_ds11
-16:47:13.288 16:47:13.289 Started 8 threads for fwd=format,fsd=fsd_cpu03_ds12
-16:47:13.288 16:47:13.289 Started 96 FwgThreads for rd=format_for_rd_prep For loops: None
-16:47:13.288 16:47:13.289 Waiting for task synchronization
-16:47:13.288 16:47:13.289 Requesting full garbage collection
-16:47:13.288 16:47:13.289 GcTracker: cum:   2 intv:  1 ms:       5 mss:  0.00% Heap_MB max:   911 curr:   123 used:    30 free:    93 
-16:47:13.338 16:47:13.338 GcTracker: cum:   4 intv:  2 ms:      48 mss:  0.00% Heap_MB max:   911 curr:   123 used:    22 free:   101 
-16:47:13.338 16:47:13.339 task_wait_start_complete() end
+14:31:30.307 14:31:30.302 Beginning of run setup
+14:31:30.307 14:31:30.303 **********************
+14:31:30.307 
+14:31:30.307 
+14:31:30.361 14:31:30.357 Starting initializeFileAnchor for rd=rd_seq_1024w For loops: None anchor=fsd_cpu03_ds1
+14:31:30.364 14:31:30.360 Reading control file for anchor=/ds1/cpu03
+14:31:30.366 14:31:30.362 Completed reading control file.
+14:31:30.366 14:31:30.362 Completed the creation of the directory list for /ds1/cpu03: 72 directories.
+14:31:30.369 14:31:30.365 Generated 512 file names; total anchor size: 5g (5,368,709,120)
+14:31:30.369 14:31:30.365 Writing control file for anchor=/ds1/cpu03 at start of run.
+14:31:30.391 14:31:30.388 Completed control file for anchor=/ds1/cpu03 at start of run.  dirs: 72/72 files: 512/512 sizes: 5g/5g/0/0
+14:31:30.394 14:31:30.390 During anchor creation for anchor=/ds1/cpu03 there were 72 directories and 512 files
+14:31:30.394 14:31:30.390 Completed initializeFileAnchor for fsd_cpu03_ds1: 0.03
+14:31:30.394 14:31:30.391 Starting initializeFileAnchor for rd=rd_seq_1024w For loops: None anchor=fsd_cpu03_ds2
+14:31:30.396 14:31:30.392 Reading control file for anchor=/ds2/cpu03
+14:31:30.396 14:31:30.392 File '/var/log/messages.1' does not exist. Monitoring bypassed
+14:31:30.397 14:31:30.393 Completed reading control file.
+14:31:30.397 14:31:30.393 Completed the creation of the directory list for /ds2/cpu03: 72 directories.
+14:31:30.398 14:31:30.394 Generated 512 file names; total anchor size: 5g (5,368,709,120)
+14:31:30.398 14:31:30.394 Writing control file for anchor=/ds2/cpu03 at start of run.
+14:31:30.414 14:31:30.410 Completed control file for anchor=/ds2/cpu03 at start of run.  dirs: 72/72 files: 512/512 sizes: 5g/5g/0/0
+14:31:30.415 14:31:30.411 During anchor creation for anchor=/ds2/cpu03 there were 72 directories and 512 files
+14:31:30.415 14:31:30.411 Completed initializeFileAnchor for fsd_cpu03_ds2: 0.02
+14:31:30.415 14:31:30.411 Starting initializeFileAnchor for rd=rd_seq_1024w For loops: None anchor=fsd_cpu03_ds3
+14:31:30.415 14:31:30.412 Reading control file for anchor=/ds3/cpu03
+14:31:30.417 14:31:30.413 Completed reading control file.
+14:31:30.417 14:31:30.413 Completed the creation of the directory list for /ds3/cpu03: 72 directories.
+14:31:30.418 14:31:30.414 Generated 512 file names; total anchor size: 5g (5,368,709,120)
+14:31:30.418 14:31:30.414 Writing control file for anchor=/ds3/cpu03 at start of run.
+14:31:30.431 14:31:30.427 Completed control file for anchor=/ds3/cpu03 at start of run.  dirs: 72/72 files: 512/512 sizes: 5g/5g/0/0
+14:31:30.431 14:31:30.427 During anchor creation for anchor=/ds3/cpu03 there were 72 directories and 512 files
+14:31:30.431 14:31:30.427 Completed initializeFileAnchor for fsd_cpu03_ds3: 0.02
+14:31:30.431 14:31:30.428 Starting initializeFileAnchor for rd=rd_seq_1024w For loops: None anchor=fsd_cpu03_ds4
+14:31:30.432 14:31:30.428 Reading control file for anchor=/ds4/cpu03
+14:31:30.433 14:31:30.429 Completed reading control file.
+14:31:30.433 14:31:30.430 Completed the creation of the directory list for /ds4/cpu03: 72 directories.
+14:31:30.434 14:31:30.430 Generated 512 file names; total anchor size: 5g (5,368,709,120)
+14:31:30.434 14:31:30.430 Writing control file for anchor=/ds4/cpu03 at start of run.
+14:31:30.447 14:31:30.443 Completed control file for anchor=/ds4/cpu03 at start of run.  dirs: 72/72 files: 512/512 sizes: 5g/5g/0/0
+14:31:30.447 14:31:30.444 During anchor creation for anchor=/ds4/cpu03 there were 72 directories and 512 files
+14:31:30.447 14:31:30.444 Completed initializeFileAnchor for fsd_cpu03_ds4: 0.02
+14:31:30.448 14:31:30.444 Starting initializeFileAnchor for rd=rd_seq_1024w For loops: None anchor=fsd_cpu03_ds5
+14:31:30.448 14:31:30.444 Reading control file for anchor=/ds5/cpu03
+14:31:30.449 14:31:30.446 Completed reading control file.
+14:31:30.449 14:31:30.446 Completed the creation of the directory list for /ds5/cpu03: 72 directories.
+14:31:30.453 14:31:30.449 Generated 512 file names; total anchor size: 5g (5,368,709,120)
+14:31:30.453 14:31:30.449 Writing control file for anchor=/ds5/cpu03 at start of run.
+14:31:30.465 14:31:30.461 Completed control file for anchor=/ds5/cpu03 at start of run.  dirs: 72/72 files: 512/512 sizes: 5g/5g/0/0
+14:31:30.465 14:31:30.461 During anchor creation for anchor=/ds5/cpu03 there were 72 directories and 512 files
+14:31:30.465 14:31:30.462 Completed initializeFileAnchor for fsd_cpu03_ds5: 0.02
+14:31:30.465 14:31:30.462 Starting initializeFileAnchor for rd=rd_seq_1024w For loops: None anchor=fsd_cpu03_ds6
+14:31:30.466 14:31:30.462 Reading control file for anchor=/ds6/cpu03
+14:31:30.467 14:31:30.463 Completed reading control file.
+14:31:30.467 14:31:30.464 Completed the creation of the directory list for /ds6/cpu03: 72 directories.
+14:31:30.468 14:31:30.464 Generated 512 file names; total anchor size: 5g (5,368,709,120)
+14:31:30.468 14:31:30.464 Writing control file for anchor=/ds6/cpu03 at start of run.
+14:31:30.479 14:31:30.475 Completed control file for anchor=/ds6/cpu03 at start of run.  dirs: 72/72 files: 512/512 sizes: 5g/5g/0/0
+14:31:30.480 14:31:30.476 During anchor creation for anchor=/ds6/cpu03 there were 72 directories and 512 files
+14:31:30.480 14:31:30.476 Completed initializeFileAnchor for fsd_cpu03_ds6: 0.01
+14:31:30.480 14:31:30.476 Starting initializeFileAnchor for rd=rd_seq_1024w For loops: None anchor=fsd_cpu03_ds7
+14:31:30.480 14:31:30.476 Reading control file for anchor=/ds7/cpu03
+14:31:30.482 14:31:30.478 Completed reading control file.
+14:31:30.482 14:31:30.478 Completed the creation of the directory list for /ds7/cpu03: 72 directories.
+14:31:30.482 14:31:30.478 Generated 512 file names; total anchor size: 5g (5,368,709,120)
+14:31:30.482 14:31:30.478 Writing control file for anchor=/ds7/cpu03 at start of run.
+14:31:30.494 14:31:30.490 Completed control file for anchor=/ds7/cpu03 at start of run.  dirs: 72/72 files: 512/512 sizes: 5g/5g/0/0
+14:31:30.494 14:31:30.490 During anchor creation for anchor=/ds7/cpu03 there were 72 directories and 512 files
+14:31:30.494 14:31:30.491 Completed initializeFileAnchor for fsd_cpu03_ds7: 0.02
+14:31:30.494 14:31:30.491 Starting initializeFileAnchor for rd=rd_seq_1024w For loops: None anchor=fsd_cpu03_ds8
+14:31:30.495 14:31:30.491 Reading control file for anchor=/ds8/cpu03
+14:31:30.496 14:31:30.492 Completed reading control file.
+14:31:30.496 14:31:30.492 Completed the creation of the directory list for /ds8/cpu03: 72 directories.
+14:31:30.497 14:31:30.493 Generated 512 file names; total anchor size: 5g (5,368,709,120)
+14:31:30.497 14:31:30.493 Writing control file for anchor=/ds8/cpu03 at start of run.
+14:31:30.507 14:31:30.504 Completed control file for anchor=/ds8/cpu03 at start of run.  dirs: 72/72 files: 512/512 sizes: 5g/5g/0/0
+14:31:30.508 14:31:30.504 During anchor creation for anchor=/ds8/cpu03 there were 72 directories and 512 files
+14:31:30.508 14:31:30.504 Completed initializeFileAnchor for fsd_cpu03_ds8: 0.01
+14:31:30.508 14:31:30.504 Starting initializeFileAnchor for rd=rd_seq_1024w For loops: None anchor=fsd_cpu03_ds9
+14:31:30.508 14:31:30.504 Reading control file for anchor=/ds9/cpu03
+14:31:30.509 14:31:30.506 Completed reading control file.
+14:31:30.509 14:31:30.506 Completed the creation of the directory list for /ds9/cpu03: 72 directories.
+14:31:30.510 14:31:30.506 Generated 512 file names; total anchor size: 5g (5,368,709,120)
+14:31:30.510 14:31:30.506 Writing control file for anchor=/ds9/cpu03 at start of run.
+14:31:30.521 14:31:30.517 Completed control file for anchor=/ds9/cpu03 at start of run.  dirs: 72/72 files: 512/512 sizes: 5g/5g/0/0
+14:31:30.521 14:31:30.517 During anchor creation for anchor=/ds9/cpu03 there were 72 directories and 512 files
+14:31:30.521 14:31:30.518 Completed initializeFileAnchor for fsd_cpu03_ds9: 0.01
+14:31:30.521 14:31:30.518 Starting initializeFileAnchor for rd=rd_seq_1024w For loops: None anchor=fsd_cpu03_ds10
+14:31:30.522 14:31:30.518 Reading control file for anchor=/ds10/cpu03
+14:31:30.523 14:31:30.519 Completed reading control file.
+14:31:30.523 14:31:30.519 Completed the creation of the directory list for /ds10/cpu03: 72 directories.
+14:31:30.524 14:31:30.520 Generated 512 file names; total anchor size: 5g (5,368,709,120)
+14:31:30.524 14:31:30.520 Writing control file for anchor=/ds10/cpu03 at start of run.
+14:31:30.535 14:31:30.531 Completed control file for anchor=/ds10/cpu03 at start of run.  dirs: 72/72 files: 512/512 sizes: 5g/5g/0/0
+14:31:30.535 14:31:30.532 During anchor creation for anchor=/ds10/cpu03 there were 72 directories and 512 files
+14:31:30.535 14:31:30.532 Completed initializeFileAnchor for fsd_cpu03_ds10: 0.01
+14:31:30.535 14:31:30.532 Starting initializeFileAnchor for rd=rd_seq_1024w For loops: None anchor=fsd_cpu03_ds11
+14:31:30.536 14:31:30.532 Reading control file for anchor=/ds11/cpu03
+14:31:30.537 14:31:30.533 Completed reading control file.
+14:31:30.537 14:31:30.533 Completed the creation of the directory list for /ds11/cpu03: 72 directories.
+14:31:30.538 14:31:30.534 Generated 512 file names; total anchor size: 5g (5,368,709,120)
+14:31:30.538 14:31:30.534 Writing control file for anchor=/ds11/cpu03 at start of run.
+14:31:30.549 14:31:30.545 Completed control file for anchor=/ds11/cpu03 at start of run.  dirs: 72/72 files: 512/512 sizes: 5g/5g/0/0
+14:31:30.550 14:31:30.546 During anchor creation for anchor=/ds11/cpu03 there were 72 directories and 512 files
+14:31:30.550 14:31:30.546 Completed initializeFileAnchor for fsd_cpu03_ds11: 0.01
+14:31:30.550 14:31:30.546 Starting initializeFileAnchor for rd=rd_seq_1024w For loops: None anchor=fsd_cpu03_ds12
+14:31:30.550 14:31:30.547 Reading control file for anchor=/ds12/cpu03
+14:31:30.551 14:31:30.548 Completed reading control file.
+14:31:30.551 14:31:30.548 Completed the creation of the directory list for /ds12/cpu03: 72 directories.
+14:31:30.552 14:31:30.548 Generated 512 file names; total anchor size: 5g (5,368,709,120)
+14:31:30.552 14:31:30.548 Writing control file for anchor=/ds12/cpu03 at start of run.
+14:31:30.562 14:31:30.559 Completed control file for anchor=/ds12/cpu03 at start of run.  dirs: 72/72 files: 512/512 sizes: 5g/5g/0/0
+14:31:30.562 14:31:30.559 During anchor creation for anchor=/ds12/cpu03 there were 72 directories and 512 files
+14:31:30.563 14:31:30.559 Completed initializeFileAnchor for fsd_cpu03_ds12: 0.01
+14:31:30.571 14:31:30.568 Started 1 threads for fwd=fwd_seq_1024w_cpu03,fsd=fsd_cpu03_ds1,operation=write
+14:31:30.573 14:31:30.569 Started 1 threads for fwd=fwd_seq_1024w_cpu03,fsd=fsd_cpu03_ds2,operation=write
+14:31:30.574 14:31:30.571 Started 1 threads for fwd=fwd_seq_1024w_cpu03,fsd=fsd_cpu03_ds3,operation=write
+14:31:30.576 14:31:30.572 Started 1 threads for fwd=fwd_seq_1024w_cpu03,fsd=fsd_cpu03_ds4,operation=write
+14:31:30.578 14:31:30.574 Started 1 threads for fwd=fwd_seq_1024w_cpu03,fsd=fsd_cpu03_ds5,operation=write
+14:31:30.579 14:31:30.575 Started 1 threads for fwd=fwd_seq_1024w_cpu03,fsd=fsd_cpu03_ds6,operation=write
+14:31:30.581 14:31:30.577 Started 1 threads for fwd=fwd_seq_1024w_cpu03,fsd=fsd_cpu03_ds7,operation=write
+14:31:30.582 14:31:30.578 Started 1 threads for fwd=fwd_seq_1024w_cpu03,fsd=fsd_cpu03_ds8,operation=write
+14:31:30.584 14:31:30.580 Started 1 threads for fwd=fwd_seq_1024w_cpu03,fsd=fsd_cpu03_ds9,operation=write
+14:31:30.585 14:31:30.582 Started 1 threads for fwd=fwd_seq_1024w_cpu03,fsd=fsd_cpu03_ds10,operation=write
+14:31:30.587 14:31:30.583 Started 1 threads for fwd=fwd_seq_1024w_cpu03,fsd=fsd_cpu03_ds11,operation=write
+14:31:30.589 14:31:30.585 Started 1 threads for fwd=fwd_seq_1024w_cpu03,fsd=fsd_cpu03_ds12,operation=write
+14:31:30.589 14:31:30.585 Started 12 FwgThreads for rd=rd_seq_1024w For loops: None
+14:31:30.589 14:31:30.585 Waiting for task synchronization
+14:31:30.589 14:31:30.585 Requesting full garbage collection
+14:31:30.589 14:31:30.585 GcTracker: cum:   2 intv:  1 ms:       4 mss:  0.00% Heap_MB max:   911 curr:   123 used:    45 free:    78 
+14:31:30.609 14:31:30.605 GcTracker: cum:   4 intv:  2 ms:      18 mss:  0.00% Heap_MB max:   911 curr:   123 used:    17 free:   106 
+14:31:30.609 14:31:30.605 task_wait_start_complete() end
 
-<a name="_110431793"></a><i><b>16:47:15.002 Starting RD=format_for_rd_prep</b></i>
+<a name="_811587677"></a><i><b>14:31:32.002 Starting RD=rd_seq_1024w; elapsed=600 warmup=60; fwdrate=max. For loops: None</b></i>
 
-16:47:15.006 16:47:15.006 task_run_all(): 97 tasks
-16:47:16.806 16:47:16.807 Message to master: anchor=/ds10/cpu03 mkdir complete.
-16:47:16.829 16:47:16.830 Message to master: anchor=/ds6/cpu03 mkdir complete.
-16:47:16.862 16:47:16.863 Message to master: anchor=/ds2/cpu03 mkdir complete.
-16:47:20.411 16:47:20.412 Message to master: anchor=/ds1/cpu03 mkdir complete.
-16:47:20.624 16:47:20.625 Message to master: anchor=/ds5/cpu03 mkdir complete.
-16:47:20.728 16:47:20.729 Message to master: anchor=/ds9/cpu03 mkdir complete.
-16:47:23.024 16:47:23.025 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
-16:47:23.024 16:47:23.025 sendMessageToConsole: /var/log/messages: Apr  7 16:47:21 cpu03 kubelet: E0407 16:47:21.083682    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
-16:47:23.024 16:47:23.025 sendMessageToConsole: 
-16:47:24.508 16:47:24.509 Message to master: anchor=/ds3/cpu03 mkdir complete.
-16:47:24.514 16:47:24.515 Message to master: anchor=/ds11/cpu03 mkdir complete.
-16:47:24.626 16:47:24.627 Message to master: anchor=/ds7/cpu03 mkdir complete.
-16:47:27.894 16:47:27.895 Message to master: anchor=/ds8/cpu03 mkdir complete.
-16:47:28.244 16:47:28.245 Message to master: anchor=/ds12/cpu03 mkdir complete.
-16:47:28.549 16:47:28.550 Message to master: anchor=/ds4/cpu03 mkdir complete.
-16:47:31.825 16:47:31.826 Message to master: anchor=/ds7/cpu03: Created 40 of 1,024 files (3.91%)
-16:47:33.047 16:47:33.048 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
-16:47:33.047 16:47:33.048 sendMessageToConsole: /var/log/messages: Apr  7 16:47:31 cpu03 kubelet: E0407 16:47:31.098221    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
-16:47:33.047 16:47:33.048 sendMessageToConsole: 
-16:47:38.061 16:47:38.062 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
-16:47:38.061 16:47:38.062 sendMessageToConsole: /var/log/messages: Apr  7 16:47:34 cpu03 dhclient[10266]: DHCPREQUEST on eno1 to 192.168.10.10 port 67 (xid=0x3c967971)
-16:47:38.061 16:47:38.062 sendMessageToConsole: /var/log/messages: Apr  7 16:47:34 cpu03 dhclient[10266]: DHCPACK from 192.168.10.10 (xid=0x3c967971)
-16:47:38.061 16:47:38.062 sendMessageToConsole: /var/log/messages: Apr  7 16:47:36 cpu03 dhclient[10266]: bound to 192.168.10.23 -- renewal in 298 seconds.
-16:47:38.061 16:47:38.062 sendMessageToConsole: 
-16:47:43.079 16:47:43.080 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
-16:47:43.079 16:47:43.080 sendMessageToConsole: /var/log/messages: Apr  7 16:47:41 cpu03 kubelet: E0407 16:47:41.114330    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
-16:47:43.079 16:47:43.080 sendMessageToConsole: 
-16:47:46.855 16:47:46.855 Message to master: anchor=/ds4/cpu03: Created 120 of 1,024 files (11.72%)
-16:47:53.098 16:47:53.099 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
-16:47:53.098 16:47:53.099 sendMessageToConsole: /var/log/messages: Apr  7 16:47:51 cpu03 kubelet: E0407 16:47:51.129405    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
-16:47:53.098 16:47:53.099 sendMessageToConsole: 
-16:48:01.912 16:48:01.912 Message to master: anchor=/ds8/cpu03: Created 240 of 1,024 files (23.44%)
-16:48:03.113 16:48:03.114 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
-16:48:03.113 16:48:03.114 sendMessageToConsole: /var/log/messages: Apr  7 16:48:01 cpu03 kubelet: E0407 16:48:01.143489    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
-16:48:03.113 16:48:03.114 sendMessageToConsole: /var/log/messages: Apr  7 16:48:01 cpu03 systemd: Started Session 2685 of user root.
-16:48:03.113 16:48:03.114 sendMessageToConsole: 
-16:48:13.128 16:48:13.129 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
-16:48:13.128 16:48:13.129 sendMessageToConsole: /var/log/messages: Apr  7 16:48:11 cpu03 kubelet: E0407 16:48:11.157822    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
-16:48:13.128 16:48:13.129 sendMessageToConsole: 
-16:48:17.222 16:48:17.222 Message to master: anchor=/ds12/cpu03: Created 350 of 1,024 files (34.18%)
-16:48:23.144 16:48:23.144 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
-16:48:23.144 16:48:23.144 sendMessageToConsole: /var/log/messages: Apr  7 16:48:21 cpu03 kubelet: E0407 16:48:21.173687    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
-16:48:23.144 16:48:23.144 sendMessageToConsole: 
-16:48:28.158 16:48:28.159 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
-16:48:28.158 16:48:28.159 sendMessageToConsole: /var/log/messages: Apr  7 16:48:24 cpu03 systemd-logind: New session 2686 of user root.
-16:48:28.158 16:48:28.159 sendMessageToConsole: /var/log/messages: Apr  7 16:48:24 cpu03 systemd: Started Session 2686 of user root.
-16:48:28.158 16:48:28.159 sendMessageToConsole: 
-16:48:32.368 16:48:32.368 Message to master: anchor=/ds2/cpu03: Created 540 of 1,024 files (52.73%)
-16:48:33.170 16:48:33.170 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
-16:48:33.170 16:48:33.170 sendMessageToConsole: /var/log/messages: Apr  7 16:48:31 cpu03 kubelet: E0407 16:48:31.187712    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
-16:48:33.170 16:48:33.170 sendMessageToConsole: 
-16:48:43.182 16:48:43.182 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
-16:48:43.182 16:48:43.182 sendMessageToConsole: /var/log/messages: Apr  7 16:48:41 cpu03 kubelet: E0407 16:48:41.201964    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
-16:48:43.182 16:48:43.182 sendMessageToConsole: 
-16:48:47.418 16:48:47.419 Message to master: anchor=/ds1/cpu03: Created 610 of 1,024 files (59.57%)
-16:48:53.193 16:48:53.193 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
-16:48:53.193 16:48:53.194 sendMessageToConsole: /var/log/messages: Apr  7 16:48:51 cpu03 kubelet: E0407 16:48:51.217488    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
-16:48:53.193 16:48:53.194 sendMessageToConsole: 
-16:49:02.492 16:49:02.492 Message to master: anchor=/ds12/cpu03: Created 670 of 1,024 files (65.43%)
-16:49:03.205 16:49:03.205 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
-16:49:03.205 16:49:03.206 sendMessageToConsole: /var/log/messages: Apr  7 16:49:01 cpu03 kubelet: E0407 16:49:01.233616    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
-16:49:03.205 16:49:03.206 sendMessageToConsole: /var/log/messages: Apr  7 16:49:01 cpu03 systemd: Started Session 2687 of user root.
-16:49:03.205 16:49:03.206 sendMessageToConsole: 
-16:49:13.217 16:49:13.217 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
-16:49:13.217 16:49:13.217 sendMessageToConsole: /var/log/messages: Apr  7 16:49:11 cpu03 kubelet: E0407 16:49:11.247433    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
-16:49:13.217 16:49:13.217 sendMessageToConsole: 
-16:49:17.633 16:49:17.633 Message to master: anchor=/ds9/cpu03: Created 820 of 1,024 files (80.08%)
-16:49:23.229 16:49:23.229 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
-16:49:23.229 16:49:23.229 sendMessageToConsole: /var/log/messages: Apr  7 16:49:21 cpu03 kubelet: E0407 16:49:21.264674    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
-16:49:23.229 16:49:23.229 sendMessageToConsole: 
-16:49:32.846 16:49:32.846 Message to master: anchor=/ds1/cpu03: Created 930 of 1,024 files (90.82%)
-16:49:33.245 16:49:33.245 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
-16:49:33.245 16:49:33.245 sendMessageToConsole: /var/log/messages: Apr  7 16:49:31 cpu03 kubelet: E0407 16:49:31.279728    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
-16:49:33.245 16:49:33.245 sendMessageToConsole: 
-16:49:39.895 16:49:39.895 Message to master: anchor=/ds6/cpu03 create complete.
-16:49:39.944 16:49:39.944 Message to master: anchor=/ds10/cpu03 create complete.
-16:49:40.478 16:49:40.478 Message to master: anchor=/ds2/cpu03 create complete.
-16:49:43.260 16:49:43.259 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
-16:49:43.260 16:49:43.259 sendMessageToConsole: /var/log/messages: Apr  7 16:49:41 cpu03 kubelet: E0407 16:49:41.293033    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
-16:49:43.260 16:49:43.260 sendMessageToConsole: 
-16:49:45.571 16:49:45.571 Message to master: anchor=/ds1/cpu03 create complete.
-16:49:45.891 16:49:45.891 Message to master: anchor=/ds5/cpu03 create complete.
-16:49:45.907 16:49:45.907 Message to master: anchor=/ds9/cpu03 create complete.
-16:49:47.849 16:49:47.849 Message to master: anchor=/ds3/cpu03: Created 1,010 of 1,024 files (98.63%)
-16:49:48.807 16:49:48.807 Message to master: anchor=/ds3/cpu03 create complete.
-16:49:49.221 16:49:49.220 Message to master: anchor=/ds7/cpu03 create complete.
-16:49:49.270 16:49:49.270 Message to master: anchor=/ds11/cpu03 create complete.
-16:49:50.058 16:49:50.058 Message to master: anchor=/ds8/cpu03 create complete.
-16:49:50.566 16:49:50.566 Message to master: anchor=/ds4/cpu03 create complete.
-16:49:50.689 16:49:50.689 Message to master: anchor=/ds12/cpu03 create complete.
-16:49:50.793 16:49:50.793 
-16:49:50.793 16:49:50.793 Miscellaneous statistics:
-16:49:50.793 16:49:50.793 FILE_CREATES        Files created:                               12,288
-16:49:50.793 16:49:50.793 DIRECTORY_CREATES   Directories created:                            864
-16:49:50.793 16:49:50.793 DIRECTORY_DELETES   Directories deleted:                            864
-16:49:50.793 16:49:50.793 WRITE_OPENS         Files opened for write activity:             12,288
-16:49:50.793 16:49:50.793 DIR_EXISTS          Directory may not exist (yet):                   84
-16:49:50.793 16:49:50.793 FILE_CLOSES         Close requests:                              12,288
-16:49:50.793 16:49:50.793 
-16:49:50.793 16:49:50.793 Java Heap in MB. max:  910.500; current:  121.500; used:   39.804; free:   81.696
-16:49:50.793 16:49:50.793 Maximum native memory allocation:   12,582,912; Current allocation:   12,582,912
-16:49:53.272 16:49:53.272 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
-16:49:53.272 16:49:53.272 sendMessageToConsole: /var/log/messages: Apr  7 16:49:51 cpu03 kubelet: E0407 16:49:51.305604    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
-16:49:53.272 16:49:53.272 sendMessageToConsole: 
-16:50:03.280 16:50:03.280 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
-16:50:03.280 16:50:03.280 sendMessageToConsole: /var/log/messages: Apr  7 16:50:01 cpu03 kubelet: E0407 16:50:01.319371    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
-16:50:03.280 16:50:03.280 sendMessageToConsole: /var/log/messages: Apr  7 16:50:01 cpu03 systemd: Started Session 2688 of user root.
-16:50:03.280 16:50:03.280 sendMessageToConsole: 
-16:50:13.294 16:50:13.294 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
-16:50:13.294 16:50:13.294 sendMessageToConsole: /var/log/messages: Apr  7 16:50:11 cpu03 kubelet: E0407 16:50:11.332311    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
-16:50:13.294 16:50:13.294 sendMessageToConsole: 
-16:50:23.303 16:50:23.303 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
-16:50:23.303 16:50:23.303 sendMessageToConsole: /var/log/messages: Apr  7 16:50:21 cpu03 kubelet: E0407 16:50:21.343822    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
-16:50:23.303 16:50:23.303 sendMessageToConsole: 
-16:50:33.312 16:50:33.312 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
-16:50:33.312 16:50:33.312 sendMessageToConsole: /var/log/messages: Apr  7 16:50:31 cpu03 kubelet: E0407 16:50:31.360485    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
-16:50:33.312 16:50:33.312 sendMessageToConsole: 
-16:50:43.325 16:50:43.324 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
-16:50:43.325 16:50:43.325 sendMessageToConsole: /var/log/messages: Apr  7 16:50:41 cpu03 kubelet: E0407 16:50:41.371134    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
-16:50:43.325 16:50:43.325 sendMessageToConsole: 
-16:50:53.334 16:50:53.334 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
-16:50:53.334 16:50:53.334 sendMessageToConsole: /var/log/messages: Apr  7 16:50:51 cpu03 kubelet: E0407 16:50:51.385657    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
-16:50:53.334 16:50:53.334 sendMessageToConsole: 
-16:50:58.347 16:50:58.347 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
-16:50:58.347 16:50:58.347 sendMessageToConsole: /var/log/messages: Apr  7 16:50:57 cpu03 dhclient[10393]: DHCPREQUEST on enp0s20u1u5 to 169.254.95.118 port 67 (xid=0x6ce97b67)
-16:50:58.347 16:50:58.347 sendMessageToConsole: /var/log/messages: Apr  7 16:50:57 cpu03 dhclient[10393]: DHCPACK from 169.254.95.118 (xid=0x6ce97b67)
-16:50:58.347 16:50:58.347 sendMessageToConsole: 
-16:51:03.356 16:51:03.356 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
-16:51:03.356 16:51:03.356 sendMessageToConsole: /var/log/messages: Apr  7 16:50:59 cpu03 dhclient[10393]: bound to 169.254.95.120 -- renewal in 277 seconds.
-16:51:03.356 16:51:03.356 sendMessageToConsole: /var/log/messages: Apr  7 16:51:01 cpu03 kubelet: E0407 16:51:01.397639    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
-16:51:03.356 16:51:03.356 sendMessageToConsole: /var/log/messages: Apr  7 16:51:01 cpu03 systemd: Started Session 2689 of user root.
-16:51:03.356 16:51:03.356 sendMessageToConsole: 
-16:51:10.144 16:51:10.144 Writing control file for anchor=/ds5/cpu03 at end of run.
-16:51:10.167 16:51:10.167 Completed control file for anchor=/ds5/cpu03 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/1024/10g
-16:51:10.167 16:51:10.167 Writing control file for anchor=/ds7/cpu03 at end of run.
-16:51:10.186 16:51:10.186 Completed control file for anchor=/ds7/cpu03 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/1024/10g
-16:51:10.186 16:51:10.186 Writing control file for anchor=/ds3/cpu03 at end of run.
-16:51:10.202 16:51:10.202 Completed control file for anchor=/ds3/cpu03 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/1024/10g
-16:51:10.202 16:51:10.202 Writing control file for anchor=/ds10/cpu03 at end of run.
-16:51:10.217 16:51:10.217 Completed control file for anchor=/ds10/cpu03 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/1024/10g
-16:51:10.217 16:51:10.217 Writing control file for anchor=/ds11/cpu03 at end of run.
-16:51:10.233 16:51:10.233 Completed control file for anchor=/ds11/cpu03 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/1024/10g
-16:51:10.233 16:51:10.233 Writing control file for anchor=/ds9/cpu03 at end of run.
-16:51:10.248 16:51:10.248 Completed control file for anchor=/ds9/cpu03 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/1024/10g
-16:51:10.248 16:51:10.248 Writing control file for anchor=/ds12/cpu03 at end of run.
-16:51:10.262 16:51:10.262 Completed control file for anchor=/ds12/cpu03 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/1024/10g
-16:51:10.262 16:51:10.263 Writing control file for anchor=/ds2/cpu03 at end of run.
-16:51:10.277 16:51:10.277 Completed control file for anchor=/ds2/cpu03 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/1024/10g
-16:51:10.277 16:51:10.277 Writing control file for anchor=/ds8/cpu03 at end of run.
-16:51:10.291 16:51:10.291 Completed control file for anchor=/ds8/cpu03 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/1024/10g
-16:51:10.291 16:51:10.291 Writing control file for anchor=/ds6/cpu03 at end of run.
-16:51:10.306 16:51:10.306 Completed control file for anchor=/ds6/cpu03 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/1024/10g
-16:51:10.306 16:51:10.306 Writing control file for anchor=/ds1/cpu03 at end of run.
-16:51:10.321 16:51:10.321 Completed control file for anchor=/ds1/cpu03 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/1024/10g
-16:51:10.321 16:51:10.321 Writing control file for anchor=/ds4/cpu03 at end of run.
-16:51:10.335 16:51:10.335 Completed control file for anchor=/ds4/cpu03 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/1024/10g
-16:51:10.335 16:51:10.335 End of run
-16:51:10.335 16:51:10.335 **********
-16:51:10.335 
-16:51:10.335 
-16:51:11.051 16:51:11.051 Beginning of run setup
-16:51:11.051 16:51:11.051 **********************
-16:51:11.051 
-16:51:11.051 
-16:51:11.092 16:51:11.091 Starting initializeFileAnchor for rd=rd_prep For loops: None anchor=fsd_cpu03_ds1
-16:51:11.092 16:51:11.092 Reading control file for anchor=/ds1/cpu03
-16:51:11.097 16:51:11.097 Completed reading control file.
-16:51:11.097 16:51:11.097 Completed the creation of the directory list for /ds1/cpu03: 72 directories.
-16:51:11.098 16:51:11.098 Generated 1,024 file names; total anchor size: 10g (10,737,418,240)
-16:51:11.098 16:51:11.098 Writing control file for anchor=/ds1/cpu03 at start of run.
-16:51:11.114 16:51:11.114 Completed control file for anchor=/ds1/cpu03 at start of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/0/0
-16:51:11.114 16:51:11.114 During anchor creation for anchor=/ds1/cpu03 there were 72 directories and 1024 files
-16:51:11.114 16:51:11.114 Completed initializeFileAnchor for fsd_cpu03_ds1: 0.02
-16:51:11.114 16:51:11.114 Starting initializeFileAnchor for rd=rd_prep For loops: None anchor=fsd_cpu03_ds2
-16:51:11.115 16:51:11.114 Reading control file for anchor=/ds2/cpu03
-16:51:11.116 16:51:11.116 Completed reading control file.
-16:51:11.116 16:51:11.116 Completed the creation of the directory list for /ds2/cpu03: 72 directories.
-16:51:11.116 16:51:11.116 Generated 1,024 file names; total anchor size: 10g (10,737,418,240)
-16:51:11.117 16:51:11.116 Writing control file for anchor=/ds2/cpu03 at start of run.
-16:51:11.130 16:51:11.130 Completed control file for anchor=/ds2/cpu03 at start of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/0/0
-16:51:11.130 16:51:11.130 During anchor creation for anchor=/ds2/cpu03 there were 72 directories and 1024 files
-16:51:11.130 16:51:11.130 Completed initializeFileAnchor for fsd_cpu03_ds2: 0.02
-16:51:11.130 16:51:11.130 Starting initializeFileAnchor for rd=rd_prep For loops: None anchor=fsd_cpu03_ds3
-16:51:11.130 16:51:11.130 Reading control file for anchor=/ds3/cpu03
-16:51:11.131 16:51:11.131 Completed reading control file.
-16:51:11.131 16:51:11.131 Completed the creation of the directory list for /ds3/cpu03: 72 directories.
-16:51:11.131 16:51:11.131 Generated 1,024 file names; total anchor size: 10g (10,737,418,240)
-16:51:11.131 16:51:11.131 Writing control file for anchor=/ds3/cpu03 at start of run.
-16:51:11.143 16:51:11.143 Completed control file for anchor=/ds3/cpu03 at start of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/0/0
-16:51:11.144 16:51:11.144 During anchor creation for anchor=/ds3/cpu03 there were 72 directories and 1024 files
-16:51:11.144 16:51:11.144 Completed initializeFileAnchor for fsd_cpu03_ds3: 0.01
-16:51:11.144 16:51:11.144 Starting initializeFileAnchor for rd=rd_prep For loops: None anchor=fsd_cpu03_ds4
-16:51:11.144 16:51:11.144 Reading control file for anchor=/ds4/cpu03
-16:51:11.145 16:51:11.145 Completed reading control file.
-16:51:11.145 16:51:11.145 Completed the creation of the directory list for /ds4/cpu03: 72 directories.
-16:51:11.146 16:51:11.146 Generated 1,024 file names; total anchor size: 10g (10,737,418,240)
-16:51:11.146 16:51:11.146 Writing control file for anchor=/ds4/cpu03 at start of run.
-16:51:11.158 16:51:11.158 Completed control file for anchor=/ds4/cpu03 at start of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/0/0
-16:51:11.158 16:51:11.158 During anchor creation for anchor=/ds4/cpu03 there were 72 directories and 1024 files
-16:51:11.158 16:51:11.158 Completed initializeFileAnchor for fsd_cpu03_ds4: 0.01
-16:51:11.158 16:51:11.158 Starting initializeFileAnchor for rd=rd_prep For loops: None anchor=fsd_cpu03_ds5
-16:51:11.158 16:51:11.158 Reading control file for anchor=/ds5/cpu03
-16:51:11.159 16:51:11.159 Completed reading control file.
-16:51:11.159 16:51:11.159 Completed the creation of the directory list for /ds5/cpu03: 72 directories.
-16:51:11.160 16:51:11.160 Generated 1,024 file names; total anchor size: 10g (10,737,418,240)
-16:51:11.160 16:51:11.160 Writing control file for anchor=/ds5/cpu03 at start of run.
-16:51:11.175 16:51:11.175 Completed control file for anchor=/ds5/cpu03 at start of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/0/0
-16:51:11.175 16:51:11.175 During anchor creation for anchor=/ds5/cpu03 there were 72 directories and 1024 files
-16:51:11.175 16:51:11.175 Completed initializeFileAnchor for fsd_cpu03_ds5: 0.02
-16:51:11.175 16:51:11.175 Starting initializeFileAnchor for rd=rd_prep For loops: None anchor=fsd_cpu03_ds6
-16:51:11.176 16:51:11.176 Reading control file for anchor=/ds6/cpu03
-16:51:11.177 16:51:11.177 Completed reading control file.
-16:51:11.177 16:51:11.177 Completed the creation of the directory list for /ds6/cpu03: 72 directories.
-16:51:11.177 16:51:11.177 Generated 1,024 file names; total anchor size: 10g (10,737,418,240)
-16:51:11.177 16:51:11.177 Writing control file for anchor=/ds6/cpu03 at start of run.
-16:51:11.190 16:51:11.190 Completed control file for anchor=/ds6/cpu03 at start of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/0/0
-16:51:11.190 16:51:11.190 During anchor creation for anchor=/ds6/cpu03 there were 72 directories and 1024 files
-16:51:11.190 16:51:11.190 Completed initializeFileAnchor for fsd_cpu03_ds6: 0.02
-16:51:11.190 16:51:11.190 Starting initializeFileAnchor for rd=rd_prep For loops: None anchor=fsd_cpu03_ds7
-16:51:11.190 16:51:11.190 Reading control file for anchor=/ds7/cpu03
-16:51:11.191 16:51:11.191 Completed reading control file.
-16:51:11.191 16:51:11.191 Completed the creation of the directory list for /ds7/cpu03: 72 directories.
-16:51:11.191 16:51:11.191 Generated 1,024 file names; total anchor size: 10g (10,737,418,240)
-16:51:11.191 16:51:11.191 Writing control file for anchor=/ds7/cpu03 at start of run.
-16:51:11.204 16:51:11.204 Completed control file for anchor=/ds7/cpu03 at start of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/0/0
-16:51:11.204 16:51:11.204 During anchor creation for anchor=/ds7/cpu03 there were 72 directories and 1024 files
-16:51:11.204 16:51:11.204 Completed initializeFileAnchor for fsd_cpu03_ds7: 0.01
-16:51:11.204 16:51:11.204 Starting initializeFileAnchor for rd=rd_prep For loops: None anchor=fsd_cpu03_ds8
-16:51:11.204 16:51:11.204 Reading control file for anchor=/ds8/cpu03
-16:51:11.205 16:51:11.205 Completed reading control file.
-16:51:11.205 16:51:11.205 Completed the creation of the directory list for /ds8/cpu03: 72 directories.
-16:51:11.205 16:51:11.205 Generated 1,024 file names; total anchor size: 10g (10,737,418,240)
-16:51:11.205 16:51:11.205 Writing control file for anchor=/ds8/cpu03 at start of run.
-16:51:11.217 16:51:11.217 Completed control file for anchor=/ds8/cpu03 at start of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/0/0
-16:51:11.217 16:51:11.217 During anchor creation for anchor=/ds8/cpu03 there were 72 directories and 1024 files
-16:51:11.217 16:51:11.217 Completed initializeFileAnchor for fsd_cpu03_ds8: 0.01
-16:51:11.217 16:51:11.217 Starting initializeFileAnchor for rd=rd_prep For loops: None anchor=fsd_cpu03_ds9
-16:51:11.217 16:51:11.218 Reading control file for anchor=/ds9/cpu03
-16:51:11.218 16:51:11.218 Completed reading control file.
-16:51:11.218 16:51:11.218 Completed the creation of the directory list for /ds9/cpu03: 72 directories.
-16:51:11.219 16:51:11.219 Generated 1,024 file names; total anchor size: 10g (10,737,418,240)
-16:51:11.219 16:51:11.219 Writing control file for anchor=/ds9/cpu03 at start of run.
-16:51:11.230 16:51:11.230 Completed control file for anchor=/ds9/cpu03 at start of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/0/0
-16:51:11.230 16:51:11.230 During anchor creation for anchor=/ds9/cpu03 there were 72 directories and 1024 files
-16:51:11.230 16:51:11.230 Completed initializeFileAnchor for fsd_cpu03_ds9: 0.01
-16:51:11.230 16:51:11.230 Starting initializeFileAnchor for rd=rd_prep For loops: None anchor=fsd_cpu03_ds10
-16:51:11.230 16:51:11.230 Reading control file for anchor=/ds10/cpu03
-16:51:11.231 16:51:11.231 Completed reading control file.
-16:51:11.231 16:51:11.231 Completed the creation of the directory list for /ds10/cpu03: 72 directories.
-16:51:11.232 16:51:11.232 Generated 1,024 file names; total anchor size: 10g (10,737,418,240)
-16:51:11.232 16:51:11.232 Writing control file for anchor=/ds10/cpu03 at start of run.
-16:51:11.243 16:51:11.243 Completed control file for anchor=/ds10/cpu03 at start of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/0/0
-16:51:11.243 16:51:11.243 During anchor creation for anchor=/ds10/cpu03 there were 72 directories and 1024 files
-16:51:11.243 16:51:11.243 Completed initializeFileAnchor for fsd_cpu03_ds10: 0.01
-16:51:11.243 16:51:11.243 Starting initializeFileAnchor for rd=rd_prep For loops: None anchor=fsd_cpu03_ds11
-16:51:11.243 16:51:11.243 Reading control file for anchor=/ds11/cpu03
-16:51:11.244 16:51:11.244 Completed reading control file.
-16:51:11.244 16:51:11.244 Completed the creation of the directory list for /ds11/cpu03: 72 directories.
-16:51:11.244 16:51:11.244 Generated 1,024 file names; total anchor size: 10g (10,737,418,240)
-16:51:11.244 16:51:11.244 Writing control file for anchor=/ds11/cpu03 at start of run.
-16:51:11.255 16:51:11.255 Completed control file for anchor=/ds11/cpu03 at start of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/0/0
-16:51:11.255 16:51:11.255 During anchor creation for anchor=/ds11/cpu03 there were 72 directories and 1024 files
-16:51:11.255 16:51:11.255 Completed initializeFileAnchor for fsd_cpu03_ds11: 0.01
-16:51:11.255 16:51:11.255 Starting initializeFileAnchor for rd=rd_prep For loops: None anchor=fsd_cpu03_ds12
-16:51:11.255 16:51:11.255 Reading control file for anchor=/ds12/cpu03
-16:51:11.256 16:51:11.256 Completed reading control file.
-16:51:11.256 16:51:11.256 Completed the creation of the directory list for /ds12/cpu03: 72 directories.
-16:51:11.257 16:51:11.257 Generated 1,024 file names; total anchor size: 10g (10,737,418,240)
-16:51:11.257 16:51:11.257 Writing control file for anchor=/ds12/cpu03 at start of run.
-16:51:11.268 16:51:11.268 Completed control file for anchor=/ds12/cpu03 at start of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/0/0
-16:51:11.268 16:51:11.268 During anchor creation for anchor=/ds12/cpu03 there were 72 directories and 1024 files
-16:51:11.268 16:51:11.268 Completed initializeFileAnchor for fsd_cpu03_ds12: 0.01
-16:51:11.270 16:51:11.270 Started 1 threads for fwd=fwd_prep_cpu03,fsd=fsd_cpu03_ds1,operation=create
-16:51:11.270 16:51:11.270 Started 1 threads for fwd=fwd_prep_cpu03,fsd=fsd_cpu03_ds2,operation=create
-16:51:11.271 16:51:11.271 Started 1 threads for fwd=fwd_prep_cpu03,fsd=fsd_cpu03_ds3,operation=create
-16:51:11.271 16:51:11.271 Started 1 threads for fwd=fwd_prep_cpu03,fsd=fsd_cpu03_ds4,operation=create
-16:51:11.272 16:51:11.272 Started 1 threads for fwd=fwd_prep_cpu03,fsd=fsd_cpu03_ds5,operation=create
-16:51:11.272 16:51:11.272 Started 1 threads for fwd=fwd_prep_cpu03,fsd=fsd_cpu03_ds6,operation=create
-16:51:11.272 16:51:11.272 Started 1 threads for fwd=fwd_prep_cpu03,fsd=fsd_cpu03_ds7,operation=create
-16:51:11.273 16:51:11.273 Started 1 threads for fwd=fwd_prep_cpu03,fsd=fsd_cpu03_ds8,operation=create
-16:51:11.273 16:51:11.273 Started 1 threads for fwd=fwd_prep_cpu03,fsd=fsd_cpu03_ds9,operation=create
-16:51:11.274 16:51:11.273 Started 1 threads for fwd=fwd_prep_cpu03,fsd=fsd_cpu03_ds10,operation=create
-16:51:11.274 16:51:11.274 Started 1 threads for fwd=fwd_prep_cpu03,fsd=fsd_cpu03_ds11,operation=create
-16:51:11.274 16:51:11.274 Started 1 threads for fwd=fwd_prep_cpu03,fsd=fsd_cpu03_ds12,operation=create
-16:51:11.274 16:51:11.274 Started 12 FwgThreads for rd=rd_prep For loops: None
-16:51:11.274 16:51:11.274 Waiting for task synchronization
-16:51:11.274 16:51:11.274 task_wait_start_complete: FwgThread create /ds12/cpu03 1
-16:51:11.475 16:51:11.475 Requesting full garbage collection
-16:51:11.475 16:51:11.475 GcTracker: cum:  25 intv:  1 ms:       3 mss:  0.00% Heap_MB max:   911 curr:   122 used:    31 free:    91 
-16:51:11.524 16:51:11.524 GcTracker: cum:  27 intv:  2 ms:      48 mss:  0.00% Heap_MB max:   911 curr:   123 used:    23 free:    99 
-16:51:11.524 16:51:11.524 task_wait_start_complete() end
-
-<a name="_192794887"></a><i><b>16:51:12.001 Starting RD=rd_prep; elapsed=30; fwdrate=max. For loops: None</b></i>
-
-16:51:12.003 16:51:12.003 task_run_all(): 13 tasks
-16:51:12.271 16:51:12.271 Anchor: /ds1/cpu03
-16:51:12.271 16:51:12.271 Anchor: /ds2/cpu03
-16:51:12.271 16:51:12.271 Vdbench is trying to create a new file, but all files already exist, 
-16:51:12.272 16:51:12.272 Vdbench is trying to create a new file, but all files already exist, 
-16:51:12.272 16:51:12.272 and no threads are currently active deleting files
-16:51:12.272 16:51:12.272 FwgThread.canWeGetMoreFiles(): Shutting down threads for operation=create
-16:51:12.272 16:51:12.272 
-16:51:12.272 16:51:12.272 Anchor: /ds3/cpu03
-16:51:12.272 16:51:12.272 Vdbench is trying to create a new file, but all files already exist, 
-16:51:12.272 16:51:12.272 and no threads are currently active deleting files
-16:51:12.272 16:51:12.272 FwgThread.canWeGetMoreFiles(): Shutting down threads for operation=create
-16:51:12.272 16:51:12.272 
-16:51:12.272 16:51:12.272 sendMessageToConsole: Anchor: /ds3/cpu03
-16:51:12.272 16:51:12.272 sendMessageToConsole: Vdbench is trying to create a new file, but all files already exist, 
-16:51:12.272 16:51:12.272 sendMessageToConsole: and no threads are currently active deleting files
-16:51:12.272 16:51:12.272 sendMessageToConsole: FwgThread.canWeGetMoreFiles(): Shutting down threads for operation=create
-16:51:12.272 16:51:12.272 sendMessageToConsole: 
-16:51:12.273 16:51:12.273 and no threads are currently active deleting files
-16:51:12.274 16:51:12.274 Anchor: /ds5/cpu03
-16:51:12.275 16:51:12.275 Anchor: /ds4/cpu03
-16:51:12.275 16:51:12.275 Vdbench is trying to create a new file, but all files already exist, 
-16:51:12.275 16:51:12.275 and no threads are currently active deleting files
-16:51:12.275 16:51:12.275 FwgThread.canWeGetMoreFiles(): Shutting down threads for operation=create
-16:51:12.275 16:51:12.275 
-16:51:12.275 16:51:12.275 sendMessageToConsole: Anchor: /ds4/cpu03
-16:51:12.275 16:51:12.275 sendMessageToConsole: Vdbench is trying to create a new file, but all files already exist, 
-16:51:12.275 16:51:12.275 sendMessageToConsole: and no threads are currently active deleting files
-16:51:12.275 16:51:12.275 sendMessageToConsole: FwgThread.canWeGetMoreFiles(): Shutting down threads for operation=create
-16:51:12.275 16:51:12.275 sendMessageToConsole: 
-16:51:12.276 16:51:12.275 sendMessageToConsole: Anchor: /ds1/cpu03
-16:51:12.276 16:51:12.276 sendMessageToConsole: Vdbench is trying to create a new file, but all files already exist, 
-16:51:12.276 16:51:12.276 sendMessageToConsole: and no threads are currently active deleting files
-16:51:12.276 16:51:12.276 sendMessageToConsole: FwgThread.canWeGetMoreFiles(): Shutting down threads for operation=create
-16:51:12.276 16:51:12.276 sendMessageToConsole: 
-16:51:12.276 16:51:12.276 Anchor: /ds12/cpu03
-16:51:12.276 16:51:12.276 Vdbench is trying to create a new file, but all files already exist, 
-16:51:12.276 16:51:12.276 and no threads are currently active deleting files
-16:51:12.276 16:51:12.276 FwgThread.canWeGetMoreFiles(): Shutting down threads for operation=create
-16:51:12.276 16:51:12.276 
-16:51:12.276 16:51:12.276 sendMessageToConsole: Anchor: /ds12/cpu03
-16:51:12.276 16:51:12.276 sendMessageToConsole: Vdbench is trying to create a new file, but all files already exist, 
-16:51:12.276 16:51:12.276 sendMessageToConsole: and no threads are currently active deleting files
-16:51:12.276 16:51:12.276 sendMessageToConsole: FwgThread.canWeGetMoreFiles(): Shutting down threads for operation=create
-16:51:12.276 16:51:12.276 sendMessageToConsole: 
-16:51:12.276 16:51:12.276 Anchor: /ds9/cpu03
-16:51:12.276 16:51:12.276 Vdbench is trying to create a new file, but all files already exist, 
-16:51:12.276 16:51:12.276 and no threads are currently active deleting files
-16:51:12.276 16:51:12.276 FwgThread.canWeGetMoreFiles(): Shutting down threads for operation=create
-16:51:12.276 16:51:12.276 Anchor: /ds11/cpu03
-16:51:12.276 16:51:12.276 Vdbench is trying to create a new file, but all files already exist, 
-16:51:12.276 16:51:12.276 and no threads are currently active deleting files
-16:51:12.276 16:51:12.277 FwgThread.canWeGetMoreFiles(): Shutting down threads for operation=create
-16:51:12.276 16:51:12.277 
-16:51:12.276 16:51:12.277 sendMessageToConsole: Anchor: /ds5/cpu03
-16:51:12.277 16:51:12.277 sendMessageToConsole: Vdbench is trying to create a new file, but all files already exist, 
-16:51:12.277 16:51:12.277 sendMessageToConsole: and no threads are currently active deleting files
-16:51:12.277 16:51:12.277 sendMessageToConsole: FwgThread.canWeGetMoreFiles(): Shutting down threads for operation=create
-16:51:12.277 16:51:12.277 sendMessageToConsole: 
-16:51:12.277 16:51:12.277 Anchor: /ds10/cpu03
-16:51:12.278 16:51:12.277 Vdbench is trying to create a new file, but all files already exist, 
-16:51:12.278 16:51:12.278 and no threads are currently active deleting files
-16:51:12.278 16:51:12.278 FwgThread.canWeGetMoreFiles(): Shutting down threads for operation=create
-16:51:12.278 16:51:12.278 
-16:51:12.278 16:51:12.278 sendMessageToConsole: Anchor: /ds10/cpu03
-16:51:12.278 16:51:12.278 sendMessageToConsole: Vdbench is trying to create a new file, but all files already exist, 
-16:51:12.278 16:51:12.278 sendMessageToConsole: and no threads are currently active deleting files
-16:51:12.278 16:51:12.278 sendMessageToConsole: FwgThread.canWeGetMoreFiles(): Shutting down threads for operation=create
-16:51:12.278 16:51:12.278 sendMessageToConsole: 
-16:51:12.278 16:51:12.278 FwgThread.canWeGetMoreFiles(): Shutting down threads for operation=create
-16:51:12.278 16:51:12.278 
-16:51:12.278 16:51:12.278 sendMessageToConsole: Anchor: /ds2/cpu03
-16:51:12.278 16:51:12.278 sendMessageToConsole: Vdbench is trying to create a new file, but all files already exist, 
-16:51:12.278 16:51:12.278 sendMessageToConsole: and no threads are currently active deleting files
-16:51:12.278 16:51:12.278 sendMessageToConsole: FwgThread.canWeGetMoreFiles(): Shutting down threads for operation=create
-16:51:12.278 16:51:12.278 sendMessageToConsole: 
-16:51:12.278 16:51:12.278 Anchor: /ds8/cpu03
-16:51:12.278 16:51:12.278 Vdbench is trying to create a new file, but all files already exist, 
-16:51:12.278 16:51:12.278 and no threads are currently active deleting files
-16:51:12.278 16:51:12.278 FwgThread.canWeGetMoreFiles(): Shutting down threads for operation=create
-16:51:12.278 16:51:12.278 
-16:51:12.278 16:51:12.278 sendMessageToConsole: Anchor: /ds8/cpu03
-16:51:12.278 16:51:12.278 sendMessageToConsole: Vdbench is trying to create a new file, but all files already exist, 
-16:51:12.278 16:51:12.278 sendMessageToConsole: and no threads are currently active deleting files
-16:51:12.278 16:51:12.278 sendMessageToConsole: FwgThread.canWeGetMoreFiles(): Shutting down threads for operation=create
-16:51:12.278 16:51:12.278 sendMessageToConsole: 
-16:51:12.278 16:51:12.278 Anchor: /ds7/cpu03
-16:51:12.278 16:51:12.278 Anchor: /ds6/cpu03
-16:51:12.278 16:51:12.278 Vdbench is trying to create a new file, but all files already exist, 
-16:51:12.278 16:51:12.278 Vdbench is trying to create a new file, but all files already exist, 
-16:51:12.278 16:51:12.279 
-16:51:12.279 16:51:12.279 sendMessageToConsole: Anchor: /ds9/cpu03
-16:51:12.279 16:51:12.279 sendMessageToConsole: Vdbench is trying to create a new file, but all files already exist, 
-16:51:12.279 16:51:12.279 sendMessageToConsole: and no threads are currently active deleting files
-16:51:12.279 16:51:12.279 sendMessageToConsole: FwgThread.canWeGetMoreFiles(): Shutting down threads for operation=create
-16:51:12.279 16:51:12.279 sendMessageToConsole: 
-16:51:12.279 16:51:12.279 and no threads are currently active deleting files
-16:51:12.279 16:51:12.279 FwgThread.canWeGetMoreFiles(): Shutting down threads for operation=create
-16:51:12.279 16:51:12.279 
-16:51:12.279 16:51:12.279 sendMessageToConsole: Anchor: /ds11/cpu03
-16:51:12.279 16:51:12.279 sendMessageToConsole: Vdbench is trying to create a new file, but all files already exist, 
-16:51:12.279 16:51:12.279 sendMessageToConsole: and no threads are currently active deleting files
-16:51:12.279 16:51:12.279 sendMessageToConsole: FwgThread.canWeGetMoreFiles(): Shutting down threads for operation=create
-16:51:12.279 16:51:12.279 sendMessageToConsole: 
-16:51:12.279 16:51:12.279 and no threads are currently active deleting files
-16:51:12.279 16:51:12.279 FwgThread.canWeGetMoreFiles(): Shutting down threads for operation=create
-16:51:12.279 16:51:12.279 
-16:51:12.279 16:51:12.279 sendMessageToConsole: Anchor: /ds7/cpu03
-16:51:12.279 16:51:12.279 sendMessageToConsole: Vdbench is trying to create a new file, but all files already exist, 
-16:51:12.279 16:51:12.279 sendMessageToConsole: and no threads are currently active deleting files
-16:51:12.279 16:51:12.279 sendMessageToConsole: FwgThread.canWeGetMoreFiles(): Shutting down threads for operation=create
-16:51:12.279 16:51:12.279 sendMessageToConsole: 
-16:51:12.279 16:51:12.279 Vdbench is trying to create a new file, but all files already exist, 
-16:51:12.279 16:51:12.279 and no threads are currently active deleting files
-16:51:12.279 16:51:12.279 FwgThread.canWeGetMoreFiles(): Shutting down threads for operation=create
-16:51:12.279 16:51:12.279 
-16:51:12.279 16:51:12.279 sendMessageToConsole: Anchor: /ds6/cpu03
-16:51:12.279 16:51:12.279 sendMessageToConsole: Vdbench is trying to create a new file, but all files already exist, 
-16:51:12.279 16:51:12.279 sendMessageToConsole: and no threads are currently active deleting files
-16:51:12.279 16:51:12.279 sendMessageToConsole: FwgThread.canWeGetMoreFiles(): Shutting down threads for operation=create
-16:51:12.279 16:51:12.279 sendMessageToConsole: 
-16:51:12.281 16:51:12.281 Miscellaneous statistics: All counters are zero
-16:51:12.281 16:51:12.281 Java Heap in MB. max:  910.500; current:  122.500; used:   25.364; free:   97.136
-16:51:12.281 16:51:12.281 Maximum native memory allocation:   12,632,064; Current allocation:       49,152
-16:51:13.264 16:51:13.263 Writing control file for anchor=/ds10/cpu03 at end of run.
-16:51:13.281 16:51:13.281 Completed control file for anchor=/ds10/cpu03 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/0/0
-16:51:13.281 16:51:13.281 Writing control file for anchor=/ds9/cpu03 at end of run.
-16:51:13.296 16:51:13.296 Completed control file for anchor=/ds9/cpu03 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/0/0
-16:51:13.296 16:51:13.296 Writing control file for anchor=/ds4/cpu03 at end of run.
-16:51:13.308 16:51:13.308 Completed control file for anchor=/ds4/cpu03 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/0/0
-16:51:13.308 16:51:13.308 Writing control file for anchor=/ds8/cpu03 at end of run.
-16:51:13.321 16:51:13.320 Completed control file for anchor=/ds8/cpu03 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/0/0
-16:51:13.321 16:51:13.321 Writing control file for anchor=/ds3/cpu03 at end of run.
-16:51:13.333 16:51:13.333 Completed control file for anchor=/ds3/cpu03 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/0/0
-16:51:13.333 16:51:13.333 Writing control file for anchor=/ds1/cpu03 at end of run.
-16:51:13.345 16:51:13.345 Completed control file for anchor=/ds1/cpu03 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/0/0
-16:51:13.345 16:51:13.345 Writing control file for anchor=/ds11/cpu03 at end of run.
-16:51:13.358 16:51:13.358 Completed control file for anchor=/ds11/cpu03 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/0/0
-16:51:13.358 16:51:13.358 Writing control file for anchor=/ds6/cpu03 at end of run.
-16:51:13.366 16:51:13.366 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
-16:51:13.366 16:51:13.366 sendMessageToConsole: /var/log/messages: Apr  7 16:51:11 cpu03 kubelet: E0407 16:51:11.411483    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
-16:51:13.366 16:51:13.366 sendMessageToConsole: 
-16:51:13.370 16:51:13.370 Completed control file for anchor=/ds6/cpu03 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/0/0
-16:51:13.370 16:51:13.370 Writing control file for anchor=/ds12/cpu03 at end of run.
-16:51:13.382 16:51:13.382 Completed control file for anchor=/ds12/cpu03 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/0/0
-16:51:13.382 16:51:13.382 Writing control file for anchor=/ds2/cpu03 at end of run.
-16:51:13.395 16:51:13.395 Completed control file for anchor=/ds2/cpu03 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/0/0
-16:51:13.395 16:51:13.395 Writing control file for anchor=/ds5/cpu03 at end of run.
-16:51:13.408 16:51:13.408 Completed control file for anchor=/ds5/cpu03 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/0/0
-16:51:13.408 16:51:13.408 Writing control file for anchor=/ds7/cpu03 at end of run.
-16:51:13.419 16:51:13.419 Completed control file for anchor=/ds7/cpu03 at end of run.  dirs: 72/72 files: 1024/1024 sizes: 10g/10g/0/0
-16:51:13.419 16:51:13.419 End of run
-16:51:13.419 16:51:13.419 **********
-16:51:13.419 
-16:51:13.419 
-16:51:14.856 16:51:14.856 Master is requesting slave shutdown
-16:51:14.856 16:51:14.856 Java Heap in MB. max:  910.500; current:  122.500; used:   43.836; free:   78.664
+14:31:32.006 14:31:32.002 task_run_all(): 13 tasks
+14:31:35.435 14:31:35.431 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:31:35.435 14:31:35.431 sendMessageToConsole: /var/log/messages: Apr  9 14:31:30 cpu03 kubelet: E0409 14:31:30.470968    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:31:35.435 14:31:35.431 sendMessageToConsole: 
+14:31:45.476 14:31:45.472 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:31:45.476 14:31:45.472 sendMessageToConsole: /var/log/messages: Apr  9 14:31:40 cpu03 kubelet: E0409 14:31:40.486630    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:31:45.476 14:31:45.472 sendMessageToConsole: 
+14:31:55.516 14:31:55.512 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:31:55.516 14:31:55.512 sendMessageToConsole: /var/log/messages: Apr  9 14:31:50 cpu03 kubelet: E0409 14:31:50.501562    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:31:55.516 14:31:55.512 sendMessageToConsole: 
+14:32:05.559 14:32:05.556 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:32:05.559 14:32:05.556 sendMessageToConsole: /var/log/messages: Apr  9 14:32:00 cpu03 kubelet: E0409 14:32:00.519409    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:32:05.559 14:32:05.556 sendMessageToConsole: /var/log/messages: Apr  9 14:32:01 cpu03 systemd: Started Session 5511 of user root.
+14:32:05.559 14:32:05.556 sendMessageToConsole: 
+14:32:10.594 14:32:10.591 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:32:10.594 14:32:10.591 sendMessageToConsole: /var/log/messages: Apr  9 14:32:10 cpu03 kubelet: E0409 14:32:10.535906    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:32:10.594 14:32:10.591 sendMessageToConsole: 
+14:32:20.629 14:32:20.626 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:32:20.629 14:32:20.626 sendMessageToConsole: /var/log/messages: Apr  9 14:32:20 cpu03 kubelet: E0409 14:32:20.551287    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:32:20.629 14:32:20.626 sendMessageToConsole: 
+14:32:25.659 14:32:25.657 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:32:25.659 14:32:25.657 sendMessageToConsole: /var/log/messages: Apr  9 14:32:23 cpu03 dhclient[10393]: DHCPREQUEST on enp0s20u1u5 to 169.254.95.118 port 67 (xid=0x6ce97b67)
+14:32:25.659 14:32:25.657 sendMessageToConsole: /var/log/messages: Apr  9 14:32:23 cpu03 dhclient[10393]: DHCPACK from 169.254.95.118 (xid=0x6ce97b67)
+14:32:25.659 14:32:25.657 sendMessageToConsole: 
+14:32:30.693 14:32:30.691 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:32:30.693 14:32:30.691 sendMessageToConsole: /var/log/messages: Apr  9 14:32:25 cpu03 dhclient[10393]: bound to 169.254.95.120 -- renewal in 270 seconds.
+14:32:30.693 14:32:30.691 sendMessageToConsole: /var/log/messages: Apr  9 14:32:30 cpu03 kubelet: E0409 14:32:30.568188    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:32:30.693 14:32:30.691 sendMessageToConsole: 
+14:32:40.731 14:32:40.730 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:32:40.731 14:32:40.730 sendMessageToConsole: /var/log/messages: Apr  9 14:32:40 cpu03 kubelet: E0409 14:32:40.584586    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:32:40.731 14:32:40.730 sendMessageToConsole: 
+14:32:50.767 14:32:50.766 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:32:50.767 14:32:50.767 sendMessageToConsole: /var/log/messages: Apr  9 14:32:50 cpu03 kubelet: E0409 14:32:50.600123    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:32:50.767 14:32:50.767 sendMessageToConsole: 
+14:33:00.802 14:33:00.801 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:33:00.802 14:33:00.801 sendMessageToConsole: /var/log/messages: Apr  9 14:33:00 cpu03 kubelet: E0409 14:33:00.616085    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:33:00.802 14:33:00.801 sendMessageToConsole: 
+14:33:05.837 14:33:05.836 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:33:05.837 14:33:05.836 sendMessageToConsole: /var/log/messages: Apr  9 14:33:01 cpu03 systemd: Started Session 5512 of user root.
+14:33:05.837 14:33:05.836 sendMessageToConsole: 
+14:33:10.870 14:33:10.869 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:33:10.870 14:33:10.869 sendMessageToConsole: /var/log/messages: Apr  9 14:33:10 cpu03 kubelet: E0409 14:33:10.632655    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:33:10.870 14:33:10.869 sendMessageToConsole: 
+14:33:20.906 14:33:20.904 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:33:20.906 14:33:20.904 sendMessageToConsole: /var/log/messages: Apr  9 14:33:20 cpu03 kubelet: E0409 14:33:20.648677    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:33:20.906 14:33:20.904 sendMessageToConsole: 
+14:33:30.944 14:33:30.943 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:33:30.944 14:33:30.943 sendMessageToConsole: /var/log/messages: Apr  9 14:33:30 cpu03 kubelet: E0409 14:33:30.664014    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:33:30.944 14:33:30.943 sendMessageToConsole: 
+14:33:40.983 14:33:40.981 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:33:40.983 14:33:40.981 sendMessageToConsole: /var/log/messages: Apr  9 14:33:40 cpu03 kubelet: E0409 14:33:40.680333    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:33:40.983 14:33:40.981 sendMessageToConsole: 
+14:33:51.020 14:33:51.018 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:33:51.020 14:33:51.018 sendMessageToConsole: /var/log/messages: Apr  9 14:33:50 cpu03 kubelet: E0409 14:33:50.697294    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:33:51.020 14:33:51.018 sendMessageToConsole: 
+14:34:01.059 14:34:01.057 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:34:01.059 14:34:01.057 sendMessageToConsole: /var/log/messages: Apr  9 14:34:00 cpu03 kubelet: E0409 14:34:00.714058    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:34:01.059 14:34:01.057 sendMessageToConsole: 
+14:34:06.093 14:34:06.090 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:34:06.097 14:34:06.090 sendMessageToConsole: /var/log/messages: Apr  9 14:34:01 cpu03 systemd: Started Session 5513 of user root.
+14:34:06.097 14:34:06.090 sendMessageToConsole: 
+14:34:11.128 14:34:11.125 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:34:11.128 14:34:11.126 sendMessageToConsole: /var/log/messages: Apr  9 14:34:10 cpu03 kubelet: E0409 14:34:10.728458    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:34:11.128 14:34:11.126 sendMessageToConsole: 
+14:34:16.165 14:34:16.163 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:34:16.165 14:34:16.163 sendMessageToConsole: /var/log/messages: Apr  9 14:34:14 cpu03 dhclient[10266]: DHCPREQUEST on eno1 to 192.168.10.10 port 67 (xid=0x3c967971)
+14:34:16.165 14:34:16.163 sendMessageToConsole: /var/log/messages: Apr  9 14:34:14 cpu03 dhclient[10266]: DHCPACK from 192.168.10.10 (xid=0x3c967971)
+14:34:16.165 14:34:16.163 sendMessageToConsole: 
+14:34:21.200 14:34:21.198 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:34:21.200 14:34:21.198 sendMessageToConsole: /var/log/messages: Apr  9 14:34:16 cpu03 dhclient[10266]: bound to 192.168.10.23 -- renewal in 226 seconds.
+14:34:21.200 14:34:21.198 sendMessageToConsole: /var/log/messages: Apr  9 14:34:20 cpu03 kubelet: E0409 14:34:20.743638    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:34:21.200 14:34:21.198 sendMessageToConsole: 
+14:34:31.241 14:34:31.239 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:34:31.241 14:34:31.239 sendMessageToConsole: /var/log/messages: Apr  9 14:34:30 cpu03 kubelet: E0409 14:34:30.761500    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:34:31.241 14:34:31.239 sendMessageToConsole: 
+14:34:41.272 14:34:41.269 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:34:41.272 14:34:41.269 sendMessageToConsole: /var/log/messages: Apr  9 14:34:40 cpu03 kubelet: E0409 14:34:40.776464    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:34:41.272 14:34:41.270 sendMessageToConsole: 
+14:34:51.310 14:34:51.306 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:34:51.310 14:34:51.307 sendMessageToConsole: /var/log/messages: Apr  9 14:34:50 cpu03 kubelet: E0409 14:34:50.792453    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:34:51.310 14:34:51.307 sendMessageToConsole: 
+14:35:01.353 14:35:01.350 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:35:01.353 14:35:01.350 sendMessageToConsole: /var/log/messages: Apr  9 14:35:00 cpu03 kubelet: E0409 14:35:00.809152    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:35:01.353 14:35:01.350 sendMessageToConsole: 
+14:35:06.397 14:35:06.394 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:35:06.397 14:35:06.394 sendMessageToConsole: /var/log/messages: Apr  9 14:35:01 cpu03 systemd: Started Session 5514 of user root.
+14:35:06.397 14:35:06.394 sendMessageToConsole: 
+14:35:11.431 14:35:11.428 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:35:11.431 14:35:11.428 sendMessageToConsole: /var/log/messages: Apr  9 14:35:10 cpu03 kubelet: E0409 14:35:10.825316    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:35:11.431 14:35:11.428 sendMessageToConsole: 
+14:35:21.465 14:35:21.462 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:35:21.465 14:35:21.462 sendMessageToConsole: /var/log/messages: Apr  9 14:35:20 cpu03 kubelet: E0409 14:35:20.840667    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:35:21.465 14:35:21.462 sendMessageToConsole: 
+14:35:31.499 14:35:31.495 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:35:31.499 14:35:31.495 sendMessageToConsole: /var/log/messages: Apr  9 14:35:30 cpu03 kubelet: E0409 14:35:30.856010    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:35:31.499 14:35:31.495 sendMessageToConsole: 
+14:35:41.534 14:35:41.530 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:35:41.534 14:35:41.530 sendMessageToConsole: /var/log/messages: Apr  9 14:35:40 cpu03 kubelet: E0409 14:35:40.872071    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:35:41.534 14:35:41.530 sendMessageToConsole: 
+14:35:51.568 14:35:51.564 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:35:51.568 14:35:51.564 sendMessageToConsole: /var/log/messages: Apr  9 14:35:50 cpu03 kubelet: E0409 14:35:50.889131    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:35:51.568 14:35:51.564 sendMessageToConsole: 
+14:36:01.610 14:36:01.606 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:36:01.610 14:36:01.606 sendMessageToConsole: /var/log/messages: Apr  9 14:36:00 cpu03 kubelet: E0409 14:36:00.904343    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:36:01.610 14:36:01.606 sendMessageToConsole: /var/log/messages: Apr  9 14:36:01 cpu03 systemd: Started Session 5515 of user root.
+14:36:01.610 14:36:01.606 sendMessageToConsole: 
+14:36:11.644 14:36:11.640 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:36:11.644 14:36:11.640 sendMessageToConsole: /var/log/messages: Apr  9 14:36:10 cpu03 kubelet: E0409 14:36:10.919756    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:36:11.644 14:36:11.640 sendMessageToConsole: 
+14:36:21.678 14:36:21.673 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:36:21.678 14:36:21.674 sendMessageToConsole: /var/log/messages: Apr  9 14:36:20 cpu03 kubelet: E0409 14:36:20.936970    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:36:21.678 14:36:21.674 sendMessageToConsole: 
+14:36:31.712 14:36:31.708 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:36:31.712 14:36:31.708 sendMessageToConsole: /var/log/messages: Apr  9 14:36:30 cpu03 kubelet: E0409 14:36:30.951946    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:36:31.712 14:36:31.708 sendMessageToConsole: 
+14:36:41.746 14:36:41.741 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:36:41.746 14:36:41.741 sendMessageToConsole: /var/log/messages: Apr  9 14:36:40 cpu03 kubelet: E0409 14:36:40.966969    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:36:41.746 14:36:41.741 sendMessageToConsole: 
+14:36:51.783 14:36:51.779 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:36:51.783 14:36:51.779 sendMessageToConsole: /var/log/messages: Apr  9 14:36:50 cpu03 kubelet: E0409 14:36:50.983131    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:36:51.783 14:36:51.779 sendMessageToConsole: 
+14:36:56.834 14:36:56.829 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:36:56.834 14:36:56.829 sendMessageToConsole: /var/log/messages: Apr  9 14:36:55 cpu03 dhclient[10393]: DHCPREQUEST on enp0s20u1u5 to 169.254.95.118 port 67 (xid=0x6ce97b67)
+14:36:56.834 14:36:56.829 sendMessageToConsole: /var/log/messages: Apr  9 14:36:55 cpu03 dhclient[10393]: DHCPACK from 169.254.95.118 (xid=0x6ce97b67)
+14:36:56.834 14:36:56.829 sendMessageToConsole: 
+14:37:01.875 14:37:01.870 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:37:01.875 14:37:01.870 sendMessageToConsole: /var/log/messages: Apr  9 14:36:57 cpu03 dhclient[10393]: bound to 169.254.95.120 -- renewal in 280 seconds.
+14:37:01.875 14:37:01.870 sendMessageToConsole: /var/log/messages: Apr  9 14:37:01 cpu03 kubelet: E0409 14:37:01.001845    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:37:01.875 14:37:01.870 sendMessageToConsole: /var/log/messages: Apr  9 14:37:01 cpu03 systemd: Started Session 5516 of user root.
+14:37:01.875 14:37:01.870 sendMessageToConsole: 
+14:37:11.915 14:37:11.910 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:37:11.915 14:37:11.910 sendMessageToConsole: /var/log/messages: Apr  9 14:37:11 cpu03 kubelet: E0409 14:37:11.017949    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:37:11.915 14:37:11.910 sendMessageToConsole: 
+14:37:21.953 14:37:21.948 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:37:21.953 14:37:21.948 sendMessageToConsole: /var/log/messages: Apr  9 14:37:21 cpu03 kubelet: E0409 14:37:21.033506    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:37:21.953 14:37:21.948 sendMessageToConsole: 
+14:37:31.995 14:37:31.990 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:37:31.995 14:37:31.991 sendMessageToConsole: /var/log/messages: Apr  9 14:37:31 cpu03 kubelet: E0409 14:37:31.050758    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:37:31.995 14:37:31.991 sendMessageToConsole: 
+14:37:42.034 14:37:42.029 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:37:42.034 14:37:42.029 sendMessageToConsole: /var/log/messages: Apr  9 14:37:41 cpu03 kubelet: E0409 14:37:41.066072    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:37:42.034 14:37:42.030 sendMessageToConsole: 
+14:37:52.073 14:37:52.068 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:37:52.073 14:37:52.068 sendMessageToConsole: /var/log/messages: Apr  9 14:37:51 cpu03 kubelet: E0409 14:37:51.081810    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:37:52.073 14:37:52.068 sendMessageToConsole: 
+14:38:02.112 14:38:02.107 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:38:02.112 14:38:02.107 sendMessageToConsole: /var/log/messages: Apr  9 14:38:01 cpu03 kubelet: E0409 14:38:01.097145    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:38:02.112 14:38:02.107 sendMessageToConsole: /var/log/messages: Apr  9 14:38:01 cpu03 systemd: Started Session 5517 of user root.
+14:38:02.112 14:38:02.107 sendMessageToConsole: 
+14:38:07.155 14:38:07.150 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:38:07.155 14:38:07.150 sendMessageToConsole: /var/log/messages: Apr  9 14:38:02 cpu03 dhclient[10266]: DHCPREQUEST on eno1 to 192.168.10.10 port 67 (xid=0x3c967971)
+14:38:07.155 14:38:07.150 sendMessageToConsole: /var/log/messages: Apr  9 14:38:02 cpu03 dhclient[10266]: DHCPACK from 192.168.10.10 (xid=0x3c967971)
+14:38:07.155 14:38:07.150 sendMessageToConsole: /var/log/messages: Apr  9 14:38:04 cpu03 dhclient[10266]: bound to 192.168.10.23 -- renewal in 262 seconds.
+14:38:07.155 14:38:07.150 sendMessageToConsole: 
+14:38:12.196 14:38:12.191 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:38:12.196 14:38:12.191 sendMessageToConsole: /var/log/messages: Apr  9 14:38:11 cpu03 kubelet: E0409 14:38:11.114038    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:38:12.196 14:38:12.191 sendMessageToConsole: 
+14:38:22.237 14:38:22.231 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:38:22.237 14:38:22.231 sendMessageToConsole: /var/log/messages: Apr  9 14:38:21 cpu03 kubelet: E0409 14:38:21.130400    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:38:22.237 14:38:22.232 sendMessageToConsole: 
+14:38:32.278 14:38:32.273 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:38:32.278 14:38:32.273 sendMessageToConsole: /var/log/messages: Apr  9 14:38:31 cpu03 kubelet: E0409 14:38:31.148999    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:38:32.278 14:38:32.273 sendMessageToConsole: 
+14:38:42.316 14:38:42.311 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:38:42.317 14:38:42.311 sendMessageToConsole: /var/log/messages: Apr  9 14:38:41 cpu03 kubelet: E0409 14:38:41.166773    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:38:42.317 14:38:42.311 sendMessageToConsole: 
+14:38:52.349 14:38:52.343 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:38:52.349 14:38:52.343 sendMessageToConsole: /var/log/messages: Apr  9 14:38:51 cpu03 kubelet: E0409 14:38:51.184080    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:38:52.349 14:38:52.343 sendMessageToConsole: 
+14:39:02.385 14:39:02.379 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:39:02.385 14:39:02.379 sendMessageToConsole: /var/log/messages: Apr  9 14:39:01 cpu03 kubelet: E0409 14:39:01.199423    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:39:02.385 14:39:02.379 sendMessageToConsole: /var/log/messages: Apr  9 14:39:01 cpu03 systemd: Started Session 5518 of user root.
+14:39:02.385 14:39:02.379 sendMessageToConsole: 
+14:39:12.421 14:39:12.415 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:39:12.422 14:39:12.415 sendMessageToConsole: /var/log/messages: Apr  9 14:39:11 cpu03 kubelet: E0409 14:39:11.214326    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:39:12.422 14:39:12.415 sendMessageToConsole: 
+14:39:22.460 14:39:22.451 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:39:22.460 14:39:22.451 sendMessageToConsole: /var/log/messages: Apr  9 14:39:21 cpu03 kubelet: E0409 14:39:21.231817    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:39:22.460 14:39:22.451 sendMessageToConsole: 
+14:39:32.494 14:39:32.487 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:39:32.494 14:39:32.487 sendMessageToConsole: /var/log/messages: Apr  9 14:39:31 cpu03 kubelet: E0409 14:39:31.248960    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:39:32.494 14:39:32.487 sendMessageToConsole: 
+14:39:42.530 14:39:42.524 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:39:42.531 14:39:42.524 sendMessageToConsole: /var/log/messages: Apr  9 14:39:41 cpu03 kubelet: E0409 14:39:41.264955    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:39:42.531 14:39:42.524 sendMessageToConsole: 
+14:39:52.566 14:39:52.560 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:39:52.566 14:39:52.560 sendMessageToConsole: /var/log/messages: Apr  9 14:39:51 cpu03 kubelet: E0409 14:39:51.283510    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:39:52.566 14:39:52.560 sendMessageToConsole: 
+14:40:02.600 14:40:02.594 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:40:02.600 14:40:02.594 sendMessageToConsole: /var/log/messages: Apr  9 14:40:01 cpu03 kubelet: E0409 14:40:01.297909    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:40:02.600 14:40:02.594 sendMessageToConsole: /var/log/messages: Apr  9 14:40:01 cpu03 systemd: Started Session 5519 of user root.
+14:40:02.601 14:40:02.594 sendMessageToConsole: 
+14:40:12.638 14:40:12.631 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:40:12.638 14:40:12.631 sendMessageToConsole: /var/log/messages: Apr  9 14:40:11 cpu03 kubelet: E0409 14:40:11.313171    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:40:12.638 14:40:12.632 sendMessageToConsole: 
+14:40:17.670 14:40:17.663 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:40:17.670 14:40:17.663 sendMessageToConsole: /var/log/messages: Apr  9 14:40:15 cpu03 chronyd[10005]: Can't synchronise: no selectable sources
+14:40:17.670 14:40:17.663 sendMessageToConsole: 
+14:40:22.704 14:40:22.697 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:40:22.704 14:40:22.697 sendMessageToConsole: /var/log/messages: Apr  9 14:40:21 cpu03 kubelet: E0409 14:40:21.328222    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:40:22.704 14:40:22.697 sendMessageToConsole: 
+14:40:32.740 14:40:32.732 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:40:32.740 14:40:32.732 sendMessageToConsole: /var/log/messages: Apr  9 14:40:31 cpu03 kubelet: E0409 14:40:31.343870    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:40:32.740 14:40:32.732 sendMessageToConsole: 
+14:40:42.775 14:40:42.767 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:40:42.775 14:40:42.767 sendMessageToConsole: /var/log/messages: Apr  9 14:40:41 cpu03 kubelet: E0409 14:40:41.357265    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:40:42.775 14:40:42.767 sendMessageToConsole: 
+14:40:52.810 14:40:52.803 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:40:52.810 14:40:52.803 sendMessageToConsole: /var/log/messages: Apr  9 14:40:51 cpu03 kubelet: E0409 14:40:51.374588    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:40:52.810 14:40:52.803 sendMessageToConsole: 
+14:41:02.844 14:41:02.837 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:41:02.844 14:41:02.837 sendMessageToConsole: /var/log/messages: Apr  9 14:41:01 cpu03 kubelet: E0409 14:41:01.392379    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:41:02.844 14:41:02.837 sendMessageToConsole: /var/log/messages: Apr  9 14:41:01 cpu03 systemd: Started Session 5520 of user root.
+14:41:02.844 14:41:02.837 sendMessageToConsole: 
+14:41:12.878 14:41:12.870 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:41:12.878 14:41:12.871 sendMessageToConsole: /var/log/messages: Apr  9 14:41:11 cpu03 kubelet: E0409 14:41:11.409040    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:41:12.878 14:41:12.871 sendMessageToConsole: 
+14:41:22.912 14:41:22.904 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:41:22.912 14:41:22.904 sendMessageToConsole: /var/log/messages: Apr  9 14:41:20 cpu03 chronyd[10005]: Selected source 203.248.240.140
+14:41:22.912 14:41:22.904 sendMessageToConsole: /var/log/messages: Apr  9 14:41:21 cpu03 kubelet: E0409 14:41:21.421904    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:41:22.912 14:41:22.904 sendMessageToConsole: 
+14:41:32.948 14:41:32.940 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:41:32.948 14:41:32.940 sendMessageToConsole: /var/log/messages: Apr  9 14:41:31 cpu03 kubelet: E0409 14:41:31.438378    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:41:32.948 14:41:32.940 sendMessageToConsole: 
+14:41:37.984 14:41:37.977 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:41:37.984 14:41:37.977 sendMessageToConsole: /var/log/messages: Apr  9 14:41:37 cpu03 dhclient[10393]: DHCPREQUEST on enp0s20u1u5 to 169.254.95.118 port 67 (xid=0x6ce97b67)
+14:41:37.984 14:41:37.977 sendMessageToConsole: /var/log/messages: Apr  9 14:41:37 cpu03 dhclient[10393]: DHCPACK from 169.254.95.118 (xid=0x6ce97b67)
+14:41:37.984 14:41:37.977 sendMessageToConsole: 
+14:41:43.018 14:41:43.011 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:41:43.018 14:41:43.011 sendMessageToConsole: /var/log/messages: Apr  9 14:41:39 cpu03 dhclient[10393]: bound to 169.254.95.120 -- renewal in 268 seconds.
+14:41:43.018 14:41:43.011 sendMessageToConsole: /var/log/messages: Apr  9 14:41:41 cpu03 kubelet: E0409 14:41:41.456517    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:41:43.018 14:41:43.011 sendMessageToConsole: 
+14:41:53.051 14:41:53.044 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:41:53.051 14:41:53.044 sendMessageToConsole: /var/log/messages: Apr  9 14:41:51 cpu03 kubelet: E0409 14:41:51.471373    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:41:53.051 14:41:53.044 sendMessageToConsole: 
+14:42:03.088 14:42:03.081 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:42:03.088 14:42:03.081 sendMessageToConsole: /var/log/messages: Apr  9 14:42:01 cpu03 kubelet: E0409 14:42:01.485193    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:42:03.088 14:42:03.081 sendMessageToConsole: /var/log/messages: Apr  9 14:42:01 cpu03 systemd: Started Session 5521 of user root.
+14:42:03.088 14:42:03.081 sendMessageToConsole: 
+14:42:13.122 14:42:13.115 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:42:13.122 14:42:13.115 sendMessageToConsole: /var/log/messages: Apr  9 14:42:11 cpu03 kubelet: E0409 14:42:11.499768    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:42:13.122 14:42:13.115 sendMessageToConsole: 
+14:42:23.157 14:42:23.150 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:42:23.157 14:42:23.150 sendMessageToConsole: /var/log/messages: Apr  9 14:42:21 cpu03 kubelet: E0409 14:42:21.516000    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:42:23.157 14:42:23.150 sendMessageToConsole: 
+14:42:28.193 14:42:28.187 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:42:28.193 14:42:28.187 sendMessageToConsole: /var/log/messages: Apr  9 14:42:26 cpu03 dhclient[10266]: DHCPREQUEST on eno1 to 192.168.10.10 port 67 (xid=0x3c967971)
+14:42:28.193 14:42:28.187 sendMessageToConsole: /var/log/messages: Apr  9 14:42:26 cpu03 dhclient[10266]: DHCPACK from 192.168.10.10 (xid=0x3c967971)
+14:42:28.193 14:42:28.187 sendMessageToConsole: 
+14:42:32.566 14:42:32.561 
+14:42:32.566 14:42:32.562 Miscellaneous statistics:
+14:42:32.566 14:42:32.562 WRITE_OPENS         Files opened for write activity:             97,032
+14:42:32.566 14:42:32.562 FILE_CLOSES         Close requests:                              97,032
+14:42:32.566 14:42:32.562 
+14:42:32.566 14:42:32.562 Java Heap in MB. max:  910.500; current:  127.000; used:   45.498; free:   81.502
+14:42:32.566 14:42:32.562 Maximum native memory allocation:   25,165,824; Current allocation:   25,165,824
+14:42:32.567 14:42:32.562 Writing control file for anchor=/ds8/cpu03 at end of run.
+14:42:32.584 14:42:32.579 Completed control file for anchor=/ds8/cpu03 at end of run.  dirs: 72/72 files: 512/512 sizes: 5g/5g/512/5g
+14:42:32.584 14:42:32.579 Writing control file for anchor=/ds7/cpu03 at end of run.
+14:42:32.599 14:42:32.594 Completed control file for anchor=/ds7/cpu03 at end of run.  dirs: 72/72 files: 512/512 sizes: 5g/5g/512/5g
+14:42:32.599 14:42:32.594 Writing control file for anchor=/ds3/cpu03 at end of run.
+14:42:32.618 14:42:32.614 Completed control file for anchor=/ds3/cpu03 at end of run.  dirs: 72/72 files: 512/512 sizes: 5g/5g/512/5g
+14:42:32.618 14:42:32.614 Writing control file for anchor=/ds10/cpu03 at end of run.
+14:42:32.638 14:42:32.634 Completed control file for anchor=/ds10/cpu03 at end of run.  dirs: 72/72 files: 512/512 sizes: 5g/5g/512/5g
+14:42:32.638 14:42:32.634 Writing control file for anchor=/ds4/cpu03 at end of run.
+14:42:32.657 14:42:32.653 Completed control file for anchor=/ds4/cpu03 at end of run.  dirs: 72/72 files: 512/512 sizes: 5g/5g/512/5g
+14:42:32.657 14:42:32.653 Writing control file for anchor=/ds1/cpu03 at end of run.
+14:42:32.676 14:42:32.672 Completed control file for anchor=/ds1/cpu03 at end of run.  dirs: 72/72 files: 512/512 sizes: 5g/5g/512/5g
+14:42:32.676 14:42:32.672 Writing control file for anchor=/ds6/cpu03 at end of run.
+14:42:32.693 14:42:32.689 Completed control file for anchor=/ds6/cpu03 at end of run.  dirs: 72/72 files: 512/512 sizes: 5g/5g/512/5g
+14:42:32.693 14:42:32.689 Writing control file for anchor=/ds9/cpu03 at end of run.
+14:42:32.706 14:42:32.702 Completed control file for anchor=/ds9/cpu03 at end of run.  dirs: 72/72 files: 512/512 sizes: 5g/5g/512/5g
+14:42:32.706 14:42:32.702 Writing control file for anchor=/ds12/cpu03 at end of run.
+14:42:32.720 14:42:32.715 Completed control file for anchor=/ds12/cpu03 at end of run.  dirs: 72/72 files: 512/512 sizes: 5g/5g/512/5g
+14:42:32.720 14:42:32.715 Writing control file for anchor=/ds2/cpu03 at end of run.
+14:42:32.733 14:42:32.728 Completed control file for anchor=/ds2/cpu03 at end of run.  dirs: 72/72 files: 512/512 sizes: 5g/5g/512/5g
+14:42:32.733 14:42:32.728 Writing control file for anchor=/ds11/cpu03 at end of run.
+14:42:32.745 14:42:32.740 Completed control file for anchor=/ds11/cpu03 at end of run.  dirs: 72/72 files: 512/512 sizes: 5g/5g/512/5g
+14:42:32.745 14:42:32.740 Writing control file for anchor=/ds5/cpu03 at end of run.
+14:42:32.756 14:42:32.752 Completed control file for anchor=/ds5/cpu03 at end of run.  dirs: 72/72 files: 512/512 sizes: 5g/5g/512/5g
+14:42:32.756 14:42:32.752 End of run
+14:42:32.756 14:42:32.752 **********
+14:42:32.756 
+14:42:32.756 
+14:42:33.223 14:42:33.219 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+14:42:33.223 14:42:33.219 sendMessageToConsole: /var/log/messages: Apr  9 14:42:28 cpu03 dhclient[10266]: bound to 192.168.10.23 -- renewal in 295 seconds.
+14:42:33.223 14:42:33.219 sendMessageToConsole: /var/log/messages: Apr  9 14:42:31 cpu03 kubelet: E0409 14:42:31.529836    9955 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+14:42:33.223 14:42:33.219 sendMessageToConsole: 
+14:42:33.246 14:42:33.242 Master is requesting slave shutdown
+14:42:33.246 14:42:33.242 Java Heap in MB. max:  910.500; current:  127.500; used:   48.935; free:   78.565

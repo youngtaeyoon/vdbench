@@ -208,11 +208,11 @@ fwd=fwd_prep_cpu09,host=cpu05,fsd=fsd_cpu09_*,operation=create,fileselect=sequen
 fwd=fwd_prep_cpu10,host=cpu10,fsd=fsd_cpu10_*,operation=create,fileselect=sequential,fileio=sequential,threads=16
 fwd=fwd_prep_cpu11,host=cpu11,fsd=fsd_cpu11_*,operation=create,fileselect=sequential,fileio=sequential,threads=16
 fwd=fwd_prep_cpu12,host=cpu12,fsd=fsd_cpu12_*,operation=create,fileselect=sequential,fileio=sequential,threads=16
-fwd=fwd_prep_gpu01,host=gpu01,fsd=fsd_gpu01_*,operation=create,fileselect=sequential,fileio=sequential,threads=16
-fwd=fwd_prep_gpu02,host=gpu02,fsd=fsd_gpu02_*,operation=create,fileselect=sequential,fileio=sequential,threads=16
+#fwd=fwd_prep_gpu01,host=gpu01,fsd=fsd_gpu01_*,operation=create,fileselect=sequential,fileio=sequential,threads=16
+#fwd=fwd_prep_gpu02,host=gpu02,fsd=fsd_gpu02_*,operation=create,fileselect=sequential,fileio=sequential,threads=16
 #fwd=fwd_prep_gpu03,host=gpu03,fsd=fsd_gpu03_*,operation=create,fileselect=sequential,fileio=sequential,threads=16
 #fwd=fwd_prep_gpu04,host=gpu04,fsd=fsd_gpu04_*,operation=create,fileselect=sequential,fileio=sequential,threads=16
-fwd=fwd_prep_gpu05,host=gpu05,fsd=fsd_gpu05_*,operation=create,fileselect=sequential,fileio=sequential,threads=16
+#fwd=fwd_prep_gpu05,host=gpu05,fsd=fsd_gpu05_*,operation=create,fileselect=sequential,fileio=sequential,threads=16
 
 # FWD: sequential write 1M
 ### list all the hostnames. one line per host
@@ -248,11 +248,11 @@ fwd=fwd_seq_1024r_cpu09,host=cpu09,fsd=fsd_cpu09_*,operation=read,fileselect=seq
 fwd=fwd_seq_1024r_cpu10,host=cpu10,fsd=fsd_cpu10_*,operation=read,fileselect=sequential,fileio=sequential,xfersize=1024k,threads=16
 fwd=fwd_seq_1024r_cpu11,host=cpu11,fsd=fsd_cpu11_*,operation=read,fileselect=sequential,fileio=sequential,xfersize=1024k,threads=16
 fwd=fwd_seq_1024r_cpu12,host=cpu12,fsd=fsd_cpu12_*,operation=read,fileselect=sequential,fileio=sequential,xfersize=1024k,threads=16
-fwd=fwd_seq_1024r_gpu01,host=gpu01,fsd=fsd_gpu01_*,operation=read,fileselect=sequential,fileio=sequential,xfersize=1024k,threads=16
-fwd=fwd_seq_1024r_gpu02,host=gpu02,fsd=fsd_gpu02_*,operation=read,fileselect=sequential,fileio=sequential,xfersize=1024k,threads=16
+#fwd=fwd_seq_1024r_gpu01,host=gpu01,fsd=fsd_gpu01_*,operation=read,fileselect=sequential,fileio=sequential,xfersize=1024k,threads=16
+#fwd=fwd_seq_1024r_gpu02,host=gpu02,fsd=fsd_gpu02_*,operation=read,fileselect=sequential,fileio=sequential,xfersize=1024k,threads=16
 #fwd=fwd_seq_1024r_gpu03,host=gpu03,fsd=fsd_gpu03_*,operation=read,fileselect=sequential,fileio=sequential,xfersize=1024k,threads=16
 #fwd=fwd_seq_1024r_gpu04,host=gpu04,fsd=fsd_gpu04_*,operation=read,fileselect=sequential,fileio=sequential,xfersize=1024k,threads=16
-fwd=fwd_seq_1024r_gpu05,host=gpu05,fsd=fsd_gpu05_*,operation=read,fileselect=sequential,fileio=sequential,xfersize=1024k,threads=16
+#fwd=fwd_seq_1024r_gpu05,host=gpu05,fsd=fsd_gpu05_*,operation=read,fileselect=sequential,fileio=sequential,xfersize=1024k,threads=16
 
 # RD: sequential write 1M against 10M-size files for test
 ### no need to change
