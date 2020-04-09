@@ -237,5 +237,5 @@ fwd=fwd_seq_1024w_cpu12,host=cpu12,fsd=fsd_cpu12_*,operation=write,fileselect=se
 
 # RD: file creation
 ### no need to change
-rd=rd_prep,fwd=fwd_prep_*,fwdrate=max,format=yes,interval=1,pause=60
+rd=rd_prep,fwd=fwd_prep_*,fwdrate=max,format=yes,interval=1
 #rd=rd_seq_1024w,fwd=fwd_seq_1024w_*,fwdrate=max,format=no,warmup=60,interval=1,elapsed=300
