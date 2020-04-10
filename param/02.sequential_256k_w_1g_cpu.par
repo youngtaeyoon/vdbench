@@ -208,11 +208,11 @@ fwd=fwd_prep_cpu09,host=cpu05,fsd=fsd_cpu09_*,operation=create,fileselect=sequen
 fwd=fwd_prep_cpu10,host=cpu10,fsd=fsd_cpu10_*,operation=create,fileselect=sequential,fileio=sequential,threads=16
 fwd=fwd_prep_cpu11,host=cpu11,fsd=fsd_cpu11_*,operation=create,fileselect=sequential,fileio=sequential,threads=16
 fwd=fwd_prep_cpu12,host=cpu12,fsd=fsd_cpu12_*,operation=create,fileselect=sequential,fileio=sequential,threads=16
-fwd=fwd_prep_gpu01,host=gpu01,fsd=fsd_gpu01_*,operation=create,fileselect=sequential,fileio=sequential,threads=16
-fwd=fwd_prep_gpu02,host=gpu02,fsd=fsd_gpu02_*,operation=create,fileselect=sequential,fileio=sequential,threads=16
+#fwd=fwd_prep_gpu01,host=gpu01,fsd=fsd_gpu01_*,operation=create,fileselect=sequential,fileio=sequential,threads=16
+#fwd=fwd_prep_gpu02,host=gpu02,fsd=fsd_gpu02_*,operation=create,fileselect=sequential,fileio=sequential,threads=16
 #fwd=fwd_prep_gpu03,host=gpu03,fsd=fsd_gpu03_*,operation=create,fileselect=sequential,fileio=sequential,threads=16
 #fwd=fwd_prep_gpu04,host=gpu04,fsd=fsd_gpu04_*,operation=create,fileselect=sequential,fileio=sequential,threads=16
-fwd=fwd_prep_gpu05,host=gpu05,fsd=fsd_gpu05_*,operation=create,fileselect=sequential,fileio=sequential,threads=16
+#fwd=fwd_prep_gpu05,host=gpu05,fsd=fsd_gpu05_*,operation=create,fileselect=sequential,fileio=sequential,threads=16
 
 # FWD: sequential write 1M
 ### list all the hostnames. one line per host
@@ -228,11 +228,11 @@ fwd=fwd_seq_1024w_cpu09,host=cpu09,fsd=fsd_cpu09_*,operation=write,fileselect=se
 fwd=fwd_seq_1024w_cpu10,host=cpu10,fsd=fsd_cpu10_*,operation=write,fileselect=sequential,fileio=sequential,xfersize=1024k,threads=16
 fwd=fwd_seq_1024w_cpu11,host=cpu11,fsd=fsd_cpu11_*,operation=write,fileselect=sequential,fileio=sequential,xfersize=1024k,threads=16
 fwd=fwd_seq_1024w_cpu12,host=cpu12,fsd=fsd_cpu12_*,operation=write,fileselect=sequential,fileio=sequential,xfersize=1024k,threads=16
-fwd=fwd_seq_1024w_gpu01,host=gpu01,fsd=fsd_gpu01_*,operation=write,fileselect=sequential,fileio=sequential,xfersize=1024k,threads=16
-fwd=fwd_seq_1024w_gpu02,host=gpu02,fsd=fsd_gpu02_*,operation=write,fileselect=sequential,fileio=sequential,xfersize=1024k,threads=16
+#fwd=fwd_seq_1024w_gpu01,host=gpu01,fsd=fsd_gpu01_*,operation=write,fileselect=sequential,fileio=sequential,xfersize=1024k,threads=16
+#fwd=fwd_seq_1024w_gpu02,host=gpu02,fsd=fsd_gpu02_*,operation=write,fileselect=sequential,fileio=sequential,xfersize=1024k,threads=16
 #fwd=fwd_seq_1024w_gpu03,host=gpu03,fsd=fsd_gpu03_*,operation=write,fileselect=sequential,fileio=sequential,xfersize=1024k,threads=16
 #fwd=fwd_seq_1024w_gpu04,host=gpu04,fsd=fsd_gpu04_*,operation=write,fileselect=sequential,fileio=sequential,xfersize=1024k,threads=16
-fwd=fwd_seq_1024w_gpu05,host=gpu05,fsd=fsd_gpu05_*,operation=write,fileselect=sequential,fileio=sequential,xfersize=1024k,threads=16
+#fwd=fwd_seq_1024w_gpu05,host=gpu05,fsd=fsd_gpu05_*,operation=write,fileselect=sequential,fileio=sequential,xfersize=1024k,threads=16
 
 # FWD: sequential write 64k
 ### list all the hostnames. one line per host
@@ -248,11 +248,11 @@ fwd=fwd_seq_64w_cpu09,host=cpu09,fsd=fsd_cpu09_*,operation=write,fileselect=sequ
 fwd=fwd_seq_64w_cpu10,host=cpu10,fsd=fsd_cpu10_*,operation=write,fileselect=sequential,fileio=sequential,xfersize=64k,threads=16
 fwd=fwd_seq_64w_cpu11,host=cpu11,fsd=fsd_cpu11_*,operation=write,fileselect=sequential,fileio=sequential,xfersize=64k,threads=16
 fwd=fwd_seq_64w_cpu12,host=cpu12,fsd=fsd_cpu12_*,operation=write,fileselect=sequential,fileio=sequential,xfersize=64k,threads=16
-fwd=fwd_seq_64w_gpu01,host=gpu01,fsd=fsd_gpu01_*,operation=write,fileselect=sequential,fileio=sequential,xfersize=64k,threads=16
-fwd=fwd_seq_64w_gpu02,host=gpu02,fsd=fsd_gpu02_*,operation=write,fileselect=sequential,fileio=sequential,xfersize=64k,threads=16
+#fwd=fwd_seq_64w_gpu01,host=gpu01,fsd=fsd_gpu01_*,operation=write,fileselect=sequential,fileio=sequential,xfersize=64k,threads=16
+#fwd=fwd_seq_64w_gpu02,host=gpu02,fsd=fsd_gpu02_*,operation=write,fileselect=sequential,fileio=sequential,xfersize=64k,threads=16
 #fwd=fwd_seq_64w_gpu03,host=gpu03,fsd=fsd_gpu03_*,operation=write,fileselect=sequential,fileio=sequential,xfersize=64k,threads=16
 #fwd=fwd_seq_64w_gpu04,host=gpu04,fsd=fsd_gpu04_*,operation=write,fileselect=sequential,fileio=sequential,xfersize=64k,threads=16
-fwd=fwd_seq_64w_gpu05,host=gpu05,fsd=fsd_gpu05_*,operation=write,fileselect=sequential,fileio=sequential,xfersize=64k,threads=16
+#fwd=fwd_seq_64w_gpu05,host=gpu05,fsd=fsd_gpu05_*,operation=write,fileselect=sequential,fileio=sequential,xfersize=64k,threads=16
 
 # FWD: sequential write 256k
 ### list all the hostnames. one line per host
@@ -268,11 +268,11 @@ fwd=fwd_seq_256w_cpu09,host=cpu09,fsd=fsd_cpu09_*,operation=write,fileselect=seq
 fwd=fwd_seq_256w_cpu10,host=cpu10,fsd=fsd_cpu10_*,operation=write,fileselect=sequential,fileio=sequential,xfersize=256k,threads=16
 fwd=fwd_seq_256w_cpu11,host=cpu11,fsd=fsd_cpu11_*,operation=write,fileselect=sequential,fileio=sequential,xfersize=256k,threads=16
 fwd=fwd_seq_256w_cpu12,host=cpu12,fsd=fsd_cpu12_*,operation=write,fileselect=sequential,fileio=sequential,xfersize=256k,threads=16
-fwd=fwd_seq_256w_gpu01,host=gpu01,fsd=fsd_gpu01_*,operation=write,fileselect=sequential,fileio=sequential,xfersize=256k,threads=16
-fwd=fwd_seq_256w_gpu02,host=gpu02,fsd=fsd_gpu02_*,operation=write,fileselect=sequential,fileio=sequential,xfersize=256k,threads=16
+#fwd=fwd_seq_256w_gpu01,host=gpu01,fsd=fsd_gpu01_*,operation=write,fileselect=sequential,fileio=sequential,xfersize=256k,threads=16
+#fwd=fwd_seq_256w_gpu02,host=gpu02,fsd=fsd_gpu02_*,operation=write,fileselect=sequential,fileio=sequential,xfersize=256k,threads=16
 #fwd=fwd_seq_256w_gpu03,host=gpu03,fsd=fsd_gpu03_*,operation=write,fileselect=sequential,fileio=sequential,xfersize=256k,threads=16
 #fwd=fwd_seq_256w_gpu04,host=gpu04,fsd=fsd_gpu04_*,operation=write,fileselect=sequential,fileio=sequential,xfersize=256k,threads=16
-fwd=fwd_seq_256w_gpu05,host=gpu05,fsd=fsd_gpu05_*,operation=write,fileselect=sequential,fileio=sequential,xfersize=256k,threads=16
+#fwd=fwd_seq_256w_gpu05,host=gpu05,fsd=fsd_gpu05_*,operation=write,fileselect=sequential,fileio=sequential,xfersize=256k,threads=16
 
 # FWD: random write 1M
 ### list all the hostnames. one line per host
@@ -288,11 +288,11 @@ fwd=fwd_rnd_1024w_cpu09,host=cpu09,fsd=fsd_cpu09_*,operation=write,fileselect=ra
 fwd=fwd_rnd_1024w_cpu10,host=cpu10,fsd=fsd_cpu10_*,operation=write,fileselect=random,fileio=random,xfersize=1024k,threads=16
 fwd=fwd_rnd_1024w_cpu11,host=cpu11,fsd=fsd_cpu11_*,operation=write,fileselect=random,fileio=random,xfersize=1024k,threads=16
 fwd=fwd_rnd_1024w_cpu12,host=cpu12,fsd=fsd_cpu12_*,operation=write,fileselect=random,fileio=random,xfersize=1024k,threads=16
-fwd=fwd_rnd_1024w_gpu01,host=gpu01,fsd=fsd_gpu01_*,operation=write,fileselect=random,fileio=random,xfersize=1024k,threads=16
-fwd=fwd_rnd_1024w_gpu02,host=gpu02,fsd=fsd_gpu02_*,operation=write,fileselect=random,fileio=random,xfersize=1024k,threads=16
+#fwd=fwd_rnd_1024w_gpu01,host=gpu01,fsd=fsd_gpu01_*,operation=write,fileselect=random,fileio=random,xfersize=1024k,threads=16
+#fwd=fwd_rnd_1024w_gpu02,host=gpu02,fsd=fsd_gpu02_*,operation=write,fileselect=random,fileio=random,xfersize=1024k,threads=16
 #fwd=fwd_rnd_1024w_gpu03,host=gpu03,fsd=fsd_gpu03_*,operation=write,fileselect=random,fileio=random,xfersize=1024k,threads=16
 #fwd=fwd_rnd_1024w_gpu04,host=gpu04,fsd=fsd_gpu04_*,operation=write,fileselect=random,fileio=random,xfersize=1024k,threads=16
-fwd=fwd_rnd_1024w_gpu05,host=gpu05,fsd=fsd_gpu05_*,operation=write,fileselect=random,fileio=random,xfersize=1024k,threads=16
+#fwd=fwd_rnd_1024w_gpu05,host=gpu05,fsd=fsd_gpu05_*,operation=write,fileselect=random,fileio=random,xfersize=1024k,threads=16
 
 # FWD: sequential read 1M
 ### list all the hostnames. one line per host
@@ -308,11 +308,11 @@ fwd=fwd_seq_1024r_cpu09,host=cpu09,fsd=fsd_cpu09_*,operation=read,fileselect=seq
 fwd=fwd_seq_1024r_cpu10,host=cpu10,fsd=fsd_cpu10_*,operation=read,fileselect=sequential,fileio=sequential,xfersize=1024k,threads=16
 fwd=fwd_seq_1024r_cpu11,host=cpu11,fsd=fsd_cpu11_*,operation=read,fileselect=sequential,fileio=sequential,xfersize=1024k,threads=16
 fwd=fwd_seq_1024r_cpu12,host=cpu12,fsd=fsd_cpu12_*,operation=read,fileselect=sequential,fileio=sequential,xfersize=1024k,threads=16
-fwd=fwd_seq_1024r_gpu01,host=gpu01,fsd=fsd_gpu01_*,operation=read,fileselect=sequential,fileio=sequential,xfersize=1024k,threads=16
-fwd=fwd_seq_1024r_gpu02,host=gpu02,fsd=fsd_gpu02_*,operation=read,fileselect=sequential,fileio=sequential,xfersize=1024k,threads=16
+#fwd=fwd_seq_1024r_gpu01,host=gpu01,fsd=fsd_gpu01_*,operation=read,fileselect=sequential,fileio=sequential,xfersize=1024k,threads=16
+#fwd=fwd_seq_1024r_gpu02,host=gpu02,fsd=fsd_gpu02_*,operation=read,fileselect=sequential,fileio=sequential,xfersize=1024k,threads=16
 #fwd=fwd_seq_1024r_gpu03,host=gpu03,fsd=fsd_gpu03_*,operation=read,fileselect=sequential,fileio=sequential,xfersize=1024k,threads=16
 #fwd=fwd_seq_1024r_gpu04,host=gpu04,fsd=fsd_gpu04_*,operation=read,fileselect=sequential,fileio=sequential,xfersize=1024k,threads=16
-fwd=fwd_seq_1024r_gpu05,host=gpu05,fsd=fsd_gpu05_*,operation=read,fileselect=sequential,fileio=sequential,xfersize=1024k,threads=16
+#fwd=fwd_seq_1024r_gpu05,host=gpu05,fsd=fsd_gpu05_*,operation=read,fileselect=sequential,fileio=sequential,xfersize=1024k,threads=16
 
 # FWD: sequential read 64k
 ### list all the hostnames. one line per host
@@ -328,11 +328,11 @@ fwd=fwd_seq_64r_cpu09,host=cpu09,fsd=fsd_cpu09_*,operation=read,fileselect=seque
 fwd=fwd_seq_64r_cpu10,host=cpu10,fsd=fsd_cpu10_*,operation=read,fileselect=sequential,fileio=sequential,xfersize=64k,threads=16
 fwd=fwd_seq_64r_cpu11,host=cpu11,fsd=fsd_cpu11_*,operation=read,fileselect=sequential,fileio=sequential,xfersize=64k,threads=16
 fwd=fwd_seq_64r_cpu12,host=cpu12,fsd=fsd_cpu12_*,operation=read,fileselect=sequential,fileio=sequential,xfersize=64k,threads=16
-fwd=fwd_seq_64r_gpu01,host=gpu01,fsd=fsd_gpu01_*,operation=read,fileselect=sequential,fileio=sequential,xfersize=64k,threads=16
-fwd=fwd_seq_64r_gpu02,host=gpu02,fsd=fsd_gpu02_*,operation=read,fileselect=sequential,fileio=sequential,xfersize=64k,threads=16
+#fwd=fwd_seq_64r_gpu01,host=gpu01,fsd=fsd_gpu01_*,operation=read,fileselect=sequential,fileio=sequential,xfersize=64k,threads=16
+#fwd=fwd_seq_64r_gpu02,host=gpu02,fsd=fsd_gpu02_*,operation=read,fileselect=sequential,fileio=sequential,xfersize=64k,threads=16
 #fwd=fwd_seq_64r_gpu03,host=gpu03,fsd=fsd_gpu03_*,operation=read,fileselect=sequential,fileio=sequential,xfersize=64k,threads=16
 #fwd=fwd_seq_64r_gpu04,host=gpu04,fsd=fsd_gpu04_*,operation=read,fileselect=sequential,fileio=sequential,xfersize=64k,threads=16
-fwd=fwd_seq_64r_gpu05,host=gpu05,fsd=fsd_gpu05_*,operation=read,fileselect=sequential,fileio=sequential,xfersize=64k,threads=16
+#fwd=fwd_seq_64r_gpu05,host=gpu05,fsd=fsd_gpu05_*,operation=read,fileselect=sequential,fileio=sequential,xfersize=64k,threads=16
 
 # FWD: sequential read 256k
 ### list all the hostnames. one line per host
@@ -348,11 +348,11 @@ fwd=fwd_seq_256r_cpu09,host=cpu09,fsd=fsd_cpu09_*,operation=read,fileselect=sequ
 fwd=fwd_seq_256r_cpu10,host=cpu10,fsd=fsd_cpu10_*,operation=read,fileselect=sequential,fileio=sequential,xfersize=256k,threads=16
 fwd=fwd_seq_256r_cpu11,host=cpu11,fsd=fsd_cpu11_*,operation=read,fileselect=sequential,fileio=sequential,xfersize=256k,threads=16
 fwd=fwd_seq_256r_cpu12,host=cpu12,fsd=fsd_cpu12_*,operation=read,fileselect=sequential,fileio=sequential,xfersize=256k,threads=16
-fwd=fwd_seq_256r_gpu01,host=gpu01,fsd=fsd_gpu01_*,operation=read,fileselect=sequential,fileio=sequential,xfersize=256k,threads=16
-fwd=fwd_seq_256r_gpu02,host=gpu02,fsd=fsd_gpu02_*,operation=read,fileselect=sequential,fileio=sequential,xfersize=256k,threads=16
+#fwd=fwd_seq_256r_gpu01,host=gpu01,fsd=fsd_gpu01_*,operation=read,fileselect=sequential,fileio=sequential,xfersize=256k,threads=16
+#fwd=fwd_seq_256r_gpu02,host=gpu02,fsd=fsd_gpu02_*,operation=read,fileselect=sequential,fileio=sequential,xfersize=256k,threads=16
 #fwd=fwd_seq_256r_gpu03,host=gpu03,fsd=fsd_gpu03_*,operation=read,fileselect=sequential,fileio=sequential,xfersize=256k,threads=16
 #fwd=fwd_seq_256r_gpu04,host=gpu04,fsd=fsd_gpu04_*,operation=read,fileselect=sequential,fileio=sequential,xfersize=256k,threads=16
-fwd=fwd_seq_256r_gpu05,host=gpu05,fsd=fsd_gpu05_*,operation=read,fileselect=sequential,fileio=sequential,xfersize=256k,threads=16
+#fwd=fwd_seq_256r_gpu05,host=gpu05,fsd=fsd_gpu05_*,operation=read,fileselect=sequential,fileio=sequential,xfersize=256k,threads=16
 
 # FWD: random read/write 8K
 ### list all the hostnames. one line per host
@@ -368,11 +368,11 @@ fwd=fwd_rnd_8rw_cpu09,host=cpu09,fsd=fsd_cpu09_*,operation=read,rdpct=70,filesel
 fwd=fwd_rnd_8rw_cpu10,host=cpu10,fsd=fsd_cpu10_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
 fwd=fwd_rnd_8rw_cpu11,host=cpu11,fsd=fsd_cpu11_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
 fwd=fwd_rnd_8rw_cpu12,host=cpu12,fsd=fsd_cpu12_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
-fwd=fwd_rnd_8rw_gpu01,host=gpu01,fsd=fsd_gpu01_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
-fwd=fwd_rnd_8rw_gpu02,host=gpu02,fsd=fsd_gpu02_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
+#fwd=fwd_rnd_8rw_gpu01,host=gpu01,fsd=fsd_gpu01_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
+#fwd=fwd_rnd_8rw_gpu02,host=gpu02,fsd=fsd_gpu02_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
 #fwd=fwd_rnd_8rw_gpu03,host=gpu03,fsd=fsd_gpu03_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
 #fwd=fwd_rnd_8rw_gpu04,host=gpu04,fsd=fsd_gpu04_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
-fwd=fwd_rnd_8rw_gpu05,host=gpu05,fsd=fsd_gpu05_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
+#fwd=fwd_rnd_8rw_gpu05,host=gpu05,fsd=fsd_gpu05_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
 
 # RD: sequential read 256K
 # throughput test for 256k read

@@ -1,0 +1,404 @@
+<title>Vdbench 03.oltp_iops_1g_cpu.par/cpu10-0.stdout.html</title><pre>
+stdout/stderr for slave=cpu10-0
+
+16:00:08.212 16:00:08.211 SlaveJvm execution parameter:  '-m 192.168.10.21'
+16:00:08.212 16:00:08.212 SlaveJvm execution parameter:  '-n cpu10-19-200410-16.00.07.199'
+16:00:08.212 16:00:08.212 SlaveJvm execution parameter:  '-l cpu10-0'
+16:00:08.212 16:00:08.212 SlaveJvm execution parameter:  '-p 5570'
+16:00:08.212 16:00:08.212 SlaveJvm positional parameter: 'SlaveJvm'
+16:00:08.365 16:00:08.364 successfully connected to master 192.168.10.21
+16:00:08.365 16:00:08.365 Connection to 192.168.10.21 using port 5570 successful
+16:00:08.509 16:00:08.509 ticks_per_second: 100
+16:00:08.546 16:00:08.546 execute(): ls -l /ds1/cpu10
+16:00:08.573 16:00:08.572 execute(): ls -l /ds12/cpu10
+16:00:08.583 16:00:08.582 execute(): ls -l /ds7/cpu10
+16:00:08.593 16:00:08.593 execute(): ls -l /ds4/cpu10
+16:00:08.603 16:00:08.603 execute(): ls -l /ds8/cpu10
+16:00:08.615 16:00:08.614 execute(): ls -l /ds11/cpu10
+16:00:08.626 16:00:08.625 execute(): ls -l /ds6/cpu10
+16:00:08.638 16:00:08.638 execute(): ls -l /ds3/cpu10
+16:00:08.648 16:00:08.648 execute(): ls -l /ds5/cpu10
+16:00:08.667 16:00:08.666 execute(): ls -l /ds2/cpu10
+16:00:08.679 16:00:08.679 execute(): ls -l /ds10/cpu10
+16:00:08.689 16:00:08.689 execute(): ls -l /ds9/cpu10
+16:00:08.710 16:00:08.710 Configuration interpretation took 0.20 seconds
+
+Link to Run Definitions:         <A HREF="#_2048425748">rd_oltp For loops: None</A>
+
+16:00:09.349 16:00:09.348 Beginning of run setup
+16:00:09.349 16:00:09.348 **********************
+16:00:09.349 
+16:00:09.349 
+16:00:09.420 16:00:09.419 Starting initializeFileAnchor for rd=rd_oltp For loops: None anchor=fsd_cpu10_ds1
+16:00:09.423 16:00:09.423 Reading control file for anchor=/ds1/cpu10
+16:00:09.425 16:00:09.425 Completed reading control file.
+16:00:09.425 16:00:09.425 Completed the creation of the directory list for /ds1/cpu10: 72 directories.
+16:00:09.428 16:00:09.427 Generated 512 file names; total anchor size: 512g (549,755,813,888)
+16:00:09.428 16:00:09.427 No deletes and creates. Control file not cleared.
+16:00:09.428 16:00:09.427 During anchor creation for anchor=/ds1/cpu10 there were 72 directories and 512 files
+16:00:09.428 16:00:09.427 Completed initializeFileAnchor for fsd_cpu10_ds1: 0.01
+16:00:09.428 16:00:09.428 Starting initializeFileAnchor for rd=rd_oltp For loops: None anchor=fsd_cpu10_ds1
+16:00:09.428 16:00:09.428 Reusing existing FileAnchor structure.
+16:00:09.428 16:00:09.428 Completed initializeFileAnchor for fsd_cpu10_ds1: 0.00
+16:00:09.428 16:00:09.428 Starting initializeFileAnchor for rd=rd_oltp For loops: None anchor=fsd_cpu10_ds1
+16:00:09.428 16:00:09.428 Reusing existing FileAnchor structure.
+16:00:09.429 16:00:09.428 Completed initializeFileAnchor for fsd_cpu10_ds1: 0.00
+16:00:09.429 16:00:09.428 Starting initializeFileAnchor for rd=rd_oltp For loops: None anchor=fsd_cpu10_ds1
+16:00:09.429 16:00:09.428 Reusing existing FileAnchor structure.
+16:00:09.429 16:00:09.429 Completed initializeFileAnchor for fsd_cpu10_ds1: 0.00
+16:00:09.429 16:00:09.429 Starting initializeFileAnchor for rd=rd_oltp For loops: None anchor=fsd_cpu10_ds2
+16:00:09.430 16:00:09.429 Reading control file for anchor=/ds2/cpu10
+16:00:09.431 16:00:09.431 Completed reading control file.
+16:00:09.431 16:00:09.431 Completed the creation of the directory list for /ds2/cpu10: 72 directories.
+16:00:09.432 16:00:09.432 Generated 512 file names; total anchor size: 512g (549,755,813,888)
+16:00:09.432 16:00:09.432 No deletes and creates. Control file not cleared.
+16:00:09.433 16:00:09.432 During anchor creation for anchor=/ds2/cpu10 there were 72 directories and 512 files
+16:00:09.433 16:00:09.432 Completed initializeFileAnchor for fsd_cpu10_ds2: 0.00
+16:00:09.433 16:00:09.432 Starting initializeFileAnchor for rd=rd_oltp For loops: None anchor=fsd_cpu10_ds2
+16:00:09.433 16:00:09.432 Reusing existing FileAnchor structure.
+16:00:09.433 16:00:09.432 Completed initializeFileAnchor for fsd_cpu10_ds2: 0.00
+16:00:09.433 16:00:09.433 Starting initializeFileAnchor for rd=rd_oltp For loops: None anchor=fsd_cpu10_ds2
+16:00:09.433 16:00:09.433 Reusing existing FileAnchor structure.
+16:00:09.433 16:00:09.433 Completed initializeFileAnchor for fsd_cpu10_ds2: 0.00
+16:00:09.434 16:00:09.433 Starting initializeFileAnchor for rd=rd_oltp For loops: None anchor=fsd_cpu10_ds2
+16:00:09.434 16:00:09.433 Reusing existing FileAnchor structure.
+16:00:09.434 16:00:09.433 Completed initializeFileAnchor for fsd_cpu10_ds2: 0.00
+16:00:09.436 16:00:09.434 Starting initializeFileAnchor for rd=rd_oltp For loops: None anchor=fsd_cpu10_ds3
+16:00:09.436 16:00:09.434 Reading control file for anchor=/ds3/cpu10
+16:00:09.448 16:00:09.447 Completed reading control file.
+16:00:09.448 16:00:09.448 Completed the creation of the directory list for /ds3/cpu10: 72 directories.
+16:00:09.449 16:00:09.448 Generated 512 file names; total anchor size: 512g (549,755,813,888)
+16:00:09.449 16:00:09.448 No deletes and creates. Control file not cleared.
+16:00:09.449 16:00:09.448 During anchor creation for anchor=/ds3/cpu10 there were 72 directories and 512 files
+16:00:09.449 16:00:09.448 Completed initializeFileAnchor for fsd_cpu10_ds3: 0.02
+16:00:09.449 16:00:09.448 Starting initializeFileAnchor for rd=rd_oltp For loops: None anchor=fsd_cpu10_ds3
+16:00:09.449 16:00:09.448 Reusing existing FileAnchor structure.
+16:00:09.449 16:00:09.449 Completed initializeFileAnchor for fsd_cpu10_ds3: 0.00
+16:00:09.449 16:00:09.449 Starting initializeFileAnchor for rd=rd_oltp For loops: None anchor=fsd_cpu10_ds3
+16:00:09.449 16:00:09.449 Reusing existing FileAnchor structure.
+16:00:09.449 16:00:09.449 Completed initializeFileAnchor for fsd_cpu10_ds3: 0.00
+16:00:09.449 16:00:09.449 Starting initializeFileAnchor for rd=rd_oltp For loops: None anchor=fsd_cpu10_ds3
+16:00:09.449 16:00:09.449 Reusing existing FileAnchor structure.
+16:00:09.449 16:00:09.449 Completed initializeFileAnchor for fsd_cpu10_ds3: 0.00
+16:00:09.453 16:00:09.452 Starting initializeFileAnchor for rd=rd_oltp For loops: None anchor=fsd_cpu10_ds4
+16:00:09.453 16:00:09.453 Reading control file for anchor=/ds4/cpu10
+16:00:09.454 16:00:09.454 Completed reading control file.
+16:00:09.455 16:00:09.454 Completed the creation of the directory list for /ds4/cpu10: 72 directories.
+16:00:09.455 16:00:09.455 Generated 512 file names; total anchor size: 512g (549,755,813,888)
+16:00:09.455 16:00:09.455 No deletes and creates. Control file not cleared.
+16:00:09.455 16:00:09.455 During anchor creation for anchor=/ds4/cpu10 there were 72 directories and 512 files
+16:00:09.455 16:00:09.455 Completed initializeFileAnchor for fsd_cpu10_ds4: 0.00
+16:00:09.456 16:00:09.455 Starting initializeFileAnchor for rd=rd_oltp For loops: None anchor=fsd_cpu10_ds4
+16:00:09.456 16:00:09.455 Reusing existing FileAnchor structure.
+16:00:09.456 16:00:09.455 Completed initializeFileAnchor for fsd_cpu10_ds4: 0.00
+16:00:09.456 16:00:09.455 File '/var/log/messages.1' does not exist. Monitoring bypassed
+16:00:09.456 16:00:09.456 Starting initializeFileAnchor for rd=rd_oltp For loops: None anchor=fsd_cpu10_ds4
+16:00:09.456 16:00:09.456 Reusing existing FileAnchor structure.
+16:00:09.456 16:00:09.456 Completed initializeFileAnchor for fsd_cpu10_ds4: 0.00
+16:00:09.456 16:00:09.456 Starting initializeFileAnchor for rd=rd_oltp For loops: None anchor=fsd_cpu10_ds4
+16:00:09.456 16:00:09.456 Reusing existing FileAnchor structure.
+16:00:09.457 16:00:09.456 Completed initializeFileAnchor for fsd_cpu10_ds4: 0.00
+16:00:09.457 16:00:09.456 Starting initializeFileAnchor for rd=rd_oltp For loops: None anchor=fsd_cpu10_ds5
+16:00:09.457 16:00:09.457 Reading control file for anchor=/ds5/cpu10
+16:00:09.458 16:00:09.458 Completed reading control file.
+16:00:09.459 16:00:09.458 Completed the creation of the directory list for /ds5/cpu10: 72 directories.
+16:00:09.459 16:00:09.459 Generated 512 file names; total anchor size: 512g (549,755,813,888)
+16:00:09.459 16:00:09.459 No deletes and creates. Control file not cleared.
+16:00:09.459 16:00:09.459 During anchor creation for anchor=/ds5/cpu10 there were 72 directories and 512 files
+16:00:09.459 16:00:09.459 Completed initializeFileAnchor for fsd_cpu10_ds5: 0.00
+16:00:09.459 16:00:09.459 Starting initializeFileAnchor for rd=rd_oltp For loops: None anchor=fsd_cpu10_ds5
+16:00:09.459 16:00:09.459 Reusing existing FileAnchor structure.
+16:00:09.459 16:00:09.459 Completed initializeFileAnchor for fsd_cpu10_ds5: 0.00
+16:00:09.460 16:00:09.459 Starting initializeFileAnchor for rd=rd_oltp For loops: None anchor=fsd_cpu10_ds5
+16:00:09.460 16:00:09.459 Reusing existing FileAnchor structure.
+16:00:09.460 16:00:09.459 Completed initializeFileAnchor for fsd_cpu10_ds5: 0.00
+16:00:09.460 16:00:09.459 Starting initializeFileAnchor for rd=rd_oltp For loops: None anchor=fsd_cpu10_ds5
+16:00:09.460 16:00:09.459 Reusing existing FileAnchor structure.
+16:00:09.460 16:00:09.459 Completed initializeFileAnchor for fsd_cpu10_ds5: 0.00
+16:00:09.460 16:00:09.460 Starting initializeFileAnchor for rd=rd_oltp For loops: None anchor=fsd_cpu10_ds6
+16:00:09.461 16:00:09.460 Reading control file for anchor=/ds6/cpu10
+16:00:09.462 16:00:09.462 Completed reading control file.
+16:00:09.462 16:00:09.462 Completed the creation of the directory list for /ds6/cpu10: 72 directories.
+16:00:09.463 16:00:09.462 Generated 512 file names; total anchor size: 512g (549,755,813,888)
+16:00:09.463 16:00:09.462 No deletes and creates. Control file not cleared.
+16:00:09.463 16:00:09.462 During anchor creation for anchor=/ds6/cpu10 there were 72 directories and 512 files
+16:00:09.463 16:00:09.462 Completed initializeFileAnchor for fsd_cpu10_ds6: 0.00
+16:00:09.463 16:00:09.462 Starting initializeFileAnchor for rd=rd_oltp For loops: None anchor=fsd_cpu10_ds6
+16:00:09.463 16:00:09.462 Reusing existing FileAnchor structure.
+16:00:09.463 16:00:09.462 Completed initializeFileAnchor for fsd_cpu10_ds6: 0.00
+16:00:09.463 16:00:09.463 Starting initializeFileAnchor for rd=rd_oltp For loops: None anchor=fsd_cpu10_ds6
+16:00:09.463 16:00:09.463 Reusing existing FileAnchor structure.
+16:00:09.463 16:00:09.463 Completed initializeFileAnchor for fsd_cpu10_ds6: 0.00
+16:00:09.463 16:00:09.463 Starting initializeFileAnchor for rd=rd_oltp For loops: None anchor=fsd_cpu10_ds6
+16:00:09.463 16:00:09.463 Reusing existing FileAnchor structure.
+16:00:09.463 16:00:09.463 Completed initializeFileAnchor for fsd_cpu10_ds6: 0.00
+16:00:09.463 16:00:09.463 Starting initializeFileAnchor for rd=rd_oltp For loops: None anchor=fsd_cpu10_ds7
+16:00:09.464 16:00:09.463 Reading control file for anchor=/ds7/cpu10
+16:00:09.465 16:00:09.465 Completed reading control file.
+16:00:09.465 16:00:09.465 Completed the creation of the directory list for /ds7/cpu10: 72 directories.
+16:00:09.466 16:00:09.465 Generated 512 file names; total anchor size: 512g (549,755,813,888)
+16:00:09.466 16:00:09.465 No deletes and creates. Control file not cleared.
+16:00:09.466 16:00:09.466 During anchor creation for anchor=/ds7/cpu10 there were 72 directories and 512 files
+16:00:09.466 16:00:09.466 Completed initializeFileAnchor for fsd_cpu10_ds7: 0.00
+16:00:09.466 16:00:09.466 Starting initializeFileAnchor for rd=rd_oltp For loops: None anchor=fsd_cpu10_ds7
+16:00:09.466 16:00:09.466 Reusing existing FileAnchor structure.
+16:00:09.466 16:00:09.466 Completed initializeFileAnchor for fsd_cpu10_ds7: 0.00
+16:00:09.467 16:00:09.466 Starting initializeFileAnchor for rd=rd_oltp For loops: None anchor=fsd_cpu10_ds7
+16:00:09.467 16:00:09.466 Reusing existing FileAnchor structure.
+16:00:09.467 16:00:09.466 Completed initializeFileAnchor for fsd_cpu10_ds7: 0.00
+16:00:09.467 16:00:09.466 Starting initializeFileAnchor for rd=rd_oltp For loops: None anchor=fsd_cpu10_ds7
+16:00:09.467 16:00:09.466 Reusing existing FileAnchor structure.
+16:00:09.467 16:00:09.467 Completed initializeFileAnchor for fsd_cpu10_ds7: 0.00
+16:00:09.467 16:00:09.467 Starting initializeFileAnchor for rd=rd_oltp For loops: None anchor=fsd_cpu10_ds8
+16:00:09.467 16:00:09.467 Reading control file for anchor=/ds8/cpu10
+16:00:09.468 16:00:09.468 Completed reading control file.
+16:00:09.469 16:00:09.468 Completed the creation of the directory list for /ds8/cpu10: 72 directories.
+16:00:09.469 16:00:09.469 Generated 512 file names; total anchor size: 512g (549,755,813,888)
+16:00:09.469 16:00:09.469 No deletes and creates. Control file not cleared.
+16:00:09.469 16:00:09.469 During anchor creation for anchor=/ds8/cpu10 there were 72 directories and 512 files
+16:00:09.469 16:00:09.469 Completed initializeFileAnchor for fsd_cpu10_ds8: 0.00
+16:00:09.469 16:00:09.469 Starting initializeFileAnchor for rd=rd_oltp For loops: None anchor=fsd_cpu10_ds8
+16:00:09.469 16:00:09.469 Reusing existing FileAnchor structure.
+16:00:09.469 16:00:09.469 Completed initializeFileAnchor for fsd_cpu10_ds8: 0.00
+16:00:09.469 16:00:09.469 Starting initializeFileAnchor for rd=rd_oltp For loops: None anchor=fsd_cpu10_ds8
+16:00:09.470 16:00:09.469 Reusing existing FileAnchor structure.
+16:00:09.470 16:00:09.469 Completed initializeFileAnchor for fsd_cpu10_ds8: 0.00
+16:00:09.470 16:00:09.469 Starting initializeFileAnchor for rd=rd_oltp For loops: None anchor=fsd_cpu10_ds8
+16:00:09.470 16:00:09.469 Reusing existing FileAnchor structure.
+16:00:09.470 16:00:09.469 Completed initializeFileAnchor for fsd_cpu10_ds8: 0.00
+16:00:09.470 16:00:09.470 Starting initializeFileAnchor for rd=rd_oltp For loops: None anchor=fsd_cpu10_ds9
+16:00:09.470 16:00:09.470 Reading control file for anchor=/ds9/cpu10
+16:00:09.471 16:00:09.471 Completed reading control file.
+16:00:09.472 16:00:09.471 Completed the creation of the directory list for /ds9/cpu10: 72 directories.
+16:00:09.472 16:00:09.472 Generated 512 file names; total anchor size: 512g (549,755,813,888)
+16:00:09.472 16:00:09.472 No deletes and creates. Control file not cleared.
+16:00:09.472 16:00:09.472 During anchor creation for anchor=/ds9/cpu10 there were 72 directories and 512 files
+16:00:09.472 16:00:09.472 Completed initializeFileAnchor for fsd_cpu10_ds9: 0.00
+16:00:09.472 16:00:09.472 Starting initializeFileAnchor for rd=rd_oltp For loops: None anchor=fsd_cpu10_ds9
+16:00:09.472 16:00:09.472 Reusing existing FileAnchor structure.
+16:00:09.472 16:00:09.472 Completed initializeFileAnchor for fsd_cpu10_ds9: 0.00
+16:00:09.472 16:00:09.472 Starting initializeFileAnchor for rd=rd_oltp For loops: None anchor=fsd_cpu10_ds9
+16:00:09.472 16:00:09.472 Reusing existing FileAnchor structure.
+16:00:09.473 16:00:09.472 Completed initializeFileAnchor for fsd_cpu10_ds9: 0.00
+16:00:09.473 16:00:09.472 Starting initializeFileAnchor for rd=rd_oltp For loops: None anchor=fsd_cpu10_ds9
+16:00:09.473 16:00:09.472 Reusing existing FileAnchor structure.
+16:00:09.473 16:00:09.472 Completed initializeFileAnchor for fsd_cpu10_ds9: 0.00
+16:00:09.473 16:00:09.472 Starting initializeFileAnchor for rd=rd_oltp For loops: None anchor=fsd_cpu10_ds10
+16:00:09.473 16:00:09.473 Reading control file for anchor=/ds10/cpu10
+16:00:09.474 16:00:09.474 Completed reading control file.
+16:00:09.474 16:00:09.474 Completed the creation of the directory list for /ds10/cpu10: 72 directories.
+16:00:09.475 16:00:09.474 Generated 512 file names; total anchor size: 512g (549,755,813,888)
+16:00:09.475 16:00:09.474 No deletes and creates. Control file not cleared.
+16:00:09.475 16:00:09.474 During anchor creation for anchor=/ds10/cpu10 there were 72 directories and 512 files
+16:00:09.475 16:00:09.474 Completed initializeFileAnchor for fsd_cpu10_ds10: 0.00
+16:00:09.475 16:00:09.474 Starting initializeFileAnchor for rd=rd_oltp For loops: None anchor=fsd_cpu10_ds10
+16:00:09.475 16:00:09.474 Reusing existing FileAnchor structure.
+16:00:09.475 16:00:09.474 Completed initializeFileAnchor for fsd_cpu10_ds10: 0.00
+16:00:09.475 16:00:09.474 Starting initializeFileAnchor for rd=rd_oltp For loops: None anchor=fsd_cpu10_ds10
+16:00:09.475 16:00:09.475 Reusing existing FileAnchor structure.
+16:00:09.475 16:00:09.475 Completed initializeFileAnchor for fsd_cpu10_ds10: 0.00
+16:00:09.475 16:00:09.475 Starting initializeFileAnchor for rd=rd_oltp For loops: None anchor=fsd_cpu10_ds10
+16:00:09.475 16:00:09.475 Reusing existing FileAnchor structure.
+16:00:09.475 16:00:09.475 Completed initializeFileAnchor for fsd_cpu10_ds10: 0.00
+16:00:09.475 16:00:09.475 Starting initializeFileAnchor for rd=rd_oltp For loops: None anchor=fsd_cpu10_ds11
+16:00:09.476 16:00:09.475 Reading control file for anchor=/ds11/cpu10
+16:00:09.477 16:00:09.476 Completed reading control file.
+16:00:09.477 16:00:09.476 Completed the creation of the directory list for /ds11/cpu10: 72 directories.
+16:00:09.477 16:00:09.477 Generated 512 file names; total anchor size: 512g (549,755,813,888)
+16:00:09.477 16:00:09.477 No deletes and creates. Control file not cleared.
+16:00:09.477 16:00:09.477 During anchor creation for anchor=/ds11/cpu10 there were 72 directories and 512 files
+16:00:09.477 16:00:09.477 Completed initializeFileAnchor for fsd_cpu10_ds11: 0.00
+16:00:09.477 16:00:09.477 Starting initializeFileAnchor for rd=rd_oltp For loops: None anchor=fsd_cpu10_ds11
+16:00:09.477 16:00:09.477 Reusing existing FileAnchor structure.
+16:00:09.477 16:00:09.477 Completed initializeFileAnchor for fsd_cpu10_ds11: 0.00
+16:00:09.477 16:00:09.477 Starting initializeFileAnchor for rd=rd_oltp For loops: None anchor=fsd_cpu10_ds11
+16:00:09.478 16:00:09.477 Reusing existing FileAnchor structure.
+16:00:09.478 16:00:09.477 Completed initializeFileAnchor for fsd_cpu10_ds11: 0.00
+16:00:09.478 16:00:09.477 Starting initializeFileAnchor for rd=rd_oltp For loops: None anchor=fsd_cpu10_ds11
+16:00:09.478 16:00:09.477 Reusing existing FileAnchor structure.
+16:00:09.478 16:00:09.477 Completed initializeFileAnchor for fsd_cpu10_ds11: 0.00
+16:00:09.478 16:00:09.477 Starting initializeFileAnchor for rd=rd_oltp For loops: None anchor=fsd_cpu10_ds12
+16:00:09.478 16:00:09.478 Reading control file for anchor=/ds12/cpu10
+16:00:09.479 16:00:09.479 Completed reading control file.
+16:00:09.479 16:00:09.479 Completed the creation of the directory list for /ds12/cpu10: 72 directories.
+16:00:09.480 16:00:09.479 Generated 512 file names; total anchor size: 512g (549,755,813,888)
+16:00:09.480 16:00:09.479 No deletes and creates. Control file not cleared.
+16:00:09.480 16:00:09.479 During anchor creation for anchor=/ds12/cpu10 there were 72 directories and 512 files
+16:00:09.480 16:00:09.479 Completed initializeFileAnchor for fsd_cpu10_ds12: 0.00
+16:00:09.480 16:00:09.479 Starting initializeFileAnchor for rd=rd_oltp For loops: None anchor=fsd_cpu10_ds12
+16:00:09.480 16:00:09.480 Reusing existing FileAnchor structure.
+16:00:09.480 16:00:09.480 Completed initializeFileAnchor for fsd_cpu10_ds12: 0.00
+16:00:09.480 16:00:09.480 Starting initializeFileAnchor for rd=rd_oltp For loops: None anchor=fsd_cpu10_ds12
+16:00:09.480 16:00:09.480 Reusing existing FileAnchor structure.
+16:00:09.480 16:00:09.480 Completed initializeFileAnchor for fsd_cpu10_ds12: 0.00
+16:00:09.480 16:00:09.480 Starting initializeFileAnchor for rd=rd_oltp For loops: None anchor=fsd_cpu10_ds12
+16:00:09.480 16:00:09.480 Reusing existing FileAnchor structure.
+16:00:09.480 16:00:09.480 Completed initializeFileAnchor for fsd_cpu10_ds12: 0.00
+16:00:09.489 16:00:09.488 Started 1 threads for fwd=fwd_oltp_rnd_8rw_cpu10_ph1,fsd=fsd_cpu10_ds1,operation=read
+16:00:09.489 16:00:09.489 Started 1 threads for fwd=fwd_oltp_rnd_8rw_cpu10_ph2,fsd=fsd_cpu10_ds1,operation=read
+16:00:09.490 16:00:09.490 Started 1 threads for fwd=fwd_oltp_rnd_8rw_cpu10_ph3,fsd=fsd_cpu10_ds1,operation=read
+16:00:09.490 16:00:09.490 Started 1 threads for fwd=fwd_oltp_seq_64r_cpu10,fsd=fsd_cpu10_ds1,operation=read
+16:00:09.491 16:00:09.491 Started 1 threads for fwd=fwd_oltp_rnd_8rw_cpu10_ph1,fsd=fsd_cpu10_ds2,operation=read
+16:00:09.492 16:00:09.492 Started 1 threads for fwd=fwd_oltp_rnd_8rw_cpu10_ph2,fsd=fsd_cpu10_ds2,operation=read
+16:00:09.493 16:00:09.492 Started 1 threads for fwd=fwd_oltp_rnd_8rw_cpu10_ph3,fsd=fsd_cpu10_ds2,operation=read
+16:00:09.493 16:00:09.492 Started 1 threads for fwd=fwd_oltp_seq_64r_cpu10,fsd=fsd_cpu10_ds2,operation=read
+16:00:09.494 16:00:09.493 Started 1 threads for fwd=fwd_oltp_rnd_8rw_cpu10_ph1,fsd=fsd_cpu10_ds3,operation=read
+16:00:09.494 16:00:09.494 Started 1 threads for fwd=fwd_oltp_rnd_8rw_cpu10_ph2,fsd=fsd_cpu10_ds3,operation=read
+16:00:09.495 16:00:09.494 Started 1 threads for fwd=fwd_oltp_rnd_8rw_cpu10_ph3,fsd=fsd_cpu10_ds3,operation=read
+16:00:09.495 16:00:09.494 Started 1 threads for fwd=fwd_oltp_seq_64r_cpu10,fsd=fsd_cpu10_ds3,operation=read
+16:00:09.495 16:00:09.495 Started 1 threads for fwd=fwd_oltp_rnd_8rw_cpu10_ph1,fsd=fsd_cpu10_ds4,operation=read
+16:00:09.496 16:00:09.496 Started 1 threads for fwd=fwd_oltp_rnd_8rw_cpu10_ph2,fsd=fsd_cpu10_ds4,operation=read
+16:00:09.497 16:00:09.496 Started 1 threads for fwd=fwd_oltp_rnd_8rw_cpu10_ph3,fsd=fsd_cpu10_ds4,operation=read
+16:00:09.497 16:00:09.496 Started 1 threads for fwd=fwd_oltp_seq_64r_cpu10,fsd=fsd_cpu10_ds4,operation=read
+16:00:09.498 16:00:09.497 Started 1 threads for fwd=fwd_oltp_rnd_8rw_cpu10_ph1,fsd=fsd_cpu10_ds5,operation=read
+16:00:09.498 16:00:09.498 Started 1 threads for fwd=fwd_oltp_rnd_8rw_cpu10_ph2,fsd=fsd_cpu10_ds5,operation=read
+16:00:09.499 16:00:09.498 Started 1 threads for fwd=fwd_oltp_rnd_8rw_cpu10_ph3,fsd=fsd_cpu10_ds5,operation=read
+16:00:09.499 16:00:09.498 Started 1 threads for fwd=fwd_oltp_seq_64r_cpu10,fsd=fsd_cpu10_ds5,operation=read
+16:00:09.499 16:00:09.499 Started 1 threads for fwd=fwd_oltp_rnd_8rw_cpu10_ph1,fsd=fsd_cpu10_ds6,operation=read
+16:00:09.500 16:00:09.500 Started 1 threads for fwd=fwd_oltp_rnd_8rw_cpu10_ph2,fsd=fsd_cpu10_ds6,operation=read
+16:00:09.501 16:00:09.500 Started 1 threads for fwd=fwd_oltp_rnd_8rw_cpu10_ph3,fsd=fsd_cpu10_ds6,operation=read
+16:00:09.501 16:00:09.500 Started 1 threads for fwd=fwd_oltp_seq_64r_cpu10,fsd=fsd_cpu10_ds6,operation=read
+16:00:09.502 16:00:09.501 Started 1 threads for fwd=fwd_oltp_rnd_8rw_cpu10_ph1,fsd=fsd_cpu10_ds7,operation=read
+16:00:09.502 16:00:09.502 Started 1 threads for fwd=fwd_oltp_rnd_8rw_cpu10_ph2,fsd=fsd_cpu10_ds7,operation=read
+16:00:09.503 16:00:09.502 Started 1 threads for fwd=fwd_oltp_rnd_8rw_cpu10_ph3,fsd=fsd_cpu10_ds7,operation=read
+16:00:09.503 16:00:09.502 Started 1 threads for fwd=fwd_oltp_seq_64r_cpu10,fsd=fsd_cpu10_ds7,operation=read
+16:00:09.504 16:00:09.503 Started 1 threads for fwd=fwd_oltp_rnd_8rw_cpu10_ph1,fsd=fsd_cpu10_ds8,operation=read
+16:00:09.504 16:00:09.504 Started 1 threads for fwd=fwd_oltp_rnd_8rw_cpu10_ph2,fsd=fsd_cpu10_ds8,operation=read
+16:00:09.505 16:00:09.504 Started 1 threads for fwd=fwd_oltp_rnd_8rw_cpu10_ph3,fsd=fsd_cpu10_ds8,operation=read
+16:00:09.505 16:00:09.504 Started 1 threads for fwd=fwd_oltp_seq_64r_cpu10,fsd=fsd_cpu10_ds8,operation=read
+16:00:09.506 16:00:09.505 Started 1 threads for fwd=fwd_oltp_rnd_8rw_cpu10_ph1,fsd=fsd_cpu10_ds9,operation=read
+16:00:09.506 16:00:09.506 Started 1 threads for fwd=fwd_oltp_rnd_8rw_cpu10_ph2,fsd=fsd_cpu10_ds9,operation=read
+16:00:09.507 16:00:09.506 Started 1 threads for fwd=fwd_oltp_rnd_8rw_cpu10_ph3,fsd=fsd_cpu10_ds9,operation=read
+16:00:09.507 16:00:09.506 Started 1 threads for fwd=fwd_oltp_seq_64r_cpu10,fsd=fsd_cpu10_ds9,operation=read
+16:00:09.508 16:00:09.507 Started 1 threads for fwd=fwd_oltp_rnd_8rw_cpu10_ph1,fsd=fsd_cpu10_ds10,operation=read
+16:00:09.508 16:00:09.508 Started 1 threads for fwd=fwd_oltp_rnd_8rw_cpu10_ph2,fsd=fsd_cpu10_ds10,operation=read
+16:00:09.509 16:00:09.508 Started 1 threads for fwd=fwd_oltp_rnd_8rw_cpu10_ph3,fsd=fsd_cpu10_ds10,operation=read
+16:00:09.509 16:00:09.508 Started 1 threads for fwd=fwd_oltp_seq_64r_cpu10,fsd=fsd_cpu10_ds10,operation=read
+16:00:09.510 16:00:09.509 Started 1 threads for fwd=fwd_oltp_rnd_8rw_cpu10_ph1,fsd=fsd_cpu10_ds11,operation=read
+16:00:09.510 16:00:09.510 Started 1 threads for fwd=fwd_oltp_rnd_8rw_cpu10_ph2,fsd=fsd_cpu10_ds11,operation=read
+16:00:09.511 16:00:09.510 Started 1 threads for fwd=fwd_oltp_rnd_8rw_cpu10_ph3,fsd=fsd_cpu10_ds11,operation=read
+16:00:09.511 16:00:09.510 Started 1 threads for fwd=fwd_oltp_seq_64r_cpu10,fsd=fsd_cpu10_ds11,operation=read
+16:00:09.512 16:00:09.511 Started 1 threads for fwd=fwd_oltp_rnd_8rw_cpu10_ph1,fsd=fsd_cpu10_ds12,operation=read
+16:00:09.512 16:00:09.512 Started 1 threads for fwd=fwd_oltp_rnd_8rw_cpu10_ph2,fsd=fsd_cpu10_ds12,operation=read
+16:00:09.513 16:00:09.512 Started 1 threads for fwd=fwd_oltp_rnd_8rw_cpu10_ph3,fsd=fsd_cpu10_ds12,operation=read
+16:00:09.513 16:00:09.512 Started 1 threads for fwd=fwd_oltp_seq_64r_cpu10,fsd=fsd_cpu10_ds12,operation=read
+16:00:09.513 16:00:09.512 Started 48 FwgThreads for rd=rd_oltp For loops: None
+16:00:09.513 16:00:09.512 Waiting for task synchronization
+16:00:09.513 16:00:09.512 task_wait_start_complete: FwgThread read /ds12/cpu10 1
+16:00:09.713 16:00:09.713 Requesting full garbage collection
+16:00:09.714 16:00:09.714 GcTracker: cum:   2 intv:  1 ms:      12 mss:  0.00% Heap_MB max:   911 curr:   156 used:    30 free:   125 
+16:00:09.760 16:00:09.759 GcTracker: cum:   4 intv:  2 ms:      43 mss:  0.00% Heap_MB max:   911 curr:   156 used:    18 free:   137 
+16:00:09.760 16:00:09.759 task_wait_start_complete() end
+
+<a name="_2048425748"></a><i><b>16:00:10.004 Starting RD=rd_oltp; elapsed=600 warmup=60; fwdrate=max. For loops: None</b></i>
+
+16:00:10.007 16:00:10.007 task_run_all(): 49 tasks
+16:00:14.529 16:00:14.528 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+16:00:14.529 16:00:14.528 sendMessageToConsole: /var/log/messages: Apr 10 16:00:12 cpu10 dhclient[23132]: DHCPREQUEST on eno1 to 192.168.10.10 port 67 (xid=0x7184366f)
+16:00:14.529 16:00:14.528 sendMessageToConsole: /var/log/messages: Apr 10 16:00:12 cpu10 dhclient[23132]: DHCPACK from 192.168.10.10 (xid=0x7184366f)
+16:00:14.529 16:00:14.528 sendMessageToConsole: 
+16:00:19.575 16:00:19.575 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+16:00:19.575 16:00:19.575 sendMessageToConsole: /var/log/messages: Apr 10 16:00:15 cpu10 dhclient[23132]: bound to 192.168.10.33 -- renewal in 233 seconds.
+16:00:19.575 16:00:19.575 sendMessageToConsole: 
+16:01:04.670 16:01:04.670 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+16:01:04.670 16:01:04.670 sendMessageToConsole: /var/log/messages: Apr 10 16:01:01 cpu10 systemd: Started Session 11922 of user root.
+16:01:04.671 16:01:04.670 sendMessageToConsole: /var/log/messages: Apr 10 16:01:01 cpu10 systemd: Started Session 11923 of user root.
+16:01:04.671 16:01:04.670 sendMessageToConsole: 
+16:01:24.741 16:01:24.741 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+16:01:24.741 16:01:24.741 sendMessageToConsole: /var/log/messages: Apr 10 16:01:21 cpu10 dhclient[23287]: DHCPREQUEST on enp0s20u1u5 to 169.254.95.118 port 67 (xid=0x2900cf4)
+16:01:24.741 16:01:24.741 sendMessageToConsole: /var/log/messages: Apr 10 16:01:21 cpu10 dhclient[23287]: DHCPACK from 169.254.95.118 (xid=0x2900cf4)
+16:01:24.741 16:01:24.741 sendMessageToConsole: /var/log/messages: Apr 10 16:01:23 cpu10 dhclient[23287]: bound to 169.254.95.120 -- renewal in 264 seconds.
+16:01:24.741 16:01:24.741 sendMessageToConsole: 
+16:02:04.791 16:02:04.790 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+16:02:04.791 16:02:04.790 sendMessageToConsole: /var/log/messages: Apr 10 16:02:01 cpu10 systemd: Started Session 11924 of user root.
+16:02:04.791 16:02:04.791 sendMessageToConsole: 
+16:03:04.849 16:03:04.851 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+16:03:04.849 16:03:04.851 sendMessageToConsole: /var/log/messages: Apr 10 16:03:01 cpu10 systemd: Started Session 11925 of user root.
+16:03:04.849 16:03:04.851 sendMessageToConsole: 
+16:04:04.898 16:04:04.898 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+16:04:04.898 16:04:04.898 sendMessageToConsole: /var/log/messages: Apr 10 16:04:01 cpu10 systemd: Started Session 11926 of user root.
+16:04:04.898 16:04:04.898 sendMessageToConsole: 
+16:04:09.958 16:04:09.958 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+16:04:09.958 16:04:09.959 sendMessageToConsole: /var/log/messages: Apr 10 16:04:08 cpu10 dhclient[23132]: DHCPREQUEST on eno1 to 192.168.10.10 port 67 (xid=0x7184366f)
+16:04:09.958 16:04:09.959 sendMessageToConsole: /var/log/messages: Apr 10 16:04:08 cpu10 dhclient[23132]: DHCPACK from 192.168.10.10 (xid=0x7184366f)
+16:04:09.958 16:04:09.959 sendMessageToConsole: 
+16:04:15.006 16:04:15.007 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+16:04:15.006 16:04:15.007 sendMessageToConsole: /var/log/messages: Apr 10 16:04:11 cpu10 dhclient[23132]: bound to 192.168.10.33 -- renewal in 251 seconds.
+16:04:15.007 16:04:15.007 sendMessageToConsole: 
+16:05:05.054 16:05:05.056 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+16:05:05.054 16:05:05.056 sendMessageToConsole: /var/log/messages: Apr 10 16:05:01 cpu10 systemd: Started Session 11927 of user root.
+16:05:05.054 16:05:05.056 sendMessageToConsole: 
+16:05:50.103 16:05:50.108 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+16:05:50.103 16:05:50.109 sendMessageToConsole: /var/log/messages: Apr 10 16:05:47 cpu10 dhclient[23287]: DHCPREQUEST on enp0s20u1u5 to 169.254.95.118 port 67 (xid=0x2900cf4)
+16:05:50.103 16:05:50.109 sendMessageToConsole: /var/log/messages: Apr 10 16:05:47 cpu10 dhclient[23287]: DHCPACK from 169.254.95.118 (xid=0x2900cf4)
+16:05:50.103 16:05:50.109 sendMessageToConsole: /var/log/messages: Apr 10 16:05:49 cpu10 dhclient[23287]: bound to 169.254.95.120 -- renewal in 295 seconds.
+16:05:50.103 16:05:50.109 sendMessageToConsole: 
+16:06:05.149 16:06:05.149 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+16:06:05.149 16:06:05.149 sendMessageToConsole: /var/log/messages: Apr 10 16:06:01 cpu10 systemd: Started Session 11928 of user root.
+16:06:05.149 16:06:05.149 sendMessageToConsole: 
+16:07:05.200 16:07:05.200 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+16:07:05.200 16:07:05.200 sendMessageToConsole: /var/log/messages: Apr 10 16:07:01 cpu10 systemd: Started Session 11929 of user root.
+16:07:05.200 16:07:05.200 sendMessageToConsole: 
+16:08:05.250 16:08:05.250 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+16:08:05.250 16:08:05.250 sendMessageToConsole: /var/log/messages: Apr 10 16:08:01 cpu10 systemd: Started Session 11930 of user root.
+16:08:05.250 16:08:05.250 sendMessageToConsole: 
+16:08:25.283 16:08:25.283 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+16:08:25.283 16:08:25.283 sendMessageToConsole: /var/log/messages: Apr 10 16:08:22 cpu10 dhclient[23132]: DHCPREQUEST on eno1 to 192.168.10.10 port 67 (xid=0x7184366f)
+16:08:25.283 16:08:25.283 sendMessageToConsole: /var/log/messages: Apr 10 16:08:22 cpu10 dhclient[23132]: DHCPACK from 192.168.10.10 (xid=0x7184366f)
+16:08:25.283 16:08:25.283 sendMessageToConsole: /var/log/messages: Apr 10 16:08:24 cpu10 dhclient[23132]: bound to 192.168.10.33 -- renewal in 241 seconds.
+16:08:25.283 16:08:25.283 sendMessageToConsole: 
+16:09:05.346 16:09:05.345 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+16:09:05.346 16:09:05.345 sendMessageToConsole: /var/log/messages: Apr 10 16:09:01 cpu10 systemd: Started Session 11931 of user root.
+16:09:05.346 16:09:05.346 sendMessageToConsole: 
+16:10:05.386 16:10:05.386 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+16:10:05.386 16:10:05.386 sendMessageToConsole: /var/log/messages: Apr 10 16:10:01 cpu10 systemd: Started Session 11932 of user root.
+16:10:05.386 16:10:05.387 sendMessageToConsole: 
+16:10:45.430 16:10:45.431 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+16:10:45.430 16:10:45.431 sendMessageToConsole: /var/log/messages: Apr 10 16:10:44 cpu10 dhclient[23287]: DHCPREQUEST on enp0s20u1u5 to 169.254.95.118 port 67 (xid=0x2900cf4)
+16:10:45.430 16:10:45.431 sendMessageToConsole: /var/log/messages: Apr 10 16:10:44 cpu10 dhclient[23287]: DHCPACK from 169.254.95.118 (xid=0x2900cf4)
+16:10:45.430 16:10:45.431 sendMessageToConsole: 
+16:10:50.466 16:10:50.466 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+16:10:50.466 16:10:50.466 sendMessageToConsole: /var/log/messages: Apr 10 16:10:46 cpu10 dhclient[23287]: bound to 169.254.95.120 -- renewal in 226 seconds.
+16:10:50.466 16:10:50.467 sendMessageToConsole: 
+16:11:05.507 16:11:05.507 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+16:11:05.507 16:11:05.507 sendMessageToConsole: /var/log/messages: Apr 10 16:11:01 cpu10 systemd: Started Session 11933 of user root.
+16:11:05.507 16:11:05.507 sendMessageToConsole: 
+16:11:11.783 16:11:11.783 
+16:11:11.783 16:11:11.783 Miscellaneous statistics:
+16:11:11.783 16:11:11.784 READ_OPENS          Files opened for read activity:                  84
+16:11:11.784 16:11:11.784 WRITE_OPENS         Files opened for write activity:                 36
+16:11:11.784 16:11:11.784 FILE_BUSY           File busy:                                        1
+16:11:11.784 16:11:11.784 FILE_CLOSES         Close requests:                                 120
+16:11:11.784 16:11:11.784 
+16:11:11.784 16:11:11.784 Java Heap in MB. max:  910.500; current:  126.500; used:   34.008; free:   92.492
+16:11:11.784 16:11:11.784 Maximum native memory allocation:    1,966,080; Current allocation:    1,966,080
+16:11:11.785 16:11:11.785 Writing control file for anchor=/ds9/cpu10 at end of run.
+16:11:11.817 16:11:11.817 Completed control file for anchor=/ds9/cpu10 at end of run.  dirs: 72/72 files: 512/512 sizes: 512g/512g/10/10g
+16:11:11.821 16:11:11.821 Writing control file for anchor=/ds4/cpu10 at end of run.
+16:11:11.841 16:11:11.841 Completed control file for anchor=/ds4/cpu10 at end of run.  dirs: 72/72 files: 512/512 sizes: 512g/512g/10/10g
+16:11:11.841 16:11:11.841 Writing control file for anchor=/ds2/cpu10 at end of run.
+16:11:11.862 16:11:11.862 Completed control file for anchor=/ds2/cpu10 at end of run.  dirs: 72/72 files: 512/512 sizes: 512g/512g/10/10g
+16:11:11.862 16:11:11.862 Writing control file for anchor=/ds1/cpu10 at end of run.
+16:11:11.884 16:11:11.884 Completed control file for anchor=/ds1/cpu10 at end of run.  dirs: 72/72 files: 512/512 sizes: 512g/512g/10/10g
+16:11:11.884 16:11:11.884 Writing control file for anchor=/ds12/cpu10 at end of run.
+16:11:11.904 16:11:11.904 Completed control file for anchor=/ds12/cpu10 at end of run.  dirs: 72/72 files: 512/512 sizes: 512g/512g/10/10g
+16:11:11.904 16:11:11.904 Writing control file for anchor=/ds3/cpu10 at end of run.
+16:11:11.922 16:11:11.922 Completed control file for anchor=/ds3/cpu10 at end of run.  dirs: 72/72 files: 512/512 sizes: 512g/512g/10/10g
+16:11:11.922 16:11:11.922 Writing control file for anchor=/ds6/cpu10 at end of run.
+16:11:11.954 16:11:11.954 Completed control file for anchor=/ds6/cpu10 at end of run.  dirs: 72/72 files: 512/512 sizes: 512g/512g/10/10g
+16:11:11.954 16:11:11.954 Writing control file for anchor=/ds8/cpu10 at end of run.
+16:11:11.972 16:11:11.972 Completed control file for anchor=/ds8/cpu10 at end of run.  dirs: 72/72 files: 512/512 sizes: 512g/512g/10/10g
+16:11:11.973 16:11:11.973 Writing control file for anchor=/ds10/cpu10 at end of run.
+16:11:11.991 16:11:11.991 Completed control file for anchor=/ds10/cpu10 at end of run.  dirs: 72/72 files: 512/512 sizes: 512g/512g/10/10g
+16:11:11.991 16:11:11.991 Writing control file for anchor=/ds5/cpu10 at end of run.
+16:11:12.010 16:11:12.010 Completed control file for anchor=/ds5/cpu10 at end of run.  dirs: 72/72 files: 512/512 sizes: 512g/512g/10/10g
+16:11:12.010 16:11:12.010 Writing control file for anchor=/ds7/cpu10 at end of run.
+16:11:12.027 16:11:12.027 Completed control file for anchor=/ds7/cpu10 at end of run.  dirs: 72/72 files: 512/512 sizes: 512g/512g/10/10g
+16:11:12.028 16:11:12.028 Writing control file for anchor=/ds11/cpu10 at end of run.
+16:11:12.045 16:11:12.045 Completed control file for anchor=/ds11/cpu10 at end of run.  dirs: 72/72 files: 512/512 sizes: 512g/512g/10/10g
+16:11:12.045 16:11:12.045 End of run
+16:11:12.045 16:11:12.045 **********
+16:11:12.045 
+16:11:12.045 
+16:11:13.105 16:11:13.105 Master is requesting slave shutdown
+16:11:13.105 16:11:13.105 Java Heap in MB. max:  910.500; current:  126.500; used:   38.503; free:   87.997

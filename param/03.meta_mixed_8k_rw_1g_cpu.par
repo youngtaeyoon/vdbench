@@ -23,7 +23,7 @@ hd=cpu12,system=cpu12
 #hd=gpu05,system=gpu05
 
 # FSD: target directory and files
-# create 512 files of 1GB, which is 512GB per host per mount. 
+# create 512 files of 1GB, which is 512GB per host per mount.
 # 512GB*12hosts*12mounts=72TB usable. 144TB physical.
 ### list all the hostnames. each host must have 4 mount points, such as /ds1, /ds2, /ds3, and /ds4
 fsd=fsd_cpu01_ds1,anchor=/ds1/cpu01,depth=2,width=8,file=8,size=1G,openflag=directio
@@ -296,57 +296,98 @@ fwd=fwd_rnd_8rw_cpu12,host=cpu12,fsd=fsd_cpu12_*,operation=read,rdpct=70,filesel
 #fwd=fwd_rnd_8rw_gpu05,host=gpu05,fsd=fsd_gpu05_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
 
 # FWD: meta mixed 8K
-### getattr around 15%
-fwd=fwd_meta_getattr_cpu01,host=cpu01,fsd=fsd_cpu01_*,operation=getattr,skew=1,fileselect=random,fileio=random,xfersize=8k,threads=16
-fwd=fwd_meta_getattr_cpu02,host=cpu02,fsd=fsd_cpu02_*,operation=getattr,skew=1,fileselect=random,fileio=random,xfersize=8k,threads=16
-fwd=fwd_meta_getattr_cpu03,host=cpu03,fsd=fsd_cpu03_*,operation=getattr,skew=1,fileselect=random,fileio=random,xfersize=8k,threads=16
-fwd=fwd_meta_getattr_cpu04,host=cpu04,fsd=fsd_cpu04_*,operation=getattr,skew=1,fileselect=random,fileio=random,xfersize=8k,threads=16
-fwd=fwd_meta_getattr_cpu05,host=cpu05,fsd=fsd_cpu05_*,operation=getattr,skew=1,fileselect=random,fileio=random,xfersize=8k,threads=16
-fwd=fwd_meta_getattr_cpu06,host=cpu06,fsd=fsd_cpu06_*,operation=getattr,skew=1,fileselect=random,fileio=random,xfersize=8k,threads=16
-fwd=fwd_meta_getattr_cpu07,host=cpu07,fsd=fsd_cpu07_*,operation=getattr,skew=1,fileselect=random,fileio=random,xfersize=8k,threads=16
-fwd=fwd_meta_getattr_cpu08,host=cpu08,fsd=fsd_cpu08_*,operation=getattr,skew=1,fileselect=random,fileio=random,xfersize=8k,threads=16
-fwd=fwd_meta_getattr_cpu09,host=cpu09,fsd=fsd_cpu09_*,operation=getattr,skew=1,fileselect=random,fileio=random,xfersize=8k,threads=16
-fwd=fwd_meta_getattr_cpu10,host=cpu10,fsd=fsd_cpu10_*,operation=getattr,skew=1,fileselect=random,fileio=random,xfersize=8k,threads=16
-fwd=fwd_meta_getattr_cpu11,host=cpu11,fsd=fsd_cpu11_*,operation=getattr,skew=1,fileselect=random,fileio=random,xfersize=8k,threads=16
-fwd=fwd_meta_getattr_cpu12,host=cpu12,fsd=fsd_cpu12_*,operation=getattr,skew=1,fileselect=random,fileio=random,xfersize=8k,threads=16
-#fwd=fwd_meta_getattr_gpu01,host=gpu01,fsd=fsd_gpu01_*,operation=getattr,skew=1,fileselect=random,fileio=random,xfersize=8k,threads=16
-#fwd=fwd_meta_getattr_gpu02,host=gpu02,fsd=fsd_gpu02_*,operation=getattr,skew=1,fileselect=random,fileio=random,xfersize=8k,threads=16
-#fwd=fwd_meta_getattr_gpu03,host=gpu03,fsd=fsd_gpu03_*,operation=getattr,skew=1,fileselect=random,fileio=random,xfersize=8k,threads=16
-#fwd=fwd_meta_getattr_gpu04,host=gpu04,fsd=fsd_gpu04_*,operation=getattr,skew=1,fileselect=random,fileio=random,xfersize=8k,threads=16
-#fwd=fwd_meta_getattr_gpu05,host=gpu05,fsd=fsd_gpu05_*,operation=getattr,skew=1,fileselect=random,fileio=random,xfersize=8k,threads=16
+### getattr around 20%
+fwd=fwd_meta_getattr_cpu01,host=cpu01,fsd=fsd_cpu01_*,operation=getattr,fileselect=random,fileio=random,xfersize=8k,threads=16
+fwd=fwd_meta_getattr_cpu02,host=cpu02,fsd=fsd_cpu02_*,operation=getattr,fileselect=random,fileio=random,xfersize=8k,threads=16
+fwd=fwd_meta_getattr_cpu03,host=cpu03,fsd=fsd_cpu03_*,operation=getattr,fileselect=random,fileio=random,xfersize=8k,threads=16
+fwd=fwd_meta_getattr_cpu04,host=cpu04,fsd=fsd_cpu04_*,operation=getattr,fileselect=random,fileio=random,xfersize=8k,threads=16
+fwd=fwd_meta_getattr_cpu05,host=cpu05,fsd=fsd_cpu05_*,operation=getattr,fileselect=random,fileio=random,xfersize=8k,threads=16
+fwd=fwd_meta_getattr_cpu06,host=cpu06,fsd=fsd_cpu06_*,operation=getattr,fileselect=random,fileio=random,xfersize=8k,threads=16
+fwd=fwd_meta_getattr_cpu07,host=cpu07,fsd=fsd_cpu07_*,operation=getattr,fileselect=random,fileio=random,xfersize=8k,threads=16
+fwd=fwd_meta_getattr_cpu08,host=cpu08,fsd=fsd_cpu08_*,operation=getattr,fileselect=random,fileio=random,xfersize=8k,threads=16
+fwd=fwd_meta_getattr_cpu09,host=cpu09,fsd=fsd_cpu09_*,operation=getattr,fileselect=random,fileio=random,xfersize=8k,threads=16
+fwd=fwd_meta_getattr_cpu10,host=cpu10,fsd=fsd_cpu10_*,operation=getattr,fileselect=random,fileio=random,xfersize=8k,threads=16
+fwd=fwd_meta_getattr_cpu11,host=cpu11,fsd=fsd_cpu11_*,operation=getattr,fileselect=random,fileio=random,xfersize=8k,threads=16
+fwd=fwd_meta_getattr_cpu12,host=cpu12,fsd=fsd_cpu12_*,operation=getattr,fileselect=random,fileio=random,xfersize=8k,threads=16
+#fwd=fwd_meta_getattr_gpu01,host=gpu01,fsd=fsd_gpu01_*,operation=getattr,fileselect=random,fileio=random,xfersize=8k,threads=16
+#fwd=fwd_meta_getattr_gpu02,host=gpu02,fsd=fsd_gpu02_*,operation=getattr,fileselect=random,fileio=random,xfersize=8k,threads=16
+#fwd=fwd_meta_getattr_gpu03,host=gpu03,fsd=fsd_gpu03_*,operation=getattr,fileselect=random,fileio=random,xfersize=8k,threads=16
+#fwd=fwd_meta_getattr_gpu04,host=gpu04,fsd=fsd_gpu04_*,operation=getattr,fileselect=random,fileio=random,xfersize=8k,threads=16
+#fwd=fwd_meta_getattr_gpu05,host=gpu05,fsd=fsd_gpu05_*,operation=getattr,fileselect=random,fileio=random,xfersize=8k,threads=16
 
-### setattr around 15%
-fwd=fwd_meta_setattr_cpu01,host=cpu01,fsd=fsd_cpu01_*,operation=setattr,skew=1,fileselect=random,fileio=random,xfersize=8k,threads=16
-fwd=fwd_meta_setattr_cpu02,host=cpu02,fsd=fsd_cpu02_*,operation=setattr,skew=1,fileselect=random,fileio=random,xfersize=8k,threads=16
-fwd=fwd_meta_setattr_cpu03,host=cpu03,fsd=fsd_cpu03_*,operation=setattr,skew=1,fileselect=random,fileio=random,xfersize=8k,threads=16
-fwd=fwd_meta_setattr_cpu04,host=cpu04,fsd=fsd_cpu04_*,operation=setattr,skew=1,fileselect=random,fileio=random,xfersize=8k,threads=16
-fwd=fwd_meta_setattr_cpu05,host=cpu05,fsd=fsd_cpu05_*,operation=setattr,skew=1,fileselect=random,fileio=random,xfersize=8k,threads=16
-fwd=fwd_meta_setattr_cpu06,host=cpu06,fsd=fsd_cpu06_*,operation=setattr,skew=1,fileselect=random,fileio=random,xfersize=8k,threads=16
-fwd=fwd_meta_setattr_cpu07,host=cpu07,fsd=fsd_cpu07_*,operation=setattr,skew=1,fileselect=random,fileio=random,xfersize=8k,threads=16
-fwd=fwd_meta_setattr_cpu08,host=cpu08,fsd=fsd_cpu08_*,operation=setattr,skew=1,fileselect=random,fileio=random,xfersize=8k,threads=16
-fwd=fwd_meta_setattr_cpu09,host=cpu09,fsd=fsd_cpu09_*,operation=setattr,skew=1,fileselect=random,fileio=random,xfersize=8k,threads=16
-fwd=fwd_meta_setattr_cpu10,host=cpu10,fsd=fsd_cpu10_*,operation=setattr,skew=1,fileselect=random,fileio=random,xfersize=8k,threads=16
-fwd=fwd_meta_setattr_cpu11,host=cpu11,fsd=fsd_cpu11_*,operation=setattr,skew=1,fileselect=random,fileio=random,xfersize=8k,threads=16
-fwd=fwd_meta_setattr_cpu12,host=cpu12,fsd=fsd_cpu12_*,operation=setattr,skew=1,fileselect=random,fileio=random,xfersize=8k,threads=16
-#fwd=fwd_meta_setattr_gpu01,host=gpu01,fsd=fsd_gpu01_*,operation=setattr,skew=1,fileselect=random,fileio=random,xfersize=8k,threads=16
-#fwd=fwd_meta_setattr_gpu02,host=gpu02,fsd=fsd_gpu02_*,operation=setattr,skew=1,fileselect=random,fileio=random,xfersize=8k,threads=16
-#fwd=fwd_meta_setattr_gpu03,host=gpu03,fsd=fsd_gpu03_*,operation=setattr,skew=1,fileselect=random,fileio=random,xfersize=8k,threads=16
-#fwd=fwd_meta_setattr_gpu04,host=gpu04,fsd=fsd_gpu04_*,operation=setattr,skew=1,fileselect=random,fileio=random,xfersize=8k,threads=16
-#fwd=fwd_meta_setattr_gpu05,host=gpu05,fsd=fsd_gpu05_*,operation=setattr,skew=1,fileselect=random,fileio=random,xfersize=8k,threads=16
+### setattr around 20%
+fwd=fwd_meta_setattr_cpu01,host=cpu01,fsd=fsd_cpu01_*,operation=setattr,fileselect=random,fileio=random,xfersize=8k,threads=16
+fwd=fwd_meta_setattr_cpu02,host=cpu02,fsd=fsd_cpu02_*,operation=setattr,fileselect=random,fileio=random,xfersize=8k,threads=16
+fwd=fwd_meta_setattr_cpu03,host=cpu03,fsd=fsd_cpu03_*,operation=setattr,fileselect=random,fileio=random,xfersize=8k,threads=16
+fwd=fwd_meta_setattr_cpu04,host=cpu04,fsd=fsd_cpu04_*,operation=setattr,fileselect=random,fileio=random,xfersize=8k,threads=16
+fwd=fwd_meta_setattr_cpu05,host=cpu05,fsd=fsd_cpu05_*,operation=setattr,fileselect=random,fileio=random,xfersize=8k,threads=16
+fwd=fwd_meta_setattr_cpu06,host=cpu06,fsd=fsd_cpu06_*,operation=setattr,fileselect=random,fileio=random,xfersize=8k,threads=16
+fwd=fwd_meta_setattr_cpu07,host=cpu07,fsd=fsd_cpu07_*,operation=setattr,fileselect=random,fileio=random,xfersize=8k,threads=16
+fwd=fwd_meta_setattr_cpu08,host=cpu08,fsd=fsd_cpu08_*,operation=setattr,fileselect=random,fileio=random,xfersize=8k,threads=16
+fwd=fwd_meta_setattr_cpu09,host=cpu09,fsd=fsd_cpu09_*,operation=setattr,fileselect=random,fileio=random,xfersize=8k,threads=16
+fwd=fwd_meta_setattr_cpu10,host=cpu10,fsd=fsd_cpu10_*,operation=setattr,fileselect=random,fileio=random,xfersize=8k,threads=16
+fwd=fwd_meta_setattr_cpu11,host=cpu11,fsd=fsd_cpu11_*,operation=setattr,fileselect=random,fileio=random,xfersize=8k,threads=16
+fwd=fwd_meta_setattr_cpu12,host=cpu12,fsd=fsd_cpu12_*,operation=setattr,fileselect=random,fileio=random,xfersize=8k,threads=16
+#fwd=fwd_meta_setattr_gpu01,host=gpu01,fsd=fsd_gpu01_*,operation=setattr,fileselect=random,fileio=random,xfersize=8k,threads=16
+#fwd=fwd_meta_setattr_gpu02,host=gpu02,fsd=fsd_gpu02_*,operation=setattr,fileselect=random,fileio=random,xfersize=8k,threads=16
+#fwd=fwd_meta_setattr_gpu03,host=gpu03,fsd=fsd_gpu03_*,operation=setattr,fileselect=random,fileio=random,xfersize=8k,threads=16
+#fwd=fwd_meta_setattr_gpu04,host=gpu04,fsd=fsd_gpu04_*,operation=setattr,fileselect=random,fileio=random,xfersize=8k,threads=16
+#fwd=fwd_meta_setattr_gpu05,host=gpu05,fsd=fsd_gpu05_*,operation=setattr,fileselect=random,fileio=random,xfersize=8k,threads=16
 
-### 8k random read/write(around 70%) r:w=7:3
-fwd=fwd_meta_rnd_8rw_cpu01,host=cpu01,fsd=fsd_cpu01_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
-fwd=fwd_meta_rnd_8rw_cpu02,host=cpu02,fsd=fsd_cpu02_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
-fwd=fwd_meta_rnd_8rw_cpu03,host=cpu03,fsd=fsd_cpu03_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
-fwd=fwd_meta_rnd_8rw_cpu04,host=cpu04,fsd=fsd_cpu04_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
-fwd=fwd_meta_rnd_8rw_cpu05,host=cpu05,fsd=fsd_cpu05_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
-fwd=fwd_meta_rnd_8rw_cpu06,host=cpu06,fsd=fsd_cpu06_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
-fwd=fwd_meta_rnd_8rw_cpu07,host=cpu07,fsd=fsd_cpu07_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
-fwd=fwd_meta_rnd_8rw_cpu08,host=cpu08,fsd=fsd_cpu08_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
-fwd=fwd_meta_rnd_8rw_cpu09,host=cpu09,fsd=fsd_cpu09_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
-fwd=fwd_meta_rnd_8rw_cpu10,host=cpu10,fsd=fsd_cpu10_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
-fwd=fwd_meta_rnd_8rw_cpu11,host=cpu11,fsd=fsd_cpu11_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
-fwd=fwd_meta_rnd_8rw_cpu12,host=cpu12,fsd=fsd_cpu12_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
+### 8k random read/write(around 60%) r:w=7:3
+## Phase I
+fwd=fwd_meta_rnd_8rw_cpu01_ph1,host=cpu01,fsd=fsd_cpu01_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
+fwd=fwd_meta_rnd_8rw_cpu02_ph1,host=cpu02,fsd=fsd_cpu02_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
+fwd=fwd_meta_rnd_8rw_cpu03_ph1,host=cpu03,fsd=fsd_cpu03_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
+fwd=fwd_meta_rnd_8rw_cpu04_ph1,host=cpu04,fsd=fsd_cpu04_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
+fwd=fwd_meta_rnd_8rw_cpu05_ph1,host=cpu05,fsd=fsd_cpu05_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
+fwd=fwd_meta_rnd_8rw_cpu06_ph1,host=cpu06,fsd=fsd_cpu06_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
+fwd=fwd_meta_rnd_8rw_cpu07_ph1,host=cpu07,fsd=fsd_cpu07_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
+fwd=fwd_meta_rnd_8rw_cpu08_ph1,host=cpu08,fsd=fsd_cpu08_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
+fwd=fwd_meta_rnd_8rw_cpu09_ph1,host=cpu09,fsd=fsd_cpu09_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
+fwd=fwd_meta_rnd_8rw_cpu10_ph1,host=cpu10,fsd=fsd_cpu10_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
+fwd=fwd_meta_rnd_8rw_cpu11_ph1,host=cpu11,fsd=fsd_cpu11_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
+fwd=fwd_meta_rnd_8rw_cpu12_ph1,host=cpu12,fsd=fsd_cpu12_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
+#fwd=fwd_meta_rnd_8rw_gpu01,host=gpu01,fsd=fsd_gpu01_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
+#fwd=fwd_meta_rnd_8rw_gpu02,host=gpu02,fsd=fsd_gpu02_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
+#fwd=fwd_meta_rnd_8rw_gpu03,host=gpu03,fsd=fsd_gpu03_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
+#fwd=fwd_meta_rnd_8rw_gpu04,host=gpu04,fsd=fsd_gpu04_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
+#fwd=fwd_meta_rnd_8rw_gpu05,host=gpu05,fsd=fsd_gpu05_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
+
+### 8k random read/write(around 60%) r:w=7:3
+## Phase II
+fwd=fwd_meta_rnd_8rw_cpu01_ph2,host=cpu01,fsd=fsd_cpu01_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
+fwd=fwd_meta_rnd_8rw_cpu02_ph2,host=cpu02,fsd=fsd_cpu02_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
+fwd=fwd_meta_rnd_8rw_cpu03_ph2,host=cpu03,fsd=fsd_cpu03_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
+fwd=fwd_meta_rnd_8rw_cpu04_ph2,host=cpu04,fsd=fsd_cpu04_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
+fwd=fwd_meta_rnd_8rw_cpu05_ph2,host=cpu05,fsd=fsd_cpu05_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
+fwd=fwd_meta_rnd_8rw_cpu06_ph2,host=cpu06,fsd=fsd_cpu06_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
+fwd=fwd_meta_rnd_8rw_cpu07_ph2,host=cpu07,fsd=fsd_cpu07_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
+fwd=fwd_meta_rnd_8rw_cpu08_ph2,host=cpu08,fsd=fsd_cpu08_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
+fwd=fwd_meta_rnd_8rw_cpu09_ph2,host=cpu09,fsd=fsd_cpu09_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
+fwd=fwd_meta_rnd_8rw_cpu10_ph2,host=cpu10,fsd=fsd_cpu10_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
+fwd=fwd_meta_rnd_8rw_cpu11_ph2,host=cpu11,fsd=fsd_cpu11_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
+fwd=fwd_meta_rnd_8rw_cpu12_ph2,host=cpu12,fsd=fsd_cpu12_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
+#fwd=fwd_meta_rnd_8rw_gpu01,host=gpu01,fsd=fsd_gpu01_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
+#fwd=fwd_meta_rnd_8rw_gpu02,host=gpu02,fsd=fsd_gpu02_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
+#fwd=fwd_meta_rnd_8rw_gpu03,host=gpu03,fsd=fsd_gpu03_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
+#fwd=fwd_meta_rnd_8rw_gpu04,host=gpu04,fsd=fsd_gpu04_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
+#fwd=fwd_meta_rnd_8rw_gpu05,host=gpu05,fsd=fsd_gpu05_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
+
+### 8k random read/write(around 60%) r:w=7:3
+## Phase III
+fwd=fwd_meta_rnd_8rw_cpu01_ph3,host=cpu01,fsd=fsd_cpu01_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
+fwd=fwd_meta_rnd_8rw_cpu02_ph3,host=cpu02,fsd=fsd_cpu02_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
+fwd=fwd_meta_rnd_8rw_cpu03_ph3,host=cpu03,fsd=fsd_cpu03_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
+fwd=fwd_meta_rnd_8rw_cpu04_ph3,host=cpu04,fsd=fsd_cpu04_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
+fwd=fwd_meta_rnd_8rw_cpu05_ph3,host=cpu05,fsd=fsd_cpu05_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
+fwd=fwd_meta_rnd_8rw_cpu06_ph3,host=cpu06,fsd=fsd_cpu06_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
+fwd=fwd_meta_rnd_8rw_cpu07_ph3,host=cpu07,fsd=fsd_cpu07_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
+fwd=fwd_meta_rnd_8rw_cpu08_ph3,host=cpu08,fsd=fsd_cpu08_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
+fwd=fwd_meta_rnd_8rw_cpu09_ph3,host=cpu09,fsd=fsd_cpu09_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
+fwd=fwd_meta_rnd_8rw_cpu10_ph3,host=cpu10,fsd=fsd_cpu10_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
+fwd=fwd_meta_rnd_8rw_cpu11_ph3,host=cpu11,fsd=fsd_cpu11_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
+fwd=fwd_meta_rnd_8rw_cpu12_ph3,host=cpu12,fsd=fsd_cpu12_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
 #fwd=fwd_meta_rnd_8rw_gpu01,host=gpu01,fsd=fsd_gpu01_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
 #fwd=fwd_meta_rnd_8rw_gpu02,host=gpu02,fsd=fsd_gpu02_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
 #fwd=fwd_meta_rnd_8rw_gpu03,host=gpu03,fsd=fsd_gpu03_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
@@ -359,3 +400,4 @@ fwd=fwd_meta_rnd_8rw_cpu12,host=cpu12,fsd=fsd_cpu12_*,operation=read,rdpct=70,fi
 #rd=rd_seq_1024w,fwd=fwd_seq_1024w_*,fwdrate=max,format=no,warmup=60,interval=1,elapsed=300
 #rd=rd_seq_1024r,fwd=fwd_seq_1024r_*,fwdrate=max,format=no,warmup=60,interval=1,elapsed=300
 rd=rd_meta_mixed,fwd=fwd_meta_*,fwdrate=max,format=no,pause=60,warmup=60,interval=1,elapsed=600
+

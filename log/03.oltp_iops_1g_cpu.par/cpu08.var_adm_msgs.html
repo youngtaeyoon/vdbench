@@ -1,0 +1,507 @@
+<title>Vdbench 03.oltp_iops_1g_cpu.par/cpu08.var_adm_msgs.html</title><pre>
+This file will contain the last 'nn' lines of files 
+/var/adm/messages and /var/adm/messages.0 on the target host. 
+ 
+Last 500 lines of /var/log/messages.1 and /var/log/messages
+command used: cat  /var/log/messages | tail -500
+
+Apr 10 15:07:56 cpu08 kubelet: I0410 15:07:56.890520   28910 operation_generator.go:713] UnmountVolume.TearDown succeeded for volume "kubernetes.io/secret/f8211a96-7d86-4949-a323-f86032d2ed8f-default-token-jjv2p" (OuterVolumeSpecName: "default-token-jjv2p") pod "f8211a96-7d86-4949-a323-f86032d2ed8f" (UID: "f8211a96-7d86-4949-a323-f86032d2ed8f"). InnerVolumeSpecName "default-token-jjv2p". PluginName "kubernetes.io/secret", VolumeGidValue ""
+Apr 10 15:07:56 cpu08 kubelet: I0410 15:07:56.975949   28910 reconciler.go:303] Volume detached for volume "default-token-jjv2p" (UniqueName: "kubernetes.io/secret/a93f1794-2ba7-461e-81e9-61a92688c64b-default-token-jjv2p") on node "cpu08" DevicePath ""
+Apr 10 15:07:56 cpu08 kubelet: I0410 15:07:56.976010   28910 reconciler.go:303] Volume detached for volume "default-token-jjv2p" (UniqueName: "kubernetes.io/secret/9086f9e3-5d66-43e3-b281-e3bb164cc211-default-token-jjv2p") on node "cpu08" DevicePath ""
+Apr 10 15:07:56 cpu08 kubelet: I0410 15:07:56.976020   28910 reconciler.go:303] Volume detached for volume "default-token-jjv2p" (UniqueName: "kubernetes.io/secret/f8211a96-7d86-4949-a323-f86032d2ed8f-default-token-jjv2p") on node "cpu08" DevicePath ""
+Apr 10 15:07:56 cpu08 kubelet: I0410 15:07:56.976027   28910 reconciler.go:303] Volume detached for volume "default-token-jjv2p" (UniqueName: "kubernetes.io/secret/acc5ea88-4bee-4d19-80d2-d780627d2505-default-token-jjv2p") on node "cpu08" DevicePath ""
+Apr 10 15:08:01 cpu08 systemd: Started Session 11863 of user root.
+Apr 10 15:08:02 cpu08 chronyd[8953]: Selected source 203.248.240.140
+Apr 10 15:08:27 cpu08 kubelet: E0410 15:08:27.726235   28910 fsHandler.go:118] failed to collect filesystem stats - rootDiskErr: could not stat "/var/lib/docker/overlay2/693cd0d309269a143948f3a1c2b8e1f90794a54080bce7ff7297dfd030ad1be8/diff" to get inode usage: stat /var/lib/docker/overlay2/693cd0d309269a143948f3a1c2b8e1f90794a54080bce7ff7297dfd030ad1be8/diff: no such file or directory, extraDiskErr: could not stat "/var/lib/docker/containers/861c68461b3d71f30c1d200ac7b3f56cd0b90ea925f4e8a78b86613ca55ad3a4" to get inode usage: stat /var/lib/docker/containers/861c68461b3d71f30c1d200ac7b3f56cd0b90ea925f4e8a78b86613ca55ad3a4: no such file or directory
+Apr 10 15:08:27 cpu08 kubelet: E0410 15:08:27.728111   28910 fsHandler.go:118] failed to collect filesystem stats - rootDiskErr: could not stat "/var/lib/docker/overlay2/21df5e616da581b69bdfdad990b5d000e0d4fca697c493481fe925e571a728ec/diff" to get inode usage: stat /var/lib/docker/overlay2/21df5e616da581b69bdfdad990b5d000e0d4fca697c493481fe925e571a728ec/diff: no such file or directory, extraDiskErr: could not stat "/var/lib/docker/containers/bcb6f3e393a38b07fa8f05749fb0ed0c98a45f59c48304ba89d1b58109a1065f" to get inode usage: stat /var/lib/docker/containers/bcb6f3e393a38b07fa8f05749fb0ed0c98a45f59c48304ba89d1b58109a1065f: no such file or directory
+Apr 10 15:08:28 cpu08 kubelet: E0410 15:08:28.081933   28910 fsHandler.go:118] failed to collect filesystem stats - rootDiskErr: could not stat "/var/lib/docker/overlay2/723a61b22befc67f46dcc954489070cb8d0a5420c84a2ac613c56759d8778b0c/diff" to get inode usage: stat /var/lib/docker/overlay2/723a61b22befc67f46dcc954489070cb8d0a5420c84a2ac613c56759d8778b0c/diff: no such file or directory, extraDiskErr: could not stat "/var/lib/docker/containers/1d60baf04b186c88bad16f53845ebc0b276ad36d7078e3f323130eda5cce5a70" to get inode usage: stat /var/lib/docker/containers/1d60baf04b186c88bad16f53845ebc0b276ad36d7078e3f323130eda5cce5a70: no such file or directory
+Apr 10 15:08:28 cpu08 kubelet: E0410 15:08:28.084659   28910 fsHandler.go:118] failed to collect filesystem stats - rootDiskErr: could not stat "/var/lib/docker/overlay2/e126571c658524a3e59f8f464050ae985206e35347f5c201b444454db4a31afb/diff" to get inode usage: stat /var/lib/docker/overlay2/e126571c658524a3e59f8f464050ae985206e35347f5c201b444454db4a31afb/diff: no such file or directory, extraDiskErr: could not stat "/var/lib/docker/containers/79db3e96c592a3284d18587b949a9f923b2a12712a087174582d882f9d765cac" to get inode usage: stat /var/lib/docker/containers/79db3e96c592a3284d18587b949a9f923b2a12712a087174582d882f9d765cac: no such file or directory
+Apr 10 15:09:01 cpu08 systemd: Started Session 11864 of user root.
+Apr 10 15:09:52 cpu08 dhclient[9443]: DHCPREQUEST on enp0s20u1u5 to 169.254.95.118 port 67 (xid=0x33a665ed)
+Apr 10 15:09:52 cpu08 dhclient[9443]: DHCPACK from 169.254.95.118 (xid=0x33a665ed)
+Apr 10 15:09:54 cpu08 dhclient[9443]: bound to 169.254.95.120 -- renewal in 232 seconds.
+Apr 10 15:10:01 cpu08 systemd: Started Session 11865 of user root.
+Apr 10 15:11:01 cpu08 systemd: Started Session 11866 of user root.
+Apr 10 15:11:20 cpu08 dhclient[9318]: DHCPREQUEST on eno1 to 192.168.10.10 port 67 (xid=0x1985da0c)
+Apr 10 15:11:20 cpu08 dhclient[9318]: DHCPACK from 192.168.10.10 (xid=0x1985da0c)
+Apr 10 15:11:22 cpu08 dhclient[9318]: bound to 192.168.10.28 -- renewal in 253 seconds.
+Apr 10 15:12:01 cpu08 systemd: Started Session 11867 of user root.
+Apr 10 15:13:01 cpu08 systemd: Started Session 11868 of user root.
+Apr 10 15:13:46 cpu08 dhclient[9443]: DHCPREQUEST on enp0s20u1u5 to 169.254.95.118 port 67 (xid=0x33a665ed)
+Apr 10 15:13:46 cpu08 dhclient[9443]: DHCPACK from 169.254.95.118 (xid=0x33a665ed)
+Apr 10 15:13:48 cpu08 dhclient[9443]: bound to 169.254.95.120 -- renewal in 295 seconds.
+Apr 10 15:14:01 cpu08 systemd: Started Session 11869 of user root.
+Apr 10 15:15:01 cpu08 systemd: Started Session 11870 of user root.
+Apr 10 15:15:35 cpu08 dhclient[9318]: DHCPREQUEST on eno1 to 192.168.10.10 port 67 (xid=0x1985da0c)
+Apr 10 15:15:35 cpu08 dhclient[9318]: DHCPACK from 192.168.10.10 (xid=0x1985da0c)
+Apr 10 15:15:37 cpu08 dhclient[9318]: bound to 192.168.10.28 -- renewal in 254 seconds.
+Apr 10 15:16:01 cpu08 systemd: Started Session 11871 of user root.
+Apr 10 15:16:52 cpu08 kubelet: I0410 15:16:52.985350   28910 reconciler.go:209] operationExecutor.VerifyControllerAttachedVolume started for volume "log" (UniqueName: "kubernetes.io/host-path/d262de85-bc71-4f64-a932-e40001cc6317-log") pod "adas-worker7-1-7hg5k" (UID: "d262de85-bc71-4f64-a932-e40001cc6317")
+Apr 10 15:16:52 cpu08 kubelet: I0410 15:16:52.985401   28910 reconciler.go:209] operationExecutor.VerifyControllerAttachedVolume started for volume "data" (UniqueName: "kubernetes.io/host-path/d262de85-bc71-4f64-a932-e40001cc6317-data") pod "adas-worker7-1-7hg5k" (UID: "d262de85-bc71-4f64-a932-e40001cc6317")
+Apr 10 15:16:52 cpu08 kubelet: I0410 15:16:52.985424   28910 reconciler.go:209] operationExecutor.VerifyControllerAttachedVolume started for volume "default-token-jjv2p" (UniqueName: "kubernetes.io/secret/d262de85-bc71-4f64-a932-e40001cc6317-default-token-jjv2p") pod "adas-worker7-1-7hg5k" (UID: "d262de85-bc71-4f64-a932-e40001cc6317")
+Apr 10 15:16:52 cpu08 kubelet: I0410 15:16:52.985448   28910 reconciler.go:209] operationExecutor.VerifyControllerAttachedVolume started for volume "workspace" (UniqueName: "kubernetes.io/host-path/d262de85-bc71-4f64-a932-e40001cc6317-workspace") pod "adas-worker7-1-7hg5k" (UID: "d262de85-bc71-4f64-a932-e40001cc6317")
+Apr 10 15:16:53 cpu08 systemd: Started Kubernetes transient mount for /var/lib/kubelet/pods/d262de85-bc71-4f64-a932-e40001cc6317/volumes/kubernetes.io~secret/default-token-jjv2p.
+Apr 10 15:16:53 cpu08 kubelet: I0410 15:16:53.286265   28910 reconciler.go:209] operationExecutor.VerifyControllerAttachedVolume started for volume "workspace" (UniqueName: "kubernetes.io/host-path/ec0be419-e343-4715-92f6-828a502c7dec-workspace") pod "adas-worker7-1-8jdp7" (UID: "ec0be419-e343-4715-92f6-828a502c7dec")
+Apr 10 15:16:53 cpu08 containerd: time="2020-04-10T15:16:53.286443732+09:00" level=info msg="shim containerd-shim started" address="/containerd-shim/moby/3f6e21ca284d0d8e93ab1c16016c6e4a0a248fc5760b32e900b299ac06dcea4a/shim.sock" debug=false pid=19578
+Apr 10 15:16:53 cpu08 kubelet: I0410 15:16:53.286327   28910 reconciler.go:209] operationExecutor.VerifyControllerAttachedVolume started for volume "data" (UniqueName: "kubernetes.io/host-path/ec0be419-e343-4715-92f6-828a502c7dec-data") pod "adas-worker7-1-8jdp7" (UID: "ec0be419-e343-4715-92f6-828a502c7dec")
+Apr 10 15:16:53 cpu08 kubelet: I0410 15:16:53.286423   28910 reconciler.go:209] operationExecutor.VerifyControllerAttachedVolume started for volume "default-token-jjv2p" (UniqueName: "kubernetes.io/secret/ec0be419-e343-4715-92f6-828a502c7dec-default-token-jjv2p") pod "adas-worker7-1-8jdp7" (UID: "ec0be419-e343-4715-92f6-828a502c7dec")
+Apr 10 15:16:53 cpu08 kubelet: I0410 15:16:53.286484   28910 reconciler.go:209] operationExecutor.VerifyControllerAttachedVolume started for volume "log" (UniqueName: "kubernetes.io/host-path/ec0be419-e343-4715-92f6-828a502c7dec-log") pod "adas-worker7-1-8jdp7" (UID: "ec0be419-e343-4715-92f6-828a502c7dec")
+Apr 10 15:16:53 cpu08 kernel: IPVS: Creating netns size=2048 id=108
+Apr 10 15:16:53 cpu08 kubelet: I0410 15:16:53.386862   28910 reconciler.go:209] operationExecutor.VerifyControllerAttachedVolume started for volume "workspace" (UniqueName: "kubernetes.io/host-path/9bef2cdb-fbd0-4cd4-8074-9e69c6704bff-workspace") pod "adas-worker7-2-hg4g6" (UID: "9bef2cdb-fbd0-4cd4-8074-9e69c6704bff")
+Apr 10 15:16:53 cpu08 kubelet: I0410 15:16:53.386972   28910 reconciler.go:209] operationExecutor.VerifyControllerAttachedVolume started for volume "data" (UniqueName: "kubernetes.io/host-path/9bef2cdb-fbd0-4cd4-8074-9e69c6704bff-data") pod "adas-worker7-2-hg4g6" (UID: "9bef2cdb-fbd0-4cd4-8074-9e69c6704bff")
+Apr 10 15:16:53 cpu08 kubelet: I0410 15:16:53.387070   28910 reconciler.go:209] operationExecutor.VerifyControllerAttachedVolume started for volume "log" (UniqueName: "kubernetes.io/host-path/9bef2cdb-fbd0-4cd4-8074-9e69c6704bff-log") pod "adas-worker7-2-hg4g6" (UID: "9bef2cdb-fbd0-4cd4-8074-9e69c6704bff")
+Apr 10 15:16:53 cpu08 kubelet: I0410 15:16:53.387166   28910 reconciler.go:209] operationExecutor.VerifyControllerAttachedVolume started for volume "default-token-jjv2p" (UniqueName: "kubernetes.io/secret/9bef2cdb-fbd0-4cd4-8074-9e69c6704bff-default-token-jjv2p") pod "adas-worker7-2-hg4g6" (UID: "9bef2cdb-fbd0-4cd4-8074-9e69c6704bff")
+Apr 10 15:16:53 cpu08 systemd: Started Kubernetes transient mount for /var/lib/kubelet/pods/ec0be419-e343-4715-92f6-828a502c7dec/volumes/kubernetes.io~secret/default-token-jjv2p.
+Apr 10 15:16:53 cpu08 systemd: Started Kubernetes transient mount for /var/lib/kubelet/pods/9bef2cdb-fbd0-4cd4-8074-9e69c6704bff/volumes/kubernetes.io~secret/default-token-jjv2p.
+Apr 10 15:16:53 cpu08 containerd: time="2020-04-10T15:16:53.578884101+09:00" level=info msg="shim containerd-shim started" address="/containerd-shim/moby/71fa07a4ac03abf888bd89001c57558f65f7b1a7139b9d70ac628a430debbb25/shim.sock" debug=false pid=19716
+Apr 10 15:16:53 cpu08 kubelet: W0410 15:16:53.588411   28910 watcher.go:87] Error while processing event ("/sys/fs/cgroup/cpu,cpuacct/system.slice/run-19681.scope": 0x40000100 == IN_CREATE|IN_ISDIR): inotify_add_watch /sys/fs/cgroup/cpu,cpuacct/system.slice/run-19681.scope: no such file or directory
+Apr 10 15:16:53 cpu08 kubelet: W0410 15:16:53.588471   28910 watcher.go:87] Error while processing event ("/sys/fs/cgroup/blkio/system.slice/run-19681.scope": 0x40000100 == IN_CREATE|IN_ISDIR): inotify_add_watch /sys/fs/cgroup/blkio/system.slice/run-19681.scope: no such file or directory
+Apr 10 15:16:53 cpu08 kubelet: W0410 15:16:53.588491   28910 watcher.go:87] Error while processing event ("/sys/fs/cgroup/memory/system.slice/run-19681.scope": 0x40000100 == IN_CREATE|IN_ISDIR): inotify_add_watch /sys/fs/cgroup/memory/system.slice/run-19681.scope: no such file or directory
+Apr 10 15:16:53 cpu08 kubelet: W0410 15:16:53.588504   28910 watcher.go:87] Error while processing event ("/sys/fs/cgroup/devices/system.slice/run-19681.scope": 0x40000100 == IN_CREATE|IN_ISDIR): inotify_add_watch /sys/fs/cgroup/devices/system.slice/run-19681.scope: no such file or directory
+Apr 10 15:16:53 cpu08 kubelet: W0410 15:16:53.588540   28910 watcher.go:87] Error while processing event ("/sys/fs/cgroup/pids/system.slice/run-19681.scope": 0x40000100 == IN_CREATE|IN_ISDIR): inotify_add_watch /sys/fs/cgroup/pids/system.slice/run-19681.scope: no such file or directory
+Apr 10 15:16:53 cpu08 kernel: weave: port 2(vethwepl3f6e21c) entered blocking state
+Apr 10 15:16:53 cpu08 kernel: weave: port 2(vethwepl3f6e21c) entered disabled state
+Apr 10 15:16:53 cpu08 kernel: device vethwepl3f6e21c entered promiscuous mode
+Apr 10 15:16:53 cpu08 kernel: IPVS: Creating netns size=2048 id=109
+Apr 10 15:16:53 cpu08 kernel: IPv6: ADDRCONF(NETDEV_UP): vethwepl3f6e21c: link is not ready
+Apr 10 15:16:53 cpu08 kernel: IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+Apr 10 15:16:53 cpu08 kernel: IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+Apr 10 15:16:53 cpu08 kernel: IPv6: ADDRCONF(NETDEV_CHANGE): vethwepl3f6e21c: link becomes ready
+Apr 10 15:16:53 cpu08 kernel: weave: port 2(vethwepl3f6e21c) entered blocking state
+Apr 10 15:16:53 cpu08 kernel: weave: port 2(vethwepl3f6e21c) entered forwarding state
+Apr 10 15:16:53 cpu08 kubelet: I0410 15:16:53.687781   28910 reconciler.go:209] operationExecutor.VerifyControllerAttachedVolume started for volume "log" (UniqueName: "kubernetes.io/host-path/ffbbab31-3d70-480d-9119-85b906fcb074-log") pod "adas-worker7-2-h9ctk" (UID: "ffbbab31-3d70-480d-9119-85b906fcb074")
+Apr 10 15:16:53 cpu08 kubelet: I0410 15:16:53.687820   28910 reconciler.go:209] operationExecutor.VerifyControllerAttachedVolume started for volume "default-token-jjv2p" (UniqueName: "kubernetes.io/secret/ffbbab31-3d70-480d-9119-85b906fcb074-default-token-jjv2p") pod "adas-worker7-2-h9ctk" (UID: "ffbbab31-3d70-480d-9119-85b906fcb074")
+Apr 10 15:16:53 cpu08 containerd: time="2020-04-10T15:16:53.696746123+09:00" level=info msg="shim containerd-shim started" address="/containerd-shim/moby/ffbcc679885bf43a72efda98b2ab8f24f8245c9b2065872fe4e8471ecd6b41f0/shim.sock" debug=false pid=19841
+Apr 10 15:16:53 cpu08 kubelet: I0410 15:16:53.687849   28910 reconciler.go:209] operationExecutor.VerifyControllerAttachedVolume started for volume "workspace" (UniqueName: "kubernetes.io/host-path/ffbbab31-3d70-480d-9119-85b906fcb074-workspace") pod "adas-worker7-2-h9ctk" (UID: "ffbbab31-3d70-480d-9119-85b906fcb074")
+Apr 10 15:16:53 cpu08 kubelet: I0410 15:16:53.687921   28910 reconciler.go:209] operationExecutor.VerifyControllerAttachedVolume started for volume "data" (UniqueName: "kubernetes.io/host-path/ffbbab31-3d70-480d-9119-85b906fcb074-data") pod "adas-worker7-2-h9ctk" (UID: "ffbbab31-3d70-480d-9119-85b906fcb074")
+Apr 10 15:16:53 cpu08 containerd: time="2020-04-10T15:16:53.733286316+09:00" level=info msg="shim containerd-shim started" address="/containerd-shim/moby/e495bbd8048e4be60ecbdd24f1a84eb68668b8aac37a55398968c336df565f18/shim.sock" debug=false pid=19886
+Apr 10 15:16:53 cpu08 kernel: IPVS: Creating netns size=2048 id=110
+Apr 10 15:16:53 cpu08 kubelet: I0410 15:16:53.788166   28910 reconciler.go:209] operationExecutor.VerifyControllerAttachedVolume started for volume "workspace" (UniqueName: "kubernetes.io/host-path/53eb2041-cc37-477b-9ee9-d3542b54dcd5-workspace") pod "adas-worker7-3-7998k" (UID: "53eb2041-cc37-477b-9ee9-d3542b54dcd5")
+Apr 10 15:16:53 cpu08 kubelet: I0410 15:16:53.788227   28910 reconciler.go:209] operationExecutor.VerifyControllerAttachedVolume started for volume "default-token-jjv2p" (UniqueName: "kubernetes.io/secret/0c294904-348d-4785-879f-2292faed9a91-default-token-jjv2p") pod "adas-worker7-4-n6wzg" (UID: "0c294904-348d-4785-879f-2292faed9a91")
+Apr 10 15:16:53 cpu08 kubelet: I0410 15:16:53.788332   28910 reconciler.go:209] operationExecutor.VerifyControllerAttachedVolume started for volume "data" (UniqueName: "kubernetes.io/host-path/53eb2041-cc37-477b-9ee9-d3542b54dcd5-data") pod "adas-worker7-3-7998k" (UID: "53eb2041-cc37-477b-9ee9-d3542b54dcd5")
+Apr 10 15:16:53 cpu08 kubelet: I0410 15:16:53.788363   28910 reconciler.go:209] operationExecutor.VerifyControllerAttachedVolume started for volume "default-token-jjv2p" (UniqueName: "kubernetes.io/secret/53eb2041-cc37-477b-9ee9-d3542b54dcd5-default-token-jjv2p") pod "adas-worker7-3-7998k" (UID: "53eb2041-cc37-477b-9ee9-d3542b54dcd5")
+Apr 10 15:16:53 cpu08 kubelet: I0410 15:16:53.788400   28910 reconciler.go:209] operationExecutor.VerifyControllerAttachedVolume started for volume "data" (UniqueName: "kubernetes.io/host-path/0c294904-348d-4785-879f-2292faed9a91-data") pod "adas-worker7-4-n6wzg" (UID: "0c294904-348d-4785-879f-2292faed9a91")
+Apr 10 15:16:53 cpu08 kubelet: I0410 15:16:53.788447   28910 reconciler.go:209] operationExecutor.VerifyControllerAttachedVolume started for volume "workspace" (UniqueName: "kubernetes.io/host-path/0c294904-348d-4785-879f-2292faed9a91-workspace") pod "adas-worker7-4-n6wzg" (UID: "0c294904-348d-4785-879f-2292faed9a91")
+Apr 10 15:16:53 cpu08 kubelet: I0410 15:16:53.788501   28910 reconciler.go:209] operationExecutor.VerifyControllerAttachedVolume started for volume "log" (UniqueName: "kubernetes.io/host-path/0c294904-348d-4785-879f-2292faed9a91-log") pod "adas-worker7-4-n6wzg" (UID: "0c294904-348d-4785-879f-2292faed9a91")
+Apr 10 15:16:53 cpu08 kubelet: I0410 15:16:53.788551   28910 reconciler.go:209] operationExecutor.VerifyControllerAttachedVolume started for volume "log" (UniqueName: "kubernetes.io/host-path/53eb2041-cc37-477b-9ee9-d3542b54dcd5-log") pod "adas-worker7-3-7998k" (UID: "53eb2041-cc37-477b-9ee9-d3542b54dcd5")
+Apr 10 15:16:53 cpu08 systemd: Started Kubernetes transient mount for /var/lib/kubelet/pods/ffbbab31-3d70-480d-9119-85b906fcb074/volumes/kubernetes.io~secret/default-token-jjv2p.
+Apr 10 15:16:53 cpu08 kernel: weave: port 3(vethwepl71fa07a) entered blocking state
+Apr 10 15:16:53 cpu08 kernel: weave: port 3(vethwepl71fa07a) entered disabled state
+Apr 10 15:16:53 cpu08 kernel: device vethwepl71fa07a entered promiscuous mode
+Apr 10 15:16:53 cpu08 kernel: IPv6: ADDRCONF(NETDEV_UP): vethwepl71fa07a: link is not ready
+Apr 10 15:16:53 cpu08 kernel: weave: port 3(vethwepl71fa07a) entered blocking state
+Apr 10 15:16:53 cpu08 kernel: weave: port 3(vethwepl71fa07a) entered forwarding state
+Apr 10 15:16:53 cpu08 kernel: IPv6: ADDRCONF(NETDEV_CHANGE): vethwepl71fa07a: link becomes ready
+Apr 10 15:16:53 cpu08 systemd: Started Kubernetes transient mount for /var/lib/kubelet/pods/53eb2041-cc37-477b-9ee9-d3542b54dcd5/volumes/kubernetes.io~secret/default-token-jjv2p.
+Apr 10 15:16:53 cpu08 systemd: Started Kubernetes transient mount for /var/lib/kubelet/pods/0c294904-348d-4785-879f-2292faed9a91/volumes/kubernetes.io~secret/default-token-jjv2p.
+Apr 10 15:16:53 cpu08 containerd: time="2020-04-10T15:16:53.980675827+09:00" level=info msg="shim containerd-shim started" address="/containerd-shim/moby/c299f5fa840de5b47570d6c7a73c8050cf684bcfb38222efa27a83f28bc146b3/shim.sock" debug=false pid=20140
+Apr 10 15:16:54 cpu08 containerd: time="2020-04-10T15:16:54.046729267+09:00" level=info msg="shim containerd-shim started" address="/containerd-shim/moby/c48e1ad1f10e718ca80d16f8e97bc990e0aa8f27dbec7b185261e19c2efcfb8b/shim.sock" debug=false pid=20179
+Apr 10 15:16:54 cpu08 kubelet: W0410 15:16:54.063153   28910 pod_container_deletor.go:75] Container "ffbcc679885bf43a72efda98b2ab8f24f8245c9b2065872fe4e8471ecd6b41f0" not found in pod's containers
+Apr 10 15:16:54 cpu08 kubelet: W0410 15:16:54.066251   28910 watcher.go:87] Error while processing event ("/sys/fs/cgroup/cpu,cpuacct/system.slice/run-20069.scope": 0x40000100 == IN_CREATE|IN_ISDIR): inotify_add_watch /sys/fs/cgroup/cpu,cpuacct/system.slice/run-20069.scope: no such file or directory
+Apr 10 15:16:54 cpu08 kubelet: W0410 15:16:54.066288   28910 watcher.go:87] Error while processing event ("/sys/fs/cgroup/blkio/system.slice/run-20069.scope": 0x40000100 == IN_CREATE|IN_ISDIR): inotify_add_watch /sys/fs/cgroup/blkio/system.slice/run-20069.scope: no such file or directory
+Apr 10 15:16:54 cpu08 kubelet: W0410 15:16:54.066304   28910 watcher.go:87] Error while processing event ("/sys/fs/cgroup/memory/system.slice/run-20069.scope": 0x40000100 == IN_CREATE|IN_ISDIR): inotify_add_watch /sys/fs/cgroup/memory/system.slice/run-20069.scope: no such file or directory
+Apr 10 15:16:54 cpu08 kubelet: W0410 15:16:54.066317   28910 watcher.go:87] Error while processing event ("/sys/fs/cgroup/devices/system.slice/run-20069.scope": 0x40000100 == IN_CREATE|IN_ISDIR): inotify_add_watch /sys/fs/cgroup/devices/system.slice/run-20069.scope: no such file or directory
+Apr 10 15:16:54 cpu08 kubelet: W0410 15:16:54.066350   28910 watcher.go:87] Error while processing event ("/sys/fs/cgroup/pids/system.slice/run-20069.scope": 0x40000100 == IN_CREATE|IN_ISDIR): inotify_add_watch /sys/fs/cgroup/pids/system.slice/run-20069.scope: no such file or directory
+Apr 10 15:16:54 cpu08 kubelet: W0410 15:16:54.066378   28910 watcher.go:87] Error while processing event ("/sys/fs/cgroup/cpu,cpuacct/system.slice/run-20068.scope": 0x40000100 == IN_CREATE|IN_ISDIR): inotify_add_watch /sys/fs/cgroup/cpu,cpuacct/system.slice/run-20068.scope: no such file or directory
+Apr 10 15:16:54 cpu08 kubelet: W0410 15:16:54.066389   28910 watcher.go:87] Error while processing event ("/sys/fs/cgroup/blkio/system.slice/run-20068.scope": 0x40000100 == IN_CREATE|IN_ISDIR): inotify_add_watch /sys/fs/cgroup/blkio/system.slice/run-20068.scope: no such file or directory
+Apr 10 15:16:54 cpu08 kubelet: W0410 15:16:54.066401   28910 watcher.go:87] Error while processing event ("/sys/fs/cgroup/memory/system.slice/run-20068.scope": 0x40000100 == IN_CREATE|IN_ISDIR): inotify_add_watch /sys/fs/cgroup/memory/system.slice/run-20068.scope: no such file or directory
+Apr 10 15:16:54 cpu08 kubelet: W0410 15:16:54.066412   28910 watcher.go:87] Error while processing event ("/sys/fs/cgroup/devices/system.slice/run-20068.scope": 0x40000100 == IN_CREATE|IN_ISDIR): inotify_add_watch /sys/fs/cgroup/devices/system.slice/run-20068.scope: no such file or directory
+Apr 10 15:16:54 cpu08 kubelet: W0410 15:16:54.066425   28910 watcher.go:87] Error while processing event ("/sys/fs/cgroup/pids/system.slice/run-20068.scope": 0x40000100 == IN_CREATE|IN_ISDIR): inotify_add_watch /sys/fs/cgroup/pids/system.slice/run-20068.scope: no such file or directory
+Apr 10 15:16:54 cpu08 containerd: time="2020-04-10T15:16:54.083207074+09:00" level=info msg="shim containerd-shim started" address="/containerd-shim/moby/1dc2008ce305b2089d47a0c5bd4e5ab839bafa8b7e90f6c95c4166fe75fb07a8/shim.sock" debug=false pid=20249
+Apr 10 15:16:54 cpu08 kernel: weave: port 4(vethweplffbcc67) entered blocking state
+Apr 10 15:16:54 cpu08 kernel: weave: port 4(vethweplffbcc67) entered disabled state
+Apr 10 15:16:54 cpu08 kernel: device vethweplffbcc67 entered promiscuous mode
+Apr 10 15:16:54 cpu08 kernel: IPVS: Creating netns size=2048 id=111
+Apr 10 15:16:54 cpu08 kubelet: I0410 15:16:54.089710   28910 reconciler.go:209] operationExecutor.VerifyControllerAttachedVolume started for volume "workspace" (UniqueName: "kubernetes.io/host-path/c7f02d44-9486-496a-b5c7-5946927a4abd-workspace") pod "adas-worker7-3-7r4rx" (UID: "c7f02d44-9486-496a-b5c7-5946927a4abd")
+Apr 10 15:16:54 cpu08 kubelet: I0410 15:16:54.089742   28910 reconciler.go:209] operationExecutor.VerifyControllerAttachedVolume started for volume "log" (UniqueName: "kubernetes.io/host-path/b30dbbe8-497f-4dc0-808d-c46ee52c590e-log") pod "adas-worker7-4-sq62r" (UID: "b30dbbe8-497f-4dc0-808d-c46ee52c590e")
+Apr 10 15:16:54 cpu08 kubelet: I0410 15:16:54.089763   28910 reconciler.go:209] operationExecutor.VerifyControllerAttachedVolume started for volume "data" (UniqueName: "kubernetes.io/host-path/c7f02d44-9486-496a-b5c7-5946927a4abd-data") pod "adas-worker7-3-7r4rx" (UID: "c7f02d44-9486-496a-b5c7-5946927a4abd")
+Apr 10 15:16:54 cpu08 kubelet: I0410 15:16:54.089823   28910 reconciler.go:209] operationExecutor.VerifyControllerAttachedVolume started for volume "default-token-jjv2p" (UniqueName: "kubernetes.io/secret/c7f02d44-9486-496a-b5c7-5946927a4abd-default-token-jjv2p") pod "adas-worker7-3-7r4rx" (UID: "c7f02d44-9486-496a-b5c7-5946927a4abd")
+Apr 10 15:16:54 cpu08 kubelet: I0410 15:16:54.089973   28910 reconciler.go:209] operationExecutor.VerifyControllerAttachedVolume started for volume "workspace" (UniqueName: "kubernetes.io/host-path/b30dbbe8-497f-4dc0-808d-c46ee52c590e-workspace") pod "adas-worker7-4-sq62r" (UID: "b30dbbe8-497f-4dc0-808d-c46ee52c590e")
+Apr 10 15:16:54 cpu08 kubelet: I0410 15:16:54.090057   28910 reconciler.go:209] operationExecutor.VerifyControllerAttachedVolume started for volume "default-token-jjv2p" (UniqueName: "kubernetes.io/secret/b30dbbe8-497f-4dc0-808d-c46ee52c590e-default-token-jjv2p") pod "adas-worker7-4-sq62r" (UID: "b30dbbe8-497f-4dc0-808d-c46ee52c590e")
+Apr 10 15:16:54 cpu08 kubelet: I0410 15:16:54.090102   28910 reconciler.go:209] operationExecutor.VerifyControllerAttachedVolume started for volume "data" (UniqueName: "kubernetes.io/host-path/b30dbbe8-497f-4dc0-808d-c46ee52c590e-data") pod "adas-worker7-4-sq62r" (UID: "b30dbbe8-497f-4dc0-808d-c46ee52c590e")
+Apr 10 15:16:54 cpu08 kubelet: I0410 15:16:54.090134   28910 reconciler.go:209] operationExecutor.VerifyControllerAttachedVolume started for volume "log" (UniqueName: "kubernetes.io/host-path/c7f02d44-9486-496a-b5c7-5946927a4abd-log") pod "adas-worker7-3-7r4rx" (UID: "c7f02d44-9486-496a-b5c7-5946927a4abd")
+Apr 10 15:16:54 cpu08 containerd: time="2020-04-10T15:16:54.104152727+09:00" level=info msg="shim containerd-shim started" address="/containerd-shim/moby/29fc6dc1656866b03a996b446e5c035b1d49dd9dec70903b77c6dd19b6e908ec/shim.sock" debug=false pid=20286
+Apr 10 15:16:54 cpu08 kernel: IPv6: ADDRCONF(NETDEV_UP): vethweplffbcc67: link is not ready
+Apr 10 15:16:54 cpu08 kernel: weave: port 4(vethweplffbcc67) entered blocking state
+Apr 10 15:16:54 cpu08 kernel: weave: port 4(vethweplffbcc67) entered forwarding state
+Apr 10 15:16:54 cpu08 kernel: IPv6: ADDRCONF(NETDEV_CHANGE): vethweplffbcc67: link becomes ready
+Apr 10 15:16:54 cpu08 kernel: IPVS: Creating netns size=2048 id=112
+Apr 10 15:16:54 cpu08 kernel: IPVS: Creating netns size=2048 id=113
+Apr 10 15:16:54 cpu08 systemd: Started Kubernetes transient mount for /var/lib/kubelet/pods/b30dbbe8-497f-4dc0-808d-c46ee52c590e/volumes/kubernetes.io~secret/default-token-jjv2p.
+Apr 10 15:16:54 cpu08 systemd: Started Kubernetes transient mount for /var/lib/kubelet/pods/c7f02d44-9486-496a-b5c7-5946927a4abd/volumes/kubernetes.io~secret/default-token-jjv2p.
+Apr 10 15:16:54 cpu08 containerd: time="2020-04-10T15:16:54.338223681+09:00" level=info msg="shim containerd-shim started" address="/containerd-shim/moby/f98ba47e2f246c0ffff3d8ada06f650203c949a3ba78c5f64b4f733a26feda8a/shim.sock" debug=false pid=20555
+Apr 10 15:16:54 cpu08 containerd: time="2020-04-10T15:16:54.392805196+09:00" level=info msg="shim containerd-shim started" address="/containerd-shim/moby/4974b5dcf0688de0462081b04ce70e17a6821ad447aea1568a27c6a412f36e4a/shim.sock" debug=false pid=20595
+Apr 10 15:16:54 cpu08 kernel: weave: port 5(vethweplc48e1ad) entered blocking state
+Apr 10 15:16:54 cpu08 kernel: weave: port 5(vethweplc48e1ad) entered disabled state
+Apr 10 15:16:54 cpu08 kernel: device vethweplc48e1ad entered promiscuous mode
+Apr 10 15:16:54 cpu08 containerd: time="2020-04-10T15:16:54.445736372+09:00" level=info msg="shim containerd-shim started" address="/containerd-shim/moby/a41f6a4bbc7182ef6c8f1d42bc5afa668130d6d1dfc29d2ac2f35bbcbf513ed7/shim.sock" debug=false pid=20719
+Apr 10 15:16:54 cpu08 kernel: IPv6: ADDRCONF(NETDEV_UP): vethweplc48e1ad: link is not ready
+Apr 10 15:16:54 cpu08 kernel: weave: port 5(vethweplc48e1ad) entered blocking state
+Apr 10 15:16:54 cpu08 kernel: weave: port 5(vethweplc48e1ad) entered forwarding state
+Apr 10 15:16:54 cpu08 kernel: IPv6: ADDRCONF(NETDEV_CHANGE): vethweplc48e1ad: link becomes ready
+Apr 10 15:16:54 cpu08 kernel: IPVS: Creating netns size=2048 id=114
+Apr 10 15:16:54 cpu08 kernel: weave: port 6(vethwepl29fc6dc) entered blocking state
+Apr 10 15:16:54 cpu08 kernel: weave: port 6(vethwepl29fc6dc) entered disabled state
+Apr 10 15:16:54 cpu08 kernel: device vethwepl29fc6dc entered promiscuous mode
+Apr 10 15:16:54 cpu08 kernel: weave: port 7(vethwepl1dc2008) entered blocking state
+Apr 10 15:16:54 cpu08 kernel: weave: port 7(vethwepl1dc2008) entered disabled state
+Apr 10 15:16:54 cpu08 kernel: device vethwepl1dc2008 entered promiscuous mode
+Apr 10 15:16:54 cpu08 kernel: IPVS: Creating netns size=2048 id=115
+Apr 10 15:16:54 cpu08 kernel: IPv6: ADDRCONF(NETDEV_UP): vethwepl29fc6dc: link is not ready
+Apr 10 15:16:54 cpu08 kernel: weave: port 6(vethwepl29fc6dc) entered blocking state
+Apr 10 15:16:54 cpu08 kernel: weave: port 6(vethwepl29fc6dc) entered forwarding state
+Apr 10 15:16:54 cpu08 kernel: IPv6: ADDRCONF(NETDEV_UP): vethwepl1dc2008: link is not ready
+Apr 10 15:16:54 cpu08 kernel: weave: port 7(vethwepl1dc2008) entered blocking state
+Apr 10 15:16:54 cpu08 kernel: weave: port 7(vethwepl1dc2008) entered forwarding state
+Apr 10 15:16:54 cpu08 kernel: IPv6: ADDRCONF(NETDEV_CHANGE): vethwepl29fc6dc: link becomes ready
+Apr 10 15:16:54 cpu08 kernel: weave: port 7(vethwepl1dc2008) entered disabled state
+Apr 10 15:16:54 cpu08 kernel: IPv6: ADDRCONF(NETDEV_CHANGE): vethwepl1dc2008: link becomes ready
+Apr 10 15:16:54 cpu08 kernel: weave: port 7(vethwepl1dc2008) entered blocking state
+Apr 10 15:16:54 cpu08 kernel: weave: port 7(vethwepl1dc2008) entered forwarding state
+Apr 10 15:16:54 cpu08 containerd: time="2020-04-10T15:16:54.568755937+09:00" level=info msg="shim containerd-shim started" address="/containerd-shim/moby/0bf64f993b9b79d43bbbe2e8905c32fd889d9cf376f1dd0be0af7cc6632da1a6/shim.sock" debug=false pid=20967
+Apr 10 15:16:54 cpu08 containerd: time="2020-04-10T15:16:54.594273748+09:00" level=info msg="shim containerd-shim started" address="/containerd-shim/moby/1ec7aabaae22110bd22128d435712d4a60907498bacf8d8eca15dd95efdff3af/shim.sock" debug=false pid=20986
+Apr 10 15:16:54 cpu08 containerd: time="2020-04-10T15:16:54.682695057+09:00" level=info msg="shim containerd-shim started" address="/containerd-shim/moby/cd79402614b1500ca33732b51a96dbfc4d892b0000825e5ec28146736d422e7c/shim.sock" debug=false pid=21100
+Apr 10 15:16:54 cpu08 kernel: weave: port 8(vethwepl4974b5d) entered blocking state
+Apr 10 15:16:54 cpu08 kernel: weave: port 8(vethwepl4974b5d) entered disabled state
+Apr 10 15:16:54 cpu08 kernel: device vethwepl4974b5d entered promiscuous mode
+Apr 10 15:16:54 cpu08 kernel: weave: port 9(vethwepla41f6a4) entered blocking state
+Apr 10 15:16:54 cpu08 kernel: weave: port 9(vethwepla41f6a4) entered disabled state
+Apr 10 15:16:54 cpu08 kernel: device vethwepla41f6a4 entered promiscuous mode
+Apr 10 15:16:55 cpu08 kernel: IPv6: ADDRCONF(NETDEV_UP): vethwepl4974b5d: link is not ready
+Apr 10 15:16:55 cpu08 kernel: IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+Apr 10 15:16:55 cpu08 kernel: IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+Apr 10 15:16:55 cpu08 kernel: IPv6: ADDRCONF(NETDEV_CHANGE): vethwepl4974b5d: link becomes ready
+Apr 10 15:16:55 cpu08 kernel: weave: port 8(vethwepl4974b5d) entered blocking state
+Apr 10 15:16:55 cpu08 kernel: weave: port 8(vethwepl4974b5d) entered forwarding state
+Apr 10 15:16:55 cpu08 kernel: IPv6: ADDRCONF(NETDEV_UP): vethwepla41f6a4: link is not ready
+Apr 10 15:16:55 cpu08 kernel: weave: port 9(vethwepla41f6a4) entered blocking state
+Apr 10 15:16:55 cpu08 kernel: weave: port 9(vethwepla41f6a4) entered forwarding state
+Apr 10 15:16:55 cpu08 kernel: IPv6: ADDRCONF(NETDEV_CHANGE): vethwepla41f6a4: link becomes ready
+Apr 10 15:16:55 cpu08 containerd: time="2020-04-10T15:16:55.160168291+09:00" level=info msg="shim containerd-shim started" address="/containerd-shim/moby/2b5985102f875dda990e07ce848095cdcc99a29d5ca6ecc6ca874fd0dd6af5d2/shim.sock" debug=false pid=21465
+Apr 10 15:16:55 cpu08 containerd: time="2020-04-10T15:16:55.219165597+09:00" level=info msg="shim containerd-shim started" address="/containerd-shim/moby/010ec60c4d2a8d8dd7185a88ce2d7c8807db57d76958c6cce81810610b92e4d1/shim.sock" debug=false pid=21503
+Apr 10 15:17:01 cpu08 systemd: Started Session 11872 of user root.
+Apr 10 15:18:01 cpu08 systemd: Started Session 11873 of user root.
+Apr 10 15:18:43 cpu08 dhclient[9443]: DHCPREQUEST on enp0s20u1u5 to 169.254.95.118 port 67 (xid=0x33a665ed)
+Apr 10 15:18:43 cpu08 dhclient[9443]: DHCPACK from 169.254.95.118 (xid=0x33a665ed)
+Apr 10 15:18:45 cpu08 dhclient[9443]: bound to 169.254.95.120 -- renewal in 245 seconds.
+Apr 10 15:19:01 cpu08 systemd: Started Session 11874 of user root.
+Apr 10 15:19:52 cpu08 dhclient[9318]: DHCPREQUEST on eno1 to 192.168.10.10 port 67 (xid=0x1985da0c)
+Apr 10 15:19:52 cpu08 dhclient[9318]: DHCPACK from 192.168.10.10 (xid=0x1985da0c)
+Apr 10 15:19:54 cpu08 dhclient[9318]: bound to 192.168.10.28 -- renewal in 299 seconds.
+Apr 10 15:20:01 cpu08 systemd: Started Session 11875 of user root.
+Apr 10 15:21:01 cpu08 systemd: Started Session 11876 of user root.
+Apr 10 15:22:01 cpu08 systemd: Started Session 11877 of user root.
+Apr 10 15:22:50 cpu08 dhclient[9443]: DHCPREQUEST on enp0s20u1u5 to 169.254.95.118 port 67 (xid=0x33a665ed)
+Apr 10 15:22:50 cpu08 dhclient[9443]: DHCPACK from 169.254.95.118 (xid=0x33a665ed)
+Apr 10 15:22:52 cpu08 dhclient[9443]: bound to 169.254.95.120 -- renewal in 253 seconds.
+Apr 10 15:23:01 cpu08 systemd: Started Session 11878 of user root.
+Apr 10 15:24:01 cpu08 systemd: Started Session 11879 of user root.
+Apr 10 15:24:53 cpu08 dhclient[9318]: DHCPREQUEST on eno1 to 192.168.10.10 port 67 (xid=0x1985da0c)
+Apr 10 15:24:53 cpu08 dhclient[9318]: DHCPACK from 192.168.10.10 (xid=0x1985da0c)
+Apr 10 15:24:55 cpu08 dhclient[9318]: bound to 192.168.10.28 -- renewal in 242 seconds.
+Apr 10 15:25:01 cpu08 systemd: Started Session 11880 of user root.
+Apr 10 15:26:01 cpu08 systemd: Started Session 11881 of user root.
+Apr 10 15:27:01 cpu08 systemd: Started Session 11882 of user root.
+Apr 10 15:27:05 cpu08 dhclient[9443]: DHCPREQUEST on enp0s20u1u5 to 169.254.95.118 port 67 (xid=0x33a665ed)
+Apr 10 15:27:05 cpu08 dhclient[9443]: DHCPACK from 169.254.95.118 (xid=0x33a665ed)
+Apr 10 15:27:07 cpu08 dhclient[9443]: bound to 169.254.95.120 -- renewal in 248 seconds.
+Apr 10 15:28:01 cpu08 systemd: Started Session 11883 of user root.
+Apr 10 15:28:57 cpu08 dhclient[9318]: DHCPREQUEST on eno1 to 192.168.10.10 port 67 (xid=0x1985da0c)
+Apr 10 15:28:57 cpu08 dhclient[9318]: DHCPACK from 192.168.10.10 (xid=0x1985da0c)
+Apr 10 15:28:59 cpu08 dhclient[9318]: bound to 192.168.10.28 -- renewal in 298 seconds.
+Apr 10 15:29:01 cpu08 systemd: Started Session 11884 of user root.
+Apr 10 15:30:01 cpu08 systemd: Started Session 11885 of user root.
+Apr 10 15:31:01 cpu08 systemd: Started Session 11886 of user root.
+Apr 10 15:31:14 cpu08 systemd: Started Session 11887 of user root.
+Apr 10 15:31:14 cpu08 systemd-logind: New session 11887 of user root.
+Apr 10 15:31:15 cpu08 dhclient[9443]: DHCPREQUEST on enp0s20u1u5 to 169.254.95.118 port 67 (xid=0x33a665ed)
+Apr 10 15:31:15 cpu08 dhclient[9443]: DHCPACK from 169.254.95.118 (xid=0x33a665ed)
+Apr 10 15:31:17 cpu08 dhclient[9443]: bound to 169.254.95.120 -- renewal in 278 seconds.
+Apr 10 15:32:01 cpu08 systemd: Started Session 11888 of user root.
+Apr 10 15:33:01 cpu08 systemd: Started Session 11889 of user root.
+Apr 10 15:33:57 cpu08 dhclient[9318]: DHCPREQUEST on eno1 to 192.168.10.10 port 67 (xid=0x1985da0c)
+Apr 10 15:33:57 cpu08 dhclient[9318]: DHCPACK from 192.168.10.10 (xid=0x1985da0c)
+Apr 10 15:33:59 cpu08 dhclient[9318]: bound to 192.168.10.28 -- renewal in 299 seconds.
+Apr 10 15:34:01 cpu08 systemd: Started Session 11890 of user root.
+Apr 10 15:35:01 cpu08 systemd: Started Session 11891 of user root.
+Apr 10 15:35:19 cpu08 systemd-logind: Removed session 11887.
+Apr 10 15:35:55 cpu08 dhclient[9443]: DHCPREQUEST on enp0s20u1u5 to 169.254.95.118 port 67 (xid=0x33a665ed)
+Apr 10 15:35:55 cpu08 dhclient[9443]: DHCPACK from 169.254.95.118 (xid=0x33a665ed)
+Apr 10 15:35:57 cpu08 dhclient[9443]: bound to 169.254.95.120 -- renewal in 294 seconds.
+Apr 10 15:36:01 cpu08 systemd: Started Session 11892 of user root.
+Apr 10 15:36:58 cpu08 systemd-logind: New session 11893 of user root.
+Apr 10 15:36:58 cpu08 systemd: Started Session 11893 of user root.
+Apr 10 15:37:01 cpu08 systemd: Started Session 11894 of user root.
+Apr 10 15:38:01 cpu08 systemd: Started Session 11895 of user root.
+Apr 10 15:38:58 cpu08 dhclient[9318]: DHCPREQUEST on eno1 to 192.168.10.10 port 67 (xid=0x1985da0c)
+Apr 10 15:38:58 cpu08 dhclient[9318]: DHCPACK from 192.168.10.10 (xid=0x1985da0c)
+Apr 10 15:39:00 cpu08 dhclient[9318]: bound to 192.168.10.28 -- renewal in 271 seconds.
+Apr 10 15:39:01 cpu08 systemd: Started Session 11896 of user root.
+Apr 10 15:40:01 cpu08 systemd: Started Session 11897 of user root.
+Apr 10 15:40:51 cpu08 dhclient[9443]: DHCPREQUEST on enp0s20u1u5 to 169.254.95.118 port 67 (xid=0x33a665ed)
+Apr 10 15:40:51 cpu08 dhclient[9443]: DHCPACK from 169.254.95.118 (xid=0x33a665ed)
+Apr 10 15:40:53 cpu08 dhclient[9443]: bound to 169.254.95.120 -- renewal in 299 seconds.
+Apr 10 15:41:01 cpu08 systemd: Started Session 11898 of user root.
+Apr 10 15:41:04 cpu08 systemd-logind: Removed session 11893.
+Apr 10 15:41:36 cpu08 systemd-logind: New session 11899 of user root.
+Apr 10 15:41:36 cpu08 systemd: Started Session 11899 of user root.
+Apr 10 15:42:01 cpu08 systemd: Started Session 11900 of user root.
+Apr 10 15:43:01 cpu08 systemd: Started Session 11901 of user root.
+Apr 10 15:43:31 cpu08 dhclient[9318]: DHCPREQUEST on eno1 to 192.168.10.10 port 67 (xid=0x1985da0c)
+Apr 10 15:43:31 cpu08 dhclient[9318]: DHCPACK from 192.168.10.10 (xid=0x1985da0c)
+Apr 10 15:43:33 cpu08 dhclient[9318]: bound to 192.168.10.28 -- renewal in 262 seconds.
+Apr 10 15:44:01 cpu08 systemd: Started Session 11902 of user root.
+Apr 10 15:44:42 cpu08 systemd-logind: Removed session 11899.
+Apr 10 15:44:56 cpu08 systemd-logind: New session 11903 of user root.
+Apr 10 15:44:56 cpu08 systemd: Started Session 11903 of user root.
+Apr 10 15:45:01 cpu08 systemd: Started Session 11904 of user root.
+Apr 10 15:45:52 cpu08 dhclient[9443]: DHCPREQUEST on enp0s20u1u5 to 169.254.95.118 port 67 (xid=0x33a665ed)
+Apr 10 15:45:52 cpu08 dhclient[9443]: DHCPACK from 169.254.95.118 (xid=0x33a665ed)
+Apr 10 15:45:54 cpu08 dhclient[9443]: bound to 169.254.95.120 -- renewal in 249 seconds.
+Apr 10 15:46:01 cpu08 systemd: Started Session 11905 of user root.
+Apr 10 15:47:01 cpu08 systemd: Started Session 11906 of user root.
+Apr 10 15:47:02 cpu08 systemd-logind: Removed session 11903.
+Apr 10 15:47:10 cpu08 dockerd: time="2020-04-10T15:47:10.782405187+09:00" level=info msg="Container e495bbd8048e4be60ecbdd24f1a84eb68668b8aac37a55398968c336df565f18 failed to exit within 30 seconds of signal 15 - using the force"
+Apr 10 15:47:10 cpu08 dockerd: time="2020-04-10T15:47:10.830194602+09:00" level=info msg="Container c299f5fa840de5b47570d6c7a73c8050cf684bcfb38222efa27a83f28bc146b3 failed to exit within 30 seconds of signal 15 - using the force"
+Apr 10 15:47:10 cpu08 dockerd: time="2020-04-10T15:47:10.883996414+09:00" level=info msg="Container 0bf64f993b9b79d43bbbe2e8905c32fd889d9cf376f1dd0be0af7cc6632da1a6 failed to exit within 30 seconds of signal 15 - using the force"
+Apr 10 15:47:12 cpu08 dockerd: time="2020-04-10T15:47:10.930646137+09:00" level=info msg="Container f98ba47e2f246c0ffff3d8ada06f650203c949a3ba78c5f64b4f733a26feda8a failed to exit within 30 seconds of signal 15 - using the force"
+Apr 10 15:47:13 cpu08 dockerd: time="2020-04-10T15:47:10.980019109+09:00" level=info msg="Container 1ec7aabaae22110bd22128d435712d4a60907498bacf8d8eca15dd95efdff3af failed to exit within 30 seconds of signal 15 - using the force"
+Apr 10 15:47:14 cpu08 dockerd: time="2020-04-10T15:47:11.030046245+09:00" level=info msg="Container 010ec60c4d2a8d8dd7185a88ce2d7c8807db57d76958c6cce81810610b92e4d1 failed to exit within 30 seconds of signal 15 - using the force"
+Apr 10 15:47:14 cpu08 dockerd: time="2020-04-10T15:47:11.079824947+09:00" level=info msg="Container cd79402614b1500ca33732b51a96dbfc4d892b0000825e5ec28146736d422e7c failed to exit within 30 seconds of signal 15 - using the force"
+Apr 10 15:47:15 cpu08 dockerd: time="2020-04-10T15:47:11.129631925+09:00" level=info msg="Container 2b5985102f875dda990e07ce848095cdcc99a29d5ca6ecc6ca874fd0dd6af5d2 failed to exit within 30 seconds of signal 15 - using the force"
+Apr 10 15:47:15 cpu08 kernel: weave: port 2(vethwepl3f6e21c) entered disabled state
+Apr 10 15:47:15 cpu08 kernel: device vethwepl3f6e21c left promiscuous mode
+Apr 10 15:47:15 cpu08 kernel: weave: port 2(vethwepl3f6e21c) entered disabled state
+Apr 10 15:47:15 cpu08 kernel: weave: port 4(vethweplffbcc67) entered disabled state
+Apr 10 15:47:15 cpu08 kernel: device vethweplffbcc67 left promiscuous mode
+Apr 10 15:47:15 cpu08 kernel: weave: port 4(vethweplffbcc67) entered disabled state
+Apr 10 15:47:15 cpu08 kernel: weave: port 3(vethwepl71fa07a) entered disabled state
+Apr 10 15:47:15 cpu08 kernel: device vethwepl71fa07a left promiscuous mode
+Apr 10 15:47:15 cpu08 kernel: weave: port 3(vethwepl71fa07a) entered disabled state
+Apr 10 15:47:15 cpu08 kernel: weave: port 6(vethwepl29fc6dc) entered disabled state
+Apr 10 15:47:15 cpu08 kernel: device vethwepl29fc6dc left promiscuous mode
+Apr 10 15:47:15 cpu08 kernel: weave: port 6(vethwepl29fc6dc) entered disabled state
+Apr 10 15:47:15 cpu08 kernel: weave: port 7(vethwepl1dc2008) entered disabled state
+Apr 10 15:47:15 cpu08 kernel: device vethwepl1dc2008 left promiscuous mode
+Apr 10 15:47:15 cpu08 kernel: weave: port 7(vethwepl1dc2008) entered disabled state
+Apr 10 15:47:15 cpu08 kernel: weave: port 9(vethwepla41f6a4) entered disabled state
+Apr 10 15:47:15 cpu08 kernel: device vethwepla41f6a4 left promiscuous mode
+Apr 10 15:47:15 cpu08 kernel: weave: port 9(vethwepla41f6a4) entered disabled state
+Apr 10 15:47:15 cpu08 kernel: weave: port 5(vethweplc48e1ad) entered disabled state
+Apr 10 15:47:15 cpu08 kernel: device vethweplc48e1ad left promiscuous mode
+Apr 10 15:47:15 cpu08 kernel: weave: port 5(vethweplc48e1ad) entered disabled state
+Apr 10 15:47:15 cpu08 kernel: weave: port 8(vethwepl4974b5d) entered disabled state
+Apr 10 15:47:15 cpu08 kernel: device vethwepl4974b5d left promiscuous mode
+Apr 10 15:47:15 cpu08 kernel: weave: port 8(vethwepl4974b5d) entered disabled state
+Apr 10 15:47:15 cpu08 kubelet: W0410 15:47:11.267881   28910 helpers.go:189] readString: Failed to read "/sys/fs/cgroup/memory/kubepods/besteffort/podd262de85-bc71-4f64-a932-e40001cc6317/e495bbd8048e4be60ecbdd24f1a84eb68668b8aac37a55398968c336df565f18/memory.limit_in_bytes": read /sys/fs/cgroup/memory/kubepods/besteffort/podd262de85-bc71-4f64-a932-e40001cc6317/e495bbd8048e4be60ecbdd24f1a84eb68668b8aac37a55398968c336df565f18/memory.limit_in_bytes: no such device
+Apr 10 15:47:16 cpu08 kubelet: W0410 15:47:11.267941   28910 helpers.go:189] readString: Failed to read "/sys/fs/cgroup/memory/kubepods/besteffort/podd262de85-bc71-4f64-a932-e40001cc6317/e495bbd8048e4be60ecbdd24f1a84eb68668b8aac37a55398968c336df565f18/memory.memsw.limit_in_bytes": read /sys/fs/cgroup/memory/kubepods/besteffort/podd262de85-bc71-4f64-a932-e40001cc6317/e495bbd8048e4be60ecbdd24f1a84eb68668b8aac37a55398968c336df565f18/memory.memsw.limit_in_bytes: no such device
+Apr 10 15:47:16 cpu08 kubelet: W0410 15:47:11.268021   28910 helpers.go:189] readString: Failed to read "/sys/fs/cgroup/memory/kubepods/besteffort/podd262de85-bc71-4f64-a932-e40001cc6317/e495bbd8048e4be60ecbdd24f1a84eb68668b8aac37a55398968c336df565f18/memory.soft_limit_in_bytes": read /sys/fs/cgroup/memory/kubepods/besteffort/podd262de85-bc71-4f64-a932-e40001cc6317/e495bbd8048e4be60ecbdd24f1a84eb68668b8aac37a55398968c336df565f18/memory.soft_limit_in_bytes: no such device
+Apr 10 15:47:16 cpu08 kubelet: W0410 15:47:13.559633   28910 docker_sandbox.go:394] failed to read pod IP from plugin/docker: networkPlugin cni failed on the status hook for pod "adas-worker7-2-hg4g6_default": unexpected command output Device "eth0" does not exist.
+Apr 10 15:47:16 cpu08 kubelet: with error: exit status 1
+Apr 10 15:47:16 cpu08 containerd: time="2020-04-10T15:47:12.904070118+09:00" level=info msg="shim reaped" id=e495bbd8048e4be60ecbdd24f1a84eb68668b8aac37a55398968c336df565f18
+Apr 10 15:47:16 cpu08 containerd: time="2020-04-10T15:47:13.270627275+09:00" level=info msg="shim reaped" id=f98ba47e2f246c0ffff3d8ada06f650203c949a3ba78c5f64b4f733a26feda8a
+Apr 10 15:47:16 cpu08 containerd: time="2020-04-10T15:47:13.597568957+09:00" level=info msg="shim reaped" id=cd79402614b1500ca33732b51a96dbfc4d892b0000825e5ec28146736d422e7c
+Apr 10 15:47:16 cpu08 containerd: time="2020-04-10T15:47:13.597583102+09:00" level=info msg="shim reaped" id=c299f5fa840de5b47570d6c7a73c8050cf684bcfb38222efa27a83f28bc146b3
+Apr 10 15:47:16 cpu08 containerd: time="2020-04-10T15:47:13.598455260+09:00" level=info msg="shim reaped" id=1ec7aabaae22110bd22128d435712d4a60907498bacf8d8eca15dd95efdff3af
+Apr 10 15:47:16 cpu08 containerd: time="2020-04-10T15:47:14.146741000+09:00" level=info msg="shim reaped" id=2b5985102f875dda990e07ce848095cdcc99a29d5ca6ecc6ca874fd0dd6af5d2
+Apr 10 15:47:16 cpu08 containerd: time="2020-04-10T15:47:14.155564455+09:00" level=info msg="shim reaped" id=0bf64f993b9b79d43bbbe2e8905c32fd889d9cf376f1dd0be0af7cc6632da1a6
+Apr 10 15:47:16 cpu08 containerd: time="2020-04-10T15:47:15.089459143+09:00" level=info msg="shim reaped" id=3f6e21ca284d0d8e93ab1c16016c6e4a0a248fc5760b32e900b299ac06dcea4a
+Apr 10 15:47:16 cpu08 containerd: time="2020-04-10T15:47:15.440583430+09:00" level=info msg="shim reaped" id=010ec60c4d2a8d8dd7185a88ce2d7c8807db57d76958c6cce81810610b92e4d1
+Apr 10 15:47:16 cpu08 containerd: time="2020-04-10T15:47:15.605458365+09:00" level=info msg="shim reaped" id=71fa07a4ac03abf888bd89001c57558f65f7b1a7139b9d70ac628a430debbb25
+Apr 10 15:47:16 cpu08 containerd: time="2020-04-10T15:47:15.605515379+09:00" level=info msg="shim reaped" id=ffbcc679885bf43a72efda98b2ab8f24f8245c9b2065872fe4e8471ecd6b41f0
+Apr 10 15:47:16 cpu08 containerd: time="2020-04-10T15:47:15.994553321+09:00" level=info msg="shim reaped" id=c48e1ad1f10e718ca80d16f8e97bc990e0aa8f27dbec7b185261e19c2efcfb8b
+Apr 10 15:47:16 cpu08 containerd: time="2020-04-10T15:47:16.096079047+09:00" level=info msg="shim reaped" id=a41f6a4bbc7182ef6c8f1d42bc5afa668130d6d1dfc29d2ac2f35bbcbf513ed7
+Apr 10 15:47:16 cpu08 containerd: time="2020-04-10T15:47:16.096343833+09:00" level=info msg="shim reaped" id=29fc6dc1656866b03a996b446e5c035b1d49dd9dec70903b77c6dd19b6e908ec
+Apr 10 15:47:16 cpu08 dockerd: time="2020-04-10T15:47:12.914085313+09:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Apr 10 15:47:16 cpu08 dockerd: time="2020-04-10T15:47:12.914188620+09:00" level=warning msg="e495bbd8048e4be60ecbdd24f1a84eb68668b8aac37a55398968c336df565f18 cleanup: failed to unmount IPC: umount /var/lib/docker/containers/e495bbd8048e4be60ecbdd24f1a84eb68668b8aac37a55398968c336df565f18/mounts/shm, flags: 0x2: no such file or directory"
+Apr 10 15:47:16 cpu08 dockerd: time="2020-04-10T15:47:13.280448125+09:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Apr 10 15:47:16 cpu08 dockerd: time="2020-04-10T15:47:13.280567548+09:00" level=warning msg="f98ba47e2f246c0ffff3d8ada06f650203c949a3ba78c5f64b4f733a26feda8a cleanup: failed to unmount IPC: umount /var/lib/docker/containers/f98ba47e2f246c0ffff3d8ada06f650203c949a3ba78c5f64b4f733a26feda8a/mounts/shm, flags: 0x2: no such file or directory"
+Apr 10 15:47:16 cpu08 dockerd: time="2020-04-10T15:47:13.607478952+09:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Apr 10 15:47:16 cpu08 dockerd: time="2020-04-10T15:47:13.607565521+09:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Apr 10 15:47:16 cpu08 dockerd: time="2020-04-10T15:47:13.607571912+09:00" level=warning msg="cd79402614b1500ca33732b51a96dbfc4d892b0000825e5ec28146736d422e7c cleanup: failed to unmount IPC: umount /var/lib/docker/containers/cd79402614b1500ca33732b51a96dbfc4d892b0000825e5ec28146736d422e7c/mounts/shm, flags: 0x2: no such file or directory"
+Apr 10 15:47:16 cpu08 dockerd: time="2020-04-10T15:47:13.607684951+09:00" level=warning msg="c299f5fa840de5b47570d6c7a73c8050cf684bcfb38222efa27a83f28bc146b3 cleanup: failed to unmount IPC: umount /var/lib/docker/containers/c299f5fa840de5b47570d6c7a73c8050cf684bcfb38222efa27a83f28bc146b3/mounts/shm, flags: 0x2: no such file or directory"
+Apr 10 15:47:16 cpu08 dockerd: time="2020-04-10T15:47:13.608595499+09:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Apr 10 15:47:16 cpu08 kubelet: E0410 15:47:16.154959   28910 remote_runtime.go:295] ContainerStatus "0bf64f993b9b79d43bbbe2e8905c32fd889d9cf376f1dd0be0af7cc6632da1a6" from runtime service failed: rpc error: code = Unknown desc = Error: No such container: 0bf64f993b9b79d43bbbe2e8905c32fd889d9cf376f1dd0be0af7cc6632da1a6
+Apr 10 15:47:16 cpu08 kubelet: E0410 15:47:16.162028   28910 remote_runtime.go:295] ContainerStatus "c299f5fa840de5b47570d6c7a73c8050cf684bcfb38222efa27a83f28bc146b3" from runtime service failed: rpc error: code = Unknown desc = Error: No such container: c299f5fa840de5b47570d6c7a73c8050cf684bcfb38222efa27a83f28bc146b3
+Apr 10 15:47:16 cpu08 kubelet: I0410 15:47:16.269344   28910 reconciler.go:183] operationExecutor.UnmountVolume started for volume "data" (UniqueName: "kubernetes.io/host-path/ec0be419-e343-4715-92f6-828a502c7dec-data") pod "ec0be419-e343-4715-92f6-828a502c7dec" (UID: "ec0be419-e343-4715-92f6-828a502c7dec")
+Apr 10 15:47:16 cpu08 kubelet: I0410 15:47:16.269371   28910 reconciler.go:183] operationExecutor.UnmountVolume started for volume "data" (UniqueName: "kubernetes.io/host-path/d262de85-bc71-4f64-a932-e40001cc6317-data") pod "d262de85-bc71-4f64-a932-e40001cc6317" (UID: "d262de85-bc71-4f64-a932-e40001cc6317")
+Apr 10 15:47:16 cpu08 kubelet: I0410 15:47:16.269390   28910 reconciler.go:183] operationExecutor.UnmountVolume started for volume "log" (UniqueName: "kubernetes.io/host-path/53eb2041-cc37-477b-9ee9-d3542b54dcd5-log") pod "53eb2041-cc37-477b-9ee9-d3542b54dcd5" (UID: "53eb2041-cc37-477b-9ee9-d3542b54dcd5")
+Apr 10 15:47:16 cpu08 kubelet: I0410 15:47:16.269437   28910 reconciler.go:183] operationExecutor.UnmountVolume started for volume "default-token-jjv2p" (UniqueName: "kubernetes.io/secret/53eb2041-cc37-477b-9ee9-d3542b54dcd5-default-token-jjv2p") pod "53eb2041-cc37-477b-9ee9-d3542b54dcd5" (UID: "53eb2041-cc37-477b-9ee9-d3542b54dcd5")
+Apr 10 15:47:16 cpu08 kubelet: I0410 15:47:16.269433   28910 operation_generator.go:713] UnmountVolume.TearDown succeeded for volume "kubernetes.io/host-path/ec0be419-e343-4715-92f6-828a502c7dec-data" (OuterVolumeSpecName: "data") pod "ec0be419-e343-4715-92f6-828a502c7dec" (UID: "ec0be419-e343-4715-92f6-828a502c7dec"). InnerVolumeSpecName "data". PluginName "kubernetes.io/host-path", VolumeGidValue ""
+Apr 10 15:47:16 cpu08 kubelet: I0410 15:47:16.269475   28910 reconciler.go:183] operationExecutor.UnmountVolume started for volume "workspace" (UniqueName: "kubernetes.io/host-path/ec0be419-e343-4715-92f6-828a502c7dec-workspace") pod "ec0be419-e343-4715-92f6-828a502c7dec" (UID: "ec0be419-e343-4715-92f6-828a502c7dec")
+Apr 10 15:47:16 cpu08 kubelet: I0410 15:47:16.269480   28910 operation_generator.go:713] UnmountVolume.TearDown succeeded for volume "kubernetes.io/host-path/53eb2041-cc37-477b-9ee9-d3542b54dcd5-log" (OuterVolumeSpecName: "log") pod "53eb2041-cc37-477b-9ee9-d3542b54dcd5" (UID: "53eb2041-cc37-477b-9ee9-d3542b54dcd5"). InnerVolumeSpecName "log". PluginName "kubernetes.io/host-path", VolumeGidValue ""
+Apr 10 15:47:17 cpu08 kubelet: I0410 15:47:16.269479   28910 operation_generator.go:713] UnmountVolume.TearDown succeeded for volume "kubernetes.io/host-path/d262de85-bc71-4f64-a932-e40001cc6317-data" (OuterVolumeSpecName: "data") pod "d262de85-bc71-4f64-a932-e40001cc6317" (UID: "d262de85-bc71-4f64-a932-e40001cc6317"). InnerVolumeSpecName "data". PluginName "kubernetes.io/host-path", VolumeGidValue ""
+Apr 10 15:47:18 cpu08 kubelet: I0410 15:47:16.269529   28910 reconciler.go:183] operationExecutor.UnmountVolume started for volume "log" (UniqueName: "kubernetes.io/host-path/ffbbab31-3d70-480d-9119-85b906fcb074-log") pod "ffbbab31-3d70-480d-9119-85b906fcb074" (UID: "ffbbab31-3d70-480d-9119-85b906fcb074")
+Apr 10 15:47:18 cpu08 kubelet: I0410 15:47:16.269537   28910 operation_generator.go:713] UnmountVolume.TearDown succeeded for volume "kubernetes.io/host-path/ec0be419-e343-4715-92f6-828a502c7dec-workspace" (OuterVolumeSpecName: "workspace") pod "ec0be419-e343-4715-92f6-828a502c7dec" (UID: "ec0be419-e343-4715-92f6-828a502c7dec"). InnerVolumeSpecName "workspace". PluginName "kubernetes.io/host-path", VolumeGidValue ""
+Apr 10 15:47:18 cpu08 kubelet: I0410 15:47:16.269561   28910 operation_generator.go:713] UnmountVolume.TearDown succeeded for volume "kubernetes.io/host-path/ffbbab31-3d70-480d-9119-85b906fcb074-log" (OuterVolumeSpecName: "log") pod "ffbbab31-3d70-480d-9119-85b906fcb074" (UID: "ffbbab31-3d70-480d-9119-85b906fcb074"). InnerVolumeSpecName "log". PluginName "kubernetes.io/host-path", VolumeGidValue ""
+Apr 10 15:47:18 cpu08 kubelet: I0410 15:47:16.269631   28910 reconciler.go:183] operationExecutor.UnmountVolume started for volume "data" (UniqueName: "kubernetes.io/host-path/ffbbab31-3d70-480d-9119-85b906fcb074-data") pod "ffbbab31-3d70-480d-9119-85b906fcb074" (UID: "ffbbab31-3d70-480d-9119-85b906fcb074")
+Apr 10 15:47:18 cpu08 kubelet: I0410 15:47:16.269678   28910 reconciler.go:183] operationExecutor.UnmountVolume started for volume "log" (UniqueName: "kubernetes.io/host-path/b30dbbe8-497f-4dc0-808d-c46ee52c590e-log") pod "b30dbbe8-497f-4dc0-808d-c46ee52c590e" (UID: "b30dbbe8-497f-4dc0-808d-c46ee52c590e")
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.269692   28910 operation_generator.go:713] UnmountVolume.TearDown succeeded for volume "kubernetes.io/host-path/ffbbab31-3d70-480d-9119-85b906fcb074-data" (OuterVolumeSpecName: "data") pod "ffbbab31-3d70-480d-9119-85b906fcb074" (UID: "ffbbab31-3d70-480d-9119-85b906fcb074"). InnerVolumeSpecName "data". PluginName "kubernetes.io/host-path", VolumeGidValue ""
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.269706   28910 reconciler.go:183] operationExecutor.UnmountVolume started for volume "data" (UniqueName: "kubernetes.io/host-path/b30dbbe8-497f-4dc0-808d-c46ee52c590e-data") pod "b30dbbe8-497f-4dc0-808d-c46ee52c590e" (UID: "b30dbbe8-497f-4dc0-808d-c46ee52c590e")
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.269719   28910 operation_generator.go:713] UnmountVolume.TearDown succeeded for volume "kubernetes.io/host-path/b30dbbe8-497f-4dc0-808d-c46ee52c590e-data" (OuterVolumeSpecName: "data") pod "b30dbbe8-497f-4dc0-808d-c46ee52c590e" (UID: "b30dbbe8-497f-4dc0-808d-c46ee52c590e"). InnerVolumeSpecName "data". PluginName "kubernetes.io/host-path", VolumeGidValue ""
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.269710   28910 operation_generator.go:713] UnmountVolume.TearDown succeeded for volume "kubernetes.io/host-path/b30dbbe8-497f-4dc0-808d-c46ee52c590e-log" (OuterVolumeSpecName: "log") pod "b30dbbe8-497f-4dc0-808d-c46ee52c590e" (UID: "b30dbbe8-497f-4dc0-808d-c46ee52c590e"). InnerVolumeSpecName "log". PluginName "kubernetes.io/host-path", VolumeGidValue ""
+Apr 10 15:47:19 cpu08 containerd: time="2020-04-10T15:47:16.096843774+09:00" level=info msg="shim reaped" id=1dc2008ce305b2089d47a0c5bd4e5ab839bafa8b7e90f6c95c4166fe75fb07a8
+Apr 10 15:47:19 cpu08 containerd: time="2020-04-10T15:47:16.747116468+09:00" level=info msg="shim reaped" id=4974b5dcf0688de0462081b04ce70e17a6821ad447aea1568a27c6a412f36e4a
+Apr 10 15:47:19 cpu08 dockerd: time="2020-04-10T15:47:13.608696954+09:00" level=warning msg="1ec7aabaae22110bd22128d435712d4a60907498bacf8d8eca15dd95efdff3af cleanup: failed to unmount IPC: umount /var/lib/docker/containers/1ec7aabaae22110bd22128d435712d4a60907498bacf8d8eca15dd95efdff3af/mounts/shm, flags: 0x2: no such file or directory"
+Apr 10 15:47:19 cpu08 dockerd: time="2020-04-10T15:47:14.156678235+09:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Apr 10 15:47:19 cpu08 dockerd: time="2020-04-10T15:47:14.156798905+09:00" level=warning msg="2b5985102f875dda990e07ce848095cdcc99a29d5ca6ecc6ca874fd0dd6af5d2 cleanup: failed to unmount IPC: umount /var/lib/docker/containers/2b5985102f875dda990e07ce848095cdcc99a29d5ca6ecc6ca874fd0dd6af5d2/mounts/shm, flags: 0x2: no such file or directory"
+Apr 10 15:47:19 cpu08 dockerd: time="2020-04-10T15:47:14.165563147+09:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Apr 10 15:47:19 cpu08 dockerd: time="2020-04-10T15:47:14.165658537+09:00" level=warning msg="0bf64f993b9b79d43bbbe2e8905c32fd889d9cf376f1dd0be0af7cc6632da1a6 cleanup: failed to unmount IPC: umount /var/lib/docker/containers/0bf64f993b9b79d43bbbe2e8905c32fd889d9cf376f1dd0be0af7cc6632da1a6/mounts/shm, flags: 0x2: no such file or directory"
+Apr 10 15:47:19 cpu08 dockerd: time="2020-04-10T15:47:15.099331319+09:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Apr 10 15:47:19 cpu08 dockerd: time="2020-04-10T15:47:15.450507519+09:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Apr 10 15:47:19 cpu08 dockerd: time="2020-04-10T15:47:15.450641113+09:00" level=warning msg="010ec60c4d2a8d8dd7185a88ce2d7c8807db57d76958c6cce81810610b92e4d1 cleanup: failed to unmount IPC: umount /var/lib/docker/containers/010ec60c4d2a8d8dd7185a88ce2d7c8807db57d76958c6cce81810610b92e4d1/mounts/shm, flags: 0x2: no such file or directory"
+Apr 10 15:47:19 cpu08 dockerd: time="2020-04-10T15:47:15.615739456+09:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.269747   28910 reconciler.go:183] operationExecutor.UnmountVolume started for volume "data" (UniqueName: "kubernetes.io/host-path/9bef2cdb-fbd0-4cd4-8074-9e69c6704bff-data") pod "9bef2cdb-fbd0-4cd4-8074-9e69c6704bff" (UID: "9bef2cdb-fbd0-4cd4-8074-9e69c6704bff")
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.269772   28910 reconciler.go:183] operationExecutor.UnmountVolume started for volume "log" (UniqueName: "kubernetes.io/host-path/0c294904-348d-4785-879f-2292faed9a91-log") pod "0c294904-348d-4785-879f-2292faed9a91" (UID: "0c294904-348d-4785-879f-2292faed9a91")
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.269795   28910 reconciler.go:183] operationExecutor.UnmountVolume started for volume "data" (UniqueName: "kubernetes.io/host-path/0c294904-348d-4785-879f-2292faed9a91-data") pod "0c294904-348d-4785-879f-2292faed9a91" (UID: "0c294904-348d-4785-879f-2292faed9a91")
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.269816   28910 reconciler.go:183] operationExecutor.UnmountVolume started for volume "workspace" (UniqueName: "kubernetes.io/host-path/b30dbbe8-497f-4dc0-808d-c46ee52c590e-workspace") pod "b30dbbe8-497f-4dc0-808d-c46ee52c590e" (UID: "b30dbbe8-497f-4dc0-808d-c46ee52c590e")
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.269816   28910 operation_generator.go:713] UnmountVolume.TearDown succeeded for volume "kubernetes.io/host-path/9bef2cdb-fbd0-4cd4-8074-9e69c6704bff-data" (OuterVolumeSpecName: "data") pod "9bef2cdb-fbd0-4cd4-8074-9e69c6704bff" (UID: "9bef2cdb-fbd0-4cd4-8074-9e69c6704bff"). InnerVolumeSpecName "data". PluginName "kubernetes.io/host-path", VolumeGidValue ""
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.269828   28910 operation_generator.go:713] UnmountVolume.TearDown succeeded for volume "kubernetes.io/host-path/0c294904-348d-4785-879f-2292faed9a91-log" (OuterVolumeSpecName: "log") pod "0c294904-348d-4785-879f-2292faed9a91" (UID: "0c294904-348d-4785-879f-2292faed9a91"). InnerVolumeSpecName "log". PluginName "kubernetes.io/host-path", VolumeGidValue ""
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.269840   28910 reconciler.go:183] operationExecutor.UnmountVolume started for volume "workspace" (UniqueName: "kubernetes.io/host-path/9bef2cdb-fbd0-4cd4-8074-9e69c6704bff-workspace") pod "9bef2cdb-fbd0-4cd4-8074-9e69c6704bff" (UID: "9bef2cdb-fbd0-4cd4-8074-9e69c6704bff")
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.269839   28910 operation_generator.go:713] UnmountVolume.TearDown succeeded for volume "kubernetes.io/host-path/b30dbbe8-497f-4dc0-808d-c46ee52c590e-workspace" (OuterVolumeSpecName: "workspace") pod "b30dbbe8-497f-4dc0-808d-c46ee52c590e" (UID: "b30dbbe8-497f-4dc0-808d-c46ee52c590e"). InnerVolumeSpecName "workspace". PluginName "kubernetes.io/host-path", VolumeGidValue ""
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.269837   28910 operation_generator.go:713] UnmountVolume.TearDown succeeded for volume "kubernetes.io/host-path/0c294904-348d-4785-879f-2292faed9a91-data" (OuterVolumeSpecName: "data") pod "0c294904-348d-4785-879f-2292faed9a91" (UID: "0c294904-348d-4785-879f-2292faed9a91"). InnerVolumeSpecName "data". PluginName "kubernetes.io/host-path", VolumeGidValue ""
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.269855   28910 operation_generator.go:713] UnmountVolume.TearDown succeeded for volume "kubernetes.io/host-path/9bef2cdb-fbd0-4cd4-8074-9e69c6704bff-workspace" (OuterVolumeSpecName: "workspace") pod "9bef2cdb-fbd0-4cd4-8074-9e69c6704bff" (UID: "9bef2cdb-fbd0-4cd4-8074-9e69c6704bff"). InnerVolumeSpecName "workspace". PluginName "kubernetes.io/host-path", VolumeGidValue ""
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.269868   28910 reconciler.go:183] operationExecutor.UnmountVolume started for volume "data" (UniqueName: "kubernetes.io/host-path/53eb2041-cc37-477b-9ee9-d3542b54dcd5-data") pod "53eb2041-cc37-477b-9ee9-d3542b54dcd5" (UID: "53eb2041-cc37-477b-9ee9-d3542b54dcd5")
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.269882   28910 operation_generator.go:713] UnmountVolume.TearDown succeeded for volume "kubernetes.io/host-path/53eb2041-cc37-477b-9ee9-d3542b54dcd5-data" (OuterVolumeSpecName: "data") pod "53eb2041-cc37-477b-9ee9-d3542b54dcd5" (UID: "53eb2041-cc37-477b-9ee9-d3542b54dcd5"). InnerVolumeSpecName "data". PluginName "kubernetes.io/host-path", VolumeGidValue ""
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.269892   28910 reconciler.go:183] operationExecutor.UnmountVolume started for volume "workspace" (UniqueName: "kubernetes.io/host-path/ffbbab31-3d70-480d-9119-85b906fcb074-workspace") pod "ffbbab31-3d70-480d-9119-85b906fcb074" (UID: "ffbbab31-3d70-480d-9119-85b906fcb074")
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.269904   28910 operation_generator.go:713] UnmountVolume.TearDown succeeded for volume "kubernetes.io/host-path/ffbbab31-3d70-480d-9119-85b906fcb074-workspace" (OuterVolumeSpecName: "workspace") pod "ffbbab31-3d70-480d-9119-85b906fcb074" (UID: "ffbbab31-3d70-480d-9119-85b906fcb074"). InnerVolumeSpecName "workspace". PluginName "kubernetes.io/host-path", VolumeGidValue ""
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.269926   28910 reconciler.go:183] operationExecutor.UnmountVolume started for volume "default-token-jjv2p" (UniqueName: "kubernetes.io/secret/ec0be419-e343-4715-92f6-828a502c7dec-default-token-jjv2p") pod "ec0be419-e343-4715-92f6-828a502c7dec" (UID: "ec0be419-e343-4715-92f6-828a502c7dec")
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.269973   28910 reconciler.go:183] operationExecutor.UnmountVolume started for volume "workspace" (UniqueName: "kubernetes.io/host-path/0c294904-348d-4785-879f-2292faed9a91-workspace") pod "0c294904-348d-4785-879f-2292faed9a91" (UID: "0c294904-348d-4785-879f-2292faed9a91")
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.270032   28910 operation_generator.go:713] UnmountVolume.TearDown succeeded for volume "kubernetes.io/host-path/0c294904-348d-4785-879f-2292faed9a91-workspace" (OuterVolumeSpecName: "workspace") pod "0c294904-348d-4785-879f-2292faed9a91" (UID: "0c294904-348d-4785-879f-2292faed9a91"). InnerVolumeSpecName "workspace". PluginName "kubernetes.io/host-path", VolumeGidValue ""
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.270117   28910 reconciler.go:183] operationExecutor.UnmountVolume started for volume "default-token-jjv2p" (UniqueName: "kubernetes.io/secret/ffbbab31-3d70-480d-9119-85b906fcb074-default-token-jjv2p") pod "ffbbab31-3d70-480d-9119-85b906fcb074" (UID: "ffbbab31-3d70-480d-9119-85b906fcb074")
+Apr 10 15:47:19 cpu08 dockerd: time="2020-04-10T15:47:15.615785596+09:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Apr 10 15:47:19 cpu08 dockerd: time="2020-04-10T15:47:16.004431808+09:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Apr 10 15:47:19 cpu08 dockerd: time="2020-04-10T15:47:16.106059627+09:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Apr 10 15:47:19 cpu08 dockerd: time="2020-04-10T15:47:16.106513825+09:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Apr 10 15:47:19 cpu08 dockerd: time="2020-04-10T15:47:16.107030487+09:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Apr 10 15:47:19 cpu08 dockerd: time="2020-04-10T15:47:16.757176842+09:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.270158   28910 reconciler.go:183] operationExecutor.UnmountVolume started for volume "log" (UniqueName: "kubernetes.io/host-path/d262de85-bc71-4f64-a932-e40001cc6317-log") pod "d262de85-bc71-4f64-a932-e40001cc6317" (UID: "d262de85-bc71-4f64-a932-e40001cc6317")
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.270186   28910 reconciler.go:183] operationExecutor.UnmountVolume started for volume "default-token-jjv2p" (UniqueName: "kubernetes.io/secret/9bef2cdb-fbd0-4cd4-8074-9e69c6704bff-default-token-jjv2p") pod "9bef2cdb-fbd0-4cd4-8074-9e69c6704bff" (UID: "9bef2cdb-fbd0-4cd4-8074-9e69c6704bff")
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.270230   28910 reconciler.go:183] operationExecutor.UnmountVolume started for volume "default-token-jjv2p" (UniqueName: "kubernetes.io/secret/0c294904-348d-4785-879f-2292faed9a91-default-token-jjv2p") pod "0c294904-348d-4785-879f-2292faed9a91" (UID: "0c294904-348d-4785-879f-2292faed9a91")
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.270237   28910 operation_generator.go:713] UnmountVolume.TearDown succeeded for volume "kubernetes.io/host-path/d262de85-bc71-4f64-a932-e40001cc6317-log" (OuterVolumeSpecName: "log") pod "d262de85-bc71-4f64-a932-e40001cc6317" (UID: "d262de85-bc71-4f64-a932-e40001cc6317"). InnerVolumeSpecName "log". PluginName "kubernetes.io/host-path", VolumeGidValue ""
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.270374   28910 reconciler.go:183] operationExecutor.UnmountVolume started for volume "workspace" (UniqueName: "kubernetes.io/host-path/d262de85-bc71-4f64-a932-e40001cc6317-workspace") pod "d262de85-bc71-4f64-a932-e40001cc6317" (UID: "d262de85-bc71-4f64-a932-e40001cc6317")
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.270420   28910 reconciler.go:183] operationExecutor.UnmountVolume started for volume "workspace" (UniqueName: "kubernetes.io/host-path/53eb2041-cc37-477b-9ee9-d3542b54dcd5-workspace") pod "53eb2041-cc37-477b-9ee9-d3542b54dcd5" (UID: "53eb2041-cc37-477b-9ee9-d3542b54dcd5")
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.270430   28910 operation_generator.go:713] UnmountVolume.TearDown succeeded for volume "kubernetes.io/host-path/d262de85-bc71-4f64-a932-e40001cc6317-workspace" (OuterVolumeSpecName: "workspace") pod "d262de85-bc71-4f64-a932-e40001cc6317" (UID: "d262de85-bc71-4f64-a932-e40001cc6317"). InnerVolumeSpecName "workspace". PluginName "kubernetes.io/host-path", VolumeGidValue ""
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.270466   28910 reconciler.go:183] operationExecutor.UnmountVolume started for volume "default-token-jjv2p" (UniqueName: "kubernetes.io/secret/b30dbbe8-497f-4dc0-808d-c46ee52c590e-default-token-jjv2p") pod "b30dbbe8-497f-4dc0-808d-c46ee52c590e" (UID: "b30dbbe8-497f-4dc0-808d-c46ee52c590e")
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.270466   28910 operation_generator.go:713] UnmountVolume.TearDown succeeded for volume "kubernetes.io/host-path/53eb2041-cc37-477b-9ee9-d3542b54dcd5-workspace" (OuterVolumeSpecName: "workspace") pod "53eb2041-cc37-477b-9ee9-d3542b54dcd5" (UID: "53eb2041-cc37-477b-9ee9-d3542b54dcd5"). InnerVolumeSpecName "workspace". PluginName "kubernetes.io/host-path", VolumeGidValue ""
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.270501   28910 reconciler.go:183] operationExecutor.UnmountVolume started for volume "log" (UniqueName: "kubernetes.io/host-path/9bef2cdb-fbd0-4cd4-8074-9e69c6704bff-log") pod "9bef2cdb-fbd0-4cd4-8074-9e69c6704bff" (UID: "9bef2cdb-fbd0-4cd4-8074-9e69c6704bff")
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.270541   28910 reconciler.go:183] operationExecutor.UnmountVolume started for volume "default-token-jjv2p" (UniqueName: "kubernetes.io/secret/d262de85-bc71-4f64-a932-e40001cc6317-default-token-jjv2p") pod "d262de85-bc71-4f64-a932-e40001cc6317" (UID: "d262de85-bc71-4f64-a932-e40001cc6317")
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.270546   28910 operation_generator.go:713] UnmountVolume.TearDown succeeded for volume "kubernetes.io/host-path/9bef2cdb-fbd0-4cd4-8074-9e69c6704bff-log" (OuterVolumeSpecName: "log") pod "9bef2cdb-fbd0-4cd4-8074-9e69c6704bff" (UID: "9bef2cdb-fbd0-4cd4-8074-9e69c6704bff"). InnerVolumeSpecName "log". PluginName "kubernetes.io/host-path", VolumeGidValue ""
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.270590   28910 reconciler.go:183] operationExecutor.UnmountVolume started for volume "log" (UniqueName: "kubernetes.io/host-path/ec0be419-e343-4715-92f6-828a502c7dec-log") pod "ec0be419-e343-4715-92f6-828a502c7dec" (UID: "ec0be419-e343-4715-92f6-828a502c7dec")
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.270607   28910 operation_generator.go:713] UnmountVolume.TearDown succeeded for volume "kubernetes.io/host-path/ec0be419-e343-4715-92f6-828a502c7dec-log" (OuterVolumeSpecName: "log") pod "ec0be419-e343-4715-92f6-828a502c7dec" (UID: "ec0be419-e343-4715-92f6-828a502c7dec"). InnerVolumeSpecName "log". PluginName "kubernetes.io/host-path", VolumeGidValue ""
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.270633   28910 reconciler.go:303] Volume detached for volume "workspace" (UniqueName: "kubernetes.io/host-path/d262de85-bc71-4f64-a932-e40001cc6317-workspace") on node "cpu08" DevicePath ""
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.270665   28910 reconciler.go:303] Volume detached for volume "workspace" (UniqueName: "kubernetes.io/host-path/53eb2041-cc37-477b-9ee9-d3542b54dcd5-workspace") on node "cpu08" DevicePath ""
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.270679   28910 reconciler.go:303] Volume detached for volume "log" (UniqueName: "kubernetes.io/host-path/9bef2cdb-fbd0-4cd4-8074-9e69c6704bff-log") on node "cpu08" DevicePath ""
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.270693   28910 reconciler.go:303] Volume detached for volume "data" (UniqueName: "kubernetes.io/host-path/ec0be419-e343-4715-92f6-828a502c7dec-data") on node "cpu08" DevicePath ""
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.270705   28910 reconciler.go:303] Volume detached for volume "data" (UniqueName: "kubernetes.io/host-path/d262de85-bc71-4f64-a932-e40001cc6317-data") on node "cpu08" DevicePath ""
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.270717   28910 reconciler.go:303] Volume detached for volume "log" (UniqueName: "kubernetes.io/host-path/53eb2041-cc37-477b-9ee9-d3542b54dcd5-log") on node "cpu08" DevicePath ""
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.270730   28910 reconciler.go:303] Volume detached for volume "workspace" (UniqueName: "kubernetes.io/host-path/ec0be419-e343-4715-92f6-828a502c7dec-workspace") on node "cpu08" DevicePath ""
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.270743   28910 reconciler.go:303] Volume detached for volume "log" (UniqueName: "kubernetes.io/host-path/ffbbab31-3d70-480d-9119-85b906fcb074-log") on node "cpu08" DevicePath ""
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.270755   28910 reconciler.go:303] Volume detached for volume "data" (UniqueName: "kubernetes.io/host-path/ffbbab31-3d70-480d-9119-85b906fcb074-data") on node "cpu08" DevicePath ""
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.270768   28910 reconciler.go:303] Volume detached for volume "log" (UniqueName: "kubernetes.io/host-path/b30dbbe8-497f-4dc0-808d-c46ee52c590e-log") on node "cpu08" DevicePath ""
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.270792   28910 reconciler.go:303] Volume detached for volume "data" (UniqueName: "kubernetes.io/host-path/b30dbbe8-497f-4dc0-808d-c46ee52c590e-data") on node "cpu08" DevicePath ""
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.270805   28910 reconciler.go:303] Volume detached for volume "data" (UniqueName: "kubernetes.io/host-path/9bef2cdb-fbd0-4cd4-8074-9e69c6704bff-data") on node "cpu08" DevicePath ""
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.270817   28910 reconciler.go:303] Volume detached for volume "log" (UniqueName: "kubernetes.io/host-path/0c294904-348d-4785-879f-2292faed9a91-log") on node "cpu08" DevicePath ""
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.270830   28910 reconciler.go:303] Volume detached for volume "data" (UniqueName: "kubernetes.io/host-path/0c294904-348d-4785-879f-2292faed9a91-data") on node "cpu08" DevicePath ""
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.270843   28910 reconciler.go:303] Volume detached for volume "workspace" (UniqueName: "kubernetes.io/host-path/b30dbbe8-497f-4dc0-808d-c46ee52c590e-workspace") on node "cpu08" DevicePath ""
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.270856   28910 reconciler.go:303] Volume detached for volume "workspace" (UniqueName: "kubernetes.io/host-path/9bef2cdb-fbd0-4cd4-8074-9e69c6704bff-workspace") on node "cpu08" DevicePath ""
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.270868   28910 reconciler.go:303] Volume detached for volume "data" (UniqueName: "kubernetes.io/host-path/53eb2041-cc37-477b-9ee9-d3542b54dcd5-data") on node "cpu08" DevicePath ""
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.270881   28910 reconciler.go:303] Volume detached for volume "workspace" (UniqueName: "kubernetes.io/host-path/ffbbab31-3d70-480d-9119-85b906fcb074-workspace") on node "cpu08" DevicePath ""
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.270895   28910 reconciler.go:303] Volume detached for volume "workspace" (UniqueName: "kubernetes.io/host-path/0c294904-348d-4785-879f-2292faed9a91-workspace") on node "cpu08" DevicePath ""
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.270907   28910 reconciler.go:303] Volume detached for volume "log" (UniqueName: "kubernetes.io/host-path/d262de85-bc71-4f64-a932-e40001cc6317-log") on node "cpu08" DevicePath ""
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.371234   28910 reconciler.go:303] Volume detached for volume "log" (UniqueName: "kubernetes.io/host-path/ec0be419-e343-4715-92f6-828a502c7dec-log") on node "cpu08" DevicePath ""
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.468499   28910 operation_generator.go:713] UnmountVolume.TearDown succeeded for volume "kubernetes.io/secret/0c294904-348d-4785-879f-2292faed9a91-default-token-jjv2p" (OuterVolumeSpecName: "default-token-jjv2p") pod "0c294904-348d-4785-879f-2292faed9a91" (UID: "0c294904-348d-4785-879f-2292faed9a91"). InnerVolumeSpecName "default-token-jjv2p". PluginName "kubernetes.io/secret", VolumeGidValue ""
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.468559   28910 operation_generator.go:713] UnmountVolume.TearDown succeeded for volume "kubernetes.io/secret/d262de85-bc71-4f64-a932-e40001cc6317-default-token-jjv2p" (OuterVolumeSpecName: "default-token-jjv2p") pod "d262de85-bc71-4f64-a932-e40001cc6317" (UID: "d262de85-bc71-4f64-a932-e40001cc6317"). InnerVolumeSpecName "default-token-jjv2p". PluginName "kubernetes.io/secret", VolumeGidValue ""
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.468715   28910 operation_generator.go:713] UnmountVolume.TearDown succeeded for volume "kubernetes.io/secret/ec0be419-e343-4715-92f6-828a502c7dec-default-token-jjv2p" (OuterVolumeSpecName: "default-token-jjv2p") pod "ec0be419-e343-4715-92f6-828a502c7dec" (UID: "ec0be419-e343-4715-92f6-828a502c7dec"). InnerVolumeSpecName "default-token-jjv2p". PluginName "kubernetes.io/secret", VolumeGidValue ""
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.468759   28910 operation_generator.go:713] UnmountVolume.TearDown succeeded for volume "kubernetes.io/secret/ffbbab31-3d70-480d-9119-85b906fcb074-default-token-jjv2p" (OuterVolumeSpecName: "default-token-jjv2p") pod "ffbbab31-3d70-480d-9119-85b906fcb074" (UID: "ffbbab31-3d70-480d-9119-85b906fcb074"). InnerVolumeSpecName "default-token-jjv2p". PluginName "kubernetes.io/secret", VolumeGidValue ""
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.468811   28910 operation_generator.go:713] UnmountVolume.TearDown succeeded for volume "kubernetes.io/secret/9bef2cdb-fbd0-4cd4-8074-9e69c6704bff-default-token-jjv2p" (OuterVolumeSpecName: "default-token-jjv2p") pod "9bef2cdb-fbd0-4cd4-8074-9e69c6704bff" (UID: "9bef2cdb-fbd0-4cd4-8074-9e69c6704bff"). InnerVolumeSpecName "default-token-jjv2p". PluginName "kubernetes.io/secret", VolumeGidValue ""
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.468923   28910 operation_generator.go:713] UnmountVolume.TearDown succeeded for volume "kubernetes.io/secret/53eb2041-cc37-477b-9ee9-d3542b54dcd5-default-token-jjv2p" (OuterVolumeSpecName: "default-token-jjv2p") pod "53eb2041-cc37-477b-9ee9-d3542b54dcd5" (UID: "53eb2041-cc37-477b-9ee9-d3542b54dcd5"). InnerVolumeSpecName "default-token-jjv2p". PluginName "kubernetes.io/secret", VolumeGidValue ""
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.469374   28910 operation_generator.go:713] UnmountVolume.TearDown succeeded for volume "kubernetes.io/secret/b30dbbe8-497f-4dc0-808d-c46ee52c590e-default-token-jjv2p" (OuterVolumeSpecName: "default-token-jjv2p") pod "b30dbbe8-497f-4dc0-808d-c46ee52c590e" (UID: "b30dbbe8-497f-4dc0-808d-c46ee52c590e"). InnerVolumeSpecName "default-token-jjv2p". PluginName "kubernetes.io/secret", VolumeGidValue ""
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.471415   28910 reconciler.go:303] Volume detached for volume "default-token-jjv2p" (UniqueName: "kubernetes.io/secret/ec0be419-e343-4715-92f6-828a502c7dec-default-token-jjv2p") on node "cpu08" DevicePath ""
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.471432   28910 reconciler.go:303] Volume detached for volume "default-token-jjv2p" (UniqueName: "kubernetes.io/secret/ffbbab31-3d70-480d-9119-85b906fcb074-default-token-jjv2p") on node "cpu08" DevicePath ""
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.471443   28910 reconciler.go:303] Volume detached for volume "default-token-jjv2p" (UniqueName: "kubernetes.io/secret/9bef2cdb-fbd0-4cd4-8074-9e69c6704bff-default-token-jjv2p") on node "cpu08" DevicePath ""
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.471450   28910 reconciler.go:303] Volume detached for volume "default-token-jjv2p" (UniqueName: "kubernetes.io/secret/0c294904-348d-4785-879f-2292faed9a91-default-token-jjv2p") on node "cpu08" DevicePath ""
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.471458   28910 reconciler.go:303] Volume detached for volume "default-token-jjv2p" (UniqueName: "kubernetes.io/secret/b30dbbe8-497f-4dc0-808d-c46ee52c590e-default-token-jjv2p") on node "cpu08" DevicePath ""
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.471467   28910 reconciler.go:303] Volume detached for volume "default-token-jjv2p" (UniqueName: "kubernetes.io/secret/d262de85-bc71-4f64-a932-e40001cc6317-default-token-jjv2p") on node "cpu08" DevicePath ""
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:16.471475   28910 reconciler.go:303] Volume detached for volume "default-token-jjv2p" (UniqueName: "kubernetes.io/secret/53eb2041-cc37-477b-9ee9-d3542b54dcd5-default-token-jjv2p") on node "cpu08" DevicePath ""
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:18.274959   28910 reconciler.go:183] operationExecutor.UnmountVolume started for volume "data" (UniqueName: "kubernetes.io/host-path/c7f02d44-9486-496a-b5c7-5946927a4abd-data") pod "c7f02d44-9486-496a-b5c7-5946927a4abd" (UID: "c7f02d44-9486-496a-b5c7-5946927a4abd")
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:18.275030   28910 reconciler.go:183] operationExecutor.UnmountVolume started for volume "default-token-jjv2p" (UniqueName: "kubernetes.io/secret/c7f02d44-9486-496a-b5c7-5946927a4abd-default-token-jjv2p") pod "c7f02d44-9486-496a-b5c7-5946927a4abd" (UID: "c7f02d44-9486-496a-b5c7-5946927a4abd")
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:18.275065   28910 reconciler.go:183] operationExecutor.UnmountVolume started for volume "log" (UniqueName: "kubernetes.io/host-path/c7f02d44-9486-496a-b5c7-5946927a4abd-log") pod "c7f02d44-9486-496a-b5c7-5946927a4abd" (UID: "c7f02d44-9486-496a-b5c7-5946927a4abd")
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:18.275093   28910 reconciler.go:183] operationExecutor.UnmountVolume started for volume "workspace" (UniqueName: "kubernetes.io/host-path/c7f02d44-9486-496a-b5c7-5946927a4abd-workspace") pod "c7f02d44-9486-496a-b5c7-5946927a4abd" (UID: "c7f02d44-9486-496a-b5c7-5946927a4abd")
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:18.275086   28910 operation_generator.go:713] UnmountVolume.TearDown succeeded for volume "kubernetes.io/host-path/c7f02d44-9486-496a-b5c7-5946927a4abd-data" (OuterVolumeSpecName: "data") pod "c7f02d44-9486-496a-b5c7-5946927a4abd" (UID: "c7f02d44-9486-496a-b5c7-5946927a4abd"). InnerVolumeSpecName "data". PluginName "kubernetes.io/host-path", VolumeGidValue ""
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:18.275141   28910 operation_generator.go:713] UnmountVolume.TearDown succeeded for volume "kubernetes.io/host-path/c7f02d44-9486-496a-b5c7-5946927a4abd-workspace" (OuterVolumeSpecName: "workspace") pod "c7f02d44-9486-496a-b5c7-5946927a4abd" (UID: "c7f02d44-9486-496a-b5c7-5946927a4abd"). InnerVolumeSpecName "workspace". PluginName "kubernetes.io/host-path", VolumeGidValue ""
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:18.275145   28910 operation_generator.go:713] UnmountVolume.TearDown succeeded for volume "kubernetes.io/host-path/c7f02d44-9486-496a-b5c7-5946927a4abd-log" (OuterVolumeSpecName: "log") pod "c7f02d44-9486-496a-b5c7-5946927a4abd" (UID: "c7f02d44-9486-496a-b5c7-5946927a4abd"). InnerVolumeSpecName "log". PluginName "kubernetes.io/host-path", VolumeGidValue ""
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:18.375333   28910 reconciler.go:303] Volume detached for volume "log" (UniqueName: "kubernetes.io/host-path/c7f02d44-9486-496a-b5c7-5946927a4abd-log") on node "cpu08" DevicePath ""
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:18.375351   28910 reconciler.go:303] Volume detached for volume "workspace" (UniqueName: "kubernetes.io/host-path/c7f02d44-9486-496a-b5c7-5946927a4abd-workspace") on node "cpu08" DevicePath ""
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:18.375358   28910 reconciler.go:303] Volume detached for volume "data" (UniqueName: "kubernetes.io/host-path/c7f02d44-9486-496a-b5c7-5946927a4abd-data") on node "cpu08" DevicePath ""
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:18.385448   28910 operation_generator.go:713] UnmountVolume.TearDown succeeded for volume "kubernetes.io/secret/c7f02d44-9486-496a-b5c7-5946927a4abd-default-token-jjv2p" (OuterVolumeSpecName: "default-token-jjv2p") pod "c7f02d44-9486-496a-b5c7-5946927a4abd" (UID: "c7f02d44-9486-496a-b5c7-5946927a4abd"). InnerVolumeSpecName "default-token-jjv2p". PluginName "kubernetes.io/secret", VolumeGidValue ""
+Apr 10 15:47:19 cpu08 kubelet: I0410 15:47:18.475600   28910 reconciler.go:303] Volume detached for volume "default-token-jjv2p" (UniqueName: "kubernetes.io/secret/c7f02d44-9486-496a-b5c7-5946927a4abd-default-token-jjv2p") on node "cpu08" DevicePath ""
+Apr 10 15:47:55 cpu08 dhclient[9318]: DHCPREQUEST on eno1 to 192.168.10.10 port 67 (xid=0x1985da0c)
+Apr 10 15:47:55 cpu08 dhclient[9318]: DHCPACK from 192.168.10.10 (xid=0x1985da0c)
+Apr 10 15:47:57 cpu08 dhclient[9318]: bound to 192.168.10.28 -- renewal in 269 seconds.
+Apr 10 15:48:01 cpu08 systemd: Started Session 11907 of user root.
+Apr 10 15:48:03 cpu08 systemd-logind: New session 11908 of user root.
+Apr 10 15:48:03 cpu08 systemd: Started Session 11908 of user root.
+Apr 10 15:49:01 cpu08 systemd: Started Session 11909 of user root.
+Apr 10 15:50:01 cpu08 systemd: Started Session 11910 of user root.
+Apr 10 15:50:03 cpu08 dhclient[9443]: DHCPREQUEST on enp0s20u1u5 to 169.254.95.118 port 67 (xid=0x33a665ed)
+Apr 10 15:50:03 cpu08 dhclient[9443]: DHCPACK from 169.254.95.118 (xid=0x33a665ed)
+Apr 10 15:50:05 cpu08 dhclient[9443]: bound to 169.254.95.120 -- renewal in 241 seconds.
+Apr 10 15:50:09 cpu08 systemd-logind: Removed session 11908.
+Apr 10 15:51:01 cpu08 systemd: Started Session 11911 of user root.
+Apr 10 15:51:29 cpu08 systemd-logind: New session 11912 of user root.
+Apr 10 15:51:29 cpu08 systemd: Started Session 11912 of user root.
+Apr 10 15:52:01 cpu08 systemd: Started Session 11913 of user root.
+Apr 10 15:52:26 cpu08 dhclient[9318]: DHCPREQUEST on eno1 to 192.168.10.10 port 67 (xid=0x1985da0c)
+Apr 10 15:52:26 cpu08 dhclient[9318]: DHCPACK from 192.168.10.10 (xid=0x1985da0c)
+Apr 10 15:52:29 cpu08 dhclient[9318]: bound to 192.168.10.28 -- renewal in 235 seconds.
+Apr 10 15:53:01 cpu08 systemd: Started Session 11914 of user root.
+Apr 10 15:53:34 cpu08 systemd-logind: Removed session 11912.
+Apr 10 15:54:01 cpu08 systemd: Started Session 11915 of user root.
+Apr 10 15:54:06 cpu08 dhclient[9443]: DHCPREQUEST on enp0s20u1u5 to 169.254.95.118 port 67 (xid=0x33a665ed)
+Apr 10 15:54:06 cpu08 dhclient[9443]: DHCPACK from 169.254.95.118 (xid=0x33a665ed)
+Apr 10 15:54:08 cpu08 dhclient[9443]: bound to 169.254.95.120 -- renewal in 227 seconds.
+Apr 10 15:55:01 cpu08 systemd: Started Session 11916 of user root.
+Apr 10 15:56:01 cpu08 systemd: Started Session 11917 of user root.
+Apr 10 15:56:24 cpu08 dhclient[9318]: DHCPREQUEST on eno1 to 192.168.10.10 port 67 (xid=0x1985da0c)
+Apr 10 15:56:24 cpu08 dhclient[9318]: DHCPACK from 192.168.10.10 (xid=0x1985da0c)
+Apr 10 15:56:26 cpu08 dhclient[9318]: bound to 192.168.10.28 -- renewal in 265 seconds.
+Apr 10 15:57:01 cpu08 systemd: Started Session 11918 of user root.
+Apr 10 15:57:55 cpu08 dhclient[9443]: DHCPREQUEST on enp0s20u1u5 to 169.254.95.118 port 67 (xid=0x33a665ed)
+Apr 10 15:57:55 cpu08 dhclient[9443]: DHCPACK from 169.254.95.118 (xid=0x33a665ed)
+Apr 10 15:57:58 cpu08 dhclient[9443]: bound to 169.254.95.120 -- renewal in 278 seconds.
+Apr 10 15:58:01 cpu08 systemd: Started Session 11919 of user root.
+Apr 10 15:59:01 cpu08 systemd: Started Session 11920 of user root.
+Apr 10 16:00:01 cpu08 systemd: Started Session 11921 of user root.
+Apr 10 16:00:07 cpu08 systemd-logind: New session 11922 of user root.
+Apr 10 16:00:07 cpu08 systemd: Started Session 11922 of user root.
+Apr 10 16:00:52 cpu08 dhclient[9318]: DHCPREQUEST on eno1 to 192.168.10.10 port 67 (xid=0x1985da0c)
+Apr 10 16:00:52 cpu08 dhclient[9318]: DHCPACK from 192.168.10.10 (xid=0x1985da0c)
+Apr 10 16:00:54 cpu08 dhclient[9318]: bound to 192.168.10.28 -- renewal in 258 seconds.
+Apr 10 16:01:01 cpu08 systemd: Started Session 11923 of user root.
+Apr 10 16:01:01 cpu08 systemd: Started Session 11924 of user root.
+Apr 10 16:02:01 cpu08 systemd: Started Session 11925 of user root.
+Apr 10 16:02:36 cpu08 dhclient[9443]: DHCPREQUEST on enp0s20u1u5 to 169.254.95.118 port 67 (xid=0x33a665ed)
+Apr 10 16:02:36 cpu08 dhclient[9443]: DHCPACK from 169.254.95.118 (xid=0x33a665ed)
+Apr 10 16:02:38 cpu08 dhclient[9443]: bound to 169.254.95.120 -- renewal in 233 seconds.
+Apr 10 16:03:01 cpu08 systemd: Started Session 11926 of user root.
+Apr 10 16:04:01 cpu08 systemd: Started Session 11927 of user root.
+Apr 10 16:05:01 cpu08 systemd: Started Session 11928 of user root.
+Apr 10 16:05:12 cpu08 dhclient[9318]: DHCPREQUEST on eno1 to 192.168.10.10 port 67 (xid=0x1985da0c)
+Apr 10 16:05:12 cpu08 dhclient[9318]: DHCPACK from 192.168.10.10 (xid=0x1985da0c)
+Apr 10 16:05:14 cpu08 dhclient[9318]: bound to 192.168.10.28 -- renewal in 225 seconds.
+Apr 10 16:06:01 cpu08 systemd: Started Session 11929 of user root.
+Apr 10 16:06:31 cpu08 dhclient[9443]: DHCPREQUEST on enp0s20u1u5 to 169.254.95.118 port 67 (xid=0x33a665ed)
+Apr 10 16:06:31 cpu08 dhclient[9443]: DHCPACK from 169.254.95.118 (xid=0x33a665ed)
+Apr 10 16:06:33 cpu08 dhclient[9443]: bound to 169.254.95.120 -- renewal in 261 seconds.
+Apr 10 16:07:01 cpu08 systemd: Started Session 11930 of user root.
+Apr 10 16:08:01 cpu08 systemd: Started Session 11931 of user root.
+Apr 10 16:08:59 cpu08 dhclient[9318]: DHCPREQUEST on eno1 to 192.168.10.10 port 67 (xid=0x1985da0c)
+Apr 10 16:08:59 cpu08 dhclient[9318]: DHCPACK from 192.168.10.10 (xid=0x1985da0c)
+Apr 10 16:09:01 cpu08 systemd: Started Session 11932 of user root.
+Apr 10 16:09:02 cpu08 dhclient[9318]: bound to 192.168.10.28 -- renewal in 266 seconds.
+Apr 10 16:10:01 cpu08 systemd: Started Session 11933 of user root.
+Apr 10 16:10:54 cpu08 dhclient[9443]: DHCPREQUEST on enp0s20u1u5 to 169.254.95.118 port 67 (xid=0x33a665ed)
+Apr 10 16:10:54 cpu08 dhclient[9443]: DHCPACK from 169.254.95.118 (xid=0x33a665ed)
+Apr 10 16:10:56 cpu08 dhclient[9443]: bound to 169.254.95.120 -- renewal in 280 seconds.
+Apr 10 16:11:01 cpu08 systemd: Started Session 11934 of user root.

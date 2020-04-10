@@ -295,8 +295,8 @@ fwd=fwd_rnd_8rw_cpu12,host=cpu12,fsd=fsd_cpu12_*,operation=read,rdpct=70,filesel
 #fwd=fwd_rnd_8rw_gpu05,host=gpu05,fsd=fsd_gpu05_*,operation=read,rdpct=70,fileselect=random,fileio=random,xfersize=8k,threads=16
 
 # RD: random read/write 8K
-# latench test for 1024k IO. change fwdrate accordingly
+# latench test for 1024k IO. fwdrate set to 50000 based on previous test
 #rd=rd_prep,fwd=fwd_prep_*,fwdrate=max,format=yes,interval=1,pause=60
 #rd=rd_seq_1024w,fwd=fwd_seq_1024w_*,fwdrate=max,format=no,warmup=60,interval=1,elapsed=300
 #rd=rd_seq_1024r,fwd=fwd_seq_1024r_*,fwdrate=max,format=no,warmup=60,interval=1,elapsed=300
-rd=rd_rnd_8rw,fwd=fwd_rnd_8rw_*,fwdrate=10000,format=no,pause=60,warmup=60,interval=1,elapsed=600
+rd=rd_rnd_8rw,fwd=fwd_rnd_8rw_*,fwdrate=50000,format=no,pause=60,warmup=60,interval=1,elapsed=600

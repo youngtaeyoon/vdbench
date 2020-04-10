@@ -1,0 +1,788 @@
+<title>Vdbench 03.avail_meta_mixed_1g_cpu.par/summary.html</title><pre>
+Copyright (c) 2000, 2018, Oracle and/or its affiliates. All rights reserved.
+Vdbench summary report, created 17:32:07 Apr 10 2020 KST (08:32:07 Apr 10 2020 UTC)
+
+Link to logfile:                 <A HREF="logfile.html">logfile</A>
+Run totals:                      <A HREF="totals.html">totals</A>
+Vdbench status:                  <A HREF="status.html">status</A>
+Copy of input parameter files:   <A HREF="parmfile.html">parmfile</A>
+Copy of parameter scan detail:   <A HREF="parmscan.html">parmscan</A>
+Link to errorlog:                <A HREF="errorlog.html">errorlog</A>
+Link to flatfile:                <A HREF="flatfile.html">flatfile</A>
+Link to anchor status:           <A HREF="anchors.html">anchors</A>
+
+Link to HOST reports:            <A HREF="cpu01.html">cpu01</A>    <A HREF="cpu02.html">cpu02</A>    <A HREF="cpu03.html">cpu03</A>    <A HREF="cpu04.html">cpu04</A>    <A HREF="cpu05.html">cpu05</A>    <A HREF="cpu06.html">cpu06</A>    <A HREF="cpu07.html">cpu07</A>    <A HREF="cpu08.html">cpu08</A>   
+                                 <A HREF="cpu09.html">cpu09</A>    <A HREF="cpu10.html">cpu10</A>    <A HREF="cpu11.html">cpu11</A>    <A HREF="cpu12.html">cpu12</A>   
+Link to FSD reports:             <A HREF="fsd_cpu01_ds1.html">fsd_cpu01_ds1</A> <A HREF="fsd_cpu01_ds10.html">fsd_cpu01_ds10</A> <A HREF="fsd_cpu01_ds11.html">fsd_cpu01_ds11</A> <A HREF="fsd_cpu01_ds12.html">fsd_cpu01_ds12</A> <A HREF="fsd_cpu01_ds2.html">fsd_cpu01_ds2</A> <A HREF="fsd_cpu01_ds3.html">fsd_cpu01_ds3</A> <A HREF="fsd_cpu01_ds4.html">fsd_cpu01_ds4</A> <A HREF="fsd_cpu01_ds5.html">fsd_cpu01_ds5</A>
+                                 <A HREF="fsd_cpu01_ds6.html">fsd_cpu01_ds6</A> <A HREF="fsd_cpu01_ds7.html">fsd_cpu01_ds7</A> <A HREF="fsd_cpu01_ds8.html">fsd_cpu01_ds8</A> <A HREF="fsd_cpu01_ds9.html">fsd_cpu01_ds9</A> <A HREF="fsd_cpu02_ds1.html">fsd_cpu02_ds1</A> <A HREF="fsd_cpu02_ds10.html">fsd_cpu02_ds10</A> <A HREF="fsd_cpu02_ds11.html">fsd_cpu02_ds11</A> <A HREF="fsd_cpu02_ds12.html">fsd_cpu02_ds12</A>
+                                 <A HREF="fsd_cpu02_ds2.html">fsd_cpu02_ds2</A> <A HREF="fsd_cpu02_ds3.html">fsd_cpu02_ds3</A> <A HREF="fsd_cpu02_ds4.html">fsd_cpu02_ds4</A> <A HREF="fsd_cpu02_ds5.html">fsd_cpu02_ds5</A> <A HREF="fsd_cpu02_ds6.html">fsd_cpu02_ds6</A> <A HREF="fsd_cpu02_ds7.html">fsd_cpu02_ds7</A> <A HREF="fsd_cpu02_ds8.html">fsd_cpu02_ds8</A> <A HREF="fsd_cpu02_ds9.html">fsd_cpu02_ds9</A>
+                                 <A HREF="fsd_cpu03_ds1.html">fsd_cpu03_ds1</A> <A HREF="fsd_cpu03_ds10.html">fsd_cpu03_ds10</A> <A HREF="fsd_cpu03_ds11.html">fsd_cpu03_ds11</A> <A HREF="fsd_cpu03_ds12.html">fsd_cpu03_ds12</A> <A HREF="fsd_cpu03_ds2.html">fsd_cpu03_ds2</A> <A HREF="fsd_cpu03_ds3.html">fsd_cpu03_ds3</A> <A HREF="fsd_cpu03_ds4.html">fsd_cpu03_ds4</A> <A HREF="fsd_cpu03_ds5.html">fsd_cpu03_ds5</A>
+                                 <A HREF="fsd_cpu03_ds6.html">fsd_cpu03_ds6</A> <A HREF="fsd_cpu03_ds7.html">fsd_cpu03_ds7</A> <A HREF="fsd_cpu03_ds8.html">fsd_cpu03_ds8</A> <A HREF="fsd_cpu03_ds9.html">fsd_cpu03_ds9</A> <A HREF="fsd_cpu04_ds1.html">fsd_cpu04_ds1</A> <A HREF="fsd_cpu04_ds10.html">fsd_cpu04_ds10</A> <A HREF="fsd_cpu04_ds11.html">fsd_cpu04_ds11</A> <A HREF="fsd_cpu04_ds12.html">fsd_cpu04_ds12</A>
+                                 <A HREF="fsd_cpu04_ds2.html">fsd_cpu04_ds2</A> <A HREF="fsd_cpu04_ds3.html">fsd_cpu04_ds3</A> <A HREF="fsd_cpu04_ds4.html">fsd_cpu04_ds4</A> <A HREF="fsd_cpu04_ds5.html">fsd_cpu04_ds5</A> <A HREF="fsd_cpu04_ds6.html">fsd_cpu04_ds6</A> <A HREF="fsd_cpu04_ds7.html">fsd_cpu04_ds7</A> <A HREF="fsd_cpu04_ds8.html">fsd_cpu04_ds8</A> <A HREF="fsd_cpu04_ds9.html">fsd_cpu04_ds9</A>
+                                 <A HREF="fsd_cpu05_ds1.html">fsd_cpu05_ds1</A> <A HREF="fsd_cpu05_ds10.html">fsd_cpu05_ds10</A> <A HREF="fsd_cpu05_ds11.html">fsd_cpu05_ds11</A> <A HREF="fsd_cpu05_ds12.html">fsd_cpu05_ds12</A> <A HREF="fsd_cpu05_ds2.html">fsd_cpu05_ds2</A> <A HREF="fsd_cpu05_ds3.html">fsd_cpu05_ds3</A> <A HREF="fsd_cpu05_ds4.html">fsd_cpu05_ds4</A> <A HREF="fsd_cpu05_ds5.html">fsd_cpu05_ds5</A>
+                                 <A HREF="fsd_cpu05_ds6.html">fsd_cpu05_ds6</A> <A HREF="fsd_cpu05_ds7.html">fsd_cpu05_ds7</A> <A HREF="fsd_cpu05_ds8.html">fsd_cpu05_ds8</A> <A HREF="fsd_cpu05_ds9.html">fsd_cpu05_ds9</A> <A HREF="fsd_cpu06_ds1.html">fsd_cpu06_ds1</A> <A HREF="fsd_cpu06_ds10.html">fsd_cpu06_ds10</A> <A HREF="fsd_cpu06_ds11.html">fsd_cpu06_ds11</A> <A HREF="fsd_cpu06_ds12.html">fsd_cpu06_ds12</A>
+                                 <A HREF="fsd_cpu06_ds2.html">fsd_cpu06_ds2</A> <A HREF="fsd_cpu06_ds3.html">fsd_cpu06_ds3</A> <A HREF="fsd_cpu06_ds4.html">fsd_cpu06_ds4</A> <A HREF="fsd_cpu06_ds5.html">fsd_cpu06_ds5</A> <A HREF="fsd_cpu06_ds6.html">fsd_cpu06_ds6</A> <A HREF="fsd_cpu06_ds7.html">fsd_cpu06_ds7</A> <A HREF="fsd_cpu06_ds8.html">fsd_cpu06_ds8</A> <A HREF="fsd_cpu06_ds9.html">fsd_cpu06_ds9</A>
+                                 <A HREF="fsd_cpu07_ds1.html">fsd_cpu07_ds1</A> <A HREF="fsd_cpu07_ds10.html">fsd_cpu07_ds10</A> <A HREF="fsd_cpu07_ds11.html">fsd_cpu07_ds11</A> <A HREF="fsd_cpu07_ds12.html">fsd_cpu07_ds12</A> <A HREF="fsd_cpu07_ds2.html">fsd_cpu07_ds2</A> <A HREF="fsd_cpu07_ds3.html">fsd_cpu07_ds3</A> <A HREF="fsd_cpu07_ds4.html">fsd_cpu07_ds4</A> <A HREF="fsd_cpu07_ds5.html">fsd_cpu07_ds5</A>
+                                 <A HREF="fsd_cpu07_ds6.html">fsd_cpu07_ds6</A> <A HREF="fsd_cpu07_ds7.html">fsd_cpu07_ds7</A> <A HREF="fsd_cpu07_ds8.html">fsd_cpu07_ds8</A> <A HREF="fsd_cpu07_ds9.html">fsd_cpu07_ds9</A> <A HREF="fsd_cpu08_ds1.html">fsd_cpu08_ds1</A> <A HREF="fsd_cpu08_ds10.html">fsd_cpu08_ds10</A> <A HREF="fsd_cpu08_ds11.html">fsd_cpu08_ds11</A> <A HREF="fsd_cpu08_ds12.html">fsd_cpu08_ds12</A>
+                                 <A HREF="fsd_cpu08_ds2.html">fsd_cpu08_ds2</A> <A HREF="fsd_cpu08_ds3.html">fsd_cpu08_ds3</A> <A HREF="fsd_cpu08_ds4.html">fsd_cpu08_ds4</A> <A HREF="fsd_cpu08_ds5.html">fsd_cpu08_ds5</A> <A HREF="fsd_cpu08_ds6.html">fsd_cpu08_ds6</A> <A HREF="fsd_cpu08_ds7.html">fsd_cpu08_ds7</A> <A HREF="fsd_cpu08_ds8.html">fsd_cpu08_ds8</A> <A HREF="fsd_cpu08_ds9.html">fsd_cpu08_ds9</A>
+                                 <A HREF="fsd_cpu09_ds1.html">fsd_cpu09_ds1</A> <A HREF="fsd_cpu09_ds10.html">fsd_cpu09_ds10</A> <A HREF="fsd_cpu09_ds11.html">fsd_cpu09_ds11</A> <A HREF="fsd_cpu09_ds12.html">fsd_cpu09_ds12</A> <A HREF="fsd_cpu09_ds2.html">fsd_cpu09_ds2</A> <A HREF="fsd_cpu09_ds3.html">fsd_cpu09_ds3</A> <A HREF="fsd_cpu09_ds4.html">fsd_cpu09_ds4</A> <A HREF="fsd_cpu09_ds5.html">fsd_cpu09_ds5</A>
+                                 <A HREF="fsd_cpu09_ds6.html">fsd_cpu09_ds6</A> <A HREF="fsd_cpu09_ds7.html">fsd_cpu09_ds7</A> <A HREF="fsd_cpu09_ds8.html">fsd_cpu09_ds8</A> <A HREF="fsd_cpu09_ds9.html">fsd_cpu09_ds9</A> <A HREF="fsd_cpu10_ds1.html">fsd_cpu10_ds1</A> <A HREF="fsd_cpu10_ds10.html">fsd_cpu10_ds10</A> <A HREF="fsd_cpu10_ds11.html">fsd_cpu10_ds11</A> <A HREF="fsd_cpu10_ds12.html">fsd_cpu10_ds12</A>
+                                 <A HREF="fsd_cpu10_ds2.html">fsd_cpu10_ds2</A> <A HREF="fsd_cpu10_ds3.html">fsd_cpu10_ds3</A> <A HREF="fsd_cpu10_ds4.html">fsd_cpu10_ds4</A> <A HREF="fsd_cpu10_ds5.html">fsd_cpu10_ds5</A> <A HREF="fsd_cpu10_ds6.html">fsd_cpu10_ds6</A> <A HREF="fsd_cpu10_ds7.html">fsd_cpu10_ds7</A> <A HREF="fsd_cpu10_ds8.html">fsd_cpu10_ds8</A> <A HREF="fsd_cpu10_ds9.html">fsd_cpu10_ds9</A>
+                                 <A HREF="fsd_cpu11_ds1.html">fsd_cpu11_ds1</A> <A HREF="fsd_cpu11_ds10.html">fsd_cpu11_ds10</A> <A HREF="fsd_cpu11_ds11.html">fsd_cpu11_ds11</A> <A HREF="fsd_cpu11_ds12.html">fsd_cpu11_ds12</A> <A HREF="fsd_cpu11_ds2.html">fsd_cpu11_ds2</A> <A HREF="fsd_cpu11_ds3.html">fsd_cpu11_ds3</A> <A HREF="fsd_cpu11_ds4.html">fsd_cpu11_ds4</A> <A HREF="fsd_cpu11_ds5.html">fsd_cpu11_ds5</A>
+                                 <A HREF="fsd_cpu11_ds6.html">fsd_cpu11_ds6</A> <A HREF="fsd_cpu11_ds7.html">fsd_cpu11_ds7</A> <A HREF="fsd_cpu11_ds8.html">fsd_cpu11_ds8</A> <A HREF="fsd_cpu11_ds9.html">fsd_cpu11_ds9</A> <A HREF="fsd_cpu12_ds1.html">fsd_cpu12_ds1</A> <A HREF="fsd_cpu12_ds10.html">fsd_cpu12_ds10</A> <A HREF="fsd_cpu12_ds11.html">fsd_cpu12_ds11</A> <A HREF="fsd_cpu12_ds12.html">fsd_cpu12_ds12</A>
+                                 <A HREF="fsd_cpu12_ds2.html">fsd_cpu12_ds2</A> <A HREF="fsd_cpu12_ds3.html">fsd_cpu12_ds3</A> <A HREF="fsd_cpu12_ds4.html">fsd_cpu12_ds4</A> <A HREF="fsd_cpu12_ds5.html">fsd_cpu12_ds5</A> <A HREF="fsd_cpu12_ds6.html">fsd_cpu12_ds6</A> <A HREF="fsd_cpu12_ds7.html">fsd_cpu12_ds7</A> <A HREF="fsd_cpu12_ds8.html">fsd_cpu12_ds8</A> <A HREF="fsd_cpu12_ds9.html">fsd_cpu12_ds9</A>
+Link to FWD reports:             <A HREF="fwd_meta_getattr_cpu01.html">fwd_meta_getattr_cpu01</A> <A HREF="fwd_meta_getattr_cpu02.html">fwd_meta_getattr_cpu02</A> <A HREF="fwd_meta_getattr_cpu03.html">fwd_meta_getattr_cpu03</A> <A HREF="fwd_meta_getattr_cpu04.html">fwd_meta_getattr_cpu04</A> <A HREF="fwd_meta_getattr_cpu05.html">fwd_meta_getattr_cpu05</A> <A HREF="fwd_meta_getattr_cpu06.html">fwd_meta_getattr_cpu06</A> <A HREF="fwd_meta_getattr_cpu07.html">fwd_meta_getattr_cpu07</A> <A HREF="fwd_meta_getattr_cpu08.html">fwd_meta_getattr_cpu08</A>
+                                 <A HREF="fwd_meta_getattr_cpu09.html">fwd_meta_getattr_cpu09</A> <A HREF="fwd_meta_getattr_cpu10.html">fwd_meta_getattr_cpu10</A> <A HREF="fwd_meta_getattr_cpu11.html">fwd_meta_getattr_cpu11</A> <A HREF="fwd_meta_getattr_cpu12.html">fwd_meta_getattr_cpu12</A> <A HREF="fwd_meta_rnd_8rw_cpu01_ph1.html">fwd_meta_rnd_8rw_cpu01_ph1</A> <A HREF="fwd_meta_rnd_8rw_cpu01_ph2.html">fwd_meta_rnd_8rw_cpu01_ph2</A> <A HREF="fwd_meta_rnd_8rw_cpu01_ph3.html">fwd_meta_rnd_8rw_cpu01_ph3</A> <A HREF="fwd_meta_rnd_8rw_cpu02_ph1.html">fwd_meta_rnd_8rw_cpu02_ph1</A>
+                                 <A HREF="fwd_meta_rnd_8rw_cpu02_ph2.html">fwd_meta_rnd_8rw_cpu02_ph2</A> <A HREF="fwd_meta_rnd_8rw_cpu02_ph3.html">fwd_meta_rnd_8rw_cpu02_ph3</A> <A HREF="fwd_meta_rnd_8rw_cpu03_ph1.html">fwd_meta_rnd_8rw_cpu03_ph1</A> <A HREF="fwd_meta_rnd_8rw_cpu03_ph2.html">fwd_meta_rnd_8rw_cpu03_ph2</A> <A HREF="fwd_meta_rnd_8rw_cpu03_ph3.html">fwd_meta_rnd_8rw_cpu03_ph3</A> <A HREF="fwd_meta_rnd_8rw_cpu04_ph1.html">fwd_meta_rnd_8rw_cpu04_ph1</A> <A HREF="fwd_meta_rnd_8rw_cpu04_ph2.html">fwd_meta_rnd_8rw_cpu04_ph2</A> <A HREF="fwd_meta_rnd_8rw_cpu04_ph3.html">fwd_meta_rnd_8rw_cpu04_ph3</A>
+                                 <A HREF="fwd_meta_rnd_8rw_cpu05_ph1.html">fwd_meta_rnd_8rw_cpu05_ph1</A> <A HREF="fwd_meta_rnd_8rw_cpu05_ph2.html">fwd_meta_rnd_8rw_cpu05_ph2</A> <A HREF="fwd_meta_rnd_8rw_cpu05_ph3.html">fwd_meta_rnd_8rw_cpu05_ph3</A> <A HREF="fwd_meta_rnd_8rw_cpu06_ph1.html">fwd_meta_rnd_8rw_cpu06_ph1</A> <A HREF="fwd_meta_rnd_8rw_cpu06_ph2.html">fwd_meta_rnd_8rw_cpu06_ph2</A> <A HREF="fwd_meta_rnd_8rw_cpu06_ph3.html">fwd_meta_rnd_8rw_cpu06_ph3</A> <A HREF="fwd_meta_rnd_8rw_cpu07_ph1.html">fwd_meta_rnd_8rw_cpu07_ph1</A> <A HREF="fwd_meta_rnd_8rw_cpu07_ph2.html">fwd_meta_rnd_8rw_cpu07_ph2</A>
+                                 <A HREF="fwd_meta_rnd_8rw_cpu07_ph3.html">fwd_meta_rnd_8rw_cpu07_ph3</A> <A HREF="fwd_meta_rnd_8rw_cpu08_ph1.html">fwd_meta_rnd_8rw_cpu08_ph1</A> <A HREF="fwd_meta_rnd_8rw_cpu08_ph2.html">fwd_meta_rnd_8rw_cpu08_ph2</A> <A HREF="fwd_meta_rnd_8rw_cpu08_ph3.html">fwd_meta_rnd_8rw_cpu08_ph3</A> <A HREF="fwd_meta_rnd_8rw_cpu09_ph1.html">fwd_meta_rnd_8rw_cpu09_ph1</A> <A HREF="fwd_meta_rnd_8rw_cpu09_ph2.html">fwd_meta_rnd_8rw_cpu09_ph2</A> <A HREF="fwd_meta_rnd_8rw_cpu09_ph3.html">fwd_meta_rnd_8rw_cpu09_ph3</A> <A HREF="fwd_meta_rnd_8rw_cpu10_ph1.html">fwd_meta_rnd_8rw_cpu10_ph1</A>
+                                 <A HREF="fwd_meta_rnd_8rw_cpu10_ph2.html">fwd_meta_rnd_8rw_cpu10_ph2</A> <A HREF="fwd_meta_rnd_8rw_cpu10_ph3.html">fwd_meta_rnd_8rw_cpu10_ph3</A> <A HREF="fwd_meta_rnd_8rw_cpu11_ph1.html">fwd_meta_rnd_8rw_cpu11_ph1</A> <A HREF="fwd_meta_rnd_8rw_cpu11_ph2.html">fwd_meta_rnd_8rw_cpu11_ph2</A> <A HREF="fwd_meta_rnd_8rw_cpu11_ph3.html">fwd_meta_rnd_8rw_cpu11_ph3</A> <A HREF="fwd_meta_rnd_8rw_cpu12_ph1.html">fwd_meta_rnd_8rw_cpu12_ph1</A> <A HREF="fwd_meta_rnd_8rw_cpu12_ph2.html">fwd_meta_rnd_8rw_cpu12_ph2</A> <A HREF="fwd_meta_rnd_8rw_cpu12_ph3.html">fwd_meta_rnd_8rw_cpu12_ph3</A>
+                                 <A HREF="fwd_meta_setattr_cpu01.html">fwd_meta_setattr_cpu01</A> <A HREF="fwd_meta_setattr_cpu02.html">fwd_meta_setattr_cpu02</A> <A HREF="fwd_meta_setattr_cpu03.html">fwd_meta_setattr_cpu03</A> <A HREF="fwd_meta_setattr_cpu04.html">fwd_meta_setattr_cpu04</A> <A HREF="fwd_meta_setattr_cpu05.html">fwd_meta_setattr_cpu05</A> <A HREF="fwd_meta_setattr_cpu06.html">fwd_meta_setattr_cpu06</A> <A HREF="fwd_meta_setattr_cpu07.html">fwd_meta_setattr_cpu07</A> <A HREF="fwd_meta_setattr_cpu08.html">fwd_meta_setattr_cpu08</A>
+                                 <A HREF="fwd_meta_setattr_cpu09.html">fwd_meta_setattr_cpu09</A> <A HREF="fwd_meta_setattr_cpu10.html">fwd_meta_setattr_cpu10</A> <A HREF="fwd_meta_setattr_cpu11.html">fwd_meta_setattr_cpu11</A> <A HREF="fwd_meta_setattr_cpu12.html">fwd_meta_setattr_cpu12</A> <A HREF="fwd_prep_cpu01.html">fwd_prep_cpu01</A> <A HREF="fwd_prep_cpu02.html">fwd_prep_cpu02</A> <A HREF="fwd_prep_cpu03.html">fwd_prep_cpu03</A> <A HREF="fwd_prep_cpu04.html">fwd_prep_cpu04</A>
+                                 <A HREF="fwd_prep_cpu05.html">fwd_prep_cpu05</A> <A HREF="fwd_prep_cpu06.html">fwd_prep_cpu06</A> <A HREF="fwd_prep_cpu07.html">fwd_prep_cpu07</A> <A HREF="fwd_prep_cpu08.html">fwd_prep_cpu08</A> <A HREF="fwd_prep_cpu09.html">fwd_prep_cpu09</A> <A HREF="fwd_prep_cpu10.html">fwd_prep_cpu10</A> <A HREF="fwd_prep_cpu11.html">fwd_prep_cpu11</A> <A HREF="fwd_prep_cpu12.html">fwd_prep_cpu12</A>
+                                 <A HREF="fwd_rnd_1024w_cpu01.html">fwd_rnd_1024w_cpu01</A> <A HREF="fwd_rnd_1024w_cpu02.html">fwd_rnd_1024w_cpu02</A> <A HREF="fwd_rnd_1024w_cpu03.html">fwd_rnd_1024w_cpu03</A> <A HREF="fwd_rnd_1024w_cpu04.html">fwd_rnd_1024w_cpu04</A> <A HREF="fwd_rnd_1024w_cpu05.html">fwd_rnd_1024w_cpu05</A> <A HREF="fwd_rnd_1024w_cpu06.html">fwd_rnd_1024w_cpu06</A> <A HREF="fwd_rnd_1024w_cpu07.html">fwd_rnd_1024w_cpu07</A> <A HREF="fwd_rnd_1024w_cpu08.html">fwd_rnd_1024w_cpu08</A>
+                                 <A HREF="fwd_rnd_1024w_cpu09.html">fwd_rnd_1024w_cpu09</A> <A HREF="fwd_rnd_1024w_cpu10.html">fwd_rnd_1024w_cpu10</A> <A HREF="fwd_rnd_1024w_cpu11.html">fwd_rnd_1024w_cpu11</A> <A HREF="fwd_rnd_1024w_cpu12.html">fwd_rnd_1024w_cpu12</A> <A HREF="fwd_rnd_8rw_cpu01.html">fwd_rnd_8rw_cpu01</A> <A HREF="fwd_rnd_8rw_cpu02.html">fwd_rnd_8rw_cpu02</A> <A HREF="fwd_rnd_8rw_cpu03.html">fwd_rnd_8rw_cpu03</A> <A HREF="fwd_rnd_8rw_cpu04.html">fwd_rnd_8rw_cpu04</A>
+                                 <A HREF="fwd_rnd_8rw_cpu05.html">fwd_rnd_8rw_cpu05</A> <A HREF="fwd_rnd_8rw_cpu06.html">fwd_rnd_8rw_cpu06</A> <A HREF="fwd_rnd_8rw_cpu07.html">fwd_rnd_8rw_cpu07</A> <A HREF="fwd_rnd_8rw_cpu08.html">fwd_rnd_8rw_cpu08</A> <A HREF="fwd_rnd_8rw_cpu09.html">fwd_rnd_8rw_cpu09</A> <A HREF="fwd_rnd_8rw_cpu10.html">fwd_rnd_8rw_cpu10</A> <A HREF="fwd_rnd_8rw_cpu11.html">fwd_rnd_8rw_cpu11</A> <A HREF="fwd_rnd_8rw_cpu12.html">fwd_rnd_8rw_cpu12</A>
+                                 <A HREF="fwd_seq_1024r_cpu01.html">fwd_seq_1024r_cpu01</A> <A HREF="fwd_seq_1024r_cpu02.html">fwd_seq_1024r_cpu02</A> <A HREF="fwd_seq_1024r_cpu03.html">fwd_seq_1024r_cpu03</A> <A HREF="fwd_seq_1024r_cpu04.html">fwd_seq_1024r_cpu04</A> <A HREF="fwd_seq_1024r_cpu05.html">fwd_seq_1024r_cpu05</A> <A HREF="fwd_seq_1024r_cpu06.html">fwd_seq_1024r_cpu06</A> <A HREF="fwd_seq_1024r_cpu07.html">fwd_seq_1024r_cpu07</A> <A HREF="fwd_seq_1024r_cpu08.html">fwd_seq_1024r_cpu08</A>
+                                 <A HREF="fwd_seq_1024r_cpu09.html">fwd_seq_1024r_cpu09</A> <A HREF="fwd_seq_1024r_cpu10.html">fwd_seq_1024r_cpu10</A> <A HREF="fwd_seq_1024r_cpu11.html">fwd_seq_1024r_cpu11</A> <A HREF="fwd_seq_1024r_cpu12.html">fwd_seq_1024r_cpu12</A> <A HREF="fwd_seq_1024w_cpu01.html">fwd_seq_1024w_cpu01</A> <A HREF="fwd_seq_1024w_cpu02.html">fwd_seq_1024w_cpu02</A> <A HREF="fwd_seq_1024w_cpu03.html">fwd_seq_1024w_cpu03</A> <A HREF="fwd_seq_1024w_cpu04.html">fwd_seq_1024w_cpu04</A>
+                                 <A HREF="fwd_seq_1024w_cpu05.html">fwd_seq_1024w_cpu05</A> <A HREF="fwd_seq_1024w_cpu06.html">fwd_seq_1024w_cpu06</A> <A HREF="fwd_seq_1024w_cpu07.html">fwd_seq_1024w_cpu07</A> <A HREF="fwd_seq_1024w_cpu08.html">fwd_seq_1024w_cpu08</A> <A HREF="fwd_seq_1024w_cpu09.html">fwd_seq_1024w_cpu09</A> <A HREF="fwd_seq_1024w_cpu10.html">fwd_seq_1024w_cpu10</A> <A HREF="fwd_seq_1024w_cpu11.html">fwd_seq_1024w_cpu11</A> <A HREF="fwd_seq_1024w_cpu12.html">fwd_seq_1024w_cpu12</A>
+Link to response time histogram: <A HREF="histogram.html">histogram</A>
+Link to workload skew report:    <A HREF="skew.html">skew</A>
+Link to anchor report:           <A HREF="anchors.html">anchors</A>
+
+Link to Run Definitions:         <A HREF="#_438135304">rd_meta_mixed For loops: None</A>
+
+Link to config output:           <A HREF="config.html">config</A>
+
+<a name="_438135304"></a><i><b>17:32:11.006 Starting RD=rd_meta_mixed; elapsed=600 warmup=60; fwdrate=50000; For loops: None</b></i>
+
+
+Apr 10, 2020 ..Interval.. .ReqstdOps... ...cpu%...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...create... ....open.... ...close.... ..getattr... ..setattr...
+                            rate   resp total  sys   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+17:32:12.162            1  30261  6.479   3.0 0.60  70.0  12799  5.122 5479.0  5.789 99.99 42.80 142.80    8192   0.0  0.000 432.0 57.028   0.0  0.000  5937  7.420  6046  9.052
+17:32:13.078            2  48324  1.147   5.7 1.37  69.7  20189  1.218 8770.0  1.698 157.7 68.52 226.24    8192   0.0  0.000   0.0  0.000   0.0  0.000  9643  0.436  9722  1.205
+17:32:14.093            3  50276  1.068   2.4 1.29  69.9  21110  1.174 9102.0  1.638 164.9 71.11 236.03    8192   0.0  0.000   0.0  0.000   0.0  0.000 10043  0.312 10021  1.087
+17:32:15.086            4  50008  0.989   3.2 1.30  69.5  20788  1.099 9134.0  1.545 162.4 71.36 233.77    8192   0.0  0.000   0.0  0.000   0.0  0.000  9951  0.241 10135  0.997
+17:32:16.077            5  49857  0.954   2.2 1.35  69.9  20937  1.067 9025.0  1.521 163.5 70.51 234.08    8192   0.0  0.000   0.0  0.000   0.0  0.000  9976  0.211  9919  0.950
+17:32:17.081            6  50106  0.935   2.1 1.28  70.1  21042  1.052 8957.0  1.496 164.3 69.98 234.37    8192   0.0  0.000   0.0  0.000   0.0  0.000 10011  0.191 10096  0.933
+17:32:18.073            7  49800  0.920   2.4 1.24  69.7  20908  1.036 9082.0  1.474 163.3 70.95 234.30    8192   0.0  0.000   0.0  0.000   0.0  0.000  9857  0.166  9953  0.915
+17:32:19.075            8  50234  0.895   2.3 1.31  70.4  21277  1.010 8964.0  1.443 166.2 70.03 236.26    8192   0.0  0.000   0.0  0.000   0.0  0.000  9935  0.156 10058  0.893
+17:32:20.068            9  50008  0.894   2.2 1.32  70.5  21106  1.015 8843.0  1.438 164.8 69.09 233.98    8192   0.0  0.000   0.0  0.000   0.0  0.000 10010  0.157 10049  0.898
+17:32:21.074           10  50099  0.880   2.0 1.25  70.0  21053  0.995 9027.0  1.426 164.4 70.52 235.00    8192   0.0  0.000   0.0  0.000   0.0  0.000 10091  0.143  9928  0.887
+17:32:22.070           11  50297  0.956   2.0 1.26  69.8  21192  1.100 9150.0  1.545 165.5 71.48 237.05    8192   0.0  0.000   0.0  0.000   0.0  0.000  9952  0.142 10003  0.923
+17:32:23.070           12  50220  1.070   2.0 1.25  69.7  21012  1.265 9130.0  1.717 164.1 71.34 235.49    8192   0.0  0.000   0.0  0.000   0.0  0.000 10113  0.150  9965  0.998
+17:32:24.076           13  50071  1.051   2.1 1.29  70.2  21112  1.234 8976.0  1.706 164.9 70.12 235.07    8192   0.0  0.000   0.0  0.000   0.0  0.000  9845  0.141 10138  0.973
+17:32:25.075           14  50063  1.030   2.1 1.27  70.0  20993  1.207 9016.0  1.684 164.0 70.45 234.45    8192   0.0  0.000   0.0  0.000   0.0  0.000  9996  0.138 10058  0.963
+17:32:26.071           15  50084  1.030   2.0 1.22  69.7  20969  1.209 9130.0  1.666 163.8 71.33 235.15    8192   0.0  0.000   0.0  0.000   0.0  0.000  9938  0.136 10047  0.960
+17:32:27.074           16  49882  1.002   1.9 1.22  69.7  20870  1.175 9082.0  1.614 163.0 70.95 234.00    8192   0.0  0.000   0.0  0.000   0.0  0.000  9972  0.133  9958  0.949
+17:32:28.069           17  49840  1.018   1.9 1.23  70.0  20935  1.191 8990.0  1.656 163.5 70.23 233.79    8192   0.0  0.000   0.0  0.000   0.0  0.000 10039  0.138  9876  0.965
+17:32:29.069           18  50199  0.984   2.0 1.28  69.5  21032  1.148 9216.0  1.583 164.3 72.00 236.31    8192   0.0  0.000   0.0  0.000   0.0  0.000 10046  0.138  9905  0.939
+17:32:30.074           19  49815  1.001   2.1 1.27  69.4  20785  1.160 9166.0  1.612 162.3 71.61 233.99    8192   0.0  0.000   0.0  0.000   0.0  0.000  9901  0.140  9963  0.962
+17:32:31.080           20  50001  0.988   2.1 1.25  69.7  20823  1.152 9033.0  1.599 162.6 70.57 233.24    8191   0.0  0.000   0.0  0.000   0.0  0.000 10065  0.138 10080  0.949
+17:32:32.077           21  50012  0.987   2.2 1.25  69.9  20898  1.155 9016.0  1.587 163.2 70.44 233.70    8192   0.0  0.000   0.0  0.000   0.0  0.000 10078  0.140 10020  0.949
+17:32:33.077           22  50356  0.974   2.0 1.33  70.3  21378  1.130 9014.0  1.562 167.0 70.42 237.44    8192   0.0  0.000   0.0  0.000   0.0  0.000 10057  0.143  9907  0.945
+17:32:34.072           23  49835  1.013   2.0 1.31  69.5  20861  1.168 9165.0  1.629 162.9 71.60 234.58    8192   0.0  0.000   0.0  0.000   0.0  0.000  9967  0.152  9842  0.985
+17:32:35.078           24  49706  0.978   2.0 1.33  70.1  20869  1.137 8913.0  1.560 163.0 69.63 232.67    8192   0.0  0.000   0.0  0.000   0.0  0.000  9969  0.146  9955  0.957
+17:32:36.074           25  49634  0.979   2.1 1.31  69.8  20749  1.136 8967.0  1.568 162.1 70.05 232.16    8192   0.0  0.000   0.0  0.000   0.0  0.000  9948  0.140  9970  0.960
+17:32:37.071           26  50019  0.954   2.0 1.30  69.4  20775  1.108 9181.0  1.523 162.3 71.73 234.03    8192   0.0  0.000   0.0  0.000   0.0  0.000 10106  0.137  9957  0.936
+17:32:38.073           27  50092  1.043   1.9 1.23  70.4  21148  1.106 8882.0  2.028 165.2 69.39 234.61    8192   0.0  0.000   0.0  0.000   0.0  0.000 10004  0.139 10058  0.937
+17:32:39.076           28  50113  1.413   1.9 1.27  69.8  21111  1.213 9116.0  3.700 164.9 71.22 236.15    8192   0.0  0.000   0.0  0.000   0.0  0.000  9933  0.163  9953  0.991
+17:32:40.074           29  49382  1.109   2.0 1.30  70.6  20858  1.110 8692.0  2.423 162.9 67.91 230.86    8192   0.0  0.000   0.0  0.000   0.0  0.000  9944  0.132  9888  0.933
+17:32:41.075           30  50255  1.398   1.9 1.23  69.5  20895  1.281 9177.0  3.305 163.2 71.70 234.94    8192   0.0  0.000   0.0  0.000   0.0  0.000 10093  0.211 10090  1.090
+
+Apr 10, 2020 ..Interval.. .ReqstdOps... ...cpu%...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...create... ....open.... ...close.... ..getattr... ..setattr...
+                            rate   resp total  sys   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+17:32:42.072           31  50104  1.108   2.2 1.24  70.2  21132  1.118 8982.0  2.361 165.0 70.17 235.27    8192   0.0  0.000   0.0  0.000   0.0  0.000  9958  0.129 10032  0.936
+17:32:43.074           32  50162  1.087   2.3 1.24  69.7  20988  1.070 9103.0  2.371 163.9 71.12 235.09    8192   0.0  0.000   0.0  0.000   0.0  0.000  9928  0.126 10143  0.909
+17:32:44.068           33  50095  1.299   1.8 1.20  69.8  20984  1.098 9065.0  3.467 163.9 70.82 234.76    8192   0.0  0.000   0.0  0.000   0.0  0.000 10153  0.130  9893  0.939
+17:32:45.068           34  49972  1.436   2.0 1.28  70.7  21175  1.111 8793.0  4.309 165.4 68.70 234.12    8192   0.0  0.000   0.0  0.000   0.0  0.000 10158  0.129  9846  0.919
+17:32:46.067           35  49825  1.360   1.9 1.25  70.2  21026  1.137 8934.0  3.724 164.2 69.80 234.06    8192   0.0  0.000   0.0  0.000   0.0  0.000  9961  0.131  9904  0.934
+17:32:47.074           36  50106  1.493   1.9 1.21  69.6  20981  1.096 9172.0  4.499 163.9 71.66 235.57    8192   0.0  0.000   0.0  0.000   0.0  0.000 10037  0.133  9916  0.929
+17:32:48.069           37  50267  1.405   2.0 1.32  69.7  21128  1.124 9204.0  3.920 165.0 71.91 236.98    8192   0.0  0.000   0.0  0.000   0.0  0.000  9973  0.134  9962  0.951
+17:32:49.072           38  49972  1.114   2.0 1.30  70.1  21035  1.159 8988.0  2.271 164.3 70.22 234.55    8192   0.0  0.000   0.0  0.000   0.0  0.000 10057  0.134  9892  0.963
+17:32:50.074           39  49680  1.311   1.9 1.25  69.8  21010  1.119 9072.0  3.439 164.1 70.88 235.02    8192   0.0  0.000   0.0  0.000   0.0  0.000  9831  0.133  9767  0.933
+17:32:51.072           40  49794  1.534   1.9 1.27  68.9  20661  1.110 9319.0  4.615 161.4 72.80 234.22    8192   0.0  0.000   0.0  0.000   0.0  0.000  9959  0.134  9855  0.925
+17:32:52.070           41  50017  1.369   1.9 1.25  70.5  21238  1.112 8895.0  3.849 165.9 69.49 235.41    8192   0.0  0.000   0.0  0.000   0.0  0.000  9951  0.133  9933  0.933
+17:32:53.071           42  49728  1.640   2.0 1.25  70.4  21044  1.082 8846.0  5.477 164.4 69.10 233.51    8191   0.0  0.000   0.0  0.000   0.0  0.000  9917  0.132  9921  0.908
+17:32:54.070           43  49469  1.517   1.9 1.24  69.5  20670  1.084 9091.0  4.641 161.4 71.02 232.51    8192   0.0  0.000   0.0  0.000   0.0  0.000  9926  0.134  9782  0.933
+17:32:55.076           44  50673  1.310   1.9 1.25  69.3  21075  1.125 9332.0  3.393 164.6 72.91 237.55    8191   0.0  0.000   0.0  0.000   0.0  0.000 10187  0.133 10079  0.959
+17:32:56.066           45  50004  1.275   2.1 1.30  70.1  21052  1.129 8973.0  3.248 164.4 70.10 234.57    8192   0.0  0.000   0.0  0.000   0.0  0.000  9924  0.133 10055  0.949
+17:32:57.071           46  49610  1.652   1.9 1.23  69.6  20690  1.064 9016.0  5.476 161.6 70.44 232.08    8192   0.0  0.000   0.0  0.000   0.0  0.000  9805  0.129 10099  0.920
+17:32:58.066           47  50167  1.385   1.9 1.22  69.8  21122  1.124 9145.0  3.814 165.0 71.45 236.46    8192   0.0  0.000   0.0  0.000   0.0  0.000 10023  0.137  9877  0.961
+17:32:59.073           48  49981  1.400   2.0 1.33  69.8  20964  1.105 9058.0  3.984 163.7 70.77 234.55    8192   0.0  0.000   0.0  0.000   0.0  0.000  9975  0.133  9984  0.943
+17:33:00.068           49  49280  1.728   2.0 1.25  69.5  20545  1.051 9024.0  5.906 160.5 70.50 231.01    8192   0.0  0.000   0.0  0.000   0.0  0.000  9780  0.128  9931  0.909
+17:33:01.070           50  49777  1.487   1.9 1.23  70.0  20912  1.128 8982.0  4.377 163.3 70.17 233.55    8192   0.0  0.000   0.0  0.000   0.0  0.000  9854  0.137 10029  0.975
+17:33:02.071           51  50218  1.205   2.0 1.29  69.9  20969  1.134 9027.0  2.849 163.8 70.52 234.34    8192   0.0  0.000   0.0  0.000   0.0  0.000 10127  0.132 10095  0.958
+17:33:03.071           52  49824  1.447   2.0 1.26  69.8  20827  1.095 9015.0  4.281 162.7 70.43 233.14    8192   0.0  0.000   0.0  0.000   0.0  0.000  9999  0.132  9983  0.937
+17:33:04.071           53  50097  1.523   1.9 1.21  70.4  21161  1.077 8903.0  4.814 165.3 69.55 234.88    8192   0.0  0.000   0.0  0.000   0.0  0.000  9958  0.132 10075  0.928
+17:33:05.066           54  49736  1.298   2.1 1.34  69.5  20642  1.125 9045.0  3.342 161.2 70.66 231.93    8192   0.0  0.000   0.0  0.000   0.0  0.000 10005  0.137 10044  0.969
+17:33:06.070           55  50044  1.534   2.1 1.27  69.6  20934  1.123 9131.0  4.685 163.5 71.34 234.89    8192   0.0  0.000   0.0  0.000   0.0  0.000 10124  0.133  9855  0.927
+17:33:07.067           56  49973  1.742   1.8 1.16  69.6  20841  1.053 9095.0  6.007 162.8 71.05 233.88    8192   0.0  0.000   0.0  0.000   0.0  0.000 10049  0.131  9988  0.918
+17:33:08.066           57  49607  1.726   1.9 1.27  69.8  20820  1.044 9006.0  5.966 162.6 70.36 233.02    8192   0.0  0.000   0.0  0.000   0.0  0.000  9991  0.130  9790  0.906
+17:33:09.072           58  49890  1.403   1.9 1.22  69.8  20837  1.132 8996.0  3.908 162.7 70.28 233.07    8192   0.0  0.000   0.0  0.000   0.0  0.000 10132  0.158  9925  0.976
+17:33:10.073           59  49744  1.388   1.9 1.24  69.6  20655  1.074 9012.0  4.020 161.3 70.41 231.77    8192   0.0  0.000   0.0  0.000   0.0  0.000 10102  0.131  9975  0.933
+17:33:11.070           60  49872  1.772   1.9 1.24  69.8  20953  1.255 9071.0  5.425 163.7 70.87 234.56    8192   0.0  0.000   0.0  0.000   0.0  0.000  9840  0.185 10008  1.102
+
+Apr 10, 2020 ..Interval.. .ReqstdOps... ...cpu%...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...create... ....open.... ...close.... ..getattr... ..setattr...
+                            rate   resp total  sys   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+17:33:12.076           61  50045  1.390   1.9 1.27  69.7  20929  1.075 9093.0  3.908 163.5 71.04 234.55    8192   0.0  0.000   0.0  0.000   0.0  0.000 10031  0.180  9992  0.971
+17:33:13.067           62  49645  1.566   2.0 1.32  70.3  20813  1.071 8792.0  4.964 162.6 68.69 231.29    8192   0.0  0.000   0.0  0.000   0.0  0.000 10001  0.200 10039  0.980
+17:33:14.066           63  49734  1.671   1.9 1.27  69.7  20844  1.044 9076.0  5.583 162.8 70.91 233.75    8192   0.0  0.000   0.0  0.000   0.0  0.000  9937  0.149  9877  0.931
+17:33:15.068           64  49876  1.830   1.9 1.20  70.6  21031  1.052 8769.0  6.524 164.3 68.51 232.81    8192   0.0  0.000   0.0  0.000   0.0  0.000 10152  0.136  9924  1.065
+17:33:16.072           65  49912  1.486   2.0 1.31  70.4  20978  1.109 8820.0  4.407 163.8 68.91 232.80    8192   0.0  0.000   0.0  0.000   0.0  0.000 10060  0.130 10054  1.065
+17:33:17.071           66  49816  1.279   2.0 1.25  70.1  21074  1.144 8976.0  3.052 164.6 70.12 234.77    8192   0.0  0.000   0.0  0.000   0.0  0.000  9871  0.131  9895  1.105
+17:33:18.067           67  49807  1.619   1.8 1.22  69.6  20882  1.064 9113.0  5.109 163.1 71.20 234.34    8192   0.0  0.000   0.0  0.000   0.0  0.000  9856  0.130  9956  1.066
+17:33:19.068           68  49815  1.365   2.0 1.30  69.7  20862  1.101 9079.0  3.621 162.9 70.93 233.91    8192   0.0  0.000   0.0  0.000   0.0  0.000  9878  0.130  9996  1.089
+17:33:20.070           69  49464  1.371   1.9 1.21  69.7  20593  1.092 8953.0  3.711 160.8 69.95 230.83    8192   0.0  0.000   0.0  0.000   0.0  0.000  9952  0.133  9966  1.083
+17:33:21.067           70  49850  1.777   1.9 1.24  70.1  20942  1.054 8940.0  6.088 163.6 69.84 233.45    8192   0.0  0.000   0.0  0.000   0.0  0.000  9832  0.127 10136  1.068
+17:33:22.066           71  49654  1.643   1.9 1.21  70.7  20989  1.030 8717.0  5.697 163.9 68.10 232.08    8192   0.0  0.000   0.0  0.000   0.0  0.000  9977  0.126  9971  0.905
+17:33:23.067           72  49613  1.468   1.9 1.22  70.1  20899  1.036 8910.0  4.606 163.2 69.61 232.88    8192   0.0  0.000   0.0  0.000   0.0  0.000  9896  0.126  9908  0.896
+17:33:24.067           73  50208  1.361   1.9 1.23  69.1  20689  1.099 9271.0  3.767 161.6 72.43 234.06    8192   0.0  0.000   0.0  0.000   0.0  0.000 10104  0.129 10144  0.925
+17:33:25.073           74  49617  1.549   1.9 1.28  70.4  20964  1.062 8805.0  5.034 163.7 68.79 232.57    8192   0.0  0.000   0.0  0.000   0.0  0.000  9996  0.131  9852  0.908
+17:33:26.072           75  50013  1.543   1.9 1.24  70.2  21097  1.102 8935.0  4.822 164.8 69.80 234.62    8192   0.0  0.000   0.0  0.000   0.0  0.000 10037  0.136  9944  0.953
+17:33:27.070           76  50393  1.215   1.8 1.22  70.1  21238  1.083 9060.0  3.054 165.9 70.78 236.70    8192   0.0  0.000   0.0  0.000   0.0  0.000 10068  0.130 10027  0.924
+17:33:28.072           77  49942  1.567   1.9 1.23  70.4  21105  1.058 8883.0  5.136 164.8 69.40 234.28    8192   0.0  0.000   0.0  0.000   0.0  0.000 10045  0.129  9909  0.910
+17:33:29.071           78  49826  1.896   1.9 1.23  70.5  21145  1.021 8869.0  7.092 165.2 69.29 234.48    8192   0.0  0.000   0.0  0.000   0.0  0.000  9959  0.128  9853  0.883
+17:33:30.072           79  49791  1.694   1.9 1.24  70.1  21020  1.053 8986.0  5.789 164.2 70.20 234.42    8192   0.0  0.000   0.0  0.000   0.0  0.000  9806  0.128  9979  0.896
+17:33:31.067           80  49928  1.258   2.0 1.32  70.4  20958  1.093 8829.0  3.308 163.7 68.98 232.71    8192   0.0  0.000   0.0  0.000   0.0  0.000 10115  0.133 10026  0.932
+17:33:32.066           81  49802  1.458   1.9 1.23  69.1  20589  1.076 9190.0  4.361 160.8 71.80 232.65    8192   0.0  0.000   0.0  0.000   0.0  0.000  9992  0.130 10031  0.905
+17:33:33.072           82  50080  1.729   1.9 1.21  70.4  21112  1.058 8897.0  6.083 164.9 69.51 234.45    8192   0.0  0.000   0.0  0.000   0.0  0.000 10106  0.126  9965  0.887
+17:33:34.070           83  49948  1.384   2.0 1.27  70.2  21078  1.067 8927.0  4.063 164.6 69.75 234.42    8192   0.0  0.000   0.0  0.000   0.0  0.000  9988  0.130  9955  0.913
+17:33:35.065           84  50279  1.465   1.9 1.21  70.0  21242  1.071 9099.0  4.441 165.9 71.09 237.04    8192   0.0  0.000   0.0  0.000   0.0  0.000 10004  0.134  9934  0.922
+17:33:36.068           85  49900  1.844   2.0 1.29  69.7  20758  1.065 9014.0  6.623 162.1 70.42 232.59    8192   0.0  0.000   0.0  0.000   0.0  0.000 10150  0.129  9978  0.891
+17:33:37.070           86  50390  2.142   1.8 1.20  70.1  21190  1.042 9039.0  8.387 165.5 70.62 236.16    8192   0.0  0.000   0.0  0.000   0.0  0.000 10047  0.126 10114  0.870
+17:33:38.067           87  49736  1.847   1.9 1.20  69.8  20922  1.011 9068.0  6.700 163.4 70.84 234.30    8192   0.0  0.000   0.0  0.000   0.0  0.000  9903  0.127  9843  0.881
+17:33:39.072           88  49997  1.964   1.9 1.27  70.0  21005  1.058 9017.0  7.223 164.1 70.45 234.55    8192   0.0  0.000   0.0  0.000   0.0  0.000  9885  0.144 10090  0.933
+17:33:40.066           89  50045  2.095   1.9 1.24  70.8  21336  1.056 8783.0  8.230 166.6 68.62 235.30    8192   0.0  0.000   0.0  0.000   0.0  0.000  9947  0.130  9979  0.876
+17:33:41.066           90  50069  2.432   1.8 1.17  69.7  21020  1.218 9149.0  9.174 164.2 71.48 235.70    8192   0.0  0.000   0.0  0.000   0.0  0.000  9886  0.190 10014  1.033
+
+Apr 10, 2020 ..Interval.. .ReqstdOps... ...cpu%...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...create... ....open.... ...close.... ..getattr... ..setattr...
+                            rate   resp total  sys   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+17:33:42.073           91  49539  2.932   2.2 1.21  70.1  20751  1.032 8859.0 12.855 162.1 69.21 231.34    8192   0.0  0.000   0.0  0.000   0.0  0.000  9903  0.126 10026  0.868
+17:33:43.066           92  49898  3.126   1.9 1.18  69.5  20923  1.085 9201.0 13.417 163.4 71.88 235.34    8192   0.0  0.000   0.0  0.000   0.0  0.000  9843  0.123  9931  0.867
+17:33:44.067           93  50018  3.408   1.7 1.13  69.9  21135  1.064 9084.0 15.217 165.1 70.97 236.09    8192   0.0  0.000   0.0  0.000   0.0  0.000  9838  0.124  9961  0.854
+17:33:45.073           94  50180  3.095   1.9 1.22  70.3  21204  1.078 8948.0 13.694 165.6 69.91 235.56    8192   0.0  0.000   0.0  0.000   0.0  0.000  9909  0.123 10119  0.856
+17:33:46.077           95  49801  2.653   1.9 1.20  70.0  20772  1.063 8885.0 11.259 162.2 69.41 231.70    8192   0.0  0.000   0.0  0.000   0.0  0.000 10050  0.124 10094  0.869
+17:33:47.070           96  49800  2.809   1.7 1.11  69.8  20849  1.070 9002.0 11.958 162.8 70.33 233.21    8192   0.0  0.000   0.0  0.000   0.0  0.000  9913  0.126 10036  0.867
+17:33:48.072           97  49876  3.082   1.9 1.18  69.5  20799  1.060 9129.0 13.347 162.4 71.32 233.81    8192   0.0  0.000   0.0  0.000   0.0  0.000 10037  0.125  9911  0.866
+17:33:49.061           98  50127  2.913   1.8 1.21  70.2  21181  1.062 8999.0 12.643 165.4 70.30 235.78    8192   0.0  0.000   0.0  0.000   0.0  0.000 10050  0.125  9897  0.855
+17:33:50.061           99  49953  3.233   1.8 1.19  70.0  20957  1.110 8964.0 14.324 163.7 70.03 233.76    8192   0.0  0.000   0.0  0.000   0.0  0.000  9980  0.123 10052  0.855
+17:33:51.068          100  50049  3.995   1.9 1.22  69.6  20924  1.202 9144.0 18.041 163.4 71.44 234.91    8192   0.0  0.000   0.0  0.000   0.0  0.000  9997  0.121  9984  0.861
+17:33:52.067          101  50075  3.832   1.7 1.09  70.3  21145  1.101 8933.0 17.775 165.2 69.79 234.98    8192   0.0  0.000   0.0  0.000   0.0  0.000  9877  0.120 10120  0.853
+17:33:53.071          102  49942  3.749   1.8 1.17  70.4  21018  1.119 8826.0 17.424 164.2 68.95 233.16    8192   0.0  0.000   0.0  0.000   0.0  0.000 10025  0.126 10073  0.860
+17:33:54.068          103  49233  4.589   1.7 1.12  69.8  20461  1.223 8852.0 21.410 159.8 69.16 229.01    8192   0.0  0.000   0.0  0.000   0.0  0.000  9833  0.157 10087  0.975
+17:33:55.076          104  50767  4.431   1.7 1.15  69.7  21273  1.287 9268.0 20.055 166.2 72.41 238.60    8192   0.0  0.000   0.0  0.000   0.0  0.000 10142  0.168 10084  0.993
+17:33:56.067          105  50349  3.788   1.9 1.21  70.0  21176  1.149 9067.0 17.242 165.4 70.84 236.27    8192   0.0  0.000   0.0  0.000   0.0  0.000 10005  0.126 10101  0.871
+17:33:57.066          106  49990  3.908   1.7 1.13  70.0  20909  1.198 8958.0 17.843 163.3 69.98 233.34    8192   0.0  0.000   0.0  0.000   0.0  0.000 10143  0.126  9980  0.922
+17:33:58.067          107  49896  3.427   1.7 1.12  70.5  20924  1.159 8769.0 15.527 163.4 68.51 231.98    8192   0.0  0.000   0.0  0.000   0.0  0.000 10081  0.124 10122  0.923
+17:33:59.067          108  50216  3.416   1.9 1.16  70.1  21091  1.130 8994.0 15.191 164.7 70.27 235.04    8192   0.0  0.000   0.0  0.000   0.0  0.000 10018  0.126 10113  0.971
+17:34:00.067          109  49869  3.998   1.9 1.19  70.2  21027  1.251 8936.0 18.062 164.2 69.81 234.09    8192   0.0  0.000   0.0  0.000   0.0  0.000  9894  0.122 10012  1.044
+17:34:01.067          110  50016  3.767   1.8 1.15  69.7  20990  1.163 9122.0 16.835 163.9 71.27 235.25    8192   0.0  0.000   0.0  0.000   0.0  0.000  9980  0.127  9924  0.925
+17:34:02.072          111  50011  4.010   1.9 1.21  69.7  20992  1.180 9110.0 18.112 164.0 71.17 235.17    8192   0.0  0.000   0.0  0.000   0.0  0.000  9767  0.130 10142  0.936
+17:34:03.064          112  49663  4.472   1.8 1.20  70.1  20865  1.346 8896.0 20.164 163.0 69.50 232.51    8192   0.0  0.000   0.0  0.000   0.0  0.000  9925  0.198  9977  1.272
+17:34:04.066          113  50527  5.106   1.7 1.11  70.6  21413  1.452 8911.0 23.550 167.2 69.62 236.91    8192   0.0  0.000   0.0  0.000   0.0  0.000 10116  0.243 10087  1.443
+17:34:05.071          114  50095  4.819   1.9 1.18  69.5  20864  1.407 9167.0 21.447 163.0 71.62 234.62    8192   0.0  0.000   0.0  0.000   0.0  0.000  9920  0.194 10144  1.335
+17:34:06.070          115  49634  4.587   1.9 1.15  69.5  20822  1.401 9136.0 20.322 162.6 71.38 234.05    8192   0.0  0.000   0.0  0.000   0.0  0.000  9808  0.144  9868  1.154
+17:34:07.070          116  50063  4.799   1.7 1.12  69.8  20907  1.342 9034.0 21.943 163.3 70.58 233.91    8192   0.0  0.000   0.0  0.000   0.0  0.000 10038  0.192 10084  1.196
+17:34:08.072          117  50118  4.440   1.8 1.15  70.1  20905  1.284 8925.0 20.590 163.3 69.73 233.05    8192   0.0  0.000   0.0  0.000   0.0  0.000 10144  0.139 10144  1.035
+17:34:09.068          118  50030  4.314   1.8 1.18  70.0  20978  1.249 8986.0 19.672 163.8 70.20 234.09    8191   0.0  0.000   0.0  0.000   0.0  0.000 10146  0.163  9920  1.126
+17:34:10.068          119  50054  3.771   1.8 1.15  70.3  21172  1.188 8939.0 16.968 165.4 69.84 235.24    8192   0.0  0.000   0.0  0.000   0.0  0.000 10054  0.126  9889  1.077
+17:34:11.066          120  49928  4.236   1.8 1.20  70.2  21097  1.425 8941.0 18.703 164.8 69.85 234.67    8192   0.0  0.000   0.0  0.000   0.0  0.000  9928  0.191  9962  1.236
+
+Apr 10, 2020 ..Interval.. .ReqstdOps... ...cpu%...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...create... ....open.... ...close.... ..getattr... ..setattr...
+                            rate   resp total  sys   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+17:34:12.067          121  49938  4.097   1.9 1.21  70.7  21178  1.157 8789.0 19.007 165.4 68.66 234.12    8192   0.0  0.000   0.0  0.000   0.0  0.000  9926  0.154 10045  1.147
+17:34:13.068          122  49886  4.134   1.8 1.17  70.3  20982  1.190 8855.0 19.001 163.9 69.18 233.10    8192   0.0  0.000   0.0  0.000   0.0  0.000  9950  0.211 10099  1.080
+17:34:14.071          123  50568  4.302   1.9 1.25  70.2  21266  1.266 9023.0 19.583 166.1 70.49 236.63    8192   0.0  0.000   0.0  0.000   0.0  0.000 10229  0.193 10050  1.191
+17:34:15.070          124  49889  4.201   1.7 1.10  69.4  20635  1.229 9090.0 19.087 161.2 71.02 232.23    8192   0.0  0.000   0.0  0.000   0.0  0.000 10143  0.137 10021  0.930
+17:34:16.071          125  51040  4.207   2.0 1.19  69.9  21544  1.371 9262.0 18.899 168.3 72.36 240.67    8192   0.0  0.000   0.0  0.000   0.0  0.000 10165  0.129 10069  0.877
+17:34:17.077          126  49737  4.015   1.9 1.20  70.6  21082  1.177 8761.0 18.791 164.7 68.45 233.15    8192   0.0  0.000   0.0  0.000   0.0  0.000  9868  0.128 10026  0.896
+17:34:18.071          127  50074  4.597   1.8 1.14  70.2  21086  1.271 8950.0 21.454 164.7 69.92 234.65    8191   0.0  0.000   0.0  0.000   0.0  0.000  9957  0.158 10081  0.973
+17:34:19.075          128  49546  4.491   1.8 1.20  69.6  20620  1.194 9015.0 20.786 161.0 70.43 231.52    8192   0.0  0.000   0.0  0.000   0.0  0.000  9963  0.137  9948  0.918
+17:34:20.067          129  49747  4.569   1.8 1.20  70.2  20883  1.267 8847.0 21.407 163.1 69.12 232.27    8192   0.0  0.000   0.0  0.000   0.0  0.000  9975  0.155 10042  0.985
+17:34:21.069          130  49995  4.630   1.9 1.18  69.9  20931  1.513 8993.0 20.794 163.5 70.26 233.78    8192   0.0  0.000   0.0  0.000   0.0  0.000 10130  0.190  9941  1.095
+17:34:22.066          131  50028  4.084   1.8 1.13  70.1  21095  1.190 8995.0 18.794 164.8 70.27 235.08    8192   0.0  0.000   0.0  0.000   0.0  0.000  9958  0.131  9980  0.886
+17:34:23.073          132  50532  3.671   1.8 1.20  69.8  21197  1.110 9167.0 16.542 165.6 71.62 237.23    8192   0.0  0.000   0.0  0.000   0.0  0.000  9964  0.128 10204  0.885
+17:34:24.071          133  50263  3.767   1.9 1.20  70.4  21181  1.195 8913.0 17.282 165.4 69.63 235.11    8192   0.0  0.000   0.0  0.000   0.0  0.000  9993  0.125 10176  0.860
+17:34:25.067          134  49767  3.695   1.9 1.20  69.6  20659  1.130 9044.0 16.670 161.4 70.66 232.05    8192   0.0  0.000   0.0  0.000   0.0  0.000 10156  0.124  9908  0.860
+17:34:26.070          135  50637  3.459   2.0 1.24  69.8  21434  1.240 9265.0 14.961 167.4 72.38 239.84    8192   0.0  0.000   0.0  0.000   0.0  0.000  9909  0.128 10029  0.865
+17:34:27.061          136  49139  3.973   1.7 1.11  69.9  20552  1.112 8837.0 18.365 160.5 69.04 229.60    8192   0.0  0.000   0.0  0.000   0.0  0.000  9780  0.131  9970  0.884
+17:34:28.064          137  50417  4.313   1.8 1.18  69.1  20901  1.281 9343.0 19.306 163.2 72.99 236.28    8192   0.0  0.000   0.0  0.000   0.0  0.000 10010  0.133 10163  0.881
+17:34:29.067          138  50011  3.937   1.8 1.22  70.3  21218  1.216 8954.0 17.996 165.7 69.95 235.72    8192   0.0  0.000   0.0  0.000   0.0  0.000  9850  0.125  9989  0.875
+17:34:30.069          139  49891  3.729   1.8 1.15  69.8  20810  1.119 8985.0 17.018 162.5 70.20 232.78    8192   0.0  0.000   0.0  0.000   0.0  0.000 10049  0.124 10047  0.857
+17:34:31.073          140  49897  3.933   1.9 1.25  69.8  20824  1.267 9024.0 17.689 162.6 70.51 233.20    8192   0.0  0.000   0.0  0.000   0.0  0.000  9887  0.130 10162  0.879
+17:34:32.071          141  50011  3.746   1.9 1.20  69.8  20908  1.097 9026.0 17.129 163.3 70.52 233.87    8192   0.0  0.000   0.0  0.000   0.0  0.000 10159  0.124  9918  0.864
+17:34:33.062          142  50090  3.418   1.8 1.13  70.0  21082  1.083 9015.0 15.355 164.7 70.43 235.13    8192   0.0  0.000   0.0  0.000   0.0  0.000  9978  0.124 10015  0.869
+17:34:34.067          143  49784  3.560   1.9 1.24  69.3  20773  1.115 9195.0 15.671 162.2 71.84 234.13    8192   0.0  0.000   0.0  0.000   0.0  0.000  9851  0.128  9965  0.874
+17:34:35.061          144  49897  3.452   1.8 1.19  70.6  21011  1.149 8764.0 15.734 164.1 68.47 232.62    8192   0.0  0.000   0.0  0.000   0.0  0.000  9967  0.130 10155  0.877
+17:34:36.064          145  50333  3.634   1.9 1.20  70.5  21434  1.225 8968.0 16.392 167.4 70.06 237.52    8192   0.0  0.000   0.0  0.000   0.0  0.000 10036  0.124  9895  0.852
+17:34:37.065          146  50053  3.744   1.8 1.18  69.7  20807  1.174 9037.0 16.942 162.5 70.60 233.16    8192   0.0  0.000   0.0  0.000   0.0  0.000 10100  0.124 10109  0.851
+17:34:38.067          147  50191  3.596   1.8 1.16  69.8  21068  1.196 9111.0 15.969 164.5 71.18 235.77    8192   0.0  0.000   0.0  0.000   0.0  0.000 10012  0.125 10000  0.855
+17:34:39.076          148  50171  3.467   1.8 1.19  70.3  21109  1.154 8932.0 15.552 164.9 69.78 234.70    8192   0.0  0.000   0.0  0.000   0.0  0.000 10026  0.145 10104  0.911
+17:34:40.077          149  49882  4.017   1.8 1.19  69.2  20629  1.228 9161.0 18.023 161.1 71.57 232.74    8192   0.0  0.000   0.0  0.000   0.0  0.000 10022  0.127 10070  0.863
+17:34:41.069          150  50290  4.092   1.9 1.19  69.4  20880  1.597 9223.0 17.394 163.1 72.05 235.18    8192   0.0  0.000   0.0  0.000   0.0  0.000 10002  0.177 10185  1.006
+
+Apr 10, 2020 ..Interval.. .ReqstdOps... ...cpu%...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...create... ....open.... ...close.... ..getattr... ..setattr...
+                            rate   resp total  sys   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+17:34:42.071          151  49816  3.922   1.8 1.16  69.7  20723  1.169 9019.0 17.884 161.9 70.46 232.36    8192   0.0  0.000   0.0  0.000   0.0  0.000 10080  0.125  9994  0.859
+17:34:43.067          152  50270  3.608   1.9 1.27  69.7  21117  1.245 9201.0 15.778 164.9 71.88 236.86    8192   0.0  0.000   0.0  0.000   0.0  0.000  9962  0.125  9990  0.868
+17:34:44.067          153  49806  3.640   1.8 1.20  70.0  21003  1.153 8985.0 16.391 164.0 70.20 234.28    8192   0.0  0.000   0.0  0.000   0.0  0.000  9938  0.129  9880  0.864
+17:34:45.065          154  49975  3.421   1.8 1.20  69.6  20939  1.159 9148.0 14.959 163.5 71.47 235.05    8192   0.0  0.000   0.0  0.000   0.0  0.000 10032  0.126  9856  0.868
+17:34:46.066          155  49898  3.249   2.0 1.27  70.1  21077  1.192 8976.0 14.161 164.6 70.12 234.79    8192   0.0  0.000   0.0  0.000   0.0  0.000  9853  0.129  9992  0.860
+17:34:47.067          156  50062  3.036   1.8 1.14  70.0  21155  1.147 9074.0 13.003 165.2 70.89 236.16    8192   0.0  0.000   0.0  0.000   0.0  0.000  9969  0.128  9864  0.860
+17:34:48.060          157  50107  3.553   1.8 1.18  69.1  20739  1.195 9254.0 15.516 162.0 72.30 234.32    8192   0.0  0.000   0.0  0.000   0.0  0.000 10171  0.125  9943  0.845
+17:34:49.066          158  49684  3.603   1.9 1.24  70.1  20990  1.139 8956.0 16.233 163.9 69.97 233.96    8192   0.0  0.000   0.0  0.000   0.0  0.000  9906  0.126  9832  0.859
+17:34:50.070          159  49667  3.772   1.8 1.16  70.0  20877  1.219 8948.0 16.765 163.1 69.91 233.01    8192   0.0  0.000   0.0  0.000   0.0  0.000  9938  0.125  9904  1.077
+17:34:51.067          160  50569  3.301   1.9 1.24  70.1  21359  1.247 9096.0 14.014 166.8 71.06 237.93    8192   0.0  0.000   0.0  0.000   0.0  0.000 10043  0.130 10071  1.142
+17:34:52.059          161  49730  3.460   1.9 1.22  70.4  20954  1.196 8795.0 15.359 163.7 68.71 232.42    8192   0.0  0.000   0.0  0.000   0.0  0.000  9934  0.127 10047  1.060
+17:34:53.067          162  49967  3.328   1.7 1.13  70.2  20971  1.112 8902.0 14.512 163.8 69.55 233.38    8192   0.0  0.000   0.0  0.000   0.0  0.000 10016  0.129 10078  1.237
+17:34:54.066          163  50338  3.375   1.9 1.22  70.4  21276  1.183 8930.0 14.903 166.2 69.77 235.98    8192   0.0  0.000   0.0  0.000   0.0  0.000 10016  0.131 10116  1.021
+17:34:55.067          164  50116  3.199   1.8 1.19  70.6  21302  1.149 8880.0 14.049 166.4 69.38 235.80    8192   0.0  0.000   0.0  0.000   0.0  0.000 10092  0.125  9842  0.997
+17:34:56.070          165  49798  3.386   1.8 1.16  69.4  20722  1.327 9116.0 14.128 161.8 71.22 233.11    8192   0.0  0.000   0.0  0.000   0.0  0.000  9921  0.127 10039  1.102
+17:34:57.070          166  49914  3.528   1.9 1.23  69.7  20925  1.210 9116.0 15.250 163.4 71.22 234.70    8192   0.0  0.000   0.0  0.000   0.0  0.000  9891  0.129  9982  1.049
+17:34:58.076          167  49904  3.487   1.7 1.14  69.2  20752  1.129 9233.0 15.153 162.1 72.13 234.26    8192   0.0  0.000   0.0  0.000   0.0  0.000  9885  0.127 10034  0.936
+17:34:59.064          168  50403  3.628   1.8 1.17  70.0  21138  1.281 9059.0 15.811 165.1 70.77 235.91    8191   0.0  0.000   0.0  0.000   0.0  0.000 10149  0.125 10057  1.119
+17:35:00.066          169  50080  3.540   1.8 1.22  69.4  21057  1.255 9304.0 15.006 164.5 72.69 237.20    8192   0.0  0.000   0.0  0.000   0.0  0.000  9738  0.130  9981  1.001
+17:35:01.067          170  50396  2.681   1.8 1.17  70.0  21110  1.118 9057.0 11.201 164.9 70.76 235.68    8192   0.0  0.000   0.0  0.000   0.0  0.000 10166  0.127 10063  0.874
+17:35:02.067          171  49983  3.332   1.9 1.22  69.8  21022  1.159 9081.0 14.563 164.2 70.95 235.18    8192   0.0  0.000   0.0  0.000   0.0  0.000  9967  0.128  9913  0.876
+17:35:03.067          172  50372  2.990   1.9 1.22  69.4  20966  1.100 9242.0 12.723 163.8 72.20 236.00    8192   0.0  0.000   0.0  0.000   0.0  0.000 10091  0.125 10073  0.865
+17:35:04.068          173  49967  3.341   1.9 1.20  70.2  21079  1.093 8943.0 14.982 164.6 69.87 234.55    8192   0.0  0.000   0.0  0.000   0.0  0.000  9972  0.126  9973  0.866
+17:35:05.065          174  50013  3.058   1.9 1.21  69.5  20978  1.157 9190.0 12.909 163.8 71.80 235.69    8192   0.0  0.000   0.0  0.000   0.0  0.000  9955  0.132  9890  0.881
+17:35:06.067          175  50049  2.864   2.0 1.30  69.9  20988  1.261 9035.0 11.814 163.9 70.59 234.55    8192   0.0  0.000   0.0  0.000   0.0  0.000  9982  0.129 10044  0.882
+17:35:07.069          176  50247  2.913   1.8 1.17  70.5  21357  1.132 8949.0 12.533 166.8 69.91 236.77    8192   0.0  0.000   0.0  0.000   0.0  0.000 10053  0.130  9888  0.886
+17:35:08.067          177  49488  3.043   1.8 1.17  70.5  20823  1.109 8717.0 13.475 162.6 68.10 230.78    8192   0.0  0.000   0.0  0.000   0.0  0.000  9852  0.124 10096  0.874
+17:35:09.066          178  50090  3.260   1.8 1.19  70.1  21101  1.175 9013.0 14.203 164.8 70.41 235.27    8192   0.0  0.000   0.0  0.000   0.0  0.000 10105  0.148  9871  0.911
+17:35:10.068          179  49866  3.039   1.8 1.18  70.0  21035  1.113 9003.0 13.148 164.3 70.34 234.68    8192   0.0  0.000   0.0  0.000   0.0  0.000  9927  0.127  9901  0.858
+17:35:11.066          180  50049  2.756   1.8 1.19  69.7  21078  1.344 9149.0 10.656 164.6 71.48 236.15    8192   0.0  0.000   0.0  0.000   0.0  0.000  9955  0.190  9867  1.035
+
+Apr 10, 2020 ..Interval.. .ReqstdOps... ...cpu%...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...create... ....open.... ...close.... ..getattr... ..setattr...
+                            rate   resp total  sys   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+17:35:12.076          181  49992  2.527   1.9 1.23  70.6  21179  1.090 8830.0 10.510 165.4 68.98 234.45    8192   0.0  0.000   0.0  0.000   0.0  0.000 10009  0.152  9974  0.892
+17:35:13.071          182  50112  2.820   1.9 1.25  70.4  21111  1.083 8864.0 12.121 164.9 69.25 234.18    8192   0.0  0.000   0.0  0.000   0.0  0.000 10110  0.182 10027  0.913
+17:35:14.069          183  50479  2.826   2.0 1.26  70.2  21260  1.119 9005.0 11.994 166.0 70.35 236.45    8192   0.0  0.000   0.0  0.000   0.0  0.000 10135  0.175 10079  0.902
+17:35:15.062          184  49916  3.004   1.8 1.23  70.5  21010  1.117 8802.0 13.193 164.1 68.77 232.91    8192   0.0  0.000   0.0  0.000   0.0  0.000  9912  0.147 10192  0.872
+17:35:16.073          185  50205  2.886   1.8 1.20  70.0  21159  1.129 9056.0 12.269 165.3 70.75 236.05    8192   0.0  0.000   0.0  0.000   0.0  0.000  9965  0.132 10025  0.856
+17:35:17.071          186  49440  2.943   1.9 1.25  69.8  20626  1.222 8925.0 12.401 161.1 69.73 230.87    8192   0.0  0.000   0.0  0.000   0.0  0.000 10058  0.127  9831  0.849
+17:35:18.071          187  50492  2.432   1.8 1.21  69.9  21380  1.131 9198.0  9.667 167.0 71.86 238.89    8192   0.0  0.000   0.0  0.000   0.0  0.000 10048  0.126  9866  0.856
+17:35:19.068          188  49695  2.418   1.9 1.19  70.2  21058  1.064 8953.0  9.841 164.5 69.95 234.46    8192   0.0  0.000   0.0  0.000   0.0  0.000  9814  0.124  9870  0.855
+17:35:20.066          189  49908  2.373   1.9 1.22  70.7  21170  1.074 8776.0  9.790 165.3 68.56 233.95    8192   0.0  0.000   0.0  0.000   0.0  0.000 10056  0.128  9906  0.858
+17:35:21.071          190  49986  3.473   1.8 1.20  69.9  21047  1.367 9056.0 14.929 164.4 70.75 235.18    8192   0.0  0.000   0.0  0.000   0.0  0.000  9998  0.124  9885  0.849
+17:35:22.066          191  50185  2.720   1.8 1.14  70.5  21196  1.191 8875.0 11.432 165.5 69.34 234.93    8192   0.0  0.000   0.0  0.000   0.0  0.000 10131  0.127  9983  0.853
+17:35:23.066          192  50332  2.654   1.9 1.21  70.5  21246  1.170 8883.0 11.123 165.9 69.40 235.38    8192   0.0  0.000   0.0  0.000   0.0  0.000 10046  0.125 10157  0.852
+17:35:24.068          193  49752  3.250   1.8 1.19  70.7  21236  1.115 8794.0 14.616 165.9 68.70 234.61    8192   0.0  0.000   0.0  0.000   0.0  0.000  9892  0.123  9830  0.840
+17:35:25.068          194  50210  2.423   1.8 1.19  70.3  21184  1.089 8940.0  9.920 165.5 69.84 235.34    8192   0.0  0.000   0.0  0.000   0.0  0.000 10157  0.127  9929  0.865
+17:35:26.069          195  49741  2.278   1.9 1.24  70.6  21051  1.093 8771.0  9.185 164.4 68.52 232.98    8192   0.0  0.000   0.0  0.000   0.0  0.000  9967  0.125  9952  0.854
+17:35:27.067          196  50140  2.918   1.8 1.17  70.1  21093  1.183 8992.0 12.415 164.7 70.25 235.04    8192   0.0  0.000   0.0  0.000   0.0  0.000  9991  0.122 10064  0.847
+17:35:28.061          197  49946  2.190   1.8 1.18  69.6  20857  1.074 9129.0  8.430 162.9 71.32 234.27    8192   0.0  0.000   0.0  0.000   0.0  0.000  9981  0.127  9979  0.876
+17:35:29.067          198  49796  2.783   1.9 1.23  70.8  21081  1.130 8702.0 12.071 164.7 67.98 232.68    8192   0.0  0.000   0.0  0.000   0.0  0.000 10006  0.125 10007  0.846
+17:35:30.068          199  50109  2.678   1.8 1.17  69.8  20869  1.139 9010.0 11.135 163.0 70.40 233.44    8192   0.0  0.000   0.0  0.000   0.0  0.000 10108  0.126 10122  0.872
+17:35:31.065          200  49949  2.996   1.8 1.20  70.0  20920  1.229 8969.0 12.714 163.4 70.07 233.51    8192   0.0  0.000   0.0  0.000   0.0  0.000  9945  0.126 10115  0.853
+17:35:32.060          201  50173  3.276   1.8 1.22  69.9  21185  1.131 9102.0 14.349 165.5 71.11 236.62    8192   0.0  0.000   0.0  0.000   0.0  0.000  9905  0.127  9981  0.856
+17:35:33.060          202  50215  2.419   1.8 1.21  69.6  21150  1.092 9245.0  9.588 165.2 72.23 237.46    8192   0.0  0.000   0.0  0.000   0.0  0.000  9911  0.126  9909  0.856
+17:35:34.058          203  49696  2.618   1.9 1.23  70.3  21010  1.113 8886.0 10.909 164.1 69.42 233.56    8192   0.0  0.000   0.0  0.000   0.0  0.000  9928  0.126  9872  0.864
+17:35:35.062          204  50164  2.716   1.9 1.21  69.4  20947  1.109 9229.0 11.163 163.6 72.10 235.74    8191   0.0  0.000   0.0  0.000   0.0  0.000 10103  0.130  9885  0.879
+17:35:36.067          205  50078  2.390   1.9 1.25  70.2  21053  1.197 8920.0  9.470 164.4 69.69 234.16    8192   0.0  0.000   0.0  0.000   0.0  0.000 10047  0.127 10058  0.867
+17:35:37.067          206  50358  2.572   1.8 1.20  69.8  21022  1.063 9078.0 10.689 164.2 70.92 235.16    8192   0.0  0.000   0.0  0.000   0.0  0.000 10061  0.129 10197  0.866
+17:35:38.066          207  50293  2.521   1.9 1.23  69.9  21080  1.129 9066.0 10.283 164.6 70.83 235.52    8192   0.0  0.000   0.0  0.000   0.0  0.000 10119  0.125 10028  0.849
+17:35:39.069          208  49967  3.299   1.9 1.22  69.5  20875  1.156 9146.0 14.241 163.0 71.45 234.54    8192   0.0  0.000   0.0  0.000   0.0  0.000  9843  0.145 10103  0.895
+17:35:40.071          209  49951  2.962   1.8 1.19  70.0  21028  1.144 9007.0 12.681 164.2 70.37 234.65    8192   0.0  0.000   0.0  0.000   0.0  0.000 10075  0.127  9841  0.855
+17:35:41.070          210  49772  2.442   1.9 1.25  70.1  21009  1.340 8952.0  9.075 164.1 69.94 234.07    8192   0.0  0.000   0.0  0.000   0.0  0.000  9933  0.195  9878  1.033
+
+Apr 10, 2020 ..Interval.. .ReqstdOps... ...cpu%...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...create... ....open.... ...close.... ..getattr... ..setattr...
+                            rate   resp total  sys   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+17:35:42.068          211  49739  2.560   1.9 1.19  70.5  20920  1.108 8770.0 10.749 163.4 68.52 231.95    8192   0.0  0.000   0.0  0.000   0.0  0.000 10005  0.126 10044  0.859
+17:35:43.068          212  50204  2.517   1.9 1.21  69.4  20962  1.109 9222.0 10.095 163.7 72.05 235.81    8192   0.0  0.000   0.0  0.000   0.0  0.000 10010  0.126 10010  0.875
+17:35:44.065          213  49637  2.365   1.9 1.24  70.4  20838  1.159 8777.0  9.498 162.8 68.57 231.37    8192   0.0  0.000   0.0  0.000   0.0  0.000  9976  0.125 10046  0.861
+17:35:45.068          214  49930  2.538   1.8 1.17  70.0  20997  1.143 8993.0 10.314 164.0 70.26 234.30    8192   0.0  0.000   0.0  0.000   0.0  0.000  9803  0.126 10137  0.861
+17:35:46.068          215  49842  2.624   1.8 1.21  69.9  20849  1.123 8960.0 10.859 162.8 70.00 232.88    8192   0.0  0.000   0.0  0.000   0.0  0.000  9995  0.128 10038  0.877
+17:35:47.067          216  49651  3.090   1.8 1.20  69.6  20719  1.066 9039.0 13.419 161.8 70.62 232.48    8192   0.0  0.000   0.0  0.000   0.0  0.000  9940  0.125  9953  0.883
+17:35:48.067          217  50186  2.615   1.8 1.16  70.0  21281  1.187 9107.0 10.502 166.2 71.15 237.41    8192   0.0  0.000   0.0  0.000   0.0  0.000  9894  0.127  9904  0.918
+17:35:49.066          218  50046  2.411   1.9 1.25  70.6  21202  1.077 8817.0  9.946 165.6 68.88 234.52    8192   0.0  0.000   0.0  0.000   0.0  0.000 10018  0.125 10009  0.889
+17:35:50.065          219  50052  2.758   1.8 1.22  69.2  20862  1.088 9284.0 11.354 162.9 72.53 235.52    8192   0.0  0.000   0.0  0.000   0.0  0.000  9981  0.128  9925  0.871
+17:35:51.067          220  50126  2.331   1.8 1.16  69.8  20849  1.361 9031.0  8.674 162.8 70.55 233.43    8191   0.0  0.000   0.0  0.000   0.0  0.000 10138  0.129 10108  0.875
+17:35:52.066          221  49949  2.567   1.9 1.27  70.1  20967  1.178 8956.0 10.460 163.8 69.97 233.77    8192   0.0  0.000   0.0  0.000   0.0  0.000 10041  0.125  9985  0.859
+17:35:53.068          222  50120  2.504   1.8 1.19  70.3  21231  1.107 8955.0 10.289 165.8 69.96 235.83    8192   0.0  0.000   0.0  0.000   0.0  0.000 10036  0.125  9898  0.868
+17:35:54.070          223  49830  2.928   1.8 1.22  70.2  20908  1.181 8870.0 12.566 163.3 69.30 232.64    8192   0.0  0.000   0.0  0.000   0.0  0.000 10006  0.125 10046  0.848
+17:35:55.067          224  50023  3.214   1.9 1.27  69.4  20837  1.198 9175.0 13.728 162.7 71.68 234.47    8192   0.0  0.000   0.0  0.000   0.0  0.000  9976  0.125 10035  0.859
+17:35:56.067          225  50170  2.496   1.9 1.25  69.7  20970  1.147 9125.0 10.000 163.8 71.29 235.12    8192   0.0  0.000   0.0  0.000   0.0  0.000 10096  0.126  9979  0.867
+17:35:57.065          226  49848  2.521   1.9 1.21  70.3  20981  1.037 8870.0 10.588 163.9 69.30 233.21    8192   0.0  0.000   0.0  0.000   0.0  0.000 10049  0.131  9948  0.875
+17:35:58.073          227  50094  2.826   1.9 1.23  69.3  20945  1.156 9277.0 11.604 163.6 72.48 236.11    8192   0.0  0.000   0.0  0.000   0.0  0.000 10090  0.127  9782  0.862
+17:35:59.070          228  49620  2.200   1.9 1.25  69.9  20766  1.125 8961.0  8.487 162.2 70.01 232.24    8192   0.0  0.000   0.0  0.000   0.0  0.000  9973  0.124  9920  0.859
+17:36:00.068          229  49793  2.845   1.8 1.17  70.4  21054  1.207 8860.0 12.001 164.4 69.22 233.70    8192   0.0  0.000   0.0  0.000   0.0  0.000  9914  0.123  9965  0.873
+17:36:01.074          230  50076  2.666   1.9 1.22  70.6  21230  1.211 8840.0 11.063 165.8 69.06 234.92    8192   0.0  0.000   0.0  0.000   0.0  0.000  9971  0.125 10035  0.874
+17:36:02.082          231  49878  3.128   1.9 1.23  70.2  20899  1.155 8882.0 13.676 163.2 69.39 232.66    8192   0.0  0.000   0.0  0.000   0.0  0.000 10044  0.134 10053  0.900
+17:36:03.065          232  49768  3.224   1.9 1.19  70.0  20920  1.094 8966.0 14.244 163.4 70.05 233.48    8192   0.0  0.000   0.0  0.000   0.0  0.000  9930  0.125  9952  0.864
+17:36:04.066          233  50390  2.787   1.8 1.19  70.7  21473  1.141 8894.0 11.909 167.7 69.48 237.24    8192   0.0  0.000   0.0  0.000   0.0  0.000  9978  0.123 10045  0.873
+17:36:05.072          234  49666  2.710   1.8 1.22  69.8  20831  1.119 9000.0 11.257 162.7 70.31 233.05    8192   0.0  0.000   0.0  0.000   0.0  0.000  9944  0.126  9891  0.881
+17:36:06.073          235  50123  2.557   2.0 1.23  69.7  21063  1.154 9170.0 10.239 164.5 71.64 236.20    8192   0.0  0.000   0.0  0.000   0.0  0.000  9921  0.126  9969  0.876
+17:36:07.070          236  49557  2.150   1.9 1.22  69.9  20690  1.092 8929.0  8.275 161.6 69.76 231.40    8192   0.0  0.000   0.0  0.000   0.0  0.000 10096  0.129  9842  0.887
+17:36:08.071          237  49931  2.716   1.9 1.18  69.4  20704  1.155 9136.0 11.139 161.7 71.38 233.12    8192   0.0  0.000   0.0  0.000   0.0  0.000 10045  0.125 10046  0.863
+17:36:09.076          238  50214  2.597   1.9 1.25  69.7  20946  1.183 9105.0 10.424 163.6 71.13 234.77    8192   0.0  0.000   0.0  0.000   0.0  0.000 10116  0.144 10047  0.922
+17:36:10.074          239  50313  3.167   1.8 1.19  68.9  20702  1.149 9329.0 13.451 161.7 72.88 234.62    8192   0.0  0.000   0.0  0.000   0.0  0.000 10050  0.123 10232  0.862
+17:36:11.070          240  50189  3.040   1.8 1.16  70.0  21073  1.391 9039.0 12.278 164.6 70.62 235.25    8192   0.0  0.000   0.0  0.000   0.0  0.000 10082  0.202  9995  1.027
+
+Apr 10, 2020 ..Interval.. .ReqstdOps... ...cpu%...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...create... ....open.... ...close.... ..getattr... ..setattr...
+                            rate   resp total  sys   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+17:36:12.071          241  50031  2.796   1.9 1.25  70.0  20820  1.092 8940.0 11.959 162.6 69.84 232.50    8192   0.0  0.000   0.0  0.000   0.0  0.000 10222  0.139 10049  0.877
+17:36:13.066          242  50239  2.813   1.9 1.20  69.9  21127  1.147 9112.0 11.691 165.0 71.19 236.24    8192   0.0  0.000   0.0  0.000   0.0  0.000  9927  0.153 10073  0.896
+17:36:14.068          243  50061  2.466   1.9 1.28  70.3  20979  1.121 8860.0 10.060 163.9 69.22 233.12    8192   0.0  0.000   0.0  0.000   0.0  0.000 10167  0.176 10055  0.899
+17:36:15.059          244  49920  2.399   1.9 1.28  70.8  21165  1.138 8740.0  9.719 165.3 68.28 233.63    8192   0.0  0.000   0.0  0.000   0.0  0.000  9883  0.164 10132  0.899
+17:36:16.060          245  49433  2.830   1.9 1.25  69.7  20574  1.196 8959.0 11.741 160.7 69.99 230.72    8191   0.0  0.000   0.0  0.000   0.0  0.000  9819  0.137 10081  0.867
+17:36:17.062          246  50423  2.349   1.8 1.19  69.8  21260  1.083 9219.0  9.265 166.0 72.02 238.11    8191   0.0  0.000   0.0  0.000   0.0  0.000  9939  0.131 10005  0.870
+17:36:18.065          247  50207  2.762   2.0 1.20  70.4  21268  1.075 8953.0 11.830 166.1 69.95 236.10    8192   0.0  0.000   0.0  0.000   0.0  0.000  9919  0.127 10067  0.857
+17:36:19.068          248  49764  2.683   1.9 1.26  70.3  21078  1.122 8897.0 11.251 164.6 69.50 234.17    8191   0.0  0.000   0.0  0.000   0.0  0.000  9914  0.127  9875  0.863
+17:36:20.063          249  49733  3.373   1.8 1.17  70.1  20878  1.144 8897.0 15.087 163.1 69.51 232.62    8192   0.0  0.000   0.0  0.000   0.0  0.000 10088  0.125  9870  0.848
+17:36:21.069          250  49759  2.470   1.8 1.20  69.9  20790  1.102 8958.0 10.054 162.4 69.98 232.41    8192   0.0  0.000   0.0  0.000   0.0  0.000 10066  0.128  9945  0.868
+17:36:22.066          251  49778  2.384   1.9 1.24  70.0  20885  1.067 8936.0  9.681 163.1 69.81 232.98    8192   0.0  0.000   0.0  0.000   0.0  0.000  9942  0.124 10015  0.861
+17:36:23.066          252  50387  2.750   1.9 1.22  70.1  21393  1.146 9104.0 11.432 167.1 71.12 238.26    8192   0.0  0.000   0.0  0.000   0.0  0.000  9958  0.127  9932  0.875
+17:36:24.067          253  49812  2.588   2.0 1.24  70.1  20937  1.057 8916.0 10.877 163.5 69.66 233.23    8192   0.0  0.000   0.0  0.000   0.0  0.000 10039  0.126  9920  0.859
+17:36:25.066          254  49696  2.273   1.9 1.23  70.6  21015  1.152 8755.0  9.023 164.1 68.40 232.58    8192   0.0  0.000   0.0  0.000   0.0  0.000  9968  0.124  9958  0.853
+17:36:26.067          255  50320  2.935   1.9 1.24  70.8  21252  1.141 8747.0 12.989 166.0 68.34 234.37    8192   0.0  0.000   0.0  0.000   0.0  0.000 10176  0.123 10145  0.848
+17:36:27.074          256  50091  2.634   1.8 1.21  70.6  21195  1.059 8828.0 11.292 165.5 68.97 234.55    8192   0.0  0.000   0.0  0.000   0.0  0.000  9974  0.123 10094  0.848
+17:36:28.071          257  49621  3.233   1.9 1.18  70.2  21052  1.110 8933.0 14.251 164.4 69.79 234.26    8192   0.0  0.000   0.0  0.000   0.0  0.000  9785  0.125  9851  0.869
+17:36:29.070          258  50086  2.560   1.8 1.21  69.8  21051  1.140 9094.0 10.391 164.4 71.05 235.51    8192   0.0  0.000   0.0  0.000   0.0  0.000 10008  0.122  9933  0.857
+17:36:30.069          259  49847  2.661   1.8 1.21  70.3  20997  1.127 8884.0 11.146 164.0 69.41 233.45    8192   0.0  0.000   0.0  0.000   0.0  0.000  9938  0.124 10028  0.869
+17:36:31.067          260  50350  2.667   1.8 1.19  70.0  21293  1.219 9123.0 10.825 166.3 71.27 237.62    8192   0.0  0.000   0.0  0.000   0.0  0.000 10106  0.122  9828  0.850
+17:36:32.070          261  49424  2.025   1.9 1.23  70.4  20797  1.040 8758.0  7.845 162.4 68.42 230.90    8192   0.0  0.000   0.0  0.000   0.0  0.000  9984  0.124  9885  0.861
+17:36:33.071          262  49664  2.698   1.8 1.13  70.4  21185  1.235 8919.0 11.011 165.5 69.68 235.19    8192   0.0  0.000   0.0  0.000   0.0  0.000  9814  0.123  9746  0.863
+17:36:34.067          263  49983  2.905   1.9 1.22  70.2  20959  1.091 8908.0 12.623 163.7 69.59 233.34    8192   0.0  0.000   0.0  0.000   0.0  0.000 10127  0.127  9989  0.860
+17:36:35.066          264  49973  3.043   1.8 1.19  70.6  21111  1.143 8789.0 13.430 164.9 68.66 233.59    8192   0.0  0.000   0.0  0.000   0.0  0.000 10025  0.127 10048  0.860
+17:36:36.067          265  50510  3.127   1.8 1.20  69.1  21004  1.214 9406.0 13.041 164.0 73.48 237.58    8192   0.0  0.000   0.0  0.000   0.0  0.000 10054  0.123 10046  0.849
+17:36:37.060          266  49973  2.106   1.9 1.18  69.3  20664  1.076 9137.0  7.964 161.4 71.38 232.82    8192   0.0  0.000   0.0  0.000   0.0  0.000 10195  0.125  9977  0.896
+17:36:38.066          267  49859  3.277   1.8 1.15  69.3  20763  1.120 9198.0 14.121 162.2 71.86 234.07    8192   0.0  0.000   0.0  0.000   0.0  0.000  9957  0.126  9941  0.902
+17:36:39.062          268  50318  2.288   1.9 1.23  70.0  21337  1.099 9146.0  8.827 166.7 71.45 238.15    8192   0.0  0.000   0.0  0.000   0.0  0.000  9994  0.150  9841  0.960
+17:36:40.059          269  50094  2.146   1.8 1.24  70.3  21152  1.114 8944.0  8.148 165.2 69.88 235.12    8192   0.0  0.000   0.0  0.000   0.0  0.000  9955  0.124 10043  0.978
+17:36:41.070          270  50036  2.862   1.8 1.22  70.1  20933  1.272 8941.0 11.640 163.5 69.85 233.39    8192   0.0  0.000   0.0  0.000   0.0  0.000 10020  0.184 10142  1.052
+
+Apr 10, 2020 ..Interval.. .ReqstdOps... ...cpu%...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...create... ....open.... ...close.... ..getattr... ..setattr...
+                            rate   resp total  sys   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+17:36:42.070          271  50104  3.189   2.0 1.16  69.8  21094  1.091 9119.0 13.878 164.8 71.24 236.04    8192   0.0  0.000   0.0  0.000   0.0  0.000  9931  0.120  9960  0.904
+17:36:43.058          272  50503  3.364   1.9 1.19  70.0  21162  1.201 9077.0 14.634 165.3 70.91 236.24    8192   0.0  0.000   0.0  0.000   0.0  0.000 10187  0.125 10077  1.028
+17:36:44.071          273  50050  2.495   1.8 1.20  70.0  20981  1.098 9006.0 10.087 163.9 70.36 234.27    8191   0.0  0.000   0.0  0.000   0.0  0.000 10095  0.122  9968  0.979
+17:36:45.067          274  49870  2.506   1.8 1.21  70.0  21071  1.102 9023.0 10.189 164.6 70.49 235.11    8192   0.0  0.000   0.0  0.000   0.0  0.000  9872  0.125  9904  0.865
+17:36:46.067          275  50196  3.007   2.0 1.21  70.2  21139  1.304 8987.0 12.620 165.1 70.21 235.36    8192   0.0  0.000   0.0  0.000   0.0  0.000  9930  0.125 10140  0.860
+17:36:47.069          276  50740  2.211   1.9 1.23  69.7  21346  1.119 9289.0  8.430 166.7 72.57 239.34    8192   0.0  0.000   0.0  0.000   0.0  0.000 10122  0.126  9983  0.875
+17:36:48.069          277  49812  2.286   1.9 1.24  70.0  20994  1.174 9015.0  8.815 164.0 70.43 234.45    8192   0.0  0.000   0.0  0.000   0.0  0.000  9898  0.126  9905  0.862
+17:36:49.066          278  50239  2.759   1.8 1.20  71.0  21397  1.036 8750.0 12.160 167.1 68.36 235.52    8192   0.0  0.000   0.0  0.000   0.0  0.000  9993  0.126 10099  0.869
+17:36:50.059          279  49721  3.056   1.9 1.21  70.5  20844  1.086 8727.0 13.673 162.8 68.18 231.02    8192   0.0  0.000   0.0  0.000   0.0  0.000 10082  0.126 10068  0.867
+17:36:51.070          280  50482  3.032   1.9 1.24  70.0  21353  1.120 9168.0 13.011 166.8 71.62 238.45    8192   0.0  0.000   0.0  0.000   0.0  0.000  9931  0.124 10030  0.860
+17:36:52.068          281  50088  2.411   2.2 1.26  69.9  21045  1.076 9054.0  9.745 164.4 70.73 235.15    8192   0.0  0.000   0.0  0.000   0.0  0.000 10063  0.126  9926  0.868
+17:36:53.059          282  50170  2.733   1.8 1.21  69.8  21032  1.127 9120.0 11.333 164.3 71.25 235.56    8192   0.0  0.000   0.0  0.000   0.0  0.000  9924  0.128 10094  0.873
+17:36:54.062          283  49787  2.302   1.9 1.26  69.7  20747  1.081 9034.0  9.092 162.0 70.58 232.66    8192   0.0  0.000   0.0  0.000   0.0  0.000 10051  0.128  9955  0.880
+17:36:55.063          284  50225  2.154   1.9 1.23  70.4  21297  1.089 8956.0  8.320 166.3 69.97 236.35    8192   0.0  0.000   0.0  0.000   0.0  0.000  9934  0.129 10038  0.916
+17:36:56.068          285  50095  2.363   1.9 1.24  70.0  21029  1.119 9025.0  9.332 164.2 70.51 234.80    8192   0.0  0.000   0.0  0.000   0.0  0.000  9968  0.132 10073  0.926
+17:36:57.061          286  50150  3.062   1.9 1.26  69.6  20902  1.149 9123.0 13.113 163.2 71.27 234.56    8191   0.0  0.000   0.0  0.000   0.0  0.000 10065  0.124 10060  0.863
+17:36:58.072          287  50041  3.198   1.8 1.17  70.2  21048  1.113 8934.0 14.155 164.4 69.80 234.23    8192   0.0  0.000   0.0  0.000   0.0  0.000  9938  0.127 10121  0.878
+17:36:59.061          288  50322  2.620   2.0 1.30  69.8  20939  1.054 9073.0 10.981 163.5 70.88 234.47    8192   0.0  0.000   0.0  0.000   0.0  0.000 10243  0.126 10067  0.877
+17:37:00.065          289  49847  2.537   1.9 1.25  70.4  20994  1.082 8840.0 10.606 164.0 69.06 233.08    8192   0.0  0.000   0.0  0.000   0.0  0.000 10013  0.127 10000  0.871
+17:37:01.063          290  49887  2.775   1.8 1.20  70.4  21161  1.212 8905.0 11.562 165.3 69.57 234.89    8192   0.0  0.000   0.0  0.000   0.0  0.000  9873  0.128  9948  0.863
+17:37:02.066          291  50165  2.121   2.0 1.28  70.0  20870  1.171 8960.0  8.011 163.0 70.00 233.05    8192   0.0  0.000   0.0  0.000   0.0  0.000 10258  0.130 10077  0.878
+17:37:03.069          292  50059  2.338   1.8 1.20  70.0  21023  1.136 9018.0  9.217 164.2 70.45 234.70    8192   0.0  0.000   0.0  0.000   0.0  0.000  9974  0.127 10044  0.871
+17:37:04.058          293  49772  2.738   1.8 1.20  70.4  21053  1.105 8834.0 11.669 164.4 69.02 233.49    8192   0.0  0.000   0.0  0.000   0.0  0.000  9942  0.126  9943  0.870
+17:37:05.068          294  50094  3.099   1.8 1.19  70.0  21021  1.109 9022.0 13.542 164.2 70.48 234.71    8192   0.0  0.000   0.0  0.000   0.0  0.000 10103  0.125  9948  0.855
+17:37:06.064          295  49826  2.992   2.0 1.28  70.3  20917  1.202 8820.0 12.928 163.4 68.91 232.32    8192   0.0  0.000   0.0  0.000   0.0  0.000 10093  0.123  9996  0.868
+17:37:07.060          296  49867  2.910   1.8 1.18  70.3  20967  1.068 8837.0 12.775 163.8 69.04 232.84    8192   0.0  0.000   0.0  0.000   0.0  0.000 10098  0.121  9965  0.866
+17:37:08.062          297  49843  2.709   1.9 1.21  70.1  20949  1.042 8955.0 11.553 163.6 69.96 233.62    8192   0.0  0.000   0.0  0.000   0.0  0.000 10049  0.126  9890  0.859
+17:37:09.058          298  49782  2.736   1.8 1.21  70.3  20843  1.141 8797.0 11.575 162.8 68.73 231.56    8192   0.0  0.000   0.0  0.000   0.0  0.000 10004  0.150 10138  0.894
+17:37:10.058          299  49776  2.225   1.9 1.23  69.5  20671  1.184 9067.0  8.428 161.4 70.84 232.33    8192   0.0  0.000   0.0  0.000   0.0  0.000 10147  0.127  9891  0.868
+17:37:11.061          300  49944  2.559   1.8 1.19  69.6  21050  1.476 9204.0  9.237 164.4 71.91 236.36    8192   0.0  0.000   0.0  0.000   0.0  0.000  9835  0.184  9855  1.007
+
+Apr 10, 2020 ..Interval.. .ReqstdOps... ...cpu%...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...create... ....open.... ...close.... ..getattr... ..setattr...
+                            rate   resp total  sys   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+17:37:12.058          301  50392  2.534   1.8 1.22  69.7  21024  1.247 9158.0  9.956 164.2 71.55 235.80    8192   0.0  0.000   0.0  0.000   0.0  0.000 10189  0.147 10021  0.880
+17:37:13.059          302  49650  3.119   1.8 1.21  70.0  20789  1.096 8900.0 13.719 162.4 69.53 231.95    8192   0.0  0.000   0.0  0.000   0.0  0.000  9995  0.142  9966  0.860
+17:37:14.056          303  50172  2.970   1.9 1.26  70.4  21349  1.080 8994.0 12.831 166.7 70.27 237.05    8192   0.0  0.000   0.0  0.000   0.0  0.000  9988  0.173  9841  0.895
+17:37:15.063          304  50113  2.776   1.9 1.22  70.0  20960  1.115 8970.0 11.727 163.7 70.08 233.83    8192   0.0  0.000   0.0  0.000   0.0  0.000 10087  0.164 10096  0.880
+17:37:16.058          305  50392  2.812   1.9 1.23  70.1  21156  1.154 9029.0 11.859 165.2 70.54 235.82    8192   0.0  0.000   0.0  0.000   0.0  0.000 10027  0.138 10180  0.868
+17:37:17.059          306  50088  2.499   1.9 1.23  69.7  20932  1.156 9120.0  9.976 163.5 71.24 234.77    8191   0.0  0.000   0.0  0.000   0.0  0.000  9942  0.132 10094  0.863
+17:37:18.059          307  50086  2.273   1.9 1.20  69.7  21015  1.078 9116.0  8.923 164.1 71.22 235.40    8192   0.0  0.000   0.0  0.000   0.0  0.000  9978  0.127  9977  0.861
+17:37:19.067          308  49966  2.188   1.9 1.25  70.0  20909  1.171 8950.0  8.373 163.3 69.92 233.28    8192   0.0  0.000   0.0  0.000   0.0  0.000 10050  0.125 10057  0.859
+17:37:20.063          309  49641  2.734   1.9 1.28  69.4  20622  1.206 9085.0 11.116 161.1 70.98 232.09    8192   0.0  0.000   0.0  0.000   0.0  0.000  9896  0.125 10038  0.860
+17:37:21.059          310  50243  3.183   1.8 1.18  69.6  20978  1.182 9155.0 13.688 163.8 71.52 235.41    8192   0.0  0.000   0.0  0.000   0.0  0.000 10065  0.123 10045  0.851
+17:37:22.061          311  50232  2.786   1.9 1.23  69.8  20971  1.047 9052.0 11.941 163.8 70.72 234.55    8192   0.0  0.000   0.0  0.000   0.0  0.000 10179  0.124 10030  0.861
+17:37:23.062          312  50133  2.823   1.9 1.23  70.2  21073  1.061 8960.0 12.207 164.6 70.00 234.63    8192   0.0  0.000   0.0  0.000   0.0  0.000 10077  0.124 10023  0.849
+17:37:24.065          313  50191  2.980   1.8 1.20  70.0  20960  1.041 8995.0 13.110 163.7 70.28 234.03    8192   0.0  0.000   0.0  0.000   0.0  0.000 10056  0.124 10180  0.844
+17:37:25.063          314  50056  2.622   1.9 1.26  70.1  21060  1.079 8969.0 11.016 164.5 70.07 234.60    8192   0.0  0.000   0.0  0.000   0.0  0.000 10054  0.122  9973  0.853
+17:37:26.064          315  50091  2.097   2.0 1.30  69.8  20913  1.118 9056.0  7.924 163.3 70.75 234.13    8192   0.0  0.000   0.0  0.000   0.0  0.000 10131  0.127  9991  0.862
+17:37:27.061          316  49938  2.023   1.9 1.28  69.9  21114  1.082 9077.0  7.499 164.9 70.91 235.87    8192   0.0  0.000   0.0  0.000   0.0  0.000  9859  0.132  9888  0.891
+17:37:28.066          317  49304  2.591   1.8 1.21  70.7  20968  1.091 8679.0 10.958 163.8 67.80 231.62    8192   0.0  0.000   0.0  0.000   0.0  0.000  9831  0.126  9826  0.868
+17:37:29.063          318  50092  3.226   1.8 1.18  69.8  21123  1.134 9137.0 14.014 165.0 71.38 236.41    8192   0.0  0.000   0.0  0.000   0.0  0.000 10031  0.126  9801  0.851
+17:37:30.062          319  49857  2.802   1.9 1.24  70.1  21028  1.251 8957.0 11.570 164.2 69.98 234.26    8192   0.0  0.000   0.0  0.000   0.0  0.000 10033  0.125  9839  0.867
+17:37:31.061          320  50045  2.928   1.8 1.19  69.6  20930  1.218 9147.0 12.128 163.5 71.46 234.98    8192   0.0  0.000   0.0  0.000   0.0  0.000 10033  0.132  9935  0.884
+17:37:32.060          321  50277  2.727   1.8 1.20  69.8  21126  1.088 9122.0 11.445 165.0 71.27 236.31    8192   0.0  0.000   0.0  0.000   0.0  0.000 10084  0.126  9945  0.851
+17:37:33.059          322  49841  2.496   1.9 1.24  69.5  20854  1.122 9149.0  9.956 162.9 71.48 234.40    8192   0.0  0.000   0.0  0.000   0.0  0.000  9903  0.128  9935  0.869
+17:37:34.062          323  49346  2.633   1.9 1.24  69.8  20697  1.217 8965.0 10.591 161.7 70.04 231.73    8192   0.0  0.000   0.0  0.000   0.0  0.000  9903  0.128  9781  0.874
+17:37:35.061          324  50530  2.561   1.8 1.18  69.9  21197  1.204 9112.0 10.286 165.6 71.19 236.79    8192   0.0  0.000   0.0  0.000   0.0  0.000 10250  0.129  9971  0.889
+17:37:36.063          325  49897  2.200   1.9 1.22  70.0  20887  1.081 8957.0  8.606 163.1 69.98 233.16    8192   0.0  0.000   0.0  0.000   0.0  0.000  9871  0.128 10182  0.870
+17:37:37.062          326  49963  2.849   1.9 1.28  69.7  20843  1.082 9061.0 12.137 162.8 70.79 233.62    8192   0.0  0.000   0.0  0.000   0.0  0.000 10068  0.126  9991  0.857
+17:37:38.062          327  50034  2.752   1.8 1.20  69.5  20840  1.131 9160.0 11.389 162.8 71.56 234.38    8192   0.0  0.000   0.0  0.000   0.0  0.000 10000  0.123 10034  0.855
+17:37:39.058          328  50243  2.906   1.8 1.18  69.8  21061  1.122 9097.0 12.267 164.5 71.07 235.61    8192   0.0  0.000   0.0  0.000   0.0  0.000  9943  0.143 10142  0.922
+17:37:40.059          329  50045  2.755   1.8 1.21  70.0  21129  1.064 9070.0 11.625 165.0 70.86 235.93    8192   0.0  0.000   0.0  0.000   0.0  0.000  9859  0.123  9987  0.874
+17:37:41.063          330  50030  3.026   1.8 1.20  69.7  20964  1.375 9095.0 12.155 163.7 71.05 234.84    8192   0.0  0.000   0.0  0.000   0.0  0.000  9994  0.187  9977  1.017
+
+Apr 10, 2020 ..Interval.. .ReqstdOps... ...cpu%...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...create... ....open.... ...close.... ..getattr... ..setattr...
+                            rate   resp total  sys   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+17:37:42.062          331  49735  2.354   1.8 1.16  69.5  20659  1.137 9049.0  9.248 161.4 70.70 232.09    8192   0.0  0.000   0.0  0.000   0.0  0.000 10015  0.123 10012  0.864
+17:37:43.063          332  50026  2.360   1.8 1.20  70.4  21029  1.110 8852.0  9.560 164.2 69.16 233.45    8192   0.0  0.000   0.0  0.000   0.0  0.000  9945  0.124 10200  0.869
+17:37:44.070          333  49476  2.648   1.9 1.23  70.4  20801  1.085 8743.0 11.237 162.5 68.30 230.80    8191   0.0  0.000   0.0  0.000   0.0  0.000  9987  0.130  9945  0.893
+17:37:45.064          334  50050  2.909   1.9 1.24  70.2  21226  1.139 9027.0 12.370 165.8 70.52 236.35    8192   0.0  0.000   0.0  0.000   0.0  0.000  9908  0.124  9889  0.861
+17:37:46.062          335  50430  2.596   1.9 1.24  70.3  21215  1.083 8963.0 10.920 165.7 70.02 235.77    8192   0.0  0.000   0.0  0.000   0.0  0.000 10134  0.126 10118  0.870
+17:37:47.064          336  49897  2.968   1.9 1.21  70.3  20954  1.093 8832.0 13.050 163.7 69.00 232.70    8192   0.0  0.000   0.0  0.000   0.0  0.000 10045  0.123 10066  0.864
+17:37:48.062          337  50256  2.626   1.8 1.22  69.6  20881  1.085 9120.0 10.900 163.1 71.25 234.38    8192   0.0  0.000   0.0  0.000   0.0  0.000 10238  0.123 10017  0.866
+17:37:49.061          338  49921  2.839   1.8 1.20  69.1  20874  1.128 9316.0 11.634 163.0 72.78 235.86    8192   0.0  0.000   0.0  0.000   0.0  0.000  9942  0.124  9789  0.876
+17:37:50.059          339  50056  2.466   1.8 1.23  69.3  20816  1.139 9231.0  9.549 162.6 72.11 234.73    8191   0.0  0.000   0.0  0.000   0.0  0.000  9956  0.126 10053  1.028
+17:37:51.060          340  50243  2.297   1.8 1.24  69.4  20902  1.133 9210.0  8.752 163.3 71.95 235.25    8192   0.0  0.000   0.0  0.000   0.0  0.000 10130  0.126 10001  0.985
+17:37:52.062          341  50026  2.930   1.8 1.17  69.8  21047  1.157 9115.0 12.223 164.4 71.21 235.64    8192   0.0  0.000   0.0  0.000   0.0  0.000  9988  0.125  9876  0.968
+17:37:53.059          342  50380  2.973   1.8 1.15  69.6  20976  1.165 9170.0 12.466 163.8 71.64 235.52    8192   0.0  0.000   0.0  0.000   0.0  0.000 10068  0.123 10166  0.964
+17:37:54.059          343  50196  3.306   1.8 1.20  70.1  21080  1.179 9012.0 14.349 164.6 70.41 235.09    8192   0.0  0.000   0.0  0.000   0.0  0.000 10071  0.121 10033  1.052
+17:37:55.066          344  49957  2.665   1.8 1.18  69.8  21004  1.063 9081.0 10.993 164.0 70.95 235.04    8192   0.0  0.000   0.0  0.000   0.0  0.000  9979  0.121  9893  0.991
+17:37:56.061          345  49934  2.737   1.8 1.21  69.9  20882  1.195 8993.0 11.088 163.1 70.26 233.40    8192   0.0  0.000   0.0  0.000   0.0  0.000 10054  0.126 10005  1.072
+17:37:57.060          346  49729  3.035   1.9 1.21  70.0  20841  1.107 8923.0 13.144 162.8 69.71 232.53    8192   0.0  0.000   0.0  0.000   0.0  0.000 10031  0.122  9934  0.938
+17:37:58.062          347  50114  2.319   1.8 1.23  70.4  21286  1.095 8963.0  9.247 166.3 70.02 236.32    8192   0.0  0.000   0.0  0.000   0.0  0.000  9977  0.126  9888  0.888
+17:37:59.057          348  50059  2.269   1.9 1.22  70.6  21203  1.079 8815.0  9.181 165.6 68.87 234.52    8192   0.0  0.000   0.0  0.000   0.0  0.000 10075  0.123  9966  0.857
+17:38:00.062          349  49919  2.751   1.9 1.23  70.1  21080  1.138 8994.0 11.501 164.6 70.27 234.95    8192   0.0  0.000   0.0  0.000   0.0  0.000  9929  0.127  9916  0.868
+17:38:01.061          350  49865  2.711   1.8 1.20  69.7  20854  1.280 9050.0 10.886 162.9 70.70 233.62    8192   0.0  0.000   0.0  0.000   0.0  0.000 10055  0.129  9906  0.877
+17:38:02.060          351  49587  2.667   1.9 1.25  69.8  20616  1.163 8911.0 11.033 161.0 69.62 230.68    8192   0.0  0.000   0.0  0.000   0.0  0.000 10049  0.125 10011  0.871
+17:38:03.060          352  50319  3.005   1.8 1.20  69.7  21087  1.188 9161.0 12.668 164.7 71.57 236.31    8192   0.0  0.000   0.0  0.000   0.0  0.000  9979  0.126 10092  0.878
+17:38:04.063          353  49854  2.608   1.9 1.23  70.5  20992  1.063 8765.0 11.148 164.0 68.48 232.48    8192   0.0  0.000   0.0  0.000   0.0  0.000  9958  0.124 10139  0.865
+17:38:05.064          354  49509  3.130   1.8 1.16  69.5  20649  1.162 9049.0 13.394 161.3 70.70 232.02    8192   0.0  0.000   0.0  0.000   0.0  0.000  9827  0.125  9984  0.856
+17:38:06.064          355  50012  2.334   1.9 1.22  69.3  20785  1.143 9225.0  9.000 162.3 72.07 234.45    8192   0.0  0.000   0.0  0.000   0.0  0.000 10022  0.125  9980  0.870
+17:38:07.062          356  49400  2.597   1.9 1.21  69.8  20628  1.118 8934.0 10.677 161.1 69.80 230.95    8192   0.0  0.000   0.0  0.000   0.0  0.000 10094  0.126  9744  0.880
+17:38:08.061          357  49965  2.916   1.8 1.18  69.7  20871  1.119 9089.0 12.390 163.0 71.01 234.06    8192   0.0  0.000   0.0  0.000   0.0  0.000  9986  0.123 10019  0.847
+17:38:09.060          358  49621  2.817   1.8 1.21  69.9  20750  1.200 8956.0 11.686 162.1 69.97 232.08    8192   0.0  0.000   0.0  0.000   0.0  0.000 10000  0.138  9915  0.894
+17:38:10.060          359  49878  2.696   1.9 1.25  70.2  21058  1.111 8959.0 11.312 164.5 69.99 234.51    8192   0.0  0.000   0.0  0.000   0.0  0.000  9801  0.125 10060  0.849
+17:38:11.062          360  49890  2.962   1.8 1.16  70.1  21033  1.414 8968.0 11.843 164.3 70.05 234.38    8192   0.0  0.000   0.0  0.000   0.0  0.000  9902  0.189  9987  0.996
+
+Apr 10, 2020 ..Interval.. .ReqstdOps... ...cpu%...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...create... ....open.... ...close.... ..getattr... ..setattr...
+                            rate   resp total  sys   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+17:38:12.059          361  49965  2.512   1.9 1.27  70.0  21049  1.140 9009.0 10.132 164.4 70.38 234.83    8192   0.0  0.000   0.0  0.000   0.0  0.000  9841  0.137 10066  0.884
+17:38:13.062          362  50182  2.992   1.8 1.19  70.2  21269  1.177 9016.0 12.783 166.1 70.44 236.60    8192   0.0  0.000   0.0  0.000   0.0  0.000  9898  0.133  9999  0.854
+17:38:14.060          363  50150  2.412   1.9 1.26  70.0  21148  1.047 9056.0  9.764 165.2 70.75 235.97    8192   0.0  0.000   0.0  0.000   0.0  0.000  9907  0.154 10039  0.881
+17:38:15.068          364  49401  2.392   1.8 1.24  70.1  20680  1.048 8809.0  9.753 161.5 68.82 230.38    8192   0.0  0.000   0.0  0.000   0.0  0.000  9872  0.169 10040  0.889
+17:38:16.062          365  50046  3.022   1.9 1.23  69.7  20896  1.184 9086.0 12.781 163.2 70.98 234.23    8192   0.0  0.000   0.0  0.000   0.0  0.000  9984  0.150 10080  0.879
+17:38:17.059          366  49892  2.481   1.9 1.27  70.1  20911  1.187 8906.0  9.942 163.3 69.58 232.95    8192   0.0  0.000   0.0  0.000   0.0  0.000  9950  0.144 10125  0.889
+17:38:18.065          367  49783  2.945   1.8 1.18  69.9  20909  1.078 9022.0 12.671 163.3 70.48 233.84    8192   0.0  0.000   0.0  0.000   0.0  0.000  9956  0.128  9896  0.858
+17:38:19.066          368  49811  2.895   1.9 1.22  69.5  20779  1.065 9137.0 12.304 162.3 71.38 233.72    8192   0.0  0.000   0.0  0.000   0.0  0.000 10002  0.126  9893  0.847
+17:38:20.064          369  49975  2.391   2.0 1.31  69.9  20914  1.094 9004.0  9.622 163.3 70.34 233.73    8192   0.0  0.000   0.0  0.000   0.0  0.000  9968  0.129 10089  0.861
+17:38:21.077          370  50009  3.059   1.8 1.17  70.2  20880  1.206 8868.0 13.282 163.1 69.28 232.41    8192   0.0  0.000   0.0  0.000   0.0  0.000  9995  0.123 10266  0.858
+17:38:22.067          371  49743  2.858   1.9 1.19  70.0  21054  1.243 9005.0 11.786 164.4 70.35 234.84    8192   0.0  0.000   0.0  0.000   0.0  0.000  9721  0.127  9963  0.868
+17:38:23.058          372  49875  2.654   1.8 1.23  69.8  20969  1.165 9085.0 10.815 163.8 70.98 234.80    8192   0.0  0.000   0.0  0.000   0.0  0.000  9923  0.123  9898  0.853
+17:38:24.072          373  49660  3.040   1.9 1.22  69.7  20694  1.198 8981.0 12.969 161.6 70.16 231.84    8192   0.0  0.000   0.0  0.000   0.0  0.000 10082  0.128  9903  0.848
+17:38:25.064          374  50090  2.569   1.8 1.20  70.5  21184  1.127 8874.0 10.679 165.5 69.33 234.83    8192   0.0  0.000   0.0  0.000   0.0  0.000  9940  0.125 10092  0.872
+17:38:26.062          375  49957  2.812   1.8 1.20  70.1  20957  1.165 8920.0 11.878 163.7 69.69 233.41    8192   0.0  0.000   0.0  0.000   0.0  0.000 10126  0.126  9954  0.887
+17:38:27.068          376  50061  2.868   1.8 1.19  70.1  21019  1.043 8982.0 12.422 164.2 70.17 234.38    8192   0.0  0.000   0.0  0.000   0.0  0.000 10019  0.123 10041  0.883
+17:38:28.060          377  50079  2.496   1.8 1.19  69.8  21169  1.050 9166.0  9.968 165.3 71.61 236.99    8192   0.0  0.000   0.0  0.000   0.0  0.000  9851  0.124  9893  1.027
+17:38:29.060          378  49434  2.639   1.8 1.20  70.4  20859  1.262 8780.0 10.551 162.9 68.59 231.55    8192   0.0  0.000   0.0  0.000   0.0  0.000  9891  0.124  9904  1.039
+17:38:30.063          379  50102  2.981   1.8 1.20  69.9  21040  1.228 9077.0 12.370 164.3 70.91 235.29    8192   0.0  0.000   0.0  0.000   0.0  0.000 10115  0.123  9870  1.010
+17:38:31.063          380  49346  2.528   1.7 1.15  69.9  20596  1.270 8849.0  9.884 160.9 69.13 230.04    8192   0.0  0.000   0.0  0.000   0.0  0.000  9914  0.124  9987  0.990
+17:38:32.060          381  50090  3.290   1.8 1.19  69.8  20803  1.217 8982.0 14.244 162.5 70.17 232.70    8192   0.0  0.000   0.0  0.000   0.0  0.000 10158  0.123 10147  1.011
+17:38:33.067          382  49992  2.989   1.8 1.16  70.1  21107  1.166 8988.0 12.487 164.9 70.22 235.12    8192   0.0  0.000   0.0  0.000   0.0  0.000  9841  0.125 10056  1.130
+17:38:34.060          383  50053  2.706   1.8 1.21  69.7  20892  1.122 9070.0 10.706 163.2 70.86 234.08    8192   0.0  0.000   0.0  0.000   0.0  0.000 10064  0.128 10027  1.355
+17:38:35.069          384  50507  3.120   1.8 1.16  69.9  21252  1.152 9172.0 12.786 166.0 71.66 237.69    8192   0.0  0.000   0.0  0.000   0.0  0.000  9999  0.121 10084  1.451
+17:38:36.064          385  49850  3.002   1.8 1.16  70.4  21116  1.248 8862.0 12.389 164.9 69.23 234.20    8192   0.0  0.000   0.0  0.000   0.0  0.000 10078  0.124  9794  1.252
+17:38:37.060          386  49760  2.416   1.9 1.21  70.1  21076  1.124 8988.0  9.348 164.6 70.22 234.88    8192   0.0  0.000   0.0  0.000   0.0  0.000  9855  0.123  9841  1.145
+17:38:38.059          387  49953  2.721   1.8 1.20  70.4  21109  1.257 8863.0 10.912 164.9 69.24 234.16    8192   0.0  0.000   0.0  0.000   0.0  0.000  9947  0.126 10034  1.139
+17:38:39.063          388  49833  2.592   1.8 1.19  70.4  21151  1.189 8907.0 10.250 165.2 69.59 234.83    8192   0.0  0.000   0.0  0.000   0.0  0.000  9882  0.145  9893  1.138
+17:38:40.060          389  49738  3.408   1.9 1.22  70.0  21027  1.230 9029.0 14.579 164.2 70.54 234.81    8192   0.0  0.000   0.0  0.000   0.0  0.000  9799  0.124  9883  1.092
+17:38:41.059          390  50329  3.069   1.8 1.18  70.3  21206  1.369 8965.0 12.362 165.6 70.04 235.71    8192   0.0  0.000   0.0  0.000   0.0  0.000 10139  0.186 10019  1.273
+
+Apr 10, 2020 ..Interval.. .ReqstdOps... ...cpu%...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...create... ....open.... ...close.... ..getattr... ..setattr...
+                            rate   resp total  sys   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+17:38:42.062          391  49883  2.430   1.8 1.22  70.6  21121  1.180 8787.0  9.511 165.0 68.65 233.66    8192   0.0  0.000   0.0  0.000   0.0  0.000  9931  0.126 10044  1.143
+17:38:43.060          392  50490  2.774   1.8 1.22  70.2  21218  1.169 9017.0 11.462 165.7 70.45 236.21    8192   0.0  0.000   0.0  0.000   0.0  0.000 10119  0.127 10136  1.050
+17:38:44.059          393  49877  2.980   1.9 1.18  70.0  21021  1.165 9012.0 12.680 164.2 70.41 234.64    8192   0.0  0.000   0.0  0.000   0.0  0.000  9748  0.124 10096  0.859
+17:38:45.062          394  50261  2.569   1.8 1.22  69.9  21213  1.089 9120.0 10.550 165.7 71.25 236.98    8192   0.0  0.000   0.0  0.000   0.0  0.000  9950  0.125  9978  0.858
+17:38:46.058          395  50327  2.747   1.9 1.23  69.9  21074  1.187 9090.0 11.359 164.6 71.02 235.66    8192   0.0  0.000   0.0  0.000   0.0  0.000 10136  0.127 10027  0.863
+17:38:47.063          396  49615  2.562   1.8 1.18  69.7  20691  1.084 8984.0 10.563 161.6 70.19 231.84    8192   0.0  0.000   0.0  0.000   0.0  0.000 10000  0.126  9940  0.857
+17:38:48.065          397  49789  2.940   1.8 1.21  70.4  20948  1.039 8823.0 13.014 163.6 68.93 232.59    8192   0.0  0.000   0.0  0.000   0.0  0.000 10062  0.123  9956  0.863
+17:38:49.061          398  50010  3.036   1.8 1.22  69.9  21047  1.143 9083.0 12.976 164.4 70.96 235.39    8192   0.0  0.000   0.0  0.000   0.0  0.000  9992  0.131  9888  0.872
+17:38:50.060          399  50065  2.596   1.9 1.24  69.6  20862  1.324 9114.0 10.139 162.9 71.20 234.19    8192   0.0  0.000   0.0  0.000   0.0  0.000 10012  0.128 10077  0.860
+17:38:51.072          400  50406  2.638   1.9 1.23  69.6  21158  1.145 9225.0 10.729 165.3 72.07 237.37    8192   0.0  0.000   0.0  0.000   0.0  0.000 10054  0.125  9969  0.852
+17:38:52.060          401  49773  2.841   1.8 1.21  69.8  20953  1.025 9069.0 12.160 163.7 70.85 234.55    8192   0.0  0.000   0.0  0.000   0.0  0.000  9939  0.127  9812  0.854
+17:38:53.062          402  50023  2.689   1.8 1.17  69.9  20954  1.139 9044.0 11.143 163.7 70.66 234.36    8192   0.0  0.000   0.0  0.000   0.0  0.000  9875  0.124 10150  0.853
+17:38:54.064          403  49884  2.488   2.4 1.26  70.0  20923  1.135 8982.0 10.105 163.4 70.17 233.63    8192   0.0  0.000   0.0  0.000   0.0  0.000 10065  0.123  9914  0.845
+17:38:55.058          404  49810  2.835   1.9 1.19  69.6  20799  1.149 9083.0 11.834 162.4 70.96 233.45    8192   0.0  0.000   0.0  0.000   0.0  0.000  9890  0.122 10038  0.857
+17:38:56.058          405  50163  3.167   1.8 1.16  69.8  21013  1.318 9077.0 13.363 164.1 70.91 235.08    8192   0.0  0.000   0.0  0.000   0.0  0.000 10023  0.124 10050  0.858
+17:38:57.058          406  49824  3.039   1.8 1.20  70.0  20936  1.179 8963.0 13.064 163.5 70.02 233.59    8192   0.0  0.000   0.0  0.000   0.0  0.000  9905  0.121 10020  0.843
+17:38:58.059          407  50257  2.726   1.8 1.19  70.1  21084  1.227 9005.0 11.222 164.7 70.36 235.08    8192   0.0  0.000   0.0  0.000   0.0  0.000 10021  0.127 10147  0.869
+17:38:59.057          408  49653  2.592   1.8 1.16  69.9  20845  1.217 8982.0 10.415 162.8 70.17 233.02    8192   0.0  0.000   0.0  0.000   0.0  0.000  9836  0.123  9990  0.858
+17:39:00.058          409  49673  2.840   1.9 1.24  69.9  20793  1.125 8970.0 12.038 162.4 70.08 232.52    8192   0.0  0.000   0.0  0.000   0.0  0.000  9952  0.125  9958  0.849
+17:39:01.057          410  50012  2.726   1.8 1.19  70.2  20950  1.142 8913.0 11.481 163.6 69.63 233.30    8192   0.0  0.000   0.0  0.000   0.0  0.000 10089  0.128 10060  0.873
+17:39:02.058          411  50234  2.232   1.9 1.27  70.2  21061  1.128 8935.0  8.752 164.5 69.80 234.34    8192   0.0  0.000   0.0  0.000   0.0  0.000 10186  0.128 10052  0.881
+17:39:03.059          412  49913  2.740   1.8 1.18  70.2  21021  1.150 8922.0 11.428 164.2 69.70 233.93    8192   0.0  0.000   0.0  0.000   0.0  0.000 10007  0.125  9963  0.944
+17:39:04.058          413  49624  3.356   1.8 1.15  69.9  20698  1.146 8927.0 14.577 161.7 69.74 231.45    8192   0.0  0.000   0.0  0.000   0.0  0.000  9865  0.122 10134  1.133
+17:39:05.058          414  49809  2.832   1.8 1.20  69.7  20873  1.204 9095.0 11.397 163.0 71.05 234.12    8192   0.0  0.000   0.0  0.000   0.0  0.000 10042  0.124  9799  1.127
+17:39:06.060          415  49016  2.633   1.9 1.19  70.3  20488  1.237 8637.0 10.668 160.0 67.47 227.53    8191   0.0  0.000   0.0  0.000   0.0  0.000 10063  0.124  9828  1.052
+17:39:07.071          416  50105  2.872   1.7 1.15  70.1  21280  1.259 9073.0 11.702 166.2 70.88 237.13    8192   0.0  0.000   0.0  0.000   0.0  0.000 10020  0.123  9732  0.996
+17:39:08.061          417  49602  2.972   1.9 1.19  69.7  20595  1.204 8969.0 12.373 160.9 70.07 230.98    8192   0.0  0.000   0.0  0.000   0.0  0.000  9999  0.125 10039  1.035
+17:39:09.059          418  49919  3.366   1.7 1.15  70.0  20894  1.217 8937.0 14.588 163.2 69.82 233.05    8192   0.0  0.000   0.0  0.000   0.0  0.000 10002  0.142 10086  1.071
+17:39:10.061          419  50392  2.748   1.8 1.20  69.8  21163  1.235 9146.0 10.991 165.3 71.45 236.79    8192   0.0  0.000   0.0  0.000   0.0  0.000 10097  0.126  9986  1.057
+17:39:11.063          420  49759  2.573   1.9 1.25  69.9  20884  1.336 8990.0  9.705 163.1 70.23 233.39    8192   0.0  0.000   0.0  0.000   0.0  0.000  9910  0.184  9975  1.110
+
+Apr 10, 2020 ..Interval.. .ReqstdOps... ...cpu%...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...create... ....open.... ...close.... ..getattr... ..setattr...
+                            rate   resp total  sys   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+17:39:12.059          421  49997  2.988   1.8 1.19  69.9  20938  1.069 9020.0 12.967 163.5 70.47 234.05    8192   0.0  0.000   0.0  0.000   0.0  0.000  9951  0.138 10088  0.858
+17:39:13.063          422  50542  2.998   1.7 1.14  70.1  21354  1.275 9122.0 12.548 166.8 71.27 238.09    8192   0.0  0.000   0.0  0.000   0.0  0.000 10088  0.131  9978  0.852
+17:39:14.057          423  50458  2.343   1.9 1.26  69.6  21107  1.092 9233.0  9.138 164.9 72.13 237.04    8192   0.0  0.000   0.0  0.000   0.0  0.000 10181  0.153  9937  0.929
+17:39:15.062          424  50062  2.548   1.9 1.24  70.4  21140  1.065 8870.0 10.662 165.1 69.30 234.45    8192   0.0  0.000   0.0  0.000   0.0  0.000 10184  0.165  9868  0.892
+17:39:16.059          425  50215  2.816   1.8 1.22  70.5  21074  1.190 8838.0 11.967 164.6 69.05 233.68    8191   0.0  0.000   0.0  0.000   0.0  0.000 10066  0.157 10237  0.878
+17:39:17.062          426  50305  3.183   1.9 1.27  70.1  21177  1.218 9025.0 13.769 165.4 70.51 235.95    8192   0.0  0.000   0.0  0.000   0.0  0.000 10042  0.143 10061  0.857
+17:39:18.063          427  50239  2.155   1.8 1.18  69.3  20953  1.053 9293.0  8.206 163.7 72.60 236.30    8192   0.0  0.000   0.0  0.000   0.0  0.000 10075  0.135  9918  0.864
+17:39:19.060          428  49401  2.654   1.8 1.17  70.1  20513  1.080 8760.0 11.276 160.2 68.44 228.70    8192   0.0  0.000   0.0  0.000   0.0  0.000 10013  0.129 10115  0.880
+17:39:20.063          429  50492  3.483   1.9 1.22  70.2  21395  1.127 9086.0 15.544 167.1 70.98 238.13    8192   0.0  0.000   0.0  0.000   0.0  0.000  9966  0.124 10045  0.925
+17:39:21.058          430  50051  3.056   1.8 1.19  70.5  21225  1.250 8876.0 13.030 165.8 69.34 235.16    8192   0.0  0.000   0.0  0.000   0.0  0.000  9984  0.131  9966  0.948
+17:39:22.058          431  49886  2.734   1.9 1.23  70.0  21017  1.300 9010.0 10.632 164.2 70.39 234.59    8192   0.0  0.000   0.0  0.000   0.0  0.000  9872  0.124  9987  1.206
+17:39:23.063          432  50354  2.848   1.8 1.21  70.3  21197  1.206 8974.0 11.709 165.6 70.11 235.71    8192   0.0  0.000   0.0  0.000   0.0  0.000 10200  0.123  9983  1.157
+17:39:24.066          433  50386  2.953   1.8 1.21  70.4  21262  1.074 8924.0 12.922 166.1 69.72 235.83    8192   0.0  0.000   0.0  0.000   0.0  0.000 10054  0.125 10146  0.923
+17:39:25.067          434  50222  3.022   1.8 1.21  69.7  21045  1.135 9143.0 12.839 164.4 71.43 235.84    8192   0.0  0.000   0.0  0.000   0.0  0.000 10040  0.122  9994  0.928
+17:39:26.061          435  50184  2.628   1.9 1.22  69.8  21124  1.185 9159.0 10.378 165.0 71.55 236.59    8192   0.0  0.000   0.0  0.000   0.0  0.000  9930  0.123  9971  1.063
+17:39:27.059          436  50120  2.374   1.8 1.21  70.0  21078  1.107 9051.0  9.392 164.6 70.71 235.38    8192   0.0  0.000   0.0  0.000   0.0  0.000 10093  0.125  9898  0.951
+17:39:28.061          437  49693  2.952   1.8 1.19  70.2  20958  1.086 8877.0 12.765 163.7 69.35 233.09    8192   0.0  0.000   0.0  0.000   0.0  0.000  9697  0.128 10161  0.924
+17:39:29.063          438  49891  3.199   1.8 1.14  70.6  21139  1.153 8822.0 14.233 165.1 68.92 234.07    8192   0.0  0.000   0.0  0.000   0.0  0.000  9945  0.121  9985  0.848
+17:39:30.066          439  49939  2.496   1.9 1.18  70.5  21266  1.253 8894.0  9.932 166.1 69.48 235.62    8192   0.0  0.000   0.0  0.000   0.0  0.000  9916  0.122  9863  0.857
+17:39:31.064          440  50073  2.490   1.8 1.21  70.2  21075  1.146 8933.0 10.127 164.6 69.79 234.44    8192   0.0  0.000   0.0  0.000   0.0  0.000 10050  0.128 10015  0.875
+17:39:32.076          441  49668  2.810   1.8 1.17  70.2  20963  1.067 8908.0 12.054 163.7 69.59 233.37    8192   0.0  0.000   0.0  0.000   0.0  0.000  9883  0.124  9914  0.865
+17:39:33.069          442  50151  3.031   1.8 1.16  70.4  21104  1.166 8853.0 13.290 164.8 69.16 234.04    8192   0.0  0.000   0.0  0.000   0.0  0.000 10162  0.121 10032  0.847
+17:39:34.061          443  50282  2.931   1.9 1.24  69.9  20970  1.092 9022.0 12.685 163.8 70.48 234.31    8192   0.0  0.000   0.0  0.000   0.0  0.000 10180  0.127 10110  0.864
+17:39:35.065          444  49984  2.298   1.8 1.18  70.3  21234  1.140 8975.0  8.991 165.8 70.12 236.01    8192   0.0  0.000   0.0  0.000   0.0  0.000  9839  0.128  9936  0.878
+17:39:36.062          445  49427  2.972   1.8 1.16  70.2  20709  1.219 8800.0 12.706 161.7 68.75 230.54    8192   0.0  0.000   0.0  0.000   0.0  0.000  9925  0.125  9993  0.859
+17:39:37.057          446  50331  3.470   1.8 1.20  69.7  21062  1.140 9171.0 15.369 164.5 71.65 236.20    8192   0.0  0.000   0.0  0.000   0.0  0.000 10149  0.121  9949  0.848
+17:39:38.061          447  50272  2.738   1.8 1.19  70.1  21189  1.165 9050.0 11.406 165.5 70.70 236.23    8191   0.0  0.000   0.0  0.000   0.0  0.000 10057  0.120  9976  0.854
+17:39:39.068          448  50352  2.586   1.7 1.16  69.8  21168  1.285 9161.0 10.098 165.3 71.57 236.95    8192   0.0  0.000   0.0  0.000   0.0  0.000 10014  0.144 10009  0.907
+17:39:40.063          449  50037  2.581   2.0 1.29  70.2  21078  1.110 8966.0 10.698 164.6 70.05 234.73    8192   0.0  0.000   0.0  0.000   0.0  0.000  9965  0.123 10028  0.860
+17:39:41.061          450  50207  3.156   1.8 1.20  69.7  21150  1.289 9188.0 12.966 165.2 71.78 237.02    8192   0.0  0.000   0.0  0.000   0.0  0.000  9884  0.204  9985  1.003
+
+Apr 10, 2020 ..Interval.. .ReqstdOps... ...cpu%...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...create... ....open.... ...close.... ..getattr... ..setattr...
+                            rate   resp total  sys   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+17:39:42.060          451  49592  2.785   1.8 1.17  70.0  20785  1.124 8893.0 11.809 162.3 69.48 231.86    8192   0.0  0.000   0.0  0.000   0.0  0.000  9912  0.125 10002  0.851
+17:39:43.061          452  49969  2.660   1.8 1.20  69.4  20821  1.199 9173.0 10.707 162.6 71.66 234.33    8192   0.0  0.000   0.0  0.000   0.0  0.000  9994  0.124  9981  0.850
+17:39:44.060          453  49956  2.826   1.8 1.18  69.8  20828  1.131 9000.0 11.947 162.7 70.31 233.02    8191   0.0  0.000   0.0  0.000   0.0  0.000 10143  0.127  9985  0.879
+17:39:45.059          454  50159  3.020   1.8 1.20  70.0  21162  1.197 9072.0 12.815 165.3 70.88 236.20    8192   0.0  0.000   0.0  0.000   0.0  0.000  9890  0.123 10035  0.863
+17:39:46.063          455  50093  2.885   1.8 1.19  70.3  21042  1.171 8901.0 12.379 164.3 69.54 233.93    8192   0.0  0.000   0.0  0.000   0.0  0.000 10168  0.122  9982  0.847
+17:39:47.063          456  50537  2.429   1.8 1.19  69.9  21310  1.068 9181.0  9.821 166.4 71.73 238.20    8191   0.0  0.000   0.0  0.000   0.0  0.000  9891  0.122 10155  0.849
+17:39:48.061          457  49738  2.298   1.9 1.22  70.3  20969  1.142 8871.0  9.078 163.8 69.30 233.12    8192   0.0  0.000   0.0  0.000   0.0  0.000  9967  0.126  9931  0.862
+17:39:49.062          458  49837  2.973   1.8 1.18  70.6  20855  1.042 8693.0 13.398 162.9 67.91 230.84    8192   0.0  0.000   0.0  0.000   0.0  0.000 10191  0.128 10098  0.858
+17:39:50.062          459  49633  2.888   1.9 1.21  69.8  20602  1.035 8926.0 12.568 160.9 69.73 230.69    8192   0.0  0.000   0.0  0.000   0.0  0.000  9940  0.122 10165  0.850
+17:39:51.062          460  49914  2.517   1.9 1.23  69.6  20929  1.102 9156.0 10.140 163.5 71.53 235.04    8192   0.0  0.000   0.0  0.000   0.0  0.000  9903  0.125  9926  0.856
+17:39:52.063          461  49547  2.802   1.9 1.21  69.5  20753  1.150 9109.0 11.559 162.1 71.16 233.30    8192   0.0  0.000   0.0  0.000   0.0  0.000  9791  0.126  9894  0.855
+17:39:53.070          462  49770  3.252   1.8 1.17  69.9  20861  1.128 8983.0 14.304 162.9 70.18 233.16    8192   0.0  0.000   0.0  0.000   0.0  0.000  9990  0.128  9936  0.858
+17:39:54.067          463  50037  2.861   1.8 1.19  69.5  20954  1.217 9194.0 11.725 163.7 71.83 235.53    8192   0.0  0.000   0.0  0.000   0.0  0.000 10002  0.125  9887  0.867
+17:39:55.066          464  49880  2.898   1.9 1.22  70.1  20913  1.154 8938.0 12.370 163.3 69.83 233.21    8192   0.0  0.000   0.0  0.000   0.0  0.000 10057  0.127  9972  0.863
+17:39:56.060          465  50573  2.480   1.8 1.22  70.1  21474  1.188 9166.0  9.850 167.7 71.60 239.37    8191   0.0  0.000   0.0  0.000   0.0  0.000 10122  0.124  9811  0.854
+17:39:57.058          466  49516  2.862   1.8 1.15  70.7  21019  1.095 8714.0 12.523 164.2 68.08 232.29    8192   0.0  0.000   0.0  0.000   0.0  0.000  9969  0.126  9814  0.849
+17:39:58.062          467  50141  2.838   1.9 1.22  70.6  21252  1.094 8869.0 12.313 166.0 69.29 235.32    8192   0.0  0.000   0.0  0.000   0.0  0.000 10053  0.125  9967  0.863
+17:39:59.058          468  50214  2.349   1.8 1.19  70.1  21131  1.046 9004.0  9.451 165.0 70.34 235.43    8192   0.0  0.000   0.0  0.000   0.0  0.000 10019  0.126 10060  0.946
+17:40:00.061          469  49477  2.868   1.9 1.20  70.2  20739  1.194 8784.0 11.982 162.0 68.62 230.65    8192   0.0  0.000   0.0  0.000   0.0  0.000  9925  0.124 10029  1.061
+17:40:01.060          470  49796  3.123   1.8 1.19  70.1  20728  1.208 8861.0 13.367 161.9 69.23 231.17    8192   0.0  0.000   0.0  0.000   0.0  0.000 10136  0.123 10071  1.073
+17:40:02.059          471  50363  2.776   1.9 1.25  69.4  20877  1.124 9189.0 11.364 163.1 71.79 234.90    8192   0.0  0.000   0.0  0.000   0.0  0.000 10223  0.124 10074  1.058
+17:40:03.063          472  49669  2.904   1.9 1.24  70.1  20771  1.233 8863.0 12.036 162.2 69.24 231.52    8192   0.0  0.000   0.0  0.000   0.0  0.000 10091  0.129  9944  1.070
+17:40:04.059          473  50268  3.089   1.8 1.16  70.0  21253  1.185 9094.0 13.032 166.0 71.05 237.09    8192   0.0  0.000   0.0  0.000   0.0  0.000  9982  0.123  9939  1.041
+17:40:05.058          474  49694  2.380   1.9 1.24  70.2  20937  1.217 8894.0  9.027 163.5 69.48 233.05    8192   0.0  0.000   0.0  0.000   0.0  0.000  9921  0.133  9942  1.128
+17:40:06.058          475  49222  3.345   1.9 1.22  70.0  20652  1.219 8861.0 14.528 161.3 69.23 230.57    8192   0.0  0.000   0.0  0.000   0.0  0.000  9770  0.128  9939  0.953
+17:40:07.060          476  49933  2.821   1.8 1.19  69.9  21004  1.148 9063.0 11.719 164.0 70.80 234.90    8192   0.0  0.000   0.0  0.000   0.0  0.000  9992  0.126  9874  0.937
+17:40:08.059          477  50236  3.311   1.8 1.19  69.4  20917  1.235 9224.0 14.108 163.4 72.06 235.48    8192   0.0  0.000   0.0  0.000   0.0  0.000 10155  0.126  9940  0.915
+17:40:09.060          478  50280  2.974   1.8 1.24  69.8  21228  1.164 9167.0 12.375 165.8 71.61 237.45    8191   0.0  0.000   0.0  0.000   0.0  0.000  9953  0.159  9932  0.988
+17:40:10.057          479  49824  3.262   1.8 1.16  69.9  21100  1.181 9065.0 13.875 164.8 70.82 235.66    8192   0.0  0.000   0.0  0.000   0.0  0.000  9849  0.126  9810  1.081
+17:40:11.059          480  49961  2.802   1.8 1.17  70.4  21159  1.348 8896.0 11.075 165.3 69.50 234.80    8192   0.0  0.000   0.0  0.000   0.0  0.000 10062  0.186  9844  1.123
+
+Apr 10, 2020 ..Interval.. .ReqstdOps... ...cpu%...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...create... ....open.... ...close.... ..getattr... ..setattr...
+                            rate   resp total  sys   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+17:40:12.061          481  50139  2.581   1.9 1.28  70.4  21209  1.136 8913.0 10.571 165.7 69.63 235.33    8192   0.0  0.000   0.0  0.000   0.0  0.000 10035  0.133  9982  0.976
+17:40:13.060          482  49989  2.939   1.8 1.17  70.2  21007  1.111 8924.0 12.744 164.1 69.72 233.84    8192   0.0  0.000   0.0  0.000   0.0  0.000 10066  0.133  9992  0.853
+17:40:14.060          483  49600  2.559   1.8 1.20  70.4  20918  1.076 8782.0 10.751 163.4 68.61 232.03    8192   0.0  0.000   0.0  0.000   0.0  0.000  9897  0.136 10003  0.867
+17:40:15.058          484  50019  3.296   1.9 1.26  69.9  21097  1.100 9106.0 14.416 164.8 71.14 235.96    8192   0.0  0.000   0.0  0.000   0.0  0.000  9872  0.158  9944  0.886
+17:40:16.059          485  50147  2.707   1.8 1.21  70.0  21134  1.184 9062.0 11.049 165.1 70.80 235.91    8192   0.0  0.000   0.0  0.000   0.0  0.000 10049  0.165  9902  0.901
+17:40:17.061          486  49740  3.324   1.8 1.19  70.1  20851  1.135 8910.0 14.739 162.9 69.61 232.51    8192   0.0  0.000   0.0  0.000   0.0  0.000  9872  0.151 10107  0.877
+17:40:18.060          487  49958  3.038   1.9 1.25  69.7  21038  1.170 9149.0 12.831 164.3 71.48 235.84    8192   0.0  0.000   0.0  0.000   0.0  0.000  9849  0.138  9922  0.851
+17:40:19.057          488  49751  2.948   1.7 1.17  70.1  20967  1.140 8939.0 12.643 163.8 69.84 233.64    8192   0.0  0.000   0.0  0.000   0.0  0.000  9900  0.129  9945  0.852
+17:40:20.059          489  50333  2.795   1.9 1.24  70.3  21154  1.067 8950.0 12.095 165.2 69.92 235.19    8192   0.0  0.000   0.0  0.000   0.0  0.000 10258  0.125  9971  0.860
+17:40:21.060          490  49607  2.326   2.0 1.24  70.3  20955  1.102 8841.0  9.311 163.7 69.07 232.78    8192   0.0  0.000   0.0  0.000   0.0  0.000  9791  0.126 10020  0.872
+17:40:22.057          491  49765  2.569   1.9 1.20  70.4  20828  1.083 8770.0 10.843 162.7 68.52 231.23    8192   0.0  0.000   0.0  0.000   0.0  0.000 10126  0.132 10041  0.883
+17:40:23.060          492  49969  2.783   1.8 1.21  69.8  20804  1.041 8999.0 11.954 162.5 70.30 232.84    8192   0.0  0.000   0.0  0.000   0.0  0.000 10152  0.124 10014  0.858
+17:40:24.058          493  50335  2.872   1.8 1.19  69.8  21078  1.195 9116.0 12.020 164.6 71.22 235.89    8192   0.0  0.000   0.0  0.000   0.0  0.000 10102  0.123 10039  0.852
+17:40:25.056          494  49899  2.675   1.8 1.18  69.9  20955  1.128 9040.0 11.061 163.7 70.62 234.34    8192   0.0  0.000   0.0  0.000   0.0  0.000  9990  0.125  9914  0.868
+17:40:26.059          495  49767  3.358   1.8 1.22  70.2  20794  1.320 8823.0 14.724 162.4 68.94 231.39    8192   0.0  0.000   0.0  0.000   0.0  0.000 10125  0.123 10025  0.848
+17:40:27.061          496  50047  2.969   1.7 1.18  69.5  21040  1.187 9216.0 12.364 164.3 72.00 236.38    8192   0.0  0.000   0.0  0.000   0.0  0.000  9998  0.123  9793  0.860
+17:40:28.067          497  50228  2.813   1.8 1.20  69.7  21073  1.281 9181.0 11.352 164.6 71.73 236.36    8192   0.0  0.000   0.0  0.000   0.0  0.000  9959  0.126 10015  0.879
+17:40:29.064          498  50180  2.340   1.9 1.26  69.9  21028  1.127 9049.0  9.261 164.2 70.70 234.98    8192   0.0  0.000   0.0  0.000   0.0  0.000 10110  0.124  9993  0.866
+17:40:30.058          499  50047  2.685   1.8 1.16  70.4  21123  1.120 8864.0 11.383 165.0 69.25 234.27    8192   0.0  0.000   0.0  0.000   0.0  0.000 10081  0.124  9979  0.861
+17:40:31.061          500  50136  3.432   1.7 1.12  70.3  21154  1.260 8935.0 15.096 165.2 69.80 235.07    8192   0.0  0.000   0.0  0.000   0.0  0.000 10069  0.122  9978  0.931
+17:40:32.065          501  50684  2.761   1.9 1.29  70.0  21341  1.172 9136.0 11.337 166.7 71.38 238.10    8192   0.0  0.000   0.0  0.000   0.0  0.000 10093  0.125 10114  0.996
+17:40:33.059          502  49352  2.815   1.7 1.15  70.5  20977  1.190 8770.0 11.741 163.8 68.52 232.40    8192   0.0  0.000   0.0  0.000   0.0  0.000  9660  0.123  9945  0.985
+17:40:34.057          503  50073  3.251   1.8 1.15  70.2  21022  1.194 8930.0 14.150 164.2 69.77 234.00    8192   0.0  0.000   0.0  0.000   0.0  0.000  9982  0.122 10139  0.997
+17:40:35.065          504  50003  3.451   1.9 1.24  71.1  21238  1.223 8641.0 15.649 165.9 67.51 233.43    8192   0.0  0.000   0.0  0.000   0.0  0.000 10057  0.125 10067  1.001
+17:40:36.063          505  50062  2.578   1.8 1.13  70.2  21141  1.177 8959.0 10.356 165.1 69.99 235.16    8192   0.0  0.000   0.0  0.000   0.0  0.000 10053  0.128  9909  1.019
+17:40:37.061          506  49787  2.964   1.8 1.22  70.3  21007  1.384 8889.0 12.074 164.1 69.45 233.56    8192   0.0  0.000   0.0  0.000   0.0  0.000  9907  0.123  9984  0.996
+17:40:38.065          507  49967  2.270   1.9 1.26  70.1  21012  1.226 8948.0  8.641 164.1 69.91 234.07    8192   0.0  0.000   0.0  0.000   0.0  0.000 10022  0.125  9985  0.912
+17:40:39.065          508  49661  3.273   1.7 1.13  70.1  20912  1.134 8939.0 14.324 163.3 69.84 233.21    8192   0.0  0.000   0.0  0.000   0.0  0.000  9983  0.142  9827  0.954
+17:40:40.061          509  49794  3.237   1.9 1.23  69.9  20896  1.164 8981.0 14.038 163.2 70.16 233.41    8191   0.0  0.000   0.0  0.000   0.0  0.000  9997  0.124  9920  0.959
+17:40:41.060          510  50533  2.666   1.9 1.19  70.0  21153  1.263 9068.0 10.503 165.2 70.84 236.10    8192   0.0  0.000   0.0  0.000   0.0  0.000 10076  0.189 10236  1.060
+
+Apr 10, 2020 ..Interval.. .ReqstdOps... ...cpu%...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...create... ....open.... ...close.... ..getattr... ..setattr...
+                            rate   resp total  sys   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+17:40:42.063          511  49657  2.781   1.8 1.17  69.9  20727  1.145 8916.0 11.632 161.9 69.66 231.59    8192   0.0  0.000   0.0  0.000   0.0  0.000  9947  0.125 10067  0.938
+17:40:43.060          512  50026  3.164   1.8 1.20  69.8  20979  1.139 9086.0 13.709 163.9 70.98 234.88    8192   0.0  0.000   0.0  0.000   0.0  0.000 10034  0.128  9927  0.861
+17:40:44.059          513  49628  3.233   1.8 1.19  69.8  20866  1.115 9008.0 14.160 163.0 70.38 233.38    8191   0.0  0.000   0.0  0.000   0.0  0.000  9875  0.124  9879  0.848
+17:40:45.062          514  50380  2.640   1.8 1.16  69.9  21156  1.170 9104.0 10.809 165.2 71.12 236.41    8192   0.0  0.000   0.0  0.000   0.0  0.000 10092  0.123 10028  0.859
+17:40:46.061          515  49873  1.982   1.9 1.27  70.2  20825  1.105 8830.0  7.460 162.6 68.98 231.67    8191   0.0  0.000   0.0  0.000   0.0  0.000 10099  0.126 10119  0.857
+17:40:47.060          516  50155  2.885   1.8 1.22  69.6  20896  1.145 9125.0 12.157 163.2 71.29 234.55    8192   0.0  0.000   0.0  0.000   0.0  0.000 10021  0.125 10113  0.852
+17:40:48.064          517  49864  3.219   1.7 1.12  70.0  21035  1.103 9033.0 14.144 164.3 70.57 234.91    8192   0.0  0.000   0.0  0.000   0.0  0.000  9870  0.123  9926  0.842
+17:40:49.067          518  49514  2.583   1.9 1.24  69.9  20585  1.125 8857.0 10.714 160.8 69.20 230.02    8192   0.0  0.000   0.0  0.000   0.0  0.000 10084  0.126  9988  0.858
+17:40:50.066          519  50299  2.437   1.8 1.19  70.4  21221  1.227 8917.0  9.705 165.7 69.66 235.45    8192   0.0  0.000   0.0  0.000   0.0  0.000  9997  0.126 10164  0.859
+17:40:51.059          520  49603  3.086   1.8 1.19  70.3  20770  1.399 8785.0 12.984 162.2 68.63 230.90    8192   0.0  0.000   0.0  0.000   0.0  0.000  9915  0.125 10133  0.860
+17:40:52.060          521  49931  3.759   1.8 1.23  69.7  20857  1.253 9058.0 16.756 162.9 70.77 233.71    8192   0.0  0.000   0.0  0.000   0.0  0.000  9919  0.123 10097  0.846
+17:40:53.060          522  50022  2.865   1.7 1.13  69.8  21081  1.183 9102.0 11.946 164.7 71.11 235.80    8192   0.0  0.000   0.0  0.000   0.0  0.000  9994  0.123  9845  0.855
+17:40:54.062          523  50067  2.210   1.9 1.24  69.8  21056  1.129 9095.0  8.452 164.5 71.05 235.55    8192   0.0  0.000   0.0  0.000   0.0  0.000  9891  0.129 10025  0.871
+17:40:55.056          524  49807  2.552   2.0 1.30  69.8  20889  1.072 9034.0 10.507 163.2 70.58 233.77    8192   0.0  0.000   0.0  0.000   0.0  0.000  9938  0.128  9946  0.857
+17:40:56.061          525  49793  3.299   1.8 1.15  70.2  20893  1.230 8881.0 14.515 163.2 69.38 232.61    8192   0.0  0.000   0.0  0.000   0.0  0.000 10092  0.123  9927  0.846
+17:40:57.061          526  49893  3.258   1.9 1.23  70.1  21015  1.105 8959.0 14.479 164.1 69.99 234.17    8192   0.0  0.000   0.0  0.000   0.0  0.000  9957  0.124  9962  0.843
+17:40:58.060          527  50213  2.358   1.9 1.27  69.8  21131  1.095 9144.0  9.350 165.0 71.44 236.52    8192   0.0  0.000   0.0  0.000   0.0  0.000 10090  0.128  9848  0.860
+17:40:59.059          528  50091  2.441   1.8 1.15  70.0  21117  1.187 9056.0  9.606 164.9 70.75 235.73    8192   0.0  0.000   0.0  0.000   0.0  0.000  9962  0.136  9956  0.892
+17:41:00.058          529  49594  3.209   1.8 1.21  70.0  20719  1.152 8886.0 14.130 161.8 69.42 231.29    8192   0.0  0.000   0.0  0.000   0.0  0.000  9972  0.124 10017  0.848
+17:41:01.059          530  50300  3.526   1.8 1.19  69.8  21066  1.332 9094.0 15.338 164.5 71.05 235.62    8192   0.0  0.000   0.0  0.000   0.0  0.000 10081  0.125 10059  0.851
+17:41:02.058          531  50279  3.231   1.8 1.18  69.6  21149  1.279 9250.0 13.580 165.2 72.27 237.49    8192   0.0  0.000   0.0  0.000   0.0  0.000  9947  0.125  9933  0.862
+17:41:03.058          532  49959  2.181   1.9 1.25  69.8  20785  1.148 9007.0  8.331 162.3 70.37 232.75    8192   0.0  0.000   0.0  0.000   0.0  0.000  9999  0.127 10168  0.865
+17:41:04.058          533  49677  2.948   1.8 1.19  69.9  20751  1.115 8952.0 12.691 162.1 69.94 232.05    8192   0.0  0.000   0.0  0.000   0.0  0.000 10056  0.124  9918  0.851
+17:41:05.057          534  49984  2.948   1.7 1.15  69.5  20881  1.088 9153.0 12.554 163.1 71.51 234.64    8192   0.0  0.000   0.0  0.000   0.0  0.000  9882  0.125 10068  0.846
+17:41:06.059          535  50294  2.883   1.9 1.23  69.5  21076  1.421 9239.0 11.385 164.6 72.18 236.84    8192   0.0  0.000   0.0  0.000   0.0  0.000 10041  0.125  9938  0.867
+17:41:07.063          536  50080  2.350   1.8 1.18  70.1  21042  1.207 8976.0  9.171 164.3 70.12 234.52    8192   0.0  0.000   0.0  0.000   0.0  0.000 10000  0.124 10062  0.867
+17:41:08.069          537  50226  2.827   1.8 1.20  69.9  21149  1.079 9119.0 12.004 165.2 71.24 236.47    8192   0.0  0.000   0.0  0.000   0.0  0.000  9955  0.121 10003  0.850
+17:41:09.076          538  49644  2.855   1.8 1.21  70.0  20776  1.156 8896.0 12.084 162.3 69.50 231.81    8192   0.0  0.000   0.0  0.000   0.0  0.000  9903  0.138 10069  0.880
+17:41:10.064          539  50206  3.230   1.8 1.17  70.0  21273  1.152 9096.0 14.063 166.2 71.06 237.26    8192   0.0  0.000   0.0  0.000   0.0  0.000  9835  0.123 10002  0.853
+17:41:11.060          540  49920  2.503   1.8 1.16  70.0  21001  1.268 9009.0  9.576 164.0 70.38 234.45    8192   0.0  0.000   0.0  0.000   0.0  0.000  9928  0.196  9982  1.014
+
+Apr 10, 2020 ..Interval.. .ReqstdOps... ...cpu%...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...create... ....open.... ...close.... ..getattr... ..setattr...
+                            rate   resp total  sys   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+17:41:12.060          541  49819  2.777   1.8 1.21  69.7  20925  1.137 9083.0 11.539 163.4 70.96 234.44    8192   0.0  0.000   0.0  0.000   0.0  0.000 10023  0.134  9788  0.859
+17:41:13.061          542  49841  2.961   1.8 1.16  69.8  20899  1.151 9049.0 12.577 163.2 70.70 233.97    8192   0.0  0.000   0.0  0.000   0.0  0.000 10011  0.130  9882  0.853
+17:41:14.061          543  50354  2.685   1.9 1.22  69.6  21040  1.149 9176.0 10.985 164.3 71.69 236.07    8192   0.0  0.000   0.0  0.000   0.0  0.000  9987  0.132 10151  0.877
+17:41:15.061          544  50181  2.357   1.9 1.28  70.1  21165  1.061 9022.0  9.489 165.3 70.48 235.84    8192   0.0  0.000   0.0  0.000   0.0  0.000 10036  0.149  9958  0.877
+17:41:16.060          545  50095  2.550   1.8 1.16  69.7  20920  1.179 9079.0 10.185 163.4 70.93 234.37    8192   0.0  0.000   0.0  0.000   0.0  0.000 10084  0.163 10012  0.897
+17:41:17.058          546  49967  3.203   1.8 1.20  70.1  20937  1.156 8951.0 14.001 163.5 69.93 233.50    8192   0.0  0.000   0.0  0.000   0.0  0.000  9989  0.153 10090  0.887
+17:41:18.059          547  50442  2.879   1.9 1.22  69.7  21262  1.163 9224.0 11.964 166.1 72.06 238.17    8192   0.0  0.000   0.0  0.000   0.0  0.000  9944  0.141 10012  0.874
+17:41:19.057          548  49691  2.587   1.8 1.15  70.2  20892  1.067 8885.0 10.821 163.2 69.41 232.63    8192   0.0  0.000   0.0  0.000   0.0  0.000  9883  0.137 10031  0.871
+17:41:20.058          549  50073  2.960   1.8 1.20  69.8  21033  1.134 9113.0 12.561 164.3 71.20 235.52    8192   0.0  0.000   0.0  0.000   0.0  0.000  9879  0.126 10048  0.864
+17:41:21.058          550  49942  3.013   1.9 1.20  70.6  21132  1.471 8793.0 12.472 165.0 68.70 233.79    8192   0.0  0.000   0.0  0.000   0.0  0.000 10099  0.127  9918  0.852
+17:41:22.068          551  50265  3.051   1.8 1.19  70.5  21274  1.206 8883.0 13.257 166.2 69.40 235.60    8192   0.0  0.000   0.0  0.000   0.0  0.000 10014  0.126 10094  0.860
+17:41:23.060          552  50232  2.306   1.8 1.23  69.9  21176  1.128 9112.0  8.994 165.4 71.19 236.62    8192   0.0  0.000   0.0  0.000   0.0  0.000  9904  0.125 10040  0.874
+17:41:24.061          553  50106  2.415   1.9 1.21  70.5  21251  1.271 8872.0  9.483 166.0 69.31 235.34    8192   0.0  0.000   0.0  0.000   0.0  0.000  9964  0.126 10019  0.861
+17:41:25.063          554  49565  3.279   1.7 1.15  69.8  20731  1.104 8973.0 14.485 161.9 70.10 232.06    8192   0.0  0.000   0.0  0.000   0.0  0.000  9931  0.123  9930  0.852
+17:41:26.071          555  49811  3.062   1.9 1.21  70.0  20808  1.225 8902.0 13.166 162.5 69.55 232.11    8192   0.0  0.000   0.0  0.000   0.0  0.000 10094  0.125 10007  0.854
+17:41:27.061          556  49967  2.779   1.8 1.19  70.0  21171  1.189 9073.0 11.468 165.4 70.88 236.28    8192   0.0  0.000   0.0  0.000   0.0  0.000  9899  0.125  9824  0.855
+17:41:28.061          557  49824  3.174   1.7 1.13  69.1  20745  1.190 9264.0 13.300 162.0 72.38 234.45    8192   0.0  0.000   0.0  0.000   0.0  0.000  9883  0.126  9932  0.908
+17:41:29.060          558  49727  2.999   1.8 1.22  69.5  20886  1.179 9161.0 12.486 163.1 71.57 234.74    8192   0.0  0.000   0.0  0.000   0.0  0.000  9713  0.124  9967  0.895
+17:41:30.062          559  50019  2.945   1.8 1.18  69.5  20879  1.238 9154.0 12.132 163.1 71.52 234.62    8191   0.0  0.000   0.0  0.000   0.0  0.000  9961  0.125 10025  0.913
+17:41:31.064          560  50269  2.899   1.8 1.19  69.2  20832  1.269 9261.0 11.758 162.7 72.35 235.10    8192   0.0  0.000   0.0  0.000   0.0  0.000 10082  0.122 10094  0.909
+17:41:32.060          561  49889  2.576   1.8 1.20  70.0  21097  1.127 9042.0 10.283 164.8 70.64 235.46    8192   0.0  0.000   0.0  0.000   0.0  0.000  9938  0.128  9812  1.071
+17:41:33.068          562  49742  2.651   1.8 1.20  69.9  20779  1.106 8962.0 10.983 162.3 70.02 232.35    8192   0.0  0.000   0.0  0.000   0.0  0.000 10087  0.125  9914  0.925
+17:41:34.069          563  49964  3.285   1.8 1.19  69.9  20816  1.145 8955.0 14.442 162.6 69.96 232.59    8192   0.0  0.000   0.0  0.000   0.0  0.000 10043  0.123 10150  0.959
+17:41:35.066          564  49706  3.066   1.8 1.16  70.1  20943  1.214 8936.0 13.111 163.6 69.80 233.42    8191   0.0  0.000   0.0  0.000   0.0  0.000  9944  0.124  9883  0.868
+17:41:36.066          565  49938  2.766   1.8 1.18  70.6  21068  1.155 8786.0 11.827 164.5 68.64 233.23    8192   0.0  0.000   0.0  0.000   0.0  0.000  9969  0.122 10115  0.855
+17:41:37.057          566  49978  2.946   1.8 1.18  71.0  21191  1.101 8658.0 13.185 165.5 67.64 233.18    8191   0.0  0.000   0.0  0.000   0.0  0.000 10096  0.122 10033  0.848
+17:41:38.056          567  49735  2.772   1.8 1.19  70.1  20921  1.216 8917.0 11.514 163.4 69.66 233.11    8192   0.0  0.000   0.0  0.000   0.0  0.000  9982  0.124  9915  0.859
+17:41:39.062          568  50316  2.539   1.8 1.20  69.7  21012  1.275 9144.0  9.910 164.1 71.44 235.59    8191   0.0  0.000   0.0  0.000   0.0  0.000 10208  0.145  9952  0.891
+17:41:40.066          569  50106  2.745   1.8 1.22  70.0  20996  1.164 8994.0 11.482 164.0 70.27 234.30    8192   0.0  0.000   0.0  0.000   0.0  0.000 10005  0.125 10111  0.848
+17:41:41.060          570  50025  2.836   1.9 1.22  69.9  21055  1.320 9068.0 11.242 164.4 70.84 235.33    8191   0.0  0.000   0.0  0.000   0.0  0.000  9931  0.204  9971  1.013
+
+Apr 10, 2020 ..Interval.. .ReqstdOps... ...cpu%...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...create... ....open.... ...close.... ..getattr... ..setattr...
+                            rate   resp total  sys   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+17:41:42.060          571  49996  2.713   1.9 1.19  69.7  20992  1.073 9127.0 11.331 164.0 71.30 235.30    8192   0.0  0.000   0.0  0.000   0.0  0.000  9843  0.123 10034  0.847
+17:41:43.057          572  50048  3.660   1.8 1.17  69.8  20870  1.259 9036.0 16.280 163.0 70.59 233.62    8191   0.0  0.000   0.0  0.000   0.0  0.000  9993  0.124 10149  0.842
+17:41:44.057          573  49954  2.713   1.9 1.21  70.4  21078  1.114 8865.0 11.551 164.6 69.26 233.93    8192   0.0  0.000   0.0  0.000   0.0  0.000 10103  0.124  9908  0.847
+17:41:45.061          574  50646  2.843   1.8 1.18  70.3  21532  1.099 9098.0 12.118 168.2 71.08 239.30    8192   0.0  0.000   0.0  0.000   0.0  0.000  9913  0.123 10103  0.875
+17:41:46.064          575  49935  2.934   1.8 1.18  70.1  21160  1.335 9024.0 11.846 165.3 70.50 235.81    8192   0.0  0.000   0.0  0.000   0.0  0.000  9794  0.127  9957  1.018
+17:41:47.057          576  50260  2.745   1.9 1.24  70.3  21177  1.286 8939.0 11.067 165.4 69.84 235.28    8192   0.0  0.000   0.0  0.000   0.0  0.000 10182  0.125  9962  1.058
+17:41:48.061          577  49855  2.766   1.8 1.16  70.2  20968  1.174 8906.0 11.394 163.8 69.58 233.39    8192   0.0  0.000   0.0  0.000   0.0  0.000 10043  0.124  9938  1.064
+17:41:49.059          578  49989  2.839   1.8 1.19  69.9  20821  1.208 8973.0 11.411 162.6 70.10 232.77    8192   0.0  0.000   0.0  0.000   0.0  0.000 10059  0.123 10136  1.296
+17:41:50.064          579  50349  3.149   1.8 1.22  70.2  21255  1.261 9011.0 13.163 166.0 70.40 236.45    8192   0.0  0.000   0.0  0.000   0.0  0.000 10074  0.123 10009  1.189
+17:41:51.064          580  49703  2.770   1.8 1.20  69.7  20831  1.254 9062.0 11.000 162.7 70.80 233.54    8192   0.0  0.000   0.0  0.000   0.0  0.000  9863  0.122  9947  1.072
+17:41:52.074          581  49945  3.129   1.8 1.18  69.5  20828  1.201 9123.0 13.124 162.7 71.27 233.99    8192   0.0  0.000   0.0  0.000   0.0  0.000  9927  0.122 10067  1.025
+17:41:53.072          582  50068  3.179   1.8 1.20  70.2  21020  1.082 8921.0 13.870 164.2 69.70 233.92    8192   0.0  0.000   0.0  0.000   0.0  0.000 10184  0.121  9943  1.154
+17:41:54.069          583  49838  2.731   1.8 1.18  70.8  21069  1.075 8702.0 11.689 164.6 67.98 232.59    8192   0.0  0.000   0.0  0.000   0.0  0.000 10114  0.129  9953  1.046
+17:41:55.075          584  50112  2.700   1.8 1.16  70.1  21124  1.098 8995.0 11.249 165.0 70.27 235.30    8192   0.0  0.000   0.0  0.000   0.0  0.000 10028  0.123  9965  0.970
+17:41:56.065          585  49776  3.073   1.8 1.19  69.9  20767  1.261 8927.0 13.063 162.2 69.74 231.98    8192   0.0  0.000   0.0  0.000   0.0  0.000 10057  0.123 10025  0.890
+17:41:57.067          586  50459  2.670   1.8 1.17  70.4  21286  1.254 8950.0 10.803 166.3 69.92 236.22    8192   0.0  0.000   0.0  0.000   0.0  0.000 10156  0.121 10067  1.006
+17:41:58.059          587  50005  2.619   1.8 1.21  70.3  21093  1.111 8931.0 10.850 164.7 69.78 234.57    8192   0.0  0.000   0.0  0.000   0.0  0.000  9950  0.127 10031  0.935
+17:41:59.060          588  50459  2.782   1.8 1.22  70.3  21412  1.188 9049.0 11.554 167.2 70.70 237.98    8192   0.0  0.000   0.0  0.000   0.0  0.000  9937  0.123 10061  0.912
+17:42:00.058          589  50157  2.433   1.8 1.18  70.0  21208  1.135 9076.0  9.658 165.6 70.91 236.59    8192   0.0  0.000   0.0  0.000   0.0  0.000  9913  0.125  9960  0.911
+17:42:01.070          590  50102  3.030   1.9 1.23  70.8  21137  1.179 8720.0 13.421 165.1 68.12 233.26    8192   0.0  0.000   0.0  0.000   0.0  0.000 10091  0.124 10154  0.850
+17:42:02.067          591  50084  3.311   1.9 1.21  69.8  20909  1.166 9060.0 14.540 163.3 70.78 234.13    8192   0.0  0.000   0.0  0.000   0.0  0.000 10082  0.122 10033  0.847
+17:42:03.060          592  50619  2.527   1.8 1.19  70.0  21324  1.104 9160.0 10.292 166.5 71.56 238.16    8192   0.0  0.000   0.0  0.000   0.0  0.000  9984  0.127 10151  0.868
+17:42:04.062          593  49861  2.272   1.9 1.25  70.1  20900  1.116 8926.0  8.962 163.2 69.73 233.02    8192   0.0  0.000   0.0  0.000   0.0  0.000  9939  0.124 10096  0.866
+17:42:05.078          594  49834  2.738   1.8 1.19  70.4  21054  1.082 8858.0 11.733 164.4 69.20 233.70    8192   0.0  0.000   0.0  0.000   0.0  0.000  9974  0.124  9948  0.855
+17:42:06.080          595  49828  2.421   2.0 1.21  70.4  21073  1.116 8859.0  9.825 164.6 69.21 233.84    8192   0.0  0.000   0.0  0.000   0.0  0.000  9889  0.128 10007  0.880
+17:42:07.070          596  50303  2.908   1.9 1.22  70.1  21207  1.147 9035.0 12.395 165.6 70.59 236.27    8192   0.0  0.000   0.0  0.000   0.0  0.000  9978  0.123 10083  0.869
+17:42:08.067          597  50078  2.719   1.8 1.19  69.8  20792  1.183 9014.0 11.251 162.4 70.42 232.86    8192   0.0  0.000   0.0  0.000   0.0  0.000 10182  0.131 10090  0.877
+17:42:09.076          598  49890  3.300   1.8 1.18  69.8  20770  1.232 8972.0 14.305 162.2 70.09 232.36    8192   0.0  0.000   0.0  0.000   0.0  0.000 10099  0.154 10049  0.909
+17:42:10.061          599  49884  3.162   1.8 1.20  70.5  21132  1.132 8850.0 14.019 165.0 69.14 234.23    8192   0.0  0.000   0.0  0.000   0.0  0.000  9924  0.126  9978  0.851
+17:42:11.062          600  50318  2.865   1.9 1.21  70.1  21199  1.414 9023.0 11.319 165.6 70.49 236.11    8192   0.0  0.000   0.0  0.000   0.0  0.000 10098  0.193  9998  1.011
+
+Apr 10, 2020 ..Interval.. .ReqstdOps... ...cpu%...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...create... ....open.... ...close.... ..getattr... ..setattr...
+                            rate   resp total  sys   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+17:42:12.065          601  49477  2.511   1.8 1.23  70.0  20840  1.131 8926.0 10.175 162.8 69.73 232.55    8192   0.0  0.000   0.0  0.000   0.0  0.000  9978  0.134  9733  0.872
+17:42:13.068          602  50171  2.361   1.8 1.20  70.1  21124  1.077 9003.0  9.511 165.0 70.34 235.37    8192   0.0  0.000   0.0  0.000   0.0  0.000  9999  0.135 10045  0.870
+17:42:14.070          603  49703  2.561   1.9 1.20  70.3  20927  1.156 8856.0 10.521 163.4 69.19 232.67    8191   0.0  0.000   0.0  0.000   0.0  0.000  9946  0.127  9974  0.869
+17:42:15.068          604  49692  2.870   1.8 1.25  70.0  20877  1.098 8942.0 12.282 163.1 69.86 232.96    8192   0.0  0.000   0.0  0.000   0.0  0.000 10015  0.140  9858  0.859
+17:42:16.068          605  50256  2.990   1.9 1.26  70.6  21324  1.264 8869.0 12.724 166.5 69.29 235.88    8192   0.0  0.000   0.0  0.000   0.0  0.000 10037  0.156 10026  0.886
+17:42:17.066          606  49995  3.079   1.9 1.22  70.6  21190  1.133 8815.0 13.581 165.5 68.87 234.41    8191   0.0  0.000   0.0  0.000   0.0  0.000 10042  0.152  9948  0.871
+17:42:18.064          607  49609  3.329   1.8 1.21  70.5  21164  1.148 8857.0 14.789 165.3 69.20 234.54    8192   0.0  0.000   0.0  0.000   0.0  0.000  9677  0.143  9911  0.855
+17:42:19.070          608  49672  2.690   1.8 1.24  69.7  20731  1.106 9033.0 11.163 161.9 70.57 232.53    8192   0.0  0.000   0.0  0.000   0.0  0.000  9850  0.134 10058  0.850
+17:42:20.074          609  50312  2.402   1.8 1.18  70.3  21280  1.192 8996.0  9.505 166.2 70.28 236.53    8192   0.0  0.000   0.0  0.000   0.0  0.000  9950  0.131 10086  0.859
+17:42:21.071          610  50239  2.792   1.9 1.22  70.0  21281  1.304 9115.0 11.281 166.2 71.21 237.47    8192   0.0  0.000   0.0  0.000   0.0  0.000  9883  0.126  9960  0.850
+17:42:22.072          611  50017  2.807   1.8 1.20  69.7  20989  1.147 9124.0 11.698 163.9 71.28 235.26    8192   0.0  0.000   0.0  0.000   0.0  0.000 10030  0.122  9874  0.851
+17:42:23.063          612  49948  2.674   1.8 1.20  69.9  20847  1.190 8995.0 10.599 162.8 70.27 233.14    8192   0.0  0.000   0.0  0.000   0.0  0.000 10026  0.123 10080  1.210
+17:42:24.061          613  50009  3.234   1.9 1.22  69.6  20872  1.174 9096.0 13.614 163.0 71.06 234.12    8192   0.0  0.000   0.0  0.000   0.0  0.000  9970  0.123 10071  1.207
+17:42:25.059          614  49906  2.780   1.8 1.22  69.9  20819  1.166 8964.0 11.324 162.6 70.03 232.68    8192   0.0  0.000   0.0  0.000   0.0  0.000 10111  0.126 10012  1.167
+17:42:26.072          615  49999  3.265   1.8 1.15  70.1  20872  1.223 8906.0 14.292 163.0 69.58 232.64    8192   0.0  0.000   0.0  0.000   0.0  0.000 10108  0.122 10113  0.910
+17:42:27.062          616  49939  2.926   1.8 1.17  69.8  20986  1.085 9070.0 12.487 163.9 70.86 234.81    8192   0.0  0.000   0.0  0.000   0.0  0.000  9964  0.121  9919  0.895
+17:42:28.062          617  49992  2.752   1.8 1.19  70.5  21124  1.132 8859.0 11.676 165.0 69.21 234.24    8192   0.0  0.000   0.0  0.000   0.0  0.000 10074  0.123  9935  0.904
+17:42:29.061          618  50083  2.469   1.8 1.19  70.0  21083  1.084 9027.0  9.851 164.7 70.52 235.23    8192   0.0  0.000   0.0  0.000   0.0  0.000 10079  0.125  9894  1.074
+17:42:30.060          619  49936  2.832   1.9 1.21  70.0  20871  1.196 8931.0 11.839 163.0 69.77 232.83    8192   0.0  0.000   0.0  0.000   0.0  0.000 10072  0.127 10062  0.938
+17:42:31.058          620  50123  2.369   1.8 1.21  69.8  20981  1.259 9091.0  8.952 163.9 71.02 234.94    8192   0.0  0.000   0.0  0.000   0.0  0.000  9956  0.128 10095  0.958
+17:42:32.057          621  50030  2.707   1.9 1.23  70.3  21119  1.134 8905.0 11.349 164.9 69.57 234.56    8192   0.0  0.000   0.0  0.000   0.0  0.000  9934  0.126 10072  0.911
+17:42:33.059          622  50003  3.526   1.8 1.19  70.6  21150  1.164 8800.0 16.130 165.2 68.75 233.98    8192   0.0  0.000   0.0  0.000   0.0  0.000 10023  0.123 10030  0.851
+17:42:34.058          623  50172  3.380   1.8 1.15  69.4  20881  1.265 9223.0 14.209 163.1 72.05 235.19    8192   0.0  0.000   0.0  0.000   0.0  0.000 10066  0.122 10002  1.088
+17:42:35.060          624  50276  2.995   1.8 1.22  70.3  21131  1.166 8947.0 12.664 165.0 69.90 234.98    8192   0.0  0.000   0.0  0.000   0.0  0.000 10048  0.127 10150  1.120
+17:42:36.059          625  49401  2.459   1.8 1.16  69.9  20720  1.190 8909.0  9.484 161.8 69.60 231.48    8192   0.0  0.000   0.0  0.000   0.0  0.000  9923  0.128  9849  1.121
+17:42:37.057          626  50165  2.634   2.0 1.26  69.7  21067  1.091 9171.0 10.668 164.5 71.65 236.23    8192   0.0  0.000   0.0  0.000   0.0  0.000  9983  0.129  9944  1.007
+17:42:38.063          627  49734  2.604   1.9 1.24  70.7  21088  1.105 8743.0 10.979 164.7 68.30 233.05    8192   0.0  0.000   0.0  0.000   0.0  0.000  9977  0.126  9926  0.905
+17:42:39.067          628  50229  2.659   1.8 1.21  69.9  21105  1.194 9098.0 10.681 164.8 71.08 235.96    8192   0.0  0.000   0.0  0.000   0.0  0.000  9859  0.159 10167  0.948
+17:42:40.065          629  49681  2.709   1.9 1.25  70.6  21074  1.217 8794.0 11.175 164.6 68.70 233.34    8192   0.0  0.000   0.0  0.000   0.0  0.000  9894  0.129  9919  0.948
+17:42:41.062          630  49901  3.345   1.8 1.22  71.0  21284  1.386 8687.0 13.989 166.2 67.87 234.15    8192   0.0  0.000   0.0  0.000   0.0  0.000  9902  0.203 10028  1.385
+
+Apr 10, 2020 ..Interval.. .ReqstdOps... ...cpu%...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...create... ....open.... ...close.... ..getattr... ..setattr...
+                            rate   resp total  sys   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+17:42:42.061          631  49741  3.613   1.8 1.22  69.7  20847  1.212 9055.0 15.518 162.8 70.74 233.61    8192   0.0  0.000   0.0  0.000   0.0  0.000  9901  0.122  9938  1.280
+17:42:43.058          632  50458  3.326   1.8 1.20  70.2  21373  1.191 9076.0 14.246 166.9 70.91 237.88    8192   0.0  0.000   0.0  0.000   0.0  0.000 10054  0.126  9955  1.184
+17:42:44.062          633  49915  2.722   1.8 1.18  70.0  20976  1.253 8994.0 10.951 163.8 70.27 234.14    8192   0.0  0.000   0.0  0.000   0.0  0.000  9952  0.125  9993  0.984
+17:42:45.058          634  49617  3.035   1.8 1.20  69.7  20698  1.198 9012.0 12.733 161.7 70.41 232.11    8192   0.0  0.000   0.0  0.000   0.0  0.000  9926  0.127  9981  0.979
+17:42:46.063          635  50543  3.044   1.8 1.24  69.9  21153  1.293 9119.0 12.474 165.2 71.24 236.50    8192   0.0  0.000   0.0  0.000   0.0  0.000 10177  0.127 10094  1.135
+17:42:47.061          636  49960  2.775   1.8 1.18  70.4  21051  1.209 8866.0 11.279 164.4 69.27 233.73    8192   0.0  0.000   0.0  0.000   0.0  0.000 10136  0.125  9907  1.205
+17:42:48.063          637  49761  2.636   1.9 1.22  70.0  20882  1.239 8963.0 10.527 163.1 70.02 233.16    8192   0.0  0.000   0.0  0.000   0.0  0.000 10002  0.126  9914  0.975
+17:42:49.057          638  49770  2.488   1.8 1.22  70.1  20881  1.170 8926.0  9.947 163.1 69.73 232.87    8192   0.0  0.000   0.0  0.000   0.0  0.000  9960  0.127 10003  0.936
+17:42:50.061          639  49687  3.202   1.7 1.15  69.9  20806  1.221 8951.0 13.625 162.5 69.93 232.48    8192   0.0  0.000   0.0  0.000   0.0  0.000 10038  0.125  9892  1.063
+17:42:51.059          640  49489  3.516   2.0 1.25  70.9  20819  1.300 8556.0 15.907 162.6 66.84 229.49    8192   0.0  0.000   0.0  0.000   0.0  0.000 10044  0.128 10070  0.951
+17:42:52.070          641  50516  3.407   1.9 1.20  69.9  21269  1.217 9138.0 14.830 166.1 71.39 237.55    8192   0.0  0.000   0.0  0.000   0.0  0.000 10076  0.126 10033  0.940
+17:42:53.058          642  50233  2.468   1.8 1.17  70.2  21183  1.265 8995.0  9.656 165.4 70.27 235.77    8192   0.0  0.000   0.0  0.000   0.0  0.000  9990  0.125 10065  0.901
+17:42:54.061          643  49696  2.425   1.9 1.25  70.4  20917  1.082 8788.0 10.017 163.4 68.66 232.07    8192   0.0  0.000   0.0  0.000   0.0  0.000  9960  0.127 10031  0.859
+17:42:55.056          644  49829  3.243   1.8 1.19  69.4  20814  1.188 9158.0 13.857 162.6 71.55 234.16    8192   0.0  0.000   0.0  0.000   0.0  0.000  9834  0.126 10023  0.868
+17:42:56.057          645  49967  2.378   1.7 1.16  69.7  20874  1.197 9081.0  9.246 163.0 70.95 234.02    8192   0.0  0.000   0.0  0.000   0.0  0.000 10093  0.129  9919  0.867
+17:42:57.055          646  49592  2.420   1.9 1.24  70.0  20787  1.137 8894.0  9.736 162.4 69.48 231.88    8192   0.0  0.000   0.0  0.000   0.0  0.000  9870  0.124 10041  0.853
+17:42:58.060          647  50362  2.878   1.8 1.19  69.8  21255  1.081 9182.0 12.217 166.0 71.73 237.79    8192   0.0  0.000   0.0  0.000   0.0  0.000  9968  0.126  9957  0.856
+17:42:59.058          648  49465  2.952   1.8 1.17  69.8  20572  1.060 8882.0 12.891 160.7 69.39 230.11    8192   0.0  0.000   0.0  0.000   0.0  0.000 10017  0.126  9994  0.846
+17:43:00.058          649  50077  3.625   1.8 1.21  70.1  21179  1.127 9015.0 16.427 165.4 70.43 235.89    8192   0.0  0.000   0.0  0.000   0.0  0.000 10066  0.123  9817  0.848
+17:43:01.061          650  50286  2.212   1.9 1.23  69.8  21101  1.157 9151.0  8.375 164.8 71.49 236.34    8192   0.0  0.000   0.0  0.000   0.0  0.000  9948  0.130 10086  0.880
+17:43:02.057          651  50199  2.314   1.9 1.27  70.4  21232  1.181 8940.0  9.059 165.8 69.84 235.72    8192   0.0  0.000   0.0  0.000   0.0  0.000 10022  0.128 10005  0.882
+17:43:03.059          652  49871  2.980   1.9 1.21  70.5  21121  1.068 8844.0 13.147 165.0 69.09 234.10    8192   0.0  0.000   0.0  0.000   0.0  0.000  9886  0.123 10020  0.854
+17:43:04.060          653  50113  2.451   1.8 1.17  70.2  21124  1.056 8965.0 10.089 165.0 70.04 235.07    8192   0.0  0.000   0.0  0.000   0.0  0.000  9998  0.126 10026  0.878
+17:43:05.057          654  49962  2.358   1.9 1.22  70.0  20976  1.121 8993.0  9.357 163.8 70.26 234.13    8192   0.0  0.000   0.0  0.000   0.0  0.000  9952  0.130 10041  0.880
+17:43:06.061          655  49863  2.954   1.9 1.25  69.9  20814  1.233 8967.0 12.448 162.6 70.05 232.66    8192   0.0  0.000   0.0  0.000   0.0  0.000  9963  0.126 10119  0.867
+17:43:07.058          656  50245  3.220   1.8 1.17  69.5  20925  1.259 9169.0 13.667 163.4 71.64 235.12    8192   0.0  0.000   0.0  0.000   0.0  0.000  9943  0.126 10208  0.868
+17:43:08.067          657  49893  3.297   1.8 1.20  69.7  20926  1.144 9078.0 14.411 163.4 70.92 234.41    8192   0.0  0.000   0.0  0.000   0.0  0.000  9926  0.125  9963  0.853
+17:43:09.060          658  50038  2.910   1.9 1.24  69.5  21092  1.146 9259.0 11.987 164.7 72.34 237.12    8192   0.0  0.000   0.0  0.000   0.0  0.000  9830  0.149  9857  0.913
+17:43:10.061          659  49522  2.308   1.8 1.15  69.9  20801  1.177 8973.0  8.912 162.5 70.10 232.61    8192   0.0  0.000   0.0  0.000   0.0  0.000  9875  0.129  9873  0.866
+17:43:11.058          660  49825  3.390   1.9 1.28  69.8  20931  1.328 9063.0 14.242 163.5 70.80 234.33    8192   0.0  0.000   0.0  0.000   0.0  0.000  9857  0.202  9974  1.004
+17:43:11.444   avg_61-660  49989  2.863   1.8 1.21  70.0  21001  1.162 8997.0 12.027 164.0 70.29 234.36    8192   0.0  0.000   0.0  0.000   0.0  0.000  9994  0.132  9996  0.921
+17:43:11.444   std_61-660                                 182.8  1.922  134.3 17.476                                                                   100.6  0.234  93.9  0.606
+17:43:11.445   max_61-660                                 21544 208.36 9406.0 321.51                                               99.767              10258 80.837 10266 100.12
+17:43:14.624 Vdbench execution completed successfully
