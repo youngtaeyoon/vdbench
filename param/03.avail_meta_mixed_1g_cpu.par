@@ -399,5 +399,5 @@ fwd=fwd_meta_rnd_8rw_cpu12_ph3,host=cpu12,fsd=fsd_cpu12_*,operation=read,rdpct=7
 #rd=rd_prep,fwd=fwd_prep_*,fwdrate=max,format=yes,interval=1,pause=60
 #rd=rd_seq_1024w,fwd=fwd_seq_1024w_*,fwdrate=max,format=no,warmup=60,interval=1,elapsed=300
 #rd=rd_seq_1024r,fwd=fwd_seq_1024r_*,fwdrate=max,format=no,warmup=60,interval=1,elapsed=300
-rd=rd_meta_mixed,fwd=fwd_meta_*,fwdrate=50000,format=no,pause=60,warmup=60,interval=1,elapsed=600
+rd=rd_meta_mixed,fwd=fwd_meta_*,fwdrate=50000,format=no,warmup=60,interval=1,elapsed=18000
 

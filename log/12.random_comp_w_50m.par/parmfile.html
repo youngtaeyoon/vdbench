@@ -1,0 +1,79 @@
+<title>Vdbench 12.random_comp_w_50m.par/parmfile.html</title><pre>
+
+* Contents of parameter file: /root/git/vdbench/param/12.random_comp_w_50m.par
+
+# file creation prior to IO generation
+## multiple exports
+#
+# HD: linux clients
+### list all the hostname, such as cpu01, cpu02, cpu03, etc
+hd=default,user=root,shell=ssh,vdbench=/root/vdbench
+hd=cpu01,system=cpu01
+hd=cpu02,system=cpu02
+hd=cpu03,system=cpu03
+hd=cpu04,system=cpu04
+
+
+# FSD: target directory and files
+# create 512 files of 1GB, which is 512GB per host per mount.
+# 512GB*12hosts*12mounts=72TB usable. 144TB physical.
+### list all the hostnames. each host must have 4 mount points, such as /ds1, /ds2, /ds3, and /ds4
+fsd=fsd_cpu01_comp1,anchor=/comp1/cpu001,depth=2,width=8,file=8,size=50M,openflag=directio
+#fsd=fsd_cpu01_comp2,anchor=/comp2/cpu001,depth=2,width=8,file=8,size=50M,openflag=directio
+#fsd=fsd_cpu01_comp3,anchor=/comp3/cpu001,depth=2,width=8,file=8,size=50M,openflag=directio
+#fsd=fsd_cpu01_comp4,anchor=/comp4/cpu001,depth=2,width=8,file=8,size=50M,openflag=directio
+#
+#fsd=fsd_cpu02_comp1,anchor=/comp1/cpu002,depth=2,width=8,file=8,size=50M,openflag=directio
+fsd=fsd_cpu02_comp2,anchor=/comp2/cpu002,depth=2,width=8,file=8,size=50M,openflag=directio
+#fsd=fsd_cpu02_comp3,anchor=/comp3/cpu002,depth=2,width=8,file=8,size=50M,openflag=directio
+#fsd=fsd_cpu02_comp4,anchor=/comp4/cpu002,depth=2,width=8,file=8,size=50M,openflag=directio
+#
+#fsd=fsd_cpu03_comp1,anchor=/comp1/cpu003,depth=2,width=8,file=8,size=50M,openflag=directio
+#fsd=fsd_cpu03_comp2,anchor=/comp2/cpu003,depth=2,width=8,file=8,size=50M,openflag=directio
+fsd=fsd_cpu03_comp3,anchor=/comp3/cpu003,depth=2,width=8,file=8,size=50M,openflag=directio
+#fsd=fsd_cpu03_comp4,anchor=/comp4/cpu003,depth=2,width=8,file=8,size=50M,openflag=directio
+#
+#fsd=fsd_cpu04_comp1,anchor=/comp1/cpu004,depth=2,width=8,file=8,size=50M,openflag=directio
+#fsd=fsd_cpu04_comp2,anchor=/comp2/cpu004,depth=2,width=8,file=8,size=50M,openflag=directio
+#fsd=fsd_cpu04_comp3,anchor=/comp3/cpu004,depth=2,width=8,file=8,size=50M,openflag=directio
+fsd=fsd_cpu04_comp4,anchor=/comp4/cpu004,depth=2,width=8,file=8,size=50M,openflag=directio
+
+
+# FWD: file creation prior to IO generation
+### list all the hostnames. one line per host
+fwd=fwd_prep_cpu01,host=cpu01,fsd=fsd_cpu01_*,operation=create,fileselect=sequential,fileio=sequential,threads=16
+fwd=fwd_prep_cpu02,host=cpu02,fsd=fsd_cpu02_*,operation=create,fileselect=sequential,fileio=sequential,threads=16
+fwd=fwd_prep_cpu03,host=cpu03,fsd=fsd_cpu03_*,operation=create,fileselect=sequential,fileio=sequential,threads=16
+fwd=fwd_prep_cpu04,host=cpu04,fsd=fsd_cpu04_*,operation=create,fileselect=sequential,fileio=sequential,threads=16
+
+
+# FWD: sequential write 1M
+### list all the hostnames. one line per host
+fwd=fwd_seq_1024w_cpu01,host=cpu01,fsd=fsd_cpu01_*,operation=write,fileselect=sequential,fileio=sequential,xfersize=1024k,threads=16
+fwd=fwd_seq_1024w_cpu02,host=cpu02,fsd=fsd_cpu02_*,operation=write,fileselect=sequential,fileio=sequential,xfersize=1024k,threads=16
+fwd=fwd_seq_1024w_cpu03,host=cpu03,fsd=fsd_cpu03_*,operation=write,fileselect=sequential,fileio=sequential,xfersize=1024k,threads=16
+fwd=fwd_seq_1024w_cpu04,host=cpu04,fsd=fsd_cpu04_*,operation=write,fileselect=sequential,fileio=sequential,xfersize=1024k,threads=16
+
+
+# FWD: random write 1M
+### list all the hostnames. one line per host
+fwd=fwd_rnd_1024w_cpu01,host=cpu01,fsd=fsd_cpu01_*,operation=write,fileselect=random,fileio=random,xfersize=1024k,threads=16
+fwd=fwd_rnd_1024w_cpu02,host=cpu02,fsd=fsd_cpu02_*,operation=write,fileselect=random,fileio=random,xfersize=1024k,threads=16
+fwd=fwd_rnd_1024w_cpu03,host=cpu03,fsd=fsd_cpu03_*,operation=write,fileselect=random,fileio=random,xfersize=1024k,threads=16
+fwd=fwd_rnd_1024w_cpu04,host=cpu04,fsd=fsd_cpu04_*,operation=write,fileselect=random,fileio=random,xfersize=1024k,threads=16
+
+
+# FWD: sequential read 1M
+### list all the hostnames. one line per host
+fwd=fwd_seq_1024r_cpu01,host=cpu01,fsd=fsd_cpu01_*,operation=read,fileselect=sequential,fileio=sequential,xfersize=1024k,threads=16
+fwd=fwd_seq_1024r_cpu02,host=cpu02,fsd=fsd_cpu02_*,operation=read,fileselect=sequential,fileio=sequential,xfersize=1024k,threads=16
+fwd=fwd_seq_1024r_cpu03,host=cpu03,fsd=fsd_cpu03_*,operation=read,fileselect=sequential,fileio=sequential,xfersize=1024k,threads=16
+fwd=fwd_seq_1024r_cpu04,host=cpu04,fsd=fsd_cpu04_*,operation=read,fileselect=sequential,fileio=sequential,xfersize=1024k,threads=16
+
+
+# RD: meta IO and random read/write 8K
+# max IOPS test for 8k IO
+#rd=rd_prep,fwd=fwd_prep_*,fwdrate=max,format=yes,interval=1,pause=60
+rd=rd_rnd_1024w,fwd=fwd_rnd_1024w_*,fwdrate=max,format=no,warmup=60,interval=1,elapsed=1200
+#rd=rd_seq_1024r,fwd=fwd_seq_1024r_*,fwdrate=max,format=no,warmup=60,interval=1,elapsed=300
+#rd=rd_meta_mixed,fwd=fwd_meta_*,fwdrate=max,format=no,pause=60,warmup=60,interval=1,elapsed=600

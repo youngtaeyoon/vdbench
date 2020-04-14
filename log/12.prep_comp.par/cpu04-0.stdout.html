@@ -1,0 +1,485 @@
+<title>Vdbench 12.prep_comp.par/cpu04-0.stdout.html</title><pre>
+stdout/stderr for slave=cpu04-0
+
+17:28:39.638 17:28:39.637 SlaveJvm execution parameter:  '-m 192.168.10.21'
+17:28:39.638 17:28:39.638 SlaveJvm execution parameter:  '-n cpu04-13-200414-17.28.39.111'
+17:28:39.638 17:28:39.638 SlaveJvm execution parameter:  '-l cpu04-0'
+17:28:39.638 17:28:39.638 SlaveJvm execution parameter:  '-p 5570'
+17:28:39.638 17:28:39.638 SlaveJvm positional parameter: 'SlaveJvm'
+17:28:39.733 17:28:39.732 successfully connected to master 192.168.10.21
+17:28:39.733 17:28:39.732 Connection to 192.168.10.21 using port 5570 successful
+17:28:39.801 17:28:39.801 ticks_per_second: 100
+17:28:40.007 17:28:40.007 execute(): ls -l /comp4/cpu004
+17:28:40.018 17:28:40.017 Configuration interpretation took 0.22 seconds
+
+Link to Run Definitions:         <A HREF="#_292938459">format_for_rd_prep For loops: None</A>
+                                 <A HREF="#_917142466">rd_prep For loops: None</A>
+
+17:28:40.255 17:28:40.255 Beginning of run setup
+17:28:40.255 17:28:40.255 **********************
+17:28:40.256 
+17:28:40.256 
+17:28:40.322 17:28:40.322 Deleting old file structure.
+17:28:40.322 17:28:40.322 Starting initializeFileAnchor for rd=format_for_rd_prep For loops: None anchor=fsd_cpu04_comp4
+17:28:40.327 17:28:40.326 Completed the creation of the directory list for /comp4/cpu004: 72 directories.
+17:28:40.328 17:28:40.328 Generated 512 file names; total anchor size: 25g (26,843,545,600)
+17:28:40.332 17:28:40.331 Writing control file for anchor=/comp4/cpu004 at start of run.
+17:28:40.356 17:28:40.355 File '/var/log/messages.1' does not exist. Monitoring bypassed
+17:28:40.467 17:28:40.466 Completed control file for anchor=/comp4/cpu004 at start of run.  dirs: 72/0 files: 512/0 sizes: 25g/0/0/0
+17:28:40.470 17:28:40.469 Completed initializeFileAnchor for fsd_cpu04_comp4: 0.15
+17:28:40.486 17:28:40.485 Started 8 threads for fwd=format,fsd=fsd_cpu04_comp4
+17:28:40.486 17:28:40.485 Started 8 FwgThreads for rd=format_for_rd_prep For loops: None
+17:28:40.486 17:28:40.485 Waiting for task synchronization
+17:28:40.486 17:28:40.485 Requesting full garbage collection
+17:28:40.486 17:28:40.486 GcTracker: cum:   2 intv:  2 ms:       7 mss:  0.00% Heap_MB max:   911 curr:   123 used:    32 free:    91 
+17:28:40.509 17:28:40.508 GcTracker: cum:   4 intv:  2 ms:      21 mss:  0.00% Heap_MB max:   911 curr:   123 used:    17 free:   106 
+17:28:40.509 17:28:40.508 task_wait_start_complete() end
+
+<a name="_292938459"></a><i><b>17:28:41.002 Starting RD=format_for_rd_prep</b></i>
+
+17:28:41.004 17:28:41.003 task_run_all(): 9 tasks
+17:28:42.237 17:28:42.237 Message to master: anchor=/comp4/cpu004 mkdir complete.
+17:28:45.397 17:28:45.396 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:28:45.397 17:28:45.396 sendMessageToConsole: /var/log/messages: Apr 14 17:28:44 cpu04 kubelet: E0414 17:28:44.863917    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:28:45.397 17:28:45.396 sendMessageToConsole: 
+17:28:55.449 17:28:55.448 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:28:55.449 17:28:55.448 sendMessageToConsole: /var/log/messages: Apr 14 17:28:50 cpu04 dhclient[10266]: DHCPREQUEST on eno1 to 192.168.10.10 port 67 (xid=0xfa5d1ae)
+17:28:55.449 17:28:55.448 sendMessageToConsole: /var/log/messages: Apr 14 17:28:50 cpu04 dhclient[10266]: DHCPACK from 192.168.10.10 (xid=0xfa5d1ae)
+17:28:55.449 17:28:55.448 sendMessageToConsole: /var/log/messages: Apr 14 17:28:52 cpu04 dhclient[10266]: bound to 192.168.10.24 -- renewal in 233 seconds.
+17:28:55.449 17:28:55.448 sendMessageToConsole: /var/log/messages: Apr 14 17:28:54 cpu04 kubelet: E0414 17:28:54.878840    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:28:55.449 17:28:55.448 sendMessageToConsole: 
+17:29:05.482 17:29:05.482 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:29:05.483 17:29:05.482 sendMessageToConsole: /var/log/messages: Apr 14 17:29:02 cpu04 systemd: Started Session 1914 of user root.
+17:29:05.483 17:29:05.482 sendMessageToConsole: /var/log/messages: Apr 14 17:29:04 cpu04 kubelet: E0414 17:29:04.892968    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:29:05.483 17:29:05.482 sendMessageToConsole: 
+17:29:09.479 17:29:09.478 Message to master: anchor=/comp4/cpu004: Created 10 of 512 files (1.95%)
+17:29:15.524 17:29:15.523 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:29:15.524 17:29:15.523 sendMessageToConsole: /var/log/messages: Apr 14 17:29:14 cpu04 kubelet: E0414 17:29:14.909994    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:29:15.524 17:29:15.523 sendMessageToConsole: 
+17:29:25.560 17:29:25.559 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:29:25.560 17:29:25.560 sendMessageToConsole: /var/log/messages: Apr 14 17:29:24 cpu04 kubelet: E0414 17:29:24.923885    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:29:25.560 17:29:25.560 sendMessageToConsole: 
+17:29:35.613 17:29:35.613 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:29:35.613 17:29:35.613 sendMessageToConsole: /var/log/messages: Apr 14 17:29:34 cpu04 kubelet: E0414 17:29:34.938392    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:29:35.613 17:29:35.613 sendMessageToConsole: 
+17:29:36.689 17:29:36.688 Message to master: anchor=/comp4/cpu004: Created 25 of 512 files (4.88%)
+17:29:45.646 17:29:45.646 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:29:45.646 17:29:45.646 sendMessageToConsole: /var/log/messages: Apr 14 17:29:44 cpu04 kubelet: E0414 17:29:44.952631    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:29:45.646 17:29:45.646 sendMessageToConsole: 
+17:29:54.097 17:29:54.097 Message to master: anchor=/comp4/cpu004: Created 40 of 512 files (7.81%)
+17:29:55.677 17:29:55.677 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:29:55.677 17:29:55.677 sendMessageToConsole: /var/log/messages: Apr 14 17:29:54 cpu04 kubelet: E0414 17:29:54.965216    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:29:55.677 17:29:55.677 sendMessageToConsole: 
+17:30:05.717 17:30:05.716 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:30:05.717 17:30:05.716 sendMessageToConsole: /var/log/messages: Apr 14 17:30:01 cpu04 systemd: Started Session 1915 of user root.
+17:30:05.717 17:30:05.716 sendMessageToConsole: /var/log/messages: Apr 14 17:30:03 cpu04 dhclient[10391]: DHCPREQUEST on enp0s20u1u5 to 169.254.95.118 port 67 (xid=0x527623a3)
+17:30:05.717 17:30:05.716 sendMessageToConsole: /var/log/messages: Apr 14 17:30:03 cpu04 dhclient[10391]: DHCPACK from 169.254.95.118 (xid=0x527623a3)
+17:30:05.717 17:30:05.716 sendMessageToConsole: /var/log/messages: Apr 14 17:30:04 cpu04 kubelet: E0414 17:30:04.978822    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:30:05.717 17:30:05.717 sendMessageToConsole: /var/log/messages: Apr 14 17:30:05 cpu04 dhclient[10391]: bound to 169.254.95.120 -- renewal in 241 seconds.
+17:30:05.717 17:30:05.717 sendMessageToConsole: 
+17:30:15.752 17:30:15.750 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:30:15.752 17:30:15.751 sendMessageToConsole: /var/log/messages: Apr 14 17:30:14 cpu04 kubelet: E0414 17:30:14.992400    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:30:15.752 17:30:15.751 sendMessageToConsole: 
+17:30:19.493 17:30:19.491 Message to master: anchor=/comp4/cpu004: Created 50 of 512 files (9.77%)
+17:30:25.790 17:30:25.789 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:30:25.791 17:30:25.789 sendMessageToConsole: /var/log/messages: Apr 14 17:30:25 cpu04 kubelet: E0414 17:30:25.007757    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:30:25.791 17:30:25.789 sendMessageToConsole: 
+17:30:34.955 17:30:34.953 Message to master: anchor=/comp4/cpu004: Created 60 of 512 files (11.72%)
+17:30:35.824 17:30:35.822 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:30:35.824 17:30:35.822 sendMessageToConsole: /var/log/messages: Apr 14 17:30:35 cpu04 kubelet: E0414 17:30:35.021245    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:30:35.824 17:30:35.822 sendMessageToConsole: 
+17:30:45.865 17:30:45.862 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:30:45.865 17:30:45.863 sendMessageToConsole: /var/log/messages: Apr 14 17:30:45 cpu04 kubelet: E0414 17:30:45.037520    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:30:45.865 17:30:45.863 sendMessageToConsole: 
+17:30:50.157 17:30:50.154 Message to master: anchor=/comp4/cpu004: Created 70 of 512 files (13.67%)
+17:30:55.898 17:30:55.895 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:30:55.898 17:30:55.895 sendMessageToConsole: /var/log/messages: Apr 14 17:30:55 cpu04 kubelet: E0414 17:30:55.049836    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:30:55.898 17:30:55.895 sendMessageToConsole: 
+17:31:05.931 17:31:05.927 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:31:05.931 17:31:05.928 sendMessageToConsole: /var/log/messages: Apr 14 17:31:01 cpu04 systemd: Started Session 1916 of user root.
+17:31:05.931 17:31:05.928 sendMessageToConsole: /var/log/messages: Apr 14 17:31:05 cpu04 kubelet: E0414 17:31:05.065023    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:31:05.931 17:31:05.928 sendMessageToConsole: 
+17:31:07.487 17:31:07.484 Message to master: anchor=/comp4/cpu004: Created 80 of 512 files (15.63%)
+17:31:15.965 17:31:15.961 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:31:15.965 17:31:15.961 sendMessageToConsole: /var/log/messages: Apr 14 17:31:15 cpu04 kubelet: E0414 17:31:15.081366    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:31:15.965 17:31:15.961 sendMessageToConsole: 
+17:31:25.999 17:31:25.995 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:31:25.999 17:31:25.995 sendMessageToConsole: /var/log/messages: Apr 14 17:31:25 cpu04 kubelet: E0414 17:31:25.095126    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:31:25.999 17:31:25.995 sendMessageToConsole: 
+17:31:30.624 17:31:30.621 Message to master: anchor=/comp4/cpu004: Created 90 of 512 files (17.58%)
+17:31:36.037 17:31:36.033 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:31:36.037 17:31:36.033 sendMessageToConsole: /var/log/messages: Apr 14 17:31:35 cpu04 kubelet: E0414 17:31:35.108957    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:31:36.037 17:31:36.033 sendMessageToConsole: 
+17:31:46.070 17:31:46.066 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:31:46.070 17:31:46.066 sendMessageToConsole: /var/log/messages: Apr 14 17:31:45 cpu04 kubelet: E0414 17:31:45.126418    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:31:46.070 17:31:46.066 sendMessageToConsole: 
+17:31:47.837 17:31:47.834 Message to master: anchor=/comp4/cpu004: Created 100 of 512 files (19.53%)
+17:31:56.106 17:31:56.103 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:31:56.106 17:31:56.103 sendMessageToConsole: /var/log/messages: Apr 14 17:31:55 cpu04 kubelet: E0414 17:31:55.140972    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:31:56.106 17:31:56.103 sendMessageToConsole: 
+17:32:01.139 17:32:01.136 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:32:01.139 17:32:01.136 sendMessageToConsole: /var/log/messages: Apr 14 17:32:01 cpu04 systemd: Started Session 1917 of user root.
+17:32:01.140 17:32:01.136 sendMessageToConsole: 
+17:32:06.177 17:32:06.173 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:32:06.177 17:32:06.173 sendMessageToConsole: /var/log/messages: Apr 14 17:32:05 cpu04 kubelet: E0414 17:32:05.157960    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:32:06.177 17:32:06.173 sendMessageToConsole: 
+17:32:16.209 17:32:16.206 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:32:16.209 17:32:16.206 sendMessageToConsole: /var/log/messages: Apr 14 17:32:15 cpu04 kubelet: E0414 17:32:15.174419    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:32:16.209 17:32:16.206 sendMessageToConsole: 
+17:32:16.758 17:32:16.755 Message to master: anchor=/comp4/cpu004: Created 115 of 512 files (22.46%)
+17:32:26.245 17:32:26.241 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:32:26.245 17:32:26.241 sendMessageToConsole: /var/log/messages: Apr 14 17:32:25 cpu04 kubelet: E0414 17:32:25.187624    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:32:26.245 17:32:26.242 sendMessageToConsole: 
+17:32:32.188 17:32:32.185 Message to master: anchor=/comp4/cpu004: Created 125 of 512 files (24.41%)
+17:32:36.283 17:32:36.280 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:32:36.283 17:32:36.280 sendMessageToConsole: /var/log/messages: Apr 14 17:32:35 cpu04 kubelet: E0414 17:32:35.202054    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:32:36.283 17:32:36.280 sendMessageToConsole: 
+17:32:46.315 17:32:46.312 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:32:46.316 17:32:46.312 sendMessageToConsole: /var/log/messages: Apr 14 17:32:45 cpu04 dhclient[10266]: DHCPREQUEST on eno1 to 192.168.10.10 port 67 (xid=0xfa5d1ae)
+17:32:46.316 17:32:46.312 sendMessageToConsole: /var/log/messages: Apr 14 17:32:45 cpu04 dhclient[10266]: DHCPACK from 192.168.10.10 (xid=0xfa5d1ae)
+17:32:46.316 17:32:46.312 sendMessageToConsole: /var/log/messages: Apr 14 17:32:45 cpu04 kubelet: E0414 17:32:45.217930    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:32:46.316 17:32:46.312 sendMessageToConsole: 
+17:32:48.513 17:32:48.510 Message to master: anchor=/comp4/cpu004: Created 135 of 512 files (26.37%)
+17:32:51.360 17:32:51.356 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:32:51.360 17:32:51.357 sendMessageToConsole: /var/log/messages: Apr 14 17:32:47 cpu04 dhclient[10266]: bound to 192.168.10.24 -- renewal in 277 seconds.
+17:32:51.360 17:32:51.357 sendMessageToConsole: 
+17:32:56.398 17:32:56.394 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:32:56.398 17:32:56.394 sendMessageToConsole: /var/log/messages: Apr 14 17:32:55 cpu04 kubelet: E0414 17:32:55.230223    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:32:56.398 17:32:56.394 sendMessageToConsole: 
+17:33:01.436 17:33:01.432 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:33:01.436 17:33:01.432 sendMessageToConsole: /var/log/messages: Apr 14 17:33:01 cpu04 systemd: Started Session 1918 of user root.
+17:33:01.436 17:33:01.432 sendMessageToConsole: 
+17:33:06.469 17:33:06.466 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:33:06.469 17:33:06.466 sendMessageToConsole: /var/log/messages: Apr 14 17:33:05 cpu04 kubelet: E0414 17:33:05.246234    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:33:06.469 17:33:06.466 sendMessageToConsole: 
+17:33:14.145 17:33:14.141 Message to master: anchor=/comp4/cpu004: Created 145 of 512 files (28.32%)
+17:33:16.506 17:33:16.503 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:33:16.506 17:33:16.503 sendMessageToConsole: /var/log/messages: Apr 14 17:33:15 cpu04 kubelet: E0414 17:33:15.261234    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:33:16.506 17:33:16.503 sendMessageToConsole: 
+17:33:26.544 17:33:26.541 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:33:26.544 17:33:26.541 sendMessageToConsole: /var/log/messages: Apr 14 17:33:25 cpu04 kubelet: E0414 17:33:25.275366    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:33:26.544 17:33:26.541 sendMessageToConsole: 
+17:33:32.165 17:33:32.162 Message to master: anchor=/comp4/cpu004: Created 155 of 512 files (30.27%)
+17:33:36.578 17:33:36.575 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:33:36.578 17:33:36.575 sendMessageToConsole: /var/log/messages: Apr 14 17:33:35 cpu04 kubelet: E0414 17:33:35.291751    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:33:36.578 17:33:36.575 sendMessageToConsole: 
+17:33:46.615 17:33:46.612 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:33:46.615 17:33:46.612 sendMessageToConsole: /var/log/messages: Apr 14 17:33:45 cpu04 kubelet: E0414 17:33:45.307185    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:33:46.615 17:33:46.612 sendMessageToConsole: 
+17:33:47.825 17:33:47.822 Message to master: anchor=/comp4/cpu004: Created 165 of 512 files (32.23%)
+17:33:56.653 17:33:56.649 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:33:56.653 17:33:56.649 sendMessageToConsole: /var/log/messages: Apr 14 17:33:55 cpu04 kubelet: E0414 17:33:55.322347    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:33:56.653 17:33:56.649 sendMessageToConsole: 
+17:34:01.686 17:34:01.683 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:34:01.687 17:34:01.683 sendMessageToConsole: /var/log/messages: Apr 14 17:34:01 cpu04 systemd: Started Session 1919 of user root.
+17:34:01.687 17:34:01.683 sendMessageToConsole: 
+17:34:03.542 17:34:03.539 Message to master: anchor=/comp4/cpu004: Created 175 of 512 files (34.18%)
+17:34:06.724 17:34:06.720 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:34:06.724 17:34:06.720 sendMessageToConsole: /var/log/messages: Apr 14 17:34:05 cpu04 kubelet: E0414 17:34:05.340071    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:34:06.724 17:34:06.720 sendMessageToConsole: /var/log/messages: Apr 14 17:34:06 cpu04 dhclient[10391]: DHCPREQUEST on enp0s20u1u5 to 169.254.95.118 port 67 (xid=0x527623a3)
+17:34:06.724 17:34:06.721 sendMessageToConsole: /var/log/messages: Apr 14 17:34:06 cpu04 dhclient[10391]: DHCPACK from 169.254.95.118 (xid=0x527623a3)
+17:34:06.724 17:34:06.721 sendMessageToConsole: 
+17:34:11.762 17:34:11.759 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:34:11.763 17:34:11.759 sendMessageToConsole: /var/log/messages: Apr 14 17:34:08 cpu04 dhclient[10391]: bound to 169.254.95.120 -- renewal in 245 seconds.
+17:34:11.763 17:34:11.759 sendMessageToConsole: 
+17:34:16.795 17:34:16.792 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:34:16.795 17:34:16.792 sendMessageToConsole: /var/log/messages: Apr 14 17:34:15 cpu04 kubelet: E0414 17:34:15.352536    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:34:16.796 17:34:16.792 sendMessageToConsole: 
+17:34:26.836 17:34:26.832 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:34:26.836 17:34:26.833 sendMessageToConsole: /var/log/messages: Apr 14 17:34:25 cpu04 kubelet: E0414 17:34:25.364878    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:34:26.836 17:34:26.833 sendMessageToConsole: 
+17:34:28.764 17:34:28.761 Message to master: anchor=/comp4/cpu004: Created 185 of 512 files (36.13%)
+17:34:36.873 17:34:36.870 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:34:36.873 17:34:36.870 sendMessageToConsole: /var/log/messages: Apr 14 17:34:35 cpu04 kubelet: E0414 17:34:35.380983    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:34:36.873 17:34:36.870 sendMessageToConsole: 
+17:34:46.908 17:34:46.905 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:34:46.909 17:34:46.905 sendMessageToConsole: /var/log/messages: Apr 14 17:34:45 cpu04 kubelet: E0414 17:34:45.393853    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:34:46.909 17:34:46.905 sendMessageToConsole: 
+17:34:47.124 17:34:47.121 Message to master: anchor=/comp4/cpu004: Created 195 of 512 files (38.09%)
+17:34:56.941 17:34:56.938 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:34:56.941 17:34:56.938 sendMessageToConsole: /var/log/messages: Apr 14 17:34:55 cpu04 kubelet: E0414 17:34:55.405483    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:34:56.941 17:34:56.938 sendMessageToConsole: 
+17:35:01.979 17:35:01.976 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:35:01.979 17:35:01.976 sendMessageToConsole: /var/log/messages: Apr 14 17:35:01 cpu04 systemd: Started Session 1920 of user root.
+17:35:01.979 17:35:01.976 sendMessageToConsole: 
+17:35:07.016 17:35:07.013 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:35:07.016 17:35:07.013 sendMessageToConsole: /var/log/messages: Apr 14 17:35:05 cpu04 kubelet: E0414 17:35:05.419748    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:35:07.016 17:35:07.013 sendMessageToConsole: 
+17:35:13.831 17:35:13.828 Message to master: anchor=/comp4/cpu004: Created 210 of 512 files (41.02%)
+17:35:17.054 17:35:17.051 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:35:17.054 17:35:17.051 sendMessageToConsole: /var/log/messages: Apr 14 17:35:15 cpu04 kubelet: E0414 17:35:15.435070    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:35:17.054 17:35:17.051 sendMessageToConsole: 
+17:35:27.090 17:35:27.087 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:35:27.090 17:35:27.087 sendMessageToConsole: /var/log/messages: Apr 14 17:35:25 cpu04 kubelet: E0414 17:35:25.449666    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:35:27.090 17:35:27.087 sendMessageToConsole: 
+17:35:31.388 17:35:31.384 Message to master: anchor=/comp4/cpu004: Created 220 of 512 files (42.97%)
+17:35:37.129 17:35:37.125 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:35:37.129 17:35:37.126 sendMessageToConsole: /var/log/messages: Apr 14 17:35:35 cpu04 kubelet: E0414 17:35:35.465586    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:35:37.129 17:35:37.126 sendMessageToConsole: 
+17:35:46.540 17:35:46.537 Message to master: anchor=/comp4/cpu004: Created 230 of 512 files (44.92%)
+17:35:47.162 17:35:47.159 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:35:47.162 17:35:47.159 sendMessageToConsole: /var/log/messages: Apr 14 17:35:45 cpu04 kubelet: E0414 17:35:45.477453    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:35:47.162 17:35:47.159 sendMessageToConsole: 
+17:35:57.195 17:35:57.192 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:35:57.195 17:35:57.192 sendMessageToConsole: /var/log/messages: Apr 14 17:35:55 cpu04 kubelet: E0414 17:35:55.492049    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:35:57.195 17:35:57.192 sendMessageToConsole: 
+17:36:02.231 17:36:02.228 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:36:02.231 17:36:02.228 sendMessageToConsole: /var/log/messages: Apr 14 17:36:01 cpu04 systemd: Started Session 1921 of user root.
+17:36:02.231 17:36:02.228 sendMessageToConsole: 
+17:36:06.490 17:36:06.487 Message to master: anchor=/comp4/cpu004: Created 240 of 512 files (46.88%)
+17:36:07.268 17:36:07.265 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:36:07.268 17:36:07.265 sendMessageToConsole: /var/log/messages: Apr 14 17:36:05 cpu04 kubelet: E0414 17:36:05.507771    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:36:07.268 17:36:07.265 sendMessageToConsole: 
+17:36:17.305 17:36:17.302 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:36:17.305 17:36:17.302 sendMessageToConsole: /var/log/messages: Apr 14 17:36:15 cpu04 kubelet: E0414 17:36:15.520229    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:36:17.305 17:36:17.302 sendMessageToConsole: 
+17:36:27.342 17:36:27.339 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:36:27.342 17:36:27.339 sendMessageToConsole: /var/log/messages: Apr 14 17:36:25 cpu04 kubelet: E0414 17:36:25.534932    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:36:27.342 17:36:27.339 sendMessageToConsole: 
+17:36:29.446 17:36:29.443 Message to master: anchor=/comp4/cpu004: Created 250 of 512 files (48.83%)
+17:36:37.378 17:36:37.375 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:36:37.378 17:36:37.375 sendMessageToConsole: /var/log/messages: Apr 14 17:36:35 cpu04 kubelet: E0414 17:36:35.547481    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:36:37.379 17:36:37.375 sendMessageToConsole: 
+17:36:47.415 17:36:47.412 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:36:47.415 17:36:47.412 sendMessageToConsole: /var/log/messages: Apr 14 17:36:45 cpu04 kubelet: E0414 17:36:45.561610    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:36:47.415 17:36:47.412 sendMessageToConsole: 
+17:36:47.418 17:36:47.415 Message to master: anchor=/comp4/cpu004: Created 260 of 512 files (50.78%)
+17:36:57.456 17:36:57.453 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:36:57.456 17:36:57.453 sendMessageToConsole: /var/log/messages: Apr 14 17:36:55 cpu04 kubelet: E0414 17:36:55.575341    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:36:57.456 17:36:57.453 sendMessageToConsole: 
+17:37:02.493 17:37:02.490 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:37:02.493 17:37:02.490 sendMessageToConsole: /var/log/messages: Apr 14 17:37:01 cpu04 systemd: Started Session 1922 of user root.
+17:37:02.493 17:37:02.490 sendMessageToConsole: 
+17:37:03.211 17:37:03.208 Message to master: anchor=/comp4/cpu004: Created 270 of 512 files (52.73%)
+17:37:07.527 17:37:07.524 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:37:07.527 17:37:07.524 sendMessageToConsole: /var/log/messages: Apr 14 17:37:05 cpu04 kubelet: E0414 17:37:05.590721    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:37:07.527 17:37:07.524 sendMessageToConsole: 
+17:37:17.563 17:37:17.560 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:37:17.563 17:37:17.560 sendMessageToConsole: /var/log/messages: Apr 14 17:37:15 cpu04 kubelet: E0414 17:37:15.603854    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:37:17.563 17:37:17.560 sendMessageToConsole: 
+17:37:22.665 17:37:22.662 Message to master: anchor=/comp4/cpu004: Created 280 of 512 files (54.69%)
+17:37:27.599 17:37:27.596 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:37:27.600 17:37:27.596 sendMessageToConsole: /var/log/messages: Apr 14 17:37:24 cpu04 dhclient[10266]: DHCPREQUEST on eno1 to 192.168.10.10 port 67 (xid=0xfa5d1ae)
+17:37:27.600 17:37:27.596 sendMessageToConsole: /var/log/messages: Apr 14 17:37:24 cpu04 dhclient[10266]: DHCPACK from 192.168.10.10 (xid=0xfa5d1ae)
+17:37:27.600 17:37:27.596 sendMessageToConsole: /var/log/messages: Apr 14 17:37:25 cpu04 kubelet: E0414 17:37:25.620589    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:37:27.600 17:37:27.596 sendMessageToConsole: /var/log/messages: Apr 14 17:37:26 cpu04 dhclient[10266]: bound to 192.168.10.24 -- renewal in 244 seconds.
+17:37:27.600 17:37:27.596 sendMessageToConsole: 
+17:37:37.639 17:37:37.635 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:37:37.639 17:37:37.635 sendMessageToConsole: /var/log/messages: Apr 14 17:37:35 cpu04 kubelet: E0414 17:37:35.635041    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:37:37.639 17:37:37.636 sendMessageToConsole: 
+17:37:46.544 17:37:46.541 Message to master: anchor=/comp4/cpu004: Created 290 of 512 files (56.64%)
+17:37:47.675 17:37:47.672 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:37:47.675 17:37:47.672 sendMessageToConsole: /var/log/messages: Apr 14 17:37:45 cpu04 kubelet: E0414 17:37:45.650124    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:37:47.675 17:37:47.672 sendMessageToConsole: 
+17:37:57.716 17:37:57.713 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:37:57.716 17:37:57.713 sendMessageToConsole: /var/log/messages: Apr 14 17:37:55 cpu04 kubelet: E0414 17:37:55.667145    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:37:57.716 17:37:57.713 sendMessageToConsole: 
+17:38:02.754 17:38:02.751 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:38:02.754 17:38:02.751 sendMessageToConsole: /var/log/messages: Apr 14 17:38:01 cpu04 systemd: Started Session 1923 of user root.
+17:38:02.754 17:38:02.751 sendMessageToConsole: 
+17:38:03.538 17:38:03.535 Message to master: anchor=/comp4/cpu004: Created 300 of 512 files (58.59%)
+17:38:07.791 17:38:07.788 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:38:07.791 17:38:07.788 sendMessageToConsole: /var/log/messages: Apr 14 17:38:05 cpu04 kubelet: E0414 17:38:05.681180    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:38:07.791 17:38:07.788 sendMessageToConsole: 
+17:38:17.830 17:38:17.827 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:38:17.830 17:38:17.827 sendMessageToConsole: /var/log/messages: Apr 14 17:38:13 cpu04 dhclient[10391]: DHCPREQUEST on enp0s20u1u5 to 169.254.95.118 port 67 (xid=0x527623a3)
+17:38:17.830 17:38:17.827 sendMessageToConsole: /var/log/messages: Apr 14 17:38:13 cpu04 dhclient[10391]: DHCPACK from 169.254.95.118 (xid=0x527623a3)
+17:38:17.830 17:38:17.828 sendMessageToConsole: /var/log/messages: Apr 14 17:38:14 cpu04 chronyd[9933]: Can't synchronise: no selectable sources
+17:38:17.831 17:38:17.828 sendMessageToConsole: /var/log/messages: Apr 14 17:38:15 cpu04 dhclient[10391]: bound to 169.254.95.120 -- renewal in 285 seconds.
+17:38:17.831 17:38:17.828 sendMessageToConsole: /var/log/messages: Apr 14 17:38:15 cpu04 kubelet: E0414 17:38:15.695635    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:38:17.831 17:38:17.828 sendMessageToConsole: 
+17:38:18.633 17:38:18.630 Message to master: anchor=/comp4/cpu004: Created 310 of 512 files (60.55%)
+17:38:27.868 17:38:27.865 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:38:27.868 17:38:27.865 sendMessageToConsole: /var/log/messages: Apr 14 17:38:25 cpu04 kubelet: E0414 17:38:25.712426    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:38:27.868 17:38:27.865 sendMessageToConsole: 
+17:38:36.983 17:38:36.980 Message to master: anchor=/comp4/cpu004: Created 320 of 512 files (62.50%)
+17:38:37.906 17:38:37.903 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:38:37.906 17:38:37.903 sendMessageToConsole: /var/log/messages: Apr 14 17:38:35 cpu04 kubelet: E0414 17:38:35.726659    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:38:37.906 17:38:37.903 sendMessageToConsole: 
+17:38:47.943 17:38:47.940 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:38:47.943 17:38:47.940 sendMessageToConsole: /var/log/messages: Apr 14 17:38:45 cpu04 kubelet: E0414 17:38:45.739043    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:38:47.943 17:38:47.940 sendMessageToConsole: 
+17:38:57.071 17:38:57.067 Message to master: anchor=/comp4/cpu004: Created 330 of 512 files (64.45%)
+17:38:57.978 17:38:57.974 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:38:57.978 17:38:57.974 sendMessageToConsole: /var/log/messages: Apr 14 17:38:55 cpu04 kubelet: E0414 17:38:55.751404    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:38:57.978 17:38:57.974 sendMessageToConsole: 
+17:39:03.017 17:39:03.013 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:39:03.017 17:39:03.013 sendMessageToConsole: /var/log/messages: Apr 14 17:39:01 cpu04 systemd: Started Session 1924 of user root.
+17:39:03.017 17:39:03.013 sendMessageToConsole: 
+17:39:08.054 17:39:08.050 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:39:08.054 17:39:08.050 sendMessageToConsole: /var/log/messages: Apr 14 17:39:05 cpu04 kubelet: E0414 17:39:05.768966    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:39:08.054 17:39:08.050 sendMessageToConsole: 
+17:39:18.092 17:39:18.088 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:39:18.092 17:39:18.088 sendMessageToConsole: /var/log/messages: Apr 14 17:39:15 cpu04 kubelet: E0414 17:39:15.785888    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:39:18.092 17:39:18.088 sendMessageToConsole: 
+17:39:21.877 17:39:21.873 Message to master: anchor=/comp4/cpu004: Created 345 of 512 files (67.38%)
+17:39:23.130 17:39:23.126 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:39:23.130 17:39:23.126 sendMessageToConsole: /var/log/messages: Apr 14 17:39:18 cpu04 chronyd[9933]: Selected source 203.248.240.140
+17:39:23.130 17:39:23.126 sendMessageToConsole: 
+17:39:28.168 17:39:28.164 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:39:28.168 17:39:28.164 sendMessageToConsole: /var/log/messages: Apr 14 17:39:25 cpu04 kubelet: E0414 17:39:25.799955    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:39:28.168 17:39:28.164 sendMessageToConsole: 
+17:39:38.204 17:39:38.200 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:39:38.204 17:39:38.201 sendMessageToConsole: /var/log/messages: Apr 14 17:39:35 cpu04 kubelet: E0414 17:39:35.815088    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:39:38.204 17:39:38.201 sendMessageToConsole: 
+17:39:39.348 17:39:39.345 Message to master: anchor=/comp4/cpu004: Created 355 of 512 files (69.34%)
+17:39:48.242 17:39:48.238 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:39:48.242 17:39:48.238 sendMessageToConsole: /var/log/messages: Apr 14 17:39:45 cpu04 kubelet: E0414 17:39:45.832485    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:39:48.242 17:39:48.238 sendMessageToConsole: 
+17:39:55.235 17:39:55.230 Message to master: anchor=/comp4/cpu004: Created 365 of 512 files (71.29%)
+17:39:58.280 17:39:58.275 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:39:58.280 17:39:58.275 sendMessageToConsole: /var/log/messages: Apr 14 17:39:55 cpu04 kubelet: E0414 17:39:55.847091    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:39:58.280 17:39:58.275 sendMessageToConsole: 
+17:40:03.317 17:40:03.312 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:40:03.317 17:40:03.312 sendMessageToConsole: /var/log/messages: Apr 14 17:40:01 cpu04 systemd: Started Session 1925 of user root.
+17:40:03.317 17:40:03.312 sendMessageToConsole: 
+17:40:08.355 17:40:08.349 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:40:08.355 17:40:08.349 sendMessageToConsole: /var/log/messages: Apr 14 17:40:05 cpu04 kubelet: E0414 17:40:05.863167    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:40:08.355 17:40:08.349 sendMessageToConsole: 
+17:40:18.394 17:40:18.388 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:40:18.394 17:40:18.388 sendMessageToConsole: /var/log/messages: Apr 14 17:40:15 cpu04 kubelet: E0414 17:40:15.880914    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:40:18.394 17:40:18.388 sendMessageToConsole: 
+17:40:20.807 17:40:20.801 Message to master: anchor=/comp4/cpu004: Created 380 of 512 files (74.22%)
+17:40:28.429 17:40:28.425 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:40:28.429 17:40:28.425 sendMessageToConsole: /var/log/messages: Apr 14 17:40:25 cpu04 kubelet: E0414 17:40:25.893889    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:40:28.429 17:40:28.425 sendMessageToConsole: 
+17:40:36.945 17:40:36.943 Message to master: anchor=/comp4/cpu004: Created 390 of 512 files (76.17%)
+17:40:38.463 17:40:38.462 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:40:38.463 17:40:38.462 sendMessageToConsole: /var/log/messages: Apr 14 17:40:35 cpu04 kubelet: E0414 17:40:35.906899    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:40:38.463 17:40:38.462 sendMessageToConsole: 
+17:40:48.500 17:40:48.499 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:40:48.500 17:40:48.499 sendMessageToConsole: /var/log/messages: Apr 14 17:40:45 cpu04 kubelet: E0414 17:40:45.924992    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:40:48.500 17:40:48.499 sendMessageToConsole: 
+17:40:54.218 17:40:54.217 Message to master: anchor=/comp4/cpu004: Created 400 of 512 files (78.13%)
+17:40:58.538 17:40:58.537 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:40:58.538 17:40:58.537 sendMessageToConsole: /var/log/messages: Apr 14 17:40:55 cpu04 kubelet: E0414 17:40:55.939986    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:40:58.538 17:40:58.537 sendMessageToConsole: 
+17:41:03.571 17:41:03.570 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:41:03.571 17:41:03.570 sendMessageToConsole: /var/log/messages: Apr 14 17:41:01 cpu04 systemd: Started Session 1926 of user root.
+17:41:03.572 17:41:03.570 sendMessageToConsole: 
+17:41:08.608 17:41:08.606 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:41:08.608 17:41:08.606 sendMessageToConsole: /var/log/messages: Apr 14 17:41:05 cpu04 kubelet: E0414 17:41:05.953975    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:41:08.608 17:41:08.607 sendMessageToConsole: 
+17:41:11.892 17:41:11.890 Message to master: anchor=/comp4/cpu004: Created 410 of 512 files (80.08%)
+17:41:18.645 17:41:18.644 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:41:18.645 17:41:18.644 sendMessageToConsole: /var/log/messages: Apr 14 17:41:15 cpu04 kubelet: E0414 17:41:15.967945    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:41:18.645 17:41:18.644 sendMessageToConsole: 
+17:41:28.684 17:41:28.683 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:41:28.684 17:41:28.683 sendMessageToConsole: /var/log/messages: Apr 14 17:41:25 cpu04 kubelet: E0414 17:41:25.985539    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:41:28.684 17:41:28.683 sendMessageToConsole: 
+17:41:33.720 17:41:33.718 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:41:33.720 17:41:33.718 sendMessageToConsole: /var/log/messages: Apr 14 17:41:30 cpu04 dhclient[10266]: DHCPREQUEST on eno1 to 192.168.10.10 port 67 (xid=0xfa5d1ae)
+17:41:33.720 17:41:33.718 sendMessageToConsole: /var/log/messages: Apr 14 17:41:30 cpu04 dhclient[10266]: DHCPACK from 192.168.10.10 (xid=0xfa5d1ae)
+17:41:33.720 17:41:33.718 sendMessageToConsole: /var/log/messages: Apr 14 17:41:33 cpu04 dhclient[10266]: bound to 192.168.10.24 -- renewal in 226 seconds.
+17:41:33.720 17:41:33.718 sendMessageToConsole: 
+17:41:36.156 17:41:36.155 Message to master: anchor=/comp4/cpu004: Created 425 of 512 files (83.01%)
+17:41:38.756 17:41:38.755 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:41:38.756 17:41:38.755 sendMessageToConsole: /var/log/messages: Apr 14 17:41:36 cpu04 kubelet: E0414 17:41:36.003507    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:41:38.757 17:41:38.755 sendMessageToConsole: 
+17:41:48.794 17:41:48.793 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:41:48.794 17:41:48.793 sendMessageToConsole: /var/log/messages: Apr 14 17:41:46 cpu04 kubelet: E0414 17:41:46.021594    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:41:48.794 17:41:48.793 sendMessageToConsole: 
+17:41:57.636 17:41:57.635 Message to master: anchor=/comp4/cpu004: Created 440 of 512 files (85.94%)
+17:41:58.837 17:41:58.835 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:41:58.837 17:41:58.836 sendMessageToConsole: /var/log/messages: Apr 14 17:41:56 cpu04 kubelet: E0414 17:41:56.035689    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:41:58.837 17:41:58.836 sendMessageToConsole: 
+17:42:03.870 17:42:03.869 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:42:03.870 17:42:03.869 sendMessageToConsole: /var/log/messages: Apr 14 17:42:01 cpu04 systemd: Started Session 1927 of user root.
+17:42:03.870 17:42:03.869 sendMessageToConsole: 
+17:42:08.907 17:42:08.906 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:42:08.907 17:42:08.906 sendMessageToConsole: /var/log/messages: Apr 14 17:42:06 cpu04 kubelet: E0414 17:42:06.051995    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:42:08.907 17:42:08.906 sendMessageToConsole: 
+17:42:15.728 17:42:15.728 Message to master: anchor=/comp4/cpu004: Created 455 of 512 files (88.87%)
+17:42:18.943 17:42:18.942 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:42:18.943 17:42:18.942 sendMessageToConsole: /var/log/messages: Apr 14 17:42:16 cpu04 kubelet: E0414 17:42:16.068049    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:42:18.943 17:42:18.942 sendMessageToConsole: 
+17:42:28.981 17:42:28.980 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:42:28.981 17:42:28.980 sendMessageToConsole: /var/log/messages: Apr 14 17:42:26 cpu04 kubelet: E0414 17:42:26.082677    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:42:28.981 17:42:28.980 sendMessageToConsole: 
+17:42:32.171 17:42:32.171 Message to master: anchor=/comp4/cpu004: Created 465 of 512 files (90.82%)
+17:42:39.021 17:42:39.021 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:42:39.022 17:42:39.021 sendMessageToConsole: /var/log/messages: Apr 14 17:42:36 cpu04 kubelet: E0414 17:42:36.101888    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:42:39.022 17:42:39.021 sendMessageToConsole: 
+17:42:49.058 17:42:49.057 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:42:49.058 17:42:49.057 sendMessageToConsole: /var/log/messages: Apr 14 17:42:46 cpu04 kubelet: E0414 17:42:46.116927    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:42:49.058 17:42:49.057 sendMessageToConsole: 
+17:42:49.880 17:42:49.880 Message to master: anchor=/comp4/cpu004: Created 480 of 512 files (93.75%)
+17:42:59.090 17:42:59.090 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:42:59.090 17:42:59.090 sendMessageToConsole: /var/log/messages: Apr 14 17:42:56 cpu04 kubelet: E0414 17:42:56.132291    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:42:59.090 17:42:59.090 sendMessageToConsole: 
+17:43:04.126 17:43:04.126 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:43:04.126 17:43:04.126 sendMessageToConsole: /var/log/messages: Apr 14 17:43:00 cpu04 dhclient[10391]: DHCPREQUEST on enp0s20u1u5 to 169.254.95.118 port 67 (xid=0x527623a3)
+17:43:04.126 17:43:04.126 sendMessageToConsole: /var/log/messages: Apr 14 17:43:00 cpu04 dhclient[10391]: DHCPACK from 169.254.95.118 (xid=0x527623a3)
+17:43:04.126 17:43:04.126 sendMessageToConsole: /var/log/messages: Apr 14 17:43:01 cpu04 systemd: Started Session 1928 of user root.
+17:43:04.126 17:43:04.126 sendMessageToConsole: /var/log/messages: Apr 14 17:43:02 cpu04 dhclient[10391]: bound to 169.254.95.120 -- renewal in 284 seconds.
+17:43:04.126 17:43:04.126 sendMessageToConsole: 
+17:43:06.277 17:43:06.277 Message to master: anchor=/comp4/cpu004: Created 495 of 512 files (96.68%)
+17:43:09.163 17:43:09.163 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:43:09.163 17:43:09.163 sendMessageToConsole: /var/log/messages: Apr 14 17:43:06 cpu04 kubelet: E0414 17:43:06.149583    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:43:09.163 17:43:09.163 sendMessageToConsole: 
+17:43:19.200 17:43:19.200 sendMessageToConsole: New messages found on /var/adm/messages. Do they belong to you?
+17:43:19.200 17:43:19.200 sendMessageToConsole: /var/log/messages: Apr 14 17:43:16 cpu04 kubelet: E0414 17:43:16.163699    9907 summary_sys_containers.go:47] Failed to get system container stats for "/system.slice/docker.service": failed to get cgroup stats for "/system.slice/docker.service": failed to get container info for "/system.slice/docker.service": unknown container "/system.slice/docker.service"
+17:43:19.200 17:43:19.200 sendMessageToConsole: 
+17:43:23.429 17:43:23.429 Message to master: anchor=/comp4/cpu004 create complete.
+17:43:23.533 17:43:23.534 
+17:43:23.533 17:43:23.534 Miscellaneous statistics:
+17:43:23.533 17:43:23.534 FILE_CREATES        Files created:                                  512
+17:43:23.533 17:43:23.534 DIRECTORY_CREATES   Directories created:                             72
+17:43:23.533 17:43:23.534 WRITE_OPENS         Files opened for write activity:                512
+17:43:23.533 17:43:23.534 DIR_EXISTS          Directory may not exist (yet):                    7
+17:43:23.534 17:43:23.534 FILE_CLOSES         Close requests:                                 512
+17:43:23.534 17:43:23.534 
+17:43:23.534 17:43:23.535 Java Heap in MB. max:  910.500; current:  139.500; used:   39.204; free:  100.296
+17:43:23.535 17:43:23.535 Maximum native memory allocation:    1,048,576; Current allocation:    1,048,576
+17:43:26.043 17:43:26.043 Writing control file for anchor=/comp4/cpu004 at end of run.
+17:43:26.063 17:43:26.064 Completed control file for anchor=/comp4/cpu004 at end of run.  dirs: 72/72 files: 512/512 sizes: 25g/25g/512/25g
+17:43:26.063 17:43:26.064 End of run
+17:43:26.064 17:43:26.064 **********
+17:43:26.064 
+17:43:26.064 
+17:43:26.303 17:43:26.303 Beginning of run setup
+17:43:26.303 17:43:26.303 **********************
+17:43:26.303 
+17:43:26.303 
+17:43:26.342 17:43:26.343 Starting initializeFileAnchor for rd=rd_prep For loops: None anchor=fsd_cpu04_comp4
+17:43:26.343 17:43:26.343 Reading control file for anchor=/comp4/cpu004
+17:43:26.344 17:43:26.345 Completed reading control file.
+17:43:26.344 17:43:26.345 Completed the creation of the directory list for /comp4/cpu004: 72 directories.
+17:43:26.345 17:43:26.345 Generated 512 file names; total anchor size: 25g (26,843,545,600)
+17:43:26.345 17:43:26.345 Writing control file for anchor=/comp4/cpu004 at start of run.
+17:43:26.358 17:43:26.359 Completed control file for anchor=/comp4/cpu004 at start of run.  dirs: 72/72 files: 512/512 sizes: 25g/25g/0/0
+17:43:26.358 17:43:26.359 During anchor creation for anchor=/comp4/cpu004 there were 72 directories and 512 files
+17:43:26.358 17:43:26.359 Completed initializeFileAnchor for fsd_cpu04_comp4: 0.02
+17:43:26.365 17:43:26.366 Started 16 threads for fwd=fwd_prep_cpu04,fsd=fsd_cpu04_comp4,operation=create
+17:43:26.365 17:43:26.366 Started 16 FwgThreads for rd=rd_prep For loops: None
+17:43:26.365 17:43:26.366 Waiting for task synchronization
+17:43:26.365 17:43:26.366 task_wait_start_complete: FwgThread create /comp4/cpu004 1
+17:43:26.566 17:43:26.566 Requesting full garbage collection
+17:43:26.566 17:43:26.566 GcTracker: cum:  86 intv:  0 ms:       0 mss:  0.00% Heap_MB max:   911 curr:   140 used:    44 free:    96 
+17:43:26.601 17:43:26.602 GcTracker: cum:  88 intv:  2 ms:      35 mss:  0.00% Heap_MB max:   911 curr:   140 used:    17 free:   123 
+17:43:26.601 17:43:26.602 task_wait_start_complete() end
+
+<a name="_917142466"></a><i><b>17:43:27.000 Starting RD=rd_prep; elapsed=30; fwdrate=max. For loops: None</b></i>
+
+17:43:27.001 17:43:27.002 task_run_all(): 17 tasks
+17:43:27.362 17:43:27.362 Anchor: /comp4/cpu004
+17:43:27.362 17:43:27.362 Vdbench is trying to create a new file, but all files already exist, 
+17:43:27.362 17:43:27.362 and no threads are currently active deleting files
+17:43:27.362 17:43:27.362 FwgThread.canWeGetMoreFiles(): Shutting down threads for operation=create
+17:43:27.362 17:43:27.362 
+17:43:27.362 17:43:27.362 sendMessageToConsole: Anchor: /comp4/cpu004
+17:43:27.362 17:43:27.362 sendMessageToConsole: Vdbench is trying to create a new file, but all files already exist, 
+17:43:27.362 17:43:27.362 sendMessageToConsole: and no threads are currently active deleting files
+17:43:27.362 17:43:27.362 sendMessageToConsole: FwgThread.canWeGetMoreFiles(): Shutting down threads for operation=create
+17:43:27.362 17:43:27.362 sendMessageToConsole: 
+17:43:27.466 17:43:27.466 Miscellaneous statistics: All counters are zero
+17:43:27.466 17:43:27.467 Java Heap in MB. max:  910.500; current:  139.500; used:   18.189; free:  121.311
+17:43:27.466 17:43:27.467 Maximum native memory allocation:    1,114,112; Current allocation:       65,536
+17:43:28.037 17:43:28.037 Writing control file for anchor=/comp4/cpu004 at end of run.
+17:43:28.053 17:43:28.053 Completed control file for anchor=/comp4/cpu004 at end of run.  dirs: 72/72 files: 512/512 sizes: 25g/25g/0/0
+17:43:28.053 17:43:28.054 End of run
+17:43:28.053 17:43:28.054 **********
+17:43:28.053 
+17:43:28.053 
+17:43:28.283 17:43:28.284 Master is requesting slave shutdown
+17:43:28.283 17:43:28.284 Java Heap in MB. max:  910.500; current:  139.500; used:   19.172; free:  120.328

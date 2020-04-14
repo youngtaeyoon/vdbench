@@ -1,0 +1,92 @@
+<title>Vdbench 12.prep_comp.par/skew.html</title><pre>
+Workload skew report
+
+Skew information will only be generated if:
+ - there is more than one Workload Definition (WD/FWD)
+ - there is more than one Storage Definition (SD/FSD)
+ - there is more than one Host
+ - there is more than one Slave
+(Though these rules may be ignored from time to time).
+
+
+Link to Run Definitions:         <A HREF="#_292938459">format_for_rd_prep For loops: None</A>
+                                 <A HREF="#_917142466">rd_prep For loops: None</A>
+
+
+<a name="_292938459"></a><i><b>17:28:41.002 Starting RD=format_for_rd_prep</b></i>
+
+17:43:26.038 
+17:43:26.038               .ReqstdOps...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...mkdir.... ...rmdir.... ...create... ....open.... ...close.... ...delete...
+17:43:26.038 Slave:          rate   resp   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+17:43:26.039 cpu01-0        231.7 34.137   0.0    0.0  0.000  231.7 34.137  0.00 28.96  28.96  131072   0.0 43.928   0.0  0.000   0.6  13729   0.6 73.412   0.6  0.037   0.0  0.000
+17:43:26.039 
+17:43:26.039               .ReqstdOps...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...mkdir.... ...rmdir.... ...create... ....open.... ...close.... ...delete...
+17:43:26.039 Slave:          rate   resp   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+17:43:26.039 cpu02-0        231.7 34.135   0.0    0.0  0.000  231.7 34.135  0.00 28.96  28.96  131072   0.0 42.403   0.0  0.000   0.6  13726   0.6 71.362   0.6  0.024   0.0  0.000
+17:43:26.039 
+17:43:26.039               .ReqstdOps...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...mkdir.... ...rmdir.... ...create... ....open.... ...close.... ...delete...
+17:43:26.039 Slave:          rate   resp   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+17:43:26.039 cpu03-0        231.7 34.198   0.0    0.0  0.000  231.7 34.198  0.00 28.96  28.96  131072   0.0  0.000   0.0  0.000   0.6  13748   0.6 66.760   0.6  0.023   0.0  0.000
+17:43:26.039 
+17:43:26.039               .ReqstdOps...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...mkdir.... ...rmdir.... ...create... ....open.... ...close.... ...delete...
+17:43:26.039 Slave:          rate   resp   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+17:43:26.039 cpu04-0        231.7 34.151   0.0    0.0  0.000  231.7 34.151  0.00 28.96  28.96  131072   0.0 49.089   0.0  0.000   0.6  13731   0.6 69.829   0.6  0.026   0.0  0.000
+17:43:26.039 
+17:43:26.039               .ReqstdOps...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...mkdir.... ...rmdir.... ...create... ....open.... ...close.... ...delete...
+17:43:26.039 Host:           rate   resp   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+17:43:26.039 cpu01          231.7 34.137   0.0    0.0  0.000  231.7 34.137  0.00 28.96  28.96  131072   0.0 43.928   0.0  0.000   0.6  13729   0.6 73.412   0.6  0.037   0.0  0.000
+17:43:26.040 cpu02          231.7 34.135   0.0    0.0  0.000  231.7 34.135  0.00 28.96  28.96  131072   0.0 42.403   0.0  0.000   0.6  13726   0.6 71.362   0.6  0.024   0.0  0.000
+17:43:26.040 cpu03          231.7 34.198   0.0    0.0  0.000  231.7 34.198  0.00 28.96  28.96  131072   0.0  0.000   0.0  0.000   0.6  13748   0.6 66.760   0.6  0.023   0.0  0.000
+17:43:26.040 cpu04          231.7 34.151   0.0    0.0  0.000  231.7 34.151  0.00 28.96  28.96  131072   0.0 49.089   0.0  0.000   0.6  13731   0.6 69.829   0.6  0.026   0.0  0.000
+17:43:26.040 Total          926.7 34.155   0.0    0.0  0.000  926.7 34.155  0.00 115.8 115.83  131072   0.1 44.924   0.0  0.000   2.3  13734   2.3 70.350   2.3  0.027   0.0  0.000
+17:43:26.040 
+17:43:26.040               .ReqstdOps...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...mkdir.... ...rmdir.... ...create... ....open.... ...close.... ...delete...
+17:43:26.040 FSD:            rate   resp   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+17:43:26.040 fsd_cpu01_comp1   231.7 34.137   0.0    0.0  0.000  231.7 34.137  0.00 28.96  28.96  131072   0.0 43.928   0.0  0.000   0.6  13729   0.6 73.412   0.6  0.037   0.0  0.000
+17:43:26.040 fsd_cpu02_comp2   231.7 34.135   0.0    0.0  0.000  231.7 34.135  0.00 28.96  28.96  131072   0.0 42.403   0.0  0.000   0.6  13726   0.6 71.362   0.6  0.024   0.0  0.000
+17:43:26.040 fsd_cpu03_comp3   231.7 34.198   0.0    0.0  0.000  231.7 34.198  0.00 28.96  28.96  131072   0.0  0.000   0.0  0.000   0.6  13748   0.6 66.760   0.6  0.023   0.0  0.000
+17:43:26.040 fsd_cpu04_comp4   231.7 34.151   0.0    0.0  0.000  231.7 34.151  0.00 28.96  28.96  131072   0.0 49.089   0.0  0.000   0.6  13731   0.6 69.829   0.6  0.026   0.0  0.000
+17:43:26.041 Total          926.7 34.155   0.0    0.0  0.000  926.7 34.155  0.00 115.8 115.83  131072   0.1 44.924   0.0  0.000   2.3  13734   2.3 70.350   2.3  0.027   0.0  0.000
+
+<a name="_917142466"></a><i><b>17:43:27.000 Starting RD=rd_prep; elapsed=30; fwdrate=max. For loops: None</b></i>
+
+17:43:28.030 
+17:43:28.030               .ReqstdOps...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...mkdir.... ...rmdir.... ...create... ....open.... ...close.... ...delete...
+17:43:28.030 Slave:          rate   resp   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+17:43:28.030 cpu01-0          NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+17:43:28.030 
+17:43:28.030               .ReqstdOps...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...mkdir.... ...rmdir.... ...create... ....open.... ...close.... ...delete...
+17:43:28.030 Slave:          rate   resp   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+17:43:28.030 cpu02-0          NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+17:43:28.030 
+17:43:28.030               .ReqstdOps...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...mkdir.... ...rmdir.... ...create... ....open.... ...close.... ...delete...
+17:43:28.030 Slave:          rate   resp   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+17:43:28.031 cpu03-0          NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+17:43:28.031 
+17:43:28.031               .ReqstdOps...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...mkdir.... ...rmdir.... ...create... ....open.... ...close.... ...delete...
+17:43:28.031 Slave:          rate   resp   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+17:43:28.031 cpu04-0          NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+17:43:28.031 
+17:43:28.031               .ReqstdOps...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...mkdir.... ...rmdir.... ...create... ....open.... ...close.... ...delete...
+17:43:28.031 Host:           rate   resp   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+17:43:28.031 cpu01            NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+17:43:28.031 cpu02            NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+17:43:28.032 cpu03            NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+17:43:28.032 cpu04            NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+17:43:28.032 Total            NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+17:43:28.032 
+17:43:28.032               .ReqstdOps...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...mkdir.... ...rmdir.... ...create... ....open.... ...close.... ...delete...
+17:43:28.032 FSD:            rate   resp   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+17:43:28.033 fsd_cpu01_comp1     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+17:43:28.033 fsd_cpu02_comp2     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+17:43:28.033 fsd_cpu03_comp3     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+17:43:28.033 fsd_cpu04_comp4     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+17:43:28.034 Total            NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+17:43:28.034 
+17:43:28.034               .ReqstdOps...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...mkdir.... ...rmdir.... ...create... ....open.... ...close.... ...delete...
+17:43:28.034 FWD:            rate   resp   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+17:43:28.034 fwd_prep_cpu01     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+17:43:28.034 fwd_prep_cpu02     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+17:43:28.034 fwd_prep_cpu03     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+17:43:28.034 fwd_prep_cpu04     NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000
+17:43:28.035 Total            NaN  0.000   0.0    NaN  0.000    NaN  0.000   NaN   NaN    NaN       0   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000   NaN  0.000

@@ -1,0 +1,21 @@
+<title>Vdbench 11.random_1024k_w_50m.par/cpu07-0.stdout.html</title><pre>
+stdout/stderr for slave=cpu07-0
+
+16:27:32.295 16:27:32.294 SlaveJvm execution parameter:  '-m 192.168.10.21'
+16:27:32.296 16:27:32.295 SlaveJvm execution parameter:  '-n cpu07-16-200414-16.27.31.423'
+16:27:32.296 16:27:32.295 SlaveJvm execution parameter:  '-l cpu07-0'
+16:27:32.296 16:27:32.295 SlaveJvm execution parameter:  '-p 5570'
+16:27:32.296 16:27:32.295 SlaveJvm positional parameter: 'SlaveJvm'
+16:27:32.398 16:27:32.397 successfully connected to master 192.168.10.21
+16:27:32.398 16:27:32.398 Connection to 192.168.10.21 using port 5570 successful
+16:27:32.715 16:27:32.715 ticks_per_second: 100
+16:27:32.778 16:27:32.777 Message to master: Created anchor directory: /ds2/cpu007
+16:27:32.806 16:27:32.806 execute(): ls -l /ds2/cpu007
+16:31:17.427 16:31:17.426 HeartBeat.checkHeartBeat(): Master has not responded for 180 seconds.
+16:31:17.430 16:31:17.430 Java Heap in MB. max:  910.500; current:  123.000; used:   15.314; free:  107.686
+16:31:17.430 16:31:17.430 
+16:31:17.430 16:31:17.430 Heartbeat monitor: Master did not respond. Timeout value: 180
+16:31:17.430 16:31:17.430 
+16:31:17.431 java.lang.RuntimeException: Heartbeat monitor: Master did not respond. Timeout value: 180
+16:31:17.431 	at Vdb.common.failure(common.java:350)
+16:31:17.431 	at Vdb.HeartBeat.run(HeartBeat.java:94)

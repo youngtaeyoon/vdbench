@@ -1,0 +1,788 @@
+<title>Vdbench 11.random_1024k_r_50m.par/summary.html</title><pre>
+Copyright (c) 2000, 2018, Oracle and/or its affiliates. All rights reserved.
+Vdbench summary report, created 13:28:27 Apr 14 2020 KST (04:28:27 Apr 14 2020 UTC)
+
+Link to logfile:                 <A HREF="logfile.html">logfile</A>
+Run totals:                      <A HREF="totals.html">totals</A>
+Vdbench status:                  <A HREF="status.html">status</A>
+Copy of input parameter files:   <A HREF="parmfile.html">parmfile</A>
+Copy of parameter scan detail:   <A HREF="parmscan.html">parmscan</A>
+Link to errorlog:                <A HREF="errorlog.html">errorlog</A>
+Link to flatfile:                <A HREF="flatfile.html">flatfile</A>
+Link to anchor status:           <A HREF="anchors.html">anchors</A>
+
+Link to HOST reports:            <A HREF="cpu01.html">cpu01</A>    <A HREF="cpu02.html">cpu02</A>    <A HREF="cpu03.html">cpu03</A>    <A HREF="cpu04.html">cpu04</A>    <A HREF="cpu05.html">cpu05</A>    <A HREF="cpu06.html">cpu06</A>    <A HREF="cpu07.html">cpu07</A>    <A HREF="cpu08.html">cpu08</A>   
+                                 <A HREF="cpu09.html">cpu09</A>    <A HREF="cpu10.html">cpu10</A>    <A HREF="cpu11.html">cpu11</A>    <A HREF="cpu12.html">cpu12</A>   
+Link to FSD reports:             <A HREF="fsd_cpu01_ds1.html">fsd_cpu01_ds1</A> <A HREF="fsd_cpu01_ds10.html">fsd_cpu01_ds10</A> <A HREF="fsd_cpu01_ds11.html">fsd_cpu01_ds11</A> <A HREF="fsd_cpu01_ds12.html">fsd_cpu01_ds12</A> <A HREF="fsd_cpu01_ds2.html">fsd_cpu01_ds2</A> <A HREF="fsd_cpu01_ds3.html">fsd_cpu01_ds3</A> <A HREF="fsd_cpu01_ds4.html">fsd_cpu01_ds4</A> <A HREF="fsd_cpu01_ds5.html">fsd_cpu01_ds5</A>
+                                 <A HREF="fsd_cpu01_ds6.html">fsd_cpu01_ds6</A> <A HREF="fsd_cpu01_ds7.html">fsd_cpu01_ds7</A> <A HREF="fsd_cpu01_ds8.html">fsd_cpu01_ds8</A> <A HREF="fsd_cpu01_ds9.html">fsd_cpu01_ds9</A> <A HREF="fsd_cpu02_ds1.html">fsd_cpu02_ds1</A> <A HREF="fsd_cpu02_ds10.html">fsd_cpu02_ds10</A> <A HREF="fsd_cpu02_ds11.html">fsd_cpu02_ds11</A> <A HREF="fsd_cpu02_ds12.html">fsd_cpu02_ds12</A>
+                                 <A HREF="fsd_cpu02_ds2.html">fsd_cpu02_ds2</A> <A HREF="fsd_cpu02_ds3.html">fsd_cpu02_ds3</A> <A HREF="fsd_cpu02_ds4.html">fsd_cpu02_ds4</A> <A HREF="fsd_cpu02_ds5.html">fsd_cpu02_ds5</A> <A HREF="fsd_cpu02_ds6.html">fsd_cpu02_ds6</A> <A HREF="fsd_cpu02_ds7.html">fsd_cpu02_ds7</A> <A HREF="fsd_cpu02_ds8.html">fsd_cpu02_ds8</A> <A HREF="fsd_cpu02_ds9.html">fsd_cpu02_ds9</A>
+                                 <A HREF="fsd_cpu03_ds1.html">fsd_cpu03_ds1</A> <A HREF="fsd_cpu03_ds10.html">fsd_cpu03_ds10</A> <A HREF="fsd_cpu03_ds11.html">fsd_cpu03_ds11</A> <A HREF="fsd_cpu03_ds12.html">fsd_cpu03_ds12</A> <A HREF="fsd_cpu03_ds2.html">fsd_cpu03_ds2</A> <A HREF="fsd_cpu03_ds3.html">fsd_cpu03_ds3</A> <A HREF="fsd_cpu03_ds4.html">fsd_cpu03_ds4</A> <A HREF="fsd_cpu03_ds5.html">fsd_cpu03_ds5</A>
+                                 <A HREF="fsd_cpu03_ds6.html">fsd_cpu03_ds6</A> <A HREF="fsd_cpu03_ds7.html">fsd_cpu03_ds7</A> <A HREF="fsd_cpu03_ds8.html">fsd_cpu03_ds8</A> <A HREF="fsd_cpu03_ds9.html">fsd_cpu03_ds9</A> <A HREF="fsd_cpu04_ds1.html">fsd_cpu04_ds1</A> <A HREF="fsd_cpu04_ds10.html">fsd_cpu04_ds10</A> <A HREF="fsd_cpu04_ds11.html">fsd_cpu04_ds11</A> <A HREF="fsd_cpu04_ds12.html">fsd_cpu04_ds12</A>
+                                 <A HREF="fsd_cpu04_ds2.html">fsd_cpu04_ds2</A> <A HREF="fsd_cpu04_ds3.html">fsd_cpu04_ds3</A> <A HREF="fsd_cpu04_ds4.html">fsd_cpu04_ds4</A> <A HREF="fsd_cpu04_ds5.html">fsd_cpu04_ds5</A> <A HREF="fsd_cpu04_ds6.html">fsd_cpu04_ds6</A> <A HREF="fsd_cpu04_ds7.html">fsd_cpu04_ds7</A> <A HREF="fsd_cpu04_ds8.html">fsd_cpu04_ds8</A> <A HREF="fsd_cpu04_ds9.html">fsd_cpu04_ds9</A>
+                                 <A HREF="fsd_cpu05_ds1.html">fsd_cpu05_ds1</A> <A HREF="fsd_cpu05_ds10.html">fsd_cpu05_ds10</A> <A HREF="fsd_cpu05_ds11.html">fsd_cpu05_ds11</A> <A HREF="fsd_cpu05_ds12.html">fsd_cpu05_ds12</A> <A HREF="fsd_cpu05_ds2.html">fsd_cpu05_ds2</A> <A HREF="fsd_cpu05_ds3.html">fsd_cpu05_ds3</A> <A HREF="fsd_cpu05_ds4.html">fsd_cpu05_ds4</A> <A HREF="fsd_cpu05_ds5.html">fsd_cpu05_ds5</A>
+                                 <A HREF="fsd_cpu05_ds6.html">fsd_cpu05_ds6</A> <A HREF="fsd_cpu05_ds7.html">fsd_cpu05_ds7</A> <A HREF="fsd_cpu05_ds8.html">fsd_cpu05_ds8</A> <A HREF="fsd_cpu05_ds9.html">fsd_cpu05_ds9</A> <A HREF="fsd_cpu06_ds1.html">fsd_cpu06_ds1</A> <A HREF="fsd_cpu06_ds10.html">fsd_cpu06_ds10</A> <A HREF="fsd_cpu06_ds11.html">fsd_cpu06_ds11</A> <A HREF="fsd_cpu06_ds12.html">fsd_cpu06_ds12</A>
+                                 <A HREF="fsd_cpu06_ds2.html">fsd_cpu06_ds2</A> <A HREF="fsd_cpu06_ds3.html">fsd_cpu06_ds3</A> <A HREF="fsd_cpu06_ds4.html">fsd_cpu06_ds4</A> <A HREF="fsd_cpu06_ds5.html">fsd_cpu06_ds5</A> <A HREF="fsd_cpu06_ds6.html">fsd_cpu06_ds6</A> <A HREF="fsd_cpu06_ds7.html">fsd_cpu06_ds7</A> <A HREF="fsd_cpu06_ds8.html">fsd_cpu06_ds8</A> <A HREF="fsd_cpu06_ds9.html">fsd_cpu06_ds9</A>
+                                 <A HREF="fsd_cpu07_ds1.html">fsd_cpu07_ds1</A> <A HREF="fsd_cpu07_ds10.html">fsd_cpu07_ds10</A> <A HREF="fsd_cpu07_ds11.html">fsd_cpu07_ds11</A> <A HREF="fsd_cpu07_ds12.html">fsd_cpu07_ds12</A> <A HREF="fsd_cpu07_ds2.html">fsd_cpu07_ds2</A> <A HREF="fsd_cpu07_ds3.html">fsd_cpu07_ds3</A> <A HREF="fsd_cpu07_ds4.html">fsd_cpu07_ds4</A> <A HREF="fsd_cpu07_ds5.html">fsd_cpu07_ds5</A>
+                                 <A HREF="fsd_cpu07_ds6.html">fsd_cpu07_ds6</A> <A HREF="fsd_cpu07_ds7.html">fsd_cpu07_ds7</A> <A HREF="fsd_cpu07_ds8.html">fsd_cpu07_ds8</A> <A HREF="fsd_cpu07_ds9.html">fsd_cpu07_ds9</A> <A HREF="fsd_cpu08_ds1.html">fsd_cpu08_ds1</A> <A HREF="fsd_cpu08_ds10.html">fsd_cpu08_ds10</A> <A HREF="fsd_cpu08_ds11.html">fsd_cpu08_ds11</A> <A HREF="fsd_cpu08_ds12.html">fsd_cpu08_ds12</A>
+                                 <A HREF="fsd_cpu08_ds2.html">fsd_cpu08_ds2</A> <A HREF="fsd_cpu08_ds3.html">fsd_cpu08_ds3</A> <A HREF="fsd_cpu08_ds4.html">fsd_cpu08_ds4</A> <A HREF="fsd_cpu08_ds5.html">fsd_cpu08_ds5</A> <A HREF="fsd_cpu08_ds6.html">fsd_cpu08_ds6</A> <A HREF="fsd_cpu08_ds7.html">fsd_cpu08_ds7</A> <A HREF="fsd_cpu08_ds8.html">fsd_cpu08_ds8</A> <A HREF="fsd_cpu08_ds9.html">fsd_cpu08_ds9</A>
+                                 <A HREF="fsd_cpu09_ds1.html">fsd_cpu09_ds1</A> <A HREF="fsd_cpu09_ds10.html">fsd_cpu09_ds10</A> <A HREF="fsd_cpu09_ds11.html">fsd_cpu09_ds11</A> <A HREF="fsd_cpu09_ds12.html">fsd_cpu09_ds12</A> <A HREF="fsd_cpu09_ds2.html">fsd_cpu09_ds2</A> <A HREF="fsd_cpu09_ds3.html">fsd_cpu09_ds3</A> <A HREF="fsd_cpu09_ds4.html">fsd_cpu09_ds4</A> <A HREF="fsd_cpu09_ds5.html">fsd_cpu09_ds5</A>
+                                 <A HREF="fsd_cpu09_ds6.html">fsd_cpu09_ds6</A> <A HREF="fsd_cpu09_ds7.html">fsd_cpu09_ds7</A> <A HREF="fsd_cpu09_ds8.html">fsd_cpu09_ds8</A> <A HREF="fsd_cpu09_ds9.html">fsd_cpu09_ds9</A> <A HREF="fsd_cpu10_ds1.html">fsd_cpu10_ds1</A> <A HREF="fsd_cpu10_ds10.html">fsd_cpu10_ds10</A> <A HREF="fsd_cpu10_ds11.html">fsd_cpu10_ds11</A> <A HREF="fsd_cpu10_ds12.html">fsd_cpu10_ds12</A>
+                                 <A HREF="fsd_cpu10_ds2.html">fsd_cpu10_ds2</A> <A HREF="fsd_cpu10_ds3.html">fsd_cpu10_ds3</A> <A HREF="fsd_cpu10_ds4.html">fsd_cpu10_ds4</A> <A HREF="fsd_cpu10_ds5.html">fsd_cpu10_ds5</A> <A HREF="fsd_cpu10_ds6.html">fsd_cpu10_ds6</A> <A HREF="fsd_cpu10_ds7.html">fsd_cpu10_ds7</A> <A HREF="fsd_cpu10_ds8.html">fsd_cpu10_ds8</A> <A HREF="fsd_cpu10_ds9.html">fsd_cpu10_ds9</A>
+                                 <A HREF="fsd_cpu11_ds1.html">fsd_cpu11_ds1</A> <A HREF="fsd_cpu11_ds10.html">fsd_cpu11_ds10</A> <A HREF="fsd_cpu11_ds11.html">fsd_cpu11_ds11</A> <A HREF="fsd_cpu11_ds12.html">fsd_cpu11_ds12</A> <A HREF="fsd_cpu11_ds2.html">fsd_cpu11_ds2</A> <A HREF="fsd_cpu11_ds3.html">fsd_cpu11_ds3</A> <A HREF="fsd_cpu11_ds4.html">fsd_cpu11_ds4</A> <A HREF="fsd_cpu11_ds5.html">fsd_cpu11_ds5</A>
+                                 <A HREF="fsd_cpu11_ds6.html">fsd_cpu11_ds6</A> <A HREF="fsd_cpu11_ds7.html">fsd_cpu11_ds7</A> <A HREF="fsd_cpu11_ds8.html">fsd_cpu11_ds8</A> <A HREF="fsd_cpu11_ds9.html">fsd_cpu11_ds9</A> <A HREF="fsd_cpu12_ds1.html">fsd_cpu12_ds1</A> <A HREF="fsd_cpu12_ds10.html">fsd_cpu12_ds10</A> <A HREF="fsd_cpu12_ds11.html">fsd_cpu12_ds11</A> <A HREF="fsd_cpu12_ds12.html">fsd_cpu12_ds12</A>
+                                 <A HREF="fsd_cpu12_ds2.html">fsd_cpu12_ds2</A> <A HREF="fsd_cpu12_ds3.html">fsd_cpu12_ds3</A> <A HREF="fsd_cpu12_ds4.html">fsd_cpu12_ds4</A> <A HREF="fsd_cpu12_ds5.html">fsd_cpu12_ds5</A> <A HREF="fsd_cpu12_ds6.html">fsd_cpu12_ds6</A> <A HREF="fsd_cpu12_ds7.html">fsd_cpu12_ds7</A> <A HREF="fsd_cpu12_ds8.html">fsd_cpu12_ds8</A> <A HREF="fsd_cpu12_ds9.html">fsd_cpu12_ds9</A>
+Link to FWD reports:             <A HREF="fwd_meta_getattr_cpu01.html">fwd_meta_getattr_cpu01</A> <A HREF="fwd_meta_getattr_cpu02.html">fwd_meta_getattr_cpu02</A> <A HREF="fwd_meta_getattr_cpu03.html">fwd_meta_getattr_cpu03</A> <A HREF="fwd_meta_getattr_cpu04.html">fwd_meta_getattr_cpu04</A> <A HREF="fwd_meta_getattr_cpu05.html">fwd_meta_getattr_cpu05</A> <A HREF="fwd_meta_getattr_cpu06.html">fwd_meta_getattr_cpu06</A> <A HREF="fwd_meta_getattr_cpu07.html">fwd_meta_getattr_cpu07</A> <A HREF="fwd_meta_getattr_cpu08.html">fwd_meta_getattr_cpu08</A>
+                                 <A HREF="fwd_meta_getattr_cpu09.html">fwd_meta_getattr_cpu09</A> <A HREF="fwd_meta_getattr_cpu10.html">fwd_meta_getattr_cpu10</A> <A HREF="fwd_meta_getattr_cpu11.html">fwd_meta_getattr_cpu11</A> <A HREF="fwd_meta_getattr_cpu12.html">fwd_meta_getattr_cpu12</A> <A HREF="fwd_meta_rnd_8rw_cpu01_ph1.html">fwd_meta_rnd_8rw_cpu01_ph1</A> <A HREF="fwd_meta_rnd_8rw_cpu01_ph2.html">fwd_meta_rnd_8rw_cpu01_ph2</A> <A HREF="fwd_meta_rnd_8rw_cpu01_ph3.html">fwd_meta_rnd_8rw_cpu01_ph3</A> <A HREF="fwd_meta_rnd_8rw_cpu02_ph1.html">fwd_meta_rnd_8rw_cpu02_ph1</A>
+                                 <A HREF="fwd_meta_rnd_8rw_cpu02_ph2.html">fwd_meta_rnd_8rw_cpu02_ph2</A> <A HREF="fwd_meta_rnd_8rw_cpu02_ph3.html">fwd_meta_rnd_8rw_cpu02_ph3</A> <A HREF="fwd_meta_rnd_8rw_cpu03_ph1.html">fwd_meta_rnd_8rw_cpu03_ph1</A> <A HREF="fwd_meta_rnd_8rw_cpu03_ph2.html">fwd_meta_rnd_8rw_cpu03_ph2</A> <A HREF="fwd_meta_rnd_8rw_cpu03_ph3.html">fwd_meta_rnd_8rw_cpu03_ph3</A> <A HREF="fwd_meta_rnd_8rw_cpu04_ph1.html">fwd_meta_rnd_8rw_cpu04_ph1</A> <A HREF="fwd_meta_rnd_8rw_cpu04_ph2.html">fwd_meta_rnd_8rw_cpu04_ph2</A> <A HREF="fwd_meta_rnd_8rw_cpu04_ph3.html">fwd_meta_rnd_8rw_cpu04_ph3</A>
+                                 <A HREF="fwd_meta_rnd_8rw_cpu05_ph1.html">fwd_meta_rnd_8rw_cpu05_ph1</A> <A HREF="fwd_meta_rnd_8rw_cpu05_ph2.html">fwd_meta_rnd_8rw_cpu05_ph2</A> <A HREF="fwd_meta_rnd_8rw_cpu05_ph3.html">fwd_meta_rnd_8rw_cpu05_ph3</A> <A HREF="fwd_meta_rnd_8rw_cpu06_ph1.html">fwd_meta_rnd_8rw_cpu06_ph1</A> <A HREF="fwd_meta_rnd_8rw_cpu06_ph2.html">fwd_meta_rnd_8rw_cpu06_ph2</A> <A HREF="fwd_meta_rnd_8rw_cpu06_ph3.html">fwd_meta_rnd_8rw_cpu06_ph3</A> <A HREF="fwd_meta_rnd_8rw_cpu07_ph1.html">fwd_meta_rnd_8rw_cpu07_ph1</A> <A HREF="fwd_meta_rnd_8rw_cpu07_ph2.html">fwd_meta_rnd_8rw_cpu07_ph2</A>
+                                 <A HREF="fwd_meta_rnd_8rw_cpu07_ph3.html">fwd_meta_rnd_8rw_cpu07_ph3</A> <A HREF="fwd_meta_rnd_8rw_cpu08_ph1.html">fwd_meta_rnd_8rw_cpu08_ph1</A> <A HREF="fwd_meta_rnd_8rw_cpu08_ph2.html">fwd_meta_rnd_8rw_cpu08_ph2</A> <A HREF="fwd_meta_rnd_8rw_cpu08_ph3.html">fwd_meta_rnd_8rw_cpu08_ph3</A> <A HREF="fwd_meta_rnd_8rw_cpu09_ph1.html">fwd_meta_rnd_8rw_cpu09_ph1</A> <A HREF="fwd_meta_rnd_8rw_cpu09_ph2.html">fwd_meta_rnd_8rw_cpu09_ph2</A> <A HREF="fwd_meta_rnd_8rw_cpu09_ph3.html">fwd_meta_rnd_8rw_cpu09_ph3</A> <A HREF="fwd_meta_rnd_8rw_cpu10_ph1.html">fwd_meta_rnd_8rw_cpu10_ph1</A>
+                                 <A HREF="fwd_meta_rnd_8rw_cpu10_ph2.html">fwd_meta_rnd_8rw_cpu10_ph2</A> <A HREF="fwd_meta_rnd_8rw_cpu10_ph3.html">fwd_meta_rnd_8rw_cpu10_ph3</A> <A HREF="fwd_meta_rnd_8rw_cpu11_ph1.html">fwd_meta_rnd_8rw_cpu11_ph1</A> <A HREF="fwd_meta_rnd_8rw_cpu11_ph2.html">fwd_meta_rnd_8rw_cpu11_ph2</A> <A HREF="fwd_meta_rnd_8rw_cpu11_ph3.html">fwd_meta_rnd_8rw_cpu11_ph3</A> <A HREF="fwd_meta_rnd_8rw_cpu12_ph1.html">fwd_meta_rnd_8rw_cpu12_ph1</A> <A HREF="fwd_meta_rnd_8rw_cpu12_ph2.html">fwd_meta_rnd_8rw_cpu12_ph2</A> <A HREF="fwd_meta_rnd_8rw_cpu12_ph3.html">fwd_meta_rnd_8rw_cpu12_ph3</A>
+                                 <A HREF="fwd_meta_setattr_cpu01.html">fwd_meta_setattr_cpu01</A> <A HREF="fwd_meta_setattr_cpu02.html">fwd_meta_setattr_cpu02</A> <A HREF="fwd_meta_setattr_cpu03.html">fwd_meta_setattr_cpu03</A> <A HREF="fwd_meta_setattr_cpu04.html">fwd_meta_setattr_cpu04</A> <A HREF="fwd_meta_setattr_cpu05.html">fwd_meta_setattr_cpu05</A> <A HREF="fwd_meta_setattr_cpu06.html">fwd_meta_setattr_cpu06</A> <A HREF="fwd_meta_setattr_cpu07.html">fwd_meta_setattr_cpu07</A> <A HREF="fwd_meta_setattr_cpu08.html">fwd_meta_setattr_cpu08</A>
+                                 <A HREF="fwd_meta_setattr_cpu09.html">fwd_meta_setattr_cpu09</A> <A HREF="fwd_meta_setattr_cpu10.html">fwd_meta_setattr_cpu10</A> <A HREF="fwd_meta_setattr_cpu11.html">fwd_meta_setattr_cpu11</A> <A HREF="fwd_meta_setattr_cpu12.html">fwd_meta_setattr_cpu12</A> <A HREF="fwd_prep_cpu01.html">fwd_prep_cpu01</A> <A HREF="fwd_prep_cpu02.html">fwd_prep_cpu02</A> <A HREF="fwd_prep_cpu03.html">fwd_prep_cpu03</A> <A HREF="fwd_prep_cpu04.html">fwd_prep_cpu04</A>
+                                 <A HREF="fwd_prep_cpu05.html">fwd_prep_cpu05</A> <A HREF="fwd_prep_cpu06.html">fwd_prep_cpu06</A> <A HREF="fwd_prep_cpu07.html">fwd_prep_cpu07</A> <A HREF="fwd_prep_cpu08.html">fwd_prep_cpu08</A> <A HREF="fwd_prep_cpu09.html">fwd_prep_cpu09</A> <A HREF="fwd_prep_cpu10.html">fwd_prep_cpu10</A> <A HREF="fwd_prep_cpu11.html">fwd_prep_cpu11</A> <A HREF="fwd_prep_cpu12.html">fwd_prep_cpu12</A>
+                                 <A HREF="fwd_rnd_1024r_cpu01.html">fwd_rnd_1024r_cpu01</A> <A HREF="fwd_rnd_1024r_cpu02.html">fwd_rnd_1024r_cpu02</A> <A HREF="fwd_rnd_1024r_cpu03.html">fwd_rnd_1024r_cpu03</A> <A HREF="fwd_rnd_1024r_cpu04.html">fwd_rnd_1024r_cpu04</A> <A HREF="fwd_rnd_1024r_cpu05.html">fwd_rnd_1024r_cpu05</A> <A HREF="fwd_rnd_1024r_cpu06.html">fwd_rnd_1024r_cpu06</A> <A HREF="fwd_rnd_1024r_cpu07.html">fwd_rnd_1024r_cpu07</A> <A HREF="fwd_rnd_1024r_cpu08.html">fwd_rnd_1024r_cpu08</A>
+                                 <A HREF="fwd_rnd_1024r_cpu09.html">fwd_rnd_1024r_cpu09</A> <A HREF="fwd_rnd_1024r_cpu10.html">fwd_rnd_1024r_cpu10</A> <A HREF="fwd_rnd_1024r_cpu11.html">fwd_rnd_1024r_cpu11</A> <A HREF="fwd_rnd_1024r_cpu12.html">fwd_rnd_1024r_cpu12</A> <A HREF="fwd_rnd_8rw_cpu01.html">fwd_rnd_8rw_cpu01</A> <A HREF="fwd_rnd_8rw_cpu02.html">fwd_rnd_8rw_cpu02</A> <A HREF="fwd_rnd_8rw_cpu03.html">fwd_rnd_8rw_cpu03</A> <A HREF="fwd_rnd_8rw_cpu04.html">fwd_rnd_8rw_cpu04</A>
+                                 <A HREF="fwd_rnd_8rw_cpu05.html">fwd_rnd_8rw_cpu05</A> <A HREF="fwd_rnd_8rw_cpu06.html">fwd_rnd_8rw_cpu06</A> <A HREF="fwd_rnd_8rw_cpu07.html">fwd_rnd_8rw_cpu07</A> <A HREF="fwd_rnd_8rw_cpu08.html">fwd_rnd_8rw_cpu08</A> <A HREF="fwd_rnd_8rw_cpu09.html">fwd_rnd_8rw_cpu09</A> <A HREF="fwd_rnd_8rw_cpu10.html">fwd_rnd_8rw_cpu10</A> <A HREF="fwd_rnd_8rw_cpu11.html">fwd_rnd_8rw_cpu11</A> <A HREF="fwd_rnd_8rw_cpu12.html">fwd_rnd_8rw_cpu12</A>
+                                 <A HREF="fwd_seq_1024r_cpu01.html">fwd_seq_1024r_cpu01</A> <A HREF="fwd_seq_1024r_cpu02.html">fwd_seq_1024r_cpu02</A> <A HREF="fwd_seq_1024r_cpu03.html">fwd_seq_1024r_cpu03</A> <A HREF="fwd_seq_1024r_cpu04.html">fwd_seq_1024r_cpu04</A> <A HREF="fwd_seq_1024r_cpu05.html">fwd_seq_1024r_cpu05</A> <A HREF="fwd_seq_1024r_cpu06.html">fwd_seq_1024r_cpu06</A> <A HREF="fwd_seq_1024r_cpu07.html">fwd_seq_1024r_cpu07</A> <A HREF="fwd_seq_1024r_cpu08.html">fwd_seq_1024r_cpu08</A>
+                                 <A HREF="fwd_seq_1024r_cpu09.html">fwd_seq_1024r_cpu09</A> <A HREF="fwd_seq_1024r_cpu10.html">fwd_seq_1024r_cpu10</A> <A HREF="fwd_seq_1024r_cpu11.html">fwd_seq_1024r_cpu11</A> <A HREF="fwd_seq_1024r_cpu12.html">fwd_seq_1024r_cpu12</A> <A HREF="fwd_seq_1024w_cpu01.html">fwd_seq_1024w_cpu01</A> <A HREF="fwd_seq_1024w_cpu02.html">fwd_seq_1024w_cpu02</A> <A HREF="fwd_seq_1024w_cpu03.html">fwd_seq_1024w_cpu03</A> <A HREF="fwd_seq_1024w_cpu04.html">fwd_seq_1024w_cpu04</A>
+                                 <A HREF="fwd_seq_1024w_cpu05.html">fwd_seq_1024w_cpu05</A> <A HREF="fwd_seq_1024w_cpu06.html">fwd_seq_1024w_cpu06</A> <A HREF="fwd_seq_1024w_cpu07.html">fwd_seq_1024w_cpu07</A> <A HREF="fwd_seq_1024w_cpu08.html">fwd_seq_1024w_cpu08</A> <A HREF="fwd_seq_1024w_cpu09.html">fwd_seq_1024w_cpu09</A> <A HREF="fwd_seq_1024w_cpu10.html">fwd_seq_1024w_cpu10</A> <A HREF="fwd_seq_1024w_cpu11.html">fwd_seq_1024w_cpu11</A> <A HREF="fwd_seq_1024w_cpu12.html">fwd_seq_1024w_cpu12</A>
+Link to response time histogram: <A HREF="histogram.html">histogram</A>
+Link to workload skew report:    <A HREF="skew.html">skew</A>
+Link to anchor report:           <A HREF="anchors.html">anchors</A>
+
+Link to Run Definitions:         <A HREF="#_811587677">rd_rnd_1024r For loops: None</A>
+
+Link to config output:           <A HREF="config.html">config</A>
+
+<a name="_811587677"></a><i><b>13:28:31.004 Starting RD=rd_rnd_1024r; elapsed=600 warmup=60; fwdrate=max. For loops: None</b></i>
+
+
+Apr 14, 2020 ..Interval.. .ReqstdOps... ...cpu%...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...create... ....open.... ...close.... ..getattr... ..setattr...
+                            rate   resp total  sys   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+13:28:32.114            1  12044  5.822   2.3 0.86 100.0  12044  5.822    0.0  0.000 12046  0.00  12046 1048750   0.0  0.000 290.0 83.931 158.0  0.029   0.0  0.000   0.0  0.000
+13:28:33.246            2  30672  4.528   5.6 4.27 100.0  30672  4.528    0.0  0.000 30671  0.00  30671 1048541   0.0  0.000 645.0  4.484 632.0  0.020   0.0  0.000   0.0  0.000
+13:28:34.042            3  32482  4.374   6.2 4.46 100.0  32482  4.374    0.0  0.000 32481  0.00  32481 1048543   0.0  0.000 636.0  2.427 637.0  0.019   0.0  0.000   0.0  0.000
+13:28:35.042            4  32181  4.423   5.2 4.26 100.0  32181  4.423    0.0  0.000 32181  0.00  32181 1048576   0.0  0.000 646.0  2.244 647.0  0.017   0.0  0.000   0.0  0.000
+13:28:36.048            5  31880  4.469   4.7 4.29 100.0  31880  4.469    0.0  0.000 31880  0.00  31880 1048576   0.0  0.000 640.0  2.184 641.0  0.017   0.0  0.000   0.0  0.000
+13:28:37.035            6  31916  4.463   4.8 4.32 100.0  31916  4.463    0.0  0.000 31916  0.00  31916 1048576   0.0  0.000 642.0  2.125 639.0  0.023   0.0  0.000   0.0  0.000
+13:28:38.038            7  31628  4.502   4.6 4.26 100.0  31628  4.502    0.0  0.000 31628  0.00  31628 1048576   0.0  0.000 626.0  2.091 628.0  0.013   0.0  0.000   0.0  0.000
+13:28:39.037            8  31710  4.500   4.6 4.24 100.0  31710  4.500    0.0  0.000 31711  0.00  31711 1048609   0.0  0.000 635.0  1.887 635.0  0.011   0.0  0.000   0.0  0.000
+13:28:40.036            9  31629  4.506   4.5 4.26 100.0  31629  4.506    0.0  0.000 31629  0.00  31629 1048576   0.0  0.000 639.0  1.881 638.0  0.012   0.0  0.000   0.0  0.000
+13:28:41.032           10  31692  4.500   4.6 4.32 100.0  31692  4.500    0.0  0.000 31693  0.00  31693 1048609   0.0  0.000 631.0  1.829 631.0  0.011   0.0  0.000   0.0  0.000
+13:28:42.035           11  31865  4.478   4.5 4.27 100.0  31865  4.478    0.0  0.000 31864  0.00  31864 1048543   0.0  0.000 636.0  1.834 636.0  0.011   0.0  0.000   0.0  0.000
+13:28:43.033           12  31727  4.496   4.7 4.32 100.0  31727  4.496    0.0  0.000 31726  0.00  31726 1048542   0.0  0.000 639.0  1.846 638.0  0.011   0.0  0.000   0.0  0.000
+13:28:44.038           13  31636  4.510   4.5 4.24 100.0  31636  4.510    0.0  0.000 31636  0.00  31636 1048576   0.0  0.000 632.0  1.776 633.0  0.012   0.0  0.000   0.0  0.000
+13:28:45.035           14  31376  4.548   4.5 4.25 100.0  31376  4.548    0.0  0.000 31376  0.00  31376 1048576   0.0  0.000 620.0  1.769 618.0  0.012   0.0  0.000   0.0  0.000
+13:28:46.037           15  31707  4.506   4.6 4.32 100.0  31707  4.506    0.0  0.000 31706  0.00  31706 1048542   0.0  0.000 642.0  1.694 644.0  0.011   0.0  0.000   0.0  0.000
+13:28:47.033           16  31611  4.515   4.5 4.21 100.0  31611  4.515    0.0  0.000 31611  0.00  31611 1048576   0.0  0.000 627.0  1.653 626.0  0.010   0.0  0.000   0.0  0.000
+13:28:48.033           17  31464  4.538   4.5 4.21 100.0  31464  4.538    0.0  0.000 31464  0.00  31464 1048576   0.0  0.000 636.0  1.643 635.0  0.011   0.0  0.000   0.0  0.000
+13:28:49.039           18  31698  4.506   4.5 4.24 100.0  31698  4.506    0.0  0.000 31697  0.00  31697 1048542   0.0  0.000 630.0  1.579 631.0  0.011   0.0  0.000   0.0  0.000
+13:28:50.032           19  31586  4.524   4.7 4.22 100.0  31586  4.524    0.0  0.000 31586  0.00  31586 1048576   0.0  0.000 631.0  1.593 630.0  0.011   0.0  0.000   0.0  0.000
+13:28:51.032           20  31599  4.518   5.3 4.18 100.0  31599  4.518    0.0  0.000 31598  0.00  31598 1048542   0.0  0.000 628.0  1.577 631.0  0.011   0.0  0.000   0.0  0.000
+13:28:52.033           21  31847  4.487   4.8 4.29 100.0  31847  4.487    0.0  0.000 31847  0.00  31847 1048576   0.0  0.000 644.0  1.550 642.0  0.011   0.0  0.000   0.0  0.000
+13:28:53.037           22  31575  4.524   4.6 4.25 100.0  31575  4.524    0.0  0.000 31575  0.00  31575 1048576   0.0  0.000 628.0  1.486 629.0  0.011   0.0  0.000   0.0  0.000
+13:28:54.032           23  31347  4.556   4.4 4.15 100.0  31347  4.556    0.0  0.000 31348  0.00  31348 1048609   0.0  0.000 630.0  1.517 631.0  0.011   0.0  0.000   0.0  0.000
+13:28:55.033           24  31520  4.533   4.5 4.21 100.0  31520  4.533    0.0  0.000 31520  0.00  31520 1048576   0.0  0.000 628.0  1.544 626.0  0.010   0.0  0.000   0.0  0.000
+13:28:56.031           25  31850  4.475   4.5 4.20 100.0  31850  4.475    0.0  0.000 31850  0.00  31850 1048576   0.0  0.000 640.0  1.446 640.0  0.010   0.0  0.000   0.0  0.000
+13:28:57.032           26  31546  4.543   4.4 4.18 100.0  31546  4.543    0.0  0.000 31546  0.00  31546 1048576   0.0  0.000 627.0  1.516 627.0  0.010   0.0  0.000   0.0  0.000
+13:28:58.029           27  31286  4.569   4.4 4.17 100.0  31286  4.569    0.0  0.000 31286  0.00  31286 1048576   0.0  0.000 629.0  1.407 628.0  0.010   0.0  0.000   0.0  0.000
+13:28:59.032           28  31612  4.522   4.5 4.25 100.0  31612  4.522    0.0  0.000 31611  0.00  31611 1048542   0.0  0.000 623.0  1.430 625.0  0.012   0.0  0.000   0.0  0.000
+13:29:00.034           29  31512  4.534   4.5 4.26 100.0  31512  4.534    0.0  0.000 31512  0.00  31512 1048576   0.0  0.000 639.0  1.433 637.0  0.010   0.0  0.000   0.0  0.000
+13:29:01.035           30  32031  4.468   4.7 4.45 100.0  32031  4.468    0.0  0.000 32031  0.00  32031 1048576   0.0  0.000 641.0  1.425 641.0  0.010   0.0  0.000   0.0  0.000
+
+Apr 14, 2020 ..Interval.. .ReqstdOps... ...cpu%...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...create... ....open.... ...close.... ..getattr... ..setattr...
+                            rate   resp total  sys   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+13:29:02.033           31  32143  4.447   4.6 4.36 100.0  32143  4.447    0.0  0.000 32143  0.00  32143 1048576   0.0  0.000 638.0  1.403 640.0  0.010   0.0  0.000   0.0  0.000
+13:29:03.034           32  31266  4.571   4.6 4.29 100.0  31266  4.571    0.0  0.000 31267  0.00  31267 1048609   0.0  0.000 627.0  1.422 626.0  0.010   0.0  0.000   0.0  0.000
+13:29:04.031           33  31787  4.498   4.6 4.33 100.0  31787  4.498    0.0  0.000 31787  0.00  31787 1048576   0.0  0.000 643.0  1.385 642.0  0.010   0.0  0.000   0.0  0.000
+13:29:05.035           34  31764  4.502   4.5 4.29 100.0  31764  4.502    0.0  0.000 31765  0.00  31765 1048609   0.0  0.000 625.0  1.322 625.0  0.012   0.0  0.000   0.0  0.000
+13:29:06.028           35  32101  4.455   4.7 4.43 100.0  32101  4.455    0.0  0.000 32101  0.00  32101 1048576   0.0  0.000 646.0  1.405 647.0  0.010   0.0  0.000   0.0  0.000
+13:29:07.035           36  32215  4.439   4.7 4.43 100.0  32215  4.439    0.0  0.000 32215  0.00  32215 1048576   0.0  0.000 647.0  1.390 648.0  0.011   0.0  0.000   0.0  0.000
+13:29:08.032           37  31556  4.530   4.6 4.36 100.0  31556  4.530    0.0  0.000 31556  0.00  31556 1048576   0.0  0.000 633.0  1.353 633.0  0.010   0.0  0.000   0.0  0.000
+13:29:09.030           38  31493  4.542   4.5 4.32 100.0  31493  4.542    0.0  0.000 31494  0.00  31494 1048609   0.0  0.000 620.0  1.429 618.0  0.011   0.0  0.000   0.0  0.000
+13:29:10.033           39  31845  4.493   4.5 4.35 100.0  31845  4.493    0.0  0.000 31846  0.00  31846 1048608   0.0  0.000 640.0  1.351 642.0  0.011   0.0  0.000   0.0  0.000
+13:29:11.030           40  32316  4.426   4.7 4.47 100.0  32316  4.426    0.0  0.000 32316  0.00  32316 1048576   0.0  0.000 647.0  1.309 645.0  0.010   0.0  0.000   0.0  0.000
+13:29:12.035           41  32137  4.450   4.6 4.39 100.0  32137  4.450    0.0  0.000 32137  0.00  32137 1048576   0.0  0.000 643.0  1.352 645.0  0.010   0.0  0.000   0.0  0.000
+13:29:13.036           42  32243  4.435   4.6 4.42 100.0  32243  4.435    0.0  0.000 32243  0.00  32243 1048576   0.0  0.000 650.0  1.316 649.0  0.010   0.0  0.000   0.0  0.000
+13:29:14.028           43  32059  4.463   4.6 4.43 100.0  32059  4.463    0.0  0.000 32059  0.00  32059 1048576   0.0  0.000 637.0  1.303 636.0  0.010   0.0  0.000   0.0  0.000
+13:29:15.027           44  31784  4.498   4.6 4.37 100.0  31784  4.498    0.0  0.000 31784  0.00  31784 1048576   0.0  0.000 639.0  1.301 639.0  0.010   0.0  0.000   0.0  0.000
+13:29:16.028           45  32053  4.465   4.6 4.42 100.0  32053  4.465    0.0  0.000 32053  0.00  32053 1048576   0.0  0.000 635.0  1.303 636.0  0.010   0.0  0.000   0.0  0.000
+13:29:17.027           46  32181  4.445   4.5 4.36 100.0  32181  4.445    0.0  0.000 32181  0.00  32181 1048576   0.0  0.000 648.0  1.249 649.0  0.010   0.0  0.000   0.0  0.000
+13:29:18.033           47  32018  4.466   4.6 4.38 100.0  32018  4.466    0.0  0.000 32019  0.00  32019 1048608   0.0  0.000 635.0  1.264 634.0  0.010   0.0  0.000   0.0  0.000
+13:29:19.029           48  31810  4.495   4.6 4.33 100.0  31810  4.495    0.0  0.000 31810  0.00  31810 1048576   0.0  0.000 644.0  1.304 644.0  0.010   0.0  0.000   0.0  0.000
+13:29:20.032           49  31821  4.503   4.6 4.38 100.0  31821  4.503    0.0  0.000 31821  0.00  31821 1048576   0.0  0.000 635.0  1.330 634.0  0.010   0.0  0.000   0.0  0.000
+13:29:21.031           50  32109  4.452   4.7 4.48 100.0  32109  4.452    0.0  0.000 32109  0.00  32109 1048576   0.0  0.000 639.0  1.271 639.0  0.010   0.0  0.000   0.0  0.000
+13:29:22.035           51  32342  4.426   4.7 4.47 100.0  32342  4.426    0.0  0.000 32342  0.00  32342 1048576   0.0  0.000 650.0  1.213 650.0  0.010   0.0  0.000   0.0  0.000
+13:29:23.028           52  31999  4.472   4.6 4.38 100.0  31999  4.472    0.0  0.000 31999  0.00  31999 1048576   0.0  0.000 633.0  1.239 634.0  0.011   0.0  0.000   0.0  0.000
+13:29:24.031           53  31990  4.470   4.6 4.43 100.0  31990  4.470    0.0  0.000 31990  0.00  31990 1048576   0.0  0.000 648.0  1.271 648.0  0.010   0.0  0.000   0.0  0.000
+13:29:25.032           54  31841  4.495   4.5 4.36 100.0  31841  4.495    0.0  0.000 31841  0.00  31841 1048576   0.0  0.000 627.0  1.264 626.0  0.010   0.0  0.000   0.0  0.000
+13:29:26.031           55  32379  4.408   4.8 4.50 100.0  32379  4.408    0.0  0.000 32379  0.00  32379 1048576   0.0  0.000 660.0  1.241 661.0  0.010   0.0  0.000   0.0  0.000
+13:29:27.031           56  31672  4.528   4.6 4.36 100.0  31672  4.528    0.0  0.000 31672  0.00  31672 1048576   0.0  0.000 630.0  1.315 630.0  0.010   0.0  0.000   0.0  0.000
+13:29:28.033           57  31764  4.508   4.6 4.39 100.0  31764  4.508    0.0  0.000 31764  0.00  31764 1048576   0.0  0.000 640.0  1.218 640.0  0.010   0.0  0.000   0.0  0.000
+13:29:29.029           58  31693  4.514   4.6 4.36 100.0  31693  4.514    0.0  0.000 31692  0.00  31692 1048542   0.0  0.000 626.0  1.257 626.0  0.011   0.0  0.000   0.0  0.000
+13:29:30.025           59  32088  4.456   4.6 4.41 100.0  32088  4.456    0.0  0.000 32088  0.00  32088 1048576   0.0  0.000 642.0  1.176 641.0  0.010   0.0  0.000   0.0  0.000
+13:29:31.029           60  32250  4.438   4.6 4.42 100.0  32250  4.438    0.0  0.000 32249  0.00  32249 1048543   0.0  0.000 651.0  1.189 652.0  0.010   0.0  0.000   0.0  0.000
+
+Apr 14, 2020 ..Interval.. .ReqstdOps... ...cpu%...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...create... ....open.... ...close.... ..getattr... ..setattr...
+                            rate   resp total  sys   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+13:29:32.026           61  32403  4.417   4.6 4.43 100.0  32403  4.417    0.0  0.000 32403  0.00  32403 1048576   0.0  0.000 639.0  1.246 638.0  0.010   0.0  0.000   0.0  0.000
+13:29:33.028           62  32068  4.462   4.6 4.33 100.0  32068  4.462    0.0  0.000 32068  0.00  32068 1048576   0.0  0.000 649.0  1.293 650.0  0.011   0.0  0.000   0.0  0.000
+13:29:34.029           63  32362  4.413   4.6 4.39 100.0  32362  4.413    0.0  0.000 32362  0.00  32362 1048576   0.0  0.000 645.0  1.388 645.0  0.010   0.0  0.000   0.0  0.000
+13:29:35.028           64  32036  4.467   4.5 4.33 100.0  32036  4.467    0.0  0.000 32035  0.00  32035 1048543   0.0  0.000 642.0  1.362 642.0  0.010   0.0  0.000   0.0  0.000
+13:29:36.027           65  32475  4.401   4.7 4.51 100.0  32475  4.401    0.0  0.000 32475  0.00  32475 1048576   0.0  0.000 646.0  1.411 646.0  0.010   0.0  0.000   0.0  0.000
+13:29:37.031           66  32143  4.447   4.7 4.40 100.0  32143  4.447    0.0  0.000 32143  0.00  32143 1048576   0.0  0.000 645.0  1.350 646.0  0.010   0.0  0.000   0.0  0.000
+13:29:38.029           67  32067  4.452   4.7 4.45 100.0  32067  4.452    0.0  0.000 32067  0.00  32067 1048576   0.0  0.000 638.0  1.358 638.0  0.010   0.0  0.000   0.0  0.000
+13:29:39.028           68  32027  4.461   4.6 4.38 100.0  32027  4.461    0.0  0.000 32027  0.00  32027 1048576   0.0  0.000 637.0  1.332 637.0  0.010   0.0  0.000   0.0  0.000
+13:29:40.025           69  31669  4.508   4.6 4.38 100.0  31669  4.508    0.0  0.000 31669  0.00  31669 1048576   0.0  0.000 640.0  1.295 640.0  0.011   0.0  0.000   0.0  0.000
+13:29:41.028           70  32262  4.421   4.6 4.42 100.0  32262  4.421    0.0  0.000 32262  0.00  32262 1048576   0.0  0.000 640.0  1.308 640.0  0.010   0.0  0.000   0.0  0.000
+13:29:42.025           71  31966  4.458   4.7 4.41 100.0  31966  4.458    0.0  0.000 31966  0.00  31966 1048576   0.0  0.000 647.0  1.327 647.0  0.010   0.0  0.000   0.0  0.000
+13:29:43.027           72  32173  4.423   4.7 4.48 100.0  32173  4.423    0.0  0.000 32173  0.00  32173 1048576   0.0  0.000 635.0  1.313 634.0  0.011   0.0  0.000   0.0  0.000
+13:29:44.027           73  32400  4.382   4.7 4.49 100.0  32400  4.382    0.0  0.000 32400  0.00  32400 1048576   0.0  0.000 652.0  1.301 653.0  0.010   0.0  0.000   0.0  0.000
+13:29:45.024           74  32306  4.400   4.6 4.40 100.0  32306  4.400    0.0  0.000 32306  0.00  32306 1048576   0.0  0.000 651.0  1.324 650.0  0.010   0.0  0.000   0.0  0.000
+13:29:46.029           75  32348  4.412   4.7 4.46 100.0  32348  4.412    0.0  0.000 32348  0.00  32348 1048576   0.0  0.000 638.0  1.324 638.0  0.010   0.0  0.000   0.0  0.000
+13:29:47.028           76  32102  4.417   4.6 4.42 100.0  32102  4.417    0.0  0.000 32102  0.00  32102 1048576   0.0  0.000 648.0  1.322 648.0  0.010   0.0  0.000   0.0  0.000
+13:29:48.028           77  32302  4.394   4.7 4.44 100.0  32302  4.394    0.0  0.000 32302  0.00  32302 1048576   0.0  0.000 645.0  1.278 646.0  0.010   0.0  0.000   0.0  0.000
+13:29:49.026           78  32215  4.405   4.6 4.41 100.0  32215  4.405    0.0  0.000 32215  0.00  32215 1048576   0.0  0.000 644.0  1.308 643.0  0.010   0.0  0.000   0.0  0.000
+13:29:50.026           79  31954  4.436   4.6 4.43 100.0  31954  4.436    0.0  0.000 31954  0.00  31954 1048576   0.0  0.000 640.0  1.279 640.0  0.011   0.0  0.000   0.0  0.000
+13:29:51.028           80  32146  4.419   4.6 4.37 100.0  32146  4.419    0.0  0.000 32146  0.00  32146 1048576   0.0  0.000 638.0  1.310 639.0  0.010   0.0  0.000   0.0  0.000
+13:29:52.029           81  32279  4.398   4.5 4.37 100.0  32279  4.398    0.0  0.000 32280  0.00  32280 1048608   0.0  0.000 651.0  1.298 650.0  0.010   0.0  0.000   0.0  0.000
+13:29:53.028           82  32105  4.419   4.6 4.40 100.0  32105  4.419    0.0  0.000 32105  0.00  32105 1048576   0.0  0.000 636.0  1.333 636.0  0.010   0.0  0.000   0.0  0.000
+13:29:54.024           83  32231  4.406   4.6 4.44 100.0  32231  4.406    0.0  0.000 32231  0.00  32231 1048576   0.0  0.000 646.0  1.294 647.0  0.010   0.0  0.000   0.0  0.000
+13:29:55.030           84  31949  4.444   4.6 4.41 100.0  31949  4.444    0.0  0.000 31949  0.00  31949 1048576   0.0  0.000 647.0  1.282 646.0  0.010   0.0  0.000   0.0  0.000
+13:29:56.024           85  32129  4.423   4.7 4.46 100.0  32129  4.423    0.0  0.000 32129  0.00  32129 1048576   0.0  0.000 636.0  1.308 639.0  0.010   0.0  0.000   0.0  0.000
+13:29:57.028           86  31778  4.473   4.5 4.34 100.0  31778  4.473    0.0  0.000 31778  0.00  31778 1048576   0.0  0.000 638.0  1.352 635.0  0.010   0.0  0.000   0.0  0.000
+13:29:58.029           87  32204  4.422   4.6 4.39 100.0  32204  4.422    0.0  0.000 32204  0.00  32204 1048576   0.0  0.000 643.0  1.244 643.0  0.010   0.0  0.000   0.0  0.000
+13:29:59.028           88  32128  4.416   4.6 4.38 100.0  32128  4.416    0.0  0.000 32128  0.00  32128 1048576   0.0  0.000 647.0  1.281 648.0  0.010   0.0  0.000   0.0  0.000
+13:30:00.035           89  32446  4.373   4.6 4.42 100.0  32446  4.373    0.0  0.000 32446  0.00  32446 1048576   0.0  0.000 643.0  1.228 642.0  0.010   0.0  0.000   0.0  0.000
+13:30:01.024           90  32253  4.393   4.6 4.38 100.0  32253  4.393    0.0  0.000 32253  0.00  32253 1048576   0.0  0.000 650.0  1.281 651.0  0.010   0.0  0.000   0.0  0.000
+
+Apr 14, 2020 ..Interval.. .ReqstdOps... ...cpu%...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...create... ....open.... ...close.... ..getattr... ..setattr...
+                            rate   resp total  sys   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+13:30:02.027           91  32192  4.384   4.8 4.50 100.0  32192  4.384    0.0  0.000 32193  0.00  32193 1048608   0.0  0.000 644.0  1.259 643.0  0.010   0.0  0.000   0.0  0.000
+13:30:03.029           92  32011  4.429   4.6 4.39 100.0  32011  4.429    0.0  0.000 32011  0.00  32011 1048576   0.0  0.000 633.0  1.226 635.0  0.010   0.0  0.000   0.0  0.000
+13:30:04.034           93  31893  4.415   4.7 4.45 100.0  31893  4.415    0.0  0.000 31893  0.00  31893 1048576   0.0  0.000 640.0  1.268 639.0  0.010   0.0  0.000   0.0  0.000
+13:30:05.029           94  32207  4.383   4.6 4.40 100.0  32207  4.383    0.0  0.000 32207  0.00  32207 1048576   0.0  0.000 644.0  1.287 643.0  0.010   0.0  0.000   0.0  0.000
+13:30:06.025           95  32286  4.393   4.8 4.51 100.0  32286  4.393    0.0  0.000 32286  0.00  32286 1048576   0.0  0.000 647.0  1.242 648.0  0.010   0.0  0.000   0.0  0.000
+13:30:07.025           96  32176  4.384   4.8 4.47 100.0  32176  4.384    0.0  0.000 32176  0.00  32176 1048576   0.0  0.000 643.0  1.242 642.0  0.009   0.0  0.000   0.0  0.000
+13:30:08.027           97  31656  4.455   4.6 4.39 100.0  31656  4.455    0.0  0.000 31656  0.00  31656 1048576   0.0  0.000 640.0  1.212 640.0  0.009   0.0  0.000   0.0  0.000
+13:30:09.029           98  31685  4.461   4.7 4.39 100.0  31685  4.461    0.0  0.000 31685  0.00  31685 1048576   0.0  0.000 629.0  1.208 629.0  0.009   0.0  0.000   0.0  0.000
+13:30:10.027           99  31922  4.405   4.7 4.45 100.0  31922  4.405    0.0  0.000 31922  0.00  31922 1048576   0.0  0.000 631.0  1.207 633.0  0.008   0.0  0.000   0.0  0.000
+13:30:11.026          100  32204  4.369   4.8 4.55 100.0  32204  4.369    0.0  0.000 32204  0.00  32204 1048576   0.0  0.000 651.0  1.208 649.0  0.008   0.0  0.000   0.0  0.000
+13:30:12.029          101  32227  4.362   4.7 4.42 100.0  32227  4.362    0.0  0.000 32227  0.00  32227 1048576   0.0  0.000 645.0  1.212 646.0  0.008   0.0  0.000   0.0  0.000
+13:30:13.027          102  31825  4.399   4.8 4.39 100.0  31825  4.399    0.0  0.000 31825  0.00  31825 1048576   0.0  0.000 636.0  1.218 637.0  0.008   0.0  0.000   0.0  0.000
+13:30:14.030          103  31765  4.440   4.8 4.44 100.0  31765  4.440    0.0  0.000 31765  0.00  31765 1048576   0.0  0.000 632.0  1.276 631.0  0.008   0.0  0.000   0.0  0.000
+13:30:15.024          104  32209  4.402   4.7 4.41 100.0  32209  4.402    0.0  0.000 32209  0.00  32209 1048576   0.0  0.000 645.0  1.175 647.0  0.008   0.0  0.000   0.0  0.000
+13:30:16.026          105  32169  4.392   4.6 4.41 100.0  32169  4.392    0.0  0.000 32169  0.00  32169 1048576   0.0  0.000 649.0  1.187 647.0  0.008   0.0  0.000   0.0  0.000
+13:30:17.030          106  32169  4.377   4.6 4.38 100.0  32169  4.377    0.0  0.000 32169  0.00  32169 1048576   0.0  0.000 639.0  1.187 639.0  0.008   0.0  0.000   0.0  0.000
+13:30:18.034          107  32100  4.370   4.6 4.42 100.0  32100  4.370    0.0  0.000 32100  0.00  32100 1048576   0.0  0.000 638.0  1.192 640.0  0.008   0.0  0.000   0.0  0.000
+13:30:19.030          108  32014  4.392   4.7 4.47 100.0  32014  4.392    0.0  0.000 32014  0.00  32014 1048576   0.0  0.000 649.0  1.210 649.0  0.008   0.0  0.000   0.0  0.000
+13:30:20.030          109  31788  4.423   4.6 4.38 100.0  31788  4.423    0.0  0.000 31788  0.00  31788 1048576   0.0  0.000 624.0  1.231 625.0  0.008   0.0  0.000   0.0  0.000
+13:30:21.026          110  31946  4.395   4.7 4.47 100.0  31946  4.395    0.0  0.000 31946  0.00  31946 1048576   0.0  0.000 648.0  1.177 646.0  0.008   0.0  0.000   0.0  0.000
+13:30:22.028          111  32220  4.354   4.6 4.40 100.0  32220  4.354    0.0  0.000 32220  0.00  32220 1048576   0.0  0.000 642.0  1.192 641.0  0.008   0.0  0.000   0.0  0.000
+13:30:23.030          112  31985  4.380   4.7 4.49 100.0  31985  4.380    0.0  0.000 31985  0.00  31985 1048576   0.0  0.000 639.0  1.169 639.0  0.008   0.0  0.000   0.0  0.000
+13:30:24.030          113  31979  4.395   4.6 4.36 100.0  31979  4.395    0.0  0.000 31978  0.00  31978 1048543   0.0  0.000 644.0  1.197 644.0  0.008   0.0  0.000   0.0  0.000
+13:30:25.027          114  32413  4.351   4.7 4.48 100.0  32413  4.351    0.0  0.000 32413  0.00  32413 1048576   0.0  0.000 646.0  1.175 650.0  0.008   0.0  0.000   0.0  0.000
+13:30:26.026          115  32262  4.351   4.6 4.41 100.0  32262  4.351    0.0  0.000 32262  0.00  32262 1048576   0.0  0.000 638.0  1.159 634.0  0.008   0.0  0.000   0.0  0.000
+13:30:27.026          116  31680  4.390   4.5 4.34 100.0  31680  4.390    0.0  0.000 31680  0.00  31680 1048576   0.0  0.000 645.0  1.306 645.0  0.007   0.0  0.000   0.0  0.000
+13:30:28.025          117  31847  4.383   4.6 4.41 100.0  31847  4.383    0.0  0.000 31847  0.00  31847 1048576   0.0  0.000 628.0  1.130 628.0  0.008   0.0  0.000   0.0  0.000
+13:30:29.025          118  31634  4.365   4.6 4.43 100.0  31634  4.365    0.0  0.000 31634  0.00  31634 1048576   0.0  0.000 637.0  1.145 638.0  0.008   0.0  0.000   0.0  0.000
+13:30:30.026          119  31677  4.383   4.6 4.41 100.0  31677  4.383    0.0  0.000 31677  0.00  31677 1048576   0.0  0.000 633.0  1.121 634.0  0.008   0.0  0.000   0.0  0.000
+13:30:31.030          120  32004  4.355   4.7 4.46 100.0  32004  4.355    0.0  0.000 32004  0.00  32004 1048576   0.0  0.000 641.0  1.180 642.0  0.008   0.0  0.000   0.0  0.000
+
+Apr 14, 2020 ..Interval.. .ReqstdOps... ...cpu%...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...create... ....open.... ...close.... ..getattr... ..setattr...
+                            rate   resp total  sys   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+13:30:32.028          121  32107  4.364   4.7 4.48 100.0  32107  4.364    0.0  0.000 32107  0.00  32107 1048576   0.0  0.000 641.0  1.144 639.0  0.008   0.0  0.000   0.0  0.000
+13:30:33.025          122  31893  4.379   4.6 4.41 100.0  31893  4.379    0.0  0.000 31893  0.00  31893 1048576   0.0  0.000 631.0  1.165 631.0  0.008   0.0  0.000   0.0  0.000
+13:30:34.029          123  31985  4.366   4.6 4.39 100.0  31985  4.366    0.0  0.000 31985  0.00  31985 1048576   0.0  0.000 647.0  1.264 646.0  0.008   0.0  0.000   0.0  0.000
+13:30:35.027          124  31602  4.363   4.5 4.32 100.0  31602  4.363    0.0  0.000 31602  0.00  31602 1048576   0.0  0.000 635.0  1.237 635.0  0.008   0.0  0.000   0.0  0.000
+13:30:36.028          125  31987  4.338   4.6 4.39 100.0  31987  4.338    0.0  0.000 31987  0.00  31987 1048576   0.0  0.000 633.0  1.225 634.0  0.008   0.0  0.000   0.0  0.000
+13:30:37.036          126  31948  4.344   4.5 4.33 100.0  31948  4.344    0.0  0.000 31948  0.00  31948 1048576   0.0  0.000 639.0  1.245 638.0  0.007   0.0  0.000   0.0  0.000
+13:30:38.027          127  31926  4.336   4.6 4.36 100.0  31926  4.336    0.0  0.000 31926  0.00  31926 1048576   0.0  0.000 640.0  1.250 640.0  0.008   0.0  0.000   0.0  0.000
+13:30:39.027          128  31074  4.421   4.4 4.25 100.0  31074  4.421    0.0  0.000 31074  0.00  31074 1048576   0.0  0.000 619.0  1.208 620.0  0.008   0.0  0.000   0.0  0.000
+13:30:40.030          129  31455  4.426   4.5 4.30 100.0  31455  4.426    0.0  0.000 31455  0.00  31455 1048576   0.0  0.000 630.0  1.221 630.0  0.007   0.0  0.000   0.0  0.000
+13:30:41.027          130  31817  4.338   4.6 4.39 100.0  31817  4.338    0.0  0.000 31817  0.00  31817 1048576   0.0  0.000 643.0  1.238 643.0  0.008   0.0  0.000   0.0  0.000
+13:30:42.034          131  31709  4.365   4.5 4.32 100.0  31709  4.365    0.0  0.000 31709  0.00  31709 1048576   0.0  0.000 628.0  1.170 629.0  0.008   0.0  0.000   0.0  0.000
+13:30:43.024          132  31975  4.354   4.5 4.34 100.0  31975  4.354    0.0  0.000 31975  0.00  31975 1048576   0.0  0.000 640.0  1.184 640.0  0.009   0.0  0.000   0.0  0.000
+13:30:44.027          133  31821  4.362   4.5 4.34 100.0  31821  4.362    0.0  0.000 31821  0.00  31821 1048576   0.0  0.000 643.0  1.151 642.0  0.007   0.0  0.000   0.0  0.000
+13:30:45.028          134  31793  4.387   4.6 4.36 100.0  31793  4.387    0.0  0.000 31793  0.00  31793 1048576   0.0  0.000 630.0  1.162 630.0  0.007   0.0  0.000   0.0  0.000
+13:30:46.030          135  31791  4.369   4.7 4.42 100.0  31791  4.369    0.0  0.000 31791  0.00  31791 1048576   0.0  0.000 634.0  1.184 633.0  0.007   0.0  0.000   0.0  0.000
+13:30:47.024          136  31545  4.379   4.5 4.36 100.0  31545  4.379    0.0  0.000 31545  0.00  31545 1048576   0.0  0.000 633.0  1.188 633.0  0.008   0.0  0.000   0.0  0.000
+13:30:48.025          137  31401  4.410   4.5 4.34 100.0  31401  4.410    0.0  0.000 31401  0.00  31401 1048576   0.0  0.000 630.0  1.203 632.0  0.007   0.0  0.000   0.0  0.000
+13:30:49.025          138  31629  4.384   4.6 4.37 100.0  31629  4.384    0.0  0.000 31629  0.00  31629 1048576   0.0  0.000 636.0  1.172 635.0  0.007   0.0  0.000   0.0  0.000
+13:30:50.024          139  31602  4.379   4.4 4.27 100.0  31602  4.379    0.0  0.000 31602  0.00  31602 1048576   0.0  0.000 629.0  1.136 628.0  0.007   0.0  0.000   0.0  0.000
+13:30:51.031          140  31917  4.344   4.7 4.46 100.0  31917  4.344    0.0  0.000 31916  0.00  31916 1048543   0.0  0.000 638.0  1.118 638.0  0.007   0.0  0.000   0.0  0.000
+13:30:52.024          141  31656  4.349   4.6 4.40 100.0  31656  4.349    0.0  0.000 31656  0.00  31656 1048576   0.0  0.000 629.0  1.210 632.0  0.008   0.0  0.000   0.0  0.000
+13:30:53.025          142  31489  4.386   4.6 4.36 100.0  31489  4.386    0.0  0.000 31488  0.00  31488 1048542   0.0  0.000 635.0  1.169 632.0  0.007   0.0  0.000   0.0  0.000
+13:30:54.026          143  31283  4.396   4.5 4.34 100.0  31283  4.396    0.0  0.000 31283  0.00  31283 1048576   0.0  0.000 620.0  1.137 620.0  0.007   0.0  0.000   0.0  0.000
+13:30:55.027          144  31343  4.416   4.6 4.38 100.0  31343  4.416    0.0  0.000 31343  0.00  31343 1048576   0.0  0.000 630.0  1.194 633.0  0.007   0.0  0.000   0.0  0.000
+13:30:56.029          145  31562  4.367   4.6 4.36 100.0  31562  4.367    0.0  0.000 31562  0.00  31562 1048576   0.0  0.000 637.0  1.187 634.0  0.007   0.0  0.000   0.0  0.000
+13:30:57.026          146  30765  4.472   4.5 4.30 100.0  30765  4.472    0.0  0.000 30765  0.00  30765 1048576   0.0  0.000 606.0  1.242 606.0  0.008   0.0  0.000   0.0  0.000
+13:30:58.031          147  31141  4.405   4.7 4.46 100.0  31141  4.405    0.0  0.000 31140  0.00  31140 1048542   0.0  0.000 625.0  1.188 626.0  0.008   0.0  0.000   0.0  0.000
+13:30:59.026          148  31764  4.371   4.7 4.50 100.0  31764  4.371    0.0  0.000 31764  0.00  31764 1048576   0.0  0.000 639.0  1.211 639.0  0.008   0.0  0.000   0.0  0.000
+13:31:00.031          149  31710  4.413   4.6 4.46 100.0  31710  4.413    0.0  0.000 31710  0.00  31710 1048576   0.0  0.000 631.0  1.196 630.0  0.007   0.0  0.000   0.0  0.000
+13:31:01.032          150  31932  4.349   4.7 4.51 100.0  31932  4.349    0.0  0.000 31932  0.00  31932 1048576   0.0  0.000 637.0  1.154 637.0  0.008   0.0  0.000   0.0  0.000
+
+Apr 14, 2020 ..Interval.. .ReqstdOps... ...cpu%...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...create... ....open.... ...close.... ..getattr... ..setattr...
+                            rate   resp total  sys   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+13:31:02.029          151  31834  4.356   5.0 4.54 100.0  31834  4.356    0.0  0.000 31834  0.00  31834 1048576   0.0  0.000 636.0  1.146 638.0  0.008   0.0  0.000   0.0  0.000
+13:31:03.025          152  31659  4.368   5.0 4.33 100.0  31659  4.368    0.0  0.000 31660  0.00  31660 1048609   0.0  0.000 638.0  1.204 636.0  0.007   0.0  0.000   0.0  0.000
+13:31:04.031          153  31450  4.387   4.5 4.34 100.0  31450  4.387    0.0  0.000 31450  0.00  31450 1048576   0.0  0.000 625.0  1.159 625.0  0.007   0.0  0.000   0.0  0.000
+13:31:05.024          154  31646  4.379   4.6 4.40 100.0  31646  4.379    0.0  0.000 31646  0.00  31646 1048576   0.0  0.000 636.0  1.137 636.0  0.007   0.0  0.000   0.0  0.000
+13:31:06.030          155  31473  4.344   4.7 4.47 100.0  31473  4.344    0.0  0.000 31473  0.00  31473 1048576   0.0  0.000 631.0  1.162 631.0  0.008   0.0  0.000   0.0  0.000
+13:31:07.029          156  31390  4.327   4.6 4.36 100.0  31390  4.327    0.0  0.000 31390  0.00  31390 1048576   0.0  0.000 628.0  1.179 630.0  0.008   0.0  0.000   0.0  0.000
+13:31:08.025          157  31485  4.367   4.6 4.43 100.0  31485  4.367    0.0  0.000 31485  0.00  31485 1048576   0.0  0.000 628.0  1.180 627.0  0.007   0.0  0.000   0.0  0.000
+13:31:09.027          158  31133  4.445   4.5 4.29 100.0  31133  4.445    0.0  0.000 31133  0.00  31133 1048576   0.0  0.000 628.0  1.222 628.0  0.007   0.0  0.000   0.0  0.000
+13:31:10.028          159  31435  4.377   4.5 4.31 100.0  31435  4.377    0.0  0.000 31435  0.00  31435 1048576   0.0  0.000 625.0  1.168 624.0  0.008   0.0  0.000   0.0  0.000
+13:31:11.025          160  31390  4.350   4.6 4.37 100.0  31390  4.350    0.0  0.000 31390  0.00  31390 1048576   0.0  0.000 628.0  1.182 628.0  0.008   0.0  0.000   0.0  0.000
+13:31:12.025          161  31157  4.377   4.4 4.28 100.0  31157  4.377    0.0  0.000 31157  0.00  31157 1048576   0.0  0.000 617.0  1.208 618.0  0.008   0.0  0.000   0.0  0.000
+13:31:13.030          162  31162  4.371   4.5 4.30 100.0  31162  4.371    0.0  0.000 31163  0.00  31163 1048609   0.0  0.000 628.0  1.131 629.0  0.007   0.0  0.000   0.0  0.000
+13:31:14.029          163  31380  4.374   4.5 4.31 100.0  31380  4.374    0.0  0.000 31379  0.00  31379 1048542   0.0  0.000 631.0  1.168 629.0  0.007   0.0  0.000   0.0  0.000
+13:31:15.029          164  31641  4.329   4.6 4.38 100.0  31641  4.329    0.0  0.000 31641  0.00  31641 1048576   0.0  0.000 632.0  1.141 633.0  0.007   0.0  0.000   0.0  0.000
+13:31:16.026          165  31649  4.325   4.7 4.50 100.0  31649  4.325    0.0  0.000 31649  0.00  31649 1048576   0.0  0.000 629.0  1.158 628.0  0.008   0.0  0.000   0.0  0.000
+13:31:17.025          166  31661  4.342   4.6 4.43 100.0  31661  4.342    0.0  0.000 31661  0.00  31661 1048576   0.0  0.000 640.0  1.171 640.0  0.007   0.0  0.000   0.0  0.000
+13:31:18.026          167  31007  4.355   4.6 4.39 100.0  31007  4.355    0.0  0.000 31008  0.00  31008 1048609   0.0  0.000 608.0  1.107 610.0  0.008   0.0  0.000   0.0  0.000
+13:31:19.026          168  31769  4.362   4.7 4.48 100.0  31769  4.362    0.0  0.000 31769  0.00  31769 1048576   0.0  0.000 643.0  1.143 641.0  0.008   0.0  0.000   0.0  0.000
+13:31:20.028          169  31654  4.355   4.5 4.37 100.0  31654  4.355    0.0  0.000 31654  0.00  31654 1048576   0.0  0.000 631.0  1.140 632.0  0.007   0.0  0.000   0.0  0.000
+13:31:21.028          170  31117  4.312   4.6 4.41 100.0  31117  4.312    0.0  0.000 31117  0.00  31117 1048576   0.0  0.000 620.0  1.079 619.0  0.007   0.0  0.000   0.0  0.000
+13:31:22.024          171  31622  4.339   4.6 4.43 100.0  31622  4.339    0.0  0.000 31622  0.00  31622 1048576   0.0  0.000 632.0  1.096 634.0  0.007   0.0  0.000   0.0  0.000
+13:31:23.028          172  31358  4.347   4.6 4.38 100.0  31358  4.347    0.0  0.000 31359  0.00  31359 1048609   0.0  0.000 632.0  1.110 631.0  0.008   0.0  0.000   0.0  0.000
+13:31:24.029          173  31676  4.352   4.6 4.40 100.0  31676  4.352    0.0  0.000 31676  0.00  31676 1048576   0.0  0.000 637.0  1.124 636.0  0.008   0.0  0.000   0.0  0.000
+13:31:25.035          174  31069  4.444   4.6 4.38 100.0  31069  4.444    0.0  0.000 31069  0.00  31069 1048576   0.0  0.000 619.0  1.090 621.0  0.008   0.0  0.000   0.0  0.000
+13:31:26.026          175  31977  4.343   4.6 4.42 100.0  31977  4.343    0.0  0.000 31977  0.00  31977 1048576   0.0  0.000 639.0  1.090 639.0  0.007   0.0  0.000   0.0  0.000
+13:31:27.030          176  31301  4.450   4.5 4.30 100.0  31301  4.450    0.0  0.000 31302  0.00  31302 1048609   0.0  0.000 628.0  1.213 627.0  0.008   0.0  0.000   0.0  0.000
+13:31:28.027          177  31761  4.350   4.6 4.42 100.0  31761  4.350    0.0  0.000 31761  0.00  31761 1048576   0.0  0.000 630.0  1.068 630.0  0.008   0.0  0.000   0.0  0.000
+13:31:29.029          178  31951  4.343   4.5 4.36 100.0  31951  4.343    0.0  0.000 31951  0.00  31951 1048576   0.0  0.000 645.0  1.100 646.0  0.007   0.0  0.000   0.0  0.000
+13:31:30.030          179  31549  4.404   4.5 4.36 100.0  31549  4.404    0.0  0.000 31549  0.00  31549 1048576   0.0  0.000 627.0  1.114 625.0  0.008   0.0  0.000   0.0  0.000
+13:31:31.029          180  31551  4.303   4.6 4.38 100.0  31551  4.303    0.0  0.000 31552  0.00  31552 1048609   0.0  0.000 633.0  1.146 634.0  0.008   0.0  0.000   0.0  0.000
+
+Apr 14, 2020 ..Interval.. .ReqstdOps... ...cpu%...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...create... ....open.... ...close.... ..getattr... ..setattr...
+                            rate   resp total  sys   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+13:31:32.030          181  31396  4.333   4.5 4.34 100.0  31396  4.333    0.0  0.000 31396  0.00  31396 1048576   0.0  0.000 619.0  1.075 618.0  0.007   0.0  0.000   0.0  0.000
+13:31:33.029          182  31027  4.354   4.5 4.30 100.0  31027  4.354    0.0  0.000 31027  0.00  31027 1048576   0.0  0.000 628.0  1.098 628.0  0.008   0.0  0.000   0.0  0.000
+13:31:34.025          183  31116  4.387   4.5 4.32 100.0  31116  4.387    0.0  0.000 31116  0.00  31116 1048576   0.0  0.000 622.0  1.121 622.0  0.007   0.0  0.000   0.0  0.000
+13:31:35.026          184  31161  4.415   4.5 4.32 100.0  31161  4.415    0.0  0.000 31161  0.00  31161 1048576   0.0  0.000 622.0  1.133 622.0  0.007   0.0  0.000   0.0  0.000
+13:31:36.025          185  31326  4.317   4.5 4.34 100.0  31326  4.317    0.0  0.000 31326  0.00  31326 1048576   0.0  0.000 632.0  1.139 634.0  0.007   0.0  0.000   0.0  0.000
+13:31:37.026          186  31057  4.313   4.5 4.30 100.0  31057  4.313    0.0  0.000 31058  0.00  31058 1048609   0.0  0.000 615.0  1.147 613.0  0.008   0.0  0.000   0.0  0.000
+13:31:38.030          187  31662  4.356   4.6 4.44 100.0  31662  4.356    0.0  0.000 31663  0.00  31663 1048609   0.0  0.000 633.0  1.178 633.0  0.007   0.0  0.000   0.0  0.000
+13:31:39.036          188  31695  4.355   4.6 4.41 100.0  31695  4.355    0.0  0.000 31695  0.00  31695 1048576   0.0  0.000 638.0  1.188 639.0  0.007   0.0  0.000   0.0  0.000
+13:31:40.030          189  31088  4.377   4.6 4.34 100.0  31088  4.377    0.0  0.000 31088  0.00  31088 1048576   0.0  0.000 620.0  1.131 619.0  0.008   0.0  0.000   0.0  0.000
+13:31:41.028          190  31553  4.316   4.6 4.38 100.0  31553  4.316    0.0  0.000 31553  0.00  31553 1048576   0.0  0.000 631.0  1.127 632.0  0.007   0.0  0.000   0.0  0.000
+13:31:42.027          191  31410  4.297   4.6 4.37 100.0  31410  4.297    0.0  0.000 31410  0.00  31410 1048576   0.0  0.000 632.0  1.119 631.0  0.007   0.0  0.000   0.0  0.000
+13:31:43.027          192  31349  4.319   4.6 4.35 100.0  31349  4.319    0.0  0.000 31349  0.00  31349 1048576   0.0  0.000 612.0  1.101 612.0  0.008   0.0  0.000   0.0  0.000
+13:31:44.029          193  31720  4.289   4.5 4.35 100.0  31720  4.289    0.0  0.000 31720  0.00  31720 1048576   0.0  0.000 646.0  1.026 647.0  0.007   0.0  0.000   0.0  0.000
+13:31:45.025          194  31473  4.327   4.5 4.35 100.0  31473  4.327    0.0  0.000 31473  0.00  31473 1048576   0.0  0.000 626.0  1.097 625.0  0.007   0.0  0.000   0.0  0.000
+13:31:46.025          195  31738  4.313   4.6 4.36 100.0  31738  4.313    0.0  0.000 31740  0.00  31740 1048642   0.0  0.000 637.0  1.096 637.0  0.008   0.0  0.000   0.0  0.000
+13:31:47.027          196  31114  4.300   4.5 4.29 100.0  31114  4.300    0.0  0.000 31114  0.00  31114 1048576   0.0  0.000 622.0  1.091 623.0  0.008   0.0  0.000   0.0  0.000
+13:31:48.029          197  31530  4.306   4.5 4.36 100.0  31530  4.306    0.0  0.000 31530  0.00  31530 1048576   0.0  0.000 632.0  1.063 631.0  0.007   0.0  0.000   0.0  0.000
+13:31:49.027          198  31314  4.338   4.6 4.43 100.0  31314  4.338    0.0  0.000 31314  0.00  31314 1048576   0.0  0.000 617.0  1.112 618.0  0.008   0.0  0.000   0.0  0.000
+13:31:50.028          199  31458  4.342   4.6 4.42 100.0  31458  4.342    0.0  0.000 31458  0.00  31458 1048576   0.0  0.000 636.0  1.098 637.0  0.007   0.0  0.000   0.0  0.000
+13:31:51.027          200  31309  4.313   4.6 4.37 100.0  31309  4.313    0.0  0.000 31309  0.00  31309 1048576   0.0  0.000 629.0  1.113 627.0  0.008   0.0  0.000   0.0  0.000
+13:31:52.024          201  31399  4.317   4.6 4.39 100.0  31399  4.317    0.0  0.000 31399  0.00  31399 1048576   0.0  0.000 620.0  1.110 620.0  0.007   0.0  0.000   0.0  0.000
+13:31:53.029          202  31612  4.332   4.5 4.36 100.0  31612  4.332    0.0  0.000 31612  0.00  31612 1048576   0.0  0.000 639.0  1.076 639.0  0.007   0.0  0.000   0.0  0.000
+13:31:54.025          203  31149  4.377   4.5 4.34 100.0  31149  4.377    0.0  0.000 31149  0.00  31149 1048576   0.0  0.000 619.0  1.043 620.0  0.008   0.0  0.000   0.0  0.000
+13:31:55.025          204  31013  4.352   4.5 4.32 100.0  31013  4.352    0.0  0.000 31013  0.00  31013 1048576   0.0  0.000 629.0  1.058 628.0  0.008   0.0  0.000   0.0  0.000
+13:31:56.025          205  31163  4.306   4.5 4.33 100.0  31163  4.306    0.0  0.000 31163  0.00  31163 1048576   0.0  0.000 617.0  1.117 619.0  0.008   0.0  0.000   0.0  0.000
+13:31:57.027          206  30679  4.402   4.4 4.19 100.0  30679  4.402    0.0  0.000 30679  0.00  30679 1048576   0.0  0.000 617.0  1.205 615.0  0.008   0.0  0.000   0.0  0.000
+13:31:58.027          207  31301  4.309   4.5 4.37 100.0  31301  4.309    0.0  0.000 31301  0.00  31301 1048576   0.0  0.000 626.0  1.115 626.0  0.008   0.0  0.000   0.0  0.000
+13:31:59.027          208  31345  4.325   4.6 4.44 100.0  31345  4.325    0.0  0.000 31345  0.00  31345 1048576   0.0  0.000 625.0  1.109 627.0  0.008   0.0  0.000   0.0  0.000
+13:32:00.028          209  31519  4.296   4.6 4.37 100.0  31519  4.296    0.0  0.000 31519  0.00  31519 1048576   0.0  0.000 630.0  1.115 629.0  0.007   0.0  0.000   0.0  0.000
+13:32:01.028          210  31489  4.279   4.6 4.43 100.0  31489  4.279    0.0  0.000 31489  0.00  31489 1048576   0.0  0.000 631.0  1.065 630.0  0.008   0.0  0.000   0.0  0.000
+
+Apr 14, 2020 ..Interval.. .ReqstdOps... ...cpu%...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...create... ....open.... ...close.... ..getattr... ..setattr...
+                            rate   resp total  sys   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+13:32:02.028          211  31369  4.280   4.7 4.43 100.0  31369  4.280    0.0  0.000 31369  0.00  31369 1048576   0.0  0.000 626.0  1.086 626.0  0.008   0.0  0.000   0.0  0.000
+13:32:03.026          212  31218  4.287   4.5 4.24 100.0  31218  4.287    0.0  0.000 31219  0.00  31219 1048609   0.0  0.000 622.0  1.106 623.0  0.008   0.0  0.000   0.0  0.000
+13:32:04.028          213  30776  4.318   4.4 4.22 100.0  30776  4.318    0.0  0.000 30777  0.00  30777 1048610   0.0  0.000 614.0  1.084 613.0  0.007   0.0  0.000   0.0  0.000
+13:32:05.030          214  30943  4.342   4.4 4.23 100.0  30943  4.342    0.0  0.000 30943  0.00  30943 1048576   0.0  0.000 625.0  1.075 625.0  0.007   0.0  0.000   0.0  0.000
+13:32:06.031          215  31855  4.295   4.7 4.43 100.0  31855  4.295    0.0  0.000 31854  0.00  31854 1048543   0.0  0.000 630.0  1.107 631.0  0.008   0.0  0.000   0.0  0.000
+13:32:07.035          216  31537  4.285   4.6 4.44 100.0  31537  4.285    0.0  0.000 31537  0.00  31537 1048576   0.0  0.000 637.0  1.110 636.0  0.008   0.0  0.000   0.0  0.000
+13:32:08.030          217  31512  4.304   4.7 4.44 100.0  31512  4.304    0.0  0.000 31512  0.00  31512 1048576   0.0  0.000 633.0  1.141 635.0  0.007   0.0  0.000   0.0  0.000
+13:32:09.027          218  31473  4.282   4.5 4.38 100.0  31473  4.282    0.0  0.000 31473  0.00  31473 1048576   0.0  0.000 624.0  1.097 622.0  0.007   0.0  0.000   0.0  0.000
+13:32:10.027          219  31554  4.329   4.7 4.43 100.0  31554  4.329    0.0  0.000 31554  0.00  31554 1048576   0.0  0.000 635.0  1.131 635.0  0.007   0.0  0.000   0.0  0.000
+13:32:11.033          220  31379  4.283   4.6 4.42 100.0  31379  4.283    0.0  0.000 31379  0.00  31379 1048576   0.0  0.000 620.0  1.108 621.0  0.007   0.0  0.000   0.0  0.000
+13:32:12.025          221  30982  4.276   4.5 4.30 100.0  30982  4.276    0.0  0.000 30981  0.00  30981 1048542   0.0  0.000 630.0  1.105 629.0  0.007   0.0  0.000   0.0  0.000
+13:32:13.026          222  31567  4.298   4.6 4.42 100.0  31567  4.298    0.0  0.000 31568  0.00  31568 1048609   0.0  0.000 624.0  1.098 625.0  0.008   0.0  0.000   0.0  0.000
+13:32:14.025          223  31042  4.349   4.5 4.36 100.0  31042  4.349    0.0  0.000 31042  0.00  31042 1048576   0.0  0.000 622.0  1.091 622.0  0.008   0.0  0.000   0.0  0.000
+13:32:15.034          224  31427  4.354   4.5 4.27 100.0  31427  4.354    0.0  0.000 31427  0.00  31427 1048576   0.0  0.000 632.0  1.107 631.0  0.008   0.0  0.000   0.0  0.000
+13:32:16.026          225  31417  4.284   4.5 4.34 100.0  31417  4.284    0.0  0.000 31417  0.00  31417 1048576   0.0  0.000 633.0  1.128 633.0  0.007   0.0  0.000   0.0  0.000
+13:32:17.025          226  31502  4.303   4.5 4.35 100.0  31502  4.303    0.0  0.000 31501  0.00  31501 1048542   0.0  0.000 623.0  1.116 623.0  0.008   0.0  0.000   0.0  0.000
+13:32:18.026          227  31002  4.321   4.5 4.30 100.0  31002  4.321    0.0  0.000 31002  0.00  31002 1048576   0.0  0.000 619.0  1.096 620.0  0.007   0.0  0.000   0.0  0.000
+13:32:19.029          228  31392  4.320   4.5 4.28 100.0  31392  4.320    0.0  0.000 31392  0.00  31392 1048576   0.0  0.000 628.0  1.115 628.0  0.008   0.0  0.000   0.0  0.000
+13:32:20.030          229  31189  4.342   4.5 4.28 100.0  31189  4.342    0.0  0.000 31189  0.00  31189 1048576   0.0  0.000 628.0  1.089 628.0  0.007   0.0  0.000   0.0  0.000
+13:32:21.029          230  31605  4.325   4.6 4.36 100.0  31605  4.325    0.0  0.000 31605  0.00  31605 1048576   0.0  0.000 630.0  1.093 630.0  0.007   0.0  0.000   0.0  0.000
+13:32:22.028          231  31366  4.302   4.5 4.30 100.0  31366  4.302    0.0  0.000 31366  0.00  31366 1048576   0.0  0.000 624.0  1.075 623.0  0.008   0.0  0.000   0.0  0.000
+13:32:23.026          232  31677  4.310   4.6 4.42 100.0  31677  4.310    0.0  0.000 31676  0.00  31676 1048542   0.0  0.000 637.0  1.095 637.0  0.007   0.0  0.000   0.0  0.000
+13:32:24.027          233  31608  4.305   4.6 4.39 100.0  31608  4.305    0.0  0.000 31608  0.00  31608 1048576   0.0  0.000 624.0  1.067 625.0  0.007   0.0  0.000   0.0  0.000
+13:32:25.029          234  31225  4.321   4.5 4.35 100.0  31225  4.321    0.0  0.000 31225  0.00  31225 1048576   0.0  0.000 630.0  1.116 629.0  0.008   0.0  0.000   0.0  0.000
+13:32:26.027          235  31540  4.283   4.6 4.41 100.0  31540  4.283    0.0  0.000 31540  0.00  31540 1048576   0.0  0.000 636.0  1.080 636.0  0.007   0.0  0.000   0.0  0.000
+13:32:27.026          236  31250  4.374   4.5 4.35 100.0  31250  4.374    0.0  0.000 31250  0.00  31250 1048576   0.0  0.000 620.0  1.222 620.0  0.008   0.0  0.000   0.0  0.000
+13:32:28.029          237  31452  4.273   4.6 4.47 100.0  31452  4.273    0.0  0.000 31452  0.00  31452 1048576   0.0  0.000 632.0  1.148 633.0  0.007   0.0  0.000   0.0  0.000
+13:32:29.035          238  31233  4.309   4.6 4.39 100.0  31233  4.309    0.0  0.000 31233  0.00  31233 1048576   0.0  0.000 619.0  1.150 618.0  0.008   0.0  0.000   0.0  0.000
+13:32:30.029          239  31002  4.318   4.6 4.38 100.0  31002  4.318    0.0  0.000 31002  0.00  31002 1048576   0.0  0.000 626.0  1.123 629.0  0.007   0.0  0.000   0.0  0.000
+13:32:31.029          240  31448  4.294   4.6 4.43 100.0  31448  4.294    0.0  0.000 31448  0.00  31448 1048576   0.0  0.000 635.0  1.076 632.0  0.008   0.0  0.000   0.0  0.000
+
+Apr 14, 2020 ..Interval.. .ReqstdOps... ...cpu%...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...create... ....open.... ...close.... ..getattr... ..setattr...
+                            rate   resp total  sys   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+13:32:32.029          241  31802  4.308   4.6 4.44 100.0  31802  4.308    0.0  0.000 31802  0.00  31802 1048576   0.0  0.000 624.0  1.088 624.0  0.007   0.0  0.000   0.0  0.000
+13:32:33.026          242  31211  4.338   4.5 4.34 100.0  31211  4.338    0.0  0.000 31211  0.00  31211 1048576   0.0  0.000 630.0  1.126 631.0  0.008   0.0  0.000   0.0  0.000
+13:32:34.029          243  31876  4.366   4.7 4.52 100.0  31876  4.366    0.0  0.000 31876  0.00  31876 1048576   0.0  0.000 632.0  1.061 632.0  0.007   0.0  0.000   0.0  0.000
+13:32:35.040          244  31887  4.293   4.6 4.44 100.0  31887  4.293    0.0  0.000 31887  0.00  31887 1048576   0.0  0.000 639.0  1.066 638.0  0.007   0.0  0.000   0.0  0.000
+13:32:36.026          245  31807  4.271   4.7 4.46 100.0  31807  4.271    0.0  0.000 31807  0.00  31807 1048576   0.0  0.000 644.0  1.166 645.0  0.007   0.0  0.000   0.0  0.000
+13:32:37.025          246  31906  4.278   4.7 4.48 100.0  31906  4.278    0.0  0.000 31906  0.00  31906 1048576   0.0  0.000 634.0  1.145 636.0  0.008   0.0  0.000   0.0  0.000
+13:32:38.028          247  32071  4.296   4.8 4.53 100.0  32071  4.296    0.0  0.000 32071  0.00  32071 1048576   0.0  0.000 637.0  1.149 634.0  0.008   0.0  0.000   0.0  0.000
+13:32:39.026          248  31510  4.296   4.5 4.34 100.0  31510  4.296    0.0  0.000 31510  0.00  31510 1048576   0.0  0.000 636.0  1.099 637.0  0.008   0.0  0.000   0.0  0.000
+13:32:40.026          249  31885  4.321   4.6 4.41 100.0  31885  4.321    0.0  0.000 31884  0.00  31884 1048543   0.0  0.000 638.0  1.151 637.0  0.007   0.0  0.000   0.0  0.000
+13:32:41.031          250  31409  4.269   4.5 4.32 100.0  31409  4.269    0.0  0.000 31409  0.00  31409 1048576   0.0  0.000 631.0  1.116 631.0  0.008   0.0  0.000   0.0  0.000
+13:32:42.027          251  31191  4.262   4.5 4.32 100.0  31191  4.262    0.0  0.000 31191  0.00  31191 1048576   0.0  0.000 620.0  1.126 620.0  0.008   0.0  0.000   0.0  0.000
+13:32:43.025          252  31549  4.293   4.5 4.35 100.0  31549  4.293    0.0  0.000 31549  0.00  31549 1048576   0.0  0.000 631.0  1.073 631.0  0.008   0.0  0.000   0.0  0.000
+13:32:44.028          253  31487  4.269   4.5 4.34 100.0  31487  4.269    0.0  0.000 31487  0.00  31487 1048576   0.0  0.000 629.0  1.041 629.0  0.007   0.0  0.000   0.0  0.000
+13:32:45.026          254  31601  4.287   4.6 4.39 100.0  31601  4.287    0.0  0.000 31602  0.00  31602 1048609   0.0  0.000 628.0  1.085 628.0  0.007   0.0  0.000   0.0  0.000
+13:32:46.025          255  31251  4.253   4.5 4.31 100.0  31251  4.253    0.0  0.000 31251  0.00  31251 1048576   0.0  0.000 628.0  1.051 628.0  0.008   0.0  0.000   0.0  0.000
+13:32:47.027          256  31783  4.272   4.6 4.41 100.0  31783  4.272    0.0  0.000 31783  0.00  31783 1048576   0.0  0.000 635.0  1.030 635.0  0.007   0.0  0.000   0.0  0.000
+13:32:48.027          257  31617  4.264   4.5 4.32 100.0  31617  4.264    0.0  0.000 31617  0.00  31617 1048576   0.0  0.000 630.0  1.068 630.0  0.007   0.0  0.000   0.0  0.000
+13:32:49.040          258  31999  4.250   4.6 4.42 100.0  31999  4.250    0.0  0.000 31999  0.00  31999 1048576   0.0  0.000 645.0  1.039 645.0  0.008   0.0  0.000   0.0  0.000
+13:32:50.026          259  32261  4.248   4.7 4.49 100.0  32261  4.248    0.0  0.000 32261  0.00  32261 1048576   0.0  0.000 645.0  1.030 646.0  0.007   0.0  0.000   0.0  0.000
+13:32:51.027          260  32009  4.233   4.7 4.44 100.0  32009  4.233    0.0  0.000 32009  0.00  32009 1048576   0.0  0.000 638.0  1.060 640.0  0.007   0.0  0.000   0.0  0.000
+13:32:52.025          261  31239  4.216   4.5 4.26 100.0  31239  4.216    0.0  0.000 31239  0.00  31239 1048576   0.0  0.000 627.0  1.065 625.0  0.008   0.0  0.000   0.0  0.000
+13:32:53.028          262  31780  4.245   4.6 4.40 100.0  31780  4.245    0.0  0.000 31780  0.00  31780 1048576   0.0  0.000 633.0  1.029 632.0  0.008   0.0  0.000   0.0  0.000
+13:32:54.032          263  32050  4.270   4.6 4.43 100.0  32050  4.270    0.0  0.000 32049  0.00  32049 1048543   0.0  0.000 646.0  1.037 645.0  0.008   0.0  0.000   0.0  0.000
+13:32:55.028          264  31839  4.276   4.5 4.36 100.0  31839  4.276    0.0  0.000 31839  0.00  31839 1048576   0.0  0.000 636.0  0.991 636.0  0.008   0.0  0.000   0.0  0.000
+13:32:56.037          265  31258  4.208   4.5 4.28 100.0  31258  4.208    0.0  0.000 31258  0.00  31258 1048576   0.0  0.000 616.0  1.023 618.0  0.007   0.0  0.000   0.0  0.000
+13:32:57.028          266  30650  4.333   4.5 4.26 100.0  30650  4.333    0.0  0.000 30650  0.00  30650 1048576   0.0  0.000 621.0  1.123 621.0  0.007   0.0  0.000   0.0  0.000
+13:32:58.030          267  31936  4.267   4.7 4.51 100.0  31936  4.267    0.0  0.000 31936  0.00  31936 1048576   0.0  0.000 633.0  1.057 632.0  0.008   0.0  0.000   0.0  0.000
+13:32:59.028          268  31263  4.278   4.6 4.41 100.0  31263  4.278    0.0  0.000 31263  0.00  31263 1048576   0.0  0.000 630.0  1.054 629.0  0.007   0.0  0.000   0.0  0.000
+13:33:00.028          269  31134  4.244   4.6 4.36 100.0  31134  4.244    0.0  0.000 31135  0.00  31135 1048609   0.0  0.000 618.0  1.030 618.0  0.007   0.0  0.000   0.0  0.000
+13:33:01.026          270  31293  4.243   4.9 4.46 100.0  31293  4.243    0.0  0.000 31293  0.00  31293 1048576   0.0  0.000 632.0  1.057 632.0  0.008   0.0  0.000   0.0  0.000
+
+Apr 14, 2020 ..Interval.. .ReqstdOps... ...cpu%...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...create... ....open.... ...close.... ..getattr... ..setattr...
+                            rate   resp total  sys   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+13:33:02.026          271  31955  4.251   4.8 4.55 100.0  31955  4.251    0.0  0.000 31954  0.00  31954 1048543   0.0  0.000 639.0  1.085 639.0  0.008   0.0  0.000   0.0  0.000
+13:33:03.030          272  31575  4.268   4.6 4.42 100.0  31575  4.268    0.0  0.000 31575  0.00  31575 1048576   0.0  0.000 627.0  1.042 629.0  0.007   0.0  0.000   0.0  0.000
+13:33:04.027          273  31037  4.276   4.5 4.30 100.0  31037  4.276    0.0  0.000 31038  0.00  31038 1048609   0.0  0.000 626.0  1.052 626.0  0.008   0.0  0.000   0.0  0.000
+13:33:05.026          274  31303  4.258   4.5 4.33 100.0  31303  4.258    0.0  0.000 31303  0.00  31303 1048576   0.0  0.000 628.0  1.030 627.0  0.009   0.0  0.000   0.0  0.000
+13:33:06.025          275  32076  4.236   4.7 4.44 100.0  32076  4.236    0.0  0.000 32077  0.00  32077 1048608   0.0  0.000 640.0  1.063 639.0  0.007   0.0  0.000   0.0  0.000
+13:33:07.030          276  32090  4.222   4.6 4.41 100.0  32090  4.222    0.0  0.000 32090  0.00  32090 1048576   0.0  0.000 640.0  1.127 641.0  0.008   0.0  0.000   0.0  0.000
+13:33:08.032          277  31898  4.252   4.6 4.37 100.0  31898  4.252    0.0  0.000 31898  0.00  31898 1048576   0.0  0.000 642.0  1.070 641.0  0.007   0.0  0.000   0.0  0.000
+13:33:09.039          278  30834  4.312   4.4 4.21 100.0  30834  4.312    0.0  0.000 30834  0.00  30834 1048576   0.0  0.000 611.0  1.215 611.0  0.007   0.0  0.000   0.0  0.000
+13:33:10.029          279  31852  4.303   4.6 4.40 100.0  31852  4.303    0.0  0.000 31852  0.00  31852 1048576   0.0  0.000 630.0  1.045 632.0  0.008   0.0  0.000   0.0  0.000
+13:33:11.027          280  32098  4.266   4.7 4.46 100.0  32098  4.266    0.0  0.000 32098  0.00  32098 1048576   0.0  0.000 646.0  1.120 645.0  0.007   0.0  0.000   0.0  0.000
+13:33:12.030          281  31599  4.265   4.5 4.34 100.0  31599  4.265    0.0  0.000 31600  0.00  31600 1048609   0.0  0.000 633.0  1.066 631.0  0.008   0.0  0.000   0.0  0.000
+13:33:13.025          282  31749  4.263   4.5 4.35 100.0  31749  4.263    0.0  0.000 31749  0.00  31749 1048576   0.0  0.000 633.0  1.065 634.0  0.007   0.0  0.000   0.0  0.000
+13:33:14.027          283  31931  4.283   4.5 4.28 100.0  31931  4.283    0.0  0.000 31931  0.00  31931 1048576   0.0  0.000 644.0  1.104 643.0  0.007   0.0  0.000   0.0  0.000
+13:33:15.027          284  32083  4.264   4.5 4.31 100.0  32083  4.264    0.0  0.000 32083  0.00  32083 1048576   0.0  0.000 640.0  1.092 641.0  0.007   0.0  0.000   0.0  0.000
+13:33:16.033          285  31939  4.230   4.6 4.38 100.0  31939  4.230    0.0  0.000 31939  0.00  31939 1048576   0.0  0.000 640.0  1.019 639.0  0.007   0.0  0.000   0.0  0.000
+13:33:17.029          286  31748  4.249   4.6 4.41 100.0  31748  4.249    0.0  0.000 31748  0.00  31748 1048576   0.0  0.000 634.0  1.087 638.0  0.008   0.0  0.000   0.0  0.000
+13:33:18.028          287  31413  4.263   4.6 4.37 100.0  31413  4.263    0.0  0.000 31413  0.00  31413 1048576   0.0  0.000 622.0  1.066 618.0  0.007   0.0  0.000   0.0  0.000
+13:33:19.034          288  31482  4.263   4.6 4.39 100.0  31482  4.263    0.0  0.000 31481  0.00  31481 1048542   0.0  0.000 639.0  1.064 641.0  0.008   0.0  0.000   0.0  0.000
+13:33:20.027          289  32027  4.282   4.7 4.48 100.0  32027  4.282    0.0  0.000 32027  0.00  32027 1048576   0.0  0.000 635.0  1.034 633.0  0.007   0.0  0.000   0.0  0.000
+13:33:21.033          290  31891  4.248   4.6 4.44 100.0  31891  4.248    0.0  0.000 31891  0.00  31891 1048576   0.0  0.000 639.0  1.107 641.0  0.008   0.0  0.000   0.0  0.000
+13:33:22.026          291  32002  4.246   4.6 4.39 100.0  32002  4.246    0.0  0.000 32002  0.00  32002 1048576   0.0  0.000 643.0  1.036 642.0  0.008   0.0  0.000   0.0  0.000
+13:33:23.025          292  32001  4.246   4.6 4.43 100.0  32001  4.246    0.0  0.000 32001  0.00  32001 1048576   0.0  0.000 635.0  1.031 634.0  0.008   0.0  0.000   0.0  0.000
+13:33:24.028          293  31790  4.266   4.5 4.35 100.0  31790  4.266    0.0  0.000 31790  0.00  31790 1048576   0.0  0.000 638.0  1.015 638.0  0.007   0.0  0.000   0.0  0.000
+13:33:25.026          294  32215  4.288   4.6 4.42 100.0  32215  4.288    0.0  0.000 32215  0.00  32215 1048576   0.0  0.000 649.0  1.046 650.0  0.008   0.0  0.000   0.0  0.000
+13:33:26.030          295  31968  4.216   4.6 4.43 100.0  31968  4.216    0.0  0.000 31968  0.00  31968 1048576   0.0  0.000 640.0  1.011 640.0  0.008   0.0  0.000   0.0  0.000
+13:33:27.025          296  30841  4.324   4.5 4.27 100.0  30841  4.324    0.0  0.000 30841  0.00  30841 1048576   0.0  0.000 612.0  1.047 611.0  0.007   0.0  0.000   0.0  0.000
+13:33:28.028          297  31900  4.250   4.6 4.42 100.0  31900  4.250    0.0  0.000 31900  0.00  31900 1048576   0.0  0.000 635.0  1.015 637.0  0.008   0.0  0.000   0.0  0.000
+13:33:29.027          298  31113  4.265   4.4 4.28 100.0  31113  4.265    0.0  0.000 31113  0.00  31113 1048576   0.0  0.000 622.0  1.036 620.0  0.007   0.0  0.000   0.0  0.000
+13:33:30.029          299  31126  4.258   4.5 4.31 100.0  31126  4.258    0.0  0.000 31126  0.00  31126 1048576   0.0  0.000 629.0  1.040 631.0  0.007   0.0  0.000   0.0  0.000
+13:33:31.028          300  31998  4.228   4.6 4.42 100.0  31998  4.228    0.0  0.000 31999  0.00  31999 1048608   0.0  0.000 639.0  1.019 637.0  0.008   0.0  0.000   0.0  0.000
+
+Apr 14, 2020 ..Interval.. .ReqstdOps... ...cpu%...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...create... ....open.... ...close.... ..getattr... ..setattr...
+                            rate   resp total  sys   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+13:33:32.029          301  31528  4.321   4.5 4.32 100.0  31528  4.321    0.0  0.000 31529  0.00  31529 1048609   0.0  0.000 630.0  1.049 631.0  0.007   0.0  0.000   0.0  0.000
+13:33:33.029          302  31622  4.232   4.5 4.34 100.0  31622  4.232    0.0  0.000 31622  0.00  31622 1048576   0.0  0.000 637.0  1.018 636.0  0.008   0.0  0.000   0.0  0.000
+13:33:34.030          303  32045  4.241   4.6 4.44 100.0  32045  4.241    0.0  0.000 32046  0.00  32046 1048608   0.0  0.000 632.0  1.056 632.0  0.007   0.0  0.000   0.0  0.000
+13:33:35.028          304  31823  4.243   4.7 4.42 100.0  31823  4.243    0.0  0.000 31823  0.00  31823 1048576   0.0  0.000 641.0  1.018 641.0  0.007   0.0  0.000   0.0  0.000
+13:33:36.028          305  32147  4.231   4.6 4.39 100.0  32147  4.231    0.0  0.000 32147  0.00  32147 1048576   0.0  0.000 639.0  1.057 641.0  0.008   0.0  0.000   0.0  0.000
+13:33:37.028          306  31878  4.274   4.6 4.39 100.0  31878  4.274    0.0  0.000 31878  0.00  31878 1048576   0.0  0.000 635.0  1.102 635.0  0.008   0.0  0.000   0.0  0.000
+13:33:38.026          307  31761  4.293   4.5 4.37 100.0  31761  4.293    0.0  0.000 31761  0.00  31761 1048576   0.0  0.000 640.0  1.102 638.0  0.007   0.0  0.000   0.0  0.000
+13:33:39.033          308  31355  4.376   4.5 4.31 100.0  31355  4.376    0.0  0.000 31356  0.00  31356 1048609   0.0  0.000 627.0  1.194 627.0  0.007   0.0  0.000   0.0  0.000
+13:33:40.028          309  31483  4.240   4.6 4.38 100.0  31483  4.240    0.0  0.000 31483  0.00  31483 1048576   0.0  0.000 638.0  1.081 638.0  0.008   0.0  0.000   0.0  0.000
+13:33:41.024          310  31813  4.238   4.6 4.40 100.0  31813  4.238    0.0  0.000 31813  0.00  31813 1048576   0.0  0.000 626.0  1.093 626.0  0.007   0.0  0.000   0.0  0.000
+13:33:42.030          311  32036  4.235   4.7 4.49 100.0  32036  4.235    0.0  0.000 32036  0.00  32036 1048576   0.0  0.000 647.0  1.027 649.0  0.008   0.0  0.000   0.0  0.000
+13:33:43.027          312  31477  4.249   4.6 4.39 100.0  31477  4.249    0.0  0.000 31477  0.00  31477 1048576   0.0  0.000 623.0  1.050 622.0  0.008   0.0  0.000   0.0  0.000
+13:33:44.030          313  31201  4.238   4.6 4.38 100.0  31201  4.238    0.0  0.000 31201  0.00  31201 1048576   0.0  0.000 631.0  1.088 631.0  0.007   0.0  0.000   0.0  0.000
+13:33:45.025          314  31943  4.261   4.6 4.44 100.0  31943  4.261    0.0  0.000 31942  0.00  31942 1048543   0.0  0.000 637.0  1.033 636.0  0.008   0.0  0.000   0.0  0.000
+13:33:46.025          315  30988  4.329   4.5 4.28 100.0  30988  4.329    0.0  0.000 30988  0.00  30988 1048576   0.0  0.000 616.0  1.157 619.0  0.008   0.0  0.000   0.0  0.000
+13:33:47.030          316  31610  4.242   4.6 4.41 100.0  31610  4.242    0.0  0.000 31610  0.00  31610 1048576   0.0  0.000 629.0  1.019 626.0  0.007   0.0  0.000   0.0  0.000
+13:33:48.027          317  31568  4.302   4.6 4.39 100.0  31568  4.302    0.0  0.000 31568  0.00  31568 1048576   0.0  0.000 635.0  1.046 636.0  0.007   0.0  0.000   0.0  0.000
+13:33:49.029          318  31249  4.285   4.5 4.32 100.0  31249  4.285    0.0  0.000 31249  0.00  31249 1048576   0.0  0.000 632.0  1.032 632.0  0.007   0.0  0.000   0.0  0.000
+13:33:50.029          319  31704  4.303   4.7 4.47 100.0  31704  4.303    0.0  0.000 31705  0.00  31705 1048609   0.0  0.000 629.0  1.041 630.0  0.007   0.0  0.000   0.0  0.000
+13:33:51.026          320  30991  4.267   4.5 4.28 100.0  30991  4.267    0.0  0.000 30990  0.00  30990 1048542   0.0  0.000 617.0  1.048 617.0  0.008   0.0  0.000   0.0  0.000
+13:33:52.025          321  31485  4.248   4.5 4.36 100.0  31485  4.248    0.0  0.000 31485  0.00  31485 1048576   0.0  0.000 632.0  1.007 632.0  0.008   0.0  0.000   0.0  0.000
+13:33:53.026          322  31943  4.259   4.6 4.39 100.0  31943  4.259    0.0  0.000 31943  0.00  31943 1048576   0.0  0.000 640.0  1.012 639.0  0.007   0.0  0.000   0.0  0.000
+13:33:54.026          323  31522  4.278   4.5 4.32 100.0  31522  4.278    0.0  0.000 31522  0.00  31522 1048576   0.0  0.000 629.0  1.037 629.0  0.007   0.0  0.000   0.0  0.000
+13:33:55.031          324  31564  4.259   4.5 4.36 100.0  31564  4.259    0.0  0.000 31564  0.00  31564 1048576   0.0  0.000 633.0  1.054 633.0  0.007   0.0  0.000   0.0  0.000
+13:33:56.027          325  31431  4.227   4.6 4.38 100.0  31431  4.227    0.0  0.000 31432  0.00  31432 1048609   0.0  0.000 620.0  0.988 619.0  0.008   0.0  0.000   0.0  0.000
+13:33:57.030          326  30906  4.306   4.5 4.30 100.0  30906  4.306    0.0  0.000 30906  0.00  30906 1048576   0.0  0.000 624.0  1.062 627.0  0.007   0.0  0.000   0.0  0.000
+13:33:58.030          327  31431  4.225   4.5 4.35 100.0  31431  4.225    0.0  0.000 31431  0.00  31431 1048576   0.0  0.000 630.0  1.016 627.0  0.007   0.0  0.000   0.0  0.000
+13:33:59.025          328  31578  4.254   4.6 4.43 100.0  31578  4.254    0.0  0.000 31578  0.00  31578 1048576   0.0  0.000 633.0  1.025 635.0  0.008   0.0  0.000   0.0  0.000
+13:34:00.027          329  31954  4.226   4.7 4.45 100.0  31954  4.226    0.0  0.000 31954  0.00  31954 1048576   0.0  0.000 637.0  0.995 635.0  0.008   0.0  0.000   0.0  0.000
+13:34:01.031          330  31146  4.191   4.6 4.37 100.0  31146  4.191    0.0  0.000 31146  0.00  31146 1048576   0.0  0.000 626.0  0.971 626.0  0.008   0.0  0.000   0.0  0.000
+
+Apr 14, 2020 ..Interval.. .ReqstdOps... ...cpu%...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...create... ....open.... ...close.... ..getattr... ..setattr...
+                            rate   resp total  sys   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+13:34:02.027          331  31487  4.192   4.7 4.44 100.0  31487  4.192    0.0  0.000 31487  0.00  31487 1048576   0.0  0.000 626.0  0.985 626.0  0.007   0.0  0.000   0.0  0.000
+13:34:03.029          332  31178  4.235   4.5 4.35 100.0  31178  4.235    0.0  0.000 31178  0.00  31178 1048576   0.0  0.000 631.0  0.995 632.0  0.008   0.0  0.000   0.0  0.000
+13:34:04.028          333  31694  4.249   4.6 4.47 100.0  31694  4.249    0.0  0.000 31694  0.00  31694 1048576   0.0  0.000 624.0  1.081 625.0  0.007   0.0  0.000   0.0  0.000
+13:34:05.030          334  32078  4.224   4.7 4.49 100.0  32078  4.224    0.0  0.000 32078  0.00  32078 1048576   0.0  0.000 647.0  1.095 645.0  0.008   0.0  0.000   0.0  0.000
+13:34:06.031          335  31973  4.222   4.7 4.50 100.0  31973  4.222    0.0  0.000 31973  0.00  31973 1048576   0.0  0.000 643.0  1.039 643.0  0.008   0.0  0.000   0.0  0.000
+13:34:07.026          336  31548  4.228   4.6 4.42 100.0  31548  4.228    0.0  0.000 31548  0.00  31548 1048576   0.0  0.000 625.0  1.052 626.0  0.007   0.0  0.000   0.0  0.000
+13:34:08.026          337  31395  4.240   4.5 4.34 100.0  31395  4.240    0.0  0.000 31395  0.00  31395 1048576   0.0  0.000 628.0  1.031 627.0  0.007   0.0  0.000   0.0  0.000
+13:34:09.031          338  31747  4.214   4.6 4.47 100.0  31747  4.214    0.0  0.000 31747  0.00  31747 1048576   0.0  0.000 628.0  1.036 629.0  0.008   0.0  0.000   0.0  0.000
+13:34:10.028          339  31735  4.228   4.7 4.48 100.0  31735  4.228    0.0  0.000 31735  0.00  31735 1048576   0.0  0.000 642.0  1.037 642.0  0.008   0.0  0.000   0.0  0.000
+13:34:11.030          340  30973  4.206   4.5 4.34 100.0  30973  4.206    0.0  0.000 30973  0.00  30973 1048576   0.0  0.000 615.0  0.994 616.0  0.008   0.0  0.000   0.0  0.000
+13:34:12.031          341  31727  4.236   4.6 4.41 100.0  31727  4.236    0.0  0.000 31727  0.00  31727 1048576   0.0  0.000 643.0  1.024 642.0  0.007   0.0  0.000   0.0  0.000
+13:34:13.026          342  31513  4.251   4.5 4.36 100.0  31513  4.251    0.0  0.000 31513  0.00  31513 1048576   0.0  0.000 621.0  0.981 621.0  0.007   0.0  0.000   0.0  0.000
+13:34:14.025          343  30876  4.267   4.4 4.21 100.0  30876  4.267    0.0  0.000 30876  0.00  30876 1048576   0.0  0.000 626.0  1.023 625.0  0.007   0.0  0.000   0.0  0.000
+13:34:15.031          344  30617  4.220   4.5 4.31 100.0  30617  4.220    0.0  0.000 30617  0.00  30617 1048576   0.0  0.000 615.0  1.008 616.0  0.007   0.0  0.000   0.0  0.000
+13:34:16.027          345  31427  4.222   4.5 4.36 100.0  31427  4.222    0.0  0.000 31427  0.00  31427 1048576   0.0  0.000 619.0  1.017 619.0  0.007   0.0  0.000   0.0  0.000
+13:34:17.028          346  31549  4.226   4.6 4.39 100.0  31549  4.226    0.0  0.000 31549  0.00  31549 1048576   0.0  0.000 634.0  1.003 633.0  0.008   0.0  0.000   0.0  0.000
+13:34:18.031          347  31614  4.261   4.6 4.39 100.0  31614  4.261    0.0  0.000 31614  0.00  31614 1048576   0.0  0.000 637.0  0.996 638.0  0.008   0.0  0.000   0.0  0.000
+13:34:19.027          348  30959  4.225   4.5 4.30 100.0  30959  4.225    0.0  0.000 30959  0.00  30959 1048576   0.0  0.000 614.0  1.038 614.0  0.008   0.0  0.000   0.0  0.000
+13:34:20.025          349  31038  4.225   4.5 4.32 100.0  31038  4.225    0.0  0.000 31037  0.00  31037 1048542   0.0  0.000 621.0  1.021 621.0  0.008   0.0  0.000   0.0  0.000
+13:34:21.034          350  31727  4.223   4.6 4.43 100.0  31727  4.223    0.0  0.000 31728  0.00  31728 1048609   0.0  0.000 631.0  1.015 632.0  0.008   0.0  0.000   0.0  0.000
+13:34:22.030          351  31869  4.219   4.6 4.40 100.0  31869  4.219    0.0  0.000 31869  0.00  31869 1048576   0.0  0.000 642.0  1.051 640.0  0.007   0.0  0.000   0.0  0.000
+13:34:23.029          352  31410  4.218   4.6 4.40 100.0  31410  4.218    0.0  0.000 31410  0.00  31410 1048576   0.0  0.000 624.0  1.003 624.0  0.007   0.0  0.000   0.0  0.000
+13:34:24.031          353  32054  4.239   4.7 4.47 100.0  32054  4.239    0.0  0.000 32055  0.00  32055 1048608   0.0  0.000 651.0  0.996 651.0  0.008   0.0  0.000   0.0  0.000
+13:34:25.028          354  31590  4.242   4.6 4.44 100.0  31590  4.242    0.0  0.000 31590  0.00  31590 1048576   0.0  0.000 632.0  0.993 632.0  0.007   0.0  0.000   0.0  0.000
+13:34:26.027          355  31757  4.235   4.7 4.45 100.0  31757  4.235    0.0  0.000 31757  0.00  31757 1048576   0.0  0.000 629.0  0.984 629.0  0.007   0.0  0.000   0.0  0.000
+13:34:27.036          356  31057  4.292   4.5 4.28 100.0  31057  4.292    0.0  0.000 31057  0.00  31057 1048576   0.0  0.000 624.0  1.058 624.0  0.007   0.0  0.000   0.0  0.000
+13:34:28.028          357  30993  4.251   4.5 4.36 100.0  30993  4.251    0.0  0.000 30993  0.00  30993 1048576   0.0  0.000 610.0  1.011 610.0  0.008   0.0  0.000   0.0  0.000
+13:34:29.028          358  31208  4.255   4.6 4.38 100.0  31208  4.255    0.0  0.000 31208  0.00  31208 1048576   0.0  0.000 631.0  1.000 632.0  0.007   0.0  0.000   0.0  0.000
+13:34:30.032          359  32217  4.286   4.9 4.53 100.0  32217  4.286    0.0  0.000 32217  0.00  32217 1048576   0.0  0.000 641.0  1.016 642.0  0.008   0.0  0.000   0.0  0.000
+13:34:31.024          360  32063  4.222   4.7 4.46 100.0  32063  4.222    0.0  0.000 32063  0.00  32063 1048576   0.0  0.000 639.0  1.024 638.0  0.007   0.0  0.000   0.0  0.000
+
+Apr 14, 2020 ..Interval.. .ReqstdOps... ...cpu%...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...create... ....open.... ...close.... ..getattr... ..setattr...
+                            rate   resp total  sys   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+13:34:32.028          361  31194  4.194   4.6 4.39 100.0  31194  4.194    0.0  0.000 31194  0.00  31194 1048576   0.0  0.000 632.0  1.030 631.0  0.008   0.0  0.000   0.0  0.000
+13:34:33.030          362  30920  4.201   4.5 4.31 100.0  30920  4.201    0.0  0.000 30919  0.00  30919 1048542   0.0  0.000 621.0  1.035 621.0  0.007   0.0  0.000   0.0  0.000
+13:34:34.029          363  32139  4.181   4.7 4.50 100.0  32139  4.181    0.0  0.000 32139  0.00  32139 1048576   0.0  0.000 637.0  0.971 637.0  0.007   0.0  0.000   0.0  0.000
+13:34:35.027          364  31204  4.174   4.5 4.34 100.0  31204  4.174    0.0  0.000 31204  0.00  31204 1048576   0.0  0.000 625.0  0.984 625.0  0.007   0.0  0.000   0.0  0.000
+13:34:36.033          365  31581  4.187   4.7 4.49 100.0  31581  4.187    0.0  0.000 31581  0.00  31581 1048576   0.0  0.000 635.0  0.996 635.0  0.008   0.0  0.000   0.0  0.000
+13:34:37.030          366  32041  4.190   4.6 4.46 100.0  32041  4.190    0.0  0.000 32041  0.00  32041 1048576   0.0  0.000 635.0  1.013 636.0  0.007   0.0  0.000   0.0  0.000
+13:34:38.028          367  31580  4.213   4.7 4.48 100.0  31580  4.213    0.0  0.000 31580  0.00  31580 1048576   0.0  0.000 630.0  1.055 630.0  0.007   0.0  0.000   0.0  0.000
+13:34:39.033          368  31771  4.232   4.7 4.50 100.0  31771  4.232    0.0  0.000 31772  0.00  31772 1048609   0.0  0.000 635.0  1.025 634.0  0.008   0.0  0.000   0.0  0.000
+13:34:40.026          369  31768  4.238   4.7 4.50 100.0  31768  4.238    0.0  0.000 31769  0.00  31769 1048609   0.0  0.000 640.0  1.048 642.0  0.007   0.0  0.000   0.0  0.000
+13:34:41.029          370  31288  4.237   4.7 4.49 100.0  31288  4.237    0.0  0.000 31288  0.00  31288 1048576   0.0  0.000 619.0  1.077 618.0  0.007   0.0  0.000   0.0  0.000
+13:34:42.026          371  31723  4.211   4.6 4.48 100.0  31723  4.211    0.0  0.000 31723  0.00  31723 1048576   0.0  0.000 641.0  1.039 640.0  0.007   0.0  0.000   0.0  0.000
+13:34:43.030          372  31216  4.199   4.6 4.42 100.0  31216  4.199    0.0  0.000 31216  0.00  31216 1048576   0.0  0.000 624.0  1.031 624.0  0.007   0.0  0.000   0.0  0.000
+13:34:44.027          373  31534  4.205   4.6 4.46 100.0  31534  4.205    0.0  0.000 31534  0.00  31534 1048576   0.0  0.000 630.0  1.058 632.0  0.008   0.0  0.000   0.0  0.000
+13:34:45.026          374  31989  4.225   4.7 4.48 100.0  31989  4.225    0.0  0.000 31990  0.00  31990 1048608   0.0  0.000 635.0  1.037 634.0  0.007   0.0  0.000   0.0  0.000
+13:34:46.027          375  31373  4.236   4.6 4.41 100.0  31373  4.236    0.0  0.000 31373  0.00  31373 1048576   0.0  0.000 632.0  1.007 631.0  0.007   0.0  0.000   0.0  0.000
+13:34:47.026          376  31201  4.217   4.5 4.33 100.0  31201  4.217    0.0  0.000 31201  0.00  31201 1048576   0.0  0.000 628.0  1.005 629.0  0.007   0.0  0.000   0.0  0.000
+13:34:48.027          377  31616  4.231   4.5 4.38 100.0  31616  4.231    0.0  0.000 31616  0.00  31616 1048576   0.0  0.000 623.0  1.047 623.0  0.007   0.0  0.000   0.0  0.000
+13:34:49.025          378  31695  4.233   4.7 4.48 100.0  31695  4.233    0.0  0.000 31695  0.00  31695 1048576   0.0  0.000 643.0  1.022 643.0  0.007   0.0  0.000   0.0  0.000
+13:34:50.028          379  31621  4.235   4.6 4.46 100.0  31621  4.235    0.0  0.000 31621  0.00  31621 1048576   0.0  0.000 632.0  1.013 631.0  0.007   0.0  0.000   0.0  0.000
+13:34:51.028          380  31357  4.204   4.6 4.42 100.0  31357  4.204    0.0  0.000 31357  0.00  31357 1048576   0.0  0.000 626.0  1.008 626.0  0.008   0.0  0.000   0.0  0.000
+13:34:52.031          381  31940  4.213   4.7 4.53 100.0  31940  4.213    0.0  0.000 31940  0.00  31940 1048576   0.0  0.000 639.0  1.005 640.0  0.008   0.0  0.000   0.0  0.000
+13:34:53.026          382  31368  4.231   4.6 4.43 100.0  31368  4.231    0.0  0.000 31368  0.00  31368 1048576   0.0  0.000 622.0  1.025 623.0  0.007   0.0  0.000   0.0  0.000
+13:34:54.030          383  30801  4.201   4.5 4.37 100.0  30801  4.201    0.0  0.000 30801  0.00  30801 1048576   0.0  0.000 619.0  0.991 617.0  0.007   0.0  0.000   0.0  0.000
+13:34:55.025          384  31370  4.230   4.6 4.45 100.0  31370  4.230    0.0  0.000 31371  0.00  31371 1048609   0.0  0.000 629.0  1.008 630.0  0.007   0.0  0.000   0.0  0.000
+13:34:56.028          385  31418  4.225   4.6 4.45 100.0  31418  4.225    0.0  0.000 31418  0.00  31418 1048576   0.0  0.000 629.0  0.967 630.0  0.013   0.0  0.000   0.0  0.000
+13:34:57.031          386  30997  4.302   4.5 4.30 100.0  30997  4.302    0.0  0.000 30997  0.00  30997 1048576   0.0  0.000 613.0  1.115 612.0  0.007   0.0  0.000   0.0  0.000
+13:34:58.029          387  31446  4.242   4.6 4.40 100.0  31446  4.242    0.0  0.000 31446  0.00  31446 1048576   0.0  0.000 639.0  0.993 639.0  0.007   0.0  0.000   0.0  0.000
+13:34:59.029          388  31414  4.217   4.6 4.42 100.0  31414  4.217    0.0  0.000 31415  0.00  31415 1048609   0.0  0.000 627.0  1.037 626.0  0.007   0.0  0.000   0.0  0.000
+13:35:00.026          389  31281  4.222   4.5 4.36 100.0  31281  4.222    0.0  0.000 31281  0.00  31281 1048576   0.0  0.000 627.0  0.958 628.0  0.007   0.0  0.000   0.0  0.000
+13:35:01.030          390  31543  4.221   4.7 4.48 100.0  31543  4.221    0.0  0.000 31543  0.00  31543 1048576   0.0  0.000 628.0  1.053 627.0  0.008   0.0  0.000   0.0  0.000
+
+Apr 14, 2020 ..Interval.. .ReqstdOps... ...cpu%...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...create... ....open.... ...close.... ..getattr... ..setattr...
+                            rate   resp total  sys   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+13:35:02.030          391  32207  4.189   4.9 4.66 100.0  32207  4.189    0.0  0.000 32207  0.00  32207 1048576   0.0  0.000 644.0  0.998 644.0  0.007   0.0  0.000   0.0  0.000
+13:35:03.028          392  31971  4.196   4.7 4.51 100.0  31971  4.196    0.0  0.000 31971  0.00  31971 1048576   0.0  0.000 637.0  0.972 639.0  0.007   0.0  0.000   0.0  0.000
+13:35:04.029          393  31608  4.206   4.6 4.41 100.0  31608  4.206    0.0  0.000 31608  0.00  31608 1048576   0.0  0.000 632.0  0.967 631.0  0.007   0.0  0.000   0.0  0.000
+13:35:05.029          394  31153  4.205   4.6 4.40 100.0  31153  4.205    0.0  0.000 31153  0.00  31153 1048576   0.0  0.000 621.0  0.975 621.0  0.007   0.0  0.000   0.0  0.000
+13:35:06.026          395  31340  4.202   4.6 4.37 100.0  31340  4.202    0.0  0.000 31340  0.00  31340 1048576   0.0  0.000 630.0  0.978 630.0  0.007   0.0  0.000   0.0  0.000
+13:35:07.027          396  31600  4.224   4.6 4.37 100.0  31600  4.224    0.0  0.000 31600  0.00  31600 1048576   0.0  0.000 630.0  0.970 633.0  0.007   0.0  0.000   0.0  0.000
+13:35:08.029          397  31804  4.210   4.6 4.44 100.0  31804  4.210    0.0  0.000 31804  0.00  31804 1048576   0.0  0.000 637.0  0.992 635.0  0.008   0.0  0.000   0.0  0.000
+13:35:09.026          398  31971  4.204   4.8 4.53 100.0  31971  4.204    0.0  0.000 31971  0.00  31971 1048576   0.0  0.000 639.0  0.993 638.0  0.008   0.0  0.000   0.0  0.000
+13:35:10.028          399  31424  4.202   4.6 4.38 100.0  31424  4.202    0.0  0.000 31424  0.00  31424 1048576   0.0  0.000 628.0  0.987 630.0  0.010   0.0  0.000   0.0  0.000
+13:35:11.026          400  31505  4.202   4.6 4.39 100.0  31505  4.202    0.0  0.000 31505  0.00  31505 1048576   0.0  0.000 633.0  0.995 632.0  0.007   0.0  0.000   0.0  0.000
+13:35:12.025          401  32175  4.176   4.6 4.43 100.0  32175  4.176    0.0  0.000 32175  0.00  32175 1048576   0.0  0.000 646.0  1.040 646.0  0.008   0.0  0.000   0.0  0.000
+13:35:13.027          402  31746  4.229   4.6 4.45 100.0  31746  4.229    0.0  0.000 31746  0.00  31746 1048576   0.0  0.000 631.0  0.986 631.0  0.007   0.0  0.000   0.0  0.000
+13:35:14.029          403  31996  4.208   4.6 4.44 100.0  31996  4.208    0.0  0.000 31996  0.00  31996 1048576   0.0  0.000 641.0  0.990 641.0  0.007   0.0  0.000   0.0  0.000
+13:35:15.029          404  32016  4.186   4.6 4.46 100.0  32016  4.186    0.0  0.000 32016  0.00  32016 1048576   0.0  0.000 640.0  0.984 639.0  0.008   0.0  0.000   0.0  0.000
+13:35:16.031          405  31854  4.203   4.6 4.41 100.0  31854  4.203    0.0  0.000 31854  0.00  31854 1048576   0.0  0.000 635.0  0.983 635.0  0.008   0.0  0.000   0.0  0.000
+13:35:17.029          406  31512  4.173   4.6 4.41 100.0  31512  4.173    0.0  0.000 31512  0.00  31512 1048576   0.0  0.000 628.0  0.970 628.0  0.008   0.0  0.000   0.0  0.000
+13:35:18.034          407  31908  4.221   4.6 4.44 100.0  31908  4.221    0.0  0.000 31908  0.00  31908 1048576   0.0  0.000 641.0  0.977 641.0  0.007   0.0  0.000   0.0  0.000
+13:35:19.027          408  32135  4.223   4.7 4.50 100.0  32135  4.223    0.0  0.000 32136  0.00  32136 1048608   0.0  0.000 644.0  1.001 644.0  0.007   0.0  0.000   0.0  0.000
+13:35:20.028          409  31774  4.207   4.6 4.45 100.0  31774  4.207    0.0  0.000 31774  0.00  31774 1048576   0.0  0.000 637.0  1.029 637.0  0.008   0.0  0.000   0.0  0.000
+13:35:21.030          410  31547  4.212   4.6 4.45 100.0  31547  4.212    0.0  0.000 31547  0.00  31547 1048576   0.0  0.000 626.0  1.006 626.0  0.007   0.0  0.000   0.0  0.000
+13:35:22.030          411  31973  4.201   4.6 4.48 100.0  31973  4.201    0.0  0.000 31973  0.00  31973 1048576   0.0  0.000 642.0  1.026 642.0  0.007   0.0  0.000   0.0  0.000
+13:35:23.026          412  31818  4.196   4.7 4.47 100.0  31818  4.196    0.0  0.000 31818  0.00  31818 1048576   0.0  0.000 641.0  0.966 641.0  0.008   0.0  0.000   0.0  0.000
+13:35:24.026          413  31287  4.174   4.6 4.39 100.0  31287  4.174    0.0  0.000 31287  0.00  31287 1048576   0.0  0.000 621.0  1.012 621.0  0.008   0.0  0.000   0.0  0.000
+13:35:25.029          414  32014  4.210   4.6 4.45 100.0  32014  4.210    0.0  0.000 32014  0.00  32014 1048576   0.0  0.000 631.0  1.011 633.0  0.008   0.0  0.000   0.0  0.000
+13:35:26.025          415  31929  4.179   4.8 4.43 100.0  31929  4.179    0.0  0.000 31929  0.00  31929 1048576   0.0  0.000 645.0  0.968 645.0  0.007   0.0  0.000   0.0  0.000
+13:35:27.029          416  31097  4.300   4.6 4.30 100.0  31097  4.300    0.0  0.000 31097  0.00  31097 1048576   0.0  0.000 629.0  1.233 628.0  0.007   0.0  0.000   0.0  0.000
+13:35:28.029          417  32006  4.213   4.7 4.46 100.0  32006  4.213    0.0  0.000 32006  0.00  32006 1048576   0.0  0.000 637.0  0.975 636.0  0.008   0.0  0.000   0.0  0.000
+13:35:29.029          418  31500  4.251   4.6 4.43 100.0  31500  4.251    0.0  0.000 31500  0.00  31500 1048576   0.0  0.000 627.0  1.023 629.0  0.007   0.0  0.000   0.0  0.000
+13:35:30.031          419  32312  4.218   4.7 4.54 100.0  32312  4.218    0.0  0.000 32312  0.00  32312 1048576   0.0  0.000 649.0  0.941 647.0  0.007   0.0  0.000   0.0  0.000
+13:35:31.028          420  31988  4.206   4.8 4.53 100.0  31988  4.206    0.0  0.000 31988  0.00  31988 1048576   0.0  0.000 641.0  0.961 641.0  0.008   0.0  0.000   0.0  0.000
+
+Apr 14, 2020 ..Interval.. .ReqstdOps... ...cpu%...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...create... ....open.... ...close.... ..getattr... ..setattr...
+                            rate   resp total  sys   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+13:35:32.034          421  31160  4.214   4.6 4.45 100.0  31160  4.214    0.0  0.000 31160  0.00  31160 1048576   0.0  0.000 625.0  1.059 625.0  0.007   0.0  0.000   0.0  0.000
+13:35:33.027          422  31196  4.208   4.6 4.43 100.0  31196  4.208    0.0  0.000 31196  0.00  31196 1048576   0.0  0.000 619.0  0.988 621.0  0.007   0.0  0.000   0.0  0.000
+13:35:34.029          423  31872  4.227   4.7 4.51 100.0  31872  4.227    0.0  0.000 31872  0.00  31872 1048576   0.0  0.000 636.0  0.972 634.0  0.007   0.0  0.000   0.0  0.000
+13:35:35.030          424  31265  4.216   4.6 4.41 100.0  31265  4.216    0.0  0.000 31265  0.00  31265 1048576   0.0  0.000 632.0  1.003 632.0  0.008   0.0  0.000   0.0  0.000
+13:35:36.026          425  31915  4.161   4.7 4.50 100.0  31915  4.161    0.0  0.000 31915  0.00  31915 1048576   0.0  0.000 636.0  0.972 636.0  0.008   0.0  0.000   0.0  0.000
+13:35:37.028          426  32102  4.189   4.7 4.50 100.0  32102  4.189    0.0  0.000 32102  0.00  32102 1048576   0.0  0.000 640.0  1.042 640.0  0.007   0.0  0.000   0.0  0.000
+13:35:38.026          427  31451  4.168   4.5 4.38 100.0  31451  4.168    0.0  0.000 31452  0.00  31452 1048609   0.0  0.000 629.0  0.971 629.0  0.007   0.0  0.000   0.0  0.000
+13:35:39.024          428  31794  4.220   4.7 4.48 100.0  31794  4.220    0.0  0.000 31794  0.00  31794 1048576   0.0  0.000 635.0  1.049 636.0  0.007   0.0  0.000   0.0  0.000
+13:35:40.025          429  31751  4.182   4.6 4.38 100.0  31751  4.182    0.0  0.000 31751  0.00  31751 1048576   0.0  0.000 635.0  1.023 634.0  0.008   0.0  0.000   0.0  0.000
+13:35:41.028          430  31245  4.195   4.6 4.41 100.0  31245  4.195    0.0  0.000 31245  0.00  31245 1048576   0.0  0.000 625.0  1.021 627.0  0.007   0.0  0.000   0.0  0.000
+13:35:42.032          431  31590  4.203   4.7 4.41 100.0  31590  4.203    0.0  0.000 31590  0.00  31590 1048576   0.0  0.000 628.0  1.047 626.0  0.007   0.0  0.000   0.0  0.000
+13:35:43.028          432  32504  4.169   4.7 4.51 100.0  32504  4.169    0.0  0.000 32504  0.00  32504 1048576   0.0  0.000 656.0  1.011 657.0  0.007   0.0  0.000   0.0  0.000
+13:35:44.030          433  32110  4.175   4.6 4.41 100.0  32110  4.175    0.0  0.000 32110  0.00  32110 1048576   0.0  0.000 637.0  1.022 636.0  0.008   0.0  0.000   0.0  0.000
+13:35:45.026          434  31494  4.195   4.6 4.40 100.0  31494  4.195    0.0  0.000 31494  0.00  31494 1048576   0.0  0.000 634.0  1.074 635.0  0.007   0.0  0.000   0.0  0.000
+13:35:46.030          435  31445  4.184   4.6 4.40 100.0  31445  4.184    0.0  0.000 31445  0.00  31445 1048576   0.0  0.000 619.0  1.043 619.0  0.007   0.0  0.000   0.0  0.000
+13:35:47.028          436  31856  4.177   4.6 4.43 100.0  31856  4.177    0.0  0.000 31856  0.00  31856 1048576   0.0  0.000 646.0  1.082 645.0  0.007   0.0  0.000   0.0  0.000
+13:35:48.029          437  31777  4.177   4.5 4.36 100.0  31777  4.177    0.0  0.000 31777  0.00  31777 1048576   0.0  0.000 639.0  0.996 640.0  0.008   0.0  0.000   0.0  0.000
+13:35:49.030          438  31391  4.210   4.5 4.32 100.0  31391  4.210    0.0  0.000 31391  0.00  31391 1048576   0.0  0.000 627.0  1.005 626.0  0.008   0.0  0.000   0.0  0.000
+13:35:50.029          439  31294  4.187   4.6 4.42 100.0  31294  4.187    0.0  0.000 31294  0.00  31294 1048576   0.0  0.000 620.0  0.985 620.0  0.008   0.0  0.000   0.0  0.000
+13:35:51.030          440  31312  4.216   4.6 4.40 100.0  31312  4.216    0.0  0.000 31311  0.00  31311 1048542   0.0  0.000 627.0  1.018 627.0  0.007   0.0  0.000   0.0  0.000
+13:35:52.030          441  31579  4.171   4.6 4.38 100.0  31579  4.171    0.0  0.000 31579  0.00  31579 1048576   0.0  0.000 640.0  1.002 640.0  0.007   0.0  0.000   0.0  0.000
+13:35:53.032          442  31641  4.184   4.6 4.44 100.0  31641  4.184    0.0  0.000 31641  0.00  31641 1048576   0.0  0.000 630.0  1.046 630.0  0.008   0.0  0.000   0.0  0.000
+13:35:54.029          443  32205  4.190   4.7 4.50 100.0  32205  4.190    0.0  0.000 32205  0.00  32205 1048576   0.0  0.000 643.0  1.027 643.0  0.007   0.0  0.000   0.0  0.000
+13:35:55.030          444  30866  4.185   4.6 4.37 100.0  30866  4.185    0.0  0.000 30866  0.00  30866 1048576   0.0  0.000 620.0  1.073 620.0  0.008   0.0  0.000   0.0  0.000
+13:35:56.027          445  31005  4.179   4.5 4.31 100.0  31005  4.179    0.0  0.000 31005  0.00  31005 1048576   0.0  0.000 614.0  0.999 614.0  0.008   0.0  0.000   0.0  0.000
+13:35:57.030          446  31299  4.279   4.6 4.38 100.0  31299  4.279    0.0  0.000 31299  0.00  31299 1048576   0.0  0.000 630.0  1.054 631.0  0.007   0.0  0.000   0.0  0.000
+13:35:58.028          447  31632  4.177   4.6 4.42 100.0  31632  4.177    0.0  0.000 31632  0.00  31632 1048576   0.0  0.000 634.0  0.992 633.0  0.007   0.0  0.000   0.0  0.000
+13:35:59.029          448  30893  4.174   4.4 4.26 100.0  30893  4.174    0.0  0.000 30894  0.00  30894 1048609   0.0  0.000 614.0  0.989 614.0  0.007   0.0  0.000   0.0  0.000
+13:36:00.031          449  31299  4.175   4.6 4.37 100.0  31299  4.175    0.0  0.000 31299  0.00  31299 1048576   0.0  0.000 628.0  0.959 628.0  0.008   0.0  0.000   0.0  0.000
+13:36:01.032          450  31583  4.182   4.9 4.37 100.0  31583  4.182    0.0  0.000 31583  0.00  31583 1048576   0.0  0.000 627.0  0.965 628.0  0.007   0.0  0.000   0.0  0.000
+
+Apr 14, 2020 ..Interval.. .ReqstdOps... ...cpu%...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...create... ....open.... ...close.... ..getattr... ..setattr...
+                            rate   resp total  sys   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+13:36:02.033          451  31547  4.165   4.6 4.43 100.0  31547  4.165    0.0  0.000 31547  0.00  31547 1048576   0.0  0.000 633.0  0.984 632.0  0.007   0.0  0.000   0.0  0.000
+13:36:03.026          452  31083  4.188   4.5 4.28 100.0  31083  4.188    0.0  0.000 31083  0.00  31083 1048576   0.0  0.000 624.0  0.975 625.0  0.007   0.0  0.000   0.0  0.000
+13:36:04.029          453  31461  4.197   4.5 4.33 100.0  31461  4.197    0.0  0.000 31461  0.00  31461 1048576   0.0  0.000 629.0  0.968 628.0  0.007   0.0  0.000   0.0  0.000
+13:36:05.026          454  32032  4.183   4.7 4.51 100.0  32032  4.183    0.0  0.000 32032  0.00  32032 1048576   0.0  0.000 642.0  0.997 642.0  0.007   0.0  0.000   0.0  0.000
+13:36:06.028          455  31090  4.197   4.5 4.29 100.0  31090  4.197    0.0  0.000 31090  0.00  31090 1048576   0.0  0.000 620.0  0.997 620.0  0.007   0.0  0.000   0.0  0.000
+13:36:07.031          456  31068  4.173   4.6 4.33 100.0  31068  4.173    0.0  0.000 31068  0.00  31068 1048576   0.0  0.000 625.0  0.991 625.0  0.008   0.0  0.000   0.0  0.000
+13:36:08.029          457  31131  4.192   4.4 4.25 100.0  31131  4.192    0.0  0.000 31131  0.00  31131 1048576   0.0  0.000 617.0  0.972 618.0  0.007   0.0  0.000   0.0  0.000
+13:36:09.029          458  31497  4.194   4.6 4.36 100.0  31497  4.194    0.0  0.000 31496  0.00  31496 1048542   0.0  0.000 627.0  1.004 628.0  0.007   0.0  0.000   0.0  0.000
+13:36:10.030          459  32009  4.220   4.7 4.41 100.0  32009  4.220    0.0  0.000 32010  0.00  32010 1048608   0.0  0.000 642.0  1.003 640.0  0.008   0.0  0.000   0.0  0.000
+13:36:11.034          460  31102  4.212   4.6 4.36 100.0  31102  4.212    0.0  0.000 31102  0.00  31102 1048576   0.0  0.000 625.0  0.986 625.0  0.007   0.0  0.000   0.0  0.000
+13:36:12.026          461  31609  4.203   4.5 4.32 100.0  31609  4.203    0.0  0.000 31609  0.00  31609 1048576   0.0  0.000 639.0  0.992 639.0  0.008   0.0  0.000   0.0  0.000
+13:36:13.027          462  31695  4.210   4.4 4.25 100.0  31695  4.210    0.0  0.000 31695  0.00  31695 1048576   0.0  0.000 622.0  0.976 623.0  0.007   0.0  0.000   0.0  0.000
+13:36:14.025          463  31528  4.191   4.5 4.33 100.0  31528  4.191    0.0  0.000 31530  0.00  31530 1048642   0.0  0.000 631.0  0.947 632.0  0.007   0.0  0.000   0.0  0.000
+13:36:15.030          464  31897  4.196   4.6 4.40 100.0  31897  4.196    0.0  0.000 31897  0.00  31897 1048576   0.0  0.000 643.0  0.991 643.0  0.007   0.0  0.000   0.0  0.000
+13:36:16.026          465  31687  4.183   4.5 4.30 100.0  31687  4.183    0.0  0.000 31687  0.00  31687 1048576   0.0  0.000 628.0  1.005 627.0  0.008   0.0  0.000   0.0  0.000
+13:36:17.030          466  31434  4.187   4.6 4.38 100.0  31434  4.187    0.0  0.000 31434  0.00  31434 1048576   0.0  0.000 638.0  0.937 638.0  0.007   0.0  0.000   0.0  0.000
+13:36:18.024          467  31005  4.205   4.5 4.32 100.0  31005  4.205    0.0  0.000 31005  0.00  31005 1048576   0.0  0.000 617.0  0.982 618.0  0.007   0.0  0.000   0.0  0.000
+13:36:19.026          468  30995  4.229   4.6 4.37 100.0  30995  4.229    0.0  0.000 30995  0.00  30995 1048576   0.0  0.000 619.0  0.992 617.0  0.007   0.0  0.000   0.0  0.000
+13:36:20.029          469  31652  4.231   4.6 4.41 100.0  31652  4.231    0.0  0.000 31652  0.00  31652 1048576   0.0  0.000 645.0  0.944 645.0  0.007   0.0  0.000   0.0  0.000
+13:36:21.029          470  31822  4.206   4.7 4.47 100.0  31822  4.206    0.0  0.000 31822  0.00  31822 1048576   0.0  0.000 621.0  0.946 621.0  0.007   0.0  0.000   0.0  0.000
+13:36:22.027          471  31536  4.199   4.6 4.41 100.0  31536  4.199    0.0  0.000 31535  0.00  31535 1048542   0.0  0.000 638.0  0.937 638.0  0.008   0.0  0.000   0.0  0.000
+13:36:23.027          472  31345  4.230   4.6 4.41 100.0  31345  4.230    0.0  0.000 31345  0.00  31345 1048576   0.0  0.000 616.0  0.985 616.0  0.007   0.0  0.000   0.0  0.000
+13:36:24.026          473  31179  4.241   4.6 4.41 100.0  31179  4.241    0.0  0.000 31180  0.00  31180 1048609   0.0  0.000 634.0  0.986 636.0  0.007   0.0  0.000   0.0  0.000
+13:36:25.027          474  31769  4.193   4.7 4.46 100.0  31769  4.193    0.0  0.000 31769  0.00  31769 1048576   0.0  0.000 630.0  0.964 629.0  0.008   0.0  0.000   0.0  0.000
+13:36:26.029          475  32001  4.186   4.6 4.43 100.0  32001  4.186    0.0  0.000 32001  0.00  32001 1048576   0.0  0.000 640.0  1.007 642.0  0.007   0.0  0.000   0.0  0.000
+13:36:27.037          476  30955  4.280   4.5 4.29 100.0  30955  4.280    0.0  0.000 30955  0.00  30955 1048576   0.0  0.000 622.0  1.108 620.0  0.007   0.0  0.000   0.0  0.000
+13:36:28.031          477  32023  4.197   4.8 4.57 100.0  32023  4.197    0.0  0.000 32023  0.00  32023 1048576   0.0  0.000 637.0  0.923 638.0  0.008   0.0  0.000   0.0  0.000
+13:36:29.029          478  31686  4.194   4.6 4.47 100.0  31686  4.194    0.0  0.000 31686  0.00  31686 1048576   0.0  0.000 636.0  0.996 635.0  0.008   0.0  0.000   0.0  0.000
+13:36:30.030          479  31675  4.196   4.6 4.46 100.0  31675  4.196    0.0  0.000 31675  0.00  31675 1048576   0.0  0.000 632.0  0.955 632.0  0.007   0.0  0.000   0.0  0.000
+13:36:31.031          480  31780  4.193   4.7 4.44 100.0  31780  4.193    0.0  0.000 31780  0.00  31780 1048576   0.0  0.000 636.0  0.958 637.0  0.007   0.0  0.000   0.0  0.000
+
+Apr 14, 2020 ..Interval.. .ReqstdOps... ...cpu%...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...create... ....open.... ...close.... ..getattr... ..setattr...
+                            rate   resp total  sys   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+13:36:32.026          481  31992  4.175   4.7 4.49 100.0  31992  4.175    0.0  0.000 31992  0.00  31992 1048576   0.0  0.000 636.0  0.977 635.0  0.007   0.0  0.000   0.0  0.000
+13:36:33.031          482  31823  4.205   4.7 4.56 100.0  31823  4.205    0.0  0.000 31823  0.00  31823 1048576   0.0  0.000 640.0  0.935 640.0  0.008   0.0  0.000   0.0  0.000
+13:36:34.026          483  32370  4.218   4.7 4.49 100.0  32370  4.218    0.0  0.000 32370  0.00  32370 1048576   0.0  0.000 646.0  0.954 647.0  0.007   0.0  0.000   0.0  0.000
+13:36:35.029          484  31550  4.182   4.6 4.43 100.0  31550  4.182    0.0  0.000 31550  0.00  31550 1048576   0.0  0.000 631.0  0.968 631.0  0.007   0.0  0.000   0.0  0.000
+13:36:36.029          485  31743  4.196   4.6 4.39 100.0  31743  4.196    0.0  0.000 31743  0.00  31743 1048576   0.0  0.000 639.0  1.006 638.0  0.007   0.0  0.000   0.0  0.000
+13:36:37.028          486  31810  4.213   4.7 4.44 100.0  31810  4.213    0.0  0.000 31810  0.00  31810 1048576   0.0  0.000 640.0  1.025 640.0  0.008   0.0  0.000   0.0  0.000
+13:36:38.031          487  31696  4.166   4.6 4.43 100.0  31696  4.166    0.0  0.000 31696  0.00  31696 1048576   0.0  0.000 628.0  0.981 629.0  0.007   0.0  0.000   0.0  0.000
+13:36:39.030          488  31552  4.182   4.5 4.31 100.0  31552  4.182    0.0  0.000 31552  0.00  31552 1048576   0.0  0.000 627.0  0.950 626.0  0.007   0.0  0.000   0.0  0.000
+13:36:40.029          489  32063  4.215   4.6 4.44 100.0  32063  4.215    0.0  0.000 32063  0.00  32063 1048576   0.0  0.000 646.0  1.031 646.0  0.007   0.0  0.000   0.0  0.000
+13:36:41.028          490  32695  4.214   4.8 4.54 100.0  32695  4.214    0.0  0.000 32695  0.00  32695 1048576   0.0  0.000 652.0  1.039 652.0  0.008   0.0  0.000   0.0  0.000
+13:36:42.028          491  31903  4.190   4.6 4.43 100.0  31903  4.190    0.0  0.000 31902  0.00  31902 1048543   0.0  0.000 641.0  0.995 641.0  0.008   0.0  0.000   0.0  0.000
+13:36:43.028          492  32268  4.192   4.6 4.38 100.0  32268  4.192    0.0  0.000 32268  0.00  32268 1048576   0.0  0.000 645.0  1.025 645.0  0.008   0.0  0.000   0.0  0.000
+13:36:44.030          493  32107  4.218   4.6 4.39 100.0  32107  4.218    0.0  0.000 32108  0.00  32108 1048608   0.0  0.000 636.0  1.022 636.0  0.008   0.0  0.000   0.0  0.000
+13:36:45.027          494  32057  4.214   4.6 4.42 100.0  32057  4.214    0.0  0.000 32057  0.00  32057 1048576   0.0  0.000 648.0  1.001 650.0  0.007   0.0  0.000   0.0  0.000
+13:36:46.029          495  32270  4.184   4.7 4.50 100.0  32270  4.184    0.0  0.000 32270  0.00  32270 1048576   0.0  0.000 644.0  0.987 643.0  0.007   0.0  0.000   0.0  0.000
+13:36:47.029          496  32791  4.170   4.7 4.51 100.0  32791  4.170    0.0  0.000 32790  0.00  32790 1048544   0.0  0.000 658.0  0.981 658.0  0.007   0.0  0.000   0.0  0.000
+13:36:48.029          497  31474  4.191   4.6 4.43 100.0  31474  4.191    0.0  0.000 31474  0.00  31474 1048576   0.0  0.000 619.0  1.024 618.0  0.007   0.0  0.000   0.0  0.000
+13:36:49.037          498  31456  4.172   4.6 4.43 100.0  31456  4.172    0.0  0.000 31456  0.00  31456 1048576   0.0  0.000 639.0  0.999 639.0  0.007   0.0  0.000   0.0  0.000
+13:36:50.025          499  31090  4.188   4.5 4.30 100.0  31090  4.188    0.0  0.000 31090  0.00  31090 1048576   0.0  0.000 613.0  0.972 613.0  0.008   0.0  0.000   0.0  0.000
+13:36:51.025          500  31252  4.172   4.5 4.34 100.0  31252  4.172    0.0  0.000 31252  0.00  31252 1048576   0.0  0.000 637.0  0.999 638.0  0.007   0.0  0.000   0.0  0.000
+13:36:52.027          501  31545  4.178   4.6 4.45 100.0  31545  4.178    0.0  0.000 31545  0.00  31545 1048576   0.0  0.000 620.0  0.963 620.0  0.007   0.0  0.000   0.0  0.000
+13:36:53.031          502  31433  4.214   4.6 4.41 100.0  31433  4.214    0.0  0.000 31433  0.00  31433 1048576   0.0  0.000 635.0  0.988 635.0  0.008   0.0  0.000   0.0  0.000
+13:36:54.026          503  30966  4.233   4.5 4.32 100.0  30966  4.233    0.0  0.000 30966  0.00  30966 1048576   0.0  0.000 617.0  0.985 618.0  0.007   0.0  0.000   0.0  0.000
+13:36:55.026          504  31640  4.236   4.7 4.49 100.0  31640  4.236    0.0  0.000 31640  0.00  31640 1048576   0.0  0.000 632.0  0.965 631.0  0.007   0.0  0.000   0.0  0.000
+13:36:56.026          505  31799  4.186   4.6 4.44 100.0  31799  4.186    0.0  0.000 31799  0.00  31799 1048576   0.0  0.000 635.0  0.963 635.0  0.007   0.0  0.000   0.0  0.000
+13:36:57.030          506  30893  4.281   4.5 4.37 100.0  30893  4.281    0.0  0.000 30893  0.00  30893 1048576   0.0  0.000 624.0  1.048 623.0  0.007   0.0  0.000   0.0  0.000
+13:36:58.027          507  31463  4.195   4.6 4.46 100.0  31463  4.195    0.0  0.000 31463  0.00  31463 1048576   0.0  0.000 626.0  0.966 628.0  0.007   0.0  0.000   0.0  0.000
+13:36:59.028          508  31525  4.152   4.7 4.46 100.0  31525  4.152    0.0  0.000 31525  0.00  31525 1048576   0.0  0.000 628.0  0.942 626.0  0.007   0.0  0.000   0.0  0.000
+13:37:00.027          509  31716  4.185   4.6 4.45 100.0  31716  4.185    0.0  0.000 31716  0.00  31716 1048576   0.0  0.000 641.0  0.932 641.0  0.007   0.0  0.000   0.0  0.000
+13:37:01.025          510  31553  4.220   4.7 4.42 100.0  31553  4.220    0.0  0.000 31553  0.00  31553 1048576   0.0  0.000 629.0  0.911 629.0  0.007   0.0  0.000   0.0  0.000
+
+Apr 14, 2020 ..Interval.. .ReqstdOps... ...cpu%...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...create... ....open.... ...close.... ..getattr... ..setattr...
+                            rate   resp total  sys   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+13:37:02.027          511  31342  4.195   4.7 4.42 100.0  31342  4.195    0.0  0.000 31342  0.00  31342 1048576   0.0  0.000 630.0  0.970 630.0  0.007   0.0  0.000   0.0  0.000
+13:37:03.026          512  31460  4.215   4.6 4.42 100.0  31460  4.215    0.0  0.000 31460  0.00  31460 1048576   0.0  0.000 631.0  1.019 632.0  0.008   0.0  0.000   0.0  0.000
+13:37:04.029          513  31365  4.211   4.6 4.45 100.0  31365  4.211    0.0  0.000 31365  0.00  31365 1048576   0.0  0.000 620.0  0.979 621.0  0.008   0.0  0.000   0.0  0.000
+13:37:05.031          514  31679  4.208   4.7 4.46 100.0  31679  4.208    0.0  0.000 31678  0.00  31678 1048542   0.0  0.000 634.0  0.961 634.0  0.007   0.0  0.000   0.0  0.000
+13:37:06.029          515  31652  4.179   4.6 4.46 100.0  31652  4.179    0.0  0.000 31652  0.00  31652 1048576   0.0  0.000 641.0  0.954 639.0  0.008   0.0  0.000   0.0  0.000
+13:37:07.026          516  31773  4.191   4.6 4.38 100.0  31773  4.191    0.0  0.000 31773  0.00  31773 1048576   0.0  0.000 632.0  0.973 632.0  0.007   0.0  0.000   0.0  0.000
+13:37:08.025          517  32179  4.214   4.7 4.47 100.0  32179  4.214    0.0  0.000 32179  0.00  32179 1048576   0.0  0.000 638.0  0.947 638.0  0.008   0.0  0.000   0.0  0.000
+13:37:09.033          518  32042  4.223   4.7 4.55 100.0  32042  4.223    0.0  0.000 32042  0.00  32042 1048576   0.0  0.000 642.0  0.945 644.0  0.007   0.0  0.000   0.0  0.000
+13:37:10.028          519  31725  4.195   4.7 4.46 100.0  31725  4.195    0.0  0.000 31726  0.00  31726 1048609   0.0  0.000 636.0  0.977 634.0  0.008   0.0  0.000   0.0  0.000
+13:37:11.027          520  31495  4.170   4.6 4.42 100.0  31495  4.170    0.0  0.000 31495  0.00  31495 1048576   0.0  0.000 625.0  0.959 625.0  0.007   0.0  0.000   0.0  0.000
+13:37:12.030          521  31569  4.183   4.6 4.42 100.0  31569  4.183    0.0  0.000 31570  0.00  31570 1048609   0.0  0.000 637.0  0.942 638.0  0.008   0.0  0.000   0.0  0.000
+13:37:13.031          522  31649  4.193   4.6 4.37 100.0  31649  4.193    0.0  0.000 31649  0.00  31649 1048576   0.0  0.000 634.0  0.959 633.0  0.011   0.0  0.000   0.0  0.000
+13:37:14.029          523  32273  4.177   4.7 4.54 100.0  32273  4.177    0.0  0.000 32272  0.00  32272 1048543   0.0  0.000 642.0  0.958 644.0  0.007   0.0  0.000   0.0  0.000
+13:37:15.027          524  32028  4.176   4.7 4.50 100.0  32028  4.176    0.0  0.000 32028  0.00  32028 1048576   0.0  0.000 644.0  0.983 641.0  0.008   0.0  0.000   0.0  0.000
+13:37:16.031          525  32251  4.175   4.7 4.52 100.0  32251  4.175    0.0  0.000 32251  0.00  32251 1048576   0.0  0.000 642.0  0.958 643.0  0.008   0.0  0.000   0.0  0.000
+13:37:17.029          526  31568  4.196   4.6 4.37 100.0  31568  4.196    0.0  0.000 31568  0.00  31568 1048576   0.0  0.000 626.0  0.979 625.0  0.008   0.0  0.000   0.0  0.000
+13:37:18.025          527  32451  4.181   4.7 4.53 100.0  32451  4.181    0.0  0.000 32451  0.00  32451 1048576   0.0  0.000 653.0  0.919 654.0  0.008   0.0  0.000   0.0  0.000
+13:37:19.030          528  31858  4.201   4.5 4.35 100.0  31858  4.201    0.0  0.000 31858  0.00  31858 1048576   0.0  0.000 638.0  0.912 637.0  0.008   0.0  0.000   0.0  0.000
+13:37:20.029          529  32287  4.237   4.6 4.45 100.0  32287  4.237    0.0  0.000 32287  0.00  32287 1048576   0.0  0.000 650.0  0.976 650.0  0.007   0.0  0.000   0.0  0.000
+13:37:21.029          530  32553  4.179   4.8 4.58 100.0  32553  4.179    0.0  0.000 32553  0.00  32553 1048576   0.0  0.000 652.0  0.971 652.0  0.007   0.0  0.000   0.0  0.000
+13:37:22.027          531  31651  4.181   4.6 4.35 100.0  31651  4.181    0.0  0.000 31651  0.00  31651 1048576   0.0  0.000 629.0  0.973 629.0  0.007   0.0  0.000   0.0  0.000
+13:37:23.029          532  31285  4.173   4.6 4.38 100.0  31285  4.173    0.0  0.000 31285  0.00  31285 1048576   0.0  0.000 627.0  0.983 628.0  0.008   0.0  0.000   0.0  0.000
+13:37:24.030          533  32173  4.198   4.7 4.51 100.0  32173  4.198    0.0  0.000 32173  0.00  32173 1048576   0.0  0.000 644.0  0.949 644.0  0.007   0.0  0.000   0.0  0.000
+13:37:25.030          534  31703  4.226   4.6 4.41 100.0  31703  4.226    0.0  0.000 31703  0.00  31703 1048576   0.0  0.000 627.0  0.975 627.0  0.008   0.0  0.000   0.0  0.000
+13:37:26.030          535  31622  4.206   4.8 4.35 100.0  31622  4.206    0.0  0.000 31622  0.00  31622 1048576   0.0  0.000 636.0  0.966 638.0  0.007   0.0  0.000   0.0  0.000
+13:37:27.030          536  31075  4.255   4.5 4.34 100.0  31075  4.255    0.0  0.000 31075  0.00  31075 1048576   0.0  0.000 619.0  1.081 616.0  0.007   0.0  0.000   0.0  0.000
+13:37:28.028          537  31872  4.152   4.5 4.39 100.0  31872  4.152    0.0  0.000 31872  0.00  31872 1048576   0.0  0.000 639.0  0.950 640.0  0.008   0.0  0.000   0.0  0.000
+13:37:29.030          538  31812  4.164   4.6 4.43 100.0  31812  4.164    0.0  0.000 31812  0.00  31812 1048576   0.0  0.000 632.0  0.947 632.0  0.007   0.0  0.000   0.0  0.000
+13:37:30.027          539  31021  4.173   4.5 4.31 100.0  31021  4.173    0.0  0.000 31021  0.00  31021 1048576   0.0  0.000 626.0  0.957 626.0  0.007   0.0  0.000   0.0  0.000
+13:37:31.030          540  31982  4.166   4.7 4.50 100.0  31982  4.166    0.0  0.000 31982  0.00  31982 1048576   0.0  0.000 644.0  0.863 643.0  0.007   0.0  0.000   0.0  0.000
+
+Apr 14, 2020 ..Interval.. .ReqstdOps... ...cpu%...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...create... ....open.... ...close.... ..getattr... ..setattr...
+                            rate   resp total  sys   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+13:37:32.030          541  32497  4.187   4.7 4.55 100.0  32497  4.187    0.0  0.000 32497  0.00  32497 1048576   0.0  0.000 645.0  0.953 646.0  0.008   0.0  0.000   0.0  0.000
+13:37:33.029          542  31604  4.168   4.7 4.39 100.0  31604  4.168    0.0  0.000 31604  0.00  31604 1048576   0.0  0.000 632.0  0.947 632.0  0.007   0.0  0.000   0.0  0.000
+13:37:34.026          543  31824  4.189   4.6 4.44 100.0  31824  4.189    0.0  0.000 31824  0.00  31824 1048576   0.0  0.000 641.0  0.913 640.0  0.008   0.0  0.000   0.0  0.000
+13:37:35.027          544  31980  4.153   4.7 4.48 100.0  31980  4.153    0.0  0.000 31980  0.00  31980 1048576   0.0  0.000 638.0  0.945 638.0  0.008   0.0  0.000   0.0  0.000
+13:37:36.026          545  32132  4.168   4.7 4.50 100.0  32132  4.168    0.0  0.000 32132  0.00  32132 1048576   0.0  0.000 643.0  0.972 643.0  0.007   0.0  0.000   0.0  0.000
+13:37:37.030          546  32177  4.148   4.7 4.50 100.0  32177  4.148    0.0  0.000 32177  0.00  32177 1048576   0.0  0.000 638.0  0.950 640.0  0.007   0.0  0.000   0.0  0.000
+13:37:38.031          547  31853  4.172   4.6 4.43 100.0  31853  4.172    0.0  0.000 31851  0.00  31851 1048510   0.0  0.000 638.0  0.967 637.0  0.007   0.0  0.000   0.0  0.000
+13:37:39.029          548  31188  4.195   4.5 4.32 100.0  31188  4.195    0.0  0.000 31188  0.00  31188 1048576   0.0  0.000 627.0  0.991 626.0  0.007   0.0  0.000   0.0  0.000
+13:37:40.025          549  31679  4.190   4.6 4.38 100.0  31679  4.190    0.0  0.000 31678  0.00  31678 1048542   0.0  0.000 630.0  0.930 630.0  0.008   0.0  0.000   0.0  0.000
+13:37:41.028          550  31893  4.201   4.7 4.51 100.0  31893  4.201    0.0  0.000 31892  0.00  31892 1048543   0.0  0.000 641.0  0.967 641.0  0.008   0.0  0.000   0.0  0.000
+13:37:42.034          551  31141  4.166   4.6 4.36 100.0  31141  4.166    0.0  0.000 31141  0.00  31141 1048576   0.0  0.000 623.0  1.032 625.0  0.007   0.0  0.000   0.0  0.000
+13:37:43.029          552  31628  4.188   4.6 4.37 100.0  31628  4.188    0.0  0.000 31627  0.00  31627 1048542   0.0  0.000 624.0  1.002 624.0  0.007   0.0  0.000   0.0  0.000
+13:37:44.029          553  32028  4.193   4.5 4.37 100.0  32028  4.193    0.0  0.000 32029  0.00  32029 1048608   0.0  0.000 649.0  1.020 647.0  0.007   0.0  0.000   0.0  0.000
+13:37:45.028          554  31847  4.196   4.6 4.42 100.0  31847  4.196    0.0  0.000 31847  0.00  31847 1048576   0.0  0.000 633.0  0.999 633.0  0.008   0.0  0.000   0.0  0.000
+13:37:46.036          555  32452  4.183   4.7 4.49 100.0  32452  4.183    0.0  0.000 32452  0.00  32452 1048576   0.0  0.000 656.0  0.980 657.0  0.007   0.0  0.000   0.0  0.000
+13:37:47.028          556  31910  4.157   4.6 4.38 100.0  31910  4.157    0.0  0.000 31910  0.00  31910 1048576   0.0  0.000 635.0  1.013 634.0  0.008   0.0  0.000   0.0  0.000
+13:37:48.026          557  31686  4.159   4.5 4.28 100.0  31686  4.159    0.0  0.000 31686  0.00  31686 1048576   0.0  0.000 633.0  0.954 634.0  0.007   0.0  0.000   0.0  0.000
+13:37:49.028          558  31423  4.185   4.4 4.26 100.0  31423  4.185    0.0  0.000 31423  0.00  31423 1048576   0.0  0.000 624.0  0.978 624.0  0.007   0.0  0.000   0.0  0.000
+13:37:50.026          559  31301  4.157   4.4 4.27 100.0  31301  4.157    0.0  0.000 31301  0.00  31301 1048576   0.0  0.000 632.0  0.970 631.0  0.007   0.0  0.000   0.0  0.000
+13:37:51.027          560  31807  4.192   4.7 4.45 100.0  31807  4.192    0.0  0.000 31807  0.00  31807 1048576   0.0  0.000 636.0  0.980 637.0  0.008   0.0  0.000   0.0  0.000
+13:37:52.036          561  31847  4.192   4.6 4.44 100.0  31847  4.192    0.0  0.000 31847  0.00  31847 1048576   0.0  0.000 640.0  1.013 641.0  0.008   0.0  0.000   0.0  0.000
+13:37:53.031          562  31904  4.190   4.7 4.47 100.0  31904  4.190    0.0  0.000 31903  0.00  31903 1048543   0.0  0.000 631.0  0.990 629.0  0.007   0.0  0.000   0.0  0.000
+13:37:54.028          563  31057  4.183   4.5 4.35 100.0  31057  4.183    0.0  0.000 31057  0.00  31057 1048576   0.0  0.000 627.0  0.940 627.0  0.007   0.0  0.000   0.0  0.000
+13:37:55.027          564  31662  4.188   4.6 4.40 100.0  31662  4.188    0.0  0.000 31662  0.00  31662 1048576   0.0  0.000 632.0  0.967 633.0  0.008   0.0  0.000   0.0  0.000
+13:37:56.029          565  31122  4.163   4.6 4.40 100.0  31122  4.163    0.0  0.000 31122  0.00  31122 1048576   0.0  0.000 619.0  0.970 620.0  0.007   0.0  0.000   0.0  0.000
+13:37:57.028          566  31925  4.273   4.6 4.43 100.0  31925  4.273    0.0  0.000 31925  0.00  31925 1048576   0.0  0.000 645.0  1.026 644.0  0.008   0.0  0.000   0.0  0.000
+13:37:58.029          567  32405  4.176   4.7 4.52 100.0  32405  4.176    0.0  0.000 32404  0.00  32404 1048543   0.0  0.000 640.0  0.939 639.0  0.007   0.0  0.000   0.0  0.000
+13:37:59.032          568  31637  4.169   4.6 4.41 100.0  31637  4.169    0.0  0.000 31637  0.00  31637 1048576   0.0  0.000 638.0  0.912 639.0  0.008   0.0  0.000   0.0  0.000
+13:38:00.030          569  31720  4.206   4.6 4.45 100.0  31720  4.206    0.0  0.000 31720  0.00  31720 1048576   0.0  0.000 632.0  0.932 632.0  0.008   0.0  0.000   0.0  0.000
+13:38:01.029          570  31427  4.153   4.6 4.43 100.0  31427  4.153    0.0  0.000 31427  0.00  31427 1048576   0.0  0.000 635.0  0.955 634.0  0.008   0.0  0.000   0.0  0.000
+
+Apr 14, 2020 ..Interval.. .ReqstdOps... ...cpu%...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...create... ....open.... ...close.... ..getattr... ..setattr...
+                            rate   resp total  sys   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+13:38:02.028          571  31605  4.175   4.7 4.49 100.0  31605  4.175    0.0  0.000 31605  0.00  31605 1048576   0.0  0.000 625.0  0.967 625.0  0.008   0.0  0.000   0.0  0.000
+13:38:03.030          572  32018  4.198   4.8 4.51 100.0  32018  4.198    0.0  0.000 32018  0.00  32018 1048576   0.0  0.000 637.0  0.932 637.0  0.008   0.0  0.000   0.0  0.000
+13:38:04.028          573  32234  4.204   4.7 4.52 100.0  32234  4.204    0.0  0.000 32235  0.00  32235 1048608   0.0  0.000 655.0  0.960 656.0  0.008   0.0  0.000   0.0  0.000
+13:38:05.027          574  32498  4.210   4.7 4.56 100.0  32498  4.210    0.0  0.000 32498  0.00  32498 1048576   0.0  0.000 645.0  0.942 647.0  0.008   0.0  0.000   0.0  0.000
+13:38:06.028          575  31874  4.176   4.7 4.46 100.0  31874  4.176    0.0  0.000 31874  0.00  31874 1048576   0.0  0.000 642.0  0.955 639.0  0.008   0.0  0.000   0.0  0.000
+13:38:07.029          576  32126  4.149   4.6 4.46 100.0  32126  4.149    0.0  0.000 32126  0.00  32126 1048576   0.0  0.000 637.0  0.969 637.0  0.007   0.0  0.000   0.0  0.000
+13:38:08.028          577  32017  4.168   4.6 4.45 100.0  32017  4.168    0.0  0.000 32016  0.00  32016 1048543   0.0  0.000 642.0  0.930 642.0  0.007   0.0  0.000   0.0  0.000
+13:38:09.029          578  31899  4.167   4.7 4.48 100.0  31899  4.167    0.0  0.000 31899  0.00  31899 1048576   0.0  0.000 637.0  0.924 637.0  0.007   0.0  0.000   0.0  0.000
+13:38:10.030          579  31547  4.170   4.5 4.35 100.0  31547  4.170    0.0  0.000 31547  0.00  31547 1048576   0.0  0.000 633.0  0.953 633.0  0.007   0.0  0.000   0.0  0.000
+13:38:11.030          580  31381  4.184   4.7 4.45 100.0  31381  4.184    0.0  0.000 31381  0.00  31381 1048576   0.0  0.000 630.0  0.950 630.0  0.007   0.0  0.000   0.0  0.000
+13:38:12.030          581  31386  4.182   4.5 4.31 100.0  31386  4.182    0.0  0.000 31386  0.00  31386 1048576   0.0  0.000 624.0  0.947 625.0  0.007   0.0  0.000   0.0  0.000
+13:38:13.025          582  32310  4.205   4.7 4.51 100.0  32310  4.205    0.0  0.000 32309  0.00  32309 1048543   0.0  0.000 643.0  0.949 642.0  0.007   0.0  0.000   0.0  0.000
+13:38:14.027          583  30907  4.201   4.4 4.25 100.0  30907  4.201    0.0  0.000 30907  0.00  30907 1048576   0.0  0.000 619.0  0.947 621.0  0.010   0.0  0.000   0.0  0.000
+13:38:15.028          584  31774  4.159   4.6 4.39 100.0  31774  4.159    0.0  0.000 31774  0.00  31774 1048576   0.0  0.000 643.0  0.988 641.0  0.008   0.0  0.000   0.0  0.000
+13:38:16.031          585  32473  4.190   4.7 4.53 100.0  32473  4.190    0.0  0.000 32473  0.00  32473 1048576   0.0  0.000 642.0  0.977 642.0  0.008   0.0  0.000   0.0  0.000
+13:38:17.029          586  31801  4.155   4.6 4.36 100.0  31801  4.155    0.0  0.000 31801  0.00  31801 1048576   0.0  0.000 635.0  0.900 635.0  0.007   0.0  0.000   0.0  0.000
+13:38:18.028          587  31647  4.173   4.6 4.44 100.0  31647  4.173    0.0  0.000 31647  0.00  31647 1048576   0.0  0.000 648.0  0.969 649.0  0.008   0.0  0.000   0.0  0.000
+13:38:19.030          588  31654  4.172   4.6 4.45 100.0  31654  4.172    0.0  0.000 31654  0.00  31654 1048576   0.0  0.000 627.0  0.955 627.0  0.007   0.0  0.000   0.0  0.000
+13:38:20.030          589  31347  4.151   4.4 4.28 100.0  31347  4.151    0.0  0.000 31347  0.00  31347 1048576   0.0  0.000 622.0  0.907 622.0  0.008   0.0  0.000   0.0  0.000
+13:38:21.031          590  32072  4.188   4.7 4.47 100.0  32072  4.188    0.0  0.000 32072  0.00  32072 1048576   0.0  0.000 638.0  0.979 638.0  0.008   0.0  0.000   0.0  0.000
+13:38:22.026          591  31957  4.157   4.6 4.45 100.0  31957  4.157    0.0  0.000 31957  0.00  31957 1048576   0.0  0.000 638.0  0.951 637.0  0.007   0.0  0.000   0.0  0.000
+13:38:23.028          592  31880  4.189   4.7 4.47 100.0  31880  4.189    0.0  0.000 31880  0.00  31880 1048576   0.0  0.000 641.0  0.980 641.0  0.007   0.0  0.000   0.0  0.000
+13:38:24.028          593  31538  4.195   4.5 4.38 100.0  31538  4.195    0.0  0.000 31538  0.00  31538 1048576   0.0  0.000 632.0  0.931 632.0  0.007   0.0  0.000   0.0  0.000
+13:38:25.029          594  31225  4.189   4.6 4.39 100.0  31225  4.189    0.0  0.000 31225  0.00  31225 1048576   0.0  0.000 624.0  0.937 625.0  0.008   0.0  0.000   0.0  0.000
+13:38:26.029          595  31583  4.183   4.6 4.40 100.0  31583  4.183    0.0  0.000 31583  0.00  31583 1048576   0.0  0.000 634.0  0.932 635.0  0.007   0.0  0.000   0.0  0.000
+13:38:27.028          596  31779  4.288   4.6 4.43 100.0  31779  4.288    0.0  0.000 31779  0.00  31779 1048576   0.0  0.000 630.0  1.086 628.0  0.007   0.0  0.000   0.0  0.000
+13:38:28.028          597  31529  4.195   4.6 4.45 100.0  31529  4.195    0.0  0.000 31529  0.00  31529 1048576   0.0  0.000 636.0  0.960 637.0  0.008   0.0  0.000   0.0  0.000
+13:38:29.035          598  31853  4.146   4.7 4.51 100.0  31853  4.146    0.0  0.000 31853  0.00  31853 1048576   0.0  0.000 634.0  0.968 633.0  0.008   0.0  0.000   0.0  0.000
+13:38:30.025          599  31727  4.135   4.7 4.47 100.0  31727  4.135    0.0  0.000 31727  0.00  31727 1048576   0.0  0.000 634.0  0.910 636.0  0.007   0.0  0.000   0.0  0.000
+13:38:31.025          600  31815  4.162   4.7 4.48 100.0  31815  4.162    0.0  0.000 31815  0.00  31815 1048576   0.0  0.000 646.0  0.937 644.0  0.007   0.0  0.000   0.0  0.000
+
+Apr 14, 2020 ..Interval.. .ReqstdOps... ...cpu%...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...create... ....open.... ...close.... ..getattr... ..setattr...
+                            rate   resp total  sys   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+13:38:32.030          601  32132  4.180   4.7 4.50 100.0  32132  4.180    0.0  0.000 32132  0.00  32132 1048576   0.0  0.000 632.0  0.942 632.0  0.007   0.0  0.000   0.0  0.000
+13:38:33.032          602  32041  4.189   4.6 4.47 100.0  32041  4.189    0.0  0.000 32041  0.00  32041 1048576   0.0  0.000 639.0  0.938 639.0  0.008   0.0  0.000   0.0  0.000
+13:38:34.030          603  32304  4.206   4.7 4.51 100.0  32304  4.206    0.0  0.000 32304  0.00  32304 1048576   0.0  0.000 652.0  0.944 653.0  0.008   0.0  0.000   0.0  0.000
+13:38:35.028          604  31763  4.162   4.6 4.43 100.0  31763  4.162    0.0  0.000 31763  0.00  31763 1048576   0.0  0.000 633.0  0.938 633.0  0.007   0.0  0.000   0.0  0.000
+13:38:36.027          605  32246  4.198   4.7 4.51 100.0  32246  4.198    0.0  0.000 32246  0.00  32246 1048576   0.0  0.000 647.0  0.954 647.0  0.007   0.0  0.000   0.0  0.000
+13:38:37.027          606  32085  4.193   4.7 4.48 100.0  32085  4.193    0.0  0.000 32085  0.00  32085 1048576   0.0  0.000 638.0  0.942 637.0  0.007   0.0  0.000   0.0  0.000
+13:38:38.033          607  31783  4.182   4.6 4.44 100.0  31783  4.182    0.0  0.000 31783  0.00  31783 1048576   0.0  0.000 641.0  0.954 641.0  0.008   0.0  0.000   0.0  0.000
+13:38:39.027          608  32000  4.176   4.7 4.51 100.0  32000  4.176    0.0  0.000 32000  0.00  32000 1048576   0.0  0.000 634.0  0.926 634.0  0.008   0.0  0.000   0.0  0.000
+13:38:40.028          609  31338  4.163   4.5 4.38 100.0  31338  4.163    0.0  0.000 31337  0.00  31337 1048542   0.0  0.000 633.0  0.921 634.0  0.007   0.0  0.000   0.0  0.000
+13:38:41.027          610  32029  4.173   4.7 4.46 100.0  32029  4.173    0.0  0.000 32029  0.00  32029 1048576   0.0  0.000 636.0  0.951 635.0  0.007   0.0  0.000   0.0  0.000
+13:38:42.026          611  32055  4.160   4.6 4.44 100.0  32055  4.160    0.0  0.000 32055  0.00  32055 1048576   0.0  0.000 645.0  0.916 645.0  0.008   0.0  0.000   0.0  0.000
+13:38:43.027          612  32224  4.183   4.7 4.50 100.0  32224  4.183    0.0  0.000 32224  0.00  32224 1048576   0.0  0.000 644.0  0.963 645.0  0.008   0.0  0.000   0.0  0.000
+13:38:44.026          613  32074  4.164   4.8 4.54 100.0  32074  4.164    0.0  0.000 32074  0.00  32074 1048576   0.0  0.000 637.0  1.004 636.0  0.007   0.0  0.000   0.0  0.000
+13:38:45.031          614  32374  4.179   4.8 4.60 100.0  32374  4.179    0.0  0.000 32374  0.00  32374 1048576   0.0  0.000 647.0  0.980 648.0  0.007   0.0  0.000   0.0  0.000
+13:38:46.025          615  32269  4.167   4.7 4.50 100.0  32269  4.167    0.0  0.000 32269  0.00  32269 1048576   0.0  0.000 643.0  0.971 644.0  0.008   0.0  0.000   0.0  0.000
+13:38:47.035          616  32389  4.171   4.7 4.46 100.0  32389  4.171    0.0  0.000 32389  0.00  32389 1048576   0.0  0.000 650.0  0.987 648.0  0.007   0.0  0.000   0.0  0.000
+13:38:48.025          617  31891  4.166   4.7 4.49 100.0  31891  4.166    0.0  0.000 31891  0.00  31891 1048576   0.0  0.000 642.0  0.949 642.0  0.008   0.0  0.000   0.0  0.000
+13:38:49.029          618  32166  4.187   4.8 4.62 100.0  32166  4.187    0.0  0.000 32166  0.00  32166 1048576   0.0  0.000 639.0  0.963 641.0  0.007   0.0  0.000   0.0  0.000
+13:38:50.030          619  31592  4.164   4.6 4.42 100.0  31592  4.164    0.0  0.000 31592  0.00  31592 1048576   0.0  0.000 627.0  0.975 625.0  0.007   0.0  0.000   0.0  0.000
+13:38:51.026          620  31719  4.162   4.7 4.52 100.0  31719  4.162    0.0  0.000 31719  0.00  31719 1048576   0.0  0.000 637.0  0.937 639.0  0.007   0.0  0.000   0.0  0.000
+13:38:52.026          621  31944  4.189   4.6 4.44 100.0  31944  4.189    0.0  0.000 31945  0.00  31945 1048608   0.0  0.000 645.0  0.952 645.0  0.007   0.0  0.000   0.0  0.000
+13:38:53.025          622  32456  4.188   4.8 4.60 100.0  32456  4.188    0.0  0.000 32456  0.00  32456 1048576   0.0  0.000 645.0  0.987 643.0  0.007   0.0  0.000   0.0  0.000
+13:38:54.029          623  31607  4.189   4.6 4.40 100.0  31607  4.189    0.0  0.000 31607  0.00  31607 1048576   0.0  0.000 636.0  0.956 636.0  0.008   0.0  0.000   0.0  0.000
+13:38:55.031          624  31397  4.181   4.6 4.38 100.0  31397  4.181    0.0  0.000 31397  0.00  31397 1048576   0.0  0.000 624.0  0.921 624.0  0.008   0.0  0.000   0.0  0.000
+13:38:56.034          625  31394  4.183   4.6 4.38 100.0  31394  4.183    0.0  0.000 31394  0.00  31394 1048576   0.0  0.000 638.0  0.947 638.0  0.007   0.0  0.000   0.0  0.000
+13:38:57.029          626  30852  4.290   4.5 4.31 100.0  30852  4.290    0.0  0.000 30852  0.00  30852 1048576   0.0  0.000 610.0  1.020 610.0  0.008   0.0  0.000   0.0  0.000
+13:38:58.028          627  32176  4.171   4.6 4.39 100.0  32176  4.171    0.0  0.000 32176  0.00  32176 1048576   0.0  0.000 644.0  0.909 644.0  0.008   0.0  0.000   0.0  0.000
+13:38:59.027          628  31812  4.179   4.6 4.44 100.0  31812  4.179    0.0  0.000 31812  0.00  31812 1048576   0.0  0.000 634.0  0.977 634.0  0.007   0.0  0.000   0.0  0.000
+13:39:00.028          629  31571  4.171   4.6 4.40 100.0  31571  4.171    0.0  0.000 31571  0.00  31571 1048576   0.0  0.000 633.0  0.924 634.0  0.007   0.0  0.000   0.0  0.000
+13:39:01.027          630  31719  4.159   4.7 4.49 100.0  31719  4.159    0.0  0.000 31719  0.00  31719 1048576   0.0  0.000 630.0  0.883 630.0  0.008   0.0  0.000   0.0  0.000
+
+Apr 14, 2020 ..Interval.. .ReqstdOps... ...cpu%...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...create... ....open.... ...close.... ..getattr... ..setattr...
+                            rate   resp total  sys   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+13:39:02.027          631  31376  4.163   4.6 4.40 100.0  31376  4.163    0.0  0.000 31376  0.00  31376 1048576   0.0  0.000 632.0  0.931 632.0  0.008   0.0  0.000   0.0  0.000
+13:39:03.027          632  31233  4.177   4.5 4.31 100.0  31233  4.177    0.0  0.000 31233  0.00  31233 1048576   0.0  0.000 624.0  1.016 624.0  0.007   0.0  0.000   0.0  0.000
+13:39:04.029          633  31881  4.181   4.6 4.39 100.0  31881  4.181    0.0  0.000 31881  0.00  31881 1048576   0.0  0.000 638.0  0.913 638.0  0.008   0.0  0.000   0.0  0.000
+13:39:05.036          634  31223  4.167   4.5 4.34 100.0  31223  4.167    0.0  0.000 31223  0.00  31223 1048576   0.0  0.000 623.0  0.984 622.0  0.007   0.0  0.000   0.0  0.000
+13:39:06.029          635  31874  4.159   4.6 4.43 100.0  31874  4.159    0.0  0.000 31874  0.00  31874 1048576   0.0  0.000 636.0  0.939 640.0  0.008   0.0  0.000   0.0  0.000
+13:39:07.027          636  31569  4.163   4.6 4.38 100.0  31569  4.163    0.0  0.000 31569  0.00  31569 1048576   0.0  0.000 636.0  0.972 632.0  0.008   0.0  0.000   0.0  0.000
+13:39:08.027          637  32448  4.129   4.7 4.53 100.0  32448  4.129    0.0  0.000 32448  0.00  32448 1048576   0.0  0.000 641.0  0.894 642.0  0.007   0.0  0.000   0.0  0.000
+13:39:09.025          638  31768  4.168   4.7 4.50 100.0  31768  4.168    0.0  0.000 31768  0.00  31768 1048576   0.0  0.000 644.0  0.921 644.0  0.008   0.0  0.000   0.0  0.000
+13:39:10.027          639  32171  4.181   4.7 4.48 100.0  32171  4.181    0.0  0.000 32171  0.00  32171 1048576   0.0  0.000 643.0  0.908 642.0  0.008   0.0  0.000   0.0  0.000
+13:39:11.025          640  31865  4.172   4.7 4.45 100.0  31865  4.172    0.0  0.000 31865  0.00  31865 1048576   0.0  0.000 635.0  0.935 635.0  0.008   0.0  0.000   0.0  0.000
+13:39:12.031          641  32671  4.191   4.7 4.55 100.0  32671  4.191    0.0  0.000 32671  0.00  32671 1048576   0.0  0.000 655.0  0.990 655.0  0.008   0.0  0.000   0.0  0.000
+13:39:13.027          642  31930  4.194   4.6 4.40 100.0  31930  4.194    0.0  0.000 31930  0.00  31930 1048576   0.0  0.000 638.0  0.927 638.0  0.008   0.0  0.000   0.0  0.000
+13:39:14.036          643  32296  4.210   4.7 4.49 100.0  32296  4.210    0.0  0.000 32296  0.00  32296 1048576   0.0  0.000 650.0  0.920 651.0  0.007   0.0  0.000   0.0  0.000
+13:39:15.025          644  31998  4.175   4.6 4.46 100.0  31998  4.175    0.0  0.000 31998  0.00  31998 1048576   0.0  0.000 633.0  0.918 632.0  0.007   0.0  0.000   0.0  0.000
+13:39:16.026          645  32114  4.186   4.7 4.51 100.0  32114  4.186    0.0  0.000 32114  0.00  32114 1048576   0.0  0.000 646.0  0.912 646.0  0.007   0.0  0.000   0.0  0.000
+13:39:17.025          646  32028  4.190   4.6 4.44 100.0  32028  4.190    0.0  0.000 32028  0.00  32028 1048576   0.0  0.000 641.0  0.920 644.0  0.008   0.0  0.000   0.0  0.000
+13:39:18.025          647  32361  4.174   4.7 4.53 100.0  32361  4.174    0.0  0.000 32361  0.00  32361 1048576   0.0  0.000 645.0  0.944 642.0  0.008   0.0  0.000   0.0  0.000
+13:39:19.030          648  31767  4.151   4.7 4.45 100.0  31767  4.151    0.0  0.000 31767  0.00  31767 1048576   0.0  0.000 636.0  0.938 637.0  0.007   0.0  0.000   0.0  0.000
+13:39:20.028          649  31582  4.144   4.5 4.37 100.0  31582  4.144    0.0  0.000 31582  0.00  31582 1048576   0.0  0.000 632.0  0.910 631.0  0.007   0.0  0.000   0.0  0.000
+13:39:21.029          650  31884  4.165   4.6 4.42 100.0  31884  4.165    0.0  0.000 31884  0.00  31884 1048576   0.0  0.000 637.0  0.918 638.0  0.007   0.0  0.000   0.0  0.000
+13:39:22.025          651  31871  4.182   4.6 4.42 100.0  31871  4.182    0.0  0.000 31871  0.00  31871 1048576   0.0  0.000 637.0  0.947 636.0  0.007   0.0  0.000   0.0  0.000
+13:39:23.027          652  31997  4.225   4.5 4.38 100.0  31997  4.225    0.0  0.000 31997  0.00  31997 1048576   0.0  0.000 647.0  0.940 648.0  0.007   0.0  0.000   0.0  0.000
+13:39:24.026          653  31445  4.166   4.6 4.39 100.0  31445  4.166    0.0  0.000 31445  0.00  31445 1048576   0.0  0.000 620.0  0.918 619.0  0.008   0.0  0.000   0.0  0.000
+13:39:25.027          654  31537  4.159   4.6 4.39 100.0  31537  4.159    0.0  0.000 31537  0.00  31537 1048576   0.0  0.000 633.0  0.946 633.0  0.008   0.0  0.000   0.0  0.000
+13:39:26.027          655  31258  4.172   4.5 4.31 100.0  31258  4.172    0.0  0.000 31258  0.00  31258 1048576   0.0  0.000 625.0  0.900 626.0  0.007   0.0  0.000   0.0  0.000
+13:39:27.023          656  30873  4.265   4.4 4.25 100.0  30873  4.265    0.0  0.000 30874  0.00  30874 1048609   0.0  0.000 623.0  1.050 622.0  0.007   0.0  0.000   0.0  0.000
+13:39:28.030          657  31822  4.139   4.5 4.36 100.0  31822  4.139    0.0  0.000 31823  0.00  31823 1048608   0.0  0.000 632.0  0.910 632.0  0.007   0.0  0.000   0.0  0.000
+13:39:29.027          658  31212  4.175   4.6 4.41 100.0  31212  4.175    0.0  0.000 31212  0.00  31212 1048576   0.0  0.000 629.0  0.905 629.0  0.007   0.0  0.000   0.0  0.000
+13:39:30.028          659  31840  4.175   4.6 4.42 100.0  31840  4.175    0.0  0.000 31840  0.00  31840 1048576   0.0  0.000 629.0  0.901 629.0  0.007   0.0  0.000   0.0  0.000
+13:39:31.028          660  31583  4.166   4.7 4.45 100.0  31583  4.166    0.0  0.000 31583  0.00  31583 1048576   0.0  0.000 636.0  0.907 637.0  0.008   0.0  0.000   0.0  0.000
+13:39:31.144   avg_61-660  31675  4.258   4.6 4.41 100.0  31675  4.258    0.0  0.000 31675  0.00  31675 1048576   0.0  0.000 633.5  1.052 633.5  0.008   0.0  0.000   0.0  0.000
+13:39:31.144   std_61-660  393.6  0.768                   393.6  0.768                                                         9.0  0.660   9.1  0.009                          
+13:39:31.144   max_61-660  32791 339.11                   32791 339.11                                                       658.0 458.08 658.0  3.342                          
+13:39:32.392 Vdbench execution completed successfully
